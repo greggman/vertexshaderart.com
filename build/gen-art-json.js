@@ -71,9 +71,11 @@ const toc = [];
 
 for (const [id, obj] of Object.entries(art)) {
   obj.owner = users[obj.owner] || {username: 'anon'};
-  fs.mkdirSync(`art/${id}`, {recursive: true});
-  fs.writeFileSync(`art/${id}/art.json`, JSON.stringify(obj, null, 2));
-  fs.writeFileSync(`art/${id}/index.html`, getHTML(obj));
+  if (!obj.private) {
+    fs.mkdirSync(`art/${id}`, {recursive: true});
+    fs.writeFileSync(`art/${id}/art.json`, JSON.stringify(obj, null, 2));
+    fs.writeFileSync(`art/${id}/index.html`, getHTML(obj));
+  }
   if (!obj.private && !obj.unlisted) {
     toc.push({
       id,

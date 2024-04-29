@@ -1,4 +1,4 @@
-# vertexshaderart.com is in transition
+# vertexshaderart.com is in transition to a static site
 
 Soundcloud changed their API and I can't be bothered to fix this code.
 Tools are out of date etc and it's just too much work for a site that
