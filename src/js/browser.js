@@ -30,3 +30,12 @@ function filter(f) {
 
 const searchElem = document.querySelector('#search input[type=text]');
 searchElem.addEventListener('input', () => filter(searchElem.value));
+
+{
+  const s = new URLSearchParams(window.location.search);
+  const q = s.get('q');
+  if (q) {
+    searchElem.value = q;
+    filter(q);
+  }
+}

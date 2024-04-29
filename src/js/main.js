@@ -980,12 +980,13 @@ define([
       };
     }
 
-    $("#gallery").addEventListener('click', function(event) {
-      if (parent) {
-        parent.location.href = this.href;
-      }
+    document.querySelectorAll('.parentLink').forEach(elem => {
+      elem.addEventListener('click', function(event) {
+        if (parent) {
+          parent.location.href = this.href;
+        }
+      });
     });
-    
 
     var notifier = new Notifier({
       timeout: 7.5,
@@ -2122,6 +2123,23 @@ define([
         const art = await res.json();
         settings = art.settings;
         options.screenshotURL = `../${art.screenshotURL}`;
+
+        const userInfoElem = document.querySelector('#userInfo');
+        {
+          const elem = document.createElement('a');
+          elem.className = 'parentLink';
+          elem.href = `../../?q=${art.owner.username}`;
+          elem.textContent = `by: ${art.owner.username}`;
+          userInfoElem.appendChild(elem);
+        }
+        if (art.origId) {
+          const elem = document.createElement('a');
+          elem.className = 'parentLink';
+          elem.href = `../art/${art.origId}`;
+          elem.textContent = `based on`;
+          userInfoElem.appendChild(elem);
+        }
+
       } catch {
         settings = s.sets.default;
       }

@@ -73,7 +73,7 @@
           <input type="text" id="sound" value="sound" inputmode="verbatim" autocapitalize="none" />
           <button class="play"></button>
           <button style="display: none;" class="icon playlock tooltip-bottom" data-tooltip="lock music"><img src="/static/resources/images/unlock.svg"/></button>
-          <a href="/" id="gallery">gallery</a>
+          <a href="/" class="parentLink" id="gallery">gallery</a>
           <button id="help">help</button>
         </div>
         <div id="centerWrap">
@@ -91,7 +91,8 @@
           </div>
         </div>
         <div id="bottom">
-          <!--template=userinfo--><pre></pre>
+          <div id="userInfo"></div>
+          <pre></pre>
           <div id="soundInfo">
             <a target="_blank" id="soundcloud"><img src="https://developers.soundcloud.com/assets/logo_white-af5006050dd9cba09b0c48be04feac57.png" /></a>
             <a target="_blank" class="shrink" id="bandLink"></a>
