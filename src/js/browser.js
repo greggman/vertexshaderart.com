@@ -1,7 +1,16 @@
 import {createElem as el} from './elem.js';
+import { PseudoRandom } from './random.js';
 
+const r = new PseudoRandom();
 const tocElem = document.querySelector('#toc');
 const toc = await (await fetch('toc.json')).json();
+
+const seed = parseInt(sessionStorage.getItem('seed') || (Math.random() * 0x7FFF_FFFF));
+sessionStorage.setItem('seed', seed);
+r.reset(seed);
+
+toc.forEach(v => v.rank = r.rand());
+toc.sort((a, b) => a.rank - b.rank);
 
 for (const {id, name, username, avatarUrl, screenshotURL} of toc) {
   const artUrl = `art/${id}`;

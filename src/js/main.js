@@ -980,14 +980,6 @@ define([
       };
     }
 
-    document.querySelectorAll('.parentLink').forEach(elem => {
-      elem.addEventListener('click', function(event) {
-        if (parent) {
-          parent.location.href = this.href;
-        }
-      });
-    });
-
     var notifier = new Notifier({
       timeout: 7.5,
       container: document.body,
@@ -2144,6 +2136,14 @@ define([
         settings = s.sets.default;
       }
     }
+
+    document.querySelectorAll('.parentLink').forEach(elem => {
+      elem.addEventListener('click', function(event) {
+        if (parent) {
+          parent.location.href = this.href;
+        }
+      });
+    });
 
     vs.setSettings(settings, options);
   }
