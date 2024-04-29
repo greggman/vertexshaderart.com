@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1499884527395"
-    }
+    "$date": "1499884527395"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1499884527395"
-    }
+    "$date": "1499884527395"
   },
   "origId": "XXSghCnP6t28ai6cy",
   "name": "brain hach",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.461387723178163"
-  },
+  "rank": "10.461387723178163",
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ozmhslskkkqgm6vb4-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "167"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "167",
+  "likes": "2",
   "revisionId": "x6vsnCnpwbNa8P3NP"
 }

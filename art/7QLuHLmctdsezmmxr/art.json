@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1541026147780"
-    }
+    "$date": "1541026147780"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1541214192168"
-    }
+    "$date": "1541214192168"
   },
   "origId": "4h35MHPA2dwXFTJHy",
   "name": "Simple dot tutorial/Exercice",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8351401128041591"
-  },
+  "rank": "1.8351401128041591",
   "private": false,
   "unlisted": true,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-k27bazx3rp2qmxpyl-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "11"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "11",
+  "likes": "0",
   "revisionId": "8gFC3Je2wuqWhJKNj"
 }

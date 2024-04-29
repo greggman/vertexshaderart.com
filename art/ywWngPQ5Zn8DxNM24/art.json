@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1567418589971"
-    }
+    "$date": "1567418589971"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1567418589971"
-    }
+    "$date": "1567418589971"
   },
   "origId": "juXJpMEpt8YSWxSWY",
   "name": "plasma waves",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8419123455194548"
-  },
+  "rank": "1.8419123455194548",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-9bo862efqktfyg91d-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "166"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "166",
+  "likes": "0",
   "revisionId": "SJF7HNHq86m4Xxdj4"
 }

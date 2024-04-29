@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ton59f9P8EyXxMoto",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503530"
-      }
+      "$date": "1684322503530"
     },
     "profile": {
       "name": "Myunghyun Kim",
@@ -14,21 +12,15 @@
     "username": "myunghyunkim0227"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684492267479"
-    }
+    "$date": "1684492267479"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684492267479"
-    }
+    "$date": "1684492267479"
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3331415000515334"
-  },
+  "rank": "1.3331415000515334",
   "private": false,
   "unlisted": true,
   "username": "myunghyunkim0227",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ixqutkhr581jaqbmq-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "E8xxi2M97gAnK2jzL"
 }

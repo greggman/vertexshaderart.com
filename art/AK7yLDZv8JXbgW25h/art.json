@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1591580057319"
-    }
+    "$date": "1591580057319"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1591580057319"
-    }
+    "$date": "1591580057319"
   },
   "origId": "RfrwmKH4fQMA3Pmxf",
   "name": "bb22",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5591903693757638"
-  },
+  "rank": "1.5591903693757638",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-2lea08o7mwykito11-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "44"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "44",
+  "likes": "0",
   "revisionId": "xQRPQCiMLS9WkkGn6"
 }

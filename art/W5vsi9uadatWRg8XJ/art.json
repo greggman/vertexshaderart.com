@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1511254481909"
-    }
+    "$date": "1511254481909"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1511254481909"
-    }
+    "$date": "1511254481909"
   },
   "origId": "T9BE9jwspwHzixcM5",
   "name": "plasma waves 6666",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2892622447105027"
-  },
+  "rank": "1.2892622447105027",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-5sgozfaq4i3rn2ifd-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "68"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "68",
+  "likes": "0",
   "revisionId": "osBDyL3GNmFo8N7K3"
 }

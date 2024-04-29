@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1550331196597"
-    }
+    "$date": "1550331196597"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1550331196597"
-    }
+    "$date": "1550331196597"
   },
   "origId": "a75Aou3fJGMJjXG5r",
   "name": "bhatsu",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.300275632576067"
-  },
+  "rank": "10.300275632576067",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-1pnaycawcq4h45nna-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1030"
-  },
-  "likes": {
-    "$numberInt": "12"
-  },
+  "views": "1030",
+  "likes": "12",
   "revisionId": "bFfDfd9Wrd4SjPtnj"
 }

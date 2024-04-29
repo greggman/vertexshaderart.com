@@ -3,9 +3,7 @@
   "owner": {
     "_id": "jFsYmxkBNAJNvJFDm",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684263955851"
-      }
+      "$date": "1684263955851"
     },
     "username": "hyojoonkim0020",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684507746709"
-    }
+    "$date": "1684507746709"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684507746709"
-    }
+    "$date": "1684507746709"
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9767769354552518"
-  },
+  "rank": "1.9767769354552518",
   "private": false,
   "unlisted": true,
   "username": "hyojoonkim0020",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-6302wfdqcl7l7ckh6-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "NriLNegB7J7rTscxW"
 }

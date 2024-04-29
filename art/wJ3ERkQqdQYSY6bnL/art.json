@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1562242200574"
-    }
+    "$date": "1562242200574"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1562242200574"
-    }
+    "$date": "1562242200574"
   },
   "origId": "hffRc9FH8TMNKECkJ",
   "name": "bhatsu",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9947127506907634"
-  },
+  "rank": "1.9947127506907634",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-nr4yuaag43ztnf3gf-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "93"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "93",
+  "likes": "0",
   "revisionId": "rp3BLAZmcohR5ax52"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ccugb6SyZZpXhbr4G",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1683741804514"
-      }
+      "$date": "1683741804514"
     },
     "profile": {
       "name": "Daniel Skantze",
@@ -14,21 +12,15 @@
     "username": "danielskantze"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1683742228826"
-    }
+    "$date": "1683742228826"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1683744881161"
-    }
+    "$date": "1683744881161"
   },
   "origId": null,
   "name": "test01",
   "notes": "Test project",
-  "rank": {
-    "$numberDouble": "1.4832567354057822"
-  },
+  "rank": "1.4832567354057822",
   "private": false,
   "unlisted": true,
   "username": "danielskantze",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-rp9salr445ckgyt7l-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "cZCiw8QJzZWt9nZiM"
 }

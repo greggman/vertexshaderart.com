@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1466785678258"
-    }
+    "$date": "1466785678258"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1467413779787"
-    }
+    "$date": "1467413779787"
   },
   "origId": "GxL6CjaGt3wyQZxyL",
   "name": "lesson-02-motions",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.263339810832098"
-  },
+  "rank": "1.263339810832098",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-jl3hq6z8juias815a-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "175"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "175",
+  "likes": "0",
   "revisionId": "wPFcE9bM7yuQX9tsA"
 }

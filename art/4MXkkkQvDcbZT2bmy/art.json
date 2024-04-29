@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yzwhJTH9ASEBDtEi9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1466660344065"
-      }
+      "$date": "1466660344065"
     },
     "username": "shu",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1486360045610"
-    }
+    "$date": "1486360045610"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1517178390299"
-    }
+    "$date": "1517178390299"
   },
   "origId": null,
   "name": "119b matrix rain",
   "notes": "119 bytes",
-  "rank": {
-    "$numberDouble": "1.266631445639555"
-  },
+  "rank": "1.266631445639555",
   "private": false,
   "unlisted": false,
   "username": "shu",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-qlljdjqtu81pk2y7f-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "567"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "567",
+  "likes": "0",
   "revisionId": "38o3moXvGn6ZJjER5"
 }

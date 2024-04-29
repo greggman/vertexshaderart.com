@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dGy5QaokhfRCbYaGw",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1659646292396"
-      }
+      "$date": "1659646292396"
     },
     "username": "der",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1659707863365"
-    }
+    "$date": "1659707863365"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1659755885548"
-    }
+    "$date": "1659755885548"
   },
   "origId": null,
   "name": "Audio reactive points",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8750357218726348"
-  },
+  "rank": "1.8750357218726348",
   "private": false,
   "unlisted": true,
   "username": "der",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-vqn34i97jhlq6wclq-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "13"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "13",
+  "likes": "0",
   "revisionId": "DRWxWLMhDTQzu2sya"
 }

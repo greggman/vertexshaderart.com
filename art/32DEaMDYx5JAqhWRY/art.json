@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nTRyF676q3L6AsYmq",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652847165974"
-      }
+      "$date": "1652847165974"
     },
     "profile": {
       "name": "Hyunjin-Kim",
@@ -14,21 +12,15 @@
     "username": "hyunjin-kim-dp"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652949743704"
-    }
+    "$date": "1652949743704"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652959214934"
-    }
+    "$date": "1652959214934"
   },
   "origId": null,
   "name": "Exercise - Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.246184983062792"
-  },
+  "rank": "1.246184983062792",
   "private": false,
   "unlisted": true,
   "username": "hyunjin-kim-dp",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-y56isrtvvcl40snql-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "drA2kd8n44JyGLo8H"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1465550635088"
-    }
+    "$date": "1465550635088"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1465661486061"
-    }
+    "$date": "1465661486061"
   },
   "origId": "7DtazpcMcdA6fJ4XW",
   "name": "candy",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2072187165580082"
-  },
+  "rank": "1.2072187165580082",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-l0k8vdupw883y6q85-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "142"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "142",
+  "likes": "0",
   "revisionId": "BWhGNemS2GnDGxEQi"
 }

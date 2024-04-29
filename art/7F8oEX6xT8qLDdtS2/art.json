@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QDz3Y5ub4T9bwkhXT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1590717528473"
-      }
+      "$date": "1590717528473"
     },
     "username": "cjensen93",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590719175418"
-    }
+    "$date": "1590719175418"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590719175418"
-    }
+    "$date": "1590719175418"
   },
   "origId": "epH8co5uSwMkCYZGo",
   "name": "Motion",
   "notes": "Animation and color \ntest",
-  "rank": {
-    "$numberDouble": "1.0693311065369258"
-  },
+  "rank": "1.0693311065369258",
   "private": false,
   "unlisted": true,
   "username": "cjensen93",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-8zz3lt3lyjo40j3iq-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "fJkrThBFGkpf4Afik"
 }

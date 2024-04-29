@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501857924166"
-      }
+      "$date": "1501857924166"
     },
     "profile": {
       "name": "Macro Machines",
@@ -15,21 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1510548441651"
-    }
+    "$date": "1510548441651"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1510548441651"
-    }
+    "$date": "1510548441651"
   },
   "origId": "xTf82BxK4LCcHNgq6",
   "name": "Shadertoy Adapter",
   "notes": "wtf/how",
-  "rank": {
-    "$numberDouble": "1.89031429251875"
-  },
+  "rank": "1.89031429251875",
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-ylklxefy7cyj6qr79-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "yrv2TbadBX2TTnAMp"
 }

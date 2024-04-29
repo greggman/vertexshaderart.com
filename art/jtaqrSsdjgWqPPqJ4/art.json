@@ -3,9 +3,7 @@
   "owner": {
     "_id": "rNn8aeTHLQXkcMmn8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503601"
-      }
+      "$date": "1684322503601"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jaeyeong-an"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684478978309"
-    }
+    "$date": "1684478978309"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684479298723"
-    }
+    "$date": "1684479298723"
   },
   "origId": null,
   "name": "Colors by Jaeyeong An",
   "notes": "From vertexshaderart's Lessons follow along with Lesson 03 - Colors.",
-  "rank": {
-    "$numberDouble": "1.0223481487991397"
-  },
+  "rank": "1.0223481487991397",
   "private": false,
   "unlisted": true,
   "username": "jaeyeong-an",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-emwx40ioq1pdw28ng-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "D5BDZa2jqeCvCsDdP"
 }

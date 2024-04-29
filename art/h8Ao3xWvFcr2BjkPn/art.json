@@ -3,9 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494865701670"
-      }
+      "$date": "1494865701670"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1494975113775"
-    }
+    "$date": "1494975113775"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1494975113775"
-    }
+    "$date": "1494975113775"
   },
   "origId": "zRecXKb9NuCfmnWv4",
   "name": " Gridding",
   "notes": "Hmmm!",
-  "rank": {
-    "$numberDouble": "1.152846320197415"
-  },
+  "rank": "1.152846320197415",
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-5dhjkg0ehm37o0r29-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "fNCpPNbhgZnSHw5NB"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1553152938197"
-      }
+      "$date": "1553152938197"
     },
     "username": "janalex",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553509176541"
-    }
+    "$date": "1553509176541"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553509176541"
-    }
+    "$date": "1553509176541"
   },
   "origId": null,
   "name": "1903-GridHypnoticRainbow",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.005768644945148"
-  },
+  "rank": "1.005768644945148",
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-y19tap8hn96ao3kgt-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "14"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "14",
+  "likes": "0",
   "revisionId": "PeChckqtdqwZRZdaz"
 }

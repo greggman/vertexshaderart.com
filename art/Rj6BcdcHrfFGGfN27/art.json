@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Bs4vwFBoeN6Lx3is5",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1528672219472"
-      }
+      "$date": "1528672219472"
     },
     "profile": {
       "name": "Justin Shrake",
@@ -15,21 +13,15 @@
     "username": "jshrake"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1544623567682"
-    }
+    "$date": "1544623567682"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1544634874459"
-    }
+    "$date": "1544634874459"
   },
   "origId": null,
   "name": "alien slinky",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.203805208017082"
-  },
+  "rank": "10.203805208017082",
   "private": false,
   "unlisted": false,
   "username": "jshrake",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-16qyqfa0chapelt6u-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "704"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "704",
+  "likes": "3",
   "revisionId": "yq7vmLribohpy2tSo"
 }

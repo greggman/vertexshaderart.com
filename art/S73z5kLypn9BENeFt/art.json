@@ -3,9 +3,7 @@
   "owner": {
     "_id": "pTw5kcL2ZkQufnbFY",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1529241241616"
-      }
+      "$date": "1529241241616"
     },
     "profile": {
       "first_name": "Savaş",
@@ -15,21 +13,15 @@
     "username": "savaş"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1529242393190"
-    }
+    "$date": "1529242393190"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1529242393190"
-    }
+    "$date": "1529242393190"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.259443369249142"
-  },
+  "rank": "1.259443369249142",
   "private": false,
   "unlisted": true,
   "username": "savaş",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-6imgipg6kj62txjtd-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "e5gaSBBn6ucjNPDsm"
 }

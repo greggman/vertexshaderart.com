@@ -3,9 +3,7 @@
   "owner": {
     "_id": "cZNAKnfHAY6mZAn2h",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1598366337757"
-      }
+      "$date": "1598366337757"
     },
     "username": "morimea",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1616855567439"
-    }
+    "$date": "1616855567439"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1616863966356"
-    }
+    "$date": "1616863966356"
   },
   "origId": null,
   "name": "test pos",
   "notes": "test",
-  "rank": {
-    "$numberDouble": "1.17956789915485"
-  },
+  "rank": "1.17956789915485",
   "private": false,
   "unlisted": true,
   "username": "morimea",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-chkqwx7w9mwtg4lbd-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "41"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "41",
+  "likes": "0",
   "revisionId": "cXEeMRshmc4DnbJSL"
 }

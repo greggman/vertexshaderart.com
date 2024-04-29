@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501857924166"
-      }
+      "$date": "1501857924166"
     },
     "profile": {
       "name": "Macro Machines",
@@ -15,21 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1681927378531"
-    }
+    "$date": "1681927378531"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1681927378531"
-    }
+    "$date": "1681927378531"
   },
   "origId": "biFYsrY6uepWwyQN8",
   "name": "RED HEXDROPS 4 trifan",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7516510302497519"
-  },
+  "rank": "1.7516510302497519",
   "private": false,
   "unlisted": false,
   "username": "macro",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-wqsuzlzop0bl6xgbu-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "29"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "29",
+  "likes": "0",
   "revisionId": "veNE3yBDjMzCMnF3c"
 }

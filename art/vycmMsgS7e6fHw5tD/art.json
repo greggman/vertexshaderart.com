@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551818526375"
-    }
+    "$date": "1551818526375"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1594512450875"
-    }
+    "$date": "1594512450875"
   },
   "origId": "isgED2R7wSztcgg4J",
   "name": "swift earthworm",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0361262023996516"
-  },
+  "rank": "1.0361262023996516",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-5xbqcf58pynac2ssy-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "218"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "218",
+  "likes": "0",
   "revisionId": "aDCBGeoLinB6nK3W8"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1516274199609"
-    }
+    "$date": "1516274199609"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1594511539303"
-    }
+    "$date": "1594511539303"
   },
   "origId": "MPp2oxLmZsPapDWCv",
   "name": "glass of colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3514766018925206"
-  },
+  "rank": "1.3514766018925206",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-0ducgjhu9xqhgw85j-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "250"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "250",
+  "likes": "1",
   "revisionId": "NGS3X23jnxqwuJNHc"
 }

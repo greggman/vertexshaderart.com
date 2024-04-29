@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1642092770211"
-    }
+    "$date": "1642092770211"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1642092770211"
-    }
+    "$date": "1642092770211"
   },
   "origId": "a3o5rh2HCzLMPnSbn",
   "name": "black eye",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5688113838773377"
-  },
+  "rank": "1.5688113838773377",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-u5bvcnvkl5f1w1gof-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "118"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "118",
+  "likes": "0",
   "revisionId": "Wv3gP4KdL7GG4FDdm"
 }

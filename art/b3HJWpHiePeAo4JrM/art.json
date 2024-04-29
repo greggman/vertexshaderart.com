@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DMjrQbvFJZiBrahNH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684316626390"
-      }
+      "$date": "1684316626390"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jeminshin2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684414594680"
-    }
+    "$date": "1684414594680"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684414594680"
-    }
+    "$date": "1684414594680"
   },
   "origId": "mwEZ5Nk4R35Dsd7eu",
   "name": "Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7430336475540265"
-  },
+  "rank": "1.7430336475540265",
   "private": false,
   "unlisted": true,
   "username": "jeminshin2",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-c35b35ngfjae182ra-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "Gk4YjhEBSXQrZvSWH"
 }

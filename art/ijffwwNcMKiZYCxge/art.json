@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1585600221010"
-    }
+    "$date": "1585600221010"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1585600221010"
-    }
+    "$date": "1585600221010"
   },
   "origId": null,
   "name": "zheball",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.268601887652478"
-  },
+  "rank": "10.268601887652478",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-d12lstbydjobppmuz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "254"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "254",
+  "likes": "2",
   "revisionId": "gzAK5eNSvPkPm8Pd6"
 }

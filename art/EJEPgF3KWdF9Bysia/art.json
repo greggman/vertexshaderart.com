@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oAs94w3Hvcf9T9gvv",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1624249473349"
-      }
+      "$date": "1624249473349"
     },
     "profile": {
       "first_name": "Bluesky",
@@ -15,21 +13,15 @@
     "username": "bluesky"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1624729787424"
-    }
+    "$date": "1624729787424"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1624729787424"
-    }
+    "$date": "1624729787424"
   },
   "origId": "ZZj9dLPDqjWny5kJW",
   "name": "Rose Quartz",
   "notes": "learning from https://www.vertexshaderart.com/art/ZZj9dLPDqjWny5kJW",
-  "rank": {
-    "$numberDouble": "1.6149466191305266"
-  },
+  "rank": "1.6149466191305266",
   "private": false,
   "unlisted": true,
   "username": "bluesky",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-zhy2vbwpc1xw72h0h-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "Zmw6YqnEgzdm7DyhR"
 }

@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1509158657870"
-    }
+    "$date": "1509158657870"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1509158657870"
-    }
+    "$date": "1509158657870"
   },
   "origId": "zr3rcCnA3sx954XPa",
   "name": "666wired x23",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3926313914101098"
-  },
+  "rank": "1.3926313914101098",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-darlod3nyeduhkm4a-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "91"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "91",
+  "likes": "0",
   "revisionId": "vZeBbz6sqze3dy3Hk"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "rau3W4NQJotz63v4m",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1582363735117"
-      }
+      "$date": "1582363735117"
     },
     "username": "nworblegin",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1582363755267"
-    }
+    "$date": "1582363755267"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1582363904501"
-    }
+    "$date": "1582363904501"
   },
   "origId": "RzDd4oDNK7htc9dqe",
   "name": "Hello wobbly triangle",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2227106908167973"
-  },
+  "rank": "1.2227106908167973",
   "private": false,
   "unlisted": false,
   "username": "nworblegin",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-cyq3acn20wzdo62mo-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "290"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "290",
+  "likes": "1",
   "revisionId": "RcJSZerrA63rrHzeJ"
 }

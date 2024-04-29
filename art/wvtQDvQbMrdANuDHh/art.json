@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590978993486"
-    }
+    "$date": "1590978993486"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590978993486"
-    }
+    "$date": "1590978993486"
   },
   "origId": "B6hCMdEJpbdKbEpYp",
   "name": "kreeture KMachine WIP 2",
   "notes": "4 Kmachine WIP  tested!",
-  "rank": {
-    "$numberDouble": "1.5594333191745078"
-  },
+  "rank": "1.5594333191745078",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-a05svjj3hd0hwzvh1-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "107"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "107",
+  "likes": "0",
   "revisionId": "9z7nxo69RrDxnvbXw"
 }

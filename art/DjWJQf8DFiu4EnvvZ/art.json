@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1518201313084"
-    }
+    "$date": "1518201313084"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1518201313084"
-    }
+    "$date": "1518201313084"
   },
   "origId": null,
   "name": "espiral",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4049124739087913"
-  },
+  "rank": "1.4049124739087913",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-swiaspyv4bv1iude0-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "64"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "64",
+  "likes": "0",
   "revisionId": "6p9FDZyddSYioyEzM"
 }

@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1589064853916"
-    }
+    "$date": "1589064853916"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1589064853916"
-    }
+    "$date": "1589064853916"
   },
   "origId": "zvKXwd6wx6E38aPmf",
   "name": "tristrip",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.605263518346177"
-  },
+  "rank": "1.605263518346177",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-e6v19213q992xt2gf-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "55"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "55",
+  "likes": "0",
   "revisionId": "wzhgGfjdhtRfguddc"
 }

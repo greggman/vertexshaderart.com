@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1553152938197"
-      }
+      "$date": "1553152938197"
     },
     "username": "janalex",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553348336337"
-    }
+    "$date": "1553348336337"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553348336337"
-    }
+    "$date": "1553348336337"
   },
   "origId": "6PsFwfvW2tLtoeFiC",
   "name": "1903-GridRainbowMadness",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0164335291855648"
-  },
+  "rank": "1.0164335291855648",
   "private": false,
   "unlisted": false,
   "username": "janalex",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-73g5vlgvpviyh8jcn-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "349"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "349",
+  "likes": "1",
   "revisionId": "W3qgXeza63NCqQAZG"
 }

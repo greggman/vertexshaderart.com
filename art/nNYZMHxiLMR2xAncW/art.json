@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1502041693007"
-    }
+    "$date": "1502041693007"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1503308168838"
-    }
+    "$date": "1503308168838"
   },
   "origId": "YRrZ7fHmFhtoKpyrq",
   "name": "sirp",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.390214241144156"
-  },
+  "rank": "10.390214241144156",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-41ojtzexku9lwfeco-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "757"
-  },
-  "likes": {
-    "$numberInt": "8"
-  },
+  "views": "757",
+  "likes": "8",
   "revisionId": "EdKjkx4Y9rTKMaH5y"
 }

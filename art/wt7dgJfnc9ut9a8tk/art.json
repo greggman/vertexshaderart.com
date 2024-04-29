@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1524355193825"
-    }
+    "$date": "1524355193825"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1524355193825"
-    }
+    "$date": "1524355193825"
   },
   "origId": null,
   "name": "mousebal",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5295280205148203"
-  },
+  "rank": "1.5295280205148203",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-fd3u5k3lbarswitfj-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "472"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "472",
+  "likes": "1",
   "revisionId": "5yxwbxSFYwQNhPdaY"
 }

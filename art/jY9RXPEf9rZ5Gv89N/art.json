@@ -3,9 +3,7 @@
   "owner": {
     "_id": "RMhdQhPbrnDH4xXJ8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684321868058"
-      }
+      "$date": "1684321868058"
     },
     "username": "minseok.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684505400464"
-    }
+    "$date": "1684505400464"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684505400464"
-    }
+    "$date": "1684505400464"
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1312143408354338"
-  },
+  "rank": "1.1312143408354338",
   "private": false,
   "unlisted": false,
   "username": "minseok.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-r4v5hs9o06rez0rnl-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "52"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "52",
+  "likes": "0",
   "revisionId": "fSN7CttYYSTbArDt8"
 }

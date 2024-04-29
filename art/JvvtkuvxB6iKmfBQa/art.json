@@ -3,9 +3,7 @@
   "owner": {
     "_id": "birrm7PTT27EqQaa6",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1679653509145"
-      }
+      "$date": "1679653509145"
     },
     "profile": {
       "first_name": "Seb",
@@ -15,21 +13,15 @@
     "username": "seb"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1679653573811"
-    }
+    "$date": "1679653573811"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1679949970093"
-    }
+    "$date": "1679949970093"
   },
   "origId": null,
   "name": "twist hairs",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4291836013484185"
-  },
+  "rank": "1.4291836013484185",
   "private": false,
   "unlisted": true,
   "username": "seb",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-994wwzya5osurulq2-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "3P7Xgq6kWKStNjSeC"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ZRyZDbZZaBWh7P43A",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1679393512197"
-      }
+      "$date": "1679393512197"
     },
     "profile": {
       "name": "Moonjong Shin",
@@ -14,21 +12,15 @@
     "username": "moon-jong"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1679620803252"
-    }
+    "$date": "1679620803252"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1679620803252"
-    }
+    "$date": "1679620803252"
   },
   "origId": "j9rdg6agmx5hRCbSu",
   "name": "grid",
   "notes": "main",
-  "rank": {
-    "$numberDouble": "1.4086025759067244"
-  },
+  "rank": "1.4086025759067244",
   "private": false,
   "unlisted": true,
   "username": "moon-jong",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-sr3e9j8owmsqtjf6w-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "v35Nqhn6GwyuwcAyc"
 }

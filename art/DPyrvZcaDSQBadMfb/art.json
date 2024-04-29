@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1508083775559"
-    }
+    "$date": "1508083775559"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1508083775559"
-    }
+    "$date": "1508083775559"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5778538416516268"
-  },
+  "rank": "1.5778538416516268",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-m8x9kmlhyobwcbapc-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "69"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "69",
+  "likes": "0",
   "revisionId": "EgYaq6K6ERpJ6JJZz"
 }

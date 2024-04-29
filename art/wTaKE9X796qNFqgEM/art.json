@@ -3,9 +3,7 @@
   "owner": {
     "_id": "duxi6M5TiGWZ5CeBh",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445820506349"
-      }
+      "$date": "1445820506349"
     },
     "profile": {
       "name": "Visa-Valtteri Pimiä",
@@ -15,9 +13,7 @@
     "username": "visy"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1445821430466"
-    }
+    "$date": "1445821430466"
   },
   "origId": null,
   "name": "neurovelho",
@@ -36,22 +32,14 @@
     "shader": "#define PI 3.14159\n//#define FIT_VERTICAL\n\nvoid main() {\n  float NUM_SEGMENTS = 4.0+time*0.001;\n  float NUM_POINTS = (NUM_SEGMENTS * 2.0);\n  float STEP = time*0.0001;\n  if (STEP > 0.03) STEP = 0.03;\n  float localTime = time*0.1 + 20.0;\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\n  float count = floor(vertexId / NUM_POINTS);\n  float offset = count * sin(time * localTime*0.0001) + 5.0;\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\n  float radius = pow(count * 0.00014, 1.0);\n  float c = cos(angle + localTime) * radius;\n  float s = sin(angle + localTime) * radius;\n  float orbitAngle =  pow(count * 0.025, 0.8);\n  float innerRadius = pow(count * 0.0005, 1.2);\n  float oC = cos(orbitAngle + count * 0.0001+0.3*cos(time*0.1+c)) * innerRadius;\n  float oS = sin(orbitAngle + count * 0.0001+0.3*sin(time*0.1+orbitAngle)) * innerRadius;\n\n  #ifdef FIT_VERTICAL\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\n  #else\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\n  #endif\n\n  vec2 xy = vec2(\n      oC + c,\n      oS + s);\n  gl_Position = vec4(xy * aspect, 0, 1);\n\n  //float b = mix(0.0, 0.7, step(0.5, mod(count + localTime * 1.0, 6.0) / 2.0));\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 10.0);\n  b = 0.0;mix(0.0, 0.7, b);\n  v_color = vec4(1.0-b, 1.0-c*10.0, 1.0-s*10.0, 1);\n}"
   },
   "screenshotDataId": "NujseYpQTMRhrFdox",
-  "views": {
-    "$numberInt": "3270"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "3270",
+  "likes": "2",
   "revisionId": "Gpw6JJWSRv8nRLzh4",
   "screenshotURL": "data/images/images-NujseYpQTMRhrFdox-thumbnail.png",
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1445821430469"
-    }
+    "$date": "1445821430469"
   },
   "hasSound": true,
-  "rank": {
-    "$numberDouble": "10.073266694860008"
-  },
+  "rank": "10.073266694860008",
   "avatarUrl": "https://avatars.githubusercontent.com/visy?s=200"
 }

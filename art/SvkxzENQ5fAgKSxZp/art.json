@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1524509346653"
-    }
+    "$date": "1524509346653"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1524510023615"
-    }
+    "$date": "1524510023615"
   },
   "origId": "qSJ4doZdZD5GW3Y5g",
   "name": "Vertex Shader Art: Lesson 2",
   "notes": "Modelling motion",
-  "rank": {
-    "$numberDouble": "1.9497512520298912"
-  },
+  "rank": "1.9497512520298912",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-f5tuz2l5kobbpvcpc-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "cBmvhPy3pksKs8Xqa"
 }

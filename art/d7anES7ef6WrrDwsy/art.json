@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1465461938970"
-    }
+    "$date": "1465461938970"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1465461938970"
-    }
+    "$date": "1465461938970"
   },
   "origId": "gZNitbfDuN5pSwLf3",
   "name": "codez",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.860142947460721"
-  },
+  "rank": "10.860142947460721",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-m5f2e7xd2dh99sj9r-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "316"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "316",
+  "likes": "7",
   "revisionId": "R3xf8wTNJx58ieiHe"
 }

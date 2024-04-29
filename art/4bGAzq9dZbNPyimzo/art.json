@@ -3,9 +3,7 @@
   "owner": {
     "_id": "TWEXAT6H37wepJBPH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1704461148179"
-      }
+      "$date": "1704461148179"
     },
     "profile": {
       "first_name": "lin",
@@ -15,21 +13,15 @@
     "username": "lin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1704503655810"
-    }
+    "$date": "1704503655810"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1705311790370"
-    }
+    "$date": "1705311790370"
   },
   "origId": null,
   "name": "test",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.336549690440136"
-  },
+  "rank": "1.336549690440136",
   "private": false,
   "unlisted": true,
   "username": "lin",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-abmrx2do8430wlbf0-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "xDcPrm7f3ToWj3wiW"
 }

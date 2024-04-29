@@ -3,9 +3,7 @@
   "owner": {
     "_id": "7tGsGbgR4yNsbMbGa",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1619118831439"
-      }
+      "$date": "1619118831439"
     },
     "username": "hzktqr",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619119587212"
-    }
+    "$date": "1619119587212"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619119789999"
-    }
+    "$date": "1619119789999"
   },
   "origId": null,
   "name": "kga2uesxPaH3HJqyT",
   "notes": "blank",
-  "rank": {
-    "$numberDouble": "1.1911212893750331"
-  },
+  "rank": "1.1911212893750331",
   "private": false,
   "unlisted": true,
   "username": "hzktqr",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-3xet0v9sv5pegqe1l-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "TXqAqydnqtfoNfSwj"
 }

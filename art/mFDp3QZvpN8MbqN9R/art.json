@@ -3,9 +3,7 @@
   "owner": {
     "_id": "iFSyTSHmeekk4Ga75",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1683697855014"
-      }
+      "$date": "1683697855014"
     },
     "username": "minkicho",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684721877510"
-    }
+    "$date": "1684721877510"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684721877510"
-    }
+    "$date": "1684721877510"
   },
   "origId": null,
   "name": "Exercise - Vertexshaderart : Audio Reactive",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3699980294658196"
-  },
+  "rank": "1.3699980294658196",
   "private": false,
   "unlisted": true,
   "username": "minkicho",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-vkho7xkk5ema72z2j-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "B8PpLkfX4r5XZLdCF"
 }

@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1453121462828"
-    }
+    "$date": "1453121462828"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1453121462828"
-    }
+    "$date": "1453121462828"
   },
   "origId": "gZjPchBFJAGSk4ZTK",
   "name": "Simple line music extended",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.693729886798984"
-  },
+  "rank": "1.693729886798984",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-alsxh8by3jbhw7cr8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "99"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "99",
+  "likes": "0",
   "revisionId": "2RFiXt8C2gxNpRxXG"
 }

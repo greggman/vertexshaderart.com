@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QqMsN94PxbgsCpi8J",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667647683472"
-      }
+      "$date": "1667647683472"
     },
     "profile": {
       "name": null,
@@ -15,21 +13,15 @@
     "username": "nkkky"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1667649436539"
-    }
+    "$date": "1667649436539"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1667649436539"
-    }
+    "$date": "1667649436539"
   },
   "origId": null,
   "name": "Sir. Rup 002",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9666455848217796"
-  },
+  "rank": "1.9666455848217796",
   "private": false,
   "unlisted": false,
   "username": "nkkky",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-fq4nmm894gb1pqy7o-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "83"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "83",
+  "likes": "0",
   "revisionId": "eKBY6S4YvPEuTfQvW"
 }

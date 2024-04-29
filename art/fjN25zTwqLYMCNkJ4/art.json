@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322328046"
-      }
+      "$date": "1684322328046"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684411436071"
-    }
+    "$date": "1684411436071"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684411980042"
-    }
+    "$date": "1684411980042"
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1564135341285149"
-  },
+  "rank": "1.1564135341285149",
   "private": false,
   "unlisted": false,
   "username": "chaerinpark",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-adq4xfys08soo9ays-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "42"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "42",
+  "likes": "0",
   "revisionId": "KXrHendGauHwstrPc"
 }

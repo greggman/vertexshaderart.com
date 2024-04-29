@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1549837402867"
-    }
+    "$date": "1549837402867"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1549837402867"
-    }
+    "$date": "1549837402867"
   },
   "origId": "Rj6BcdcHrfFGGfN27",
   "name": "alien slinky",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8486325202096376"
-  },
+  "rank": "1.8486325202096376",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-ijdoujod8d0kwu8wl-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "72"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "72",
+  "likes": "1",
   "revisionId": "u2eqDbSknTvZT2Q4z"
 }

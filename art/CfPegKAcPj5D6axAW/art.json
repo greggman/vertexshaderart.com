@@ -3,9 +3,7 @@
   "owner": {
     "_id": "D5nXoe9oSBGkhJALW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1515803345735"
-      }
+      "$date": "1515803345735"
     },
     "profile": {
       "first_name": "Tim",
@@ -15,21 +13,15 @@
     "username": "tim"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1515805241945"
-    }
+    "$date": "1515805241945"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1515810137837"
-    }
+    "$date": "1515810137837"
   },
   "origId": null,
   "name": "grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7009566610057967"
-  },
+  "rank": "1.7009566610057967",
   "private": false,
   "unlisted": true,
   "username": "tim",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-8u2uy00zhzjym250s-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "PJLnmWE7oEtqpnR8S"
 }

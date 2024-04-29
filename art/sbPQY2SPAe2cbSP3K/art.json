@@ -3,9 +3,7 @@
   "owner": {
     "_id": "iFSyTSHmeekk4Ga75",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1683697855014"
-      }
+      "$date": "1683697855014"
     },
     "username": "minkicho",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684727100654"
-    }
+    "$date": "1684727100654"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684727202386"
-    }
+    "$date": "1684727202386"
   },
   "origId": null,
   "name": "Exercise - Vertexshaderart : Circles from TrianglesAssignment Not completed: Exercise - Vertexshaderart : Circles from Triangles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.866010114924226"
-  },
+  "rank": "1.866010114924226",
   "private": false,
   "unlisted": true,
   "username": "minkicho",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-laubep6azpejdw1q0-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "hx5m9MTXnxTATMQ9w"
 }

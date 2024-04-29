@@ -3,9 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501018355084"
-      }
+      "$date": "1501018355084"
     },
     "username": "sylistine",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1502509171856"
-    }
+    "$date": "1502509171856"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1503717366445"
-    }
+    "$date": "1503717366445"
   },
   "origId": "qAx2pkLWXDYQgRtq8",
   "name": "It's So In Vogue To Be Dead",
   "notes": "Bust a move.",
-  "rank": {
-    "$numberDouble": "10.530298517130024"
-  },
+  "rank": "10.530298517130024",
   "private": false,
   "unlisted": false,
   "username": "sylistine",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-prajvq9psjyjosm8p-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "577"
-  },
-  "likes": {
-    "$numberInt": "4"
-  },
+  "views": "577",
+  "likes": "4",
   "revisionId": "aC4HiDrWtosHkAvXi"
 }

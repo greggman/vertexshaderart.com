@@ -3,9 +3,7 @@
   "owner": {
     "_id": "cGitjsPbKTLpgcwNJ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1520745365976"
-      }
+      "$date": "1520745365976"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "monguri"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1520747519603"
-    }
+    "$date": "1520747519603"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1520749971523"
-    }
+    "$date": "1520749971523"
   },
   "origId": null,
   "name": "quad test",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0803909668687972"
-  },
+  "rank": "1.0803909668687972",
   "private": false,
   "unlisted": false,
   "username": "monguri",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-j0ouh0mux015s1cot-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "166"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "166",
+  "likes": "0",
   "revisionId": "QXWWZnTQ4j5Paryf7"
 }

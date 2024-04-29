@@ -3,9 +3,7 @@
   "owner": {
     "_id": "8nH6oSTzSsTCTnYiB",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1598957828167"
-      }
+      "$date": "1598957828167"
     },
     "username": "hornet",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1598958078243"
-    }
+    "$date": "1598958078243"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1598958166775"
-    }
+    "$date": "1598958166775"
   },
   "origId": null,
   "name": "teh points",
   "notes": "based on https://www.vertexshaderart.com/art/jDNMJCu4S7DSRconL",
-  "rank": {
-    "$numberDouble": "1.1131648903021911"
-  },
+  "rank": "1.1131648903021911",
   "private": false,
   "unlisted": true,
   "username": "hornet",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-6uyv98z49slhu41rk-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "2",
+  "likes": "1",
   "revisionId": "SA35dctYm2y8DXWkA"
 }

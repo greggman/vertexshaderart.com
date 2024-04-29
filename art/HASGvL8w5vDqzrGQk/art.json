@@ -3,9 +3,7 @@
   "owner": {
     "_id": "F5H8bRPnrGa3XNp95",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652946063947"
-      }
+      "$date": "1652946063947"
     },
     "profile": {
       "name": "Geonhwi Sim",
@@ -14,21 +12,15 @@
     "username": "geonhwisim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1654096502294"
-    }
+    "$date": "1654096502294"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1654096502294"
-    }
+    "$date": "1654096502294"
   },
   "origId": null,
   "name": "Audio Reactive",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4778747130760457"
-  },
+  "rank": "1.4778747130760457",
   "private": false,
   "unlisted": true,
   "username": "geonhwisim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-rzvs4mpei5yx5xgze-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "ShKMbwjaY6LTbzksM"
 }

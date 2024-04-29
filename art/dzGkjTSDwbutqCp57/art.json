@@ -3,9 +3,7 @@
   "owner": {
     "_id": "jFsYmxkBNAJNvJFDm",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684263955851"
-      }
+      "$date": "1684263955851"
     },
     "username": "hyojoonkim0020",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685544786858"
-    }
+    "$date": "1685544786858"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685544786858"
-    }
+    "$date": "1685544786858"
   },
   "origId": "aHPn3XMX6j7TP3D8i",
   "name": "Circles from Triangles-hyjoonKim",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2263066002244007"
-  },
+  "rank": "1.2263066002244007",
   "private": false,
   "unlisted": true,
   "username": "hyojoonkim0020",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-4iqv8z2kkavbf68yl-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "LBvqfCX9Ru8ifp6Zz"
 }

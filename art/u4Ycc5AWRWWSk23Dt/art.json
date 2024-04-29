@@ -3,9 +3,7 @@
   "owner": {
     "_id": "KzkhvSdcARfvNYTjZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1525195060776"
-      }
+      "$date": "1525195060776"
     },
     "profile": {
       "first_name": "Paul",
@@ -15,21 +13,15 @@
     "username": "paul"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1575736780127"
-    }
+    "$date": "1575736780127"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1575736818267"
-    }
+    "$date": "1575736818267"
   },
   "origId": "cprWonx4tN8nMgQHt",
   "name": "cosa 1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.717056100693825"
-  },
+  "rank": "1.717056100693825",
   "private": false,
   "unlisted": true,
   "username": "paul",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-5ic2khxhjcsa8vmml-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "a2TANfdBJsGGd799t"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zhnFY3Bj9GSContic",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652873162359"
-      }
+      "$date": "1652873162359"
     },
     "username": "daehyeon.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652889730133"
-    }
+    "$date": "1652889730133"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652889730133"
-    }
+    "$date": "1652889730133"
   },
   "origId": null,
   "name": "Colors Variation",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3289516769200636"
-  },
+  "rank": "1.3289516769200636",
   "private": false,
   "unlisted": true,
   "username": "daehyeon.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-pn2ypxa14pobtgdau-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "x3DETp3w2TKJCgZWX"
 }

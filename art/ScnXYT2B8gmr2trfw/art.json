@@ -4,14 +4,10 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447534629459"
-    }
+    "$date": "1447534629459"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1447534629459"
-    }
+    "$date": "1447534629459"
   },
   "origId": null,
   "name": "disco ball",
@@ -32,14 +28,8 @@
   },
   "screenshotURL": "data/images/images-qfvn7dfci5ce9cu6t-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "941"
-  },
-  "likes": {
-    "$numberInt": "5"
-  },
+  "views": "941",
+  "likes": "5",
   "revisionId": "KaRpSarkGZKAKh6XJ",
-  "rank": {
-    "$numberDouble": "10.573282418877493"
-  }
+  "rank": "10.573282418877493"
 }

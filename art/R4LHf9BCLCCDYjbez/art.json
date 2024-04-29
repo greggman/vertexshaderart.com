@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1540408032900"
-      }
+      "$date": "1540408032900"
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -14,21 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1540639677104"
-    }
+    "$date": "1540639677104"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1540639677104"
-    }
+    "$date": "1540639677104"
   },
   "origId": null,
   "name": "Circles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4983930776943706"
-  },
+  "rank": "1.4983930776943706",
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-t2t4mtdh3fevgvkib-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "222"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "222",
+  "likes": "0",
   "revisionId": "NykcRSsfCyoM3DMAm"
 }

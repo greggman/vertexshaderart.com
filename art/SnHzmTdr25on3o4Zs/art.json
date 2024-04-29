@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gY6LJNWPnc5msFSRP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652632078852"
-      }
+      "$date": "1652632078852"
     },
     "username": "sunwoo.lee",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1653406399736"
-    }
+    "$date": "1653406399736"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1653407870649"
-    }
+    "$date": "1653407870649"
   },
   "origId": "Nn9NwLg9EkcRu5ySW",
   "name": "Audio Reactive",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.220517835113324"
-  },
+  "rank": "1.220517835113324",
   "private": false,
   "unlisted": true,
   "username": "sunwoo.lee",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-af528ljg6sc778rto-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "KYXduDod7oSSoQQEG"
 }

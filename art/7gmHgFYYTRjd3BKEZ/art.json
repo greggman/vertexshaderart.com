@@ -3,9 +3,7 @@
   "owner": {
     "_id": "YDyuD4vNo4w3C4uPF",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1496440328492"
-      }
+      "$date": "1496440328492"
     },
     "profile": {
       "name": "Viktor Sehr",
@@ -14,21 +12,15 @@
     "username": "viktor"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496440811884"
-    }
+    "$date": "1496440811884"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496441458059"
-    }
+    "$date": "1496441458059"
   },
   "origId": null,
   "name": "rot_test",
   "notes": "test",
-  "rank": {
-    "$numberDouble": "1.7044607474566749"
-  },
+  "rank": "1.7044607474566749",
   "private": false,
   "unlisted": true,
   "username": "viktor",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-d5g0qe24xlbk9lw1k-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "bSvpMgSPPT5iNGNpm"
 }

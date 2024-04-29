@@ -3,9 +3,7 @@
   "owner": {
     "_id": "A3xozQT3WGZPL6x35",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684330244428"
-      }
+      "$date": "1684330244428"
     },
     "username": "sangjin.lee",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684413395796"
-    }
+    "$date": "1684413395796"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684413395796"
-    }
+    "$date": "1684413395796"
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.035969207121165"
-  },
+  "rank": "1.035969207121165",
   "private": false,
   "unlisted": true,
   "username": "sangjin.lee",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-esv729f2yjlwcb2cs-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "uLzr39zRJiy8CEuHq"
 }

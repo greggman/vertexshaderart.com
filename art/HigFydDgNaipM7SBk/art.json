@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DpiLx3mnyNK9vHf8p",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652972237778"
-      }
+      "$date": "1652972237778"
     },
     "username": "juhong.mo",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652973267011"
-    }
+    "$date": "1652973267011"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652973267011"
-    }
+    "$date": "1652973267011"
   },
   "origId": "XZqZoCpsyifWWi6up",
   "name": "Making A Grid with Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.099982085341434"
-  },
+  "rank": "1.099982085341434",
   "private": false,
   "unlisted": true,
   "username": "juhong.mo",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ibj69bi86q94n5ivv-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "QjWWd8moPw9dBZG7o"
 }

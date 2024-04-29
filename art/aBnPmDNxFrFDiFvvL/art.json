@@ -3,9 +3,7 @@
   "owner": {
     "_id": "rNn8aeTHLQXkcMmn8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503601"
-      }
+      "$date": "1684322503601"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jaeyeong-an"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685544744396"
-    }
+    "$date": "1685544744396"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685544744396"
-    }
+    "$date": "1685544744396"
   },
   "origId": "5MbciF3ZFxqF8hyYn",
   "name": "Circles from Triangles with stars of various colors by Jaeyeong An",
   "notes": "Duplicate the shader and tweak it to make my own variation",
-  "rank": {
-    "$numberDouble": "1.676497652627"
-  },
+  "rank": "1.676497652627",
   "private": false,
   "unlisted": true,
   "username": "jaeyeong-an",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-adhmaed4pn9dcrhl5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "Yhwy6BPstNyaL2JiY"
 }

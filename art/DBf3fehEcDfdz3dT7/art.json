@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1466623408780"
-    }
+    "$date": "1466623408780"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1472481483420"
-    }
+    "$date": "1472481483420"
   },
   "origId": "EhoHuSv6ou8bp9o66",
   "name": "tesla",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3709487225041936"
-  },
+  "rank": "1.3709487225041936",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-v1h6hf7cz9izs982m-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "220"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "220",
+  "likes": "0",
   "revisionId": "vuPY9HBT8WdkNgAY5"
 }

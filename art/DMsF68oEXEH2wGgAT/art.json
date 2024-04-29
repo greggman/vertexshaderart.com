@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1517618882909"
-    }
+    "$date": "1517618882909"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1517618882909"
-    }
+    "$date": "1517618882909"
   },
   "origId": null,
   "name": "Bonito",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7668895179905066"
-  },
+  "rank": "1.7668895179905066",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-ak61ilibqwafyxjag-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "67"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "67",
+  "likes": "0",
   "revisionId": "MgPcJAbjxwBHRRvhg"
 }

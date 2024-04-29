@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551478843155"
-    }
+    "$date": "1551478843155"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551478843155"
-    }
+    "$date": "1551478843155"
   },
   "origId": "BtkrDbo3o9cSAoXeW",
   "name": "the tangled webs we weave",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.534488098676995"
-  },
+  "rank": "1.534488098676995",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-4hh9pvko2o0w647b6-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "90"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "90",
+  "likes": "0",
   "revisionId": "rzXmcNysWAZZcH6PK"
 }

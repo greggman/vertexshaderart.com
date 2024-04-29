@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1644478006169"
-    }
+    "$date": "1644478006169"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1644478006169"
-    }
+    "$date": "1644478006169"
   },
   "origId": "MaT4wjZqPmXjfRqe3",
   "name": "disruptive D",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2096999173885266"
-  },
+  "rank": "1.2096999173885266",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-lrrjprp4nc8lvdpi3-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "109"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "109",
+  "likes": "0",
   "revisionId": "iJwfFLbLewz9MrF8P"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "prn5B8hRBmPy8MnrR",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1512439643641"
-      }
+      "$date": "1512439643641"
     },
     "username": "cakeller98",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1512522188546"
-    }
+    "$date": "1512522188546"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1512522265351"
-    }
+    "$date": "1512522265351"
   },
   "origId": "H65kA6jZ79o5qDjXG",
   "name": "Block Party",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8012445277704403"
-  },
+  "rank": "1.8012445277704403",
   "private": false,
   "unlisted": true,
   "username": "cakeller98",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-og59nkbjpqgxlugrb-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "bEPz2yiwmjG5fetsB"
 }

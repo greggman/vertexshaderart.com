@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667032560256"
-      }
+      "$date": "1667032560256"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1669283370329"
-    }
+    "$date": "1669283370329"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1669283370329"
-    }
+    "$date": "1669283370329"
   },
   "origId": null,
   "name": "firesun",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9223065692286931"
-  },
+  "rank": "1.9223065692286931",
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-3nmwhhmgzxc2wgvv4-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "22"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "22",
+  "likes": "0",
   "revisionId": "WbrTSMEqoNC5ZWdnM"
 }

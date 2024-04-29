@@ -3,9 +3,7 @@
   "owner": {
     "_id": "u9A54Fr2xqnfssRpa",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684324202773"
-      }
+      "$date": "1684324202773"
     },
     "username": "seongryul.park",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684416019782"
-    }
+    "$date": "1684416019782"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684416019782"
-    }
+    "$date": "1684416019782"
   },
   "origId": "Yd2HBe825wEYTar8Y",
   "name": "Motion - tweaks",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.829926513589575"
-  },
+  "rank": "1.829926513589575",
   "private": false,
   "unlisted": true,
   "username": "seongryul.park",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-p0wlp0izngehkv3y2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "94vRbPhhj2DyfvJiR"
 }

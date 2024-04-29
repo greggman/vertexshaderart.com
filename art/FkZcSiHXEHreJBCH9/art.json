@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1531112415715"
-    }
+    "$date": "1531112415715"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1531112415715"
-    }
+    "$date": "1531112415715"
   },
   "origId": null,
   "name": "my_tutorial",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.39676537307427"
-  },
+  "rank": "10.39676537307427",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-k9jtdeqibi5myicse-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "212"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "212",
+  "likes": "2",
   "revisionId": "93c5kKns8MLpEJBtA"
 }

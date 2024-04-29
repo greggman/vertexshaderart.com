@@ -3,9 +3,7 @@
   "owner": {
     "_id": "rKNpgzsyeyjiJ6BHj",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505169676436"
-      }
+      "$date": "1505169676436"
     },
     "username": "bostelk",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1505169693157"
-    }
+    "$date": "1505169693157"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1505169947744"
-    }
+    "$date": "1505169947744"
   },
   "origId": null,
   "name": "hypercuber",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5712900691100886"
-  },
+  "rank": "1.5712900691100886",
   "private": false,
   "unlisted": false,
   "username": "bostelk",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-40be2dp9b8a01cusc-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "397"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "397",
+  "likes": "0",
   "revisionId": "usXNcfedNZycufGi3"
 }

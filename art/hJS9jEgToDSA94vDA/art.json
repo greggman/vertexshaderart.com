@@ -3,9 +3,7 @@
   "owner": {
     "_id": "s7uajwjtjeouLcAYT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1656593092517"
-      }
+      "$date": "1656593092517"
     },
     "profile": {
       "name": "Jared",
@@ -15,21 +13,15 @@
     "username": "molotovbliss"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1658419955783"
-    }
+    "$date": "1658419955783"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1658419955783"
-    }
+    "$date": "1658419955783"
   },
   "origId": "7TrYkuK4aHzLqvZ7r",
   "name": "vu-spike-ball",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2106878638408831"
-  },
+  "rank": "1.2106878638408831",
   "private": false,
   "unlisted": false,
   "username": "molotovbliss",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-alzu7hzvjaz1kt4fi-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "82"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "82",
+  "likes": "0",
   "revisionId": "vm3cmaawm3iBK3wsH"
 }

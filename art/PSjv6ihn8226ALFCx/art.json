@@ -3,9 +3,7 @@
   "owner": {
     "_id": "95683ZgBuRkukjtj7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1589922178477"
-      }
+      "$date": "1589922178477"
     },
     "profile": {
       "first_name": "Markus",
@@ -15,21 +13,15 @@
     "username": "markus"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1598910207617"
-    }
+    "$date": "1598910207617"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1598910207617"
-    }
+    "$date": "1598910207617"
   },
   "origId": "w39M6FR7PCQctz5bN",
   "name": "sockwaves",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3590392327644878"
-  },
+  "rank": "1.3590392327644878",
   "private": false,
   "unlisted": true,
   "username": "markus",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-aqowvzjy4b44t7zez-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "e7eLpcbvnQfqgdQW2"
 }

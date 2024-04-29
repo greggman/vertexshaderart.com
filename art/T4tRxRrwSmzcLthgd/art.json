@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1521951165526"
-    }
+    "$date": "1521951165526"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1521951189968"
-    }
+    "$date": "1521951189968"
   },
   "origId": "7YksmRJcwQXipHhfx",
   "name": "terrain",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2234354194509738"
-  },
+  "rank": "1.2234354194509738",
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-hp5xidm850pzcemqh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "2PSdmhF946BJuWigg"
 }

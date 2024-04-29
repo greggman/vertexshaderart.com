@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Q5T8njsEaGYsK34dZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1448898157107"
-      }
+      "$date": "1448898157107"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "8bitrick"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1555368749251"
-    }
+    "$date": "1555368749251"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1555368749251"
-    }
+    "$date": "1555368749251"
   },
   "origId": "mxRdBjjLpuHvEjbMu",
   "name": "Simple Swirl Test",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7034786396509307"
-  },
+  "rank": "1.7034786396509307",
   "private": false,
   "unlisted": true,
   "username": "8bitrick",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-uw9g33024qoq2ydg2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "BL4cNcYehp7dszoss"
 }

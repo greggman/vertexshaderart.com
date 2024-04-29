@@ -3,9 +3,7 @@
   "owner": {
     "_id": "XZ9fGNm72T7MyEqAy",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1612890971955"
-      }
+      "$date": "1612890971955"
     },
     "username": "oneshade",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1612920948786"
-    }
+    "$date": "1612920948786"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1612920948786"
-    }
+    "$date": "1612920948786"
   },
   "origId": null,
   "name": "3D Point Cloud Scene",
   "notes": "Ridiculous amounts of points just look cool.",
-  "rank": {
-    "$numberDouble": "1.4673815309040605"
-  },
+  "rank": "1.4673815309040605",
   "private": false,
   "unlisted": false,
   "username": "oneshade",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-91t1366qo2iy6q8hv-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "278"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "278",
+  "likes": "1",
   "revisionId": "Nb8RtE248BKZBS9Hz"
 }

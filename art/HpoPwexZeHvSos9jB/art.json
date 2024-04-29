@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vjeeidL9NpEDz7pTJ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1554078151843"
-      }
+      "$date": "1554078151843"
     },
     "profile": {
       "first_name": "신일",
@@ -15,21 +13,15 @@
     "username": "신일"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554078741351"
-    }
+    "$date": "1554078741351"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554133665388"
-    }
+    "$date": "1554133665388"
   },
   "origId": null,
   "name": "tutorial",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.02240197615592"
-  },
+  "rank": "1.02240197615592",
   "private": false,
   "unlisted": false,
   "username": "신일",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-bn70uxdpni9r5w9wh-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "177"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "177",
+  "likes": "0",
   "revisionId": "Rmk9Eakea2g2y7uCy"
 }

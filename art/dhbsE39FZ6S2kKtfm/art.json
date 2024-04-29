@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1569754149032"
-    }
+    "$date": "1569754149032"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1569754149032"
-    }
+    "$date": "1569754149032"
   },
   "origId": "7YSTw2WwEmcGS4hYz",
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3345355263584997"
-  },
+  "rank": "1.3345355263584997",
   "private": false,
   "unlisted": true,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-mdr2boxphzmzjeg87-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "c3DDja7DkZnupfrKF"
 }

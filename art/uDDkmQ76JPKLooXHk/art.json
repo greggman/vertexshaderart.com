@@ -3,9 +3,7 @@
   "owner": {
     "_id": "95683ZgBuRkukjtj7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1589922178477"
-      }
+      "$date": "1589922178477"
     },
     "profile": {
       "first_name": "Markus",
@@ -15,21 +13,15 @@
     "username": "markus"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1598543221425"
-    }
+    "$date": "1598543221425"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1598543221425"
-    }
+    "$date": "1598543221425"
   },
   "origId": "Qh7WiD2iwnCrdfCXy",
   "name": "MicInput",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.681368728857362"
-  },
+  "rank": "1.681368728857362",
   "private": false,
   "unlisted": true,
   "username": "markus",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-x8k6q35meop75gfeh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "66"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "66",
+  "likes": "1",
   "revisionId": "5mF9qWB9QnreQrcMq"
 }

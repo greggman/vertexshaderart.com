@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nGxcqKNjk2qCgadmc",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684074736476"
-      }
+      "$date": "1684074736476"
     },
     "username": "joonho.hwang",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684080506554"
-    }
+    "$date": "1684080506554"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684080506554"
-    }
+    "$date": "1684080506554"
   },
   "origId": null,
   "name": "Making A Grid - Tweak",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1688312287357465"
-  },
+  "rank": "1.1688312287357465",
   "private": false,
   "unlisted": true,
   "username": "joonho.hwang",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-w9v42ee95ugh32azm-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "LsqAXiNKvnA6oLHck"
 }

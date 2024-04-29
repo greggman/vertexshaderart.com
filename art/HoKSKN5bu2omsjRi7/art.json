@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1618264688331"
-      }
+      "$date": "1618264688331"
     },
     "username": "chriscamplin",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1676892691716"
-    }
+    "$date": "1676892691716"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1676894112821"
-    }
+    "$date": "1676894112821"
   },
   "origId": "WbN969kWgnCsYXofi",
   "name": "etch a sketch",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1433465626224952"
-  },
+  "rank": "1.1433465626224952",
   "private": false,
   "unlisted": false,
   "username": "chriscamplin",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-pfifpp4me2dxziq2w-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "70"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "70",
+  "likes": "0",
   "revisionId": "3ext2c2v2MCTgDMtN"
 }

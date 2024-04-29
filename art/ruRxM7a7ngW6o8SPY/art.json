@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,14 +12,10 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447595070568"
-    }
+    "$date": "1447595070568"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1447607674563"
-    }
+    "$date": "1447607674563"
   },
   "origId": "ScnXYT2B8gmr2trfw",
   "name": "balls",
@@ -42,15 +36,9 @@
   },
   "screenshotURL": "data/images/images-i6gmagfend2kt7ldd-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "584"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "584",
+  "likes": "7",
   "revisionId": "dZta9MN6fiGL6T4Kv",
-  "rank": {
-    "$numberDouble": "10.94986851107151"
-  },
+  "rank": "10.94986851107151",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

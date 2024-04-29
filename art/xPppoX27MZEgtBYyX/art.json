@@ -3,9 +3,7 @@
   "owner": {
     "_id": "bj8YombFaBndJtCGh",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1502175661489"
-      }
+      "$date": "1502175661489"
     },
     "profile": {
       "name": "Trevor Drury",
@@ -14,21 +12,15 @@
     "username": "trevor"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1502218075345"
-    }
+    "$date": "1502218075345"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1502218075345"
-    }
+    "$date": "1502218075345"
   },
   "origId": "SGSdWRQtcRJGxt6BP",
   "name": "sketch002",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.994783673540961"
-  },
+  "rank": "1.994783673540961",
   "private": false,
   "unlisted": true,
   "username": "trevor",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-oya5uojq1jh2fe0vw-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "LWK3SmcqtCiQCaQFh"
 }

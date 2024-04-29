@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gYBmTGxvno9hKndQM",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1610122206689"
-      }
+      "$date": "1610122206689"
     },
     "profile": {
       "name": "Thanos Theodorakopoulos",
@@ -14,21 +12,15 @@
     "username": "galousis"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1611587053378"
-    }
+    "$date": "1611587053378"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1611587053378"
-    }
+    "$date": "1611587053378"
   },
   "origId": "DiGpLPYqRW3DAtnFc",
   "name": "crazymusicbox",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.15714643549282"
-  },
+  "rank": "10.15714643549282",
   "private": false,
   "unlisted": false,
   "username": "galousis",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-w0kskivlej25q9evu-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "604"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "604",
+  "likes": "3",
   "revisionId": "EfgwSKAZcFztggoGg"
 }

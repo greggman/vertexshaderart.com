@@ -3,9 +3,7 @@
   "owner": {
     "_id": "jmwufknCzoYqxA8Bh",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1460395981078"
-      }
+      "$date": "1460395981078"
     },
     "profile": {
       "first_name": "Richel",
@@ -15,21 +13,15 @@
     "username": "richel"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1460402353722"
-    }
+    "$date": "1460402353722"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1460496346819"
-    }
+    "$date": "1460496346819"
   },
   "origId": "PKKSn3hisqqifLpXX",
   "name": "poo-brain <3 dub",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9797005918630712"
-  },
+  "rank": "1.9797005918630712",
   "private": false,
   "unlisted": true,
   "username": "richel",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-fkdm8q88oy6jux60w-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "24"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "24",
+  "likes": "0",
   "revisionId": "wuncYs6tT2wW5sBEd"
 }

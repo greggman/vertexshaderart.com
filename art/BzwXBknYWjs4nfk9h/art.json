@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MEn2bK8navo8QQHYf",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684321859878"
-      }
+      "$date": "1684321859878"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jonghyeon-lee-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685460169377"
-    }
+    "$date": "1685460169377"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685460169377"
-    }
+    "$date": "1685460169377"
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0834545264457387"
-  },
+  "rank": "1.0834545264457387",
   "private": false,
   "unlisted": true,
   "username": "jonghyeon-lee-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-0c5sam8p4y5ndabl9-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "k6MvzttE8gEYEjdy4"
 }

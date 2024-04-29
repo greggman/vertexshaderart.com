@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1485098536332"
-    }
+    "$date": "1485098536332"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1485107647059"
-    }
+    "$date": "1485107647059"
   },
   "origId": "8QyjKkpp7q9aGkAn7",
   "name": "roty",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.457623349929937"
-  },
+  "rank": "10.457623349929937",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-xs5j37ax2dkigjmj2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "285"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "285",
+  "likes": "7",
   "revisionId": "BgKoeYgPi2aBmWd73"
 }

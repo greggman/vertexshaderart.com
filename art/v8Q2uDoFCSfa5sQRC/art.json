@@ -3,9 +3,7 @@
   "owner": {
     "_id": "CJtPPYNFXinj2EC2b",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652841467004"
-      }
+      "$date": "1652841467004"
     },
     "username": "seongwon.jang",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652841655383"
-    }
+    "$date": "1652841655383"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652872621158"
-    }
+    "$date": "1652872621158"
   },
   "origId": null,
   "name": "Making a Grid seongwon Jang",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6087845935951748"
-  },
+  "rank": "1.6087845935951748",
   "private": false,
   "unlisted": true,
   "username": "seongwon.jang",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-wklrmxf75r1qqmtzn-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "zT57CyfmG5svbDpNY"
 }

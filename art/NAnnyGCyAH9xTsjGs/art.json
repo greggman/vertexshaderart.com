@@ -3,9 +3,7 @@
   "owner": {
     "_id": "rNn8aeTHLQXkcMmn8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503601"
-      }
+      "$date": "1684322503601"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jaeyeong-an"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684927727970"
-    }
+    "$date": "1684927727970"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684927727970"
-    }
+    "$date": "1684927727970"
   },
   "origId": null,
   "name": "Audio Reactive Art by Jaeyeong An",
   "notes": "From vertexshaderart's Lessons follow along with Lesson 04 - Audio Reactive Art.",
-  "rank": {
-    "$numberDouble": "1.2154023713793454"
-  },
+  "rank": "1.2154023713793454",
   "private": false,
   "unlisted": true,
   "username": "jaeyeong-an",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-8rxiz7cnzyfoumsqn-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "8g77JzhZDFGWDJwCd"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "JEvFNjk8EJBsCLjrR",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1551481583617"
-      }
+      "$date": "1551481583617"
     },
     "profile": {
       "first_name": "danyalillo",
@@ -14,21 +12,15 @@
     "username": "danyalillo"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551500835305"
-    }
+    "$date": "1551500835305"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1552523815127"
-    }
+    "$date": "1552523815127"
   },
   "origId": "KpCz9hjoFif9i3TvM",
   "name": "ring",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1907176230092424"
-  },
+  "rank": "1.1907176230092424",
   "private": false,
   "unlisted": true,
   "username": "danyalillo",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-mdhhk7s3w33khrxoj-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "LLDxXaa9FRt9BJyuv"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "u9A54Fr2xqnfssRpa",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684324202773"
-      }
+      "$date": "1684324202773"
     },
     "username": "seongryul.park",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685551732979"
-    }
+    "$date": "1685551732979"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685552549114"
-    }
+    "$date": "1685552549114"
   },
   "origId": "eq35fsTk4w4ZA3LQF",
   "name": "Circles from Triangles",
   "notes": "Circles from Triangles",
-  "rank": {
-    "$numberDouble": "1.3685581188835436"
-  },
+  "rank": "1.3685581188835436",
   "private": false,
   "unlisted": true,
   "username": "seongryul.park",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-58jumq6sagh6evvq5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "Qn3oyZhZqpsZc3xtk"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "PjeofrxxdagSm2pZE",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1486391451852"
-      }
+      "$date": "1486391451852"
     },
     "profile": {
       "name": "Johan Beronius",
@@ -14,21 +12,15 @@
     "username": "demoniak"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1487002867803"
-    }
+    "$date": "1487002867803"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1487097864246"
-    }
+    "$date": "1487097864246"
   },
   "origId": null,
   "name": "technoball",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.514502626973979"
-  },
+  "rank": "10.514502626973979",
   "private": false,
   "unlisted": false,
   "username": "demoniak",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-aym3fl4txz1wdqhif-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1067"
-  },
-  "likes": {
-    "$numberInt": "4"
-  },
+  "views": "1067",
+  "likes": "4",
   "revisionId": "9bRdKYGf8renvq7LL"
 }

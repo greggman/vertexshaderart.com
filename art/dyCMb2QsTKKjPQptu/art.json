@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1505300386016"
-    }
+    "$date": "1505300386016"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1505300386016"
-    }
+    "$date": "1505300386016"
   },
   "origId": null,
   "name": "fov_border",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4707403293395522"
-  },
+  "rank": "1.4707403293395522",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-egsf5elfbcskg8bvh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "73"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "73",
+  "likes": "0",
   "revisionId": "rbmFGyGLmR6paBNA9"
 }

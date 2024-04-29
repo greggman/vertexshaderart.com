@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ou9ebWHeL3upMMoij",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1486394393430"
-      }
+      "$date": "1486394393430"
     },
     "username": "athega",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1486570415948"
-    }
+    "$date": "1486570415948"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1486570415948"
-    }
+    "$date": "1486570415948"
   },
   "origId": "eMAJ5HydzdzbnzduF",
   "name": "plasma grid",
   "notes": "by johan",
-  "rank": {
-    "$numberDouble": "10.768598640589264"
-  },
+  "rank": "10.768598640589264",
   "private": false,
   "unlisted": false,
   "username": "athega",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-v0qo9zidfn0r1lnri-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "208"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "208",
+  "likes": "3",
   "revisionId": "W9DMFmvAqMvYRjh55"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1597671585559"
-    }
+    "$date": "1597671585559"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1597724105269"
-    }
+    "$date": "1597724105269"
   },
   "origId": "PHWvovEcpp6R6yT8K",
   "name": "seaqyuk",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.095885431446249"
-  },
+  "rank": "10.095885431446249",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-t7fxkyq6w8phdipef-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "965"
-  },
-  "likes": {
-    "$numberInt": "5"
-  },
+  "views": "965",
+  "likes": "5",
   "revisionId": "AaAd7e9Sv6koMgC3j"
 }

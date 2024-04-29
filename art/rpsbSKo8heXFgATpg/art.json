@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1544475723717"
-    }
+    "$date": "1544475723717"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1544475723717"
-    }
+    "$date": "1544475723717"
   },
   "origId": "8YgL5b9rsGLmaeQ9Z",
   "name": "color chain",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0875498529115954"
-  },
+  "rank": "1.0875498529115954",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-klv0dnomdvgrld4uw-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "91"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "91",
+  "likes": "0",
   "revisionId": "J8JqR2JHEocvLzYYp"
 }

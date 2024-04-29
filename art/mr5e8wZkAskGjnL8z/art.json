@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Q5T8njsEaGYsK34dZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1448898157107"
-      }
+      "$date": "1448898157107"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "8bitrick"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1555370014731"
-    }
+    "$date": "1555370014731"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1555370677996"
-    }
+    "$date": "1555370677996"
   },
   "origId": "F5nWdazPW5bXmip32",
   "name": "Color Snake",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5501932993996794"
-  },
+  "rank": "1.5501932993996794",
   "private": false,
   "unlisted": true,
   "username": "8bitrick",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-4sdumai2egfvu5ryh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "XwnGtrC4NzBMthBap"
 }

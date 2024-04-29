@@ -3,9 +3,7 @@
   "owner": {
     "_id": "CzxjYbZe5tjRjavPd",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1530901372124"
-      }
+      "$date": "1530901372124"
     },
     "username": "mattsonic",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1530902503029"
-    }
+    "$date": "1530902503029"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1530902503029"
-    }
+    "$date": "1530902503029"
   },
   "origId": "wYJg4JdkufCDkxugR",
   "name": "tutorial3",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8518409811086005"
-  },
+  "rank": "1.8518409811086005",
   "private": false,
   "unlisted": true,
   "username": "mattsonic",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-dqj86dp9tqtt5h1xz-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "KRrCjqcQdcKXZ3y7J"
 }

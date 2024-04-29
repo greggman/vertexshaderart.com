@@ -3,9 +3,7 @@
   "owner": {
     "_id": "frHwqfGRgMrLdBSxk",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652848268471"
-      }
+      "$date": "1652848268471"
     },
     "profile": {
       "name": "Sehoon Kim",
@@ -14,21 +12,15 @@
     "username": "sehoonkim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652949446764"
-    }
+    "$date": "1652949446764"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652949926274"
-    }
+    "$date": "1652949926274"
   },
   "origId": "Tw8ymmpoiv7MwrjWv",
   "name": "Exercise - Vertexshaderart : Colors_sehun.kim",
   "notes": "Exercise - Vertexshaderart : Colors_sehun.kim",
-  "rank": {
-    "$numberDouble": "1.712123111384748"
-  },
+  "rank": "1.712123111384748",
   "private": false,
   "unlisted": true,
   "username": "sehoonkim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-k5drgoqh9zi3fkxji-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "cqfEdsbjjwQqGdCcx"
 }

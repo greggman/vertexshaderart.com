@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,20 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447867671706"
-    }
+    "$date": "1447867671706"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1643167604715"
-    }
+    "$date": "1643167604715"
   },
   "origId": "H65kA6jZ79o5qDjXG",
   "name": "fuzeball",
-  "rank": {
-    "$numberDouble": "10.636198455168746"
-  },
+  "rank": "10.636198455168746",
   "private": false,
   "username": "gman",
   "settings": {
@@ -45,12 +37,8 @@
   },
   "screenshotURL": "data/images/images-6lhwgmyfp2swf2n4k-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2353"
-  },
-  "likes": {
-    "$numberInt": "13"
-  },
+  "views": "2353",
+  "likes": "13",
   "revisionId": "NgWG9FfZqPdhDq4m4",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
   "notes": "",

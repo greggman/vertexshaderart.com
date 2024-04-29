@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1533038888888"
-    }
+    "$date": "1533038888888"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1533038888888"
-    }
+    "$date": "1533038888888"
   },
   "origId": "2pccx6pQfk6skHLQG",
   "name": "quad test",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.387083083267327"
-  },
+  "rank": "1.387083083267327",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-w1yxuppkkuajbilto-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "62"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "62",
+  "likes": "0",
   "revisionId": "DLR8F4Lk3279gsnje"
 }

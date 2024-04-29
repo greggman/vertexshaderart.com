@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Yppm9G5kCnn4TX6MS",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1605217631309"
-      }
+      "$date": "1605217631309"
     },
     "profile": {
       "first_name": "Eugene",
@@ -15,21 +13,15 @@
     "username": "eugene"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1605219572498"
-    }
+    "$date": "1605219572498"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1605219572498"
-    }
+    "$date": "1605219572498"
   },
   "origId": "6d4uyMnEKnip4oyLR",
   "name": "tutorial-1-1 grid adjusts with resolution",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9012615341782657"
-  },
+  "rank": "1.9012615341782657",
   "private": false,
   "unlisted": true,
   "username": "eugene",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-k79umvkc3s6yw6xvi-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "ME6SYBnmoA7j7Jz6Y"
 }

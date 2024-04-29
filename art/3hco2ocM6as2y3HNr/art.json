@@ -3,9 +3,7 @@
   "owner": {
     "_id": "CJtPPYNFXinj2EC2b",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652841467004"
-      }
+      "$date": "1652841467004"
     },
     "username": "seongwon.jang",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1653956661947"
-    }
+    "$date": "1653956661947"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1653958071857"
-    }
+    "$date": "1653958071857"
   },
   "origId": "XpfxjsLJWz8DSuALM",
   "name": "Circle From Triangle",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3457382065195178"
-  },
+  "rank": "1.3457382065195178",
   "private": false,
   "unlisted": true,
   "username": "seongwon.jang",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-mstetf4qm6ysyjhmb-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "Nhd3J4nBrjmgfEXAf"
 }

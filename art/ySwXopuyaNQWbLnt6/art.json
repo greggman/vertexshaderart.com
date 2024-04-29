@@ -3,9 +3,7 @@
   "owner": {
     "_id": "FAoSmn8M8WFBXnqs2",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1691052252265"
-      }
+      "$date": "1691052252265"
     },
     "profile": {
       "first_name": "serdar",
@@ -14,21 +12,15 @@
     "username": "serdar2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1691052337609"
-    }
+    "$date": "1691052337609"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1691052337609"
-    }
+    "$date": "1691052337609"
   },
   "origId": null,
   "name": "A series of oddities",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6500912288156486"
-  },
+  "rank": "1.6500912288156486",
   "private": false,
   "unlisted": true,
   "username": "serdar2",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-mwapw5umnx1p2phpt-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "1",
+  "likes": "1",
   "revisionId": "7mbcjn74ibKBqxMxv"
 }

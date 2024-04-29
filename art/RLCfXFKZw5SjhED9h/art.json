@@ -3,9 +3,7 @@
   "owner": {
     "_id": "iWs6sguQDbggmSFHX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497589502776"
-      }
+      "$date": "1497589502776"
     },
     "username": "amagitakayosi",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1497589552952"
-    }
+    "$date": "1497589552952"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1497589654911"
-    }
+    "$date": "1497589654911"
   },
   "origId": null,
   "name": "waves",
   "notes": "My first vertex shader art",
-  "rank": {
-    "$numberDouble": "10.81867041475295"
-  },
+  "rank": "10.81867041475295",
   "private": false,
   "unlisted": false,
   "username": "amagitakayosi",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-uchu34856j7pg0bop-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "167"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "167",
+  "likes": "2",
   "revisionId": "m4eKrFvCNMyMX9gsY"
 }

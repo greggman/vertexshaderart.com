@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1516306132881"
-    }
+    "$date": "1516306132881"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1516306132881"
-    }
+    "$date": "1516306132881"
   },
   "origId": "HW98dGDbChYw2FjpS",
   "name": "feels like debris",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7726901484234516"
-  },
+  "rank": "1.7726901484234516",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-03l6o4bw8l0a1f7ms-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "388"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "388",
+  "likes": "1",
   "revisionId": "qZEfftnJ5ZfXJGaZ8"
 }

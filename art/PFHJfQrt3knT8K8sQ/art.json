@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1451918919133"
-    }
+    "$date": "1451918919133"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1612457044727"
-    }
+    "$date": "1612457044727"
   },
   "origId": "XWzwbcRCDE4ce9oex",
   "name": "flwr",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.062767375856552"
-  },
+  "rank": "10.062767375856552",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-h4zyv5ocyga3huw79-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "814"
-  },
-  "likes": {
-    "$numberInt": "9"
-  },
+  "views": "814",
+  "likes": "9",
   "revisionId": "nJgT38hdFFCcNkZQv"
 }

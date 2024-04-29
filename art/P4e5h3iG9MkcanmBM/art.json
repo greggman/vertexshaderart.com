@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1667031043471"
-    }
+    "$date": "1667031043471"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1667031043471"
-    }
+    "$date": "1667031043471"
   },
   "origId": null,
   "name": "netflix lines",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4069597694587477"
-  },
+  "rank": "1.4069597694587477",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-ttns5u3x3yhhrwg52-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "59"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "59",
+  "likes": "0",
   "revisionId": "BbRyPHQRmc9JgaxvS"
 }

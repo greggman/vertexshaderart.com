@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,9 +12,7 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1446026265800"
-    }
+    "$date": "1446026265800"
   },
   "origId": null,
   "name": "targ",
@@ -35,22 +31,14 @@
     "shader": "#define PI 3.14159\n#define NUM_SEGMENTS 20.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n//#define FIT_VERTICAL\n\nvoid main() {\n  float localTime = time + 20.0;\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\n  float count = floor(vertexId / NUM_POINTS);\n  float offset = count * sin(time * 0.01) + 5.0;\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\n  float snd = texture2D(floatSound, vec2(count / 10000.0, 0)).a;  \n  float radius = pow(count * 0.014, 1.0) + snd * 0.03;\n  float c = cos(angle + localTime) * radius;\n  float s = sin(angle + localTime) * radius;\n  float orbitAngle =  pow(count * 0.025, 0.8);\n  float innerRadius = pow(count * 0.0005, 1.2);\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\n\n  #ifdef FIT_VERTICAL\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\n  #else\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\n  #endif\n\n  vec2 xy = vec2(\n      oC + c,\n      oS + s);\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\n\n  float b = clamp(40.0 + snd, 0.0, 1.0);\n  vec3 bk = vec3(178.0 / 255.0, 23.0 / 255.0, 0);\n  v_color = vec4(mix(bk, vec3(0,0,0), b), 1);\n}"
   },
   "screenshotDataId": "aJ7GrPx6exum5dpSW",
-  "views": {
-    "$numberInt": "151"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "151",
+  "likes": "0",
   "revisionId": "3iSFTCBkrgqEbotMt",
   "screenshotURL": "data/images/images-4ro3p9et1y928d5oa-thumbnail.jpg",
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1446193578235"
-    }
+    "$date": "1446193578235"
   },
   "hasSound": true,
-  "rank": {
-    "$numberDouble": "1.2386165157318438"
-  },
+  "rank": "1.2386165157318438",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

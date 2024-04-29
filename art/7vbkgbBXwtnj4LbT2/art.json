@@ -3,9 +3,7 @@
   "owner": {
     "_id": "XZ9fGNm72T7MyEqAy",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1612890971955"
-      }
+      "$date": "1612890971955"
     },
     "username": "oneshade",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1612900594414"
-    }
+    "$date": "1612900594414"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1612900594414"
-    }
+    "$date": "1612900594414"
   },
   "origId": null,
   "name": "Smooth Icosahedron",
   "notes": "Icosahedron geometry.",
-  "rank": {
-    "$numberDouble": "1.2857376164164234"
-  },
+  "rank": "1.2857376164164234",
   "private": false,
   "unlisted": false,
   "username": "oneshade",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-slu79te05jep9jpm9-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "173"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "173",
+  "likes": "0",
   "revisionId": "xPxbiTYD9NwChJuXk"
 }

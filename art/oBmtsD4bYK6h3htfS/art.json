@@ -3,9 +3,7 @@
   "owner": {
     "_id": "exrQAEG45B5Exhhan",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684329330454"
-      }
+      "$date": "1684329330454"
     },
     "profile": {
       "name": "Minsu Kim",
@@ -14,21 +12,15 @@
     "username": "minsu-kim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684753967877"
-    }
+    "$date": "1684753967877"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684758984579"
-    }
+    "$date": "1684758984579"
   },
   "origId": null,
   "name": "Audio Reactive Art",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.094590146674153"
-  },
+  "rank": "1.094590146674153",
   "private": false,
   "unlisted": true,
   "username": "minsu-kim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-9euw21i8xyxawksol-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "BwTxQjjrdQzg4n89s"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1494729064511"
-    }
+    "$date": "1494729064511"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1494729064511"
-    }
+    "$date": "1494729064511"
   },
   "origId": null,
   "name": "Uncontrolled triangle funnel",
   "notes": "[commercial] \n\nAnother K Machine exposed shader\nSee it in action in the K Machine v2 on https://vimeo.com/217012333\nthe 'K beginning' comments allows the K Machine to recognize \nand build adapted events controllers\nThis shader can be copied in a text file with .glsl extension and\nuploaded to the K Machine. \nFor more instructions for K Machine compliance see the doc on\nhttp://kolargon.com/KMachineV2Doc/KMachineV2Documentation.html\nMore about the K Machine v2\nhttp://kolargones.net/wpkolargon/2017/05/05/k-machine-v-2-0/\nNote the part between 'for vsa' and 'end for vsa' could be skipped\nas the K Machine has it's own relLoopProgress float parameter\ncorresponding to the progression in the selected loop\n\n[/commercial]",
-  "rank": {
-    "$numberDouble": "1.6690361846010184"
-  },
+  "rank": "1.6690361846010184",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-99r0l8qv1e9so2fsb-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "100"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "100",
+  "likes": "0",
   "revisionId": "FwkH9YD7R4XKp8uNs"
 }

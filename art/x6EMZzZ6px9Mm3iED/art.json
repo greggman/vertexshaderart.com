@@ -3,9 +3,7 @@
   "owner": {
     "_id": "9FyGSKFd6DqeASjpd",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1672677407736"
-      }
+      "$date": "1672677407736"
     },
     "profile": {
       "name": "Jose A. Álvarez",
@@ -14,21 +12,15 @@
     "username": "iguacel"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1672700988569"
-    }
+    "$date": "1672700988569"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1672700988569"
-    }
+    "$date": "1672700988569"
   },
   "origId": "B3fTWQihXfD9t8Q8r",
   "name": "lesson-04-motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2691226485723137"
-  },
+  "rank": "1.2691226485723137",
   "private": false,
   "unlisted": true,
   "username": "iguacel",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-mvq8ske5f14g4gva6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "Sk2cfAbrppyJN2WDx"
 }

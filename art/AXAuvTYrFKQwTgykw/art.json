@@ -3,9 +3,7 @@
   "owner": {
     "_id": "GsGemnD2x9QaMRX9g",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1619196586677"
-      }
+      "$date": "1619196586677"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "hugo-w"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619546132490"
-    }
+    "$date": "1619546132490"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652913887278"
-    }
+    "$date": "1652913887278"
   },
   "origId": "ME2wYxKbBPSRwmXxf",
   "name": "FiboSound2D_2",
   "notes": "Try different mdoes: triangles, lines or points for different effect",
-  "rank": {
-    "$numberDouble": "1.839944514918269"
-  },
+  "rank": "1.839944514918269",
   "private": false,
   "unlisted": true,
   "username": "hugo-w",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-sx4do50fj8hbfutpg-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "c88YqrFPC89KcCEjG"
 }

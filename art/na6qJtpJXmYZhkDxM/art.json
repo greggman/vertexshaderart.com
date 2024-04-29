@@ -3,9 +3,7 @@
   "owner": {
     "_id": "xvyfq45zjsZnYJsJv",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1510083508516"
-      }
+      "$date": "1510083508516"
     },
     "profile": {
       "name": "Chuck Leone",
@@ -14,21 +12,15 @@
     "username": "chuck"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1510110453988"
-    }
+    "$date": "1510110453988"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1510110453988"
-    }
+    "$date": "1510110453988"
   },
   "origId": null,
   "name": "simple-lines",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7732230701375966"
-  },
+  "rank": "1.7732230701375966",
   "private": false,
   "unlisted": true,
   "username": "chuck",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-7wv53la63ep113hji-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "ZooiJkytBiiztoMLc"
 }

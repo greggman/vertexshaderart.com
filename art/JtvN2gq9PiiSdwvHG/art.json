@@ -3,9 +3,7 @@
   "owner": {
     "_id": "96ZuW2KN9gsnSfGDQ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1536676462835"
-      }
+      "$date": "1536676462835"
     },
     "username": "teraspora",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1536682649240"
-    }
+    "$date": "1536682649240"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1536689167629"
-    }
+    "$date": "1536689167629"
   },
   "origId": null,
   "name": "vxwavy-01",
   "notes": "My first vertex shader!",
-  "rank": {
-    "$numberDouble": "1.687406416709232"
-  },
+  "rank": "1.687406416709232",
   "private": false,
   "unlisted": false,
   "username": "teraspora",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-on9qz63amyzwgmlgu-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "347"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "347",
+  "likes": "0",
   "revisionId": "Zr8HZKw3zX8BE9XQt"
 }

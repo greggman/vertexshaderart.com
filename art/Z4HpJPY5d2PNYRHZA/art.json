@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1463104350896"
-    }
+    "$date": "1463104350896"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1463104350896"
-    }
+    "$date": "1463104350896"
   },
   "origId": "ASwcBa7AR4rPpF2Wg",
   "name": "msh",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.3305961279661"
-  },
+  "rank": "10.3305961279661",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-edpsawbdaqexusatd-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "232"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "232",
+  "likes": "2",
   "revisionId": "afmKc3a4TFBDXn2zr"
 }

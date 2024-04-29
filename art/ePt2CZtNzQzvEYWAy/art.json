@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zhnFY3Bj9GSContic",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652873162359"
-      }
+      "$date": "1652873162359"
     },
     "username": "daehyeon.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652887531413"
-    }
+    "$date": "1652887531413"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652887607982"
-    }
+    "$date": "1652887607982"
   },
   "origId": "gxfqzX2z6JLPodtww",
   "name": "Motion Variation",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.204791621103758"
-  },
+  "rank": "1.204791621103758",
   "private": false,
   "unlisted": true,
   "username": "daehyeon.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ddcvng4qrduru4txl-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "qg2qR5MTLQeP9KuWQ"
 }

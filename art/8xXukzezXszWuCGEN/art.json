@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1565901789399"
-    }
+    "$date": "1565901789399"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1565901789399"
-    }
+    "$date": "1565901789399"
   },
   "origId": "9P4cTdzoK9rwM99kJ",
   "name": "notmizu 4 KM wip",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4695058261714142"
-  },
+  "rank": "1.4695058261714142",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-lich1uojpvhd34g8k-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "89"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "89",
+  "likes": "0",
   "revisionId": "DotNdpmjGo2to8sSR"
 }

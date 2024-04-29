@@ -3,9 +3,7 @@
   "owner": {
     "_id": "AKayQxJZqd5z7boy2",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1550038451574"
-      }
+      "$date": "1550038451574"
     },
     "profile": {
       "first_name": "Archer",
@@ -16,21 +14,15 @@
     "username": "archer"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1550091375088"
-    }
+    "$date": "1550091375088"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1550169910609"
-    }
+    "$date": "1550169910609"
   },
   "origId": null,
   "name": "Rainbow Menger",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.263833280199918"
-  },
+  "rank": "10.263833280199918",
   "private": false,
   "unlisted": false,
   "username": "archer",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-w0vu21lgu06bm774x-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "306"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "306",
+  "likes": "2",
   "revisionId": "jLqfqcEgxbkBSMEXg"
 }

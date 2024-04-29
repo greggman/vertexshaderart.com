@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1523300570430"
-    }
+    "$date": "1523300570430"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1523300570430"
-    }
+    "$date": "1523300570430"
   },
   "origId": "sph6PXJZqMbGaLSkY",
   "name": "Hippie Spiral",
   "notes": "The hippies more than likely have too much fun for their own good. Silly hobbits.",
-  "rank": {
-    "$numberDouble": "1.2462700613194524"
-  },
+  "rank": "1.2462700613194524",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-dz6aunjr4th22lzr5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "10"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "10",
+  "likes": "0",
   "revisionId": "vdM6XQfqraqnzs5zf"
 }

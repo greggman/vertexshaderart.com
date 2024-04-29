@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1465551370730"
-    }
+    "$date": "1465551370730"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1591536203001"
-    }
+    "$date": "1591536203001"
   },
   "origId": "FNFsfgYT3ysjSme2P",
   "name": "discus",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.150313415217722"
-  },
+  "rank": "10.150313415217722",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-fjx0vwok3a8qb4msd-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "854"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "854",
+  "likes": "7",
   "revisionId": "PpmDnACgQ2iTGXync"
 }

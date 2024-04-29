@@ -3,9 +3,7 @@
   "owner": {
     "_id": "f2wyNgAd5xFR62ZE7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1635420240606"
-      }
+      "$date": "1635420240606"
     },
     "profile": {
       "name": "Vidar Waagbø",
@@ -14,21 +12,15 @@
     "username": "vidarw"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1635420250658"
-    }
+    "$date": "1635420250658"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1635425627697"
-    }
+    "$date": "1635425627697"
   },
   "origId": null,
   "name": "tutorial",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7480465180972629"
-  },
+  "rank": "1.7480465180972629",
   "private": false,
   "unlisted": true,
   "username": "vidarw",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ryajn33qbh37h28ua-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "69"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "69",
+  "likes": "0",
   "revisionId": "8iYjQy6rdn3j8kJc9"
 }

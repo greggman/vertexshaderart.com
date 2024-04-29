@@ -3,9 +3,7 @@
   "owner": {
     "_id": "AKayQxJZqd5z7boy2",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1550038451574"
-      }
+      "$date": "1550038451574"
     },
     "profile": {
       "first_name": "Archer",
@@ -16,21 +14,15 @@
     "username": "archer"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1550039578450"
-    }
+    "$date": "1550039578450"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1550042901276"
-    }
+    "$date": "1550042901276"
   },
   "origId": null,
   "name": "Testing",
   "notes": "For testing purposes",
-  "rank": {
-    "$numberDouble": "1.351290166679775"
-  },
+  "rank": "1.351290166679775",
   "private": false,
   "unlisted": true,
   "username": "archer",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-lfccmty0e7bjkme39-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "14"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "14",
+  "likes": "0",
   "revisionId": "cEq53DCbdRhLqbAGf"
 }

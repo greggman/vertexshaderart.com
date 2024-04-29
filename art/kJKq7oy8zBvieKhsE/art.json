@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1553152938197"
-      }
+      "$date": "1553152938197"
     },
     "username": "janalex",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553244180982"
-    }
+    "$date": "1553244180982"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553244180982"
-    }
+    "$date": "1553244180982"
   },
   "origId": "yrXnJnTbLipbKFdcc",
   "name": "1903-GridWaves",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4615284564460405"
-  },
+  "rank": "1.4615284564460405",
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-r4v4hac03qbkmnri0-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "62"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "62",
+  "likes": "0",
   "revisionId": "Exha66rTPt5w9Hybi"
 }

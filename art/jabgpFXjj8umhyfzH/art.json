@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1523371418615"
-    }
+    "$date": "1523371418615"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1525449610938"
-    }
+    "$date": "1525449610938"
   },
   "origId": null,
   "name": "First Naive Starfield",
   "notes": "First naive implementation of a starfield.",
-  "rank": {
-    "$numberDouble": "1.542389191548812"
-  },
+  "rank": "1.542389191548812",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-oczwqt9u1p2hz6w3v-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "XWN244MhR6y4avvEb"
 }

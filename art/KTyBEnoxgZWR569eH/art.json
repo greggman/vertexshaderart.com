@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,20 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447734639062"
-    }
+    "$date": "1447734639062"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1447735359778"
-    }
+    "$date": "1447735359778"
   },
   "origId": null,
   "name": "tunnel",
-  "rank": {
-    "$numberDouble": "10.550849904167329"
-  },
+  "rank": "10.550849904167329",
   "private": false,
   "username": "gman",
   "settings": {
@@ -45,12 +37,8 @@
   },
   "screenshotURL": "data/images/images-wgrinolii03me1opn-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "255"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "255",
+  "likes": "6",
   "revisionId": "gjb7C3GvvxgEDr6mN",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

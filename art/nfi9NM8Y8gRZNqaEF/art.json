@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1644447428196"
-    }
+    "$date": "1644447428196"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1644447428196"
-    }
+    "$date": "1644447428196"
   },
   "origId": "H56ztSpxnFf2kZGwv",
   "name": "K Machine exposed shader",
   "notes": "K Machine exposed shader",
-  "rank": {
-    "$numberDouble": "1.5044402833510113"
-  },
+  "rank": "1.5044402833510113",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-a09xg59c97pvo7nue-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "138"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "138",
+  "likes": "0",
   "revisionId": "nX4jKMmmcb5Xb4BFa"
 }

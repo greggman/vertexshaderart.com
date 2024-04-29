@@ -3,9 +3,7 @@
   "owner": {
     "_id": "T2kiqcyrWpNY4YuE7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1704921597360"
-      }
+      "$date": "1704921597360"
     },
     "profile": {
       "name": "Simon Taeter",
@@ -14,21 +12,15 @@
     "username": "staeter"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1705069098279"
-    }
+    "$date": "1705069098279"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1705069098279"
-    }
+    "$date": "1705069098279"
   },
   "origId": "27b5AxnyWM3K9MTg4",
   "name": "wip",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.183345894907577"
-  },
+  "rank": "1.183345894907577",
   "private": false,
   "unlisted": true,
   "username": "staeter",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-91spbh2szewga46zo-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "FfJtKKgwLZeEd4YME"
 }

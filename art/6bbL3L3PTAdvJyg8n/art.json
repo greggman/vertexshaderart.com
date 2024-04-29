@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1552679132604"
-    }
+    "$date": "1552679132604"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1552679132604"
-    }
+    "$date": "1552679132604"
   },
   "origId": "MfQT7AKEmWF7Q35TS",
   "name": "gatra",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.3069747373428"
-  },
+  "rank": "10.3069747373428",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-895yhf4dvzto6fti5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "898"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "898",
+  "likes": "7",
   "revisionId": "8kTdfz4pEXyWm2pDy"
 }

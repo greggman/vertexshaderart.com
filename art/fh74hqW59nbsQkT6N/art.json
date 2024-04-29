@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1618264688331"
-      }
+      "$date": "1618264688331"
     },
     "username": "chriscamplin",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619828955405"
-    }
+    "$date": "1619828955405"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619828955405"
-    }
+    "$date": "1619828955405"
   },
   "origId": null,
   "name": "Montara",
   "notes": "Music by 7T2Names",
-  "rank": {
-    "$numberDouble": "1.274834618054684"
-  },
+  "rank": "1.274834618054684",
   "private": false,
   "unlisted": false,
   "username": "chriscamplin",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-mbsypi50i68ym2i64-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "239"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "239",
+  "likes": "0",
   "revisionId": "FxFfXYaJTWqPR3hbc"
 }

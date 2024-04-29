@@ -3,9 +3,7 @@
   "owner": {
     "_id": "pgKWPgR9Cfeze4JZf",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684327971226"
-      }
+      "$date": "1684327971226"
     },
     "profile": {
       "name": "seoseulbin",
@@ -14,21 +12,15 @@
     "username": "seoseulbin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684328113435"
-    }
+    "$date": "1684328113435"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684328352906"
-    }
+    "$date": "1684328352906"
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0973554952029785"
-  },
+  "rank": "1.0973554952029785",
   "private": false,
   "unlisted": true,
   "username": "seoseulbin",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-u4f6bryeahsjxmulb-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "11"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "11",
+  "likes": "0",
   "revisionId": "smTodpmb8SidPCoMh"
 }

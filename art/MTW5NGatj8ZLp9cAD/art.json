@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1666077789097"
-    }
+    "$date": "1666077789097"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1666077789097"
-    }
+    "$date": "1666077789097"
   },
   "origId": null,
   "name": "Super Triangles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1961092661572512"
-  },
+  "rank": "1.1961092661572512",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-vbsh00yiwbryqhu7f-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "hGy7Zvq4JENKPZ8zt"
 }

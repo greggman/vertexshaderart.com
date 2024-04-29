@@ -3,9 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494865701670"
-      }
+      "$date": "1494865701670"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496650006733"
-    }
+    "$date": "1496650006733"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496652003118"
-    }
+    "$date": "1496652003118"
   },
   "origId": null,
   "name": "circle",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5550462688398958"
-  },
+  "rank": "1.5550462688398958",
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-qhpv2y82xr67layx0-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "QQXidmqkhf7gBk57p"
 }

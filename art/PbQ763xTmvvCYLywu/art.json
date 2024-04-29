@@ -3,9 +3,7 @@
   "owner": {
     "_id": "6RzwZByhr6jrpQNwX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1495057568255"
-      }
+      "$date": "1495057568255"
     },
     "profile": {
       "name": "Isaac Goodfellow",
@@ -14,21 +12,15 @@
     "username": "isaac"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1495141186976"
-    }
+    "$date": "1495141186976"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1495141186976"
-    }
+    "$date": "1495141186976"
   },
   "origId": null,
   "name": "classy sphere",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.070857423578095"
-  },
+  "rank": "1.070857423578095",
   "private": false,
   "unlisted": true,
   "username": "isaac",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ls6d76snz52ucnov6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "WSXp5SRfwKdxKfbuc"
 }

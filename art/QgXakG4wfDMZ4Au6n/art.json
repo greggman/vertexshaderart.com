@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aGApaqB439oYBvo86",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1499871404427"
-      }
+      "$date": "1499871404427"
     },
     "profile": {
       "name": "Ryota Takemoto",
@@ -14,21 +12,15 @@
     "username": "r21nomi"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1529239337813"
-    }
+    "$date": "1529239337813"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1529773152539"
-    }
+    "$date": "1529773152539"
   },
   "origId": null,
   "name": "cube",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1484493445971193"
-  },
+  "rank": "1.1484493445971193",
   "private": false,
   "unlisted": false,
   "username": "r21nomi",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-tqvf2059n0axfkngr-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "272"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "272",
+  "likes": "1",
   "revisionId": "dLaPGixf2HJXaaLKs"
 }

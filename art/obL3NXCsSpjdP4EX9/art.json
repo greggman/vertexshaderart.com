@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1487369942188"
-    }
+    "$date": "1487369942188"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1487369942188"
-    }
+    "$date": "1487369942188"
   },
   "origId": "9EJbRaRyPZMpJ9zLk",
   "name": "plasma grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9958016740786884"
-  },
+  "rank": "1.9958016740786884",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-j8qy58ya4z0i3do4v-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "87"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "87",
+  "likes": "0",
   "revisionId": "ME32b9Dn4zPgWYjA6"
 }

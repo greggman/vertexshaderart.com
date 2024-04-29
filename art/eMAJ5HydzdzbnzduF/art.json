@@ -3,9 +3,7 @@
   "owner": {
     "_id": "PjeofrxxdagSm2pZE",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1486391451852"
-      }
+      "$date": "1486391451852"
     },
     "profile": {
       "name": "Johan Beronius",
@@ -14,21 +12,15 @@
     "username": "demoniak"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1486562062107"
-    }
+    "$date": "1486562062107"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1486570133789"
-    }
+    "$date": "1486570133789"
   },
   "origId": "NFPQeRuNoFDunGBxd",
   "name": "plasma grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.547848179616932"
-  },
+  "rank": "1.547848179616932",
   "private": false,
   "unlisted": false,
   "username": "demoniak",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-1138c3q08ikgv8ltn-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "195"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "195",
+  "likes": "0",
   "revisionId": "5R2npspTmXnZYCnMw"
 }

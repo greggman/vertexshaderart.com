@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1676474482446"
-    }
+    "$date": "1676474482446"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1676474482446"
-    }
+    "$date": "1676474482446"
   },
   "origId": "mmxfYzJp3mCehkHcH",
   "name": "technoball K machinized dev0",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9789300415500948"
-  },
+  "rank": "1.9789300415500948",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-1flpjy3ynqqpofr29-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "74"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "74",
+  "likes": "0",
   "revisionId": "AcBSmQcu6nh2xeaSg"
 }

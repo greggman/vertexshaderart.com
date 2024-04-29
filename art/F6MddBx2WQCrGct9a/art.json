@@ -3,9 +3,7 @@
   "owner": {
     "_id": "4tyoPu4KaFSX3nwCB",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1604486089788"
-      }
+      "$date": "1604486089788"
     },
     "profile": {
       "first_name": "gonnavis",
@@ -14,21 +12,15 @@
     "username": "gonnavis"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1604486118155"
-    }
+    "$date": "1604486118155"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1604486118155"
-    }
+    "$date": "1604486118155"
   },
   "origId": "7b2mtzWGfut7qG2b4",
   "name": "random_triangles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0045277156205088"
-  },
+  "rank": "1.0045277156205088",
   "private": false,
   "unlisted": true,
   "username": "gonnavis",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-37bcsjcyf38exhod0-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "LHg6dqr4LeAbiKJwm"
 }

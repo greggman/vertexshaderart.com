@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1522102915271"
-    }
+    "$date": "1522102915271"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1522102915271"
-    }
+    "$date": "1522102915271"
   },
   "origId": "L7qW9rkYQEWF4AzkK",
   "name": "BigSwingingSnake",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.475152227505246"
-  },
+  "rank": "10.475152227505246",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-bbqcgc7alazjab09v-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "412"
-  },
-  "likes": {
-    "$numberInt": "4"
-  },
+  "views": "412",
+  "likes": "4",
   "revisionId": "ucuKt7goEHkHX9AHi"
 }

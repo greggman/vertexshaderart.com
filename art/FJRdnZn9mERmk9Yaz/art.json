@@ -3,9 +3,7 @@
   "owner": {
     "_id": "h2veKHbrcaBoNCHmN",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575397922136"
-      }
+      "$date": "1575397922136"
     },
     "profile": {
       "first_name": "ארד",
@@ -15,21 +13,15 @@
     "username": "ארד"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1575397945452"
-    }
+    "$date": "1575397945452"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1575397945452"
-    }
+    "$date": "1575397945452"
   },
   "origId": null,
   "name": "FirstShader",
   "notes": "My first shader :O",
-  "rank": {
-    "$numberDouble": "1.0625835534401886"
-  },
+  "rank": "1.0625835534401886",
   "private": false,
   "unlisted": false,
   "username": "ארד",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-5d9tqrhkygzmgg6f3-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "184"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "184",
+  "likes": "1",
   "revisionId": "XNLEe9EpeZJYoLqcG"
 }

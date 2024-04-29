@@ -3,9 +3,7 @@
   "owner": {
     "_id": "fJsd989asQpLSTgC3",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1687709824959"
-      }
+      "$date": "1687709824959"
     },
     "username": "mv10",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1687724846809"
-    }
+    "$date": "1687724846809"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1687881648024"
-    }
+    "$date": "1687881648024"
   },
   "origId": "bpX9tBkNhHiF6nHk8",
   "name": "frequency FX",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.975244127125338"
-  },
+  "rank": "1.975244127125338",
   "private": false,
   "unlisted": true,
   "username": "mv10",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-outq0ykfqaj8rxtfr-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "21"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "21",
+  "likes": "0",
   "revisionId": "pDRJc86RFoEYtRaRz"
 }

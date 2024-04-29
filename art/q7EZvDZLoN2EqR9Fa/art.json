@@ -3,9 +3,7 @@
   "owner": {
     "_id": "F5H8bRPnrGa3XNp95",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652946063947"
-      }
+      "$date": "1652946063947"
     },
     "profile": {
       "name": "Geonhwi Sim",
@@ -14,21 +12,15 @@
     "username": "geonhwisim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652948132493"
-    }
+    "$date": "1652948132493"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652948132493"
-    }
+    "$date": "1652948132493"
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5527105723549015"
-  },
+  "rank": "1.5527105723549015",
   "private": false,
   "unlisted": true,
   "username": "geonhwisim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-0jlw545648if1ka1z-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "ooW5cXjh5sW9dykQ3"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "duxi6M5TiGWZ5CeBh",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445820506349"
-      }
+      "$date": "1445820506349"
     },
     "profile": {
       "name": "Visa-Valtteri Pimiä",
@@ -15,21 +13,15 @@
     "username": "visy"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1451476892932"
-    }
+    "$date": "1451476892932"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1451478316109"
-    }
+    "$date": "1451478316109"
   },
   "origId": null,
   "name": "funk",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1906668029802017"
-  },
+  "rank": "1.1906668029802017",
   "private": false,
   "unlisted": false,
   "username": "visy",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-vt2su5f6py5riuqk6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "91"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "91",
+  "likes": "0",
   "revisionId": "cwexnoPamYoi88h5B"
 }

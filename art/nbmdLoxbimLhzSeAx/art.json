@@ -3,9 +3,7 @@
   "owner": {
     "_id": "joDKXpnwg84upkKFi",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1617646542436"
-      }
+      "$date": "1617646542436"
     },
     "profile": {
       "first_name": "Savash",
@@ -15,21 +13,15 @@
     "username": "savash"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1617646738736"
-    }
+    "$date": "1617646738736"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619976650126"
-    }
+    "$date": "1619976650126"
   },
   "origId": null,
   "name": "dot attempt12",
   "notes": "win",
-  "rank": {
-    "$numberDouble": "1.2436166432960891"
-  },
+  "rank": "1.2436166432960891",
   "private": false,
   "unlisted": true,
   "username": "savash",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-dn1jzjtu5f94nv0aq-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "5",
+  "likes": "1",
   "revisionId": "vxh2h2rQ67iTNvCqd"
 }

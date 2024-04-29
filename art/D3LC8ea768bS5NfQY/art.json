@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1501809195247"
-    }
+    "$date": "1501809195247"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1501809195247"
-    }
+    "$date": "1501809195247"
   },
   "origId": "Suxnf3g4CqC5dLWw6",
   "name": "saucer attack (mouse.xy)",
   "notes": "2017-07-13: replaced music",
-  "rank": {
-    "$numberDouble": "1.222612540645303"
-  },
+  "rank": "1.222612540645303",
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-nqz30ouqnw8hqz6v0-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "91"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "91",
+  "likes": "0",
   "revisionId": "qjLE3rZyN7rjhEG9D"
 }

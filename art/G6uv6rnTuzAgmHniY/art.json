@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,20 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1448533775823"
-    }
+    "$date": "1448533775823"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1499942589568"
-    }
+    "$date": "1499942589568"
   },
   "origId": "DCY4ddBCsphoYLARH",
   "name": "crystalsnds",
-  "rank": {
-    "$numberDouble": "10.239243005292035"
-  },
+  "rank": "10.239243005292035",
   "private": false,
   "username": "gman",
   "settings": {
@@ -45,12 +37,8 @@
   },
   "screenshotURL": "data/images/images-xc9xupidzadldm94e-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "441"
-  },
-  "likes": {
-    "$numberInt": "9"
-  },
+  "views": "441",
+  "likes": "9",
   "revisionId": "jFjgGCaDNaunbvH89",
   "unlisted": false,
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",

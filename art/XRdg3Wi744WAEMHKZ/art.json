@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1498818443081"
-    }
+    "$date": "1498818443081"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1498818443081"
-    }
+    "$date": "1498818443081"
   },
   "origId": "3Csyw9ecsH7rXLkok",
   "name": "Spiral-TRIdNCE1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0334327715626812"
-  },
+  "rank": "1.0334327715626812",
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-vqx4b2zvj61yf3hhm-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "87"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "87",
+  "likes": "0",
   "revisionId": "m5CYDbvMyC2ua6n9s"
 }

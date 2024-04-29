@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1506860213378"
-    }
+    "$date": "1506860213378"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1506860213378"
-    }
+    "$date": "1506860213378"
   },
   "origId": "f2eQBt4FaMKf9efrz",
   "name": "crystal irisz (1xxx)",
   "notes": "2017-07-13: replaced music",
-  "rank": {
-    "$numberDouble": "10.316096366183048"
-  },
+  "rank": "10.316096366183048",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-02wh8dgy7pkg8hsij-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "194"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "194",
+  "likes": "2",
   "revisionId": "KFkg4Pjxg7n66ihzD"
 }

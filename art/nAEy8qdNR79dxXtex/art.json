@@ -3,9 +3,7 @@
   "owner": {
     "_id": "pgKWPgR9Cfeze4JZf",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684327971226"
-      }
+      "$date": "1684327971226"
     },
     "profile": {
       "name": "seoseulbin",
@@ -14,21 +12,15 @@
     "username": "seoseulbin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684840111644"
-    }
+    "$date": "1684840111644"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684841243629"
-    }
+    "$date": "1684841243629"
   },
   "origId": null,
   "name": "Audio Reactive Art",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.720502007745836"
-  },
+  "rank": "1.720502007745836",
   "private": false,
   "unlisted": true,
   "username": "seoseulbin",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-1g9qblb0o9ewh1rwv-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "S9DFMuG9oxSXoGA4E"
 }

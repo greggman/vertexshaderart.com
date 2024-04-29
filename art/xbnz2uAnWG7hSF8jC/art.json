@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,20 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1448859440866"
-    }
+    "$date": "1448859440866"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1448859440866"
-    }
+    "$date": "1448859440866"
   },
   "origId": "nL6YpkW8YvGKNEKtj",
   "name": "res-indy point cloud vs spheres",
-  "rank": {
-    "$numberDouble": "1.8634795157798085"
-  },
+  "rank": "1.8634795157798085",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -46,12 +38,8 @@
   },
   "screenshotURL": "data/images/images-ko6hozqgok7d3xj7u-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "r8u3S8bwnPwDmNhB8",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

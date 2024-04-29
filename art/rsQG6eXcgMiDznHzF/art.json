@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zfC9oYgfF4grneg5p",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684313887762"
-      }
+      "$date": "1684313887762"
     },
     "username": "duhochoi",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684417030010"
-    }
+    "$date": "1684417030010"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684417030010"
-    }
+    "$date": "1684417030010"
   },
   "origId": "aZd7ykAPBAnQ9mKSb",
   "name": "Motion_Duho Choi",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3145588513568514"
-  },
+  "rank": "1.3145588513568514",
   "private": false,
   "unlisted": true,
   "username": "duhochoi",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-u5bpfhzek7qra5u6v-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "rSDLH28YYCTn9DfyS"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1501757517532"
-    }
+    "$date": "1501757517532"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1502958731627"
-    }
+    "$date": "1502958731627"
   },
   "origId": "GxL6CjaGt3wyQZxyL",
   "name": "math errors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9073514689173776"
-  },
+  "rank": "1.9073514689173776",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-kyy1cybih9ww1g0wc-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "20"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "20",
+  "likes": "0",
   "revisionId": "iXKwcqhgZCQnoJQv4"
 }

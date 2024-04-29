@@ -3,9 +3,7 @@
   "owner": {
     "_id": "bo599JjHiiAF2SxT6",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1554181328913"
-      }
+      "$date": "1554181328913"
     },
     "username": "jefflee",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554181353062"
-    }
+    "$date": "1554181353062"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554181353062"
-    }
+    "$date": "1554181353062"
   },
   "origId": null,
   "name": "Lee",
   "notes": "rgb cool",
-  "rank": {
-    "$numberDouble": "10.017360720682657"
-  },
+  "rank": "10.017360720682657",
   "private": false,
   "unlisted": false,
   "username": "jefflee",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-x8tzxjmbzwbjhhtlr-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "844"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "844",
+  "likes": "2",
   "revisionId": "mQ2fkD6ouxSgwiE2p"
 }

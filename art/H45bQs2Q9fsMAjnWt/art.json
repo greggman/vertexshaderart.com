@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1570869913791"
-    }
+    "$date": "1570869913791"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1570869913791"
-    }
+    "$date": "1570869913791"
   },
   "origId": "eE6QrFjkFRdezQsuW",
   "name": "perc2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.608986645129299"
-  },
+  "rank": "1.608986645129299",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-l8y802g4y6yjy1axx-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "96"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "96",
+  "likes": "0",
   "revisionId": "NB9tLJanMJzb2zj8r"
 }

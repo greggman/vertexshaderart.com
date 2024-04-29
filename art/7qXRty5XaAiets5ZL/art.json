@@ -4,20 +4,14 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1449359590658"
-    }
+    "$date": "1449359590658"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1449359590658"
-    }
+    "$date": "1449359590658"
   },
   "origId": "DsvE4S4dECyiP9akX",
   "name": "illu",
-  "rank": {
-    "$numberDouble": "1.39379899628885"
-  },
+  "rank": "1.39379899628885",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -36,11 +30,7 @@
   },
   "screenshotURL": "data/images/images-oia5cupcs3b0x38ns-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "159"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "159",
+  "likes": "0",
   "revisionId": "NpeRjEKQtH2q8PCyj"
 }

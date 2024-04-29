@@ -3,9 +3,7 @@
   "owner": {
     "_id": "9FyGSKFd6DqeASjpd",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1672677407736"
-      }
+      "$date": "1672677407736"
     },
     "profile": {
       "name": "Jose A. Álvarez",
@@ -14,21 +12,15 @@
     "username": "iguacel"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1672677938661"
-    }
+    "$date": "1672677938661"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1672677938661"
-    }
+    "$date": "1672677938661"
   },
   "origId": null,
   "name": "Point",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2690247944043316"
-  },
+  "rank": "1.2690247944043316",
   "private": false,
   "unlisted": true,
   "username": "iguacel",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-g8vnu8gx6whue078i-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "Bx6eWugPGFwfGf5Go"
 }

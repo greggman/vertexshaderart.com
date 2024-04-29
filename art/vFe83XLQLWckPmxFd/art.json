@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1592659049400"
-    }
+    "$date": "1592659049400"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1592659079431"
-    }
+    "$date": "1592659079431"
   },
   "origId": "hffRc9FH8TMNKECkJ",
   "name": "dreams-water",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8658625051181394"
-  },
+  "rank": "1.8658625051181394",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-erhzmw5woo4u61489-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "78Jt5aLQdpxR7QygW"
 }

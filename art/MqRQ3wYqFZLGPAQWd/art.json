@@ -3,9 +3,7 @@
   "owner": {
     "_id": "NAvHKNuxDSsKeTzss",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652854231365"
-      }
+      "$date": "1652854231365"
     },
     "username": "jaewoo.choi",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652856142122"
-    }
+    "$date": "1652856142122"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652859159708"
-    }
+    "$date": "1652859159708"
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.609104028376035"
-  },
+  "rank": "1.609104028376035",
   "private": false,
   "unlisted": true,
   "username": "jaewoo.choi",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-vwv4rqo6xc0w7k168-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "NKmgTHzui5paGkknq"
 }

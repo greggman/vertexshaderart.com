@@ -3,9 +3,7 @@
   "owner": {
     "_id": "pNRhszAEASfy6B3Xs",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1453130559425"
-      }
+      "$date": "1453130559425"
     },
     "username": "gaz",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1459091756933"
-    }
+    "$date": "1459091756933"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1459094204892"
-    }
+    "$date": "1459094204892"
   },
   "origId": "GoviGkHcqKYCZeJKp",
   "name": "Sound Texture",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.955851610184569"
-  },
+  "rank": "10.955851610184569",
   "private": false,
   "unlisted": false,
   "username": "gaz",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-39o1j2yw3iwkq9h4i-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "439"
-  },
-  "likes": {
-    "$numberInt": "4"
-  },
+  "views": "439",
+  "likes": "4",
   "revisionId": "5P5gYmrd8AnLPxjsH"
 }

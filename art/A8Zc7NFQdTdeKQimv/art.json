@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1506791667900"
-    }
+    "$date": "1506791667900"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1506791667900"
-    }
+    "$date": "1506791667900"
   },
   "origId": "7TrYkuK4aHzLqvZ7r",
   "name": "pookymelon",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.121527623282192"
-  },
+  "rank": "10.121527623282192",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-dscqkvp0vbpyv74mf-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "758"
-  },
-  "likes": {
-    "$numberInt": "10"
-  },
+  "views": "758",
+  "likes": "10",
   "revisionId": "8TbPNzy7gAKpNs7Hj"
 }

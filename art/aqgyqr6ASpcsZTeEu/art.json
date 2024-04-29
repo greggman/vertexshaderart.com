@@ -3,9 +3,7 @@
   "owner": {
     "_id": "F5if23dnvCEmcMssC",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1446316652572"
-      }
+      "$date": "1446316652572"
     },
     "profile": {
       "first_name": "Mark",
@@ -15,20 +13,14 @@
     "username": "mark"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447962079174"
-    }
+    "$date": "1447962079174"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1448037373793"
-    }
+    "$date": "1448037373793"
   },
   "origId": "Yg9JRZQhtaWe3dpis",
   "name": "spheres",
-  "rank": {
-    "$numberDouble": "10.303115342462263"
-  },
+  "rank": "10.303115342462263",
   "private": false,
   "username": "mark",
   "settings": {
@@ -46,12 +38,8 @@
   },
   "screenshotURL": "data/images/images-3w3gf1cd32tgjbgr4-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "476"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "476",
+  "likes": "3",
   "revisionId": "EswMju4Zqyvk2X2fx",
   "avatarUrl": "https://lh3.googleusercontent.com/-Lca4UGau1OU/AAAAAAAAAAI/AAAAAAAAAI4/dSttspxaINs/photo.jpg"
 }

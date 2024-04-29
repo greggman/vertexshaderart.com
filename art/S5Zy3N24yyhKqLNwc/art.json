@@ -3,9 +3,7 @@
   "owner": {
     "_id": "q4xaX8JuN9ATDe8tt",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1517619250907"
-      }
+      "$date": "1517619250907"
     },
     "profile": {
       "first_name": "Anuar",
@@ -15,21 +13,15 @@
     "username": "anuar"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1517961407277"
-    }
+    "$date": "1517961407277"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1517961407277"
-    }
+    "$date": "1517961407277"
   },
   "origId": null,
   "name": "cosa 2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0883529950361355"
-  },
+  "rank": "1.0883529950361355",
   "private": false,
   "unlisted": true,
   "username": "anuar",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-4dbiugmo9k3lcreea-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "sjsgoctFe9x63zBqP"
 }

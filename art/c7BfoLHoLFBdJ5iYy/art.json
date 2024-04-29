@@ -3,9 +3,7 @@
   "owner": {
     "_id": "frHwqfGRgMrLdBSxk",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652848268471"
-      }
+      "$date": "1652848268471"
     },
     "profile": {
       "name": "Sehoon Kim",
@@ -14,21 +12,15 @@
     "username": "sehoonkim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652848486714"
-    }
+    "$date": "1652848486714"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652851391523"
-    }
+    "$date": "1652851391523"
   },
   "origId": "d8rzf4Hgtp69tQvrz",
   "name": "Making a Grid - sehun.kim",
   "notes": "Exercise - Vertexshaderart : Making a Grid",
-  "rank": {
-    "$numberDouble": "1.595218880619651"
-  },
+  "rank": "1.595218880619651",
   "private": false,
   "unlisted": true,
   "username": "sehoonkim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-hvlneikv92976wjq7-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "33Po6DBBcMupWpscz"
 }

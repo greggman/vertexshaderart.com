@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1450537124201"
-    }
+    "$date": "1450537124201"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1450986156301"
-    }
+    "$date": "1450986156301"
   },
   "origId": "yWSCEoXnFJxXAZyBo",
   "name": "splot",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.608069872157596"
-  },
+  "rank": "10.608069872157596",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-wf3ynpo84zmn6hf0r-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "374"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "374",
+  "likes": "6",
   "revisionId": "zB2LNu3iNdR3ZTRoY"
 }

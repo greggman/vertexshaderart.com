@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1451302454250"
-    }
+    "$date": "1451302454250"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1456340852121"
-    }
+    "$date": "1456340852121"
   },
   "origId": "DCY4ddBCsphoYLARH",
   "name": "gear",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8206473544068549"
-  },
+  "rank": "1.8206473544068549",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-6j7jzjty2zekebsu4-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "128"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "128",
+  "likes": "0",
   "revisionId": "hqbNcAXcbxCGAcuth"
 }

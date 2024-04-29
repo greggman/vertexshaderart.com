@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1452093395437"
-    }
+    "$date": "1452093395437"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1591668481141"
-    }
+    "$date": "1591668481141"
   },
   "origId": "WEKX8jLk432REZLJq",
   "name": "radonut",
   "notes": "Inspired by the album cover",
-  "rank": {
-    "$numberDouble": "1.3774257705079127"
-  },
+  "rank": "1.3774257705079127",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-wtf4k2310970nl4zh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "275"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "275",
+  "likes": "1",
   "revisionId": "6PnfqcnSCKTvaAEdh"
 }

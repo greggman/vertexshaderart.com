@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1524511390138"
-    }
+    "$date": "1524511390138"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1524511535824"
-    }
+    "$date": "1524511535824"
   },
   "origId": null,
   "name": "Simple and terrible first particle system",
   "notes": "Terrible lol but its a start, not sure yet how to model life span per vertex just yet, even velocity / acceleration",
-  "rank": {
-    "$numberDouble": "1.0052449880150987"
-  },
+  "rank": "1.0052449880150987",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-axeehe66y6m2gt250-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "BRFiuMrQQX3jWP99L"
 }

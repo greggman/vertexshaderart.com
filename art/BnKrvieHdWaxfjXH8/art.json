@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1509244868902"
-    }
+    "$date": "1509244868902"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1509244868902"
-    }
+    "$date": "1509244868902"
   },
   "origId": "L2EkNfwTM8yncpYNw",
   "name": "toon chaos12",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9728917084215274"
-  },
+  "rank": "1.9728917084215274",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-2hbyxnib9rp2osjqq-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "95"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "95",
+  "likes": "0",
   "revisionId": "dd9TLr2d4j6CESHN2"
 }

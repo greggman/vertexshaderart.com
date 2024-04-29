@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1503465544117"
-    }
+    "$date": "1503465544117"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1503465544117"
-    }
+    "$date": "1503465544117"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7598443541141358"
-  },
+  "rank": "1.7598443541141358",
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-cvzm7snauyq1yyez6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "120"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "120",
+  "likes": "0",
   "revisionId": "kMdLK6RXtAX5hMdof"
 }

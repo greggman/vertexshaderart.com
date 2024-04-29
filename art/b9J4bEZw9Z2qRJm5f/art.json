@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575718900497"
-      }
+      "$date": "1575718900497"
     },
     "username": "evan_chen",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1578398393611"
-    }
+    "$date": "1578398393611"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1578539683163"
-    }
+    "$date": "1578539683163"
   },
   "origId": "X74uYKiDLZJmqhLnh",
   "name": "sphere create ",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.406007567978952"
-  },
+  "rank": "1.406007567978952",
   "private": false,
   "unlisted": true,
   "username": "evan_chen",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-nidt3qols9exy4aqf-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "dWmawDpNpbH2noYsm"
 }

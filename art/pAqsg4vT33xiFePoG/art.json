@@ -3,9 +3,7 @@
   "owner": {
     "_id": "TWEXAT6H37wepJBPH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1704461148179"
-      }
+      "$date": "1704461148179"
     },
     "profile": {
       "first_name": "lin",
@@ -15,21 +13,15 @@
     "username": "lin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1705311926960"
-    }
+    "$date": "1705311926960"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1705313078603"
-    }
+    "$date": "1705313078603"
   },
   "origId": null,
   "name": "points",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8541945844378367"
-  },
+  "rank": "1.8541945844378367",
   "private": false,
   "unlisted": true,
   "username": "lin",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-8qjowkbg7cqxzohyu-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "GdcEJo6AuAWEyMf3a"
 }

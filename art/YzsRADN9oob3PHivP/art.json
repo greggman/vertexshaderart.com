@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ae4gC3FWQR5veXTKq",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684210422037"
-      }
+      "$date": "1684210422037"
     },
     "username": "w.chae",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684940441735"
-    }
+    "$date": "1684940441735"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684942221942"
-    }
+    "$date": "1684942221942"
   },
   "origId": null,
   "name": "AudioReactive",
   "notes": "AudioReactive",
-  "rank": {
-    "$numberDouble": "1.9422001241854796"
-  },
+  "rank": "1.9422001241854796",
   "private": false,
   "unlisted": true,
   "username": "w.chae",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-o7lxu55kyhi30lxek-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "T7JJ2ikWKPKoe6eLj"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gYBmTGxvno9hKndQM",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1610122206689"
-      }
+      "$date": "1610122206689"
     },
     "profile": {
       "name": "Thanos Theodorakopoulos",
@@ -14,21 +12,15 @@
     "username": "galousis"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1611521806991"
-    }
+    "$date": "1611521806991"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1611534630976"
-    }
+    "$date": "1611534630976"
   },
   "origId": null,
   "name": "crazyplanet",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4967862506730945"
-  },
+  "rank": "1.4967862506730945",
   "private": false,
   "unlisted": false,
   "username": "galousis",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-05fgsemszbjctt71m-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "252"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "252",
+  "likes": "0",
   "revisionId": "5YHvPmgCTcwoeSs7g"
 }

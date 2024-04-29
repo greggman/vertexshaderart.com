@@ -3,9 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1507987372682"
-      }
+      "$date": "1507987372682"
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -14,21 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1508333605960"
-    }
+    "$date": "1508333605960"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1508333605960"
-    }
+    "$date": "1508333605960"
   },
   "origId": "6Yx2A7TQ6NnyHhFPQ",
   "name": "bwow",
   "notes": "Trying an failing to replicate \n\n![this](https://67.media.tumblr.com/b0ab265af61e714f2120d701ee4096b2/tumblr_oco0nnxZg51r2geqjo1_500.gif)",
-  "rank": {
-    "$numberDouble": "1.8939617506745532"
-  },
+  "rank": "1.8939617506745532",
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-nq9d076rx1x340eir-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "cQxy5o7EQTxszj74T"
 }

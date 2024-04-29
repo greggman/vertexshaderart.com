@@ -3,9 +3,7 @@
   "owner": {
     "_id": "mpgr9P8vvjvtQG6rW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1595998191288"
-      }
+      "$date": "1595998191288"
     },
     "profile": {
       "name": "Rubin Huang",
@@ -14,21 +12,15 @@
     "username": "rubinhuang9239"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1596328223305"
-    }
+    "$date": "1596328223305"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1596328238855"
-    }
+    "$date": "1596328238855"
   },
   "origId": "RjKNeXgMi8SchMEXg",
   "name": "Grid Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7160939097461072"
-  },
+  "rank": "1.7160939097461072",
   "private": false,
   "unlisted": true,
   "username": "rubinhuang9239",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-j0d408nqn07t977bk-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "onv2kEFybjgpFBJ8W"
 }

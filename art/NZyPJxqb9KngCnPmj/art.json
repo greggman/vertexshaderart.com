@@ -3,9 +3,7 @@
   "owner": {
     "_id": "LWTM5MfY5gW856w6L",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1495864692719"
-      }
+      "$date": "1495864692719"
     },
     "profile": {
       "name": "Keyu Gong",
@@ -14,21 +12,15 @@
     "username": "keyu"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496293558269"
-    }
+    "$date": "1496293558269"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496293558269"
-    }
+    "$date": "1496293558269"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2332660532023185"
-  },
+  "rank": "1.2332660532023185",
   "private": false,
   "unlisted": true,
   "username": "keyu",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-0apd08t6z0r337qou-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "uEX9FCCevfc53o6Le"
 }

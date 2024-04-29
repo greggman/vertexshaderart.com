@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501857924166"
-      }
+      "$date": "1501857924166"
     },
     "profile": {
       "name": "Macro Machines",
@@ -15,21 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1600427232722"
-    }
+    "$date": "1600427232722"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1600427262299"
-    }
+    "$date": "1600427262299"
   },
   "origId": "p9pecgaEBJ3kz5r7g",
   "name": "red ring",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9435334327560572"
-  },
+  "rank": "1.9435334327560572",
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-f1xpywpsobuemkfks-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "2",
+  "likes": "1",
   "revisionId": "uNvqrP2dYfJt2PC9r"
 }

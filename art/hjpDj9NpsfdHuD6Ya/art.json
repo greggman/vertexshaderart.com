@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1482756917989"
-    }
+    "$date": "1482756917989"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1482756917989"
-    }
+    "$date": "1482756917989"
   },
   "origId": "9wKMAeACxZ3WoJc2m",
   "name": "Spiral2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6504821947507462"
-  },
+  "rank": "1.6504821947507462",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-zv3xwlxbumoflar2a-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "87"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "87",
+  "likes": "0",
   "revisionId": "7vhZxEL55siW69Ea7"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1470369702018"
-    }
+    "$date": "1470369702018"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1482772764629"
-    }
+    "$date": "1482772764629"
   },
   "origId": "7YksmRJcwQXipHhfx",
   "name": "spiky",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.452362849298431"
-  },
+  "rank": "1.452362849298431",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-kgig6x7ocjqne128f-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "253"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "253",
+  "likes": "0",
   "revisionId": "8bHeLzARdEM2WHHao"
 }

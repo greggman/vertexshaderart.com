@@ -3,9 +3,7 @@
   "owner": {
     "_id": "CL56fLeJWNjv8p9hc",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501331424273"
-      }
+      "$date": "1501331424273"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "ray7551"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1501501541819"
-    }
+    "$date": "1501501541819"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1502352643479"
-    }
+    "$date": "1502352643479"
   },
   "origId": null,
   "name": "LED Display",
   "notes": "A tribute to La La Land.\nA music visualization demo.\nInspired by fragment shader http://glslsandbox.com/e#41758.0",
-  "rank": {
-    "$numberDouble": "10.076376869087731"
-  },
+  "rank": "10.076376869087731",
   "private": false,
   "unlisted": false,
   "username": "ray7551",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-va2v0rc3zix2hies9-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1290"
-  },
-  "likes": {
-    "$numberInt": "5"
-  },
+  "views": "1290",
+  "likes": "5",
   "revisionId": "Ci5rS3QxEMWpe36pT"
 }

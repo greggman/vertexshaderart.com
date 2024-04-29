@@ -3,9 +3,7 @@
   "owner": {
     "_id": "r9TsYjFbMAHj6aFmq",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1525508581790"
-      }
+      "$date": "1525508581790"
     },
     "username": "sina5an",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1539641129864"
-    }
+    "$date": "1539641129864"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1539641129864"
-    }
+    "$date": "1539641129864"
   },
   "origId": null,
   "name": "Test 1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7714471511000176"
-  },
+  "rank": "1.7714471511000176",
   "private": false,
   "unlisted": false,
   "username": "sina5an",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-h1uqv5yaqk10zsgli-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "204"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "204",
+  "likes": "0",
   "revisionId": "qKDvh9z83cmHrtDoG"
 }

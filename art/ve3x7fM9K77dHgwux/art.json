@@ -3,9 +3,7 @@
   "owner": {
     "_id": "cZNAKnfHAY6mZAn2h",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1598366337757"
-      }
+      "$date": "1598366337757"
     },
     "username": "morimea",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1616211154245"
-    }
+    "$date": "1616211154245"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1628948685887"
-    }
+    "$date": "1628948685887"
   },
   "origId": null,
   "name": "CSG vertex",
   "notes": "CSG template",
-  "rank": {
-    "$numberDouble": "1.412249549091789"
-  },
+  "rank": "1.412249549091789",
   "private": false,
   "unlisted": true,
   "username": "morimea",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-gm1xerjvhglsk9ey2-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "25"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "25",
+  "likes": "0",
   "revisionId": "goBCCABut2vjRzpdE"
 }

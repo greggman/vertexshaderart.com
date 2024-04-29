@@ -3,9 +3,7 @@
   "owner": {
     "_id": "RMhdQhPbrnDH4xXJ8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684321868058"
-      }
+      "$date": "1684321868058"
     },
     "username": "minseok.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684505570632"
-    }
+    "$date": "1684505570632"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684505570632"
-    }
+    "$date": "1684505570632"
   },
   "origId": null,
   "name": "Colors_minseok_kim",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.621513182045732"
-  },
+  "rank": "1.621513182045732",
   "private": false,
   "unlisted": false,
   "username": "minseok.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-dapat16nmyupp9tty-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "39"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "39",
+  "likes": "0",
   "revisionId": "JarBcvKEXq2a7jMfK"
 }

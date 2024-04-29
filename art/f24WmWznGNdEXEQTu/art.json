@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1494900429354"
-    }
+    "$date": "1494900429354"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1494900429354"
-    }
+    "$date": "1494900429354"
   },
   "origId": null,
   "name": "Pulsin",
   "notes": "Sound from Mr. One Way\nhttps://soundcloud.com/mr-one-way\n",
-  "rank": {
-    "$numberDouble": "1.963116070037969"
-  },
+  "rank": "1.963116070037969",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-o8j6foul9djzvabgh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "215"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "215",
+  "likes": "0",
   "revisionId": "ZwncWehwvTXbrABT8"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "5LTdpea5sxrFR6JkQ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1554194428800"
-      }
+      "$date": "1554194428800"
     },
     "username": "이원용",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554194464791"
-    }
+    "$date": "1554194464791"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554194464791"
-    }
+    "$date": "1554194464791"
   },
   "origId": null,
   "name": "cs230",
   "notes": "get_sound function get the sound_\ngl_position set position of points\ngl_PointSize control the size of points\nv_color set the color of points",
-  "rank": {
-    "$numberDouble": "1.6514835315354501"
-  },
+  "rank": "1.6514835315354501",
   "private": false,
   "unlisted": false,
   "username": "이원용",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ziksc6uu99ezoo06l-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "107"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "107",
+  "likes": "0",
   "revisionId": "ajucw7FQfchNrbw6m"
 }

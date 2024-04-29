@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551482335892"
-    }
+    "$date": "1551482335892"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551482335892"
-    }
+    "$date": "1551482335892"
   },
   "origId": "mQ966EQcC2e2h8cjZ",
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2663548393891488"
-  },
+  "rank": "1.2663548393891488",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-vi971qnbauumrvml3-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "74"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "74",
+  "likes": "0",
   "revisionId": "R4NcsjLZRwmK4owmY"
 }

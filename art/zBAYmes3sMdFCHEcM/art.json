@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1531506522197"
-    }
+    "$date": "1531506522197"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1531506522197"
-    }
+    "$date": "1531506522197"
   },
   "origId": "yQpwAFYqRp4knnezc",
   "name": "flowsss",
   "notes": "2017-07-13: Replace missing music :(",
-  "rank": {
-    "$numberDouble": "1.5623065103004594"
-  },
+  "rank": "1.5623065103004594",
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-r6q25mnps7kj4cijt-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "Lqt9tYnasXweXmBWk"
 }

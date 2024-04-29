@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1449854967706"
-    }
+    "$date": "1449854967706"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1449855724205"
-    }
+    "$date": "1449855724205"
   },
   "origId": "jg5dRsCi6xDSFyCJ9",
   "name": "Clifford Attractor fixed",
   "notes": "Yes. For whatever reason it doesn't work on my computer. To get it to work I had to set `i=1`",
-  "rank": {
-    "$numberDouble": "1.6572982419744258"
-  },
+  "rank": "1.6572982419744258",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-va1mcilzkwh4yvpuw-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "15"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "15",
+  "likes": "0",
   "revisionId": "NKRPMocwQBAHAR5KW"
 }

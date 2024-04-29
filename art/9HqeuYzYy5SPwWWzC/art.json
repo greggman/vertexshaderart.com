@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322328046"
-      }
+      "$date": "1684322328046"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684505870802"
-    }
+    "$date": "1684505870802"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684505870802"
-    }
+    "$date": "1684505870802"
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0780801244756006"
-  },
+  "rank": "1.0780801244756006",
   "private": false,
   "unlisted": true,
   "username": "chaerinpark",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-kfi330moddrvvhtjn-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "Gm6xdctnmc3sxTftx"
 }

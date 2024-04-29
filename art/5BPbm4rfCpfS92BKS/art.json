@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1553152938197"
-      }
+      "$date": "1553152938197"
     },
     "username": "janalex",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553345394446"
-    }
+    "$date": "1553345394446"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553345394446"
-    }
+    "$date": "1553345394446"
   },
   "origId": "5RiyKNicAa32rA9YZ",
   "name": "1903-GridCircles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7731843593295846"
-  },
+  "rank": "1.7731843593295846",
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-tc4v5rh7115njve12-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "99"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "99",
+  "likes": "0",
   "revisionId": "d84ypQQJuNFGAtzBR"
 }

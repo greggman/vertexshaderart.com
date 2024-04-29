@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1451229445500"
-    }
+    "$date": "1451229445500"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1451229445500"
-    }
+    "$date": "1451229445500"
   },
   "origId": null,
   "name": "xmas tree",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5680991652762442"
-  },
+  "rank": "1.5680991652762442",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-vdys8384bv8axgl31-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "125"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "125",
+  "likes": "0",
   "revisionId": "avpRtbkJmACRxqnyo"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ETaW3mXafkppQ6Een",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1496859364089"
-      }
+      "$date": "1496859364089"
     },
     "profile": {
       "name": "Nathan Beeby",
@@ -14,21 +12,15 @@
     "username": "nathan"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496860212366"
-    }
+    "$date": "1496860212366"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496862798363"
-    }
+    "$date": "1496862798363"
   },
   "origId": "LfMFq222gHE4os9ai",
   "name": " color",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8497441250529025"
-  },
+  "rank": "1.8497441250529025",
   "private": false,
   "unlisted": true,
   "username": "nathan",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-upkr025e9wco19zd4-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "wMtZfipqeK6XRjfdh"
 }

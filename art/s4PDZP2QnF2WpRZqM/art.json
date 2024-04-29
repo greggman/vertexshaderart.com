@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1553152938197"
-      }
+      "$date": "1553152938197"
     },
     "username": "janalex",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553158645847"
-    }
+    "$date": "1553158645847"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553158645847"
-    }
+    "$date": "1553158645847"
   },
   "origId": "vNF92j6RWk3FEERkv",
   "name": "1903-GridVibrating",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2895955364144465"
-  },
+  "rank": "1.2895955364144465",
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-kxrlwty2x206ms12p-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "23"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "23",
+  "likes": "0",
   "revisionId": "8wncxNkgrYWfgKBnn"
 }

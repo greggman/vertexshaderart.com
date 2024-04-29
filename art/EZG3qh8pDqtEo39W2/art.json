@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nTRyF676q3L6AsYmq",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652847165974"
-      }
+      "$date": "1652847165974"
     },
     "profile": {
       "name": "Hyunjin-Kim",
@@ -14,21 +12,15 @@
     "username": "hyunjin-kim-dp"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652947694364"
-    }
+    "$date": "1652947694364"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652958311235"
-    }
+    "$date": "1652958311235"
   },
   "origId": null,
   "name": "Exercise - Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.119996754348802"
-  },
+  "rank": "1.119996754348802",
   "private": false,
   "unlisted": true,
   "username": "hyunjin-kim-dp",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-0ikvszbnzx95ztz6g-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "5oaTNLCTiwj82CACN"
 }

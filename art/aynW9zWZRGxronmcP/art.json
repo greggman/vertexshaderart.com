@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1510356369921"
-    }
+    "$date": "1510356369921"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1510356369921"
-    }
+    "$date": "1510356369921"
   },
   "origId": "xWrTfrQ2whCaGaGWK",
   "name": "crystal dancer (mouse.xy)",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.485596143466157"
-  },
+  "rank": "1.485596143466157",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-zccb967zu9r7scfa8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "80"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "80",
+  "likes": "0",
   "revisionId": "E5XQqXetotsoRsubm"
 }

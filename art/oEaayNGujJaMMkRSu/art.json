@@ -3,9 +3,7 @@
   "owner": {
     "_id": "C2utQTT3TWar9FrqK",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1655222020443"
-      }
+      "$date": "1655222020443"
     },
     "username": "watermeloon",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1655326039946"
-    }
+    "$date": "1655326039946"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1655549277607"
-    }
+    "$date": "1655549277607"
   },
   "origId": null,
   "name": "sphere",
   "notes": "based on gman's morp",
-  "rank": {
-    "$numberDouble": "1.939171183647523"
-  },
+  "rank": "1.939171183647523",
   "private": false,
   "unlisted": false,
   "username": "watermeloon",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-z3q0env186w8aditu-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "102"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "102",
+  "likes": "0",
   "revisionId": "Duy6d7pjqRaJfAQMq"
 }

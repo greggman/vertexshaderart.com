@@ -3,9 +3,7 @@
   "owner": {
     "_id": "WPxtJNRQGyNafwBwv",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1552607566363"
-      }
+      "$date": "1552607566363"
     },
     "profile": {
       "first_name": "Marco Isaac",
@@ -15,21 +13,15 @@
     "username": "marcoisaac"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1552710516163"
-    }
+    "$date": "1552710516163"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1552710516163"
-    }
+    "$date": "1552710516163"
   },
   "origId": "59tQtCvfJrkPnfsbk",
   "name": "circulos",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9155125376277822"
-  },
+  "rank": "1.9155125376277822",
   "private": false,
   "unlisted": true,
   "username": "marcoisaac",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-bmemxdi48zakxhobr-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "ucHhpgiZ4Lqtde86E"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667032560256"
-      }
+      "$date": "1667032560256"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1669288333230"
-    }
+    "$date": "1669288333230"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1669288333230"
-    }
+    "$date": "1669288333230"
   },
   "origId": null,
   "name": "graysounds",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6584032960849997"
-  },
+  "rank": "1.6584032960849997",
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-6qzsf4xfvsa9wh594-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "42"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "42",
+  "likes": "0",
   "revisionId": "bKEZ2qkeokxJcPh7T"
 }

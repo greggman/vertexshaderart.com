@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1593816178433"
-    }
+    "$date": "1593816178433"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1593816178433"
-    }
+    "$date": "1593816178433"
   },
   "origId": null,
   "name": "Rotating line",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9850077358550424"
-  },
+  "rank": "1.9850077358550424",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-p0wqlcon0xw76q8g5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "88"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "88",
+  "likes": "0",
   "revisionId": "5vTHkP6akSLLEvCYi"
 }

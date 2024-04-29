@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1495766205260"
-    }
+    "$date": "1495766205260"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1495766205260"
-    }
+    "$date": "1495766205260"
   },
   "origId": "KouaGmh83NF5FCHdM",
   "name": "penguin thoughts",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6648773753993582"
-  },
+  "rank": "1.6648773753993582",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-nlqqsec09woe2pub0-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "80"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "80",
+  "likes": "1",
   "revisionId": "QZE8oeSXEumfnnKmM"
 }

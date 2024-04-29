@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1546509251979"
-    }
+    "$date": "1546509251979"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1546509251979"
-    }
+    "$date": "1546509251979"
   },
   "origId": "ZPpq2oK4fqmPHJnQn",
   "name": "Alert",
   "notes": "Alert\n@Re_gain Aka Daff",
-  "rank": {
-    "$numberDouble": "1.3202306284173995"
-  },
+  "rank": "1.3202306284173995",
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-gz9xmdxpsjg6ulyfm-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "SxHZJv7jjztu3WZzs"
 }

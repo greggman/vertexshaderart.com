@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1536319148480"
-    }
+    "$date": "1536319148480"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1536319148480"
-    }
+    "$date": "1536319148480"
   },
   "origId": "AndijhSm4Fuox73p9",
   "name": "vibrations",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.38104674989918"
-  },
+  "rank": "1.38104674989918",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-1xhkzzq9gmxbok4ae-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "102"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "102",
+  "likes": "0",
   "revisionId": "BDJMbTLfsiEGKfteB"
 }

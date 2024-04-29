@@ -3,9 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1507987372682"
-      }
+      "$date": "1507987372682"
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -14,21 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1507997065502"
-    }
+    "$date": "1507997065502"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1508329461709"
-    }
+    "$date": "1508329461709"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0328096991145763"
-  },
+  "rank": "1.0328096991145763",
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-9m5eh2co8szmq18aj-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "10"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "10",
+  "likes": "0",
   "revisionId": "mxhdeTvQdfDk44Ga3"
 }

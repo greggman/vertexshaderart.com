@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aRcuym3jqDR3e796n",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1446288834244"
-      }
+      "$date": "1446288834244"
     },
     "profile": {
       "name": "Clément Duquesne",
@@ -14,9 +12,7 @@
     "username": "spotline"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1446288852829"
-    }
+    "$date": "1446288852829"
   },
   "origId": null,
   "name": "test",
@@ -35,21 +31,13 @@
     "shader": "#define NUM_POINTS 5000.0\n//#define FIT_VERTICAL\n\n\nvoid main() \n{\n  float u = (float(vertexId)/NUM_POINTS) * 2.0 - 1.0;\n  float v = 0.0;\n  float ucoor = log((abs(u)*1.5 + 1.0));\n  v+= floor(texture2D(sound,vec2(ucoor,0.0)).a * 15.0)/15.0;\n  float osc = 0.2*cos(1.*(1.1*time+3.0*(abs(u)+1.0)));\n  float osc2 = 0.1*cos(1.*(-1.5*time+5.0*(abs(u)+1.0)));\n  float x = u * 2.0;\n  float y = v -0.5 + 0.5*pow(x,2.0) + osc +osc2;\n  gl_PointSize = v*15.0 + 1.0;\n  gl_Position = vec4(x,y,0,1);\n  v_color = vec4(1,1,1,1);\n}"
   },
   "screenshotURL": "data/images/images-n32ll286twu6hnngo-thumbnail.jpg",
-  "views": {
-    "$numberInt": "279"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "279",
+  "likes": "1",
   "revisionId": "PMRK7jyYwoLC4jui8",
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1446311026526"
-    }
+    "$date": "1446311026526"
   },
   "hasSound": true,
-  "rank": {
-    "$numberDouble": "1.2290354994222425"
-  },
+  "rank": "1.2290354994222425",
   "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
 }

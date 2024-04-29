@@ -3,9 +3,7 @@
   "owner": {
     "_id": "XZ9fGNm72T7MyEqAy",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1612890971955"
-      }
+      "$date": "1612890971955"
     },
     "username": "oneshade",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1612921919282"
-    }
+    "$date": "1612921919282"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1613019480244"
-    }
+    "$date": "1613019480244"
   },
   "origId": null,
   "name": "Shadertoy Renderer",
   "notes": "Point based shadertoy renderer.",
-  "rank": {
-    "$numberDouble": "1.77195913141606"
-  },
+  "rank": "1.77195913141606",
   "private": false,
   "unlisted": false,
   "username": "oneshade",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-4cwrlsae2orwwpycc-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "215"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "215",
+  "likes": "0",
   "revisionId": "yZBmMpFqD8gqTGPv8"
 }

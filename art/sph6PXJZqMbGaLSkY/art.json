@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1523300354053"
-    }
+    "$date": "1523300354053"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1523300354053"
-    }
+    "$date": "1523300354053"
   },
   "origId": "4vag7ndH4zPYNfMML",
   "name": "Hippie Spiral",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2008132411900094"
-  },
+  "rank": "1.2008132411900094",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-5dhm2uki4mm72wt5r-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "gpv5C5pWfadxa5FuF"
 }

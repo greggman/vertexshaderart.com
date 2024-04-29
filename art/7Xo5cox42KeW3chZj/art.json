@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1498417236727"
-    }
+    "$date": "1498417236727"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1498417236727"
-    }
+    "$date": "1498417236727"
   },
   "origId": "SHEuL7KCpNnj28Rmn",
   "name": "incId K machinized dev0",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1762797570207058"
-  },
+  "rank": "1.1762797570207058",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-2dx1a0dl4uwskrwqm-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "127"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "127",
+  "likes": "1",
   "revisionId": "tshNWAMQX4XTZDYcs"
 }

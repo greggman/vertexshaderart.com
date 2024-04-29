@@ -3,9 +3,7 @@
   "owner": {
     "_id": "kwFj6rd42YAeFEAQQ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1551479264537"
-      }
+      "$date": "1551479264537"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "alexisrubio96"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551484755957"
-    }
+    "$date": "1551484755957"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551650757502"
-    }
+    "$date": "1551650757502"
   },
   "origId": null,
   "name": "TriangleVerticalSeq",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5826078507682835"
-  },
+  "rank": "1.5826078507682835",
   "private": false,
   "unlisted": true,
   "username": "alexisrubio96",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-237fuub035h1kz3j5-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "gvawpPAjzNKJESq4w"
 }

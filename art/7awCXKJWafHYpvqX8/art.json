@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1498679514446"
-    }
+    "$date": "1498679514446"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1498679514446"
-    }
+    "$date": "1498679514446"
   },
   "origId": "Z26iq8hKBPX2svsmR",
   "name": "plan b paint it",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.256578902286635"
-  },
+  "rank": "1.256578902286635",
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-05jqoyh2sjga1bfz9-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "112"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "112",
+  "likes": "1",
   "revisionId": "7roGWCeuMq2hTBjzL"
 }

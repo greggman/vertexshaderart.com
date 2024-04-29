@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1572858129900"
-    }
+    "$date": "1572858129900"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1572858129900"
-    }
+    "$date": "1572858129900"
   },
   "origId": "fSdF3Y59NoqNegw7y",
   "name": "lines_dancing?",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0285841210224431"
-  },
+  "rank": "1.0285841210224431",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-n2gix7iwgkccu74dk-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "86"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "86",
+  "likes": "0",
   "revisionId": "Q4eoRk5LptzGWMYwR"
 }

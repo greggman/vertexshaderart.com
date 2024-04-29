@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501857924166"
-      }
+      "$date": "1501857924166"
     },
     "profile": {
       "name": "Macro Machines",
@@ -15,21 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1510548487224"
-    }
+    "$date": "1510548487224"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1510548487224"
-    }
+    "$date": "1510548487224"
   },
   "origId": "8QyjKkpp7q9aGkAn7",
   "name": "ringu",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5003357848004586"
-  },
+  "rank": "1.5003357848004586",
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-5kjvyqyvb8qcwuzyf-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "36"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "36",
+  "likes": "0",
   "revisionId": "auZfG52Zm5mjS99Eu"
 }

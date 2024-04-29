@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1520032834928"
-    }
+    "$date": "1520032834928"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1520032834928"
-    }
+    "$date": "1520032834928"
   },
   "origId": "b2AspWSvDsXib8Kkc",
   "name": "Torus Bulbz",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2661855004847873"
-  },
+  "rank": "1.2661855004847873",
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-lgo0r2pt0r9sl3k76-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "J76uDKmE8PusbhLpy"
 }

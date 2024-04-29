@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1465463607570"
-    }
+    "$date": "1465463607570"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1465463607570"
-    }
+    "$date": "1465463607570"
   },
   "origId": "k7w6BKgeSJxKx3Z6L",
   "name": "cybr",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.565951649981855"
-  },
+  "rank": "10.565951649981855",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-3hvvuihdy67268s52-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "502"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "502",
+  "likes": "6",
   "revisionId": "o8tLfYJxm2TaGMJnA"
 }

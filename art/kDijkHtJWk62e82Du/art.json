@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501857924166"
-      }
+      "$date": "1501857924166"
     },
     "profile": {
       "name": "Macro Machines",
@@ -15,21 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1668034018917"
-    }
+    "$date": "1668034018917"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1668034018917"
-    }
+    "$date": "1668034018917"
   },
   "origId": null,
   "name": "rainbow spectrum",
   "notes": "for seeing spectrum layout",
-  "rank": {
-    "$numberDouble": "1.293046179693274"
-  },
+  "rank": "1.293046179693274",
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-lf4ws0ugo1frr9hj3-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "8c7ikCPWN45STFTMz"
 }

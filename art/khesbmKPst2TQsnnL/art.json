@@ -3,9 +3,7 @@
   "owner": {
     "_id": "LA2p9fSSrZYuhdYNz",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497993369279"
-      }
+      "$date": "1497993369279"
     },
     "profile": {
       "name": "Sean Whalen",
@@ -14,21 +12,15 @@
     "username": "sean"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1497994989497"
-    }
+    "$date": "1497994989497"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1498001715413"
-    }
+    "$date": "1498001715413"
   },
   "origId": null,
   "name": "mousething",
   "notes": "work in progress",
-  "rank": {
-    "$numberDouble": "1.3403720622248962"
-  },
+  "rank": "1.3403720622248962",
   "private": false,
   "unlisted": true,
   "username": "sean",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-sb7ldapnfuxbpqfun-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "BfmHiDB95t4quL5kQ"
 }

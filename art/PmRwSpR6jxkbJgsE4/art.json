@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aRcuym3jqDR3e796n",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1446288834244"
-      }
+      "$date": "1446288834244"
     },
     "profile": {
       "name": "Clément Duquesne",
@@ -14,14 +12,10 @@
     "username": "spotline"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447264518163"
-    }
+    "$date": "1447264518163"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1447264518163"
-    }
+    "$date": "1447264518163"
   },
   "origId": "87jiR2yJj3v4JHQGX",
   "name": "modern_fireplace",
@@ -42,15 +36,9 @@
   },
   "screenshotURL": "data/images/images-nbty2jodhfck9lmdx-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "718"
-  },
-  "likes": {
-    "$numberInt": "5"
-  },
+  "views": "718",
+  "likes": "5",
   "revisionId": "RLrjXYtWYNYE5v9pC",
-  "rank": {
-    "$numberDouble": "10.70371438598631"
-  },
+  "rank": "10.70371438598631",
   "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
 }

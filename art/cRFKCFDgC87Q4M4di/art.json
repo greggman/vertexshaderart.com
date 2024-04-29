@@ -3,9 +3,7 @@
   "owner": {
     "_id": "A3xozQT3WGZPL6x35",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684330244428"
-      }
+      "$date": "1684330244428"
     },
     "username": "sangjin.lee",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684924428293"
-    }
+    "$date": "1684924428293"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684924428293"
-    }
+    "$date": "1684924428293"
   },
   "origId": null,
   "name": "Audio Reactive - duplicate",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5629958902023038"
-  },
+  "rank": "1.5629958902023038",
   "private": false,
   "unlisted": true,
   "username": "sangjin.lee",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-4wkru1gstsm4lrchk-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "QgG3zx8eCgdfEAqF6"
 }

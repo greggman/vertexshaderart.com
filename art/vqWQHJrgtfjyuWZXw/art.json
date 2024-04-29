@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553214184318"
-    }
+    "$date": "1553214184318"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553214184318"
-    }
+    "$date": "1553214184318"
   },
   "origId": "eH67ZJMsPmJWmEdoK",
   "name": "ejercicio2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.030287778877276"
-  },
+  "rank": "1.030287778877276",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-2x04fs932x1q450ey-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "82"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "82",
+  "likes": "0",
   "revisionId": "uFngvybBfbESdrd29"
 }

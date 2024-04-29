@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1565904585795"
-    }
+    "$date": "1565904585795"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1565904585795"
-    }
+    "$date": "1565904585795"
   },
   "origId": "SMeHXTzP7e6vTniKx",
   "name": "escnyc",
   "notes": "Needs lots of camera work but hey, fake hidden line removal 😁",
-  "rank": {
-    "$numberDouble": "1.7675763507979272"
-  },
+  "rank": "1.7675763507979272",
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-g9heg3i7jn504abqx-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "5fAEd5oFm4Jck2h4o"
 }

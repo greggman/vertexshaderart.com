@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1540408032900"
-      }
+      "$date": "1540408032900"
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -14,21 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1541694021578"
-    }
+    "$date": "1541694021578"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1541694021578"
-    }
+    "$date": "1541694021578"
   },
   "origId": null,
   "name": "Line Of Sound",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3183008497955622"
-  },
+  "rank": "1.3183008497955622",
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-sy8yn04hs80vf7ayu-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "231"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "231",
+  "likes": "1",
   "revisionId": "jyHKrezfo6ZF3N4pe"
 }

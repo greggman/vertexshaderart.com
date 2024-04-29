@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1516531673611"
-    }
+    "$date": "1516531673611"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1516531673611"
-    }
+    "$date": "1516531673611"
   },
   "origId": "d7anES7ef6WrrDwsy",
   "name": "codez",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.573669387432265"
-  },
+  "rank": "10.573669387432265",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-jqv31s11csws8yo8t-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "468"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "468",
+  "likes": "2",
   "revisionId": "CkbHHGy2Q7JghuduW"
 }

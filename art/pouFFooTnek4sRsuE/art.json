@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nTRyF676q3L6AsYmq",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652847165974"
-      }
+      "$date": "1652847165974"
     },
     "profile": {
       "name": "Hyunjin-Kim",
@@ -14,21 +12,15 @@
     "username": "hyunjin-kim-dp"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652848283438"
-    }
+    "$date": "1652848283438"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652958113353"
-    }
+    "$date": "1652958113353"
   },
   "origId": null,
   "name": "Exercise - Making A Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9641015758563947"
-  },
+  "rank": "1.9641015758563947",
   "private": false,
   "unlisted": true,
   "username": "hyunjin-kim-dp",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-cl321zlnuuwiqnvie-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "Xa2BbBhcGeHvcEdS8"
 }

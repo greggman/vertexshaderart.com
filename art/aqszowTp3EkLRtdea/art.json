@@ -3,9 +3,7 @@
   "owner": {
     "_id": "exrQAEG45B5Exhhan",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684329330454"
-      }
+      "$date": "1684329330454"
     },
     "profile": {
       "name": "Minsu Kim",
@@ -14,21 +12,15 @@
     "username": "minsu-kim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684411577463"
-    }
+    "$date": "1684411577463"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684411577463"
-    }
+    "$date": "1684411577463"
   },
   "origId": null,
   "name": "Motion Variation",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6169435503320198"
-  },
+  "rank": "1.6169435503320198",
   "private": false,
   "unlisted": true,
   "username": "minsu-kim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-1beqpgds4lbdxxcnd-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "qRpHffRkudTSadM9b"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "mpgr9P8vvjvtQG6rW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1595998191288"
-      }
+      "$date": "1595998191288"
     },
     "profile": {
       "name": "Rubin Huang",
@@ -14,21 +12,15 @@
     "username": "rubinhuang9239"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1596325611598"
-    }
+    "$date": "1596325611598"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1596326171020"
-    }
+    "$date": "1596326171020"
   },
   "origId": null,
   "name": "Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3474610568708436"
-  },
+  "rank": "1.3474610568708436",
   "private": false,
   "unlisted": true,
   "username": "rubinhuang9239",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-q7iznfg78f2yhau25-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "yMDXjgZYH4TThjkaz"
 }

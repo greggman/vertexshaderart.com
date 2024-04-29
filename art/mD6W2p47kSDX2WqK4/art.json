@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1565838653301"
-    }
+    "$date": "1565838653301"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1565838653301"
-    }
+    "$date": "1565838653301"
   },
   "origId": "iiAQmTAWuGuLLKPiP",
   "name": "old greg kmachine wip224",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2820487835901213"
-  },
+  "rank": "1.2820487835901213",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-ka4ooo1ckn1ev851e-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "125"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "125",
+  "likes": "1",
   "revisionId": "6z9tn2aFoGjtiqY3E"
 }

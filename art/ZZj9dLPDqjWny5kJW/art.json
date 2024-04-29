@@ -3,9 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501018355084"
-      }
+      "$date": "1501018355084"
     },
     "username": "sylistine",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1501925528057"
-    }
+    "$date": "1501925528057"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1501925528057"
-    }
+    "$date": "1501925528057"
   },
   "origId": "4LYwmawuudnFoyRng",
   "name": "Rose Quartz",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7687038414962957"
-  },
+  "rank": "1.7687038414962957",
   "private": false,
   "unlisted": false,
   "username": "sylistine",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-z4sw7mn5v2p75flvq-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "177"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "177",
+  "likes": "1",
   "revisionId": "wZSZhh2J8zJjeHfBS"
 }

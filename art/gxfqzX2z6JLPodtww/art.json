@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zhnFY3Bj9GSContic",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652873162359"
-      }
+      "$date": "1652873162359"
     },
     "username": "daehyeon.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652885812027"
-    }
+    "$date": "1652885812027"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652885812027"
-    }
+    "$date": "1652885812027"
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0946121608247714"
-  },
+  "rank": "1.0946121608247714",
   "private": false,
   "unlisted": true,
   "username": "daehyeon.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-e6jd2rjpeys8dumpz-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "e9uW9wxr9yACxJpHY"
 }

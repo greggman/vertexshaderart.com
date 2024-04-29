@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1503202376651"
-    }
+    "$date": "1503202376651"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1503202376651"
-    }
+    "$date": "1503202376651"
   },
   "origId": "ZKyW6sGCeKnuju3A2",
   "name": "dotto-chouhoukei w",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3414195902778503"
-  },
+  "rank": "1.3414195902778503",
   "private": false,
   "unlisted": true,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-afysjn6y1r2mnygdy-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "F4v4TNszApa6nWib4"
 }

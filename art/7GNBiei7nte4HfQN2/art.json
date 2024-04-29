@@ -3,9 +3,7 @@
   "owner": {
     "_id": "JQffMFChzRKaZkEjd",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1598151823940"
-      }
+      "$date": "1598151823940"
     },
     "username": "langtoner",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1598153676425"
-    }
+    "$date": "1598153676425"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1598153676425"
-    }
+    "$date": "1598153676425"
   },
   "origId": null,
   "name": "Tutorial-2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3509335357674506"
-  },
+  "rank": "1.3509335357674506",
   "private": false,
   "unlisted": true,
   "username": "langtoner",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-1rg5m93rrrb3umzj5-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "LP3hTsin9WvQtE7AJ"
 }

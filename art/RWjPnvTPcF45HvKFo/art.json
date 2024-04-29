@@ -3,9 +3,7 @@
   "owner": {
     "_id": "GsGemnD2x9QaMRX9g",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1619196586677"
-      }
+      "$date": "1619196586677"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "hugo-w"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619786786156"
-    }
+    "$date": "1619786786156"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619787025186"
-    }
+    "$date": "1619787025186"
   },
   "origId": "79HqSrQH4meL63aAo",
   "name": "One possible way 3D Fibo",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6155753788894203"
-  },
+  "rank": "1.6155753788894203",
   "private": false,
   "unlisted": true,
   "username": "hugo-w",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-zpjy0emz9q3hml032-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "iLj3HgF3YsLNhk4qD"
 }

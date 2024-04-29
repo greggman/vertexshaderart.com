@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1501843604370"
-    }
+    "$date": "1501843604370"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1501843604370"
-    }
+    "$date": "1501843604370"
   },
   "origId": "D3LC8ea768bS5NfQY",
   "name": "hourglass attack (mouse.xy)",
   "notes": "2017-07-13: replaced music",
-  "rank": {
-    "$numberDouble": "10.76957256114309"
-  },
+  "rank": "10.76957256114309",
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-fl408ii7nbltbcj3u-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "161"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "161",
+  "likes": "2",
   "revisionId": "hoJFiE2Pf4GPdSEqg"
 }

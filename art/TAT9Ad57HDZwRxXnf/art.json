@@ -3,9 +3,7 @@
   "owner": {
     "_id": "GsGemnD2x9QaMRX9g",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1619196586677"
-      }
+      "$date": "1619196586677"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "hugo-w"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619537509121"
-    }
+    "$date": "1619537509121"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619537509121"
-    }
+    "$date": "1619537509121"
   },
   "origId": "3QtDqanQXHR4KXBo2",
   "name": "gMan-Lessons-AUDIo",
   "notes": "Just following the lessons\nfrom Youtube.",
-  "rank": {
-    "$numberDouble": "1.6230423916024757"
-  },
+  "rank": "1.6230423916024757",
   "private": false,
   "unlisted": true,
   "username": "hugo-w",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-o8ifs05wll2dzsaon-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "PP5Rq3voBxBEpy5CE"
 }

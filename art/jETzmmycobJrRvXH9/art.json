@@ -3,9 +3,7 @@
   "owner": {
     "_id": "RebX8k75v7GquQhg6",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1566254324938"
-      }
+      "$date": "1566254324938"
     },
     "profile": {
       "first_name": "MrShoor",
@@ -15,21 +13,15 @@
     "username": "mrshoor"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1566254896501"
-    }
+    "$date": "1566254896501"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1566255438669"
-    }
+    "$date": "1566255438669"
   },
   "origId": null,
   "name": "SphereDistribution",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.685233187838422"
-  },
+  "rank": "10.685233187838422",
   "private": false,
   "unlisted": false,
   "username": "mrshoor",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-21oa7dgp61i7nxthk-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1367"
-  },
-  "likes": {
-    "$numberInt": "4"
-  },
+  "views": "1367",
+  "likes": "4",
   "revisionId": "FWtMBNwd5Q8JPbFXZ"
 }

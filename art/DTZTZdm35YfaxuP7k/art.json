@@ -3,9 +3,7 @@
   "owner": {
     "_id": "GsGemnD2x9QaMRX9g",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1619196586677"
-      }
+      "$date": "1619196586677"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "hugo-w"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619787225568"
-    }
+    "$date": "1619787225568"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619787225568"
-    }
+    "$date": "1619787225568"
   },
   "origId": null,
   "name": "Fibo3D_fromScratch",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3352353562255794"
-  },
+  "rank": "1.3352353562255794",
   "private": false,
   "unlisted": true,
   "username": "hugo-w",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ucx9alc5wguf425qc-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "y6JCKSE4FgHFuby6B"
 }

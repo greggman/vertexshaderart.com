@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1469189780152"
-    }
+    "$date": "1469189780152"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1469198889414"
-    }
+    "$date": "1469198889414"
   },
   "origId": null,
   "name": "spirogyro",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9825389972943672"
-  },
+  "rank": "1.9825389972943672",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-3cd8m3krl5ko84n58-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "206"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "206",
+  "likes": "0",
   "revisionId": "wbRFu7o8Smd9xiyg4"
 }

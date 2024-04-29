@@ -3,9 +3,7 @@
   "owner": {
     "_id": "mDiE85wue3FMQCMXk",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1546121397447"
-      }
+      "$date": "1546121397447"
     },
     "profile": {
       "first_name": "The Tuesday Night Machines",
@@ -14,21 +12,15 @@
     "username": "thetuesday night machines"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1546350610823"
-    }
+    "$date": "1546350610823"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1546350610823"
-    }
+    "$date": "1546350610823"
   },
   "origId": "Dzq7Xbo9hsf8fwr58",
   "name": "Exp5",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6347812701218827"
-  },
+  "rank": "1.6347812701218827",
   "private": false,
   "unlisted": true,
   "username": "thetuesday night machines",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-16lrc0vhq9mbte0wd-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "110"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "110",
+  "likes": "0",
   "revisionId": "EMxt6scxo9oBTR2X8"
 }

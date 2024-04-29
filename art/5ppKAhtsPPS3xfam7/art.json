@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aRcuym3jqDR3e796n",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1446288834244"
-      }
+      "$date": "1446288834244"
     },
     "profile": {
       "name": "Clément Duquesne",
@@ -14,9 +12,7 @@
     "username": "spotline"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1446311700357"
-    }
+    "$date": "1446311700357"
   },
   "origId": "uQkpXdAa4ABNPNthi",
   "name": "sillage",
@@ -35,21 +31,13 @@
     "shader": "#define NUM_POINTS 5000.0\n//#define FIT_VERTICA\n\nfloat rand(vec2 co){\n    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\n}\n\nvoid main()\n{\n  float u = (float(vertexId)/NUM_POINTS) * 2.0 - 1.0;\n  float v = 0.0;\n  float ucoor = log((abs(u)*.5 + 1.0));\n  v+= floor(texture2D(sound,vec2(ucoor,0.0)).a * 15.0)/10.0;\n  float osc = 0.2*cos(1.*(1.1*time+3.0*(abs(u)+1.0)));\n  float osc2 = 0.2*cos(1.*(-1.5*time+10.0*(u+1.0)));\n  float x = u * 2.0;\n  float y = v -0.5 + 0.5*pow(x,2.0) + osc +osc2;\n  gl_Position = vec4(x,y,0,1);\n  float colorfactor = pow(rand(vec2(x,y)),8.);\n  gl_PointSize = v*6.0 + colorfactor*1.0;\n  float r = mix(0.9,1.,colorfactor);\n  float g = mix(0.9,1.,colorfactor);\n  float b = 1.;\n  \n  v_color = vec4(r,g,b,colorfactor+0.5);\n}"
   },
   "screenshotURL": "data/images/images-u6al664te3f7x9h0z-thumbnail.jpg",
-  "views": {
-    "$numberInt": "196"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "196",
+  "likes": "2",
   "revisionId": "iMMrZrMcdq8ZwDnBc",
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1446313850277"
-    }
+    "$date": "1446313850277"
   },
   "hasSound": true,
-  "rank": {
-    "$numberDouble": "10.000039111485817"
-  },
+  "rank": "10.000039111485817",
   "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
 }

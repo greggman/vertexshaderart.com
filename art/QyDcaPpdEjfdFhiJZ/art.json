@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667032560256"
-      }
+      "$date": "1667032560256"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1667032930681"
-    }
+    "$date": "1667032930681"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1667032930681"
-    }
+    "$date": "1667032930681"
   },
   "origId": null,
   "name": "statc space",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.479756718818669"
-  },
+  "rank": "1.479756718818669",
   "private": false,
   "unlisted": true,
   "username": "jarredthecoder",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-tegy2c7uxlyql310h-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "Sz6i3ib9jKcNXofWY"
 }

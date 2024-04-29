@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1463880845352"
-    }
+    "$date": "1463880845352"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1463880845352"
-    }
+    "$date": "1463880845352"
   },
   "origId": "TPrujGdAaBfqpYpvT",
   "name": "curve2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.28915920316873"
-  },
+  "rank": "10.28915920316873",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-v7ub2gxdazwmvntoo-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "420"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "420",
+  "likes": "3",
   "revisionId": "Fa2fFcm3eZZtMrKYX"
 }

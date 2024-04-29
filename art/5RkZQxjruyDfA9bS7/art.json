@@ -3,9 +3,7 @@
   "owner": {
     "_id": "7tGsGbgR4yNsbMbGa",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1619118831439"
-      }
+      "$date": "1619118831439"
     },
     "username": "hzktqr",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619119095482"
-    }
+    "$date": "1619119095482"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619119418369"
-    }
+    "$date": "1619119418369"
   },
   "origId": null,
   "name": "5RkZQxjruyDfA9bS7",
   "notes": "default https://soundcloud.com/chibi-tech/lolitazia-season",
-  "rank": {
-    "$numberDouble": "1.3695464472515286"
-  },
+  "rank": "1.3695464472515286",
   "private": false,
   "unlisted": true,
   "username": "hzktqr",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-hqspebs2k98n2mkkx-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "3FcgqDqqmtYNCFmFs"
 }

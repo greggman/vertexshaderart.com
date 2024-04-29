@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1461171128296"
-    }
+    "$date": "1461171128296"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1461171128296"
-    }
+    "$date": "1461171128296"
   },
   "origId": "sHdHwHQ9GTSaJ9j99",
   "name": "headrush fork",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4829018388978024"
-  },
+  "rank": "1.4829018388978024",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-hs5ot0fucno7vm1pj-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "99"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "99",
+  "likes": "0",
   "revisionId": "MaXPesKWJbG3qbZqd"
 }

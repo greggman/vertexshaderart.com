@@ -3,9 +3,7 @@
   "owner": {
     "_id": "9htjJxHkuAjKFTs88",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1585498817009"
-      }
+      "$date": "1585498817009"
     },
     "profile": {
       "first_name": "rlmp",
@@ -14,21 +12,15 @@
     "username": "rlmp"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1585500385787"
-    }
+    "$date": "1585500385787"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1585500385787"
-    }
+    "$date": "1585500385787"
   },
   "origId": "g5Ygw3eYNe7DzpA3a",
   "name": "grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8879409508623215"
-  },
+  "rank": "1.8879409508623215",
   "private": false,
   "unlisted": true,
   "username": "rlmp",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-pyo2mxqcyvshtdmig-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "FcoxgBNjy7GZroRh7"
 }

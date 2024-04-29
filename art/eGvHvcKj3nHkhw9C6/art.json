@@ -3,9 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494865701670"
-      }
+      "$date": "1494865701670"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496688133762"
-    }
+    "$date": "1496688133762"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496688133762"
-    }
+    "$date": "1496688133762"
   },
   "origId": "nw2X8ECBMqrgNbcQL",
   "name": "Circle Fun Two",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3514397462249688"
-  },
+  "rank": "1.3514397462249688",
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-esgcw10v878wlcldk-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "ajYXbWcvyHSTDd7Fw"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,14 +12,10 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447314863302"
-    }
+    "$date": "1447314863302"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1447344001130"
-    }
+    "$date": "1447344001130"
   },
   "origId": "JnRaHZcXYv7WBhq5b",
   "name": "pulseaudio",
@@ -42,15 +36,9 @@
   },
   "screenshotURL": "data/images/images-fhuydt3s73bz1udky-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "660"
-  },
-  "likes": {
-    "$numberInt": "8"
-  },
+  "views": "660",
+  "likes": "8",
   "revisionId": "Bqfi2YDStdFxp4Pzs",
-  "rank": {
-    "$numberDouble": "10.107044167711914"
-  },
+  "rank": "10.107044167711914",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

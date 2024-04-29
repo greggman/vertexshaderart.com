@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nnrLQLaESkeo7ftnr",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1449753282981"
-      }
+      "$date": "1449753282981"
     },
     "username": "pheema",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1449754042490"
-    }
+    "$date": "1449754042490"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1449907262155"
-    }
+    "$date": "1449907262155"
   },
   "origId": null,
   "name": "Clifford Attractor",
   "notes": "You can change the shape of the attractor by moving the cursor.\nMusic also affects the shape.",
-  "rank": {
-    "$numberDouble": "1.0083233800362499"
-  },
+  "rank": "1.0083233800362499",
   "private": false,
   "unlisted": false,
   "username": "pheema",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-4sa82591jakgfpk6x-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "314"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "314",
+  "likes": "1",
   "revisionId": "SPkMq4jyCL39SWmEd"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gCKgzQzioC4gDMxq9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1496305181205"
-      }
+      "$date": "1496305181205"
     },
     "profile": {
       "name": "Paul Gutierrez",
@@ -15,21 +13,15 @@
     "username": "PLU Collective"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496498460887"
-    }
+    "$date": "1496498460887"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496498603246"
-    }
+    "$date": "1496498603246"
   },
   "origId": null,
   "name": "BoundMod",
   "notes": "Based on gman Bound shader.",
-  "rank": {
-    "$numberDouble": "1.8767088961041345"
-  },
+  "rank": "1.8767088961041345",
   "private": false,
   "unlisted": true,
   "username": "PLU Collective",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-tdtgzzyh0kf3v9t55-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "St4M6jAyrkGQnCDQQ"
 }

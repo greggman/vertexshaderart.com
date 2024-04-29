@@ -3,9 +3,7 @@
   "owner": {
     "_id": "jNGtoBfxSG9tF64x4",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1623631530614"
-      }
+      "$date": "1623631530614"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "makavelli3145"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1624967960144"
-    }
+    "$date": "1624967960144"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1624967986979"
-    }
+    "$date": "1624967986979"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.199243583596717"
-  },
+  "rank": "1.199243583596717",
   "private": false,
   "unlisted": true,
   "username": "makavelli3145",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-zlo50q2liksxu5lyb-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "2",
+  "likes": "1",
   "revisionId": "cg4PKZ2p5WJEtyBmh"
 }

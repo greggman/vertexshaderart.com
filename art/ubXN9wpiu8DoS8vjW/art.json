@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MEn2bK8navo8QQHYf",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684321859878"
-      }
+      "$date": "1684321859878"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jonghyeon-lee-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684324069408"
-    }
+    "$date": "1684324069408"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684324069408"
-    }
+    "$date": "1684324069408"
   },
   "origId": null,
   "name": "Motion - JongHyeon Lee",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7342320012974937"
-  },
+  "rank": "1.7342320012974937",
   "private": false,
   "unlisted": false,
   "username": "jonghyeon-lee-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-yi9l7mun72ywo063j-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "34"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "34",
+  "likes": "0",
   "revisionId": "ceFFPe26Mjr4tjYKx"
 }

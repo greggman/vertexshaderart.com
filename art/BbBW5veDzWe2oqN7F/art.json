@@ -3,9 +3,7 @@
   "owner": {
     "_id": "WS7AoGNwzNGk4TSqx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1553828364273"
-      }
+      "$date": "1553828364273"
     },
     "profile": {
       "first_name": "다은",
@@ -15,21 +13,15 @@
     "username": "다은"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554191404145"
-    }
+    "$date": "1554191404145"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554191404145"
-    }
+    "$date": "1554191404145"
   },
   "origId": null,
   "name": "squarePlanet",
   "notes": "mouse, color, size, position.",
-  "rank": {
-    "$numberDouble": "1.4409187551948512"
-  },
+  "rank": "1.4409187551948512",
   "private": false,
   "unlisted": false,
   "username": "다은",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-6k5lpd957exe7mumy-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "108"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "108",
+  "likes": "0",
   "revisionId": "pCujzKGCso7WvNy8a"
 }

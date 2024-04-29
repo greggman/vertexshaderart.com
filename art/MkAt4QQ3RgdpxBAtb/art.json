@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Aw3ZBjbzi7sLBthGm",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1528851803464"
-      }
+      "$date": "1528851803464"
     },
     "profile": {
       "name": "Aardbei",
@@ -14,21 +12,15 @@
     "username": "megaloler"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1528906501186"
-    }
+    "$date": "1528906501186"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1529000608519"
-    }
+    "$date": "1529000608519"
   },
   "origId": null,
   "name": "fuzzies",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.079039585945633"
-  },
+  "rank": "10.079039585945633",
   "private": false,
   "unlisted": false,
   "username": "megaloler",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-p4jgj50t04pzggs4z-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "853"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "853",
+  "likes": "2",
   "revisionId": "rrtuM7KehCvsjn5s4"
 }

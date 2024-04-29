@@ -3,9 +3,7 @@
   "owner": {
     "_id": "EwBjpT9SHvAcQtLHx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1565652027829"
-      }
+      "$date": "1565652027829"
     },
     "username": "seb0fh",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1565652036499"
-    }
+    "$date": "1565652036499"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1565652234438"
-    }
+    "$date": "1565652234438"
   },
   "origId": null,
   "name": "spiral sphere",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5448916684368619"
-  },
+  "rank": "1.5448916684368619",
   "private": false,
   "unlisted": true,
   "username": "seb0fh",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-jvy1otr1kog86tcd8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "10"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "10",
+  "likes": "0",
   "revisionId": "2qJTutE9uRdvfnbQ3"
 }

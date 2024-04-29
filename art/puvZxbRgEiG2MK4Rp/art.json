@@ -3,9 +3,7 @@
   "owner": {
     "_id": "T2kiqcyrWpNY4YuE7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1704921597360"
-      }
+      "$date": "1704921597360"
     },
     "profile": {
       "name": "Simon Taeter",
@@ -14,21 +12,15 @@
     "username": "staeter"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1705072714939"
-    }
+    "$date": "1705072714939"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1705080042224"
-    }
+    "$date": "1705080042224"
   },
   "origId": "6hsoh4en6G7rPqjb8",
   "name": "fractal",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4474824123418624"
-  },
+  "rank": "1.4474824123418624",
   "private": false,
   "unlisted": true,
   "username": "staeter",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-2x79mlcwew2c9r6wr-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "6wtBXKiJqBxnt4wMT"
 }

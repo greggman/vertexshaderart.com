@@ -3,9 +3,7 @@
   "owner": {
     "_id": "r9TsYjFbMAHj6aFmq",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1525508581790"
-      }
+      "$date": "1525508581790"
     },
     "username": "sina5an",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1525513956597"
-    }
+    "$date": "1525513956597"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1525513956597"
-    }
+    "$date": "1525513956597"
   },
   "origId": null,
   "name": "Ders 1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9490875225244937"
-  },
+  "rank": "1.9490875225244937",
   "private": false,
   "unlisted": false,
   "username": "sina5an",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-c4b5x71ah1ff8yjd1-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "270"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "270",
+  "likes": "0",
   "revisionId": "xxsmEZygAg6He993f"
 }

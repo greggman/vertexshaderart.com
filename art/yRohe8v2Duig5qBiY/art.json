@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1467462048694"
-    }
+    "$date": "1467462048694"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1467462137593"
-    }
+    "$date": "1467462137593"
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "pico-8-ish",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.101434459877694"
-  },
+  "rank": "1.101434459877694",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-zpbonrmatqqvaueav-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "99"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "99",
+  "likes": "0",
   "revisionId": "97rXTDX7tHDGc4ktc"
 }

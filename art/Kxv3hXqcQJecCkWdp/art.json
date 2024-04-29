@@ -3,9 +3,7 @@
   "owner": {
     "_id": "e8Df3vxkkP3DCZunh",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1563345787374"
-      }
+      "$date": "1563345787374"
     },
     "profile": {
       "first_name": "phi16",
@@ -14,21 +12,15 @@
     "username": "phi16"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1563459494058"
-    }
+    "$date": "1563459494058"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1563459494058"
-    }
+    "$date": "1563459494058"
   },
   "origId": null,
   "name": "Light in rain : side V",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8721290669780577"
-  },
+  "rank": "1.8721290669780577",
   "private": false,
   "unlisted": false,
   "username": "phi16",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-a8z01fgvo45zvgz00-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "351"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "351",
+  "likes": "1",
   "revisionId": "KZWkJLKemsA3MLmjf"
 }

@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1637469754752"
-    }
+    "$date": "1637469754752"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1637469754752"
-    }
+    "$date": "1637469754752"
   },
   "origId": "yQxBYWw4sFSMS2gsp",
   "name": "hexagon tile strings 3D",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.750226984436994"
-  },
+  "rank": "1.750226984436994",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-mc214dfiqr1fp63b7-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "91"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "91",
+  "likes": "0",
   "revisionId": "9wSiZYqdigg47vQ5i"
 }

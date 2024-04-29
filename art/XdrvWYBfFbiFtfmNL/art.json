@@ -3,9 +3,7 @@
   "owner": {
     "_id": "exrQAEG45B5Exhhan",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684329330454"
-      }
+      "$date": "1684329330454"
     },
     "profile": {
       "name": "Minsu Kim",
@@ -14,21 +12,15 @@
     "username": "minsu-kim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684411009643"
-    }
+    "$date": "1684411009643"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684411248914"
-    }
+    "$date": "1684411248914"
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8992106672381486"
-  },
+  "rank": "1.8992106672381486",
   "private": false,
   "unlisted": true,
   "username": "minsu-kim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-4n1at5gk9bbp8u6kg-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "Ekmyxa8cuLhYp5oga"
 }

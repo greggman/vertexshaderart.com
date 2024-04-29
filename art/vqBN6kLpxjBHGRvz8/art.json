@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1494862833032"
-    }
+    "$date": "1494862833032"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1494862833032"
-    }
+    "$date": "1494862833032"
   },
   "origId": null,
   "name": "K Machine letter example",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.384612169431065"
-  },
+  "rank": "1.384612169431065",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-gyixzj9zlau9rq139-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "333"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "333",
+  "likes": "1",
   "revisionId": "4ndG65GcTDjGhHCNk"
 }

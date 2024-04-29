@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vAAT5pKqh7kxcFiAD",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1554935317735"
-      }
+      "$date": "1554935317735"
     },
     "profile": {
       "first_name": "Radim",
@@ -15,21 +13,15 @@
     "username": "radim"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554935341646"
-    }
+    "$date": "1554935341646"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554935341646"
-    }
+    "$date": "1554935341646"
   },
   "origId": "YyvPGrqSH2HjWTQi9",
   "name": "Time table v2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.204480096006904"
-  },
+  "rank": "1.204480096006904",
   "private": false,
   "unlisted": true,
   "username": "radim",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-ku9oiv4ddwvowib7e-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "12"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "12",
+  "likes": "0",
   "revisionId": "hJeA7qAu3onqjxJzc"
 }

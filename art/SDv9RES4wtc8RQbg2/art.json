@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1467301943774"
-    }
+    "$date": "1467301943774"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1467318370729"
-    }
+    "$date": "1467318370729"
   },
   "origId": "B3fTWQihXfD9t8Q8r",
   "name": "lesson-05-circles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.714810574872671"
-  },
+  "rank": "1.714810574872671",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-nn67al4rjl4pyk6v2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "132"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "132",
+  "likes": "1",
   "revisionId": "WYWXNuEC6bxGJoEJt"
 }

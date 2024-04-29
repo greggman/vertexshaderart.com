@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667032560256"
-      }
+      "$date": "1667032560256"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1668672370647"
-    }
+    "$date": "1668672370647"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1668672370647"
-    }
+    "$date": "1668672370647"
   },
   "origId": null,
   "name": "tehland",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.21355507561378"
-  },
+  "rank": "1.21355507561378",
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-kj403tp8c1m3o7gib-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "55"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "55",
+  "likes": "0",
   "revisionId": "5n8y9tjp2JSfPjCyH"
 }

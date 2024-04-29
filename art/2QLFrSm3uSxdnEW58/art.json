@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1618264688331"
-      }
+      "$date": "1618264688331"
     },
     "username": "chriscamplin",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619656114915"
-    }
+    "$date": "1619656114915"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619682801802"
-    }
+    "$date": "1619682801802"
   },
   "origId": null,
   "name": "motion tutorial",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8401754641401897"
-  },
+  "rank": "1.8401754641401897",
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-k9is5iiicaar5hz2q-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "61"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "61",
+  "likes": "0",
   "revisionId": "M3ixGbSXkvmGzpn8Y"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "exrQAEG45B5Exhhan",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684329330454"
-      }
+      "$date": "1684329330454"
     },
     "profile": {
       "name": "Minsu Kim",
@@ -14,21 +12,15 @@
     "username": "minsu-kim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684566250406"
-    }
+    "$date": "1684566250406"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684567380153"
-    }
+    "$date": "1684567380153"
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.58825771402172"
-  },
+  "rank": "1.58825771402172",
   "private": false,
   "unlisted": true,
   "username": "minsu-kim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-f72eb7ren8bdnzwds-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "9LmYQv2DRkNwLsGKW"
 }

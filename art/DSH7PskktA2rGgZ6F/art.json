@@ -3,9 +3,7 @@
   "owner": {
     "_id": "pNRhszAEASfy6B3Xs",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1453130559425"
-      }
+      "$date": "1453130559425"
     },
     "username": "gaz",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1458742759209"
-    }
+    "$date": "1458742759209"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1458858566126"
-    }
+    "$date": "1458858566126"
   },
   "origId": null,
   "name": "Pig",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8895530749687033"
-  },
+  "rank": "1.8895530749687033",
   "private": false,
   "unlisted": false,
   "username": "gaz",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-5aqjcrcuwrl0squ63-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "456"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "456",
+  "likes": "1",
   "revisionId": "ouHkEaRbXSNA9NsoM"
 }

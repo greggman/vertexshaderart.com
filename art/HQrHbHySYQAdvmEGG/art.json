@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1595864740358"
-    }
+    "$date": "1595864740358"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1595864740358"
-    }
+    "$date": "1595864740358"
   },
   "origId": "JGbg2hhv422MBQhyP",
   "name": "antagonism",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8388392075853233"
-  },
+  "rank": "1.8388392075853233",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-28mun08spla2b902d-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "112"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "112",
+  "likes": "1",
   "revisionId": "MiAyLgAPdx96u2QFQ"
 }

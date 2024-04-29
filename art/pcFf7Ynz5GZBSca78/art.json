@@ -3,9 +3,7 @@
   "owner": {
     "_id": "NAvHKNuxDSsKeTzss",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652854231365"
-      }
+      "$date": "1652854231365"
     },
     "username": "jaewoo.choi",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1654342557508"
-    }
+    "$date": "1654342557508"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1654342557508"
-    }
+    "$date": "1654342557508"
   },
   "origId": "WwHWSfGf9LMF8vSAs",
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5862779571900105"
-  },
+  "rank": "1.5862779571900105",
   "private": false,
   "unlisted": true,
   "username": "jaewoo.choi",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-do92yaihpb4gnjk0i-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "gpEwGqdKatdFBbJqK"
 }

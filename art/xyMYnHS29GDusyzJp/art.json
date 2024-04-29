@@ -3,9 +3,7 @@
   "owner": {
     "_id": "e52fMA4ovMTmiaNu7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1551478750543"
-      }
+      "$date": "1551478750543"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "gerrygoo"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553468157975"
-    }
+    "$date": "1553468157975"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553468157975"
-    }
+    "$date": "1553468157975"
   },
   "origId": null,
   "name": "sphere",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.447083006366803"
-  },
+  "rank": "1.447083006366803",
   "private": false,
   "unlisted": true,
   "username": "gerrygoo",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-g276co5zitkjxzfbm-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "5xXmRksPu3BnD3NmD"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nGxcqKNjk2qCgadmc",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684074736476"
-      }
+      "$date": "1684074736476"
     },
     "username": "joonho.hwang",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685264476149"
-    }
+    "$date": "1685264476149"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685264476149"
-    }
+    "$date": "1685264476149"
   },
   "origId": "94LjZTzQhciudirXa",
   "name": "Circles from Triangles - Tweak",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5055231057185277"
-  },
+  "rank": "1.5055231057185277",
   "private": false,
   "unlisted": true,
   "username": "joonho.hwang",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-uyzuozlwfsjhs9h4p-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "vvzbrtqvGyc79WiG8"
 }

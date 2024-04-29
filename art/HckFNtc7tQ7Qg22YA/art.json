@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501857924166"
-      }
+      "$date": "1501857924166"
     },
     "profile": {
       "name": "Macro Machines",
@@ -15,21 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1522431868796"
-    }
+    "$date": "1522431868796"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1522431868796"
-    }
+    "$date": "1522431868796"
   },
   "origId": "gBa8KAJTb6MqbNzBK",
   "name": "yGlitchPointNumber2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6931593962990943"
-  },
+  "rank": "1.6931593962990943",
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-6p7zzd3h28ssq2jxr-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "Xm3GFmb7fCd39Z6Gm"
 }

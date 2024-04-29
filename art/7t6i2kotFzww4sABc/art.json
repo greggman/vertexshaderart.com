@@ -3,9 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684058245272"
-      }
+      "$date": "1684058245272"
     },
     "username": "byungchan.park",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685625640683"
-    }
+    "$date": "1685625640683"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685625640683"
-    }
+    "$date": "1685625640683"
   },
   "origId": null,
   "name": "Circles from Triangles own variation",
   "notes": "Circles from Triangles own variation",
-  "rank": {
-    "$numberDouble": "1.1455991207543537"
-  },
+  "rank": "1.1455991207543537",
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-8a8yhv4zvmkrj6mdd-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "QGd6QBFkirpqcfhMd"
 }

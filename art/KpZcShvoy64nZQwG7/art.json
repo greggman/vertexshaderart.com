@@ -3,9 +3,7 @@
   "owner": {
     "_id": "5vj4on2zFGjvFpoeq",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1556923932187"
-      }
+      "$date": "1556923932187"
     },
     "username": "tjak",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1558919614496"
-    }
+    "$date": "1558919614496"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1558919614496"
-    }
+    "$date": "1558919614496"
   },
   "origId": null,
   "name": "lesson 1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2766481477195535"
-  },
+  "rank": "1.2766481477195535",
   "private": false,
   "unlisted": true,
   "username": "tjak",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-jbwi4f8sjrm2kjrz9-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "qrjkweFtHQikP9Pst"
 }

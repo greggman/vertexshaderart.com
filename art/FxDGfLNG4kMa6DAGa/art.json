@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1529844226992"
-    }
+    "$date": "1529844226992"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1529844226992"
-    }
+    "$date": "1529844226992"
   },
   "origId": "GxbSZ33B9swmxAmdT",
   "name": "hashslots",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.14087703731643"
-  },
+  "rank": "1.14087703731643",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-q92xr3agj06m5bcat-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "xfbEHqmqxK5xcAu36"
 }

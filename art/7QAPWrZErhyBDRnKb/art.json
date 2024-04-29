@@ -3,9 +3,7 @@
   "owner": {
     "_id": "exrQAEG45B5Exhhan",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684329330454"
-      }
+      "$date": "1684329330454"
     },
     "profile": {
       "name": "Minsu Kim",
@@ -14,21 +12,15 @@
     "username": "minsu-kim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685170637065"
-    }
+    "$date": "1685170637065"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685171041769"
-    }
+    "$date": "1685171041769"
   },
   "origId": "WfwMFdL3M3qEpW4zy",
   "name": "Circles from Triangles Variation",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2143222984640551"
-  },
+  "rank": "1.2143222984640551",
   "private": false,
   "unlisted": true,
   "username": "minsu-kim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-tc4m3dizar1e7zcw8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "2pdRTRF6GdmcXgNXr"
 }

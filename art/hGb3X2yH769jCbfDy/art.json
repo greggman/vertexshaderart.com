@@ -3,9 +3,7 @@
   "owner": {
     "_id": "pNRhszAEASfy6B3Xs",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1453130559425"
-      }
+      "$date": "1453130559425"
     },
     "username": "gaz",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1453131558231"
-    }
+    "$date": "1453131558231"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1453245775680"
-    }
+    "$date": "1453245775680"
   },
   "origId": null,
   "name": "Wild Knot",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0172056287773146"
-  },
+  "rank": "1.0172056287773146",
   "private": false,
   "unlisted": false,
   "username": "gaz",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-zfzfyo0zrl0msrsq9-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "270"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "270",
+  "likes": "0",
   "revisionId": "c7eoFSRRJGRcoQT2Y"
 }

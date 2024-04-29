@@ -3,9 +3,7 @@
   "owner": {
     "_id": "cFdz2pdS8XZgihEn2",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652806562125"
-      }
+      "$date": "1652806562125"
     },
     "username": "sangbeom.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652868099690"
-    }
+    "$date": "1652868099690"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652946124451"
-    }
+    "$date": "1652946124451"
   },
   "origId": "B7XSdPJnstpQRHwMt",
   "name": "Motion - Sangbeom Kim",
   "notes": "Motion - Sangbeom Kim",
-  "rank": {
-    "$numberDouble": "1.505951403087432"
-  },
+  "rank": "1.505951403087432",
   "private": false,
   "unlisted": true,
   "username": "sangbeom.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-38clki6a3670updx3-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "7",
+  "likes": "0",
   "revisionId": "kSr3WbxRuBiAidSqd"
 }

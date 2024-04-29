@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MaXmXceoMdLX3NSGw",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1551479403174"
-      }
+      "$date": "1551479403174"
     },
     "profile": {
       "first_name": "Sergio Erick",
@@ -15,21 +13,15 @@
     "username": "sergioerick"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1552844856440"
-    }
+    "$date": "1552844856440"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1552844856440"
-    }
+    "$date": "1552844856440"
   },
   "origId": null,
   "name": "sphere",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8571946309669203"
-  },
+  "rank": "1.8571946309669203",
   "private": false,
   "unlisted": true,
   "username": "sergioerick",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-7vznoqhla5lmgoaeh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "LdkJ3BCvrh4iJJpho"
 }

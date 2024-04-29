@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1595424990210"
-    }
+    "$date": "1595424990210"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1595424990210"
-    }
+    "$date": "1595424990210"
   },
   "origId": "MgCFmyZHQF4Xy4EsJ",
   "name": "ball-o?",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3717628684431546"
-  },
+  "rank": "1.3717628684431546",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-5v52a6er3xjixg7j5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "69"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "69",
+  "likes": "0",
   "revisionId": "oEkRioswcr4aE8hr8"
 }

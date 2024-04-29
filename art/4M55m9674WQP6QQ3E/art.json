@@ -3,9 +3,7 @@
   "owner": {
     "_id": "jK9QGEnE3PX9X597y",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1486733536214"
-      }
+      "$date": "1486733536214"
     },
     "profile": {
       "name": "Mats Ygfors",
@@ -14,21 +12,15 @@
     "username": "mats"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1486735117254"
-    }
+    "$date": "1486735117254"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1486738142923"
-    }
+    "$date": "1486738142923"
   },
   "origId": null,
   "name": "Lessons",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2903043905326637"
-  },
+  "rank": "1.2903043905326637",
   "private": false,
   "unlisted": true,
   "username": "mats",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-seeup7nsfm0uuf2bg-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "16"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "16",
+  "likes": "0",
   "revisionId": "QRWeZnHYxMCXszb43"
 }

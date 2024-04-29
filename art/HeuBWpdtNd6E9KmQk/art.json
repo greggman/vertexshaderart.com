@@ -3,9 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684058245272"
-      }
+      "$date": "1684058245272"
     },
     "username": "byungchan.park",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684388048967"
-    }
+    "$date": "1684388048967"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684388048967"
-    }
+    "$date": "1684388048967"
   },
   "origId": null,
   "name": "motion lesson",
   "notes": "Exercise - Vertexshaderart : Motion",
-  "rank": {
-    "$numberDouble": "1.6829926435440121"
-  },
+  "rank": "1.6829926435440121",
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-7rwj3u0gutpahln5k-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "S96HkWjitE2nejuX3"
 }

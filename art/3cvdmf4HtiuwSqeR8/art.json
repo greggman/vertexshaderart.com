@@ -3,9 +3,7 @@
   "owner": {
     "_id": "33GYvgRj3LP6Xt7T6",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652800663941"
-      }
+      "$date": "1652800663941"
     },
     "username": "hyosang_jung",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652801874419"
-    }
+    "$date": "1652801874419"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652801874419"
-    }
+    "$date": "1652801874419"
   },
   "origId": null,
   "name": "Vertexshaderart : Making a Grid NEW",
   "notes": "Vertexshaderart : Making a Grid\n",
-  "rank": {
-    "$numberDouble": "1.9459169618834724"
-  },
+  "rank": "1.9459169618834724",
   "private": false,
   "unlisted": false,
   "username": "hyosang_jung",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-00ase1ejdqge7ksql-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "85"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "85",
+  "likes": "1",
   "revisionId": "QpeioZm63LbPdqohJ"
 }

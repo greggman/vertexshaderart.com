@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1618264688331"
-      }
+      "$date": "1618264688331"
     },
     "username": "chriscamplin",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619726484824"
-    }
+    "$date": "1619726484824"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619726484824"
-    }
+    "$date": "1619726484824"
   },
   "origId": "2QLFrSm3uSxdnEW58",
   "name": "Waves",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0357537402872605"
-  },
+  "rank": "1.0357537402872605",
   "private": false,
   "unlisted": false,
   "username": "chriscamplin",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-xaxeb3eyozituvadl-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "104"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "104",
+  "likes": "0",
   "revisionId": "2RnFHD2aidtrCxmak"
 }

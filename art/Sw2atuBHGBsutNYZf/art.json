@@ -4,14 +4,10 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447544643758"
-    }
+    "$date": "1447544643758"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1447544643758"
-    }
+    "$date": "1447544643758"
   },
   "origId": "nL6YpkW8YvGKNEKtj",
   "name": "smoke spheres every day",
@@ -32,14 +28,8 @@
   },
   "screenshotURL": "data/images/images-zop8gbeietipdbo2g-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "278"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "278",
+  "likes": "1",
   "revisionId": "umcc9mcM7nvnZRi9R",
-  "rank": {
-    "$numberDouble": "1.5149690878002946"
-  }
+  "rank": "1.5149690878002946"
 }

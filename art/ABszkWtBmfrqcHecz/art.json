@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575718900497"
-      }
+      "$date": "1575718900497"
     },
     "username": "evan_chen",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1577693506797"
-    }
+    "$date": "1577693506797"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1578065283889"
-    }
+    "$date": "1578065283889"
   },
   "origId": null,
   "name": "lightD",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.174332302294461"
-  },
+  "rank": "10.174332302294461",
   "private": false,
   "unlisted": false,
   "username": "evan_chen",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-apjt23vk7540lp76i-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "540"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "540",
+  "likes": "3",
   "revisionId": "8hs3fS8CiiGZrjjrG"
 }

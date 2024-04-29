@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1514494556121"
-    }
+    "$date": "1514494556121"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1514494556121"
-    }
+    "$date": "1514494556121"
   },
   "origId": null,
   "name": "projection",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2483130262795779"
-  },
+  "rank": "1.2483130262795779",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-7enfr76gdo3g4d4fi-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "48"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "48",
+  "likes": "0",
   "revisionId": "2kGnEFj6ATu4ZCzHw"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ton59f9P8EyXxMoto",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503530"
-      }
+      "$date": "1684322503530"
     },
     "profile": {
       "name": "Myunghyun Kim",
@@ -14,21 +12,15 @@
     "username": "myunghyunkim0227"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684916890952"
-    }
+    "$date": "1684916890952"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684916890952"
-    }
+    "$date": "1684916890952"
   },
   "origId": null,
   "name": "Audio Reactive",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0243384609995"
-  },
+  "rank": "1.0243384609995",
   "private": false,
   "unlisted": true,
   "username": "myunghyunkim0227",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-u2xbmxoq5wihkpara-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "23"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "23",
+  "likes": "0",
   "revisionId": "N9dxhJiXERG2SwXrd"
 }

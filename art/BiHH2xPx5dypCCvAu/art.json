@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DMjrQbvFJZiBrahNH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684316626390"
-      }
+      "$date": "1684316626390"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jeminshin2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685436264543"
-    }
+    "$date": "1685436264543"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685436264543"
-    }
+    "$date": "1685436264543"
   },
   "origId": null,
   "name": "Circles from Triangles_Jemin.Shin",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8417249799967381"
-  },
+  "rank": "1.8417249799967381",
   "private": false,
   "unlisted": true,
   "username": "jeminshin2",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-rgkoju8v69vq1th3p-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "cW87MS9rQNXXaAjCD"
 }

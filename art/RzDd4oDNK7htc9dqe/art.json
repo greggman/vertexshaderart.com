@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575718900497"
-      }
+      "$date": "1575718900497"
     },
     "username": "evan_chen",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1576983977556"
-    }
+    "$date": "1576983977556"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1577717925190"
-    }
+    "$date": "1577717925190"
   },
   "origId": null,
   "name": "Hello triangle",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4046311071402668"
-  },
+  "rank": "1.4046311071402668",
   "private": false,
   "unlisted": false,
   "username": "evan_chen",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-lt1p0bstdg9fo98xw-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "311"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "311",
+  "likes": "1",
   "revisionId": "pQrsZqDXGCGpA2HBz"
 }

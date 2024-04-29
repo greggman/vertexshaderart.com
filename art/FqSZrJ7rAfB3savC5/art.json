@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1661900006833"
-    }
+    "$date": "1661900006833"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1661900006833"
-    }
+    "$date": "1661900006833"
   },
   "origId": null,
   "name": "sound cone",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.313580364448373"
-  },
+  "rank": "1.313580364448373",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-2f79tm4lfguhhcmqx-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "26"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "26",
+  "likes": "0",
   "revisionId": "93wTcwpcvRorH7ioo"
 }

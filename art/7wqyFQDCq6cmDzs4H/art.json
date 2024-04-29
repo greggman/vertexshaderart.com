@@ -3,9 +3,7 @@
   "owner": {
     "_id": "bWkFxexn8yjZ5g3xg",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1447525835095"
-      }
+      "$date": "1447525835095"
     },
     "profile": {
       "name": "Satoru NAKAJIMA",
@@ -14,20 +12,14 @@
     "username": "pentan"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1449514652019"
-    }
+    "$date": "1449514652019"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1449514652019"
-    }
+    "$date": "1449514652019"
   },
   "origId": null,
   "name": "unnamed",
-  "rank": {
-    "$numberDouble": "10.056749437662678"
-  },
+  "rank": "10.056749437662678",
   "private": false,
   "unlisted": false,
   "username": "pentan",
@@ -46,12 +38,8 @@
   },
   "screenshotURL": "data/images/images-z75y7zsy3kcmdtw68-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1165"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "1165",
+  "likes": "3",
   "revisionId": "LdDqQMbfLdGWJbitj",
   "avatarUrl": "https://avatars.githubusercontent.com/Pentan?s=200"
 }

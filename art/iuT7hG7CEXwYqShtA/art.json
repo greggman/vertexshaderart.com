@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1539292463109"
-    }
+    "$date": "1539292463109"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1539292463109"
-    }
+    "$date": "1539292463109"
   },
   "origId": "JJKZvJyWdK4ukftPz",
   "name": "omg drangonz 4Kmachine test",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5717622624907435"
-  },
+  "rank": "1.5717622624907435",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-3iyb2d3rw612vpk6k-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "162"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "162",
+  "likes": "1",
   "revisionId": "ze8LesYDa4yeDzsFd"
 }

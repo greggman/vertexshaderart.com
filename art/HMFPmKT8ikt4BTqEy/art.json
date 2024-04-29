@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zhnFY3Bj9GSContic",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652873162359"
-      }
+      "$date": "1652873162359"
     },
     "username": "daehyeon.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1653490095081"
-    }
+    "$date": "1653490095081"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1653490556389"
-    }
+    "$date": "1653490556389"
   },
   "origId": "GzxrG8cZEcozSK64v",
   "name": "Audio Reactive New",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2742202679349737"
-  },
+  "rank": "1.2742202679349737",
   "private": false,
   "unlisted": true,
   "username": "daehyeon.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-dwyrshuhhacihd1yd-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "QDYsvB7DZzM7xGy4x"
 }

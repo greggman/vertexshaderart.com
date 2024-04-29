@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HZivjER3Aq2kr3v5G",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1554045905011"
-      }
+      "$date": "1554045905011"
     },
     "profile": {
       "first_name": "상민",
@@ -15,21 +13,15 @@
     "username": "상민"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554177801202"
-    }
+    "$date": "1554177801202"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554177801202"
-    }
+    "$date": "1554177801202"
   },
   "origId": "HpoPwexZeHvSos9jB",
   "name": "sangmin.kim",
   "notes": "this is shader assignment extra",
-  "rank": {
-    "$numberDouble": "1.1239696595420685"
-  },
+  "rank": "1.1239696595420685",
   "private": false,
   "unlisted": false,
   "username": "상민",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-k09nulow9wba5m94n-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "194"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "194",
+  "likes": "0",
   "revisionId": "jP6qmoNGdrqwkKXoy"
 }

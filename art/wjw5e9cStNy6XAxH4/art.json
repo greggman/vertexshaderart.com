@@ -3,9 +3,7 @@
   "owner": {
     "_id": "8tBLoFyzAi8N2JHZy",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1451476145201"
-      }
+      "$date": "1451476145201"
     },
     "profile": {
       "name": "Visa-Valtteri Pimiä",
@@ -14,21 +12,15 @@
     "username": "visa-valtteri"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1456562627370"
-    }
+    "$date": "1456562627370"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1456562627370"
-    }
+    "$date": "1456562627370"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.316070282163103"
-  },
+  "rank": "10.316070282163103",
   "private": false,
   "unlisted": false,
   "username": "visa-valtteri",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-df9eewy527rs9g2ik-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "518"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "518",
+  "likes": "2",
   "revisionId": "w7vPBY3qXr9LiYopE"
 }

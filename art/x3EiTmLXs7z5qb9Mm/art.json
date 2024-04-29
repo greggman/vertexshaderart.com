@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1506342397519"
-    }
+    "$date": "1506342397519"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1506342397519"
-    }
+    "$date": "1506342397519"
   },
   "origId": "jBpixD335L3o2unKj",
   "name": "hypercuber tesserX",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8294734080447452"
-  },
+  "rank": "1.8294734080447452",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-x3l94x6qafru2eyqr-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "110"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "110",
+  "likes": "0",
   "revisionId": "mQfSGARbkMLLJxxFt"
 }

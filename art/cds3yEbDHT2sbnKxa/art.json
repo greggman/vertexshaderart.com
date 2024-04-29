@@ -3,9 +3,7 @@
   "owner": {
     "_id": "95683ZgBuRkukjtj7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1589922178477"
-      }
+      "$date": "1589922178477"
     },
     "profile": {
       "first_name": "Markus",
@@ -15,21 +13,15 @@
     "username": "markus"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1599073971787"
-    }
+    "$date": "1599073971787"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1599073971787"
-    }
+    "$date": "1599073971787"
   },
   "origId": "NeGB5oyRfmeMmWodT",
   "name": "Frank in White",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1095303944818293"
-  },
+  "rank": "1.1095303944818293",
   "private": false,
   "unlisted": true,
   "username": "markus",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-ycxpztn0rh8lt5glb-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "BTDhTFLhbN7SLh5Y6"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "8YazjgbR8FtHJgYgR",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1689266555980"
-      }
+      "$date": "1689266555980"
     },
     "username": "ersh",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1689315182686"
-    }
+    "$date": "1689315182686"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1689315182686"
-    }
+    "$date": "1689315182686"
   },
   "origId": "rBjrdN2CvsneEkgEk",
   "name": "otb",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7787495806709488"
-  },
+  "rank": "1.7787495806709488",
   "private": false,
   "unlisted": true,
   "username": "ersh",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-sqxjto7jtlmpq1zoh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "tzzdLiMjLu9eySP9x"
 }

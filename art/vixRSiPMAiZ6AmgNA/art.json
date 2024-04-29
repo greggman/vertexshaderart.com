@@ -3,9 +3,7 @@
   "owner": {
     "_id": "NHZzD8e27B7poHpfx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445941822749"
-      }
+      "$date": "1445941822749"
     },
     "profile": {
       "name": "Paul Malin",
@@ -14,14 +12,10 @@
     "username": "P_Malin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1446548043403"
-    }
+    "$date": "1446548043403"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1447107353095"
-    }
+    "$date": "1447107353095"
   },
   "origId": null,
   "name": "Simple Fractal",
@@ -41,16 +35,10 @@
     "shader": "// Simple Fractal - @P_Malin\n                        \nvoid main() \n{ \n  \tfloat fRotation = time * 0.5;\n  \tvec2 vTranslation = vec2( 0.2, 0.2 );\n  \tfloat fScale = 0.6;\n\n  \tfloat fSinRot = sin(fRotation);\n  \tfloat fCosRot = cos(fRotation);\n\n  \tmat3 m = mat3( fCosRot * fScale, fSinRot * fScale, vTranslation.x, -fSinRot * fScale, fCosRot * fScale, vTranslation.y, 0.0, 0.0, 1.0 );\n  \n  \tvec2 vPos = vec2( 0.0 );\n  \tvec2 vMin = vec2( 100.0 );  \t\n \tfloat fPassId = vertexId;\n  \n  \tfor ( int i=0; i<8; i++ )\n    {            \n    \tvPos = (vec3(vPos, 1.0) * m).xy;\n\n      \tfPassId = fPassId / 4.0;\n      \n      \tif ( fract( fPassId * 2.0 ) < 0.5 ) vPos.x = -vPos.x;\n      \tif ( fract( fPassId ) < 0.5 ) vPos.y = -vPos.y;\n      \tfPassId = floor( fPassId );\n      \n      \tvMin = min( vMin, abs( vPos ) );\n    }\n  \n  \tgl_PointSize = 6.0;\n  \tgl_Position = vec4(vPos * vec2( 1.0, resolution.x / resolution.y) , 1.0/vertexId, 1);\n\n  \tvec3 vColor;\n  \tvColor.x = sin( vMin.x * 10.0 + time * 1.234 ) * 0.5 + 0.5;\n  \tvColor.y = sin( vMin.y * 10.0 + time * 2.345 ) * 0.5 + 0.5;\n  \tvColor.z = sin( (vMin.x + vMin.y) * 5.0 + time * 3.456 ) * 0.5 + 0.5;\n  \n  \tvColor = normalize(vColor);\n  \n  \tvColor = 1.0 - exp2( vColor * -length( vMin ) * 3.0 );\n  \tv_color = vec4( vColor, 0.0 );\n}"
   },
   "screenshotURL": "data/images/images-qx88yqxi4r69da57f-thumbnail.jpg",
-  "views": {
-    "$numberInt": "530"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "530",
+  "likes": "2",
   "revisionId": "uiaRacFTwoEC9yRHM",
   "hasSound": "",
-  "rank": {
-    "$numberDouble": "10.502000308663968"
-  },
+  "rank": "10.502000308663968",
   "avatarUrl": "https://pbs.twimg.com/profile_images/2157402471/Profile_200x200.png"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1524511014676"
-    }
+    "$date": "1524511014676"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1524511014676"
-    }
+    "$date": "1524511014676"
   },
   "origId": "NTihgba8cFq4fMyQF",
   "name": "Vertex Shader Art: Lesson 4",
   "notes": "Working with sound",
-  "rank": {
-    "$numberDouble": "1.556711831509755"
-  },
+  "rank": "1.556711831509755",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-xky0chefkr16isr4a-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "vzJ5EhHazfoc6bLrx"
 }

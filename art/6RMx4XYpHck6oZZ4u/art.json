@@ -3,9 +3,7 @@
   "owner": {
     "_id": "XZ9fGNm72T7MyEqAy",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1612890971955"
-      }
+      "$date": "1612890971955"
     },
     "username": "oneshade",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1612984818788"
-    }
+    "$date": "1612984818788"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1612984818788"
-    }
+    "$date": "1612984818788"
   },
   "origId": null,
   "name": "Parametric Plotter - Torus",
   "notes": "Parametric graphing.",
-  "rank": {
-    "$numberDouble": "1.1152076333955674"
-  },
+  "rank": "1.1152076333955674",
   "private": false,
   "unlisted": false,
   "username": "oneshade",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-er4jpe4h70m8a7186-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "394"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "394",
+  "likes": "0",
   "revisionId": "cxYz6Rgh732uNKAD7"
 }

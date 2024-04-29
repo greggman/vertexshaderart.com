@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1568768912139"
-    }
+    "$date": "1568768912139"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1568768912139"
-    }
+    "$date": "1568768912139"
   },
   "origId": "uZ4ELyQ7j8J8X5xJg",
   "name": "julia point cloud",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.591445623541327"
-  },
+  "rank": "10.591445623541327",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-cw35418rszig29ehv-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "263"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "263",
+  "likes": "3",
   "revisionId": "WjuYNGpBojci9j3LX"
 }

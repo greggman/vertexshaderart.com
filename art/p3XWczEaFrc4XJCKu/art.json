@@ -3,9 +3,7 @@
   "owner": {
     "_id": "bj8YombFaBndJtCGh",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1502175661489"
-      }
+      "$date": "1502175661489"
     },
     "profile": {
       "name": "Trevor Drury",
@@ -14,21 +12,15 @@
     "username": "trevor"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1502265183847"
-    }
+    "$date": "1502265183847"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1502265183847"
-    }
+    "$date": "1502265183847"
   },
   "origId": null,
   "name": "triangle test",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7737546909735786"
-  },
+  "rank": "1.7737546909735786",
   "private": false,
   "unlisted": true,
   "username": "trevor",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-btx4qbqo122y27bv6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "JxjgDAmD9oAg3uvsE"
 }

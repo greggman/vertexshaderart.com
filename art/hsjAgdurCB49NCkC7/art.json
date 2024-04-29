@@ -3,9 +3,7 @@
   "owner": {
     "_id": "pgKWPgR9Cfeze4JZf",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684327971226"
-      }
+      "$date": "1684327971226"
     },
     "profile": {
       "name": "seoseulbin",
@@ -14,21 +12,15 @@
     "username": "seoseulbin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684505844152"
-    }
+    "$date": "1684505844152"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684506352109"
-    }
+    "$date": "1684506352109"
   },
   "origId": null,
   "name": "Color",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4808342488894317"
-  },
+  "rank": "1.4808342488894317",
   "private": false,
   "unlisted": true,
   "username": "seoseulbin",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-0ybjtzzbd9qjwrjsk-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "ZfA7WroNNTK6m5E37"
 }

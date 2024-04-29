@@ -3,9 +3,7 @@
   "owner": {
     "_id": "mbpdn9eEAEmt7DioT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1595221447631"
-      }
+      "$date": "1595221447631"
     },
     "profile": {
       "first_name": "Ninja",
@@ -15,21 +13,15 @@
     "username": "ninja"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1595224776485"
-    }
+    "$date": "1595224776485"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1595224776485"
-    }
+    "$date": "1595224776485"
   },
   "origId": null,
   "name": "first project",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4786877971784997"
-  },
+  "rank": "1.4786877971784997",
   "private": false,
   "unlisted": false,
   "username": "ninja",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-tnvlrihybkx0zf10f-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "151"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "151",
+  "likes": "0",
   "revisionId": "MnQcbQeRAhP7p9mwf"
 }

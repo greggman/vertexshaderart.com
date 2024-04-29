@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1523299826567"
-    }
+    "$date": "1523299826567"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1523299826567"
-    }
+    "$date": "1523299826567"
   },
   "origId": "SJ68p365upswGjcG9",
   "name": "Animated Cross Hatching",
   "notes": "First vertex shader",
-  "rank": {
-    "$numberDouble": "1.3742045133991598"
-  },
+  "rank": "1.3742045133991598",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-u3qblcalfprz1x8uf-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "4ygNT6GfA2Nk2HsjN"
 }

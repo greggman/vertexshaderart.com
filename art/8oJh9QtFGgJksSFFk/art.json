@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Q69WMQL7AmzFMCxio",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1522035996219"
-      }
+      "$date": "1522035996219"
     },
     "profile": {
       "first_name": "DreadKyller",
@@ -15,21 +13,15 @@
     "username": "dreadkyller"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1522036045755"
-    }
+    "$date": "1522036045755"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1522036045755"
-    }
+    "$date": "1522036045755"
   },
   "origId": null,
   "name": "Terrain Gen Testing Area",
   "notes": "A setup for fooling around with visualizing how mixing noise creates various terrain shapes",
-  "rank": {
-    "$numberDouble": "10.591671821428445"
-  },
+  "rank": "10.591671821428445",
   "private": false,
   "unlisted": false,
   "username": "dreadkyller",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-p7cx82na0xgz3tqbm-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "461"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "461",
+  "likes": "2",
   "revisionId": "xAGshWGtsMp7sbfcP"
 }

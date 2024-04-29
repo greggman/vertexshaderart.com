@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1571694319624"
-    }
+    "$date": "1571694319624"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1571694355973"
-    }
+    "$date": "1571694355973"
   },
   "origId": "dfek5Y7Cg65RmZeWJ",
   "name": "HexGrid",
   "notes": "mouse for control shape pattern",
-  "rank": {
-    "$numberDouble": "1.495685970343672"
-  },
+  "rank": "1.495685970343672",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-yz8hrq2sctf7mipqx-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "58"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "58",
+  "likes": "0",
   "revisionId": "DSnLoaXHF65GJK5iv"
 }

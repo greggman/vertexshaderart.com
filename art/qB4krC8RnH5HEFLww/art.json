@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1494623497583"
-    }
+    "$date": "1494623497583"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1494623497583"
-    }
+    "$date": "1494623497583"
   },
   "origId": "NfQPZoWHTBFY7AKy5",
   "name": "Cercle Tunnel",
   "notes": "K Machine exposed",
-  "rank": {
-    "$numberDouble": "1.8742360648197778"
-  },
+  "rank": "1.8742360648197778",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ekjnf41sgez49ne0z-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "311"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "311",
+  "likes": "1",
   "revisionId": "EJCtkYmrEKT99sWiw"
 }

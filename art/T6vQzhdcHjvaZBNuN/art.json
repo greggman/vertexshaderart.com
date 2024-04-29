@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1517155407448"
-    }
+    "$date": "1517155407448"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1517155407448"
-    }
+    "$date": "1517155407448"
   },
   "origId": "2KcwnpWC6FyBx5N9S",
   "name": "vel bound peng squid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0999639531431238"
-  },
+  "rank": "1.0999639531431238",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-we3e1852e8ijmcoe7-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "184"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "184",
+  "likes": "1",
   "revisionId": "ZPBC8gqLppwFgaj9t"
 }

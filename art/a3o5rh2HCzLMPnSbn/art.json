@@ -3,9 +3,7 @@
   "owner": {
     "_id": "FsPX3C7EerrsJgMhi",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1638285005914"
-      }
+      "$date": "1638285005914"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "leithba"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1638285019433"
-    }
+    "$date": "1638285019433"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1638360110043"
-    }
+    "$date": "1638360110043"
   },
   "origId": null,
   "name": "black eye",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.910873112731698"
-  },
+  "rank": "10.910873112731698",
   "private": false,
   "unlisted": false,
   "username": "leithba",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-1oyzc51wdo5jdwgow-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "675"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "675",
+  "likes": "3",
   "revisionId": "gW4MbhZTvvQmS4Aiz"
 }

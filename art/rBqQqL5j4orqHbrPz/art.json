@@ -4,20 +4,14 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1449358928725"
-    }
+    "$date": "1449358928725"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1449358928725"
-    }
+    "$date": "1449358928725"
   },
   "origId": "h6BvsMWiHpgwT5Nhh",
   "name": "tweaked pointsprite plasma",
-  "rank": {
-    "$numberDouble": "1.4305933081257591"
-  },
+  "rank": "1.4305933081257591",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -36,11 +30,7 @@
   },
   "screenshotURL": "data/images/images-eha59va25847naeip-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "225"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "225",
+  "likes": "0",
   "revisionId": "zyYkfve7NyKg4RXa8"
 }

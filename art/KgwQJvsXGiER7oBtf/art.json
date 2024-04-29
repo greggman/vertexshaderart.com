@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1616247932142"
-    }
+    "$date": "1616247932142"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1616247932142"
-    }
+    "$date": "1616247932142"
   },
   "origId": "d6HHmyLaBsmttvb5b",
   "name": "myHello Cube",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7009361077100154"
-  },
+  "rank": "1.7009361077100154",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-0j0toyhlvandw4d4m-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "116"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "116",
+  "likes": "1",
   "revisionId": "DzmN5r4ay3Z6RAZfp"
 }

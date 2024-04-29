@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vik3dpFYB5Xg3em4A",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1568858617968"
-      }
+      "$date": "1568858617968"
     },
     "username": "gitanely",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1569561189421"
-    }
+    "$date": "1569561189421"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1569561189421"
-    }
+    "$date": "1569561189421"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9728175241937205"
-  },
+  "rank": "1.9728175241937205",
   "private": false,
   "unlisted": true,
   "username": "gitanely",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ygwt15bggedjyp6j9-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "yS6nttbQqGLyZiBkM"
 }

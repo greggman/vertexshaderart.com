@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1553152938197"
-      }
+      "$date": "1553152938197"
     },
     "username": "janalex",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553336917117"
-    }
+    "$date": "1553336917117"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553336917117"
-    }
+    "$date": "1553336917117"
   },
   "origId": "cynWXyqSFnWDriqfR",
   "name": "1903-GridSoundCentered",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4868746774876422"
-  },
+  "rank": "1.4868746774876422",
   "private": false,
   "unlisted": false,
   "username": "janalex",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ndyl47gnsfmp51191-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "209"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "209",
+  "likes": "1",
   "revisionId": "AmqQ3PGMxsPeZ5utG"
 }

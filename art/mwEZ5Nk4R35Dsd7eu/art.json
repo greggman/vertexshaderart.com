@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DMjrQbvFJZiBrahNH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684316626390"
-      }
+      "$date": "1684316626390"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jeminshin2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684412365461"
-    }
+    "$date": "1684412365461"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684412365461"
-    }
+    "$date": "1684412365461"
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9653667615317978"
-  },
+  "rank": "1.9653667615317978",
   "private": false,
   "unlisted": true,
   "username": "jeminshin2",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-vr1672u5ptb9ds1oi-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "mkMJ8GuqQvD4vnCvN"
 }

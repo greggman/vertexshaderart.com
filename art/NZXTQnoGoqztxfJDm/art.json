@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1645724848857"
-    }
+    "$date": "1645724848857"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1645724848857"
-    }
+    "$date": "1645724848857"
   },
   "origId": null,
   "name": "That spinner",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9718708437585444"
-  },
+  "rank": "1.9718708437585444",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-vrybjvc9nvdfejo54-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "81"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "81",
+  "likes": "0",
   "revisionId": "4Zvuc3mL7LFYWED6K"
 }

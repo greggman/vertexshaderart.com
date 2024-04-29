@@ -3,9 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501018355084"
-      }
+      "$date": "1501018355084"
     },
     "username": "sylistine",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1600839950899"
-    }
+    "$date": "1600839950899"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1601854589781"
-    }
+    "$date": "1601854589781"
   },
   "origId": null,
   "name": "Sound Texture Visualizer",
   "notes": "Soundテキスチャーのサンプルをいじるとどんなパターンを綺麗に絞れるかとのためのシェーダーです。\n\nShader intended for viewing the raw effect of various processes on the sampled sound texture.\nHelpful for developing unique processing formulas.\n\nIn this example, I'm trying to isolate the rising and falling \"Let's go!\" sample\nThis helped also identify some really cool, clean patterns on the high end.",
-  "rank": {
-    "$numberDouble": "1.8122604356390057"
-  },
+  "rank": "1.8122604356390057",
   "private": false,
   "unlisted": false,
   "username": "sylistine",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-1cxor1idzrh16a8c7-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "190"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "190",
+  "likes": "0",
   "revisionId": "8uTotz7rF3AW7mxFd"
 }

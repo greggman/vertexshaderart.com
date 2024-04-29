@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1467321349369"
-    }
+    "$date": "1467321349369"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1490365706480"
-    }
+    "$date": "1490365706480"
   },
   "origId": "SDv9RES4wtc8RQbg2",
   "name": "spirals",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3219961454651534"
-  },
+  "rank": "1.3219961454651534",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-dq7s7cqwp0bna81g2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "140"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "140",
+  "likes": "0",
   "revisionId": "ZPCvcCk2ZeDQ9wo9i"
 }

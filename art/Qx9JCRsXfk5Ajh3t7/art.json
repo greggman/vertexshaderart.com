@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590985009752"
-    }
+    "$date": "1590985009752"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590985009752"
-    }
+    "$date": "1590985009752"
   },
   "origId": "w39M6FR7PCQctz5bN",
   "name": "sockwaves",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.116222040058556"
-  },
+  "rank": "10.116222040058556",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-860e8l68bz126jbr2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "263"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "263",
+  "likes": "3",
   "revisionId": "aXv7hBDzPp4yLYNAX"
 }

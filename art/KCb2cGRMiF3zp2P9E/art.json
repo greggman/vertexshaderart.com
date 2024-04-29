@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ML9sMhrDiffNmiXnR",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1508649811074"
-      }
+      "$date": "1508649811074"
     },
     "profile": {
       "name": "Liam",
@@ -14,21 +12,15 @@
     "username": "liaminjapan"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1512100837188"
-    }
+    "$date": "1512100837188"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1512100837188"
-    }
+    "$date": "1512100837188"
   },
   "origId": null,
   "name": "red-and-white",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7713398597491161"
-  },
+  "rank": "1.7713398597491161",
   "private": false,
   "unlisted": true,
   "username": "liaminjapan",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ue7thora907bswc72-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "47"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "47",
+  "likes": "0",
   "revisionId": "7Req8GAFaNEade86C"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nGxcqKNjk2qCgadmc",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684074736476"
-      }
+      "$date": "1684074736476"
     },
     "username": "joonho.hwang",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684083353220"
-    }
+    "$date": "1684083353220"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684083563088"
-    }
+    "$date": "1684083563088"
   },
   "origId": null,
   "name": "Colors - Tweak",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5903949910966901"
-  },
+  "rank": "1.5903949910966901",
   "private": false,
   "unlisted": true,
   "username": "joonho.hwang",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-5q32kcrorh0o1v59z-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "jHyLKwuqjAuG32bbj"
 }

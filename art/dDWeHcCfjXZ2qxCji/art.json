@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1642027794039"
-    }
+    "$date": "1642027794039"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1642027794039"
-    }
+    "$date": "1642027794039"
   },
   "origId": "bbpMGgfF9vceKwYEH",
   "name": "mostly harmless 4 Kmaachine WIP",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7056873346743013"
-  },
+  "rank": "1.7056873346743013",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-b22yd31wklvw8foma-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "39"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "39",
+  "likes": "0",
   "revisionId": "LScnsisSm4xqotvQs"
 }

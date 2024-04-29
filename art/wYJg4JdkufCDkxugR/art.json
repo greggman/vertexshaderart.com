@@ -3,9 +3,7 @@
   "owner": {
     "_id": "CzxjYbZe5tjRjavPd",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1530901372124"
-      }
+      "$date": "1530901372124"
     },
     "username": "mattsonic",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1530901795639"
-    }
+    "$date": "1530901795639"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1530901795639"
-    }
+    "$date": "1530901795639"
   },
   "origId": "TtKakFtTdMbTCbaQj",
   "name": "tutorial2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6611042974901573"
-  },
+  "rank": "1.6611042974901573",
   "private": false,
   "unlisted": true,
   "username": "mattsonic",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-crm43uheb50wo39mn-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "ESWfYaCjSbaJgJyH5"
 }

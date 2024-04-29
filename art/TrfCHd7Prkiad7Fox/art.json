@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1509001182119"
-    }
+    "$date": "1509001182119"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1509001182119"
-    }
+    "$date": "1509001182119"
   },
   "origId": "349P7R35WtujgHxrw",
   "name": "666wired x3 4k",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8697000533154733"
-  },
+  "rank": "1.8697000533154733",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-7dl5oi7clcjogmhoh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "114"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "114",
+  "likes": "0",
   "revisionId": "9PWD8qTJLv6mn533T"
 }

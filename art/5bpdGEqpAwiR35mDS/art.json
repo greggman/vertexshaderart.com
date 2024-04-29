@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322328046"
-      }
+      "$date": "1684322328046"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684930658503"
-    }
+    "$date": "1684930658503"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684930658503"
-    }
+    "$date": "1684930658503"
   },
   "origId": null,
   "name": "Audio Reactive_Own variation",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4500273957110144"
-  },
+  "rank": "1.4500273957110144",
   "private": false,
   "unlisted": true,
   "username": "chaerinpark",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-n9vesdi9i27qqjhc7-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "GKcmFxBXfjW9NaJj9"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1521944623439"
-    }
+    "$date": "1521944623439"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1521944623439"
-    }
+    "$date": "1521944623439"
   },
   "origId": "6RnXzKXyyfu7NWTyb",
   "name": "HexGrid 4 Km",
   "notes": "mouse for control shape pattern\nloads into KMachine",
-  "rank": {
-    "$numberDouble": "1.3371541942707537"
-  },
+  "rank": "1.3371541942707537",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-thhuqgincpar2u9dd-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "182"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "182",
+  "likes": "0",
   "revisionId": "qpLvQ2iWq7u5aE84k"
 }

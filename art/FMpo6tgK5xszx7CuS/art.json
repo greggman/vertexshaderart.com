@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a8m3atPhmk7sE7mpT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1694268147721"
-      }
+      "$date": "1694268147721"
     },
     "profile": {
       "first_name": "Inoculate",
@@ -16,21 +14,15 @@
     "username": "inoculate"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1694269896484"
-    }
+    "$date": "1694269896484"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1694269896484"
-    }
+    "$date": "1694269896484"
   },
   "origId": null,
   "name": "Infinite Spiral",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.489854522458768"
-  },
+  "rank": "1.489854522458768",
   "private": false,
   "unlisted": false,
   "username": "inoculate",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-rxtzxsr3gyf2krcwv-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "67"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "67",
+  "likes": "0",
   "revisionId": "m2xLscfrcEgyxnjCT"
 }

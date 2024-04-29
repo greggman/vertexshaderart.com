@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1585503633143"
-    }
+    "$date": "1585503633143"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1585503633143"
-    }
+    "$date": "1585503633143"
   },
   "origId": "72Qyo6BcBD6bt9NDW",
   "name": "adv_Sphere",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8799563788976879"
-  },
+  "rank": "1.8799563788976879",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-5wd2wj4qz4xdseqd6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "97"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "97",
+  "likes": "0",
   "revisionId": "sDb5oz5yeQwK3boix"
 }

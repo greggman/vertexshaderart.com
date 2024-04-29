@@ -3,9 +3,7 @@
   "owner": {
     "_id": "NHZzD8e27B7poHpfx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445941822749"
-      }
+      "$date": "1445941822749"
     },
     "profile": {
       "name": "Paul Malin",
@@ -14,21 +12,15 @@
     "username": "P_Malin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1659034108997"
-    }
+    "$date": "1659034108997"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1659105223539"
-    }
+    "$date": "1659105223539"
   },
   "origId": null,
   "name": "Universe",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0741176454622332"
-  },
+  "rank": "1.0741176454622332",
   "private": false,
   "unlisted": true,
   "username": "P_Malin",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ptde8y850tnu02ve0-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "19"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "19",
+  "likes": "0",
   "revisionId": "j5CJpA5QgNPJrAcTW"
 }

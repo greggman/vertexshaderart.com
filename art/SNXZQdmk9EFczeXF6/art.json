@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yWTy8yJSBHTtH3nwH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1590662739186"
-      }
+      "$date": "1590662739186"
     },
     "profile": {
       "first_name": "Davide",
@@ -15,21 +13,15 @@
     "username": "davide"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590662776680"
-    }
+    "$date": "1590662776680"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590666541646"
-    }
+    "$date": "1590666541646"
   },
   "origId": null,
   "name": "Grid",
   "notes": "First project",
-  "rank": {
-    "$numberDouble": "1.6044720053652584"
-  },
+  "rank": "1.6044720053652584",
   "private": false,
   "unlisted": true,
   "username": "davide",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-egxne5su20hw6whmk-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "51"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "51",
+  "likes": "0",
   "revisionId": "mjreCxwtFWxw7NZ24"
 }

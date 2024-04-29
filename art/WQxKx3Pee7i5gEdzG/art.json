@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1565912380871"
-    }
+    "$date": "1565912380871"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1565912380871"
-    }
+    "$date": "1565912380871"
   },
   "origId": "XK2y2Cy63Ez45E7pm",
   "name": "gworm KMACHINE wip2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1178346440930813"
-  },
+  "rank": "1.1178346440930813",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-15wxwg3goxvxugzxu-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "236"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "236",
+  "likes": "1",
   "revisionId": "jwuKzmSp9tydv7LLs"
 }

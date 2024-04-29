@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yXJ6WCMQCSanfJTWk",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1447692554526"
-      }
+      "$date": "1447692554526"
     },
     "username": "dzozef",
     "profile": {
@@ -14,20 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1448279176305"
-    }
+    "$date": "1448279176305"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1448365771420"
-    }
+    "$date": "1448365771420"
   },
   "origId": null,
   "name": "heightfield plotter",
-  "rank": {
-    "$numberDouble": "10.372636880530486"
-  },
+  "rank": "10.372636880530486",
   "private": false,
   "username": "dzozef",
   "settings": {
@@ -45,12 +37,8 @@
   },
   "screenshotURL": "data/images/images-196eqbwwif1xb8f6r-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2079"
-  },
-  "likes": {
-    "$numberInt": "13"
-  },
+  "views": "2079",
+  "likes": "13",
   "revisionId": "5mGww4MYANm3buTTS",
   "avatarUrl": "https://secure.gravatar.com/avatar/d6b044e92a377cd617762af9a488719d?default=retro&size=200"
 }

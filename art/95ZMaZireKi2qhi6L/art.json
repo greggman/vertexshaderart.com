@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1536444746716"
-    }
+    "$date": "1536444746716"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1536444746716"
-    }
+    "$date": "1536444746716"
   },
   "origId": null,
   "name": "ads",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8451114776708284"
-  },
+  "rank": "1.8451114776708284",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-zigubmm0a5gmrurfv-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "90"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "90",
+  "likes": "0",
   "revisionId": "b9rEj7LpNoH8xMCzf"
 }

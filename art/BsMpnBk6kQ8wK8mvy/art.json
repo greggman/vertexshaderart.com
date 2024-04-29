@@ -3,9 +3,7 @@
   "owner": {
     "_id": "CwvvvtJL5Ykqzxv4N",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1557600049871"
-      }
+      "$date": "1557600049871"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jorenvo"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1557720109806"
-    }
+    "$date": "1557720109806"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1558304388439"
-    }
+    "$date": "1558304388439"
   },
   "origId": null,
   "name": "Bodzin",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8871084875902566"
-  },
+  "rank": "1.8871084875902566",
   "private": false,
   "unlisted": true,
   "username": "jorenvo",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-xtukeedavwtk3jsa0-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "M9Z2JRkkxqwvpNzEp"
 }

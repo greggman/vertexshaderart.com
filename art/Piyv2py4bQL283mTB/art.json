@@ -3,9 +3,7 @@
   "owner": {
     "_id": "RebX8k75v7GquQhg6",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1566254324938"
-      }
+      "$date": "1566254324938"
     },
     "profile": {
       "first_name": "MrShoor",
@@ -15,21 +13,15 @@
     "username": "mrshoor"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1566258114277"
-    }
+    "$date": "1566258114277"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1566258238081"
-    }
+    "$date": "1566258238081"
   },
   "origId": "jETzmmycobJrRvXH9",
   "name": "Sphere + Cube Distribution",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.522168061558235"
-  },
+  "rank": "10.522168061558235",
   "private": false,
   "unlisted": false,
   "username": "mrshoor",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-o0l69ynhe0rxfgd8s-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "708"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "708",
+  "likes": "2",
   "revisionId": "y8Dg2fBRPbw3ojnqM"
 }

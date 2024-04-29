@@ -3,9 +3,7 @@
   "owner": {
     "_id": "9mSJ94a3jLQYEtpma",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1574356902539"
-      }
+      "$date": "1574356902539"
     },
     "profile": {
       "first_name": "Nathan",
@@ -15,21 +13,15 @@
     "username": "nathan2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1574462952423"
-    }
+    "$date": "1574462952423"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1574463362533"
-    }
+    "$date": "1574463362533"
   },
   "origId": null,
   "name": "Music Stars",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.355418056688473"
-  },
+  "rank": "1.355418056688473",
   "private": false,
   "unlisted": true,
   "username": "nathan2",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-mk2wlucfv1tpygtzm-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "3NeKubyEpLyEMTwcn"
 }

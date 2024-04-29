@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496649918539"
-    }
+    "$date": "1496649918539"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496650876394"
-    }
+    "$date": "1496650876394"
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "dot art",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.836284566325478"
-  },
+  "rank": "10.836284566325478",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-cwax7jsvwevlgnqgw-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "333"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "333",
+  "likes": "6",
   "revisionId": "5ohsdq4PxJbG7pTjb"
 }

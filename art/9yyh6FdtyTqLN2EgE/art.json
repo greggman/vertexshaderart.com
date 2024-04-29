@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1499795337253"
-    }
+    "$date": "1499795337253"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1499795337253"
-    }
+    "$date": "1499795337253"
   },
   "origId": "D4KsKHDFES8P7NEBc",
   "name": "forest fall 1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2118877213576562"
-  },
+  "rank": "1.2118877213576562",
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-onnzqftc74oignlom-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "55"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "55",
+  "likes": "1",
   "revisionId": "SdFdaQRGgZRQLHFHQ"
 }

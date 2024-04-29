@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1500326350793"
-    }
+    "$date": "1500326350793"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1500326350793"
-    }
+    "$date": "1500326350793"
   },
   "origId": "G6uv6rnTuzAgmHniY",
   "name": "crystal irisz (1)",
   "notes": "2017-07-13: replaced music",
-  "rank": {
-    "$numberDouble": "10.280715411526016"
-  },
+  "rank": "10.280715411526016",
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-jljp0py2vt0xtq07c-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "376"
-  },
-  "likes": {
-    "$numberInt": "4"
-  },
+  "views": "376",
+  "likes": "4",
   "revisionId": "jYoZskYdQdMivtYKt"
 }

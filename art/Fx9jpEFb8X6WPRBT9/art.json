@@ -3,9 +3,7 @@
   "owner": {
     "_id": "kRuoSvQwwhSmmXEvD",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1544314876417"
-      }
+      "$date": "1544314876417"
     },
     "username": "chrisbartholomew",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1544316739041"
-    }
+    "$date": "1544316739041"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1544316739041"
-    }
+    "$date": "1544316739041"
   },
   "origId": null,
   "name": "pointgrid v1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0564849195470678"
-  },
+  "rank": "1.0564849195470678",
   "private": false,
   "unlisted": true,
   "username": "chrisbartholomew",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-nltiey2ds1p50vdll-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "SFGpp6Zq2876gk9ay"
 }

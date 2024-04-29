@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ton59f9P8EyXxMoto",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503530"
-      }
+      "$date": "1684322503530"
     },
     "profile": {
       "name": "Myunghyun Kim",
@@ -14,21 +12,15 @@
     "username": "myunghyunkim0227"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684324180055"
-    }
+    "$date": "1684324180055"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684324180055"
-    }
+    "$date": "1684324180055"
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.819534487084341"
-  },
+  "rank": "1.819534487084341",
   "private": false,
   "unlisted": false,
   "username": "myunghyunkim0227",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-jaf4q89jrtkva6al9-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "63"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "63",
+  "likes": "0",
   "revisionId": "GcjvcLkoWrkGv9GS4"
 }

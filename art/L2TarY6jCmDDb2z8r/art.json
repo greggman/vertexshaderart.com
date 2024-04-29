@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1646438525310"
-    }
+    "$date": "1646438525310"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1646438525310"
-    }
+    "$date": "1646438525310"
   },
   "origId": "Q4dpCbhvWMYfDz5Nb",
   "name": "smutz",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6889592214086866"
-  },
+  "rank": "1.6889592214086866",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-x0bxvj75lj4miydh2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "97"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "97",
+  "likes": "0",
   "revisionId": "6TwcCgiwuszQdbpza"
 }

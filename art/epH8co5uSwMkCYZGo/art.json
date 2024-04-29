@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QDz3Y5ub4T9bwkhXT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1590717528473"
-      }
+      "$date": "1590717528473"
     },
     "username": "cjensen93",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590717563542"
-    }
+    "$date": "1590717563542"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590717563542"
-    }
+    "$date": "1590717563542"
   },
   "origId": null,
   "name": "Motion",
   "notes": "Animation Test",
-  "rank": {
-    "$numberDouble": "1.138082400909363"
-  },
+  "rank": "1.138082400909363",
   "private": false,
   "unlisted": true,
   "username": "cjensen93",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-0q1guwvb8985nmcjl-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "AhqwTA7jiPYoqy7iE"
 }

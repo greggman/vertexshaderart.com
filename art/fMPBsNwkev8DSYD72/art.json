@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667032560256"
-      }
+      "$date": "1667032560256"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1669281424213"
-    }
+    "$date": "1669281424213"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1669281424213"
-    }
+    "$date": "1669281424213"
   },
   "origId": null,
   "name": "litelline",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6408992343954802"
-  },
+  "rank": "1.6408992343954802",
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-z6hyf2iuknjtljetj-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "23"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "23",
+  "likes": "0",
   "revisionId": "3qHFM84ayoayxfonM"
 }

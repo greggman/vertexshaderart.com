@@ -3,9 +3,7 @@
   "owner": {
     "_id": "fkzHLG5ksNcPYTXhA",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1551410219103"
-      }
+      "$date": "1551410219103"
     },
     "username": "randomstarz",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551422394288"
-    }
+    "$date": "1551422394288"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551475429840"
-    }
+    "$date": "1551475429840"
   },
   "origId": null,
   "name": "Tut 5",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1237594596921263"
-  },
+  "rank": "1.1237594596921263",
   "private": false,
   "unlisted": true,
   "username": "randomstarz",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-yoytyme58sxiczr12-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "hFHMqToDRe6ZXhwLG"
 }

@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1680910326832"
-    }
+    "$date": "1680910326832"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1680910326832"
-    }
+    "$date": "1680910326832"
   },
   "origId": "7YtDi4LTcGHk4Rv7A",
   "name": "juliaworld",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2433017524089345"
-  },
+  "rank": "1.2433017524089345",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-so5wax3s8iqnb8gru-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "75"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "75",
+  "likes": "0",
   "revisionId": "iyHTADE8uqPuXhktP"
 }

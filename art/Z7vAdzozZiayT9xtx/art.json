@@ -3,9 +3,7 @@
   "owner": {
     "_id": "cFdz2pdS8XZgihEn2",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652806562125"
-      }
+      "$date": "1652806562125"
     },
     "username": "sangbeom.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1654180876326"
-    }
+    "$date": "1654180876326"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1654185976180"
-    }
+    "$date": "1654185976180"
   },
   "origId": "2PbekWKKMe8gWdJ3z",
   "name": "Circles from Triangles",
   "notes": "Circles from Triangles",
-  "rank": {
-    "$numberDouble": "1.9973229267419674"
-  },
+  "rank": "1.9973229267419674",
   "private": false,
   "unlisted": true,
   "username": "sangbeom.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-4qiamzzv3mwtl6qg4-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "2bArHP4upsjQrBotC"
 }

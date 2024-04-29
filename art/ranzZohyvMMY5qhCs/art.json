@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1601018634655"
-    }
+    "$date": "1601018634655"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1601018634655"
-    }
+    "$date": "1601018634655"
   },
   "origId": "qRP5HEWEavfkjMpzp",
   "name": "fractal blue",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3062583193508568"
-  },
+  "rank": "1.3062583193508568",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-vs63o79i0liusp7g9-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "115"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "115",
+  "likes": "0",
   "revisionId": "paC5WRQb4zGTZzRx7"
 }

@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1666076670738"
-    }
+    "$date": "1666076670738"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1666076670738"
-    }
+    "$date": "1666076670738"
   },
   "origId": null,
   "name": "galaxy",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6812966735095758"
-  },
+  "rank": "1.6812966735095758",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-ptfoyfp5ejm55ipi3-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "46"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "46",
+  "likes": "0",
   "revisionId": "LtxdcZSauyBKr9LH3"
 }

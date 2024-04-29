@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a5u5aymsXPMzHyfqq",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1530428097309"
-      }
+      "$date": "1530428097309"
     },
     "profile": {
       "name": "Nezihe Sözen",
@@ -14,21 +12,15 @@
     "username": "nezihesozen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1530441600955"
-    }
+    "$date": "1530441600955"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1530441600955"
-    }
+    "$date": "1530441600955"
   },
   "origId": null,
   "name": "deneme",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.088575083341014"
-  },
+  "rank": "1.088575083341014",
   "private": false,
   "unlisted": true,
   "username": "nezihesozen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-l2d0dtrxveq3rn0aj-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "BZSu4KYtQbXgiyN9f"
 }

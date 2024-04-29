@@ -3,9 +3,7 @@
   "owner": {
     "_id": "F5if23dnvCEmcMssC",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1446316652572"
-      }
+      "$date": "1446316652572"
     },
     "profile": {
       "first_name": "Mark",
@@ -15,14 +13,10 @@
     "username": "mark"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1446383216781"
-    }
+    "$date": "1446383216781"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1446383216788"
-    }
+    "$date": "1446383216788"
   },
   "origId": null,
   "name": "vibrations",
@@ -42,16 +36,10 @@
     "shader": "#define PI 3.14159\n\nfloat hash( float n ) { return fract(sin(n)*753.5453123); }\n\nvoid main () {\n  float i = hash(vertexId);\n  float f = hash(i);\n  float snd = texture2D(sound, vec2(f, i)).a * cos(i);\n  snd = pow(snd, 2.);\n  \n  float ang = vertexId / 1000.;\n  float perspective = .3 * (1. + mouse.y);\n  float t = time * (f + .1) + mouse.x;\n  float x = i * sin(ang + t) * .8;\n  float y = i * cos(ang + t);\n  y +=  .1 * snd * (1. - y);\n  y *= perspective;\n  \n  float vis = snd / (y + 1.);\n  \n  gl_Position = vec4(x, y, 0., 1.);\n  gl_PointSize = 10. * vis;\n  \n  v_color = vec4(\n    snd * .7 * (1. - f),\n    snd * .8 * cos(f * PI),\n    snd * 2.,\n    vis);\n}"
   },
   "screenshotURL": "data/images/images-cm496gm3zn7w4pmpm-thumbnail.jpg",
-  "views": {
-    "$numberInt": "656"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "656",
+  "likes": "6",
   "revisionId": "PQYfMbSMBGB7JS6Xh",
   "hasSound": true,
-  "rank": {
-    "$numberDouble": "10.040094088633213"
-  },
+  "rank": "10.040094088633213",
   "avatarUrl": "https://lh3.googleusercontent.com/-Lca4UGau1OU/AAAAAAAAAAI/AAAAAAAAAI4/dSttspxaINs/photo.jpg"
 }

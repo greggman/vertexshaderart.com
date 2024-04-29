@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1465462309575"
-    }
+    "$date": "1465462309575"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1499942472246"
-    }
+    "$date": "1499942472246"
   },
   "origId": "d7anES7ef6WrrDwsy",
   "name": "perc2",
   "notes": "Sigh.... someone took their music down so replacing the music but it's not really tuned for this.",
-  "rank": {
-    "$numberDouble": "10.493717448168734"
-  },
+  "rank": "10.493717448168734",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ogl9iezuaimhelhgm-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "625"
-  },
-  "likes": {
-    "$numberInt": "8"
-  },
+  "views": "625",
+  "likes": "8",
   "revisionId": "oMBkZkQoEvwRHNPnX"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "buw2QswjyuzF5R3Z7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1643991359601"
-      }
+      "$date": "1643991359601"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "orange4glace"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1644671059304"
-    }
+    "$date": "1644671059304"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1644671115654"
-    }
+    "$date": "1644671115654"
   },
   "origId": null,
   "name": "teardrop",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8477050853875046"
-  },
+  "rank": "1.8477050853875046",
   "private": false,
   "unlisted": true,
   "username": "orange4glace",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-c3y7uuu31nci2b9ox-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "ziRYrwjWfuNix49hw"
 }

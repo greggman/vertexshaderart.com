@@ -3,9 +3,7 @@
   "owner": {
     "_id": "iFSyTSHmeekk4Ga75",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1683697855014"
-      }
+      "$date": "1683697855014"
     },
     "username": "minkicho",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1683777765847"
-    }
+    "$date": "1683777765847"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684304853570"
-    }
+    "$date": "1684304853570"
   },
   "origId": null,
   "name": "Exercise - Vertexshaderart : Motion",
   "notes": "https://www.vertexshaderart.com/art/q6CuGQiqZmHzrJ8N3",
-  "rank": {
-    "$numberDouble": "1.4184326779504517"
-  },
+  "rank": "1.4184326779504517",
   "private": false,
   "unlisted": true,
   "username": "minkicho",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-0hip5isywxebvlw8e-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "15"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "15",
+  "likes": "0",
   "revisionId": "KxXdPR5DE6BKtPniG"
 }

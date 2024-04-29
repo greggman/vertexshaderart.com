@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1623655252803"
-    }
+    "$date": "1623655252803"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1623655252803"
-    }
+    "$date": "1623655252803"
   },
   "origId": "C4gCacp8eQ337rdFD",
   "name": "mouse-wip",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0996073583576345"
-  },
+  "rank": "1.0996073583576345",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-bo7a7mz2kj4dqzopb-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "14"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "14",
+  "likes": "0",
   "revisionId": "zqDBhEWqmRG7KmE8N"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "33GYvgRj3LP6Xt7T6",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652800663941"
-      }
+      "$date": "1652800663941"
     },
     "username": "hyosang_jung",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652946244617"
-    }
+    "$date": "1652946244617"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652946244617"
-    }
+    "$date": "1652946244617"
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5863938800503157"
-  },
+  "rank": "1.5863938800503157",
   "private": false,
   "unlisted": true,
   "username": "hyosang_jung",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-8a5gl5ywo284rffx8-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "sWnanqzo53QLmKf6v"
 }

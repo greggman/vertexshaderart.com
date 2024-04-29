@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1700575875539"
-    }
+    "$date": "1700575875539"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1700575875539"
-    }
+    "$date": "1700575875539"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7178593578515204"
-  },
+  "rank": "1.7178593578515204",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-inakop1j9bieq21k5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "17"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "17",
+  "likes": "0",
   "revisionId": "5uKd3t7YHZ78gRJkG"
 }

@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554953704675"
-    }
+    "$date": "1554953704675"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554953704675"
-    }
+    "$date": "1554953704675"
   },
   "origId": "oYPxM5nT76rkag9tD",
   "name": "popo",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1592369040599066"
-  },
+  "rank": "1.1592369040599066",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-u0h1chdee3kc5e38k-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "104"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "104",
+  "likes": "0",
   "revisionId": "aWx6vzHS5SMqn3bJL"
 }

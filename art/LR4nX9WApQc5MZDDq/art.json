@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553208463032"
-    }
+    "$date": "1553208463032"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553208463032"
-    }
+    "$date": "1553208463032"
   },
   "origId": "6bbL3L3PTAdvJyg8n",
   "name": "gatra",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9942219828741543"
-  },
+  "rank": "1.9942219828741543",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-c8kf3greh0r0lfe5y-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "81"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "81",
+  "likes": "0",
   "revisionId": "YFNn6dEeBqzXfCbsr"
 }

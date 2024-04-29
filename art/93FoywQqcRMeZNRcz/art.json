@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1612191330111"
-    }
+    "$date": "1612191330111"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1612191330111"
-    }
+    "$date": "1612191330111"
   },
   "origId": "JRyewraYLfP9taa98",
   "name": "fedge",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0842184657234983"
-  },
+  "rank": "1.0842184657234983",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-9amu7dqnevio0ji6c-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "340"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "340",
+  "likes": "1",
   "revisionId": "8vfoy2Y6giWQ4yA9f"
 }

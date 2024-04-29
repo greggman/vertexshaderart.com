@@ -3,9 +3,7 @@
   "owner": {
     "_id": "exrQAEG45B5Exhhan",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684329330454"
-      }
+      "$date": "1684329330454"
     },
     "profile": {
       "name": "Minsu Kim",
@@ -14,21 +12,15 @@
     "username": "minsu-kim-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684567487885"
-    }
+    "$date": "1684567487885"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684567487885"
-    }
+    "$date": "1684567487885"
   },
   "origId": null,
   "name": "Colors Variation",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8221075498516182"
-  },
+  "rank": "1.8221075498516182",
   "private": false,
   "unlisted": true,
   "username": "minsu-kim-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-rhl816v002w7ua28u-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "dXcbYA6BvDvHtQcMA"
 }

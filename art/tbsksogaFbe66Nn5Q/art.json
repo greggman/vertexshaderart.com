@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1540408032900"
-      }
+      "$date": "1540408032900"
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -14,21 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1540638276508"
-    }
+    "$date": "1540638276508"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1540638276508"
-    }
+    "$date": "1540638276508"
   },
   "origId": null,
   "name": "Colorful Circle",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.738972344301964"
-  },
+  "rank": "1.738972344301964",
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-vu11v8abn6uhybwhz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "113"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "113",
+  "likes": "1",
   "revisionId": "8F8H7JbXrY9YqKd3W"
 }

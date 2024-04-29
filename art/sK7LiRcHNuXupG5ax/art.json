@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1642066690738"
-    }
+    "$date": "1642066690738"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1642066690738"
-    }
+    "$date": "1642066690738"
   },
   "origId": "W6AZjsv3rqioGwCLa",
   "name": "Oh my word",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.341660474986999"
-  },
+  "rank": "1.341660474986999",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-34zoofwmawlxo2ax2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "81"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "81",
+  "likes": "0",
   "revisionId": "8XjJCv7aS6kJSqQHX"
 }

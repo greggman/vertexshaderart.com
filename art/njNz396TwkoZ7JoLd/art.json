@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gYBmTGxvno9hKndQM",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1610122206689"
-      }
+      "$date": "1610122206689"
     },
     "profile": {
       "name": "Thanos Theodorakopoulos",
@@ -14,21 +12,15 @@
     "username": "galousis"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1611278927571"
-    }
+    "$date": "1611278927571"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1611339143678"
-    }
+    "$date": "1611339143678"
   },
   "origId": null,
   "name": "musicboxes",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4335561903278762"
-  },
+  "rank": "1.4335561903278762",
   "private": false,
   "unlisted": false,
   "username": "galousis",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-xcglu53eryk4d59z8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "197"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "197",
+  "likes": "0",
   "revisionId": "PzTngc34knEajQHZg"
 }

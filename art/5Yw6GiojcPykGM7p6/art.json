@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ztfSbhxoNJGuACbEC",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1694128868761"
-      }
+      "$date": "1694128868761"
     },
     "username": "danieljcage",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1694130564773"
-    }
+    "$date": "1694130564773"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1694193877409"
-    }
+    "$date": "1694193877409"
   },
   "origId": null,
   "name": "Dots",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3805313238175274"
-  },
+  "rank": "1.3805313238175274",
   "private": false,
   "unlisted": true,
   "username": "danieljcage",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-er0p7bgjnkrt7eii5-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "237"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "237",
+  "likes": "1",
   "revisionId": "geTbtFnNhnjytpCkj"
 }

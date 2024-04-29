@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DpiLx3mnyNK9vHf8p",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652972237778"
-      }
+      "$date": "1652972237778"
     },
     "username": "juhong.mo",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1654435210803"
-    }
+    "$date": "1654435210803"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1654435210803"
-    }
+    "$date": "1654435210803"
   },
   "origId": "aGMT3RwjTa9BswBkK",
   "name": "Circle from Triangles by Juhong Mo",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2863993365102413"
-  },
+  "rank": "1.2863993365102413",
   "private": false,
   "unlisted": true,
   "username": "juhong.mo",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-c9257fgnzmtzvi58z-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "jqYBNu75d8TrFrDsh"
 }

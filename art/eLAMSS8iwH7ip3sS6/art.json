@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1618264688331"
-      }
+      "$date": "1618264688331"
     },
     "username": "chriscamplin",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619965535529"
-    }
+    "$date": "1619965535529"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619970565654"
-    }
+    "$date": "1619970565654"
   },
   "origId": null,
   "name": "Montara",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5582646465341958"
-  },
+  "rank": "1.5582646465341958",
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-eftxxh3r2qrv46yb1-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "61"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "61",
+  "likes": "0",
   "revisionId": "Fn6ty655n9ne2EsYa"
 }

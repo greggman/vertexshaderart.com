@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gY6LJNWPnc5msFSRP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652632078852"
-      }
+      "$date": "1652632078852"
     },
     "username": "sunwoo.lee",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652933595436"
-    }
+    "$date": "1652933595436"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652933595436"
-    }
+    "$date": "1652933595436"
   },
   "origId": "q5ixDP7gFemPmYGSG",
   "name": "Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8397140297307826"
-  },
+  "rank": "1.8397140297307826",
   "private": false,
   "unlisted": true,
   "username": "sunwoo.lee",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-puxdsjfgkxgbk44sd-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "CYy2EPbFjTNRiFpvr"
 }

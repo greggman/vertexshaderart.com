@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Fb4jaWH5nhdXuAG2E",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494693086089"
-      }
+      "$date": "1494693086089"
     },
     "profile": {
       "name": "",
@@ -15,21 +13,15 @@
     "username": "lambmeow"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496284924981"
-    }
+    "$date": "1496284924981"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496284993783"
-    }
+    "$date": "1496284993783"
   },
   "origId": null,
   "name": "kill me pls ",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0015532495296733"
-  },
+  "rank": "1.0015532495296733",
   "private": false,
   "unlisted": true,
   "username": "lambmeow",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-60doqjdxd6io12tco-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "55"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "55",
+  "likes": "0",
   "revisionId": "AjGt32cxLJx8cHQxP"
 }

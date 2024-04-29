@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1519006561479"
-    }
+    "$date": "1519006561479"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1519006561479"
-    }
+    "$date": "1519006561479"
   },
   "origId": "BZMNQR7kcPSCCwyHL",
   "name": "Quads Spiral",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0677218825582742"
-  },
+  "rank": "1.0677218825582742",
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-8bygdn0kxsom7ldng-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "eHpJMMjmZ4veQukES"
 }

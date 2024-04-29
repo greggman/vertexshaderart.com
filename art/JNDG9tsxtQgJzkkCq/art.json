@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nTRyF676q3L6AsYmq",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652847165974"
-      }
+      "$date": "1652847165974"
     },
     "profile": {
       "name": "Hyunjin-Kim",
@@ -14,21 +12,15 @@
     "username": "hyunjin-kim-dp"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1654100393548"
-    }
+    "$date": "1654100393548"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1654100393548"
-    }
+    "$date": "1654100393548"
   },
   "origId": null,
   "name": "Exercise - Circles from Triangles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.436312511837679"
-  },
+  "rank": "1.436312511837679",
   "private": false,
   "unlisted": true,
   "username": "hyunjin-kim-dp",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-jcubyvtw7fm0sstkf-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "es9iavZoXga7vMaSY"
 }

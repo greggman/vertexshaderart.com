@@ -3,9 +3,7 @@
   "owner": {
     "_id": "YzC3ZzAY9ggCW9nhg",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1709867909915"
-      }
+      "$date": "1709867909915"
     },
     "profile": {
       "name": "c Plush+",
@@ -14,21 +12,15 @@
     "username": "ultr7a"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1709868693300"
-    }
+    "$date": "1709868693300"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1709871079658"
-    }
+    "$date": "1709871079658"
   },
   "origId": "7fkuNErcdiCoyDFPM",
   "name": "Be My Lover",
   "notes": "la da da de da da da",
-  "rank": {
-    "$numberDouble": "1.2597214369827892"
-  },
+  "rank": "1.2597214369827892",
   "private": false,
   "unlisted": false,
   "username": "ultr7a",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-npviscy5bouiby1w6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "25"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "25",
+  "likes": "0",
   "revisionId": "e4ABepNpXTLYiMzQW"
 }

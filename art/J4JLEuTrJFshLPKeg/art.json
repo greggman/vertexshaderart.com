@@ -3,9 +3,7 @@
   "owner": {
     "_id": "RfHaub5KYDRmJTzBN",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1629553450441"
-      }
+      "$date": "1629553450441"
     },
     "username": "przemyslawzaworski",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1639261039069"
-    }
+    "$date": "1639261039069"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1639261039069"
-    }
+    "$date": "1639261039069"
   },
   "origId": null,
   "name": "Bezier Curves",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8912016255681943"
-  },
+  "rank": "1.8912016255681943",
   "private": false,
   "unlisted": false,
   "username": "przemyslawzaworski",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-5fjdc82zhrln5r5vb-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "227"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "227",
+  "likes": "1",
   "revisionId": "2a9igbyFJXQ3ScHwb"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "KdxAYwifcjFtnrcSn",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1553094240252"
-      }
+      "$date": "1553094240252"
     },
     "profile": {
       "first_name": "MONIMOY",
@@ -15,21 +13,15 @@
     "username": "monimoy"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553094295187"
-    }
+    "$date": "1553094295187"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553094311785"
-    }
+    "$date": "1553094311785"
   },
   "origId": "nZYhMKriEvZQFNh9y",
   "name": "whirl",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3020633664616765"
-  },
+  "rank": "1.3020633664616765",
   "private": false,
   "unlisted": true,
   "username": "monimoy",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-n928zbqmdyzykhmwx-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "46N3jDr58PBNpooxR"
 }

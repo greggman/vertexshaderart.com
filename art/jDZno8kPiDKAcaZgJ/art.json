@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dJQkkRdctf5KySGfX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1507259821848"
-      }
+      "$date": "1507259821848"
     },
     "username": "jimhanks",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1507264678354"
-    }
+    "$date": "1507264678354"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1507264678354"
-    }
+    "$date": "1507264678354"
   },
   "origId": "Sw2atuBHGBsutNYZf",
   "name": "smoky sky",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9484087875195757"
-  },
+  "rank": "1.9484087875195757",
   "private": false,
   "unlisted": true,
   "username": "jimhanks",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-0bs60z2zuv5qnt7r8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "C4bQNSDNtYkb2rrXf"
 }

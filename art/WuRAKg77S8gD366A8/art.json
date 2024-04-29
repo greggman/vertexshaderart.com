@@ -3,9 +3,7 @@
   "owner": {
     "_id": "YjHcknEt6QQipuQr3",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1551481228108"
-      }
+      "$date": "1551481228108"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "polacienta"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551487082770"
-    }
+    "$date": "1551487082770"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551487082770"
-    }
+    "$date": "1551487082770"
   },
   "origId": null,
   "name": "circulo",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.489064873839887"
-  },
+  "rank": "1.489064873839887",
   "private": false,
   "unlisted": true,
   "username": "polacienta",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-1nycxnqka0p0kno13-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "dAra8vurD7wahE6Du"
 }

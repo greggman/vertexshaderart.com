@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DMjrQbvFJZiBrahNH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684316626390"
-      }
+      "$date": "1684316626390"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jeminshin2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684316663590"
-    }
+    "$date": "1684316663590"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684316857456"
-    }
+    "$date": "1684316857456"
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6403155062990533"
-  },
+  "rank": "1.6403155062990533",
   "private": false,
   "unlisted": true,
   "username": "jeminshin2",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-d2fsmpwp2mvlmqnit-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "KzeoJ5ejF8jQ3XPrm"
 }

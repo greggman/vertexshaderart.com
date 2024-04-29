@@ -3,9 +3,7 @@
   "owner": {
     "_id": "YMZyxbNq3cKGXyTyT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1508992260667"
-      }
+      "$date": "1508992260667"
     },
     "profile": {
       "name": "Martin Palko",
@@ -14,21 +12,15 @@
     "username": "martinpalko"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1508992718067"
-    }
+    "$date": "1508992718067"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1509123492919"
-    }
+    "$date": "1509123492919"
   },
   "origId": null,
   "name": "Rain",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.231813178081763"
-  },
+  "rank": "10.231813178081763",
   "private": false,
   "unlisted": false,
   "username": "martinpalko",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-o4d8vpo616josegsr-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1041"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "1041",
+  "likes": "6",
   "revisionId": "zshnei5s3B7aNvH6H"
 }

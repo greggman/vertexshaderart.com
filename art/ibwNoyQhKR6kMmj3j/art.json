@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DpiLx3mnyNK9vHf8p",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652972237778"
-      }
+      "$date": "1652972237778"
     },
     "username": "juhong.mo",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652974347821"
-    }
+    "$date": "1652974347821"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652974347821"
-    }
+    "$date": "1652974347821"
   },
   "origId": "bJc832Huv2tEcL58Y",
   "name": "Colors with Moving",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6928385329736404"
-  },
+  "rank": "1.6928385329736404",
   "private": false,
   "unlisted": true,
   "username": "juhong.mo",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-t4k86rmgz0zy8z5pm-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "5f75u7xFraXkQR8W2"
 }

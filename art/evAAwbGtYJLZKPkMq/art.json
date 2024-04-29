@@ -3,9 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1450381162182"
-      }
+      "$date": "1450381162182"
     },
     "username": "aiekick",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1535732906912"
-    }
+    "$date": "1535732906912"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1535732906912"
-    }
+    "$date": "1535732906912"
   },
   "origId": "mmxfYzJp3mCehkHcH",
   "name": "ShaderDough",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.508259355018977"
-  },
+  "rank": "1.508259355018977",
   "private": false,
   "unlisted": true,
   "username": "aiekick",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-gtgcq67hgk5ykmzm2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "20"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "20",
+  "likes": "0",
   "revisionId": "5pMEQmoB2MQmfb69d"
 }

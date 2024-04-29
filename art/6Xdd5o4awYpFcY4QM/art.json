@@ -3,9 +3,7 @@
   "owner": {
     "_id": "CJtPPYNFXinj2EC2b",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652841467004"
-      }
+      "$date": "1652841467004"
     },
     "username": "seongwon.jang",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1653409924785"
-    }
+    "$date": "1653409924785"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1653410698988"
-    }
+    "$date": "1653410698988"
   },
   "origId": "XpfxjsLJWz8DSuALM",
   "name": "Audio Reactive Art_seongwon.jang",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3061829644749843"
-  },
+  "rank": "1.3061829644749843",
   "private": false,
   "unlisted": true,
   "username": "seongwon.jang",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-1pznhqz90v4rapoh8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "cykNSDfTcoH4attkG"
 }

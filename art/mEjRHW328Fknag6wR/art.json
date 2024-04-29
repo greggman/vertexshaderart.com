@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1657414708365"
-    }
+    "$date": "1657414708365"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1657414708365"
-    }
+    "$date": "1657414708365"
   },
   "origId": "YiboJk6SvJNEAPSGR",
   "name": "csop",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8238154931589583"
-  },
+  "rank": "1.8238154931589583",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-nq6mhpq8ieqolgdeo-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "2CMWXgu9GjE388Z2Y"
 }

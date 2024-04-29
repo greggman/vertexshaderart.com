@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1531242931004"
-    }
+    "$date": "1531242931004"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1531242931004"
-    }
+    "$date": "1531242931004"
   },
   "origId": "zQMGMroYDChPD5qbu",
   "name": "raymarched cube",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9695901713669246"
-  },
+  "rank": "1.9695901713669246",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-cki246ynuklbc9fxo-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "139"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "139",
+  "likes": "0",
   "revisionId": "XzxJeeTCYHjksykKv"
 }

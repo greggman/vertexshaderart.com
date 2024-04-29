@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Yppm9G5kCnn4TX6MS",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1605217631309"
-      }
+      "$date": "1605217631309"
     },
     "profile": {
       "first_name": "Eugene",
@@ -15,21 +13,15 @@
     "username": "eugene"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1605222617111"
-    }
+    "$date": "1605222617111"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1605222617111"
-    }
+    "$date": "1605222617111"
   },
   "origId": "cZLahmf6sZpctWKsR",
   "name": "tutorial-2-1 motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8132445138839433"
-  },
+  "rank": "1.8132445138839433",
   "private": false,
   "unlisted": true,
   "username": "eugene",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-ny2jtpo6oas5apobn-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "jFFynqmu4PEqoaaSp"
 }

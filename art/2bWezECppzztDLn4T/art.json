@@ -3,9 +3,7 @@
   "owner": {
     "_id": "mBLHqSA5mtE7fdkLn",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1554177859498"
-      }
+      "$date": "1554177859498"
     },
     "profile": {
       "first_name": "juhye",
@@ -15,21 +13,15 @@
     "username": "juhye"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554203215450"
-    }
+    "$date": "1554203215450"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554204601284"
-    }
+    "$date": "1554204601284"
   },
   "origId": null,
   "name": "Joohye Son",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6865200165343446"
-  },
+  "rank": "1.6865200165343446",
   "private": false,
   "unlisted": false,
   "username": "juhye",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-iza6hf1e4zefs8y37-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "161"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "161",
+  "likes": "0",
   "revisionId": "vojSMhZ7MmSdNzGAn"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "RcxgZCyRSYWSzdHH8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1544399496802"
-      }
+      "$date": "1544399496802"
     },
     "profile": {
       "first_name": "Daff",
@@ -15,21 +13,15 @@
     "username": "daff"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1544400334538"
-    }
+    "$date": "1544400334538"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1544437375180"
-    }
+    "$date": "1544437375180"
   },
   "origId": null,
   "name": "Alert",
   "notes": "Alert\n@Re_gain Aka Daff",
-  "rank": {
-    "$numberDouble": "1.8964378542295317"
-  },
+  "rank": "1.8964378542295317",
   "private": false,
   "unlisted": false,
   "username": "daff",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-10ghgje8atqyukd46-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "321"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "321",
+  "likes": "1",
   "revisionId": "GKxTuKJEzGDpgCrEr"
 }

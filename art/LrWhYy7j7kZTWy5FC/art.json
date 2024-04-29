@@ -3,9 +3,7 @@
   "owner": {
     "_id": "GiQC92J2PSQeBdyNF",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1499126641578"
-      }
+      "$date": "1499126641578"
     },
     "username": "mhorga",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1499274917770"
-    }
+    "$date": "1499274917770"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1499282329203"
-    }
+    "$date": "1499282329203"
   },
   "origId": null,
   "name": "lesson1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4582001674409348"
-  },
+  "rank": "1.4582001674409348",
   "private": false,
   "unlisted": true,
   "username": "mhorga",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-9pxc9hor06vyndqni-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "gsJPchiiEQXpZapQh"
 }

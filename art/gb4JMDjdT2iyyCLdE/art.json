@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Bs4vwFBoeN6Lx3is5",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1528672219472"
-      }
+      "$date": "1528672219472"
     },
     "profile": {
       "name": "Justin Shrake",
@@ -15,21 +13,15 @@
     "username": "jshrake"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551023797336"
-    }
+    "$date": "1551023797336"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551023797336"
-    }
+    "$date": "1551023797336"
   },
   "origId": null,
   "name": "polygons and pikachus",
   "notes": "Sunday morning sketch that I just had to get out of my head.",
-  "rank": {
-    "$numberDouble": "10.357319606027211"
-  },
+  "rank": "10.357319606027211",
   "private": false,
   "unlisted": false,
   "username": "jshrake",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-ek50l9z239w993xi3-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "992"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "992",
+  "likes": "7",
   "revisionId": "nvTtoS7N24cCABDWZ"
 }

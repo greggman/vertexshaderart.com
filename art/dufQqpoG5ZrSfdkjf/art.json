@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1662139727784"
-    }
+    "$date": "1662139727784"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1662139727784"
-    }
+    "$date": "1662139727784"
   },
   "origId": "5wpxiiCkDvE3Wsv5D",
   "name": "terrain",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1692301289939289"
-  },
+  "rank": "1.1692301289939289",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-c8hmo4y2h3f07cs3u-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "39"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "39",
+  "likes": "0",
   "revisionId": "99BEcM9NAixweqtjd"
 }

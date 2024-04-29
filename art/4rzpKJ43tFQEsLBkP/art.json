@@ -3,9 +3,7 @@
   "owner": {
     "_id": "95683ZgBuRkukjtj7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1589922178477"
-      }
+      "$date": "1589922178477"
     },
     "profile": {
       "first_name": "Markus",
@@ -15,21 +13,15 @@
     "username": "markus"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1598624281809"
-    }
+    "$date": "1598624281809"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1598624281809"
-    }
+    "$date": "1598624281809"
   },
   "origId": "2pSYjC7BCpjghA8Hu",
   "name": "residuallines",
   "notes": "Li Yuchun李宇春",
-  "rank": {
-    "$numberDouble": "1.6095651335951764"
-  },
+  "rank": "1.6095651335951764",
   "private": false,
   "unlisted": true,
   "username": "markus",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-0g12c9g892yeeokla-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "63"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "63",
+  "likes": "0",
   "revisionId": "4HG2g4mHMQvYuGcuT"
 }

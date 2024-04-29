@@ -1,24 +1,47 @@
 import fs from 'fs';
 
+function fixBS(v) {
+  if (Array.isArray(v)) {
+    for (let i = 0; i < v.length; ++i) {
+      v[i] = fixBS(v[i]);
+    }
+  } else if (v === null) {
+    return null;
+  } if (typeof v === 'object') {
+    const keys = Object.keys(v);  
+    if (keys.length === 1 && keys[0].startsWith('$number')) {
+      return v[keys[0]];
+    }
+    for (const k of keys) {
+      v[k] = fixBS(v[k]);
+    }
+  }
+  return v;
+}
+
 function loadData(name) {
-  const objs = JSON.parse(fs.readFileSync(name, {encoding: 'utf8'}));
-  return Object.fromEntries(objs.map(v => [v._id, v]));
+  const d = JSON.parse(fs.readFileSync(name, {encoding: 'utf8'}));
+  fixBS(d);
+  return d;
 }
 
 const art = loadData('../../temp/vsa-backup/backup/latest/admin/art.json');
-const users = loadData('../../temp/vsa-backup/backup/latest/admin/users.json');
+
+const users = Object.fromEntries(
+  loadData('../../temp/vsa-backup/backup/latest/admin/users.json').map(v => [v._id, v]));
+
 
 for (const u of Object.values(users)) {
   delete u.services;
   delete u.emails;
 }
 
-for (const a of Object.values(art)) {
+for (const a of art) {
   a.settings = JSON.parse(a.settings);
 }
 
 const screenshotRE = /images\/(.*?-thumbnail\..*?)$/;
-for (const a of Object.values(art)) {
+for (const a of art) {
   const m = screenshotRE.exec(a.screenshotURL);
   a.screenshotURL = `data/images/images-${m[1]}`;
 }
@@ -69,7 +92,8 @@ function getHTML(art) {
 
 const toc = [];
 
-for (const [id, obj] of Object.entries(art)) {
+for (const obj of art) {
+  const id = obj._id;
   obj.owner = users[obj.owner] || {username: 'anon'};
   if (!obj.private) {
     fs.mkdirSync(`art/${id}`, {recursive: true});

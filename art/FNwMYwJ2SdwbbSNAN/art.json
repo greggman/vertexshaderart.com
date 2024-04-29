@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1549990369220"
-    }
+    "$date": "1549990369220"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1549990752319"
-    }
+    "$date": "1549990752319"
   },
   "origId": "pJM2rdtSkSBnEkMeG",
   "name": "sput",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.853232209553042"
-  },
+  "rank": "10.853232209553042",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-n1ff18rw1rhaacsyk-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "659"
-  },
-  "likes": {
-    "$numberInt": "9"
-  },
+  "views": "659",
+  "likes": "9",
   "revisionId": "TnSdtCAv78pAnchBb"
 }

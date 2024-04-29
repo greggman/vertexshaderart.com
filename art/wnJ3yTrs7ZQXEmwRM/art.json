@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1462302171138"
-    }
+    "$date": "1462302171138"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1462302171138"
-    }
+    "$date": "1462302171138"
   },
   "origId": null,
   "name": "Crap",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.952456042307421"
-  },
+  "rank": "1.952456042307421",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-whitf9c4w3fcztyod-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "132"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "132",
+  "likes": "0",
   "revisionId": "dsvhRFAF2EorJqvTQ"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501857924166"
-      }
+      "$date": "1501857924166"
     },
     "profile": {
       "name": "Macro Machines",
@@ -15,21 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1681884878695"
-    }
+    "$date": "1681884878695"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1681884878695"
-    }
+    "$date": "1681884878695"
   },
   "origId": "DyvcR8jSTEBXSm6J7",
   "name": "RED HEXDROPS 3",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2961190904871924"
-  },
+  "rank": "1.2961190904871924",
   "private": false,
   "unlisted": false,
   "username": "macro",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-1umeb0fpmqzlt8p50-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "63"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "63",
+  "likes": "1",
   "revisionId": "mfmSBYEDHRvkWFHBY"
 }

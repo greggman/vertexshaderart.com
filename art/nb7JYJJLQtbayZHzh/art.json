@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1618264688331"
-      }
+      "$date": "1618264688331"
     },
     "username": "chriscamplin",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619988022455"
-    }
+    "$date": "1619988022455"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619988022455"
-    }
+    "$date": "1619988022455"
   },
   "origId": "wxPvS64A9HG62L8za",
   "name": "Pixel Storm",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.324490139266993"
-  },
+  "rank": "10.324490139266993",
   "private": false,
   "unlisted": false,
   "username": "chriscamplin",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-h30ilp6q57jd83df0-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "221"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "221",
+  "likes": "2",
   "revisionId": "HTMmpzEZd4CkgBTuf"
 }

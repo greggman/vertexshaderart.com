@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1528273870941"
-    }
+    "$date": "1528273870941"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1528273870941"
-    }
+    "$date": "1528273870941"
   },
   "origId": null,
   "name": "loop-test",
   "notes": "Needed to test some issues with the new Web Audio API restrictions in both Safari and Chrome",
-  "rank": {
-    "$numberDouble": "1.7329241619890101"
-  },
+  "rank": "1.7329241619890101",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-q1rb2c7c3wpm66suj-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "100"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "100",
+  "likes": "0",
   "revisionId": "2a6NsC49zwe5Z6NZ6"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1598335236769"
-    }
+    "$date": "1598335236769"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1598335236769"
-    }
+    "$date": "1598335236769"
   },
   "origId": "Xr7T9xN4h3JyWhJ4M",
   "name": "glass of colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9781485612659222"
-  },
+  "rank": "1.9781485612659222",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-is36aw3iy0s29gjbc-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "132"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "132",
+  "likes": "0",
   "revisionId": "nQwPL2Qzf4HgWeWG5"
 }

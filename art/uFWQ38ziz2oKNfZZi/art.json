@@ -3,9 +3,7 @@
   "owner": {
     "_id": "rNn8aeTHLQXkcMmn8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503601"
-      }
+      "$date": "1684322503601"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jaeyeong-an"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684421327546"
-    }
+    "$date": "1684421327546"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684421327546"
-    }
+    "$date": "1684421327546"
   },
   "origId": null,
   "name": "Motion by Jaeyeong An(own variation)",
   "notes": "Duplicate the shader and tweak it to make my own variation",
-  "rank": {
-    "$numberDouble": "1.3122916641806224"
-  },
+  "rank": "1.3122916641806224",
   "private": false,
   "unlisted": true,
   "username": "jaeyeong-an",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-dkn5dlkuz06yp7b4v-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "GDxDt9QX9WvuaESJj"
 }

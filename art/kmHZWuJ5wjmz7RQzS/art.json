@@ -3,9 +3,7 @@
   "owner": {
     "_id": "RfHaub5KYDRmJTzBN",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1629553450441"
-      }
+      "$date": "1629553450441"
     },
     "username": "przemyslawzaworski",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1629553546616"
-    }
+    "$date": "1629553546616"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1632159161672"
-    }
+    "$date": "1632159161672"
   },
   "origId": null,
   "name": "Triangle Tessellation",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5823939190835068"
-  },
+  "rank": "1.5823939190835068",
   "private": false,
   "unlisted": false,
   "username": "przemyslawzaworski",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-dyruw6q6d1pz74oq5-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "311"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "311",
+  "likes": "1",
   "revisionId": "8enAM4mhjx8mSkF7y"
 }

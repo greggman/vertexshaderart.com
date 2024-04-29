@@ -3,9 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684058245272"
-      }
+      "$date": "1684058245272"
     },
     "username": "byungchan.park",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684389502688"
-    }
+    "$date": "1684389502688"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684389632056"
-    }
+    "$date": "1684389632056"
   },
   "origId": null,
   "name": "Motion own variation",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9108283044380037"
-  },
+  "rank": "1.9108283044380037",
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-1gmlkf8vmlr5nxs5h-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "S5DPezswhYHBG46xX"
 }

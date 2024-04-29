@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vPNbgk3CpKXsP8n4Z",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1454793915807"
-      }
+      "$date": "1454793915807"
     },
     "profile": {
       "name": "Tom Khx",
@@ -14,21 +12,15 @@
     "username": "tom"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1454793982096"
-    }
+    "$date": "1454793982096"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1454800081972"
-    }
+    "$date": "1454800081972"
   },
   "origId": null,
   "name": "trajectory",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.939729672253843"
-  },
+  "rank": "1.939729672253843",
   "private": false,
   "unlisted": true,
   "username": "tom",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-fl0hp7ii28jm0o1wn-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "155"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "155",
+  "likes": "0",
   "revisionId": "5MJevKwEbnAZr7mBo"
 }

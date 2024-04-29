@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1516525613856"
-    }
+    "$date": "1516525613856"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1516525613856"
-    }
+    "$date": "1516525613856"
   },
   "origId": "auo92EWvwwyBRak2c",
   "name": "widr",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.200083076779618"
-  },
+  "rank": "10.200083076779618",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-x8m9efaqldxxkoip3-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "455"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "455",
+  "likes": "3",
   "revisionId": "4vRixWpNRfDDGQNwW"
 }

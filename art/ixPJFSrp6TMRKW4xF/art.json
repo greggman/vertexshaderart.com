@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501857924166"
-      }
+      "$date": "1501857924166"
     },
     "profile": {
       "name": "Macro Machines",
@@ -15,21 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1522428389161"
-    }
+    "$date": "1522428389161"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1522428389161"
-    }
+    "$date": "1522428389161"
   },
   "origId": "h55dGWLy6iRdoRh3j",
   "name": "Richard Devine Point Cloud v2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4577472159519538"
-  },
+  "rank": "1.4577472159519538",
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-32uhk80z1xtzo7k2r-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "15"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "15",
+  "likes": "0",
   "revisionId": "wav4iyQ8KhFyHLBtv"
 }

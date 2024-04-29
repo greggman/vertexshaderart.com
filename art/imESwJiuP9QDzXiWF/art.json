@@ -3,9 +3,7 @@
   "owner": {
     "_id": "LEW3vxEn3hdy3R6gD",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1586825254093"
-      }
+      "$date": "1586825254093"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "soporus"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1586825436197"
-    }
+    "$date": "1586825436197"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1587022864945"
-    }
+    "$date": "1587022864945"
   },
   "origId": null,
   "name": "tut01",
   "notes": "read sections of texture frequencies?",
-  "rank": {
-    "$numberDouble": "1.989985375734894"
-  },
+  "rank": "1.989985375734894",
   "private": false,
   "unlisted": true,
   "username": "soporus",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-4kh4h34volmbxz5uz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "39"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "39",
+  "likes": "0",
   "revisionId": "wNEgLQYgArj9FJY8h"
 }

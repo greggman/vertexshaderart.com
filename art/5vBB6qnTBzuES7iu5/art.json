@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1568336005736"
-    }
+    "$date": "1568336005736"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1568336005736"
-    }
+    "$date": "1568336005736"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.949922987975204"
-  },
+  "rank": "1.949922987975204",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-bdss1thlfdt3mj4gr-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "99"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "99",
+  "likes": "1",
   "revisionId": "2vNapWHbLNFDyFGp4"
 }

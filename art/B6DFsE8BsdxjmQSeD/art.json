@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1650910065104"
-    }
+    "$date": "1650910065104"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1650910065104"
-    }
+    "$date": "1650910065104"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3553473446014688"
-  },
+  "rank": "1.3553473446014688",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-3tv0d984russ0ojiz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "42"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "42",
+  "likes": "0",
   "revisionId": "3fD4TWAFygfGmMYRx"
 }

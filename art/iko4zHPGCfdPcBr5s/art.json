@@ -3,9 +3,7 @@
   "owner": {
     "_id": "kwFj6rd42YAeFEAQQ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1551479264537"
-      }
+      "$date": "1551479264537"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "alexisrubio96"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551650774904"
-    }
+    "$date": "1551650774904"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551650774904"
-    }
+    "$date": "1551650774904"
   },
   "origId": null,
   "name": "circletraingle",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7734370576206666"
-  },
+  "rank": "1.7734370576206666",
   "private": false,
   "unlisted": true,
   "username": "alexisrubio96",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-c49q3j4i72ofb8klq-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "xJ2WHHHxH2WmbnR5c"
 }

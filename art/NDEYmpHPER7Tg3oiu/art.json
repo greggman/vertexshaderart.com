@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1546184812371"
-    }
+    "$date": "1546184812371"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1546184812371"
-    }
+    "$date": "1546184812371"
   },
   "origId": "R2FYLbHWTcCWh5PiE",
   "name": "blorp",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1617966890934384"
-  },
+  "rank": "1.1617966890934384",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-16y8vf1sp40le5ntp-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "69"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "69",
+  "likes": "0",
   "revisionId": "BnBPB3Nk6YQpPzND7"
 }

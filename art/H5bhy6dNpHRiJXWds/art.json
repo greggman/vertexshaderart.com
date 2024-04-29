@@ -3,9 +3,7 @@
   "owner": {
     "_id": "RfHaub5KYDRmJTzBN",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1629553450441"
-      }
+      "$date": "1629553450441"
     },
     "username": "przemyslawzaworski",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1639948162146"
-    }
+    "$date": "1639948162146"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1647440651371"
-    }
+    "$date": "1647440651371"
   },
   "origId": null,
   "name": "Bezier Surface",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4746405942368692"
-  },
+  "rank": "1.4746405942368692",
   "private": false,
   "unlisted": false,
   "username": "przemyslawzaworski",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-gtn6sfbe2rqjc5dvk-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "233"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "233",
+  "likes": "0",
   "revisionId": "cn4988wEWGyi7mFSo"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551162909297"
-    }
+    "$date": "1551162909297"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551162909297"
-    }
+    "$date": "1551162909297"
   },
   "origId": "pfa9757K3NJx6euhN",
   "name": "starship",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6902786311692226"
-  },
+  "rank": "1.6902786311692226",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-jb1nrxnndn2f2as2x-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "NX4M9se8YYPnnhhny"
 }

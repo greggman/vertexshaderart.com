@@ -3,9 +3,7 @@
   "owner": {
     "_id": "h2veKHbrcaBoNCHmN",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575397922136"
-      }
+      "$date": "1575397922136"
     },
     "profile": {
       "first_name": "ארד",
@@ -15,21 +13,15 @@
     "username": "ארד"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1575841150650"
-    }
+    "$date": "1575841150650"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1575841150650"
-    }
+    "$date": "1575841150650"
   },
   "origId": null,
   "name": "a cool shape",
   "notes": "My 2nd vertex shader, just a cool idea I wanted to try making, without much of a practical use",
-  "rank": {
-    "$numberDouble": "1.2038711611124555"
-  },
+  "rank": "1.2038711611124555",
   "private": false,
   "unlisted": false,
   "username": "ארד",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-dc8cnx2q7gt9gydjl-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "151"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "151",
+  "likes": "0",
   "revisionId": "62KznDtoRzHn59J6g"
 }

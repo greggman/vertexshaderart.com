@@ -3,9 +3,7 @@
   "owner": {
     "_id": "33GYvgRj3LP6Xt7T6",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652800663941"
-      }
+      "$date": "1652800663941"
     },
     "username": "hyosang_jung",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652945950420"
-    }
+    "$date": "1652945950420"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652945950420"
-    }
+    "$date": "1652945950420"
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1223336393007515"
-  },
+  "rank": "1.1223336393007515",
   "private": false,
   "unlisted": true,
   "username": "hyosang_jung",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-yaowpioagtmnv70en-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "JuG6HwRSXTzPmhtvg"
 }

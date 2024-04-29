@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1566500477868"
-    }
+    "$date": "1566500477868"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1566500477868"
-    }
+    "$date": "1566500477868"
   },
   "origId": null,
   "name": "delicoban",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5762114500831066"
-  },
+  "rank": "1.5762114500831066",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-t5v3att07p0fxvcp2-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "102"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "102",
+  "likes": "0",
   "revisionId": "3G4skvD75dwe2ZiD9"
 }

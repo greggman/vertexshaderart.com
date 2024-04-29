@@ -3,9 +3,7 @@
   "owner": {
     "_id": "TndgdNb5fokXqcksu",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1512108652976"
-      }
+      "$date": "1512108652976"
     },
     "profile": {
       "name": "dr crackhausen",
@@ -14,21 +12,15 @@
     "username": "♫♪♭♮{{triplesix g}}♯♪♫"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1512166343756"
-    }
+    "$date": "1512166343756"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1512166343756"
-    }
+    "$date": "1512166343756"
   },
   "origId": "vEvaCS9R8ehpnLZPj",
   "name": "circlepower K FURR22 bxyr",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.638289124611973"
-  },
+  "rank": "10.638289124611973",
   "private": false,
   "unlisted": false,
   "username": "♫♪♭♮{{triplesix g}}♯♪♫",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-mncdi9e3zm7j55kau-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "282"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "282",
+  "likes": "2",
   "revisionId": "9wDR2KbGSxDNmhDxm"
 }

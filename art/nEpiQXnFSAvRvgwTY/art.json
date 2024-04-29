@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Bs4vwFBoeN6Lx3is5",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1528672219472"
-      }
+      "$date": "1528672219472"
     },
     "profile": {
       "name": "Justin Shrake",
@@ -15,21 +13,15 @@
     "username": "jshrake"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1636465752571"
-    }
+    "$date": "1636465752571"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1636907846679"
-    }
+    "$date": "1636907846679"
   },
   "origId": null,
   "name": "hexagon tile strings",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.123759239443016"
-  },
+  "rank": "10.123759239443016",
   "private": false,
   "unlisted": false,
   "username": "jshrake",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-zbuhh9hpbmomg0wok-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "573"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "573",
+  "likes": "6",
   "revisionId": "ZhzTBLg4BASHRwLzo"
 }

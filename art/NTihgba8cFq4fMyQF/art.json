@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1524510084980"
-    }
+    "$date": "1524510084980"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1524510955521"
-    }
+    "$date": "1524510955521"
   },
   "origId": null,
   "name": "Vertex Shader Art: Lesson 3",
   "notes": "Working with colors",
-  "rank": {
-    "$numberDouble": "1.835236287042329"
-  },
+  "rank": "1.835236287042329",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-mu0lxdtj34c33s0fn-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "grAEWbKsxSRSygZrC"
 }

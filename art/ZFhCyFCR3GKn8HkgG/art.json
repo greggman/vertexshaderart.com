@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1624106993675"
-    }
+    "$date": "1624106993675"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1624106993675"
-    }
+    "$date": "1624106993675"
   },
   "origId": "uPwKetxzwcL2PFZd6",
   "name": "thumpy",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8768662649097394"
-  },
+  "rank": "1.8768662649097394",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-gxszja6uxjn787m35-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "116"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "116",
+  "likes": "0",
   "revisionId": "Wh55txhW9yAhmSi3y"
 }

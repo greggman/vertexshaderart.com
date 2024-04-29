@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1538391011421"
-    }
+    "$date": "1538391011421"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1538391011421"
-    }
+    "$date": "1538391011421"
   },
   "origId": "TiyZJh7nekQSquxTK",
   "name": "heightfield plotter",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1235481484210497"
-  },
+  "rank": "1.1235481484210497",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-rx1hi7qayn3soj0v8-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "183"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "183",
+  "likes": "1",
   "revisionId": "DoyZB5uHNmXMyWZu7"
 }

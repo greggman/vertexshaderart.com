@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1487343745144"
-    }
+    "$date": "1487343745144"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1490169106013"
-    }
+    "$date": "1490169106013"
   },
   "origId": "NhWzyi4RTkjqEik5t",
   "name": "pac",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6035286085670786"
-  },
+  "rank": "1.6035286085670786",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ddyd3ov9bz46jn9xp-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "85"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "85",
+  "likes": "0",
   "revisionId": "PdkAWWN2LiAzEbjY2"
 }

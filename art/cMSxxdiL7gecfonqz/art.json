@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575718900497"
-      }
+      "$date": "1575718900497"
     },
     "username": "evan_chen",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1578995242154"
-    }
+    "$date": "1578995242154"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1579594003538"
-    }
+    "$date": "1579594003538"
   },
   "origId": "GRZbiaYQ5RXxaKsSA",
   "name": "shadow_test",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.975768453199628"
-  },
+  "rank": "10.975768453199628",
   "private": false,
   "unlisted": false,
   "username": "evan_chen",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-gc17abjxqx6i76z55-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "541"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "541",
+  "likes": "3",
   "revisionId": "LvXE27aqLdr82Fs4Q"
 }

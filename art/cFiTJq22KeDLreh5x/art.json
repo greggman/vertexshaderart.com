@@ -3,9 +3,7 @@
   "owner": {
     "_id": "iFSyTSHmeekk4Ga75",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1683697855014"
-      }
+      "$date": "1683697855014"
     },
     "username": "minkicho",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684728167435"
-    }
+    "$date": "1684728167435"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684728167435"
-    }
+    "$date": "1684728167435"
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.65779577824075"
-  },
+  "rank": "1.65779577824075",
   "private": false,
   "unlisted": true,
   "username": "minkicho",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-3fqtc25lauzqkwaau-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "3JoBowZXBLQ3NShTF"
 }

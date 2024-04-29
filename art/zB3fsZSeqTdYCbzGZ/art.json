@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ou9ebWHeL3upMMoij",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1486394393430"
-      }
+      "$date": "1486394393430"
     },
     "username": "athega",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1486740993088"
-    }
+    "$date": "1486740993088"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1486740993088"
-    }
+    "$date": "1486740993088"
   },
   "origId": "4M55m9674WQP6QQ3E",
   "name": "Lessons",
   "notes": "by mats",
-  "rank": {
-    "$numberDouble": "10.973440391269024"
-  },
+  "rank": "10.973440391269024",
   "private": false,
   "unlisted": false,
   "username": "athega",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-1maml5lww0hiuzztq-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "884"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "884",
+  "likes": "6",
   "revisionId": "q8K4whCLqEKQBj45C"
 }

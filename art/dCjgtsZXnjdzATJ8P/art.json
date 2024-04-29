@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1553152938197"
-      }
+      "$date": "1553152938197"
     },
     "username": "janalex",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1553462261340"
-    }
+    "$date": "1553462261340"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1553462261340"
-    }
+    "$date": "1553462261340"
   },
   "origId": "5RiyKNicAa32rA9YZ",
   "name": "1903-GridSoundHypnoticWaves",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0392157158904416"
-  },
+  "rank": "1.0392157158904416",
   "private": false,
   "unlisted": false,
   "username": "janalex",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ba41e3fs8gy8h9o73-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "120"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "120",
+  "likes": "0",
   "revisionId": "68yJDnAwRDGbyMxia"
 }

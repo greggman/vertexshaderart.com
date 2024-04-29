@@ -3,9 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1450381162182"
-      }
+      "$date": "1450381162182"
     },
     "username": "aiekick",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1509734892382"
-    }
+    "$date": "1509734892382"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1519247040616"
-    }
+    "$date": "1519247040616"
   },
   "origId": null,
   "name": "Torus Bulb",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.237252953428671"
-  },
+  "rank": "10.237252953428671",
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-2ek98fepqfdnydxkm-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1084"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "1084",
+  "likes": "6",
   "revisionId": "xH6qN7eaZGQAB3EAT"
 }

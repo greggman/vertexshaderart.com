@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a6G8izGZd43KHipPC",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1544028231052"
-      }
+      "$date": "1544028231052"
     },
     "username": "artramo",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1544028785711"
-    }
+    "$date": "1544028785711"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1544083567937"
-    }
+    "$date": "1544083567937"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.516781519449343"
-  },
+  "rank": "1.516781519449343",
   "private": false,
   "unlisted": true,
   "username": "artramo",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-j24g6nm6ykvr95qch-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "s66xMwNxXDwfhWDsT"
 }

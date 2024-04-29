@@ -3,9 +3,7 @@
   "owner": {
     "_id": "iFSyTSHmeekk4Ga75",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1683697855014"
-      }
+      "$date": "1683697855014"
     },
     "username": "minkicho",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684381000263"
-    }
+    "$date": "1684381000263"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684381016486"
-    }
+    "$date": "1684381016486"
   },
   "origId": null,
   "name": "Exercise Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8895058080189826"
-  },
+  "rank": "1.8895058080189826",
   "private": false,
   "unlisted": true,
   "username": "minkicho",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-6ddl2ayseof113u9t-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "Crczcqf2mEBb9W3Xo"
 }

@@ -4,20 +4,14 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1448286056390"
-    }
+    "$date": "1448286056390"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1448286056390"
-    }
+    "$date": "1448286056390"
   },
   "origId": "3uH92F2f4pCxBydB3",
   "name": "flowerpower",
-  "rank": {
-    "$numberDouble": "1.0979754182020645"
-  },
+  "rank": "1.0979754182020645",
   "private": false,
   "username": "-anon-",
   "settings": {
@@ -35,11 +29,7 @@
   },
   "screenshotURL": "data/images/images-js9skd9fqg6rbavbw-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "142"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "142",
+  "likes": "0",
   "revisionId": "6jMzbGdRqTcJ5dFdr"
 }

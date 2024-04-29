@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1452994957484"
-    }
+    "$date": "1452994957484"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1453560804281"
-    }
+    "$date": "1453560804281"
   },
   "origId": "bbsF39W6bJo3j4R3j",
   "name": "rollin",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.383092686257969"
-  },
+  "rank": "10.383092686257969",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-9bcl3otpidc8yk7s8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "388"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "388",
+  "likes": "2",
   "revisionId": "rThcGALqhF88J2BET"
 }

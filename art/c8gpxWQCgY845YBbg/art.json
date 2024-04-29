@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gCKgzQzioC4gDMxq9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1496305181205"
-      }
+      "$date": "1496305181205"
     },
     "profile": {
       "name": "Paul Gutierrez",
@@ -15,21 +13,15 @@
     "username": "PLU Collective"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496309035587"
-    }
+    "$date": "1496309035587"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496316003294"
-    }
+    "$date": "1496316003294"
   },
   "origId": "BN8A2f8DcC5htsq6T",
   "name": "Lesson03",
   "notes": "Lesson Three tutorial code.",
-  "rank": {
-    "$numberDouble": "1.0423427466356903"
-  },
+  "rank": "1.0423427466356903",
   "private": false,
   "unlisted": true,
   "username": "PLU Collective",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-y5b788uioj1o62th3-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "DAkhqxeqHCBnG3veG"
 }

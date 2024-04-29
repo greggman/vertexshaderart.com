@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1694440747030"
-    }
+    "$date": "1694440747030"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1694440747030"
-    }
+    "$date": "1694440747030"
   },
   "origId": "4JPK5YpSAQRwHtgZX",
   "name": "RED HEXDROPS 5",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8112494627525255"
-  },
+  "rank": "1.8112494627525255",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-0xa64yi4r9gkhttr9-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "52"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "52",
+  "likes": "0",
   "revisionId": "zj9bQ6krhNquSYAdw"
 }

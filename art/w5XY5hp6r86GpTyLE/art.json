@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ZS4MdCA33fb76CwsE",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1554054895392"
-      }
+      "$date": "1554054895392"
     },
     "profile": {
       "first_name": "윤수",
@@ -15,21 +13,15 @@
     "username": "윤수"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554177518810"
-    }
+    "$date": "1554177518810"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554177518810"
-    }
+    "$date": "1554177518810"
   },
   "origId": "qCsikb8WubwZjoq9G",
   "name": "yoonsoo.kwon",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4026973041201878"
-  },
+  "rank": "1.4026973041201878",
   "private": false,
   "unlisted": false,
   "username": "윤수",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-7w2chea2az5wzn4zb-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "186"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "186",
+  "likes": "0",
   "revisionId": "RXatmvjdet3Enjioa"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1540408032900"
-      }
+      "$date": "1540408032900"
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -14,21 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1540822253451"
-    }
+    "$date": "1540822253451"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1540822253451"
-    }
+    "$date": "1540822253451"
   },
   "origId": null,
   "name": "Wifi Symbol ;)",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0496134075417645"
-  },
+  "rank": "1.0496134075417645",
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-xvsfguth18jdiw431-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "91"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "91",
+  "likes": "0",
   "revisionId": "KwQ9H4itbshSxgiHQ"
 }

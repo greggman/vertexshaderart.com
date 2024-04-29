@@ -3,9 +3,7 @@
   "owner": {
     "_id": "m9Xt2RWANEC8tE4t8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1546352592491"
-      }
+      "$date": "1546352592491"
     },
     "username": "mklcp",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1546352656458"
-    }
+    "$date": "1546352656458"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1546352656458"
-    }
+    "$date": "1546352656458"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5226904485728259"
-  },
+  "rank": "1.5226904485728259",
   "private": false,
   "unlisted": true,
   "username": "mklcp",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-5l037lr5zvf3ic8hm-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "t9udSBC8wWTCGDbkR"
 }

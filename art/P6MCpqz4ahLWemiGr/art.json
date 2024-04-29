@@ -3,9 +3,7 @@
   "owner": {
     "_id": "CJtPPYNFXinj2EC2b",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652841467004"
-      }
+      "$date": "1652841467004"
     },
     "username": "seongwon.jang",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1653050365104"
-    }
+    "$date": "1653050365104"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1653050842531"
-    }
+    "$date": "1653050842531"
   },
   "origId": "cqrpE8sDb6Md6djDh",
   "name": "Colors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.285625229996064"
-  },
+  "rank": "1.285625229996064",
   "private": false,
   "unlisted": true,
   "username": "seongwon.jang",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-jtlfppq5h1si9o3tx-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "CRcC4oGJKvxX98vyb"
 }

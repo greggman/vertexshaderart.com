@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1498099441655"
-    }
+    "$date": "1498099441655"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1498099441655"
-    }
+    "$date": "1498099441655"
   },
   "origId": "ut7msYoHpzuRZjDyc",
   "name": "penguin thoughts kmachine test1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.760289780073531"
-  },
+  "rank": "10.760289780073531",
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-uhupqqfvrw1qe0quo-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "407"
-  },
-  "likes": {
-    "$numberInt": "4"
-  },
+  "views": "407",
+  "likes": "4",
   "revisionId": "JdSHpaPmzGn2SxBWC"
 }

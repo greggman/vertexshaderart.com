@@ -3,9 +3,7 @@
   "owner": {
     "_id": "iisssmptqoCKgZqaQ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652854948747"
-      }
+      "$date": "1652854948747"
     },
     "profile": {
       "name": "taeju.Kwon",
@@ -14,21 +12,15 @@
     "username": "taejukwon-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652855106119"
-    }
+    "$date": "1652855106119"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652855808706"
-    }
+    "$date": "1652855808706"
   },
   "origId": null,
   "name": "Making a Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7214244741072755"
-  },
+  "rank": "1.7214244741072755",
   "private": false,
   "unlisted": true,
   "username": "taejukwon-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-a2m8xili6i396g91q-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "HahjfKw37LtHk9FxK"
 }

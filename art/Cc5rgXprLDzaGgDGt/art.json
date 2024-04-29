@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575718900497"
-      }
+      "$date": "1575718900497"
     },
     "username": "evan_chen",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1577717672624"
-    }
+    "$date": "1577717672624"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1577718056823"
-    }
+    "$date": "1577718056823"
   },
   "origId": null,
   "name": "flower",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8708790701238822"
-  },
+  "rank": "1.8708790701238822",
   "private": false,
   "unlisted": false,
   "username": "evan_chen",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-u1lthy52spu3zlqbj-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "99"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "99",
+  "likes": "0",
   "revisionId": "qTnQK8AJpTHTCcKYE"
 }

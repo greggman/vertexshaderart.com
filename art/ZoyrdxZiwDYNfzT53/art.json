@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zb8mvzZdopDTzghEH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1529745843000"
-      }
+      "$date": "1529745843000"
     },
     "profile": {
       "first_name": "Shtrompel",
@@ -15,21 +13,15 @@
     "username": "shtrompel"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1529745957278"
-    }
+    "$date": "1529745957278"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1530280224688"
-    }
+    "$date": "1530280224688"
   },
   "origId": null,
   "name": "ASD",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3282960883656822"
-  },
+  "rank": "1.3282960883656822",
   "private": false,
   "unlisted": true,
   "username": "shtrompel",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-hmkp2nfr8bly8vwei-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "vZ2TtrWTTQypseMkK"
 }

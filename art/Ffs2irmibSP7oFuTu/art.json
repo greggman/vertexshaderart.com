@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yzwhJTH9ASEBDtEi9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1466660344065"
-      }
+      "$date": "1466660344065"
     },
     "username": "shu",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1517180447963"
-    }
+    "$date": "1517180447963"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1517180447963"
-    }
+    "$date": "1517180447963"
   },
   "origId": "4MXkkkQvDcbZT2bmy",
   "name": "124b sin city",
   "notes": "124 bytes",
-  "rank": {
-    "$numberDouble": "10.131112507927249"
-  },
+  "rank": "10.131112507927249",
   "private": false,
   "unlisted": false,
   "username": "shu",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-y4grifiszavh7h2tz-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "483"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "483",
+  "likes": "2",
   "revisionId": "2sSMJiFJfsT2eQRcT"
 }

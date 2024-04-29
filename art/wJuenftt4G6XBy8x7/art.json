@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1468374808864"
-    }
+    "$date": "1468374808864"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1468374808864"
-    }
+    "$date": "1468374808864"
   },
   "origId": null,
   "name": "grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5458857634160728"
-  },
+  "rank": "1.5458857634160728",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-xvdzwmh2ntvshhvxi-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "70"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "70",
+  "likes": "0",
   "revisionId": "aLKi7PoT6iy9WFnM7"
 }

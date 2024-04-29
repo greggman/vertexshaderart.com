@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1520076588824"
-    }
+    "$date": "1520076588824"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1520076588824"
-    }
+    "$date": "1520076588824"
   },
   "origId": "srEzQEq8iaczPwERC",
   "name": "toon chaos1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7504991961355072"
-  },
+  "rank": "1.7504991961355072",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-v83g9wskj1yod6e59-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "106"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "106",
+  "likes": "0",
   "revisionId": "AFtNm7nX5omWqLeq9"
 }

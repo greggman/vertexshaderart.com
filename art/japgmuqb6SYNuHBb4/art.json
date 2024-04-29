@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667032560256"
-      }
+      "$date": "1667032560256"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1670455746207"
-    }
+    "$date": "1670455746207"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1670455746207"
-    }
+    "$date": "1670455746207"
   },
   "origId": null,
   "name": "blocksfix",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7677282901599511"
-  },
+  "rank": "1.7677282901599511",
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-m4kdlq8jon5l9hby8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "50"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "50",
+  "likes": "0",
   "revisionId": "erk2XWixrcYhCm2NN"
 }

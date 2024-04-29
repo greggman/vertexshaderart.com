@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1597725697463"
-    }
+    "$date": "1597725697463"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1597726075897"
-    }
+    "$date": "1597726075897"
   },
   "origId": "tkkTQCvYJZZ7rzpLo",
   "name": "sphere of circles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2513218967164517"
-  },
+  "rank": "1.2513218967164517",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-srdtjfr65fynsddco-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "CvyjAczvFRD2p55ev"
 }

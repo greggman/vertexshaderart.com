@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Aw3ZBjbzi7sLBthGm",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1528851803464"
-      }
+      "$date": "1528851803464"
     },
     "profile": {
       "name": "Aardbei",
@@ -14,21 +12,15 @@
     "username": "megaloler"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1529106668205"
-    }
+    "$date": "1529106668205"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1529112046676"
-    }
+    "$date": "1529112046676"
   },
   "origId": null,
   "name": "gyro thingy",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7431354777027375"
-  },
+  "rank": "1.7431354777027375",
   "private": false,
   "unlisted": false,
   "username": "megaloler",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-pxtuem2yes91mm9hc-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "219"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "219",
+  "likes": "0",
   "revisionId": "ZFdXhGL9KuMN8aSK5"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "33GYvgRj3LP6Xt7T6",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652800663941"
-      }
+      "$date": "1652800663941"
     },
     "username": "hyosang_jung",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1654000842423"
-    }
+    "$date": "1654000842423"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1654000842423"
-    }
+    "$date": "1654000842423"
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9505189787156632"
-  },
+  "rank": "1.9505189787156632",
   "private": false,
   "unlisted": true,
   "username": "hyosang_jung",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-9zl9dei1gpudqn7p4-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "diwWitAaj6MkouLNg"
 }

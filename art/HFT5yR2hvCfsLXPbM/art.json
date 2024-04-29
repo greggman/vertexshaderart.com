@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1512798722815"
-    }
+    "$date": "1512798722815"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1512798722815"
-    }
+    "$date": "1512798722815"
   },
   "origId": "KmNbwStFkxfRGJ2Bs",
   "name": "swooneer",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4588660223467103"
-  },
+  "rank": "1.4588660223467103",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-eg3v13cpnvod9kyhi-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "178"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "178",
+  "likes": "1",
   "revisionId": "EmWFaWyMG8ykBMFnL"
 }

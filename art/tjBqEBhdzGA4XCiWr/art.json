@@ -3,9 +3,7 @@
   "owner": {
     "_id": "tfmC4rzBPTeaGjH5h",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1446335291727"
-      }
+      "$date": "1446335291727"
     },
     "profile": {
       "first_name": "Matt",
@@ -15,14 +13,10 @@
     "username": "matt"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1446492999054"
-    }
+    "$date": "1446492999054"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1446501480554"
-    }
+    "$date": "1446501480554"
   },
   "origId": "7b2mtzWGfut7qG2b4",
   "name": "cubes2",
@@ -42,15 +36,9 @@
     "shader": "float rotr3(float x, float n) {\n  return floor(x / pow(2.0, n)) + mod(x * pow(2.0, 3.0 - n), 8.0);\n}\n\nfloat mod2(float x) {\n  return mod(floor(x), 2.0);\n}\n\nvec3 cubePos(float x) {\n  return vec3(mod2(x), mod2(x / 2.0), mod2(x / 4.0));\n}\n\nvoid main() {\n  float near = -1.0;\n  float aspectRatio = resolution.y / resolution.x;\n  float cubeIdx = floor(vertexId / 36.0);\n  float faceIdx = mod(floor(vertexId / 6.0), 6.0);\n  float faceDiv3 = floor(faceIdx / 3.0);\n  float faceMod3 = mod(faceIdx, 3.0);\n  float quadIdx = mod(vertexId, 6.0);\n  float baseIdx = faceIdx * 6.0;\n  float vertIdx = abs(faceDiv3 == 0.0 ? quadIdx - 2.0 : 3.0 - quadIdx);\n  vec3 pos = cubePos(rotr3(vertIdx + faceDiv3 * 4.0,  faceMod3));\n  pos -= 0.5;\n  pos *= 0.02;\n  \n  float gridX = (mod(cubeIdx, 20.0) - 10.0) / 20.0;\n  float gridY = floor(cubeIdx / 20.0 - 10.0) / 20.0;\n  float dist = length(vec2(gridX, gridY));\n  float ct = sin(time + gridX * 4.0) * sin(time + gridY * 4.0);\n  float ct1 = cos(time + gridX * 4.0) * cos(time + gridY * 4.0);\n  float s = sin(ct + time), c = cos(ct + time);\n  float s1 = sin(ct1 + time), c1 = cos(ct1 + time);\n  mat3 rotZ = mat3(vec3(c, s, 0.0), vec3(-s, c, 0.0), vec3(0.0, 0.0, 1.0));\n  mat3 rotY = mat3(vec3(c1, 0.0, s1), vec3(0.0, 1.0, 0.0), vec3(-s1, 0.0, c1));\n  pos = pos * rotZ * rotY;\n  pos.x += gridX;\n  pos.y += gridY;\n  pos.y /= aspectRatio;\n  float zDist = pos.z - near;\n  gl_Position = vec4(pos, zDist);\n\n  float colIdx = faceIdx + 1.0;\n  v_color = vec4(mod2(colIdx), mod2(colIdx / 2.0), mod2(colIdx / 4.0), 1.0);\n}"
   },
   "screenshotURL": "data/images/images-qyiuebc2yhez3fevp-thumbnail.jpg",
-  "views": {
-    "$numberInt": "517"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "517",
+  "likes": "1",
   "revisionId": "BzQTuYvgTCZjPacJp",
-  "rank": {
-    "$numberDouble": "1.2054902704784822"
-  },
+  "rank": "1.2054902704784822",
   "avatarUrl": "https://lh4.googleusercontent.com/-jtcouKXDqq0/AAAAAAAAAAI/AAAAAAAAA7c/aDTXLcXoDnc/photo.jpg"
 }

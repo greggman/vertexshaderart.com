@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1451915244921"
-    }
+    "$date": "1451915244921"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1453410928447"
-    }
+    "$date": "1453410928447"
   },
   "origId": "WEKX8jLk432REZLJq",
   "name": "woozy",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0354911433031626"
-  },
+  "rank": "1.0354911433031626",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-atl71x19mj58roksh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "271"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "271",
+  "likes": "0",
   "revisionId": "js9Z3NHr7utZ4xun8"
 }

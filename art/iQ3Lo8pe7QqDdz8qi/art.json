@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1484750310133"
-    }
+    "$date": "1484750310133"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1484750310133"
-    }
+    "$date": "1484750310133"
   },
   "origId": "Q4dpCbhvWMYfDz5Nb",
   "name": "xduel",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.153172538806013"
-  },
+  "rank": "10.153172538806013",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-nyzootsvhi46iv9ec-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "336"
-  },
-  "likes": {
-    "$numberInt": "6"
-  },
+  "views": "336",
+  "likes": "6",
   "revisionId": "hWHhEsjpywcnK4Kdb"
 }

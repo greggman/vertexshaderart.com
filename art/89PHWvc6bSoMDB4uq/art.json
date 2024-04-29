@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gtmTwjfybNBxLCYrM",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1554726116747"
-      }
+      "$date": "1554726116747"
     },
     "username": "pgan",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554728196457"
-    }
+    "$date": "1554728196457"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554729273029"
-    }
+    "$date": "1554729273029"
   },
   "origId": null,
   "name": "grid0b",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.673998283390512"
-  },
+  "rank": "1.673998283390512",
   "private": false,
   "unlisted": true,
   "username": "pgan",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-iv2387829f8jf5mli-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "9o5r7eram2no3ip2h"
 }

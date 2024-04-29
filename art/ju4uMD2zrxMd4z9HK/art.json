@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nRkH7WvwLTAduuBeD",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1597328870398"
-      }
+      "$date": "1597328870398"
     },
     "username": "illus0r",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1633087004290"
-    }
+    "$date": "1633087004290"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1633087004290"
-    }
+    "$date": "1633087004290"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0255110014421727"
-  },
+  "rank": "1.0255110014421727",
   "private": false,
   "unlisted": true,
   "username": "illus0r",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-kjyh0snnxsglvoyxt-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "ur7E8QRk2kRAL4Ns7"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1530865402306"
-    }
+    "$date": "1530865402306"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1530865470408"
-    }
+    "$date": "1530865470408"
   },
   "origId": null,
   "name": "2D Sine Wave",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2379628544632706"
-  },
+  "rank": "1.2379628544632706",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-n7i6m2xz4hcud33jk-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "8WibyDgkzGfZ9FiEY"
 }

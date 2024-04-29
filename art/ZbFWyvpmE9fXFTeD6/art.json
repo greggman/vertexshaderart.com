@@ -3,9 +3,7 @@
   "owner": {
     "_id": "6pkRP7HRXpy6Kg4NC",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1466932151517"
-      }
+      "$date": "1466932151517"
     },
     "profile": {
       "name": "Vincent Schüßler",
@@ -14,21 +12,15 @@
     "username": "vincent23"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1466934530481"
-    }
+    "$date": "1466934530481"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1466980819990"
-    }
+    "$date": "1466980819990"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.461138744182114"
-  },
+  "rank": "1.461138744182114",
   "private": false,
   "unlisted": true,
   "username": "vincent23",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-bxhtcgyra7ayb6eg5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "23"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "23",
+  "likes": "0",
   "revisionId": "ETtoHEfLnDnpZzGYj"
 }

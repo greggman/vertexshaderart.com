@@ -3,9 +3,7 @@
   "owner": {
     "_id": "TuF2Wf6Pp84XDzgbj",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1499279975906"
-      }
+      "$date": "1499279975906"
     },
     "profile": {
       "name": "Nico Raftis",
@@ -15,21 +13,15 @@
     "username": "macromachines"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1510361429630"
-    }
+    "$date": "1510361429630"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1510361429630"
-    }
+    "$date": "1510361429630"
   },
   "origId": "nL6YpkW8YvGKNEKtj",
   "name": "point cloud vs spheres rmx",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.621026103721405"
-  },
+  "rank": "1.621026103721405",
   "private": false,
   "unlisted": true,
   "username": "macromachines",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-jgdiqgtfv2c0h1de8-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "X9v6NtYeAYwjqwLp3"
 }

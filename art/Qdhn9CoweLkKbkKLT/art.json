@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1548924251448"
-    }
+    "$date": "1548924251448"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1548924251448"
-    }
+    "$date": "1548924251448"
   },
   "origId": null,
   "name": "gl_PointSize",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1465343283548282"
-  },
+  "rank": "1.1465343283548282",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-p6zvbuv1ese4oyupo-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "21"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "21",
+  "likes": "0",
   "revisionId": "DrohoDKGW7sT5kqao"
 }

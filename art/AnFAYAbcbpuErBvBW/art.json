@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ARgx3b8GkwQB3kWDT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1669379684004"
-      }
+      "$date": "1669379684004"
     },
     "profile": {
       "first_name": "山ん",
@@ -15,21 +13,15 @@
     "username": "山ん"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1669379722946"
-    }
+    "$date": "1669379722946"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1669402260705"
-    }
+    "$date": "1669402260705"
   },
   "origId": null,
   "name": "0",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6788686486255278"
-  },
+  "rank": "1.6788686486255278",
   "private": false,
   "unlisted": true,
   "username": "山ん",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-j6yu3m9yv5s3eyd9x-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "RAMsa3PwcfKfy7Pdi"
 }

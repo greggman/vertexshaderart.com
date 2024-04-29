@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1513129309697"
-    }
+    "$date": "1513129309697"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1513129309697"
-    }
+    "$date": "1513129309697"
   },
   "origId": null,
   "name": "Dueling",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.639300341789287"
-  },
+  "rank": "1.639300341789287",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-1zie0rskjasq8mekq-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "72"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "72",
+  "likes": "0",
   "revisionId": "v5yJEvJcjGXghwJWx"
 }

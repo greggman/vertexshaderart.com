@@ -3,9 +3,7 @@
   "owner": {
     "_id": "u9A54Fr2xqnfssRpa",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684324202773"
-      }
+      "$date": "1684324202773"
     },
     "username": "seongryul.park",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684333757345"
-    }
+    "$date": "1684333757345"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684333783724"
-    }
+    "$date": "1684333783724"
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0550988334469884"
-  },
+  "rank": "1.0550988334469884",
   "private": false,
   "unlisted": true,
   "username": "seongryul.park",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-aireatrhto76o1zhz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "wJvD3PiGjokTzAAC7"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "6LYHhwj5wMwA9HvPG",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1535280458435"
-      }
+      "$date": "1535280458435"
     },
     "username": "aaron1924",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1535281188852"
-    }
+    "$date": "1535281188852"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1535281393869"
-    }
+    "$date": "1535281393869"
   },
   "origId": null,
   "name": "Loopy",
   "notes": "My first ever vertex shader :D",
-  "rank": {
-    "$numberDouble": "10.291758525656432"
-  },
+  "rank": "10.291758525656432",
   "private": false,
   "unlisted": false,
   "username": "aaron1924",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-0cu058nnfe8khv773-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "360"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "360",
+  "likes": "3",
   "revisionId": "i9F6tbJTBpB4eravb"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "cFdz2pdS8XZgihEn2",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652806562125"
-      }
+      "$date": "1652806562125"
     },
     "username": "sangbeom.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652868709939"
-    }
+    "$date": "1652868709939"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652946161752"
-    }
+    "$date": "1652946161752"
   },
   "origId": "gfBdkzchpT5DPGwqE",
   "name": "Colors - Sangbeom Kim",
   "notes": "Colors - Sangbeom Kim",
-  "rank": {
-    "$numberDouble": "1.9631147870940455"
-  },
+  "rank": "1.9631147870940455",
   "private": false,
   "unlisted": true,
   "username": "sangbeom.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-2u64rc9d3h1edpm9z-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "6Adwbzku42Atzeukh"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1512767372990"
-    }
+    "$date": "1512767372990"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1512767372990"
-    }
+    "$date": "1512767372990"
   },
   "origId": "J2FKQo6uXQ6EykLPi",
   "name": "circlepower K FURR2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9605950707421607"
-  },
+  "rank": "1.9605950707421607",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-09wnpki6g5h780k5d-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "243"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "243",
+  "likes": "1",
   "revisionId": "5x6be84e5MxaQ8BPk"
 }

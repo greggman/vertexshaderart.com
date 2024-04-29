@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1699048585647"
-    }
+    "$date": "1699048585647"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1699048585647"
-    }
+    "$date": "1699048585647"
   },
   "origId": null,
   "name": "Bubble Universe",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3339020063852938"
-  },
+  "rank": "1.3339020063852938",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-ihujydzql8jnmlny2-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "54"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "54",
+  "likes": "1",
   "revisionId": "bKR3xXw3X4xqnS4Zz"
 }

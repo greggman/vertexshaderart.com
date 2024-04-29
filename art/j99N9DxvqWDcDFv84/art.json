@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dGy5QaokhfRCbYaGw",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1659646292396"
-      }
+      "$date": "1659646292396"
     },
     "username": "der",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1659754785453"
-    }
+    "$date": "1659754785453"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1659836892047"
-    }
+    "$date": "1659836892047"
   },
   "origId": null,
   "name": "Audio reactive spiral",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0106886497985808"
-  },
+  "rank": "1.0106886497985808",
   "private": false,
   "unlisted": true,
   "username": "der",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-nee0gifh0v66fw051-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "15"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "15",
+  "likes": "0",
   "revisionId": "aEdoawsgCi4PMitjc"
 }

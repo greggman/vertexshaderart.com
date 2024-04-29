@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1601144339223"
-    }
+    "$date": "1601144339223"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1601144339223"
-    }
+    "$date": "1601144339223"
   },
   "origId": "6329mueSGExenMjbN",
   "name": "dotp1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8149930291016665"
-  },
+  "rank": "1.8149930291016665",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-75wjvvmlefl787rgh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "123"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "123",
+  "likes": "1",
   "revisionId": "CvnFSqjqPAXCHkDxh"
 }

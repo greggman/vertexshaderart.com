@@ -3,9 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1450381162182"
-      }
+      "$date": "1450381162182"
     },
     "username": "aiekick",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1511365188294"
-    }
+    "$date": "1511365188294"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1511365275235"
-    }
+    "$date": "1511365275235"
   },
   "origId": null,
   "name": "Quads Spiral",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3614906478068032"
-  },
+  "rank": "1.3614906478068032",
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-fzjtedu0vb343va4k-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "181"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "181",
+  "likes": "0",
   "revisionId": "HG6F4FY6jpDCq9nzo"
 }

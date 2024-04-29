@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HtXEpykF96ZKE8LPR",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497475129344"
-      }
+      "$date": "1497475129344"
     },
     "profile": {
       "name": "Pawel Kostrzewa",
@@ -14,21 +12,15 @@
     "username": "pawel"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1497475542667"
-    }
+    "$date": "1497475542667"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1497475542667"
-    }
+    "$date": "1497475542667"
   },
   "origId": null,
   "name": "unnamedzero",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.976028503605045"
-  },
+  "rank": "10.976028503605045",
   "private": false,
   "unlisted": false,
   "username": "pawel",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-0vrh7da3ec7ydx4gy-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "295"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "295",
+  "likes": "2",
   "revisionId": "97KWwnk4NSMdSfp6K"
 }

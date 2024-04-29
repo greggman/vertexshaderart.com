@@ -3,9 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684058245272"
-      }
+      "$date": "1684058245272"
     },
     "username": "byungchan.park",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684487584904"
-    }
+    "$date": "1684487584904"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684487629050"
-    }
+    "$date": "1684487629050"
   },
   "origId": null,
   "name": "color",
   "notes": "color",
-  "rank": {
-    "$numberDouble": "1.8759735175969945"
-  },
+  "rank": "1.8759735175969945",
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-xfqzgake3x9yg7ltt-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "RyZ72GNMegXfMDBq3"
 }

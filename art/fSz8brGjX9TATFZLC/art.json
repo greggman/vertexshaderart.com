@@ -3,9 +3,7 @@
   "owner": {
     "_id": "rNn8aeTHLQXkcMmn8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503601"
-      }
+      "$date": "1684322503601"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jaeyeong-an"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684325983625"
-    }
+    "$date": "1684325983625"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684325983625"
-    }
+    "$date": "1684325983625"
   },
   "origId": null,
   "name": "Making A Grid by Jaeyeong An(own variation)",
   "notes": "Duplicate the shader and tweak it to make my variation",
-  "rank": {
-    "$numberDouble": "1.085262967608145"
-  },
+  "rank": "1.085262967608145",
   "private": false,
   "unlisted": false,
   "username": "jaeyeong-an",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-vlsx6bdgp6tsk2bnu-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "41"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "41",
+  "likes": "0",
   "revisionId": "LLTkiZwcMFyAw6Y3s"
 }

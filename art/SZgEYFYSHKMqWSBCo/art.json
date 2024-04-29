@@ -3,9 +3,7 @@
   "owner": {
     "_id": "jhMvK8TduGx9Yrrzp",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1514250123308"
-      }
+      "$date": "1514250123308"
     },
     "profile": {
       "name": "Frank Palazzolo",
@@ -14,21 +12,15 @@
     "username": "palazzol"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1514250140672"
-    }
+    "$date": "1514250140672"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1517272404242"
-    }
+    "$date": "1517272404242"
   },
   "origId": null,
   "name": "raster",
   "notes": "just learning...",
-  "rank": {
-    "$numberDouble": "1.0478547486294212"
-  },
+  "rank": "1.0478547486294212",
   "private": false,
   "unlisted": true,
   "username": "palazzol",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-h2nnc5fphy29ryko5-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "AyK9uPmSjtFysNCn9"
 }

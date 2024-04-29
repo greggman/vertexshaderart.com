@@ -3,9 +3,7 @@
   "owner": {
     "_id": "EFoR2gFKwFj22uHMF",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1622788556674"
-      }
+      "$date": "1622788556674"
     },
     "username": "sail",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1622818509507"
-    }
+    "$date": "1622818509507"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1622818509507"
-    }
+    "$date": "1622818509507"
   },
   "origId": null,
   "name": "synth",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6902606287845496"
-  },
+  "rank": "1.6902606287845496",
   "private": false,
   "unlisted": false,
   "username": "sail",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-gn0j9oum4zgacafk1-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "156"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "156",
+  "likes": "0",
   "revisionId": "9s23n6rjQzLtBQCpP"
 }

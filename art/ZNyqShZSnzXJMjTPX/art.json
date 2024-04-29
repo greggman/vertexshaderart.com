@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1565302288274"
-    }
+    "$date": "1565302288274"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1565302288274"
-    }
+    "$date": "1565302288274"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8814158871461315"
-  },
+  "rank": "1.8814158871461315",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-jigj5pinfmwwm6phg-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "93"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "93",
+  "likes": "0",
   "revisionId": "ecKp6RDGrjBC8xoyw"
 }

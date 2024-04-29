@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1466621736006"
-    }
+    "$date": "1466621736006"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1466705341800"
-    }
+    "$date": "1466705341800"
   },
   "origId": "EhoHuSv6ou8bp9o66",
   "name": "sloosh",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.869314430484895"
-  },
+  "rank": "1.869314430484895",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-as21cf4f53bkqwnlw-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "150"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "150",
+  "likes": "0",
   "revisionId": "qox4B9t72X9rYBtrL"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "stvFsPkYBockiRmAB",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1696999602459"
-      }
+      "$date": "1696999602459"
     },
     "profile": {
       "name": "Bryan Gonzales",
@@ -14,21 +12,15 @@
     "username": "brygo1995"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1697000180168"
-    }
+    "$date": "1697000180168"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1697172263165"
-    }
+    "$date": "1697172263165"
   },
   "origId": null,
   "name": "tutorial1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6087398930228405"
-  },
+  "rank": "1.6087398930228405",
   "private": false,
   "unlisted": true,
   "username": "brygo1995",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-txhceaq3xvlc2vtot-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "38zDmLLsXnnJJRRG8"
 }

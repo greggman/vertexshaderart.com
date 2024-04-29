@@ -3,9 +3,7 @@
   "owner": {
     "_id": "pABFwgbRnC2CP5Woy",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1713478111704"
-      }
+      "$date": "1713478111704"
     },
     "profile": {
       "first_name": "Floppa Films Google Emails",
@@ -14,21 +12,15 @@
     "username": "floppafilms google emails"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1713504707010"
-    }
+    "$date": "1713504707010"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1713504707010"
-    }
+    "$date": "1713504707010"
   },
   "origId": "dPFqiAgc3g3evvDtS",
   "name": "shader template, sound variable",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4969829952107612"
-  },
+  "rank": "1.4969829952107612",
   "private": false,
   "unlisted": false,
   "username": "floppafilms google emails",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-n19d4nevatvlfabzc-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "KakXRa6tszNkxTr2C"
 }

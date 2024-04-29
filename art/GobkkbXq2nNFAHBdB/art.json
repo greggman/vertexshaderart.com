@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1550984530387"
-    }
+    "$date": "1550984530387"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1550984530387"
-    }
+    "$date": "1550984530387"
   },
   "origId": "nrAECwQ8yDDyTrSit",
   "name": "petl",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1637592443119935"
-  },
+  "rank": "1.1637592443119935",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-ns6mhyrw9bb4idybs-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "89"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "89",
+  "likes": "1",
   "revisionId": "9AN2Jjda2uZ8yPvST"
 }

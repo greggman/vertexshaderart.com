@@ -3,9 +3,7 @@
   "owner": {
     "_id": "K7hvqvWiY8hFbeXdP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1646379760964"
-      }
+      "$date": "1646379760964"
     },
     "profile": {
       "first_name": "rudy",
@@ -15,21 +13,15 @@
     "username": "rudy2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1646380358588"
-    }
+    "$date": "1646380358588"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1646380654875"
-    }
+    "$date": "1646380654875"
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.596430313897023"
-  },
+  "rank": "1.596430313897023",
   "private": false,
   "unlisted": true,
   "username": "rudy2",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-19ku4t7jw6rjox3k3-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "70"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "70",
+  "likes": "0",
   "revisionId": "pF9BJkxdcQtEEAEEp"
 }

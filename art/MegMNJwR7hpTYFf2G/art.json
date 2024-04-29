@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1512787827690"
-    }
+    "$date": "1512787827690"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1512787827690"
-    }
+    "$date": "1512787827690"
   },
   "origId": "FpeWqKvfuhWuYhfuT",
   "name": "K reptile void ",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3820663676400016"
-  },
+  "rank": "1.3820663676400016",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-4cql116znfu09o6gm-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "187"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "187",
+  "likes": "1",
   "revisionId": "KiXGgirg7EucW2tpz"
 }

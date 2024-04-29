@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1531823487628"
-    }
+    "$date": "1531823487628"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1531823487628"
-    }
+    "$date": "1531823487628"
   },
   "origId": "Sw2atuBHGBsutNYZf",
   "name": "spiderweb spheres every day",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.242818128890542"
-  },
+  "rank": "10.242818128890542",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-5aqkk347svcobzgje-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "535"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "535",
+  "likes": "2",
   "revisionId": "fw9KScrruLtrdr7Ew"
 }

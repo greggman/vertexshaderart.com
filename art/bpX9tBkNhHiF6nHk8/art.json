@@ -3,9 +3,7 @@
   "owner": {
     "_id": "fJsd989asQpLSTgC3",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1687709824959"
-      }
+      "$date": "1687709824959"
     },
     "username": "mv10",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1687710770852"
-    }
+    "$date": "1687710770852"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1687807918232"
-    }
+    "$date": "1687807918232"
   },
   "origId": null,
   "name": "sound basics 1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5383459000860231"
-  },
+  "rank": "1.5383459000860231",
   "private": false,
   "unlisted": false,
   "username": "mv10",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ef7ogza1aqocla6p6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "98"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "98",
+  "likes": "0",
   "revisionId": "wzcwfsyZnqY8TWy8d"
 }

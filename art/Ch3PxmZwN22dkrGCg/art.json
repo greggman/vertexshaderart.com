@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1501683161683"
-    }
+    "$date": "1501683161683"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1520827394696"
-    }
+    "$date": "1520827394696"
   },
   "origId": null,
   "name": "bugs",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6571473622549397"
-  },
+  "rank": "1.6571473622549397",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-pt8qau7cw08y8b8t4-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "165"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "165",
+  "likes": "0",
   "revisionId": "QPumTYk8MKnGdaFNq"
 }

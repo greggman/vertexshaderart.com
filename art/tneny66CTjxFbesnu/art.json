@@ -3,9 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501018355084"
-      }
+      "$date": "1501018355084"
     },
     "username": "sylistine",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1501537636737"
-    }
+    "$date": "1501537636737"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1501538969303"
-    }
+    "$date": "1501538969303"
   },
   "origId": null,
   "name": "fov test",
   "notes": "This demo is for experimenting with the FOV part of a perspective camera matrix.",
-  "rank": {
-    "$numberDouble": "1.7976455489685572"
-  },
+  "rank": "1.7976455489685572",
   "private": false,
   "unlisted": true,
   "username": "sylistine",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-jtsu7veo0ayn5mxxy-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "65"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "65",
+  "likes": "0",
   "revisionId": "p9nfzC4NrTiK2xPQu"
 }

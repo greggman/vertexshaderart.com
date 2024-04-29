@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yniyeZ866avHaE4Fa",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1551478335991"
-      }
+      "$date": "1551478335991"
     },
     "username": "vanoog",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1552528097188"
-    }
+    "$date": "1552528097188"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1552610638765"
-    }
+    "$date": "1552610638765"
   },
   "origId": "LEzaqrf9HzkcvwKea",
   "name": "circulitoTriangleStrip",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8613734264689905"
-  },
+  "rank": "1.8613734264689905",
   "private": false,
   "unlisted": true,
   "username": "vanoog",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-8avrkfo47ch9ofmsk-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "7gMjKP55DmjZpheLo"
 }

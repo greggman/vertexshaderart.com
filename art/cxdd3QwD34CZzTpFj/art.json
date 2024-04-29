@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QwzsYvDScS9sqNHNF",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1699414239850"
-      }
+      "$date": "1699414239850"
     },
     "profile": {
       "first_name": "aphim44",
@@ -14,21 +12,15 @@
     "username": "aphim44"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1699414242999"
-    }
+    "$date": "1699414242999"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1699414242999"
-    }
+    "$date": "1699414242999"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5293370394769752"
-  },
+  "rank": "1.5293370394769752",
   "private": false,
   "unlisted": true,
   "username": "aphim44",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-bec1z4kmli7l82s7q-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "hLojThv4AEwqQZWKb"
 }

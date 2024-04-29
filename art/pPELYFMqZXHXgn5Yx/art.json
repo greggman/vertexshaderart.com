@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1599134737846"
-    }
+    "$date": "1599134737846"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1599134737846"
-    }
+    "$date": "1599134737846"
   },
   "origId": "3hzz6KuiDcQDi54iA",
   "name": "Triangular Voronoi",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5373670801214843"
-  },
+  "rank": "1.5373670801214843",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-bs0h3qbgcy93ex5ji-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "109"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "109",
+  "likes": "0",
   "revisionId": "rwj2uwJZrpfwvdkCw"
 }

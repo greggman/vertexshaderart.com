@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dx3W9xoNRsbCjjvhi",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1554190798095"
-      }
+      "$date": "1554190798095"
     },
     "profile": {
       "first_name": "재우",
@@ -16,21 +14,15 @@
     "username": "재우"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1554195403669"
-    }
+    "$date": "1554195403669"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1554195403669"
-    }
+    "$date": "1554195403669"
   },
   "origId": null,
   "name": "jaewoo.choi",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.137651353242039"
-  },
+  "rank": "1.137651353242039",
   "private": false,
   "unlisted": false,
   "username": "재우",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-5gf2z1oixv439ctl6-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "168"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "168",
+  "likes": "0",
   "revisionId": "5JL8s8xegNsJcwcmv"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "iFSyTSHmeekk4Ga75",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1683697855014"
-      }
+      "$date": "1683697855014"
     },
     "username": "minkicho",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684379404371"
-    }
+    "$date": "1684379404371"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684379404371"
-    }
+    "$date": "1684379404371"
   },
   "origId": null,
   "name": "Exercise a moving Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1439263708172278"
-  },
+  "rank": "1.1439263708172278",
   "private": false,
   "unlisted": true,
   "username": "minkicho",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-bys4wm1juvncbwgvz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "StdD3Lf92mAEzJxuX"
 }

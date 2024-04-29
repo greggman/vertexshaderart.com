@@ -3,9 +3,7 @@
   "owner": {
     "_id": "A3xozQT3WGZPL6x35",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684330244428"
-      }
+      "$date": "1684330244428"
     },
     "username": "sangjin.lee",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684474210407"
-    }
+    "$date": "1684474210407"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684474210407"
-    }
+    "$date": "1684474210407"
   },
   "origId": null,
   "name": "color duplicate",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8504064671651426"
-  },
+  "rank": "1.8504064671651426",
   "private": false,
   "unlisted": true,
   "username": "sangjin.lee",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-au76xhcx3ycv6satg-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "iBi6ybbvHynQXs4No"
 }

@@ -4,20 +4,14 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1449637404873"
-    }
+    "$date": "1449637404873"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1449637404873"
-    }
+    "$date": "1449637404873"
   },
   "origId": null,
   "name": "feels like debris",
-  "rank": {
-    "$numberDouble": "10.66916719834979"
-  },
+  "rank": "10.66916719834979",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -36,11 +30,7 @@
   },
   "screenshotURL": "data/images/images-6y9bmfj7t8dbgprml-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1067"
-  },
-  "likes": {
-    "$numberInt": "5"
-  },
+  "views": "1067",
+  "likes": "5",
   "revisionId": "rNC8A2o8vt5wPxMan"
 }

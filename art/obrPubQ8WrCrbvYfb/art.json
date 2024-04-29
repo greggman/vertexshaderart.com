@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DpiLx3mnyNK9vHf8p",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652972237778"
-      }
+      "$date": "1652972237778"
     },
     "username": "juhong.mo",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1653495518436"
-    }
+    "$date": "1653495518436"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1653495518436"
-    }
+    "$date": "1653495518436"
   },
   "origId": "bJc832Huv2tEcL58Y",
   "name": "Audio Reactive Art",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4274774959842174"
-  },
+  "rank": "1.4274774959842174",
   "private": false,
   "unlisted": true,
   "username": "juhong.mo",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-31dkfsfn7pvvue4as-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "aWvwt5TiwkWifdZCT"
 }

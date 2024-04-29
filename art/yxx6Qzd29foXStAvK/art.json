@@ -3,9 +3,7 @@
   "owner": {
     "_id": "T3rKtS2pgF26zGC8N",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493502686692"
-      }
+      "$date": "1493502686692"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "samthrasher"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1493615394623"
-    }
+    "$date": "1493615394623"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1493787593709"
-    }
+    "$date": "1493787593709"
   },
   "origId": "2cL3kfaKBExkWc5Le",
   "name": "sphere",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0430661879889052"
-  },
+  "rank": "1.0430661879889052",
   "private": false,
   "unlisted": true,
   "username": "samthrasher",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-op7jaflfesgfojan4-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "11"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "11",
+  "likes": "0",
   "revisionId": "MNmwAJ6QJrDr6mkwd"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "qKPpzdr6wbcudsddm",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1552696746395"
-      }
+      "$date": "1552696746395"
     },
     "profile": {
       "name": "Alejandro Cámara",
@@ -14,21 +12,15 @@
     "username": "alejandrocamara"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1552697032471"
-    }
+    "$date": "1552697032471"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1552966329393"
-    }
+    "$date": "1552966329393"
   },
   "origId": null,
   "name": "Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5629600082334087"
-  },
+  "rank": "1.5629600082334087",
   "private": false,
   "unlisted": true,
   "username": "alejandrocamara",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-e0jw4gqptq32tgd3w-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "KhhCEEBkQjx7QtqZD"
 }

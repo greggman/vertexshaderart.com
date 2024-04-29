@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gCKgzQzioC4gDMxq9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1496305181205"
-      }
+      "$date": "1496305181205"
     },
     "profile": {
       "name": "Paul Gutierrez",
@@ -15,21 +13,15 @@
     "username": "PLU Collective"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496307884991"
-    }
+    "$date": "1496307884991"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496307884991"
-    }
+    "$date": "1496307884991"
   },
   "origId": null,
   "name": "Lesson01",
   "notes": "Lesson One tutorial code.",
-  "rank": {
-    "$numberDouble": "1.3557345171326272"
-  },
+  "rank": "1.3557345171326272",
   "private": false,
   "unlisted": true,
   "username": "PLU Collective",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-kzeo5244lld5esh30-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "qeCav4EzGPSHq4Pr9"
 }

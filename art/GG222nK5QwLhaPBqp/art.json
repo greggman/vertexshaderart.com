@@ -3,9 +3,7 @@
   "owner": {
     "_id": "95683ZgBuRkukjtj7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1589922178477"
-      }
+      "$date": "1589922178477"
     },
     "profile": {
       "first_name": "Markus",
@@ -15,21 +13,15 @@
     "username": "markus"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1589922530622"
-    }
+    "$date": "1589922530622"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1589926159284"
-    }
+    "$date": "1589926159284"
   },
   "origId": "PmRwSpR6jxkbJgsE4",
   "name": "Straight Lines",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5105773058835563"
-  },
+  "rank": "1.5105773058835563",
   "private": false,
   "unlisted": true,
   "username": "markus",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-fbdbafqn9b885qva5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "wvAR7Ao78zfYaKdmt"
 }

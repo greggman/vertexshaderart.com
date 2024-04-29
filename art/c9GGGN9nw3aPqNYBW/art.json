@@ -3,9 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494865701670"
-      }
+      "$date": "1494865701670"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1495058960097"
-    }
+    "$date": "1495058960097"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1495058960097"
-    }
+    "$date": "1495058960097"
   },
   "origId": "DwqqEvCDpZA7dj9qu",
   "name": "Init V",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6991131781015143"
-  },
+  "rank": "1.6991131781015143",
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-llgioij561tzofclq-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "DZoWS3uEanagZgwEH"
 }

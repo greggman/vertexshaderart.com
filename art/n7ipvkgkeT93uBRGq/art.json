@@ -3,9 +3,7 @@
   "owner": {
     "_id": "psCFHBonRC2LmkaBg",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1631522315795"
-      }
+      "$date": "1631522315795"
     },
     "profile": {
       "first_name": "박상준(학부학생/생명시스템대학 생명공학)",
@@ -15,21 +13,15 @@
     "username": "박상준(학부학생/생명시스템대학생명공학)"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1631522323972"
-    }
+    "$date": "1631522323972"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1631524016828"
-    }
+    "$date": "1631524016828"
   },
   "origId": null,
   "name": "grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.594423648971721"
-  },
+  "rank": "1.594423648971721",
   "private": false,
   "unlisted": true,
   "username": "박상준(학부학생/생명시스템대학생명공학)",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-uiea4vnub5pkp631k-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "LKaBMYoMspaptp7mQ"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1467482639021"
-    }
+    "$date": "1467482639021"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1468296456717"
-    }
+    "$date": "1468296456717"
   },
   "origId": null,
   "name": "woozy",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.051147328720198"
-  },
+  "rank": "10.051147328720198",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ro2r5d7ydpdn4wpyz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "558"
-  },
-  "likes": {
-    "$numberInt": "9"
-  },
+  "views": "558",
+  "likes": "9",
   "revisionId": "5zxi5XEFJ6KrfhxPj"
 }

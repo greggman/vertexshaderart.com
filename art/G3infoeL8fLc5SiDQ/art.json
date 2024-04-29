@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1523285012357"
-    }
+    "$date": "1523285012357"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1525449762060"
-    }
+    "$date": "1525449762060"
   },
   "origId": "SJ68p365upswGjcG9",
   "name": "Simple Particles with no velocity???",
   "notes": "Glad I can get a bunch of points on the screen and get them working. Thinking like this are quite different from the canvas in JavaScript and immediate mode programming.",
-  "rank": {
-    "$numberDouble": "1.0409161247464152"
-  },
+  "rank": "1.0409161247464152",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-rflk23r1ord67f6ss-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "7"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "7",
+  "likes": "1",
   "revisionId": "FXdiQfN3ZaeStnxtQ"
 }

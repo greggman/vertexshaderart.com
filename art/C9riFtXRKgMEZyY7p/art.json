@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yyfDj8PGn9r7DT7ZA",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1492808668114"
-      }
+      "$date": "1492808668114"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "clydepashley"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1492813335580"
-    }
+    "$date": "1492813335580"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1492813335580"
-    }
+    "$date": "1492813335580"
   },
   "origId": "TkQY6zwRTeGzEqbCb",
   "name": "z%%z 4 music",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0104638255638108"
-  },
+  "rank": "1.0104638255638108",
   "private": false,
   "unlisted": true,
   "username": "clydepashley",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-0rk8g3bz49roxuanf-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "QRt8tmbp83JL2cBET"
 }

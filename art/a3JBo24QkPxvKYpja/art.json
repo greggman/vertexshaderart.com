@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667032560256"
-      }
+      "$date": "1667032560256"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1669434220197"
-    }
+    "$date": "1669434220197"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1669434220197"
-    }
+    "$date": "1669434220197"
   },
   "origId": null,
   "name": "yellolong",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8312064622203064"
-  },
+  "rank": "1.8312064622203064",
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-43d7yf6za24synjei-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "62"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "62",
+  "likes": "0",
   "revisionId": "FnSX32hoB56bkMKes"
 }

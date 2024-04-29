@@ -3,9 +3,7 @@
   "owner": {
     "_id": "o3MC23FCyPcAe35JM",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667792894600"
-      }
+      "$date": "1667792894600"
     },
     "username": "peraperavrc",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1667792985617"
-    }
+    "$date": "1667792985617"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1667792985617"
-    }
+    "$date": "1667792985617"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4913948695744752"
-  },
+  "rank": "1.4913948695744752",
   "private": false,
   "unlisted": true,
   "username": "peraperavrc",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-n0ebs4w6ursvnus4o-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "FDYACdSHrEeEFgHHo"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "prn5B8hRBmPy8MnrR",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1512439643641"
-      }
+      "$date": "1512439643641"
     },
     "username": "cakeller98",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1512439651182"
-    }
+    "$date": "1512439651182"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1512439776303"
-    }
+    "$date": "1512439776303"
   },
   "origId": "nL6YpkW8YvGKNEKtj",
   "name": "point cloud vs spheres",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5732471511869652"
-  },
+  "rank": "1.5732471511869652",
   "private": false,
   "unlisted": true,
   "username": "cakeller98",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-pyctxh95fecigjssz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "ZWjmFrix933BBibXv"
 }

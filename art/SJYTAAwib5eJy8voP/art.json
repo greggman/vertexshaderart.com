@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yzwhJTH9ASEBDtEi9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1466660344065"
-      }
+      "$date": "1466660344065"
     },
     "username": "shu",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1486189313791"
-    }
+    "$date": "1486189313791"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1486456232051"
-    }
+    "$date": "1486456232051"
   },
   "origId": null,
   "name": "412b synchrony",
   "notes": "412 bytes",
-  "rank": {
-    "$numberDouble": "1.1037563132655168"
-  },
+  "rank": "1.1037563132655168",
   "private": false,
   "unlisted": false,
   "username": "shu",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-v8gfosbtrnwvl14tm-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "349"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "349",
+  "likes": "0",
   "revisionId": "8RGJu4ensQeMQJ4ri"
 }

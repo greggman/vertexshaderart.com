@@ -3,9 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1523273254098"
-      }
+      "$date": "1523273254098"
     },
     "profile": {
       "first_name": "Brendon",
@@ -16,21 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1523303236602"
-    }
+    "$date": "1523303236602"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1523303236602"
-    }
+    "$date": "1523303236602"
   },
   "origId": "nrNx2zLxLnq4oDubh",
   "name": "Metal Sprial",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7302935035803808"
-  },
+  "rank": "1.7302935035803808",
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -50,11 +42,7 @@
   },
   "screenshotURL": "data/images/images-rv7j2nwch97g8aazg-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "McKXSXwMS8sDj5B7X"
 }

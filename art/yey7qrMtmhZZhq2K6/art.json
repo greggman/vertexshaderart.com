@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1465664073796"
-    }
+    "$date": "1465664073796"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1591536983812"
-    }
+    "$date": "1591536983812"
   },
   "origId": "u9hvPc2WxibcTmT6F",
   "name": "hexit2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1708881123596864"
-  },
+  "rank": "1.1708881123596864",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-2qmqzc0hzw52dl256-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "276"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "276",
+  "likes": "0",
   "revisionId": "zvQtL8iPJ4RPKwamw"
 }

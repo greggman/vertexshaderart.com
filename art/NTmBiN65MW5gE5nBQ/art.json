@@ -3,9 +3,7 @@
   "owner": {
     "_id": "fAjz2DYFaqKPFtNjB",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1537183953122"
-      }
+      "$date": "1537183953122"
     },
     "username": "yonatan",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1537183968779"
-    }
+    "$date": "1537183968779"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1537208462744"
-    }
+    "$date": "1537208462744"
   },
   "origId": null,
   "name": "flower",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.756019433513629"
-  },
+  "rank": "10.756019433513629",
   "private": false,
   "unlisted": false,
   "username": "yonatan",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-07om8jwk9kc6qd3b5-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "646"
-  },
-  "likes": {
-    "$numberInt": "5"
-  },
+  "views": "646",
+  "likes": "5",
   "revisionId": "Q6N9idRDjhssyXNnx"
 }

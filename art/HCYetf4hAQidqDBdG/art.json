@@ -3,9 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494865701670"
-      }
+      "$date": "1494865701670"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1495062143932"
-    }
+    "$date": "1495062143932"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496062625196"
-    }
+    "$date": "1496062625196"
   },
   "origId": "c9GGGN9nw3aPqNYBW",
   "name": "Init Color Tutorial",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.911583122470807"
-  },
+  "rank": "1.911583122470807",
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-wprklghj0oba11vhu-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "3Tz9giEXrq2PvBZdo"
 }

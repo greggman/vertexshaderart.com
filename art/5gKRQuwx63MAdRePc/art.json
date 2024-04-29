@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Fb4jaWH5nhdXuAG2E",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494693086089"
-      }
+      "$date": "1494693086089"
     },
     "profile": {
       "name": "",
@@ -15,21 +13,15 @@
     "username": "lambmeow"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1494699060169"
-    }
+    "$date": "1494699060169"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1494699095613"
-    }
+    "$date": "1494699095613"
   },
   "origId": "7825RZhjGT9xTvEa7",
   "name": "Rainbow Flower",
   "notes": "Pretty Cool, Right?",
-  "rank": {
-    "$numberDouble": "1.1606545862356872"
-  },
+  "rank": "1.1606545862356872",
   "private": false,
   "unlisted": false,
   "username": "lambmeow",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-a2scx6zv2rhhrm13n-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "225"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "225",
+  "likes": "1",
   "revisionId": "QzBTT5CNLp4JeN46z"
 }

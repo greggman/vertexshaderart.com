@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1471091972070"
-    }
+    "$date": "1471091972070"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1472183513487"
-    }
+    "$date": "1472183513487"
   },
   "origId": "rZcr6zk3jJKzwJ2mD",
   "name": "spacetunnel",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7360291131967216"
-  },
+  "rank": "1.7360291131967216",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-u5bonv21959qo7duf-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "293"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "293",
+  "likes": "1",
   "revisionId": "2PXMBpbejFR39rZWJ"
 }

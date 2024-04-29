@@ -3,9 +3,7 @@
   "owner": {
     "_id": "EThfdEP9YE7bkx9cd",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1671840880681"
-      }
+      "$date": "1671840880681"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jan-ale"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1671841309508"
-    }
+    "$date": "1671841309508"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1671841983058"
-    }
+    "$date": "1671841983058"
   },
   "origId": null,
   "name": "wibbly",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2572664757236174"
-  },
+  "rank": "1.2572664757236174",
   "private": false,
   "unlisted": true,
   "username": "jan-ale",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-y8qreiss8zgwlri48-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "KLwBZwxBTtEu6w6k5"
 }

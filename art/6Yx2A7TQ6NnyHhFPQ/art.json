@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1472837932975"
-    }
+    "$date": "1472837932975"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1474174645845"
-    }
+    "$date": "1474174645845"
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "bwow",
   "notes": "Trying an failing to replicate \n\n![this](https://67.media.tumblr.com/b0ab265af61e714f2120d701ee4096b2/tumblr_oco0nnxZg51r2geqjo1_500.gif)",
-  "rank": {
-    "$numberDouble": "10.991072057812215"
-  },
+  "rank": "10.991072057812215",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-lpsla0pcwtlv15g92-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1305"
-  },
-  "likes": {
-    "$numberInt": "10"
-  },
+  "views": "1305",
+  "likes": "10",
   "revisionId": "vWR26Fhpcy3b2KLme"
 }

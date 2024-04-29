@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551100772696"
-    }
+    "$date": "1551100772696"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551100772696"
-    }
+    "$date": "1551100772696"
   },
   "origId": "sFwDFQhDYuAh6a6r8",
   "name": "swooneer",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3105498671854108"
-  },
+  "rank": "1.3105498671854108",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-jj8ekqkw55jjvc36c-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "63"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "63",
+  "likes": "0",
   "revisionId": "fn8JYqaFHagB6yqcq"
 }

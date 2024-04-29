@@ -3,9 +3,7 @@
   "owner": {
     "_id": "r6XcKj2Zo8BjapJbF",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1590975314952"
-      }
+      "$date": "1590975314952"
     },
     "profile": {
       "first_name": "xi",
@@ -15,21 +13,15 @@
     "username": "xi"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590982768644"
-    }
+    "$date": "1590982768644"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590982768644"
-    }
+    "$date": "1590982768644"
   },
   "origId": "iiz8rMJTpnjWQ9igc",
   "name": "lesson04-sound",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.499692380034233"
-  },
+  "rank": "1.499692380034233",
   "private": false,
   "unlisted": true,
   "username": "xi",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-gmnh1tvh5iehhxren-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "RFBAYgF7do6dMk8jB"
 }

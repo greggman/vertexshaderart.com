@@ -3,9 +3,7 @@
   "owner": {
     "_id": "koEkdd6JkWyMHMivK",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505188172159"
-      }
+      "$date": "1505188172159"
     },
     "username": "jairhumberto",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1505188219156"
-    }
+    "$date": "1505188219156"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1505275554675"
-    }
+    "$date": "1505275554675"
   },
   "origId": null,
   "name": "My First Shader",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5280840192218987"
-  },
+  "rank": "1.5280840192218987",
   "private": false,
   "unlisted": true,
   "username": "jairhumberto",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ldew9z1wnihz70e8m-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "77"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "77",
+  "likes": "0",
   "revisionId": "4HqN3PLAgMXSZWXEh"
 }

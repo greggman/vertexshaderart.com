@@ -3,9 +3,7 @@
   "owner": {
     "_id": "PjeofrxxdagSm2pZE",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1486391451852"
-      }
+      "$date": "1486391451852"
     },
     "profile": {
       "name": "Johan Beronius",
@@ -14,21 +12,15 @@
     "username": "demoniak"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1486741257776"
-    }
+    "$date": "1486741257776"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1486746234648"
-    }
+    "$date": "1486746234648"
   },
   "origId": null,
   "name": "flowerworm",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.066196065766228"
-  },
+  "rank": "10.066196065766228",
   "private": false,
   "unlisted": false,
   "username": "demoniak",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ow4oujnbbj9fs8imk-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "623"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "623",
+  "likes": "2",
   "revisionId": "RRh7HQF4EhRiyxS5Y"
 }

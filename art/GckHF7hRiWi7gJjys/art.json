@@ -3,9 +3,7 @@
   "owner": {
     "_id": "we8EQkA9drPxGjXJe",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1634527131008"
-      }
+      "$date": "1634527131008"
     },
     "profile": {
       "first_name": "dumpster",
@@ -15,21 +13,15 @@
     "username": "dumpster"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1634527299153"
-    }
+    "$date": "1634527299153"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1634530853227"
-    }
+    "$date": "1634530853227"
   },
   "origId": null,
   "name": "tutorial - sound",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9109469107918593"
-  },
+  "rank": "1.9109469107918593",
   "private": false,
   "unlisted": true,
   "username": "dumpster",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-r4w389ju48loensrg-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "14"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "14",
+  "likes": "0",
   "revisionId": "N8wtkZG2g53owDzq2"
 }

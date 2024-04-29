@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1591810945454"
-    }
+    "$date": "1591810945454"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1591810945454"
-    }
+    "$date": "1591810945454"
   },
   "origId": "gX32iAvezAbinbMJz",
   "name": "c-pump By GMAN 4 Kmachine TESTED",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4931262690220568"
-  },
+  "rank": "1.4931262690220568",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-ty96knkj7ql6eacdy-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "65"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "65",
+  "likes": "0",
   "revisionId": "769WyPkJMrzpMgRCn"
 }

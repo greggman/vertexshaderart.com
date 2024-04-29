@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590748979541"
-    }
+    "$date": "1590748979541"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590748979541"
-    }
+    "$date": "1590748979541"
   },
   "origId": "ofYQfSm7FHtddg7on",
   "name": "Hello wobbly triangle",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0194824470479062"
-  },
+  "rank": "1.0194824470479062",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-xawtx1iyojqtfrxhk-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "72"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "72",
+  "likes": "0",
   "revisionId": "Ag4gZjwy3LSotDybt"
 }

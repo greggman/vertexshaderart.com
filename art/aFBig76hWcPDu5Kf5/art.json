@@ -3,9 +3,7 @@
   "owner": {
     "_id": "fAjz2DYFaqKPFtNjB",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1537183953122"
-      }
+      "$date": "1537183953122"
     },
     "username": "yonatan",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1537741567716"
-    }
+    "$date": "1537741567716"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1537741567716"
-    }
+    "$date": "1537741567716"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8080435270957458"
-  },
+  "rank": "1.8080435270957458",
   "private": false,
   "unlisted": true,
   "username": "yonatan",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-zchd1rzdfm8xv4221-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "QHSFT2sqmcJEgGWX9"
 }

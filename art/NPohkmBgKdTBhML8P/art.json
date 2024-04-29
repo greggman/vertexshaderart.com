@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1451762849535"
-    }
+    "$date": "1451762849535"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1451763123912"
-    }
+    "$date": "1451763123912"
   },
   "origId": null,
   "name": "uniformgrid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.792157381275368"
-  },
+  "rank": "10.792157381275368",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-r6t9cel985nash18l-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "173"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "173",
+  "likes": "2",
   "revisionId": "odbRYxSCssrwKiy96"
 }

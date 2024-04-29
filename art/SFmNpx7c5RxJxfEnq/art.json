@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1494422062801"
-    }
+    "$date": "1494422062801"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1494422062801"
-    }
+    "$date": "1494422062801"
   },
   "origId": null,
   "name": "lesson1",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8921793891715493"
-  },
+  "rank": "1.8921793891715493",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-83fz9c908h2t909tv-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "69"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "69",
+  "likes": "0",
   "revisionId": "TM5wDB92W2uAbcwDM"
 }

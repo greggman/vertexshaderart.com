@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,14 +12,10 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447519218787"
-    }
+    "$date": "1447519218787"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1447519218787"
-    }
+    "$date": "1447519218787"
   },
   "origId": null,
   "name": "stringart",
@@ -42,15 +36,9 @@
   },
   "screenshotURL": "data/images/images-3miwbc8y1trizj8o4-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "316"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "316",
+  "likes": "0",
   "revisionId": "Tnmo4Tz3dPRg26XJ9",
-  "rank": {
-    "$numberDouble": "1.5502119256995208"
-  },
+  "rank": "1.5502119256995208",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

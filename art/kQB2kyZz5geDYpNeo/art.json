@@ -3,9 +3,7 @@
   "owner": {
     "_id": "LCQpnTmbc4TFAS9gH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1702790772790"
-      }
+      "$date": "1702790772790"
     },
     "profile": {
       "first_name": "Tapos",
@@ -15,21 +13,15 @@
     "username": "tapos"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1703151823873"
-    }
+    "$date": "1703151823873"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1703151823873"
-    }
+    "$date": "1703151823873"
   },
   "origId": "8ZyPwCk5HdengqpJK",
   "name": "gridpnt",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.612321316524256"
-  },
+  "rank": "1.612321316524256",
   "private": false,
   "unlisted": false,
   "username": "tapos",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-ljyteb19bhwlfgock-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "42"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "42",
+  "likes": "1",
   "revisionId": "EMNd3AbtW6qmNRojk"
 }

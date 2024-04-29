@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590981799516"
-    }
+    "$date": "1590981799516"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590982037403"
-    }
+    "$date": "1590982037403"
   },
   "origId": "uSaQNx4ahiXtBAcB2",
   "name": "cryb 4 Kmachinewip",
   "notes": "WIP",
-  "rank": {
-    "$numberDouble": "1.0157155627838157"
-  },
+  "rank": "1.0157155627838157",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-qyxb7ch3s2yca52s9-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "206"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "206",
+  "likes": "0",
   "revisionId": "Z7NNqEu7uknS9BLzB"
 }

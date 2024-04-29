@@ -3,9 +3,7 @@
   "owner": {
     "_id": "nGxcqKNjk2qCgadmc",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684074736476"
-      }
+      "$date": "1684074736476"
     },
     "username": "joonho.hwang",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684750815626"
-    }
+    "$date": "1684750815626"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684750815626"
-    }
+    "$date": "1684750815626"
   },
   "origId": null,
   "name": "Audio Reactive Art - Tweak",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.164512762775197"
-  },
+  "rank": "1.164512762775197",
   "private": false,
   "unlisted": true,
   "username": "joonho.hwang",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ncbpbz5360e6i9r4j-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "9zt8RS4fsQrdBKR6z"
 }

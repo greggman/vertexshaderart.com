@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1693704796823"
-    }
+    "$date": "1693704796823"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1693704796823"
-    }
+    "$date": "1693704796823"
   },
   "origId": "KQLkpoBAPGrNrd3XK",
   "name": "cube",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6149056929476056"
-  },
+  "rank": "1.6149056929476056",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-3cpxxovn8lkbtvifn-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "34"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "34",
+  "likes": "0",
   "revisionId": "FWKwy6xMbvom9yQpr"
 }

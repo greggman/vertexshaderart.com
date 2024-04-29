@@ -3,9 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494865701670"
-      }
+      "$date": "1494865701670"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1497377448438"
-    }
+    "$date": "1497377448438"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1497377448438"
-    }
+    "$date": "1497377448438"
   },
   "origId": null,
   "name": "tutorial 4",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1808654260471951"
-  },
+  "rank": "1.1808654260471951",
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-q7md7mrgg5ouy81ri-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "698dNdeCPrentDxEr"
 }

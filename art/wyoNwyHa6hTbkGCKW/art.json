@@ -4,14 +4,10 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1447076150096"
-    }
+    "$date": "1447076150096"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1447076150096"
-    }
+    "$date": "1447076150096"
   },
   "origId": "MPxc2mXYAQd5F3JFC",
   "name": "point cloud vs spheres",
@@ -32,14 +28,8 @@
   },
   "screenshotURL": "data/images/images-wp7spqlf2jnoox7yz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "146"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "146",
+  "likes": "0",
   "revisionId": "8YLSZ2M6PosnEzp7H",
-  "rank": {
-    "$numberDouble": "1.9903975590966207"
-  }
+  "rank": "1.9903975590966207"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575718900497"
-      }
+      "$date": "1575718900497"
     },
     "username": "evan_chen",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1579398666268"
-    }
+    "$date": "1579398666268"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1579874952997"
-    }
+    "$date": "1579874952997"
   },
   "origId": "5NxpTo5tmZ5jQ3ZE5",
   "name": "影 流 の 花",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2120652882779803"
-  },
+  "rank": "1.2120652882779803",
   "private": false,
   "unlisted": true,
   "username": "evan_chen",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-7l9gc1si4ebpqd981-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "26"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "26",
+  "likes": "0",
   "revisionId": "eW8sDRvJfRBgpHn4k"
 }

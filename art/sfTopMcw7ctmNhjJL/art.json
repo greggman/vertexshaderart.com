@@ -3,9 +3,7 @@
   "owner": {
     "_id": "r5LZGMGGwYzncg5YC",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1625274707441"
-      }
+      "$date": "1625274707441"
     },
     "profile": {
       "name": "Ilya",
@@ -14,21 +12,15 @@
     "username": "ilyadorosh"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1625280390697"
-    }
+    "$date": "1625280390697"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1625280390697"
-    }
+    "$date": "1625280390697"
   },
   "origId": null,
   "name": "q",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0871947399760094"
-  },
+  "rank": "1.0871947399760094",
   "private": false,
   "unlisted": true,
   "username": "ilyadorosh",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-fmf4u4b08aqjtuiac-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "iaw54ciXCDHN5jvzM"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Bs4vwFBoeN6Lx3is5",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1528672219472"
-      }
+      "$date": "1528672219472"
     },
     "profile": {
       "name": "Justin Shrake",
@@ -15,21 +13,15 @@
     "username": "jshrake"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1636899862273"
-    }
+    "$date": "1636899862273"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1636907884304"
-    }
+    "$date": "1636907884304"
   },
   "origId": null,
   "name": "hexagon tile strings 3D",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.149794664864398"
-  },
+  "rank": "10.149794664864398",
   "private": false,
   "unlisted": false,
   "username": "jshrake",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-go2w1b1vibry40xk3-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1737"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "1737",
+  "likes": "7",
   "revisionId": "dgDTb6rAxCGyJrihz"
 }

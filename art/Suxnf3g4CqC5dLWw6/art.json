@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1497270876730"
-      }
+      "$date": "1497270876730"
     },
     "username": "zugzwang404",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1500332006983"
-    }
+    "$date": "1500332006983"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1500332006983"
-    }
+    "$date": "1500332006983"
   },
   "origId": "Acb8NGnF3tJvv77Ji",
   "name": "crystal dancer (mouse.xy)",
   "notes": "2017-07-13: replaced music",
-  "rank": {
-    "$numberDouble": "1.6483120719118582"
-  },
+  "rank": "1.6483120719118582",
   "private": false,
   "unlisted": true,
   "username": "zugzwang404",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-tu7fo1pv64i7hs4z2-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "75"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "75",
+  "likes": "0",
   "revisionId": "crHip4srAm86iGMPR"
 }

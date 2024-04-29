@@ -3,9 +3,7 @@
   "owner": {
     "_id": "dJQkkRdctf5KySGfX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1507259821848"
-      }
+      "$date": "1507259821848"
     },
     "username": "jimhanks",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1507259862757"
-    }
+    "$date": "1507259862757"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1507259862757"
-    }
+    "$date": "1507259862757"
   },
   "origId": "jqRhLrTMA3GFEk2m5",
   "name": "plasma waves",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.716374121002363"
-  },
+  "rank": "1.716374121002363",
   "private": false,
   "unlisted": true,
   "username": "jimhanks",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-52i6jl5th21rr1fb2-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "106"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "106",
+  "likes": "1",
   "revisionId": "SqLJYiwvSTz6a8Ado"
 }

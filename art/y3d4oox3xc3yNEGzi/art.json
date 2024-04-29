@@ -3,9 +3,7 @@
   "owner": {
     "_id": "8YazjgbR8FtHJgYgR",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1689266555980"
-      }
+      "$date": "1689266555980"
     },
     "username": "ersh",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1689309561272"
-    }
+    "$date": "1689309561272"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1689309561272"
-    }
+    "$date": "1689309561272"
   },
   "origId": "fvQbw8FtZzmvQG4Wz",
   "name": "Sound Texture",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3900085664123594"
-  },
+  "rank": "1.3900085664123594",
   "private": false,
   "unlisted": true,
   "username": "ersh",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-5g7zjf6aq3b15rmfz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "45J9sLSG6adyg7eW9"
 }

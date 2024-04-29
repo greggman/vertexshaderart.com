@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1618081980244"
-    }
+    "$date": "1618081980244"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1618081980244"
-    }
+    "$date": "1618081980244"
   },
   "origId": "eYuBQN69mTZCKaGdB",
   "name": "bobblet",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.678489360681821"
-  },
+  "rank": "1.678489360681821",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-lgjohokupvnv60ml4-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "119"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "119",
+  "likes": "1",
   "revisionId": "CPxcim9nGhe4HLCWG"
 }

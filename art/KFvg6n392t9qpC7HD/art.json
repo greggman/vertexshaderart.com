@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1612352541821"
-    }
+    "$date": "1612352541821"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1612352541821"
-    }
+    "$date": "1612352541821"
   },
   "origId": "sS597q4aY9wEpneFz",
   "name": "crazymusicbox",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1165602876844423"
-  },
+  "rank": "1.1165602876844423",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-pj8lji8n4d6b33xbo-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "85"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "85",
+  "likes": "0",
   "revisionId": "3AjfoFR5wufKoWqaP"
 }

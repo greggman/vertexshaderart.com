@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1541755746321"
-    }
+    "$date": "1541755746321"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1541755746321"
-    }
+    "$date": "1541755746321"
   },
   "origId": "R7yXZW3KoMpDcS5NW",
   "name": "intereING",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.15539656346872"
-  },
+  "rank": "1.15539656346872",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-v4p2fs6coo6a74xz5-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "252"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "252",
+  "likes": "0",
   "revisionId": "4QZAyaGkiFbJcjEBQ"
 }

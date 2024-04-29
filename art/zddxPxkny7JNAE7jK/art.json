@@ -3,9 +3,7 @@
   "owner": {
     "_id": "q4xaX8JuN9ATDe8tt",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1517619250907"
-      }
+      "$date": "1517619250907"
     },
     "profile": {
       "first_name": "Anuar",
@@ -15,21 +13,15 @@
     "username": "anuar"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1518223995387"
-    }
+    "$date": "1518223995387"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1518561454224"
-    }
+    "$date": "1518561454224"
   },
   "origId": null,
   "name": "sphere",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2344323207925212"
-  },
+  "rank": "1.2344323207925212",
   "private": false,
   "unlisted": true,
   "username": "anuar",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-m42fxiizo4pqj1hsu-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "xRXJJG2ttbiQSTr7a"
 }

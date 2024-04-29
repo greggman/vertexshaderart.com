@@ -3,9 +3,7 @@
   "owner": {
     "_id": "9mSJ94a3jLQYEtpma",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1574356902539"
-      }
+      "$date": "1574356902539"
     },
     "profile": {
       "first_name": "Nathan",
@@ -15,21 +13,15 @@
     "username": "nathan2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1574460098002"
-    }
+    "$date": "1574460098002"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1574460098002"
-    }
+    "$date": "1574460098002"
   },
   "origId": "DRYszuLsxNkzcz9SW",
   "name": "Tube of Dots 2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3014643833305106"
-  },
+  "rank": "1.3014643833305106",
   "private": false,
   "unlisted": true,
   "username": "nathan2",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-oh2dc37vgbwmyn45y-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "DeYH4pn4xZ26CELk7"
 }

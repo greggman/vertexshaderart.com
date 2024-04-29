@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1613486348951"
-    }
+    "$date": "1613486348951"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1613486348951"
-    }
+    "$date": "1613486348951"
   },
   "origId": "auetPcBpAZ2WyysTb",
   "name": "point cloud vs spheres rmx",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7804589735873777"
-  },
+  "rank": "1.7804589735873777",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-eyo5kcj1k5c27dhmv-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "128"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "128",
+  "likes": "0",
   "revisionId": "8BW3mQEeE5S9e9MWn"
 }

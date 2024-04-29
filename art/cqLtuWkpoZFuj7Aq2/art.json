@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1462070863695"
-    }
+    "$date": "1462070863695"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1462070863695"
-    }
+    "$date": "1462070863695"
   },
   "origId": "PmW7c9NeLghdwa8S4",
   "name": "murf",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5552794965765693"
-  },
+  "rank": "1.5552794965765693",
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-bld6ud541ckdye2h1-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "9H5Dbes84HDnhZNA7"
 }

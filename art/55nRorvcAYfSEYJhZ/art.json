@@ -3,9 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1667032560256"
-      }
+      "$date": "1667032560256"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1669282304482"
-    }
+    "$date": "1669282304482"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1669282304482"
-    }
+    "$date": "1669282304482"
   },
   "origId": null,
   "name": "magicsparkle",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4854487942306758"
-  },
+  "rank": "1.4854487942306758",
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ec19nxkvgvj12vj8n-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "48"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "48",
+  "likes": "0",
   "revisionId": "iNdTA43mPLSGkwmF9"
 }

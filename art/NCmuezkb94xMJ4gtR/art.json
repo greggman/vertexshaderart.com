@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1510069672714"
-    }
+    "$date": "1510069672714"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1510069672714"
-    }
+    "$date": "1510069672714"
   },
   "origId": "TKku4LqhCCgDpnKTd",
   "name": "Torus Bulb4xx",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.315213565021374"
-  },
+  "rank": "1.315213565021374",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-ozyd2jul0jmoq5wub-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "87"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "87",
+  "likes": "0",
   "revisionId": "ryxrfxgssoKav9twk"
 }

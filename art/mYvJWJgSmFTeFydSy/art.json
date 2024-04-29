@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1571806137529"
-    }
+    "$date": "1571806137529"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1571806137529"
-    }
+    "$date": "1571806137529"
   },
   "origId": "KmNbwStFkxfRGJ2Bs",
   "name": "K reptile void 2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.037856648165745"
-  },
+  "rank": "10.037856648165745",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-l9k0vprz1e8atordh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "406"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "406",
+  "likes": "2",
   "revisionId": "phEK3vAZLaKKrTjcS"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Fb4jaWH5nhdXuAG2E",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494693086089"
-      }
+      "$date": "1494693086089"
     },
     "profile": {
       "name": "",
@@ -15,21 +13,15 @@
     "username": "lambmeow"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496285135287"
-    }
+    "$date": "1496285135287"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496285135287"
-    }
+    "$date": "1496285135287"
   },
   "origId": "vyzW6DRZFHK4tEbft",
   "name": "life is ok now",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.208168442121623"
-  },
+  "rank": "1.208168442121623",
   "private": false,
   "unlisted": true,
   "username": "lambmeow",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-c1c6we7osvcd4tyzc-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "15"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "15",
+  "likes": "1",
   "revisionId": "h4nyiupqmoxYzCqqA"
 }

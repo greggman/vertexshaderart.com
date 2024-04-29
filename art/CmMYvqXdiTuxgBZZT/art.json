@@ -3,9 +3,7 @@
   "owner": {
     "_id": "cZNAKnfHAY6mZAn2h",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1598366337757"
-      }
+      "$date": "1598366337757"
     },
     "username": "morimea",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1650719831295"
-    }
+    "$date": "1650719831295"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1650721845053"
-    }
+    "$date": "1650721845053"
   },
   "origId": null,
   "name": "quad MVP",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7226556763721983"
-  },
+  "rank": "1.7226556763721983",
   "private": false,
   "unlisted": true,
   "username": "morimea",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-34od41qc7j45hkxo8-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "m9rTAG7qCL6DD9kH4"
 }

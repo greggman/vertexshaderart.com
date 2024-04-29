@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1538862773390"
-    }
+    "$date": "1538862773390"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1594507096480"
-    }
+    "$date": "1594507096480"
   },
   "origId": "YSrCe2ZHmwiB2d6Kz",
   "name": "mountains",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.794424159451506"
-  },
+  "rank": "1.794424159451506",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-9nv796me9ziong1hu-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "185"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "185",
+  "likes": "0",
   "revisionId": "YsXn5autsgGLgQfYd"
 }

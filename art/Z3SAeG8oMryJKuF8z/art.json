@@ -3,9 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494865701670"
-      }
+      "$date": "1494865701670"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1496679900142"
-    }
+    "$date": "1496679900142"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1496681389799"
-    }
+    "$date": "1496681389799"
   },
   "origId": "AC57qxXZiP5Xt3MPo",
   "name": "sound cute",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.425212744143571"
-  },
+  "rank": "1.425212744143571",
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-2jo9v28lwe6q7nxsk-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "yRJ36TvgfeDiECRw5"
 }

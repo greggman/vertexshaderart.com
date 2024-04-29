@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1565901678170"
-    }
+    "$date": "1565901678170"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1565901678170"
-    }
+    "$date": "1565901678170"
   },
   "origId": "A5Eknh4sb38Hw5pjv",
   "name": "notmizu",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9654017365701424"
-  },
+  "rank": "1.9654017365701424",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-4ki14b4tsiaqocbor-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "56"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "56",
+  "likes": "0",
   "revisionId": "ZmHYxmfPPzzhkXwMG"
 }

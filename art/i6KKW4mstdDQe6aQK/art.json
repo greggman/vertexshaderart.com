@@ -3,9 +3,7 @@
   "owner": {
     "_id": "rNn8aeTHLQXkcMmn8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503601"
-      }
+      "$date": "1684322503601"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jaeyeong-an"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684929333927"
-    }
+    "$date": "1684929333927"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684929333927"
-    }
+    "$date": "1684929333927"
   },
   "origId": null,
   "name": "Audio Reactive Art with rainbow color by Jaeyeong An",
   "notes": "Duplicate the shader and tweak it to make my own variation",
-  "rank": {
-    "$numberDouble": "1.171283335483596"
-  },
+  "rank": "1.171283335483596",
   "private": false,
   "unlisted": false,
   "username": "jaeyeong-an",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-y1h30l04ewwc6pb3m-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "61"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "61",
+  "likes": "0",
   "revisionId": "jdeWYkR96TqrKe4LB"
 }

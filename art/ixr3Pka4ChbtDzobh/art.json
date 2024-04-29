@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,14 +12,10 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1446571560918"
-    }
+    "$date": "1446571560918"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1446571560918"
-    }
+    "$date": "1446571560918"
   },
   "origId": "9wKMAeACxZ3WoJc2m",
   "name": "Spiral-Spring",
@@ -41,15 +35,9 @@
     "shader": "// \n//\n//  Move the mouse\n//\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float tm  = sin(time) * 20.;\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  float t = (vertexId*2.0+mod(vertexId,2.0))*0.01;\n  float phase = -tm+mod(vertexId,2.0);\n  float a = 0.5;\n  float b = 0.3063489;\n  float x = a * exp(b*t*0.2)*cos(t+phase)*0.015;\n  float y = a * exp(b*t*0.2)*sin(t+phase)*0.015;\n  vec4 m = texture2D(touch, vec2(0., vertexId * 0.00005));\n  vec2 xy = vec2(x, y);\n  gl_Position = vec4(xy * aspect + m.xy, 0, 1);\n\n  \n  float hue = (floor(vertexId * -.005) * 0.5 - time * 0.01);\n  float sat = 1.;\n  float val = 0.5+mod(vertexId,2.0)*0.5;\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\n}"
   },
   "screenshotURL": "data/images/images-ug7gazpjhxhs9mlj0-thumbnail.jpg",
-  "views": {
-    "$numberInt": "3892"
-  },
-  "likes": {
-    "$numberInt": "9"
-  },
+  "views": "3892",
+  "likes": "9",
   "revisionId": "ZGC5kne4sE9FzGeBB",
-  "rank": {
-    "$numberDouble": "10.172793316326825"
-  },
+  "rank": "10.172793316326825",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

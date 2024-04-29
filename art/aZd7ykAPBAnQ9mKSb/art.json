@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zfC9oYgfF4grneg5p",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684313887762"
-      }
+      "$date": "1684313887762"
     },
     "username": "duhochoi",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684416342951"
-    }
+    "$date": "1684416342951"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684416342951"
-    }
+    "$date": "1684416342951"
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8271945234013314"
-  },
+  "rank": "1.8271945234013314",
   "private": false,
   "unlisted": true,
   "username": "duhochoi",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-kpqjsvrj2ee62sqba-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "fsMnCJhANArsyk3ia"
 }

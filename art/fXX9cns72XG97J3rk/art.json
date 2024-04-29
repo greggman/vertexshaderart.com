@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MaXmXceoMdLX3NSGw",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1551479403174"
-      }
+      "$date": "1551479403174"
     },
     "profile": {
       "first_name": "Sergio Erick",
@@ -15,21 +13,15 @@
     "username": "sergioerick"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1551543812460"
-    }
+    "$date": "1551543812460"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1551543812460"
-    }
+    "$date": "1551543812460"
   },
   "origId": null,
   "name": "Circle_TriStrip",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8995561351631565"
-  },
+  "rank": "1.8995561351631565",
   "private": false,
   "unlisted": true,
   "username": "sergioerick",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-a9ulk6ew7ah541dl2-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "4"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "4",
+  "likes": "0",
   "revisionId": "Eitcbjk6ewNEjpy9g"
 }

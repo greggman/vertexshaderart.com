@@ -3,9 +3,7 @@
   "owner": {
     "_id": "wS35KaxKMDZx6vwgA",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1589150576916"
-      }
+      "$date": "1589150576916"
     },
     "profile": {
       "first_name": "Mohammad",
@@ -15,21 +13,15 @@
     "username": "mohammad"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1589156850715"
-    }
+    "$date": "1589156850715"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1589157582623"
-    }
+    "$date": "1589157582623"
   },
   "origId": null,
   "name": "spirals",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0221149335383721"
-  },
+  "rank": "1.0221149335383721",
   "private": false,
   "unlisted": true,
   "username": "mohammad",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-dd1zkwbqiikmlvari-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "35"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "35",
+  "likes": "0",
   "revisionId": "KNGXDXnev8ys6j266"
 }

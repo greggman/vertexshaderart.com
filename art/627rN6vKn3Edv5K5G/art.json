@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DMjrQbvFJZiBrahNH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684316626390"
-      }
+      "$date": "1684316626390"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jeminshin2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684932026511"
-    }
+    "$date": "1684932026511"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684932026511"
-    }
+    "$date": "1684932026511"
   },
   "origId": null,
   "name": "Audio Reactive Art_jemin.shin",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5809725984317486"
-  },
+  "rank": "1.5809725984317486",
   "private": false,
   "unlisted": true,
   "username": "jeminshin2",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-ev8y7305t1miq9dw6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "6iafJunfyjAgNE2Ev"
 }

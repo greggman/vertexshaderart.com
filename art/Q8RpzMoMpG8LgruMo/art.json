@@ -3,9 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1507987372682"
-      }
+      "$date": "1507987372682"
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -14,21 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1508864603275"
-    }
+    "$date": "1508864603275"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1508864603275"
-    }
+    "$date": "1508864603275"
   },
   "origId": "r7tpZqAYFwZsQarPw",
   "name": "Mesh Reprojection",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2789013805450755"
-  },
+  "rank": "1.2789013805450755",
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-zhy93hztoppc95eki-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "f6W4FvkRNfYqGJm6f"
 }

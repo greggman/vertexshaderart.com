@@ -3,9 +3,7 @@
   "owner": {
     "_id": "rNn8aeTHLQXkcMmn8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322503601"
-      }
+      "$date": "1684322503601"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jaeyeong-an"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685544315675"
-    }
+    "$date": "1685544315675"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685544315675"
-    }
+    "$date": "1685544315675"
   },
   "origId": null,
   "name": "Circles from Triangles by Jaeyeong An",
   "notes": "From vertexshaderart's Lessons follow along with Lesson 05 - Circles from Triangles",
-  "rank": {
-    "$numberDouble": "1.2865917644455818"
-  },
+  "rank": "1.2865917644455818",
   "private": false,
   "unlisted": true,
   "username": "jaeyeong-an",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-q0xivl5lns9s3ft4j-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "zfJDGYeGdqnx2D7j7"
 }

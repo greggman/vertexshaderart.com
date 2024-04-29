@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1526811219995"
-    }
+    "$date": "1526811219995"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1526811219995"
-    }
+    "$date": "1526811219995"
   },
   "origId": "CvsqyaFZq3hPtywor",
   "name": "neurovelho2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8524742421823635"
-  },
+  "rank": "1.8524742421823635",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-616lpwq3cb8wr71zk-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "72"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "72",
+  "likes": "0",
   "revisionId": "dh89dP8jSJ6c2uqJW"
 }

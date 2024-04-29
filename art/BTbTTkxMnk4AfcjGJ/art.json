@@ -3,9 +3,7 @@
   "owner": {
     "_id": "JkHPzJxpfnvDEnJHf",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684306385138"
-      }
+      "$date": "1684306385138"
     },
     "username": "geumbi.yeo",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684385537800"
-    }
+    "$date": "1684385537800"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684391312976"
-    }
+    "$date": "1684391312976"
   },
   "origId": null,
   "name": "Motion - Geumbi Yeo",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5547827937794731"
-  },
+  "rank": "1.5547827937794731",
   "private": false,
   "unlisted": true,
   "username": "geumbi.yeo",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-axufmrhgzptx3fjz8-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "rD56bKCgwSihXE52M"
 }

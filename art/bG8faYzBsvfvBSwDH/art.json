@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,9 +12,7 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1446348066727"
-    }
+    "$date": "1446348066727"
   },
   "origId": "HSGSvjGwQyB6cFQMP",
   "name": "voices",
@@ -35,23 +31,15 @@
     "shader": "#define NUM_SEGMENTS 64.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.)\n#define PI 3.14159\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nfloat rand(vec2 co){\n    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\n}\n\nvec2 mouthLine(float vertexId) {\n  vertexId = mod(vertexId, NUM_SEGMENTS);\n  float rt  = floor(vertexId / (NUM_SEGMENTS * .5));\n  float bot = mod(floor(vertexId / (NUM_SEGMENTS * .25)), 2.);\n  float u   = mod(vertexId, NUM_SEGMENTS * .25) / (NUM_SEGMENTS * .25);\n  bot = mix(bot, 1. - bot, rt);\n  // 0, 1, 2, 3\n  //            3, 2, 1, 0, 0, -1, -2, -3, \n  // -3, -2, -1, 0\n  float uh  = mix(mix(u, 1. - u, bot), mix(-u, -1. + u,1. - bot), rt);\n  float v   = mix(sin((0.2 + abs(uh) * 0.7) * PI) - 0.3, sin((0.4 + abs(uh) * 0.6) * PI), bot);\n  return vec2(uh, mix(v, -v, bot));\n}\n\nvec2 mouth(float vertexId) {\n  float inOut = mod(floor(vertexId / NUM_POINTS), 2.);\n  // produces 0,1, 1,2, 2,3, ...\n  float point = floor(mod(vertexId, NUM_POINTS) / 2.0) + mod(vertexId, 2.0);\n  return mouthLine(point) * mix(vec2(1., 1.), vec2(1., .5), inOut);\n}\n\nvoid main() {\n  float inOut = mod(floor(vertexId / NUM_POINTS), 2.);\n  // produces 0,1, 1,2, 2,3, ...\n  float point = floor(mod(vertexId, NUM_POINTS) / 2.0) + mod(vertexId, 2.0);\n  // line count\n  float count = mod(floor(vertexId / (NUM_POINTS * 2.)), 10.);\n  float mEcho = floor(vertexId / (NUM_POINTS * 2. * 10.));\n  float snd = texture2D(sound, vec2(count / 10. * 0.1, 0.)).a;\n  \n  //vec2 rp = vec2(count / 10.0, 0.5);\n  float posId = count + floor(time * 0.1 + count * 0.1) * 10.;\n  float scale = rand(vec2(posId * .3, posId * 1.3));\n  vec2 rp = vec2(rand(vec2(posId, posId)), rand(vec2(posId*7.,posId*9.)));\n  float mLerp = mEcho / 10.;\n  float sndScale = mix(0.7, 2.3, pow(snd + 0.3, 5.0));\n  vec2 xy = mouth(vertexId) * vec2(1. + sndScale * 0.05, sndScale) * mix(0.3, 1.2, scale) * mix(1., .6, mLerp) + (rp * 2. - 1.) * 4.;\n\n  gl_Position = vec4(xy * 0.20, 0, 1);\n  gl_PointSize = 4.;\n\n  float hue = -0.08 + count * 0.01;\n  float sat = 1.0;\n  float val = pow(1. - mLerp, 3.) * mix(0.3, 1.0, snd);\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\n}"
   },
   "screenshotURL": "data/images/images-p3nkljbixrhwxoe0l-thumbnail.jpg",
-  "views": {
-    "$numberInt": "144"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "144",
+  "likes": "0",
   "revisionId": "AgsGG4LqooK6J472H",
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1458895032122"
-    }
+    "$date": "1458895032122"
   },
   "private": false,
   "hasSound": true,
-  "rank": {
-    "$numberDouble": "1.545872722661313"
-  },
+  "rank": "1.545872722661313",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
   "notes": "soundcloud link updated",
   "unlisted": false

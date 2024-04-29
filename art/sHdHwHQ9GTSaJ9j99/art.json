@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,20 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1448390211490"
-    }
+    "$date": "1448390211490"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1448390211490"
-    }
+    "$date": "1448390211490"
   },
   "origId": "rZcr6zk3jJKzwJ2mD",
   "name": "headrush",
-  "rank": {
-    "$numberDouble": "10.618486864840232"
-  },
+  "rank": "10.618486864840232",
   "private": false,
   "username": "gman",
   "settings": {
@@ -45,12 +37,8 @@
   },
   "screenshotURL": "data/images/images-4xkxk1n631eieg75l-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "412"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "412",
+  "likes": "7",
   "revisionId": "uj9mMghZdgmQfoyAW",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

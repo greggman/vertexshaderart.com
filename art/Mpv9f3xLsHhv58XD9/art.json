@@ -3,9 +3,7 @@
   "owner": {
     "_id": "o2Ka63JHECAohKSbP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1567098733648"
-      }
+      "$date": "1567098733648"
     },
     "username": "jamination",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1567099453054"
-    }
+    "$date": "1567099453054"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1567099943069"
-    }
+    "$date": "1567099943069"
   },
   "origId": null,
   "name": "Test",
   "notes": "Just a test.",
-  "rank": {
-    "$numberDouble": "1.3707267289173006"
-  },
+  "rank": "1.3707267289173006",
   "private": false,
   "unlisted": true,
   "username": "jamination",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ib0xy16o7p5iqobnj-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "5"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "5",
+  "likes": "0",
   "revisionId": "CWQojpaCWGgj8wgac"
 }

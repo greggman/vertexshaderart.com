@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1508995464424"
-    }
+    "$date": "1508995464424"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1508995464424"
-    }
+    "$date": "1508995464424"
   },
   "origId": "zr3rcCnA3sx954XPa",
   "name": "666wired x3",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0910613180760858"
-  },
+  "rank": "1.0910613180760858",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-kcmus3r0ksuyyt1qy-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "46"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "46",
+  "likes": "0",
   "revisionId": "MbYko7WLBXiX3cMFj"
 }

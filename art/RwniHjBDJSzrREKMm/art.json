@@ -3,9 +3,7 @@
   "owner": {
     "_id": "D9c43gfZ2NcdAj8DJ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1590579087275"
-      }
+      "$date": "1590579087275"
     },
     "username": "jluethi",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590591287919"
-    }
+    "$date": "1590591287919"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590594176648"
-    }
+    "$date": "1590594176648"
   },
   "origId": null,
   "name": "2",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.299622202330145"
-  },
+  "rank": "1.299622202330145",
   "private": false,
   "unlisted": true,
   "username": "jluethi",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-0rfq5y91xobex4cij-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "191"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "191",
+  "likes": "0",
   "revisionId": "SbdZhAgqD9KZS3LZL"
 }

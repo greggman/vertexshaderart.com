@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684322328046"
-      }
+      "$date": "1684322328046"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684324612144"
-    }
+    "$date": "1684324612144"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684324612144"
-    }
+    "$date": "1684324612144"
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1545329077073123"
-  },
+  "rank": "1.1545329077073123",
   "private": false,
   "unlisted": false,
   "username": "chaerinpark",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-4fyf6w4vo3vkw062y-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "30"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "30",
+  "likes": "0",
   "revisionId": "f7hTgGR52RctutdB4"
 }

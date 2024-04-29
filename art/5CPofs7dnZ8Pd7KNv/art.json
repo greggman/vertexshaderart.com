@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575718900497"
-      }
+      "$date": "1575718900497"
     },
     "username": "evan_chen",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1577521407073"
-    }
+    "$date": "1577521407073"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1577717963492"
-    }
+    "$date": "1577717963492"
   },
   "origId": null,
   "name": "Happy_Christmas",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5311846404128706"
-  },
+  "rank": "1.5311846404128706",
   "private": false,
   "unlisted": false,
   "username": "evan_chen",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-5zjel6l9gayn2r62e-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "179"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "179",
+  "likes": "0",
   "revisionId": "2KhMW7JQ5uX3bGuum"
 }

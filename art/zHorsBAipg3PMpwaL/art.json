@@ -3,9 +3,7 @@
   "owner": {
     "_id": "NHZzD8e27B7poHpfx",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445941822749"
-      }
+      "$date": "1445941822749"
     },
     "profile": {
       "name": "Paul Malin",
@@ -14,14 +12,10 @@
     "username": "P_Malin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1446554481737"
-    }
+    "$date": "1446554481737"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1446632014517"
-    }
+    "$date": "1446632014517"
   },
   "origId": null,
   "name": "Barnsley Fern",
@@ -41,15 +35,9 @@
     "shader": "// Barnsley Fern - @P_Malin\n// https://en.wikipedia.org/wiki/Barnsley_fern\n\n// hash function from https://www.shadertoy.com/view/4djSRW\nfloat hash(float p)\n{\n\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\n\treturn fract(p2.x * p2.y * 95.4337);\n}\n\nvoid main() \n{   \n  \tvec3 p = vec3( 0.01, 0.86, 0.93 ); // p = probability thresholds. Individual probabilities for each transform = 0.01, 0.85, 0.07, 0.07\n  \n  \tvec3 vColor = vec3( 0.0 );\n  \tvec2 vPos = vec2( 0.0 );\n  \tfloat fRandomSeed = vertexId + time;\n  \tfor ( int i=0; i<32; i++ )\n    {            \n\t\tfloat fSelection = hash( fRandomSeed );\n      \tfRandomSeed += 12.3456;\n           \n      \tif ( fSelection < p.x )\n        {\n          \tvPos = vPos * mat2( 0.0, 0.0, 0.0, 0.16 ) + vec2( 0.0, 0.0 );\n          \tvColor.r += 0.3;\n        }\n      \telse if ( fSelection < p.y )\n        {\n          \tfloat fRot = sin(time) * 0.01;\n          \tvPos = vPos * mat2( 0.85, 0.04, -0.04, 0.85 ) * mat2( cos(fRot), sin(fRot), -sin(fRot), cos(fRot) ) + vec2( 0.0, 1.6 );\n          \tvColor -= 0.005;\n        }\n      \telse if ( fSelection < p.z )\n        {\n          \tvPos = vPos * mat2( 0.20, -0.26, 0.23, 0.22 ) + vec2( 0.0, 1.6 );\n          \tvColor.g += 0.05;\n        }\n      \telse\n        {\n          \tvPos = vPos * mat2( -0.15, 0.28, 0.26, 0.24 ) + vec2( 0.0, 0.44 );\n          \tvColor.g += 0.1;\n        }\n    }\n  \n  \tvPos = vPos * 0.1 + vec2(0.0, -0.5);\n\n  \tgl_PointSize = max( 1.0, resolution.x / 600.0 );\n  \tgl_Position = vec4( vPos * vec2(1.0, resolution.x / resolution.y) , 0, 1 );\n\n  \tv_color = vec4( vColor, 1.0 );\n}"
   },
   "screenshotURL": "data/images/images-x3v98ibaibctnbdoe-thumbnail.jpg",
-  "views": {
-    "$numberInt": "1124"
-  },
-  "likes": {
-    "$numberInt": "5"
-  },
+  "views": "1124",
+  "likes": "5",
   "revisionId": "jK6JdgLRDJjNfGuNF",
-  "rank": {
-    "$numberDouble": "10.720158795526554"
-  },
+  "rank": "10.720158795526554",
   "avatarUrl": "https://pbs.twimg.com/profile_images/2157402471/Profile_200x200.png"
 }

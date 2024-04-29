@@ -3,9 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1450381162182"
-      }
+      "$date": "1450381162182"
     },
     "username": "aiekick",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1509304305330"
-    }
+    "$date": "1509304305330"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1509304305330"
-    }
+    "$date": "1509304305330"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.417330662835308"
-  },
+  "rank": "1.417330662835308",
   "private": false,
   "unlisted": true,
   "username": "aiekick",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-9t2fgw466xge97qlp-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "ijT56MjQQYRavCsiY"
 }

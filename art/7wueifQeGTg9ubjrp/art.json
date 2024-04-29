@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1686215590270"
-    }
+    "$date": "1686215590270"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1686215590270"
-    }
+    "$date": "1686215590270"
   },
   "origId": "NhWzyi4RTkjqEik5t",
   "name": "technokokoro",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0796113353818293"
-  },
+  "rank": "1.0796113353818293",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-fvhma6k85fm0y3xqy-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "36"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "36",
+  "likes": "0",
   "revisionId": "6n39Edjk7sDWW9bME"
 }

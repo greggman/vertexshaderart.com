@@ -4,20 +4,14 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1449362324296"
-    }
+    "$date": "1449362324296"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1449362324296"
-    }
+    "$date": "1449362324296"
   },
   "origId": null,
   "name": "Look At U",
-  "rank": {
-    "$numberDouble": "1.1542802753038635"
-  },
+  "rank": "1.1542802753038635",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -36,11 +30,7 @@
   },
   "screenshotURL": "data/images/images-83y58pv62sbtu4kz6-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "274"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "274",
+  "likes": "0",
   "revisionId": "MaT97i36e74gMAxLa"
 }

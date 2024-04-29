@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zhcyc448mbXBSX3RY",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652867755974"
-      }
+      "$date": "1652867755974"
     },
     "username": "donga.choi",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652973874749"
-    }
+    "$date": "1652973874749"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652973874749"
-    }
+    "$date": "1652973874749"
   },
   "origId": null,
   "name": "Colors donga.choi",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8506177004757305"
-  },
+  "rank": "1.8506177004757305",
   "private": false,
   "unlisted": true,
   "username": "donga.choi",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-az15a58bufjv3iz47-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "5juT2Q6tpCaBx2Xdy"
 }

@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1569777780228"
-    }
+    "$date": "1569777780228"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1569777780228"
-    }
+    "$date": "1569777780228"
   },
   "origId": "P5PC55YtuMYdAYrM8",
   "name": "준석",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7984793652377873"
-  },
+  "rank": "1.7984793652377873",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-uvh7hp90hl3xiqtd4-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "66"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "66",
+  "likes": "0",
   "revisionId": "cLPH5xmtRQTsLZpZB"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "XZ9fGNm72T7MyEqAy",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1612890971955"
-      }
+      "$date": "1612890971955"
     },
     "username": "oneshade",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1618968064322"
-    }
+    "$date": "1618968064322"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1618968372396"
-    }
+    "$date": "1618968372396"
   },
   "origId": null,
   "name": "Bezier Patch",
   "notes": "Quadratic bezier.",
-  "rank": {
-    "$numberDouble": "1.2717562246141902"
-  },
+  "rank": "1.2717562246141902",
   "private": false,
   "unlisted": false,
   "username": "oneshade",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-fz6drbm3nq64ozhc4-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "207"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "207",
+  "likes": "1",
   "revisionId": "MB2mQB7cro2a3G4Xi"
 }

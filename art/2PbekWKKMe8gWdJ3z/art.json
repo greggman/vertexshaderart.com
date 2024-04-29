@@ -3,9 +3,7 @@
   "owner": {
     "_id": "cFdz2pdS8XZgihEn2",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652806562125"
-      }
+      "$date": "1652806562125"
     },
     "username": "sangbeom.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1653405024776"
-    }
+    "$date": "1653405024776"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1653420427570"
-    }
+    "$date": "1653420427570"
   },
   "origId": null,
   "name": "Audio Reactive",
   "notes": "Audio Reactive",
-  "rank": {
-    "$numberDouble": "1.241843121562859"
-  },
+  "rank": "1.241843121562859",
   "private": false,
   "unlisted": true,
   "username": "sangbeom.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-dmsaddapo6glocsho-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "9"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "9",
+  "likes": "0",
   "revisionId": "dKbFuZ9ftq6Lemtzs"
 }

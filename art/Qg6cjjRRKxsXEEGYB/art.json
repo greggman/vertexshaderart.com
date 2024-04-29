@@ -3,9 +3,7 @@
   "owner": {
     "_id": "gY6LJNWPnc5msFSRP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652632078852"
-      }
+      "$date": "1652632078852"
     },
     "username": "sunwoo.lee",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652894323783"
-    }
+    "$date": "1652894323783"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652931913422"
-    }
+    "$date": "1652931913422"
   },
   "origId": "q5ixDP7gFemPmYGSG",
   "name": "Motion_sunwoo.lee",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5899093993952895"
-  },
+  "rank": "1.5899093993952895",
   "private": false,
   "unlisted": true,
   "username": "sunwoo.lee",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-nbtnh2r36pizeae24-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "TRoss5PXGGcoPpa5f"
 }

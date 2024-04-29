@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1452968202477"
-    }
+    "$date": "1452968202477"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1454770855573"
-    }
+    "$date": "1454770855573"
   },
   "origId": "fmmQsNyrdyjA3226x",
   "name": "ringu",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.249054817368298"
-  },
+  "rank": "10.249054817368298",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-r3g12185ws8jjt293-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "697"
-  },
-  "likes": {
-    "$numberInt": "11"
-  },
+  "views": "697",
+  "likes": "11",
   "revisionId": "SSsAMqJKx5a48Hje9"
 }

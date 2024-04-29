@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1575718900497"
-      }
+      "$date": "1575718900497"
     },
     "username": "evan_chen",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1578289089715"
-    }
+    "$date": "1578289089715"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1578290189481"
-    }
+    "$date": "1578290189481"
   },
   "origId": "7WmeTJSdWymq8FHDN",
   "name": "adv_triangle",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0327823845549833"
-  },
+  "rank": "1.0327823845549833",
   "private": false,
   "unlisted": false,
   "username": "evan_chen",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-8b60h38trqrdr3ixs-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "241"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "241",
+  "likes": "0",
   "revisionId": "9kf9LzP7ZEodLJcZD"
 }

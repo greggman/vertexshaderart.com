@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1498138091988"
-    }
+    "$date": "1498138091988"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1498138091988"
-    }
+    "$date": "1498138091988"
   },
   "origId": "ut2hNmEtGzvzi7Rwj",
   "name": "Learn Vertex Shaders",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.980582520699336"
-  },
+  "rank": "1.980582520699336",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-zodq1oypukyv9x70e-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "69"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "69",
+  "likes": "0",
   "revisionId": "Azg8wHNNSvT7eY7mt"
 }

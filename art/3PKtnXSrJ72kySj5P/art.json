@@ -3,9 +3,7 @@
   "owner": {
     "_id": "jFsYmxkBNAJNvJFDm",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684263955851"
-      }
+      "$date": "1684263955851"
     },
     "username": "hyojoonkim0020",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684265300850"
-    }
+    "$date": "1684265300850"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684265300850"
-    }
+    "$date": "1684265300850"
   },
   "origId": "SenDt74iq42gPkfJk",
   "name": "Making A Grid_hyojoonkim",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9854766531078196"
-  },
+  "rank": "1.9854766531078196",
   "private": false,
   "unlisted": false,
   "username": "hyojoonkim0020",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-2gcweptjbxoehd9et-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "46"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "46",
+  "likes": "0",
   "revisionId": "ye84Tob7qrnxhbba8"
 }

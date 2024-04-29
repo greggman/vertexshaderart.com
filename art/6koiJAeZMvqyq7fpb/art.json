@@ -3,9 +3,7 @@
   "owner": {
     "_id": "8YazjgbR8FtHJgYgR",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1689266555980"
-      }
+      "$date": "1689266555980"
     },
     "username": "ersh",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1689315025688"
-    }
+    "$date": "1689315025688"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1689315025688"
-    }
+    "$date": "1689315025688"
   },
   "origId": "dMsa7ScyoyExY3Cxk",
   "name": "reakt",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5532026507393375"
-  },
+  "rank": "1.5532026507393375",
   "private": false,
   "unlisted": true,
   "username": "ersh",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-cktdl62s7v2cwradt-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "WTGLTLNHKQHoL4PdX"
 }

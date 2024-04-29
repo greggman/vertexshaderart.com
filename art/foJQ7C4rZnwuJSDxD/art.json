@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590252444810"
-    }
+    "$date": "1590252444810"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590252444810"
-    }
+    "$date": "1590252444810"
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2839028983977723"
-  },
+  "rank": "1.2839028983977723",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-tb96zlmyq4dpn6m9e-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "37"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "37",
+  "likes": "0",
   "revisionId": "c5aNa83nWTH7WCNo7"
 }

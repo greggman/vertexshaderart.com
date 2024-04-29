@@ -3,9 +3,7 @@
   "owner": {
     "_id": "7tGsGbgR4yNsbMbGa",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1619118831439"
-      }
+      "$date": "1619118831439"
     },
     "username": "hzktqr",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1619119006362"
-    }
+    "$date": "1619119006362"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1619119544070"
-    }
+    "$date": "1619119544070"
   },
   "origId": null,
   "name": "efitgBPvLvfEFCPvW",
   "notes": "default https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
-  "rank": {
-    "$numberDouble": "1.9004944965892472"
-  },
+  "rank": "1.9004944965892472",
   "private": false,
   "unlisted": true,
   "username": "hzktqr",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-y9ggr0o4c6irztil9-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "Bna9MRc25aF945QMx"
 }

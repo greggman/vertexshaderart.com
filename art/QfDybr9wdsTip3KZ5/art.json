@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1487642745739"
-    }
+    "$date": "1487642745739"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1487642745739"
-    }
+    "$date": "1487642745739"
   },
   "origId": null,
   "name": "vertex+time based highlight",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.3518016251686522"
-  },
+  "rank": "1.3518016251686522",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-grefl15glfvp2hiux-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "103"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "103",
+  "likes": "0",
   "revisionId": "dyx6wzSyJLqe7iqhG"
 }

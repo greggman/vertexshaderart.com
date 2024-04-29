@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1622145898916"
-    }
+    "$date": "1622145898916"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1622145898916"
-    }
+    "$date": "1622145898916"
   },
   "origId": "Q3ckKgYEBkj3MgeLP",
   "name": "bhatsux",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.079680933622884"
-  },
+  "rank": "10.079680933622884",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-21qkfqta2myaxjy4q-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "273"
-  },
-  "likes": {
-    "$numberInt": "3"
-  },
+  "views": "273",
+  "likes": "3",
   "revisionId": "AzGRKH2dd5B9wjJAR"
 }

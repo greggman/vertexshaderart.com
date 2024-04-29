@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1687283122795"
-    }
+    "$date": "1687283122795"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1687283122795"
-    }
+    "$date": "1687283122795"
   },
   "origId": null,
   "name": "Cool Attractors",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.2610178355841801"
-  },
+  "rank": "1.2610178355841801",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-dlr1602tjq4skbp8k-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "105"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "105",
+  "likes": "1",
   "revisionId": "ZAB9pkYPmYTtA34Ev"
 }

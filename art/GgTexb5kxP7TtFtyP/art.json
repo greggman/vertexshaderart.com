@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ZBHrEZGrgA6JBJGt7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1463104654911"
-      }
+      "$date": "1463104654911"
     },
     "username": "mipmap",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1570139174058"
-    }
+    "$date": "1570139174058"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1570139174058"
-    }
+    "$date": "1570139174058"
   },
   "origId": "BxMWaxP7Sqiz38FgK",
   "name": "newave",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6221406231835884"
-  },
+  "rank": "1.6221406231835884",
   "private": false,
   "unlisted": false,
   "username": "mipmap",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-sntqok46ffl0o9np7-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "186"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "186",
+  "likes": "0",
   "revisionId": "ps34MiD7Fj7hqcQFA"
 }

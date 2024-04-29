@@ -3,9 +3,7 @@
   "owner": {
     "_id": "mZ9LpdRJZpAj6KYaZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1543915151302"
-      }
+      "$date": "1543915151302"
     },
     "username": "mol",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1543919593490"
-    }
+    "$date": "1543919593490"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1543919604518"
-    }
+    "$date": "1543919604518"
   },
   "origId": "34z5eo3NAr7q87bLk",
   "name": "color whip",
   "notes": ": ^)",
-  "rank": {
-    "$numberDouble": "1.6805468639760832"
-  },
+  "rank": "1.6805468639760832",
   "private": false,
   "unlisted": false,
   "username": "mol",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-oq0jlttn48s8u0bkz-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "209"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "209",
+  "likes": "0",
   "revisionId": "2qGaQxt84YYH3J8Nn"
 }

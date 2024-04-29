@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zhcyc448mbXBSX3RY",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652867755974"
-      }
+      "$date": "1652867755974"
     },
     "username": "donga.choi",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1653482828591"
-    }
+    "$date": "1653482828591"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1653482828591"
-    }
+    "$date": "1653482828591"
   },
   "origId": null,
   "name": "Audio Reactive Art donga.choi",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.411231479185026"
-  },
+  "rank": "1.411231479185026",
   "private": false,
   "unlisted": true,
   "username": "donga.choi",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-6xrb56s4gj9dyuvuk-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "6"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "6",
+  "likes": "0",
   "revisionId": "T5qZ8JyKTh3fuSa4P"
 }

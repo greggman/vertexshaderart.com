@@ -3,9 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684058245272"
-      }
+      "$date": "1684058245272"
     },
     "username": "byungchan.park",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684826600601"
-    }
+    "$date": "1684826600601"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684827054549"
-    }
+    "$date": "1684827054549"
   },
   "origId": null,
   "name": "Exercise - Vertexshaderart : Audio Reactive Art Own Variation",
   "notes": "Exercise - Vertexshaderart : Audio Reactive Art Own Variation",
-  "rank": {
-    "$numberDouble": "1.4150573719055444"
-  },
+  "rank": "1.4150573719055444",
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-oe1l6urzyusrb8jzk-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "8"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "8",
+  "likes": "0",
   "revisionId": "jSxuErCkgNbRQWKRS"
 }

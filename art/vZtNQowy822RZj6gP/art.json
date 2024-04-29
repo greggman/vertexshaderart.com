@@ -3,9 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1507987372682"
-      }
+      "$date": "1507987372682"
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -14,21 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1508054535663"
-    }
+    "$date": "1508054535663"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1508054535663"
-    }
+    "$date": "1508054535663"
   },
   "origId": "FDoMDz4QxPmpEY7FJ",
   "name": "It's So In Vogue To Be Dead",
   "notes": "Bust a move. With Points",
-  "rank": {
-    "$numberDouble": "1.1167243382120051"
-  },
+  "rank": "1.1167243382120051",
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-alpgrc6ll3b4pms99-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "AMTHX9k468c7sTTT6"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "cFdz2pdS8XZgihEn2",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1652806562125"
-      }
+      "$date": "1652806562125"
     },
     "username": "sangbeom.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1652806867488"
-    }
+    "$date": "1652806867488"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1652946030593"
-    }
+    "$date": "1652946030593"
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "Making A Grid",
-  "rank": {
-    "$numberDouble": "1.0406045433669306"
-  },
+  "rank": "1.0406045433669306",
   "private": false,
   "unlisted": true,
   "username": "sangbeom.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-medcu0fyov4d63apv-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "10"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "10",
+  "likes": "1",
   "revisionId": "izNieqeAJ5Lozu3BJ"
 }

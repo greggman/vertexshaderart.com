@@ -3,9 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501018355084"
-      }
+      "$date": "1501018355084"
     },
     "username": "sylistine",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1501294812465"
-    }
+    "$date": "1501294812465"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1501294812465"
-    }
+    "$date": "1501294812465"
   },
   "origId": null,
   "name": "camera transform vs vertex position logic exercise",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5839672906807365"
-  },
+  "rank": "1.5839672906807365",
   "private": false,
   "unlisted": true,
   "username": "sylistine",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-p72wbrg8qs8znhvzt-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "cFgeuos8pRRchyc4M"
 }

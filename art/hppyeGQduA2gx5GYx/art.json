@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QDz3Y5ub4T9bwkhXT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1590717528473"
-      }
+      "$date": "1590717528473"
     },
     "username": "cjensen93",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1590722178498"
-    }
+    "$date": "1590722178498"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1590722178498"
-    }
+    "$date": "1590722178498"
   },
   "origId": "viP5QEyt8HBLNEEbD",
   "name": "Sound Reactive Basic",
   "notes": "Sound Reactive Advanced",
-  "rank": {
-    "$numberDouble": "1.6980814106542756"
-  },
+  "rank": "1.6980814106542756",
   "private": false,
   "unlisted": true,
   "username": "cjensen93",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-m9qb02p14g8c9pdqd-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "JxhuTDv6yWBpeDtP7"
 }

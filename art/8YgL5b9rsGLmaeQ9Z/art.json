@@ -3,9 +3,7 @@
   "owner": {
     "_id": "mZ9LpdRJZpAj6KYaZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1543915151302"
-      }
+      "$date": "1543915151302"
     },
     "username": "mol",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1543920559215"
-    }
+    "$date": "1543920559215"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1543920559215"
-    }
+    "$date": "1543920559215"
   },
   "origId": "ef4RfHy9WFPvn43T6",
   "name": "color chain",
   "notes": ": ^)",
-  "rank": {
-    "$numberDouble": "1.8307244281790445"
-  },
+  "rank": "1.8307244281790445",
   "private": false,
   "unlisted": false,
   "username": "mol",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-nfm87fpv0x37v7uuh-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "233"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "233",
+  "likes": "0",
   "revisionId": "LGL6DAkzsGWb7egHo"
 }

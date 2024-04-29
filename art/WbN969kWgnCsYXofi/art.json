@@ -3,9 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1618264688331"
-      }
+      "$date": "1618264688331"
     },
     "username": "chriscamplin",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1676886843571"
-    }
+    "$date": "1676886843571"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1676886843571"
-    }
+    "$date": "1676886843571"
   },
   "origId": "wt7dgJfnc9ut9a8tk",
   "name": "sketch",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1457145893871108"
-  },
+  "rank": "1.1457145893871108",
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-aj17rdnpw6vpj68vg-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "14"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "14",
+  "likes": "0",
   "revisionId": "TE5omaiyM5R9otPcB"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "RMhdQhPbrnDH4xXJ8",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684321868058"
-      }
+      "$date": "1684321868058"
     },
     "username": "minseok.kim",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684849042963"
-    }
+    "$date": "1684849042963"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684849042963"
-    }
+    "$date": "1684849042963"
   },
   "origId": null,
   "name": "Audio Reactive",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.916685797741365"
-  },
+  "rank": "1.916685797741365",
   "private": false,
   "unlisted": true,
   "username": "minseok.kim",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-lrbggnybfcqar1mvb-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "DCXJRiAz5rrcmWf8S"
 }

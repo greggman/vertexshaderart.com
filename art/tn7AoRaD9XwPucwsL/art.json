@@ -3,9 +3,7 @@
   "owner": {
     "_id": "MEn2bK8navo8QQHYf",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684321859878"
-      }
+      "$date": "1684321859878"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jonghyeon-lee-digipen"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684844097717"
-    }
+    "$date": "1684844097717"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684844097717"
-    }
+    "$date": "1684844097717"
   },
   "origId": null,
   "name": "Audio Reactive Art",
   "notes": "BaKaMiTaI",
-  "rank": {
-    "$numberDouble": "1.5111949756718877"
-  },
+  "rank": "1.5111949756718877",
   "private": false,
   "unlisted": false,
   "username": "jonghyeon-lee-digipen",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-m9e1tceae85wupy05-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "57"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "57",
+  "likes": "0",
   "revisionId": "rrdeCHZzqderPkTFa"
 }

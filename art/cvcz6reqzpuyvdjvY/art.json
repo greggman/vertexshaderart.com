@@ -3,9 +3,7 @@
   "owner": {
     "_id": "ZBHrEZGrgA6JBJGt7",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1463104654911"
-      }
+      "$date": "1463104654911"
     },
     "username": "mipmap",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1569929109355"
-    }
+    "$date": "1569929109355"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1569929109355"
-    }
+    "$date": "1569929109355"
   },
   "origId": "BxMWaxP7Sqiz38FgK",
   "name": "newave",
   "notes": "\n\nFrom https://www.vertexshaderart.com/art/BxMWaxP7Sqiz38FgK",
-  "rank": {
-    "$numberDouble": "1.7399860888017986"
-  },
+  "rank": "1.7399860888017986",
   "private": false,
   "unlisted": false,
   "username": "mipmap",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-ld2t51bqtupcrtyrv-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "208"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "208",
+  "likes": "0",
   "revisionId": "uJCkKiv9fXAGXgfKZ"
 }

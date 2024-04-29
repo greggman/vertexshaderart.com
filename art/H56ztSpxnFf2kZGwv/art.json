@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1493746962121"
-    }
+    "$date": "1493746962121"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1493746962121"
-    }
+    "$date": "1493746962121"
   },
   "origId": null,
   "name": "K Machine exposed shader",
   "notes": "K Machine exposed shader",
-  "rank": {
-    "$numberDouble": "10.650222911200995"
-  },
+  "rank": "10.650222911200995",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-cb1ol2ax4y57fmk6r-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "256"
-  },
-  "likes": {
-    "$numberInt": "2"
-  },
+  "views": "256",
+  "likes": "2",
   "revisionId": "4xpN4J4R2JMQspbbK"
 }

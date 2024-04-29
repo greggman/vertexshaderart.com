@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1501758535995"
-    }
+    "$date": "1501758535995"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1511895162981"
-    }
+    "$date": "1511895162981"
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "circlepower",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6059513607786717"
-  },
+  "rank": "1.6059513607786717",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-z2boocj2rzbvd7qfe-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "432"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "432",
+  "likes": "0",
   "revisionId": "oLeP4ZY4QapgGhsDf"
 }

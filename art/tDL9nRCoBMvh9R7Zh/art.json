@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1571826144580"
-    }
+    "$date": "1571826144580"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1571826144580"
-    }
+    "$date": "1571826144580"
   },
   "origId": "kReqbFTiLEP7PXoRp",
   "name": "widr 4k",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.4038324190402092"
-  },
+  "rank": "1.4038324190402092",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-qlw8jqai18f2k15y1-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "111"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "111",
+  "likes": "0",
   "revisionId": "d68muHeHz34qcG3FK"
 }

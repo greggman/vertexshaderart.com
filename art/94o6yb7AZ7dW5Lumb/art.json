@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1525559642223"
-    }
+    "$date": "1525559642223"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1525559642223"
-    }
+    "$date": "1525559642223"
   },
   "origId": "MK7bag3KKs9CFJdf8",
   "name": "circling",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.172587412647584"
-  },
+  "rank": "1.172587412647584",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-kdrsu1k8v0pc6sm58-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "55"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "55",
+  "likes": "0",
   "revisionId": "8kTnvdzF9dFN6mSs6"
 }

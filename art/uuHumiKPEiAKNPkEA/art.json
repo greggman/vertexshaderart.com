@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1465667736534"
-    }
+    "$date": "1465667736534"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1479312477302"
-    }
+    "$date": "1479312477302"
   },
   "origId": "yey7qrMtmhZZhq2K6",
   "name": "hexalicious",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.919293568447749"
-  },
+  "rank": "10.919293568447749",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-esq7vkjrkb1apsw6g-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "484"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "484",
+  "likes": "7",
   "revisionId": "yL74F6F4DEFrpyvMP"
 }

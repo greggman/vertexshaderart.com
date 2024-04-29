@@ -3,9 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1494865701670"
-      }
+      "$date": "1494865701670"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1497437991211"
-    }
+    "$date": "1497437991211"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1497445891755"
-    }
+    "$date": "1497445891755"
   },
   "origId": null,
   "name": "Learn by Doing",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.9880298181760003"
-  },
+  "rank": "1.9880298181760003",
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-fn5g7euhkau4mg28l-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "gHE6MA8pLFyqNiYDB"
 }

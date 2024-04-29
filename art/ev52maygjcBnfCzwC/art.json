@@ -3,9 +3,7 @@
   "owner": {
     "_id": "poQ88mFsrpyEKSkq5",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1633071476908"
-      }
+      "$date": "1633071476908"
     },
     "username": "aleon",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1633073452764"
-    }
+    "$date": "1633073452764"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1633073452764"
-    }
+    "$date": "1633073452764"
   },
   "origId": "R2FYLbHWTcCWh5PiE",
   "name": "grassgrolls",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.0628297968834473"
-  },
+  "rank": "1.0628297968834473",
   "private": false,
   "unlisted": true,
   "username": "aleon",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-77ym3exa356wz2w52-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "qRtfzXAAXawThKWep"
 }

@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1635426883603"
-    }
+    "$date": "1635426883603"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1635426883603"
-    }
+    "$date": "1635426883603"
   },
   "origId": "M8SShtkWcQkZ4XLZ4",
   "name": "qumu",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.5834694060673788"
-  },
+  "rank": "1.5834694060673788",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-6b7gooaa9elc8ervf-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "73"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "73",
+  "likes": "0",
   "revisionId": "amP2x8jXXppG4iLe8"
 }

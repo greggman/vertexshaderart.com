@@ -3,9 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1445777397953"
-      }
+      "$date": "1445777397953"
     },
     "username": "gman",
     "profile": {
@@ -14,21 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1484390197270"
-    }
+    "$date": "1484390197270"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1484390686290"
-    }
+    "$date": "1484390686290"
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "technokokoro",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.751263701225993"
-  },
+  "rank": "10.751263701225993",
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-31p3h95wynxi1stpb-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "324"
-  },
-  "likes": {
-    "$numberInt": "7"
-  },
+  "views": "324",
+  "likes": "7",
   "revisionId": "qQcujXEtmoCNNp2iu"
 }

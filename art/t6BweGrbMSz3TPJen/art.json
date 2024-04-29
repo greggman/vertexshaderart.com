@@ -3,9 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1540408032900"
-      }
+      "$date": "1540408032900"
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -14,21 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1540803422225"
-    }
+    "$date": "1540803422225"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1540803422225"
-    }
+    "$date": "1540803422225"
   },
   "origId": null,
   "name": "Circle!",
   "notes": "Enjoy xd",
-  "rank": {
-    "$numberDouble": "1.359866626678728"
-  },
+  "rank": "1.359866626678728",
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-mh4woavdwdkp2ris5-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "155"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "155",
+  "likes": "0",
   "revisionId": "m4rtYsCDyRc4DSJ8L"
 }

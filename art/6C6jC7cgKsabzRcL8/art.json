@@ -3,9 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505942443270"
-      }
+      "$date": "1505942443270"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1506743004493"
-    }
+    "$date": "1506743004493"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1506743004493"
-    }
+    "$date": "1506743004493"
   },
   "origId": "mQuMhKJA2PG4x8j7h",
   "name": "It's So In Vogue To Be Dead",
   "notes": "Bust a move. With Points",
-  "rank": {
-    "$numberDouble": "1.9068029251205507"
-  },
+  "rank": "1.9068029251205507",
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-apbhfy2twat19fyy3-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "228"
-  },
-  "likes": {
-    "$numberInt": "1"
-  },
+  "views": "228",
+  "likes": "1",
   "revisionId": "xikwy45jHQ9tFmgjF"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1493741221077"
-      }
+      "$date": "1493741221077"
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -14,21 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1498418839318"
-    }
+    "$date": "1498418839318"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1498418839318"
-    }
+    "$date": "1498418839318"
   },
   "origId": "mAZixq6fNzd7qSpQs",
   "name": "technoball K machinzed dev1 (GL_LINE_LOOP)",
   "notes": "",
-  "rank": {
-    "$numberDouble": "10.142298696501149"
-  },
+  "rank": "10.142298696501149",
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-wb4v5i9gxwpptre4h-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "695"
-  },
-  "likes": {
-    "$numberInt": "4"
-  },
+  "views": "695",
+  "likes": "4",
   "revisionId": "NkD9ngmhnbRLgwXjS"
 }

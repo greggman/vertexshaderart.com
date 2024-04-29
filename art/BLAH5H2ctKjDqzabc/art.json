@@ -3,9 +3,7 @@
   "owner": {
     "_id": "DMjrQbvFJZiBrahNH",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1684316626390"
-      }
+      "$date": "1684316626390"
     },
     "profile": {
       "name": null,
@@ -14,21 +12,15 @@
     "username": "jeminshin2"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1684479150672"
-    }
+    "$date": "1684479150672"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1684479150672"
-    }
+    "$date": "1684479150672"
   },
   "origId": "Cn2Pn9cEKGgg9ZkC5",
   "name": "Colors-jemin.shin",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.577906665645804"
-  },
+  "rank": "1.577906665645804",
   "private": false,
   "unlisted": true,
   "username": "jeminshin2",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-sveqeipcvgu3a9nzf-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "cuJgNWP5aMB3wJXat"
 }

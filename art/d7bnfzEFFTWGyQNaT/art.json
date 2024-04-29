@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1703288427096"
-    }
+    "$date": "1703288427096"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1703288427096"
-    }
+    "$date": "1703288427096"
   },
   "origId": "WgAGyf4sc6LfsH2bd",
   "name": "squiro",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.802093773588902"
-  },
+  "rank": "1.802093773588902",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-m6e570ff6wrwxm5qa-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "28"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "28",
+  "likes": "0",
   "revisionId": "2cefmQg2QwAnGGfPo"
 }

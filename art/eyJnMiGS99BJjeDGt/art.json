@@ -3,9 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1505499213122"
-      }
+      "$date": "1505499213122"
     },
     "profile": {
       "name": "Zug Zwang",
@@ -14,21 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1520071300174"
-    }
+    "$date": "1520071300174"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1520071300174"
-    }
+    "$date": "1520071300174"
   },
   "origId": "vqBN6kLpxjBHGRvz8",
   "name": "K Machine letter example",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.8476322143505646"
-  },
+  "rank": "1.8476322143505646",
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -48,11 +40,7 @@
   },
   "screenshotURL": "data/images/images-o8ne0q4a2mdkma4ti-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "187"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "187",
+  "likes": "0",
   "revisionId": "5H69opsNkDCmcTYLY"
 }

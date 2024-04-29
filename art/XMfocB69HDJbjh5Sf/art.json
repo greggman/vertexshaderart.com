@@ -3,9 +3,7 @@
   "owner": {
     "_id": "kxWiXJRdSz5aEp6wK",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1687622868608"
-      }
+      "$date": "1687622868608"
     },
     "username": "sherrysmcguire",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1691353537203"
-    }
+    "$date": "1691353537203"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1691353537203"
-    }
+    "$date": "1691353537203"
   },
   "origId": null,
   "name": "mindmagma01 - tut",
   "notes": "Based on tutorials by vertexshaderart",
-  "rank": {
-    "$numberDouble": "1.735752673560239"
-  },
+  "rank": "1.735752673560239",
   "private": false,
   "unlisted": true,
   "username": "sherrysmcguire",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-4hhzgkbnxg6oygfkc-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "3"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "3",
+  "likes": "0",
   "revisionId": "f2YRMgerBSDKt3PqN"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "zvYTT7qNPZP7HY9ud",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1623844888254"
-      }
+      "$date": "1623844888254"
     },
     "username": "plasticrainbow",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1623851122044"
-    }
+    "$date": "1623851122044"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1623851841139"
-    }
+    "$date": "1623851841139"
   },
   "origId": "NKCTpuxGSTTQAXHYw",
   "name": "Lesson5_Circles",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6105992777904161"
-  },
+  "rank": "1.6105992777904161",
   "private": false,
   "unlisted": true,
   "username": "plasticrainbow",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-icw649jayc5s2zky9-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "Yq8jzeKmBKQhZiEia"
 }

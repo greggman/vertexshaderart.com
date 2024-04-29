@@ -3,9 +3,7 @@
   "owner": {
     "_id": "uqgyyD9c6QjBHzoBy",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1685151860148"
-      }
+      "$date": "1685151860148"
     },
     "username": "rubbermonkey",
     "profile": {
@@ -13,21 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1685152749199"
-    }
+    "$date": "1685152749199"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1685152749199"
-    }
+    "$date": "1685152749199"
   },
   "origId": null,
   "name": "First thing",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.657066366386202"
-  },
+  "rank": "1.657066366386202",
   "private": false,
   "unlisted": true,
   "username": "rubbermonkey",
@@ -47,11 +39,7 @@
   },
   "screenshotURL": "data/images/images-0cvpfnm7qs42whi35-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "BcogGG6QNgkDEGrxx"
 }

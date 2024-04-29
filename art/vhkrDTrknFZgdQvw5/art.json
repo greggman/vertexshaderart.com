@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1598350387963"
-    }
+    "$date": "1598350387963"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1598350387963"
-    }
+    "$date": "1598350387963"
   },
   "origId": "3K4LGxEGgP7MLHZnb",
   "name": "bobble black matter",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.1712193091561267"
-  },
+  "rank": "1.1712193091561267",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-2nna6cjnhqfptxl1p-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "73"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "73",
+  "likes": "0",
   "revisionId": "szQ3CGxrREtmd8TxM"
 }

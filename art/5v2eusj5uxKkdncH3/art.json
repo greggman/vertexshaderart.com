@@ -3,9 +3,7 @@
   "owner": {
     "_id": "R9EHNouGunG3qn6Ze",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1574786267418"
-      }
+      "$date": "1574786267418"
     },
     "profile": {
       "first_name": "Manicacci",
@@ -15,21 +13,15 @@
     "username": "manicacci"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1574786273036"
-    }
+    "$date": "1574786273036"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1574786273036"
-    }
+    "$date": "1574786273036"
   },
   "origId": null,
   "name": "learning",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6374902319563915"
-  },
+  "rank": "1.6374902319563915",
   "private": false,
   "unlisted": true,
   "username": "manicacci",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-iap57hz9j570r2k0e-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "1"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "1",
+  "likes": "0",
   "revisionId": "nJ4W2R6cBT2uAYX4y"
 }

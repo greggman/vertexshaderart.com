@@ -4,21 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1471876033310"
-    }
+    "$date": "1471876033310"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1471876033310"
-    }
+    "$date": "1471876033310"
   },
   "origId": null,
   "name": "use-the-mic",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.6582847792407542"
-  },
+  "rank": "1.6582847792407542",
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -38,11 +32,7 @@
   },
   "screenshotURL": "data/images/images-13cjwj69rlsajd3xj-thumbnail.jpg",
   "hasSound": true,
-  "views": {
-    "$numberInt": "125"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "125",
+  "likes": "0",
   "revisionId": "iioEnA6RMGHy5SJG7"
 }

@@ -3,9 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": {
-        "$numberLong": "1501857924166"
-      }
+      "$date": "1501857924166"
     },
     "profile": {
       "name": "Macro Machines",
@@ -15,21 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": {
-      "$numberLong": "1510362093885"
-    }
+    "$date": "1510362093885"
   },
   "modifiedAt": {
-    "$date": {
-      "$numberLong": "1510362093885"
-    }
+    "$date": "1510362093885"
   },
   "origId": "Ym2ek7eMQNEDspKJd",
   "name": "mouseTrix",
   "notes": "",
-  "rank": {
-    "$numberDouble": "1.7353323221986738"
-  },
+  "rank": "1.7353323221986738",
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -49,11 +41,7 @@
   },
   "screenshotURL": "data/images/images-372ycfadsaw4i095t-thumbnail.jpg",
   "hasSound": "",
-  "views": {
-    "$numberInt": "2"
-  },
-  "likes": {
-    "$numberInt": "0"
-  },
+  "views": "2",
+  "likes": "0",
   "revisionId": "q42h2bqNWyE9nA6RJ"
 }
