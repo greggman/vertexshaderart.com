@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "_",
   "avatarUrl": "https://lh5.googleusercontent.com/-WhjaBaRQHKg/AAAAAAAAAAI/AAAAAAAAA30/g0IE77SdmOk/photo.jpg",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/bossfightswe/milky-ways\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/*------------------------------------------------------------------------\\nAuthor\\t\\t\\t\\t\\t: Eunjin Hong\\nAssignment Name/Number\\t: Shader/3 (Extra Credit)\\nCourse Name\\t\\t\\t\\t: CS230\\nTerm\\t\\t\\t\\t\\t: Spring 2019\\n------------------------------------------------------------------------*/\\n\\n//Don't know the reason why but the music doesn't work very often...\\n\\nvoid main() {\\n  \\n  float snd = texture2D(sound, vec2(mouse.x)).a;\\n  float x = mod(vertexId, 10.);\\n    \\n  gl_Position = vec4(snd*mouse.x*x, 0, 0, 1);\\n  gl_PointSize = abs(sin(time))*snd*50.+20.;\\n\\n  v_color = vec4(abs(sin(snd)),abs(cos(snd)),abs(tan(snd)),1.0);\\n  \\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/bossfightswe/milky-ways",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "/*------------------------------------------------------------------------\nAuthor\t\t\t\t\t: Eunjin Hong\nAssignment Name/Number\t: Shader/3 (Extra Credit)\nCourse Name\t\t\t\t: CS230\nTerm\t\t\t\t\t: Spring 2019\n------------------------------------------------------------------------*/\n\n//Don't know the reason why but the music doesn't work very often...\n\nvoid main() {\n  \n  float snd = texture2D(sound, vec2(mouse.x)).a;\n  float x = mod(vertexId, 10.);\n    \n  gl_Position = vec4(snd*mouse.x*x, 0, 0, 1);\n  gl_PointSize = abs(sin(time))*snd*50.+20.;\n\n  v_color = vec4(abs(sin(snd)),abs(cos(snd)),abs(tan(snd)),1.0);\n  \n}"
+  },
   "screenshotURL": "data/images/images-ws4tvopgjjds46899-thumbnail.jpg",
   "hasSound": true,
   "views": {

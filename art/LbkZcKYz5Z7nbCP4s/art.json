@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.25098039215686274,1],\"shader\":\"void main(){\\n  \\n  float x = vertexId / 10.;\\n  \\n  gl_Position = vec4(0, 0, 0, 1);\\n  \\n  gl_PointSize = 10.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n \\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0.25098039215686274,
+      1
+    ],
+    "shader": "void main(){\n  \n  float x = vertexId / 10.;\n  \n  gl_Position = vec4(0, 0, 0, 1);\n  \n  gl_PointSize = 10.;\n  \n  v_color = vec4(1, 0, 0, 1);\n \n}"
+  },
   "screenshotURL": "data/images/images-vw4ecrvq04bazd9vj-thumbnail.jpg",
   "hasSound": "",
   "views": {

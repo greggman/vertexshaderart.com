@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":90773,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/nitrofun/nitro-fun-rob-gasser-ecstasy\",\"lineSize\":\"CSS\",\"backgroundColor\":[0.01568627450980392,0.023529411764705882,0.058823529411764705,1],\"shader\":\"// ==========================================\\n//  ^\\n//  |\\n//  +-- click \\\"hide\\\" then MOVE YOUR MOUSE!!!!\\n// ==========================================\\n\\n//KDrawmode=GL_TRIANGLES\\n\\n\\n#define radiusParam0 0.10//KParameter 0.03>>0.3\\n#define radiusParam1 0.82//KParameter 0.>>1.\\n#define angleParam0 0.02//KParameter 0.>>1.\\n#define sndFactor 0.8//KParameter 0.>>1.\\n#define PointSizeFactor 0.18//KParameter 0.>>1.\\n#define kpx 0.160//KParameter 1.>>8.\\n\\n#define HPI 1.570796326795\\n#define PI   3.1415926535898\\n\\n//KverticesNumber=233333\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float u = 0.0;\\n  float v = fract(vertexId / 240.0);\\n  float age = floor(vertexId / 240.0) / 240.0;\\n  float invAge = 1.0 - age;\\n  vec4 touch = texture2D(touch, vec2(u, v));\\n  float snd = texture2D(sound, vec2(v, age) * vec2(0.25, 0.25)).a;\\n  float t = time - touch.w;\\n  \\n  float a = mod(vertexId, 6.0) / 6.0 * PI * 2.0 + t * 100.0;\\n  vec2 cs = vec2(cos(a), sin(a));\\n  vec2 xy = vec2(touch.xy) +  (cs * age * snd * 0.2 *asin(kpx/3. )- 0.21) * 0.1;\\n  gl_Position = vec4(xy * (1.0 + (age + t) * 1.0) , age, 1);\\n\\n  float hue = mix(age + 0.6*kpx + sin(v * PI * 2.0) * 0.9, 0.0, touch.z);\\n  vec3 color = hsv2rgb(vec3(hue, invAge, snd + touch.z));\\n  v_color = vec4(mix(color, background.rgb, age)-sin(color*.18) * invAge, invAge);\\n  gl_PointSize = mix(20.0, 1.0, age);\\n\\n}\\n\\n\"}",
+  "settings": {
+    "num": 90773,
+    "mode": "LINES",
+    "sound": "https://soundcloud.com/nitrofun/nitro-fun-rob-gasser-ecstasy",
+    "lineSize": "CSS",
+    "backgroundColor": [
+      0.01568627450980392,
+      0.023529411764705882,
+      0.058823529411764705,
+      1
+    ],
+    "shader": "// ==========================================\n//  ^\n//  |\n//  +-- click \"hide\" then MOVE YOUR MOUSE!!!!\n// ==========================================\n\n//KDrawmode=GL_TRIANGLES\n\n\n#define radiusParam0 0.10//KParameter 0.03>>0.3\n#define radiusParam1 0.82//KParameter 0.>>1.\n#define angleParam0 0.02//KParameter 0.>>1.\n#define sndFactor 0.8//KParameter 0.>>1.\n#define PointSizeFactor 0.18//KParameter 0.>>1.\n#define kpx 0.160//KParameter 1.>>8.\n\n#define HPI 1.570796326795\n#define PI   3.1415926535898\n\n//KverticesNumber=233333\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float u = 0.0;\n  float v = fract(vertexId / 240.0);\n  float age = floor(vertexId / 240.0) / 240.0;\n  float invAge = 1.0 - age;\n  vec4 touch = texture2D(touch, vec2(u, v));\n  float snd = texture2D(sound, vec2(v, age) * vec2(0.25, 0.25)).a;\n  float t = time - touch.w;\n  \n  float a = mod(vertexId, 6.0) / 6.0 * PI * 2.0 + t * 100.0;\n  vec2 cs = vec2(cos(a), sin(a));\n  vec2 xy = vec2(touch.xy) +  (cs * age * snd * 0.2 *asin(kpx/3. )- 0.21) * 0.1;\n  gl_Position = vec4(xy * (1.0 + (age + t) * 1.0) , age, 1);\n\n  float hue = mix(age + 0.6*kpx + sin(v * PI * 2.0) * 0.9, 0.0, touch.z);\n  vec3 color = hsv2rgb(vec3(hue, invAge, snd + touch.z));\n  v_color = vec4(mix(color, background.rgb, age)-sin(color*.18) * invAge, invAge);\n  gl_PointSize = mix(20.0, 1.0, age);\n\n}\n\n"
+  },
   "screenshotURL": "data/images/images-a7uuhpsoqh6tni2ho-thumbnail.jpg",
   "hasSound": true,
   "views": {

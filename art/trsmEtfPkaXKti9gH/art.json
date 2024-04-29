@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "der",
   "avatarUrl": "https://secure.gravatar.com/avatar/3edd222097c4b36118a8d5f5ab65ddb6?default=retro&size=200",
-  "settings": "{\"num\":15606,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"float dist(vec2 p1, vec2 p2) {\\n  return sqrt(pow(p1.x - p2.x, 2.0) + pow(p1.y - p2.y, 2.0));\\n}\\n\\nvoid main() {\\n  float across = floor(sqrt(vertexCount));\\n  \\n  float x = (mod(vertexId, across) / (across - 1.0) * 2.0 - 1.0) * 1.5;\\n  float y = (floor(vertexId / across) / (across - 1.0) * 2.0 - 1.0) * 1.5;\\n  \\n  float distFromCenter = dist(vec2(x, y), vec2(0.0, 0.0));\\n  float ang = atan(0.0 - y, 0.0 - x);\\n  \\n  float farthestDist = dist(vec2(1.0, 1.0), vec2(0.0, 0.0));\\n  \\n  float normX = cos(ang + time * (farthestDist - distFromCenter));\\n  float normY = sin(ang + time * (farthestDist - distFromCenter));\\n  \\n  float xPos = normX * distFromCenter;\\n  float yPos = normY * distFromCenter;\\n  \\n  gl_Position = vec4(xPos, yPos, 0.0, 1.0);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 15606,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "float dist(vec2 p1, vec2 p2) {\n  return sqrt(pow(p1.x - p2.x, 2.0) + pow(p1.y - p2.y, 2.0));\n}\n\nvoid main() {\n  float across = floor(sqrt(vertexCount));\n  \n  float x = (mod(vertexId, across) / (across - 1.0) * 2.0 - 1.0) * 1.5;\n  float y = (floor(vertexId / across) / (across - 1.0) * 2.0 - 1.0) * 1.5;\n  \n  float distFromCenter = dist(vec2(x, y), vec2(0.0, 0.0));\n  float ang = atan(0.0 - y, 0.0 - x);\n  \n  float farthestDist = dist(vec2(1.0, 1.0), vec2(0.0, 0.0));\n  \n  float normX = cos(ang + time * (farthestDist - distFromCenter));\n  float normY = sin(ang + time * (farthestDist - distFromCenter));\n  \n  float xPos = normX * distFromCenter;\n  float yPos = normY * distFromCenter;\n  \n  gl_Position = vec4(xPos, yPos, 0.0, 1.0);\n  \n  gl_PointSize = 10.0;\n  \n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-ign6dm9bnsv1ygv8v-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "richtowns",
   "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.6274509803921569,1],\"shader\":\"void main() {\\n  \\n  float density = 50.;\\n  \\n  float xoff = -0.5 * sin(vertexId);\\n    \\n  float yoff = -0.5 * sin(time*vertexId);\\n  \\n  float ux = 0.01;\\n  \\n  float uy = 0.01;\\n  \\n  float x = mod(vertexId , density);\\n  \\n  float y = mod(floor(vertexId / density), density);\\n  \\n  \\n  gl_Position = vec4(x * ux + xoff, y * uy + yoff, 0, 1);\\n\\n   \\n  gl_PointSize = 10.*(sin(time*vertexId/1000.)+ 1.); //mod(vertexId, density * density) / 5.;\\n\\n  v_color = vec4(1, 0, 0, 1);\\n\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0.6274509803921569,
+      1
+    ],
+    "shader": "void main() {\n  \n  float density = 50.;\n  \n  float xoff = -0.5 * sin(vertexId);\n    \n  float yoff = -0.5 * sin(time*vertexId);\n  \n  float ux = 0.01;\n  \n  float uy = 0.01;\n  \n  float x = mod(vertexId , density);\n  \n  float y = mod(floor(vertexId / density), density);\n  \n  \n  gl_Position = vec4(x * ux + xoff, y * uy + yoff, 0, 1);\n\n   \n  gl_PointSize = 10.*(sin(time*vertexId/1000.)+ 1.); //mod(vertexId, density * density) / 5.;\n\n  v_color = vec4(1, 0, 0, 1);\n\n}"
+  },
   "screenshotURL": "data/images/images-xe70xdftg2thbr6cj-thumbnail.jpg",
   "hasSound": "",
   "views": {

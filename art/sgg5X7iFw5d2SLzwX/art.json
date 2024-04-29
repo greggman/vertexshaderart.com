@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gman",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
-  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// very long playlist:\\n// https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\\n\\n// lolengine.net/blog/2013/07/27/rgb-to-hsv-in-glsl\\nvec3 hsv2rgb(vec3 c)\\n{\\n    c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main () {\\n  \\n  float freq = vertexId / vertexCount;\\n  float s = texture2D(sound,  vec2(freq, 0.0)).a - 0.5;\\n  float v = texture2D(volume, vec2(0, 0.0)).a - 0.5;\\n  float f = texture2D(floatSound, vec2(freq, 0.0)).a * 0.01 + 0.5;\\n  \\n  float id = mod(vertexId, 3.0);\\n  float y0 = mix(s, v, step(0.5, id));\\n  float y  = mix(y0, f, step(1.5, id));\\n  \\n  float x = freq * 2.0 - 1.0;\\n  \\n  vec3 hsv = vec3(vertexId / 3.0, 1.0, 1.0);\\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  v_color = vec4(hsv2rgb(hsv), 1.0);\\n\\n  gl_PointSize = 5.0;\\n\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// very long playlist:\n// https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\n\n// lolengine.net/blog/2013/07/27/rgb-to-hsv-in-glsl\nvec3 hsv2rgb(vec3 c)\n{\n    c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main () {\n  \n  float freq = vertexId / vertexCount;\n  float s = texture2D(sound,  vec2(freq, 0.0)).a - 0.5;\n  float v = texture2D(volume, vec2(0, 0.0)).a - 0.5;\n  float f = texture2D(floatSound, vec2(freq, 0.0)).a * 0.01 + 0.5;\n  \n  float id = mod(vertexId, 3.0);\n  float y0 = mix(s, v, step(0.5, id));\n  float y  = mix(y0, f, step(1.5, id));\n  \n  float x = freq * 2.0 - 1.0;\n  \n  vec3 hsv = vec3(vertexId / 3.0, 1.0, 1.0);\n  gl_Position = vec4(x, y, 0.0, 1.0);\n  v_color = vec4(hsv2rgb(hsv), 1.0);\n\n  gl_PointSize = 5.0;\n\n}"
+  },
   "screenshotURL": "data/images/images-8yl1wdtntsatb0vqo-thumbnail.jpg",
   "hasSound": true,
   "views": {

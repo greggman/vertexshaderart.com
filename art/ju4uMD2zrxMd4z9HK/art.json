@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "illus0r",
   "avatarUrl": "https://secure.gravatar.com/avatar/40ddd2170e07cc280f3726d08985fbc7?default=retro&size=200",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define rnd(x) fract(921.97 * sin(87.15 * mod(x,120.21)+.1))\\n#define rot(a) mat2(cos(a),-sin(a),sin(a),cos(a))\\n\\nvoid main() {\\n  float r = pow(fract(time*1.1+floor(rnd(vertexId)*8.)/8.+.5*rnd(vertexId)),.1);\\n  gl_Position = vec4(r,0, 0, 1);\\n  gl_Position.xy *= rot(time*.1+1e3*rnd(vertexId*.8));\\n  gl_Position.zy *= rot(1e3*rnd(vertexId));\\n  gl_PointSize=.1;\\n  v_color = vec4(1,0,0,1);\\n}\\n\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define rnd(x) fract(921.97 * sin(87.15 * mod(x,120.21)+.1))\n#define rot(a) mat2(cos(a),-sin(a),sin(a),cos(a))\n\nvoid main() {\n  float r = pow(fract(time*1.1+floor(rnd(vertexId)*8.)/8.+.5*rnd(vertexId)),.1);\n  gl_Position = vec4(r,0, 0, 1);\n  gl_Position.xy *= rot(time*.1+1e3*rnd(vertexId*.8));\n  gl_Position.zy *= rot(1e3*rnd(vertexId));\n  gl_PointSize=.1;\n  v_color = vec4(1,0,0,1);\n}\n"
+  },
   "screenshotURL": "data/images/images-kjyh0snnxsglvoyxt-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "masoud",
   "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKduENtgZ5YgN-oFXWds5z6iD7S4GtlK8DMGCULeb3_jNsAvHg=s96-c",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/manon-ariza/tortuga-deities\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nfloat radius = 0.15;\\nfloat amount = 100.;\\nfloat len = vertexCount / amount;\\n\\nfloat mod289(float x){return x - floor(x * (1.0 / 289.0)) * 289.0;}\\nvec4 mod289(vec4 x){return x - floor(x * (1.0 / 289.0)) * 289.0;}\\nvec4 perm(vec4 x){return mod289(((x * 34.0) + 1.0) * x);}\\n\\nfloat noise(vec3 p){\\n    vec3 a = floor(p);\\n    vec3 d = p - a;\\n    d = d * d * (4.0 - 3.0 * d);\\n\\n    vec4 b = a.xxyy + vec4(0.0, 1.0, 3.0, 1.0);\\n    vec4 k1 = perm(b.xyxy);\\n    vec4 k2 = perm(k1.xyxy + b.zzww);\\n\\n    vec4 c = k2 + a.zzzz;\\n    vec4 k3 = perm(c);\\n    vec4 k4 = perm(c + 1.0);\\n\\n    vec4 o1 = fract(k3 * (1.0 / 41.0));\\n    vec4 o2 = fract(k4 * (1.0 / 41.0));\\n\\n    vec4 o3 = o2 * d.z + o1 * (1.0 - d.z);\\n    vec2 o4 = o3.yw * d.x + o3.xz * (1.0 - d.x);\\n\\n    return o4.y * d.y + o4.x * (1.0 - d.y);\\n}\\n\\nvoid main() {\\n  float ratio = resolution.x / resolution.y;\\n  float seg = floor(vertexId/len);\\n  float segId = mod(vertexId,len);\\n  float v = texture2D(volume, vec2(1., (1.+seg)/amount*240.)).a;\\n  float s = texture2D(floatSound, vec2(1., (1.+segId)/len*240.)).a;\\n  vec3 p = vec3(vertexId * 0.005, seg, time*0.1 - segId*0.001);\\n  float n = noise(p);\\n  float x = cos(vertexId/vertexCount * PI * 2.)*(v*radius+segId*0.001);\\n  float y = sin(vertexId/vertexCount * PI * 2.)*ratio*(v*radius+segId*0.0001);\\n  \\n  x += cos(n * PI*4.) * segId * 0.000002 * s;\\n  y += sin(n * PI*4.) * segId * 0.0000015 * s * ratio;\\n  \\n  gl_Position = vec4(x, y, 0, 1);\\n\\n  float b = 0.3 / mod(vertexId/len,1.);\\n  v_color = vec4(vec3(b), 0.5);\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/manon-ariza/tortuga-deities",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nfloat radius = 0.15;\nfloat amount = 100.;\nfloat len = vertexCount / amount;\n\nfloat mod289(float x){return x - floor(x * (1.0 / 289.0)) * 289.0;}\nvec4 mod289(vec4 x){return x - floor(x * (1.0 / 289.0)) * 289.0;}\nvec4 perm(vec4 x){return mod289(((x * 34.0) + 1.0) * x);}\n\nfloat noise(vec3 p){\n    vec3 a = floor(p);\n    vec3 d = p - a;\n    d = d * d * (4.0 - 3.0 * d);\n\n    vec4 b = a.xxyy + vec4(0.0, 1.0, 3.0, 1.0);\n    vec4 k1 = perm(b.xyxy);\n    vec4 k2 = perm(k1.xyxy + b.zzww);\n\n    vec4 c = k2 + a.zzzz;\n    vec4 k3 = perm(c);\n    vec4 k4 = perm(c + 1.0);\n\n    vec4 o1 = fract(k3 * (1.0 / 41.0));\n    vec4 o2 = fract(k4 * (1.0 / 41.0));\n\n    vec4 o3 = o2 * d.z + o1 * (1.0 - d.z);\n    vec2 o4 = o3.yw * d.x + o3.xz * (1.0 - d.x);\n\n    return o4.y * d.y + o4.x * (1.0 - d.y);\n}\n\nvoid main() {\n  float ratio = resolution.x / resolution.y;\n  float seg = floor(vertexId/len);\n  float segId = mod(vertexId,len);\n  float v = texture2D(volume, vec2(1., (1.+seg)/amount*240.)).a;\n  float s = texture2D(floatSound, vec2(1., (1.+segId)/len*240.)).a;\n  vec3 p = vec3(vertexId * 0.005, seg, time*0.1 - segId*0.001);\n  float n = noise(p);\n  float x = cos(vertexId/vertexCount * PI * 2.)*(v*radius+segId*0.001);\n  float y = sin(vertexId/vertexCount * PI * 2.)*ratio*(v*radius+segId*0.0001);\n  \n  x += cos(n * PI*4.) * segId * 0.000002 * s;\n  y += sin(n * PI*4.) * segId * 0.0000015 * s * ratio;\n  \n  gl_Position = vec4(x, y, 0, 1);\n\n  float b = 0.3 / mod(vertexId/len,1.);\n  v_color = vec4(vec3(b), 0.5);\n}"
+  },
   "screenshotURL": "data/images/images-hab4ufgz0c3ptb08c-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "gyabo",
   "avatarUrl": "https://secure.gravatar.com/avatar/4c346a45401eb00f419d66174540a232?default=retro&size=200",
-  "settings": "{\"num\":4,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n  vec3 p = vec3(\\n    floor(vertexId / 2.0),\\n    floor(mod(vertexId, 2.0)), 0.0) * 2.0 - 1.0;\\n  \\n  gl_Position = vec4(p.xy, 0.01, 1.0);\\n  \\n  v_color = vec4(0.0);\\n  v_color.xy = p.xy;\\n  \\n  v_color = max(vec4(0.0), v_color);\\n  v_color.a = 1.0;\\n}\\n\\n\"}",
+  "settings": {
+    "num": 4,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvoid main() {\n  vec3 p = vec3(\n    floor(vertexId / 2.0),\n    floor(mod(vertexId, 2.0)), 0.0) * 2.0 - 1.0;\n  \n  gl_Position = vec4(p.xy, 0.01, 1.0);\n  \n  v_color = vec4(0.0);\n  v_color.xy = p.xy;\n  \n  v_color = max(vec4(0.0), v_color);\n  v_color.a = 1.0;\n}\n\n"
+  },
   "screenshotURL": "data/images/images-d20f5cpkea0rd9mfh-thumbnail.jpg",
   "hasSound": "",
   "views": {

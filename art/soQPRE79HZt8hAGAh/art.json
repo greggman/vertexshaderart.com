@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "ארד",
   "avatarUrl": "https://lh4.googleusercontent.com/-8413R_UAuFI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdV_Fow1wVvKUVUEHJI563QumRktQ/photo.jpg",
-  "settings": "{\"num\":81,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.5019607843137255,0,1],\"shader\":\"#define TOP_WIDTH 0.4\\n#define BOTTOM_WIDTH 0.1\\n#define HEIGHT 0.5\\n\\nvoid main(){\\n  float columnCount = vertexCount / 2.0;\\n  \\n  float ux = (floor(vertexId / 2.0) / (columnCount - 1.0) * (TOP_WIDTH - BOTTOM_WIDTH)) + BOTTOM_WIDTH;\\n  \\n  float x = (mod(vertexId, 2.0) * 2.0 - 1.0) * ux;\\n  float y = sqrt(floor(vertexId / 2.0) / (columnCount - 1.0)) * HEIGHT;\\n  \\n  gl_PointSize = 10.0;\\n  \\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  \\n  float baseColor = mod(vertexId, vertexCount) / vertexCount;\\n  v_color = vec4(baseColor, 1.0 - baseColor, 1.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 81,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0.5019607843137255,
+      0,
+      1
+    ],
+    "shader": "#define TOP_WIDTH 0.4\n#define BOTTOM_WIDTH 0.1\n#define HEIGHT 0.5\n\nvoid main(){\n  float columnCount = vertexCount / 2.0;\n  \n  float ux = (floor(vertexId / 2.0) / (columnCount - 1.0) * (TOP_WIDTH - BOTTOM_WIDTH)) + BOTTOM_WIDTH;\n  \n  float x = (mod(vertexId, 2.0) * 2.0 - 1.0) * ux;\n  float y = sqrt(floor(vertexId / 2.0) / (columnCount - 1.0)) * HEIGHT;\n  \n  gl_PointSize = 10.0;\n  \n  gl_Position = vec4(x, y, 0.0, 1.0);\n  \n  float baseColor = mod(vertexId, vertexCount) / vertexCount;\n  v_color = vec4(baseColor, 1.0 - baseColor, 1.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-dc8cnx2q7gt9gydjl-thumbnail.jpg",
   "hasSound": "",
   "views": {

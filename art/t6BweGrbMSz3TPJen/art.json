@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "dertrackererpro",
   "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Rotation speed\\nconst float Speed = 0.6;\\n\\n//Rotation Matrix\\nmat2 Rotate2D (float x) {\\n  float a=sin(x), b=cos(x);\\n  return mat2(b, -a, a, b);\\n}\\n\\nvoid main() {\\n  vec2 pos = vec2(vertexId/vertexCount*1.5, Speed*sin(time)*0.5) * Rotate2D(Speed*time+vertexId);\\n  vec3 clr = vec3(pos.x, pos.y, -pos.x);\\n  \\n  gl_PointSize = abs(pos.x)+abs(pos.y)*15.0;\\n  gl_Position = vec4(pos, 0.0, 1.0);\\n  v_color = vec4(clr, 1.0)+0.3;\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//Rotation speed\nconst float Speed = 0.6;\n\n//Rotation Matrix\nmat2 Rotate2D (float x) {\n  float a=sin(x), b=cos(x);\n  return mat2(b, -a, a, b);\n}\n\nvoid main() {\n  vec2 pos = vec2(vertexId/vertexCount*1.5, Speed*sin(time)*0.5) * Rotate2D(Speed*time+vertexId);\n  vec3 clr = vec3(pos.x, pos.y, -pos.x);\n  \n  gl_PointSize = abs(pos.x)+abs(pos.y)*15.0;\n  gl_Position = vec4(pos, 0.0, 1.0);\n  v_color = vec4(clr, 1.0)+0.3;\n}"
+  },
   "screenshotURL": "data/images/images-mh4woavdwdkp2ris5-thumbnail.jpg",
   "hasSound": "",
   "views": {

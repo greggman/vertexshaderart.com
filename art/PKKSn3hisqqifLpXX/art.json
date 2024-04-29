@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "richel",
   "avatarUrl": "https://graph.facebook.com/1269313776429568/picture?type=large",
-  "settings": "{\"num\":600,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/industrialpope/pferdloss\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 4.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvoid main() \\n{\\n  vec2 coords;\\n  coords.x = mod(vertexId, 30.0);\\n  coords.y = floor(vertexId / 30.0);\\n  \\n  float u = 1.0 / 30.0 * coords.x;\\n  float v = 1.0 / 20.0 * coords.y;\\n  \\n\\n  //  float historyX = u * 1.0;\\n  //float historyV = (v * numLinesDown + 0.5) / soundRes.y;\\n  \\n  float historyX = sin((u * 0.5)/ soundRes.y * soundRes.y) * 0.8;\\n  float historyV = cos((v * 0.5) / soundRes.x * soundRes.x) * .8;\\n  \\n  float snd = texture2D(sound, vec2(historyX, historyV)).a;\\n\\n  float posX = -0.7 + ((1.4 / 30.0) * coords.x);\\n  posX += sin(time) * 0.1;\\n  \\n  float posY = -0.7 + (1.4 / 20.0) * coords.y;\\n  posY += sin(time + coords.x * 0.1) * 0.1;\\n  \\n  float posZ = -1.0;//sin(coords.x + time);\\n  \\n  gl_Position = vec4(posX, posY, posZ, 1);\\n\\n  if(coords.x > 8. && coords.x < 12. ||\\n     coords.y > 8. && coords.y < 12. )\\n  {\\n    v_color = vec4(1.0, 1.0, 1.0, 1);\\n  }\\n  else\\n  {\\n    v_color = vec4(1.0, 0.0, 0.0, 1);\\n  }\\n  \\n  gl_PointSize = snd * 35.0;\\n  \\n  \\n  //gl_PointSize = 5.0 + (0.5 + sin(posX * posY * 10.0 + time * 2.0) * 0.5) * 20.0;\\n}\"}",
+  "settings": {
+    "num": 600,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/industrialpope/pferdloss",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 4.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 5.0\n\nvoid main() \n{\n  vec2 coords;\n  coords.x = mod(vertexId, 30.0);\n  coords.y = floor(vertexId / 30.0);\n  \n  float u = 1.0 / 30.0 * coords.x;\n  float v = 1.0 / 20.0 * coords.y;\n  \n\n  //  float historyX = u * 1.0;\n  //float historyV = (v * numLinesDown + 0.5) / soundRes.y;\n  \n  float historyX = sin((u * 0.5)/ soundRes.y * soundRes.y) * 0.8;\n  float historyV = cos((v * 0.5) / soundRes.x * soundRes.x) * .8;\n  \n  float snd = texture2D(sound, vec2(historyX, historyV)).a;\n\n  float posX = -0.7 + ((1.4 / 30.0) * coords.x);\n  posX += sin(time) * 0.1;\n  \n  float posY = -0.7 + (1.4 / 20.0) * coords.y;\n  posY += sin(time + coords.x * 0.1) * 0.1;\n  \n  float posZ = -1.0;//sin(coords.x + time);\n  \n  gl_Position = vec4(posX, posY, posZ, 1);\n\n  if(coords.x > 8. && coords.x < 12. ||\n     coords.y > 8. && coords.y < 12. )\n  {\n    v_color = vec4(1.0, 1.0, 1.0, 1);\n  }\n  else\n  {\n    v_color = vec4(1.0, 0.0, 0.0, 1);\n  }\n  \n  gl_PointSize = snd * 35.0;\n  \n  \n  //gl_PointSize = 5.0 + (0.5 + sin(posX * posY * 10.0 + time * 2.0) * 0.5) * 20.0;\n}"
+  },
   "screenshotURL": "data/images/images-zg0rly956jm5h8ehw-thumbnail.jpg",
   "hasSound": true,
   "views": {

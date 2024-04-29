@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "junkyo",
   "avatarUrl": "https://lh5.googleusercontent.com/-kvoS5qzQr_A/AAAAAAAAAAI/AAAAAAAAACQ/FspBlgMeblI/photo.jpg",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.08627450980392157,0.043137254901960784,0.10588235294117647,1],\"shader\":\"void main(){\\n\\n  \\n  float across = 10.;\\n  \\n  float x = mod(vertexId,across);  \\n  float y = floor(vertexId / across);  \\n  \\n  float  u = x / across;\\n  float  v = y / across;\\n  \\n  gl_Position = vec4(u, v, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1,0,0,1);\\n  \\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.08627450980392157,
+      0.043137254901960784,
+      0.10588235294117647,
+      1
+    ],
+    "shader": "void main(){\n\n  \n  float across = 10.;\n  \n  float x = mod(vertexId,across);  \n  float y = floor(vertexId / across);  \n  \n  float  u = x / across;\n  float  v = y / across;\n  \n  gl_Position = vec4(u, v, 0, 1);\n  \n  gl_PointSize = 10.0;\n  \n  v_color = vec4(1,0,0,1);\n  \n}"
+  },
   "screenshotURL": "data/images/images-jw0i60oj7iccbs2ni-thumbnail.jpg",
   "hasSound": "",
   "views": {

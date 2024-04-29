@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "chrisc",
   "avatarUrl": "https://secure.gravatar.com/avatar/28c173c669316a6cf7fe577bf30531ba?default=retro&size=200",
-  "settings": "{\"num\":20074,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"uniform mat4 transform;\\nuniform mat3 normalMatrix;\\nuniform vec3 lightNormal;\\n\\nattribute vec4 position;\\nattribute vec4 color;\\nattribute vec3 normal;\\n\\nvarying vec4 vertColor;\\nvarying vec3 vertNormal;\\nvarying vec3 vertLightDir;\\n\\nvoid main() {\\n  gl_Position = transform * position;\\n  vertColor = color;\\n  vertNormal = normalize(normalMatrix * normal);\\n  vertLightDir = -lightNormal;\\n}\"}",
+  "settings": {
+    "num": 20074,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "uniform mat4 transform;\nuniform mat3 normalMatrix;\nuniform vec3 lightNormal;\n\nattribute vec4 position;\nattribute vec4 color;\nattribute vec3 normal;\n\nvarying vec4 vertColor;\nvarying vec3 vertNormal;\nvarying vec3 vertLightDir;\n\nvoid main() {\n  gl_Position = transform * position;\n  vertColor = color;\n  vertNormal = normalize(normalMatrix * normal);\n  vertLightDir = -lightNormal;\n}"
+  },
   "screenshotURL": "data/images/images-do7vedcz6djobcqbk-thumbnail.jpg",
   "hasSound": "",
   "views": {

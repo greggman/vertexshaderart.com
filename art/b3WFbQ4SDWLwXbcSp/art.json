@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":1000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define WIDTH 20.\\n#define SPACING 20.\\n#define LINE_LENGTH 10.\\n\\n/*\\n\\nNote that every line is perpendicular to (\\\"facing\\\") the mouse\\n\\n*/\\n\\nvec2 field(vec2 pos) {\\n  // just for easier readability\\n  float x = pos.x;\\n  float y = pos.y;\\n  \\n  // vector field mapping\\n  return vec2(\\n    -y,\\n    x\\n  );\\n}\\n\\nvoid main() {\\n  // droplet grid positioning\\n  float x = floor(floor(vertexId/2.) / WIDTH) / SPACING;\\n  float y = mod(floor(vertexId/2.), WIDTH) / SPACING;\\n  vec2 line_pos = vec2(2.*x - 1.,2.*y - 1.);\\n  \\n  // droplet position in this example\\n  gl_Position = vec4(line_pos.x, line_pos.y, 0,1);\\n  \\n  // apply vector field to the next connecting point\\n  // to demonstrate effect of vector field\\n  if (mod(vertexId, 2.) == 1.) {\\n    \\n    // uses the field to calculate the displacement relative to the mouse's xy\\n    vec2 d = field(line_pos.xy - mouse.xy);\\n    \\n    // apply field calculation to vertex\\n    d = normalize(d) / LINE_LENGTH;\\n    gl_Position += vec4(d.x, d.y, 0,0);\\n  }\\n  \\n  gl_PointSize = 4.;\\n  v_color = vec4(mod(vertexId, 2.),1,1,1);\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define WIDTH 20.\n#define SPACING 20.\n#define LINE_LENGTH 10.\n\n/*\n\nNote that every line is perpendicular to (\"facing\") the mouse\n\n*/\n\nvec2 field(vec2 pos) {\n  // just for easier readability\n  float x = pos.x;\n  float y = pos.y;\n  \n  // vector field mapping\n  return vec2(\n    -y,\n    x\n  );\n}\n\nvoid main() {\n  // droplet grid positioning\n  float x = floor(floor(vertexId/2.) / WIDTH) / SPACING;\n  float y = mod(floor(vertexId/2.), WIDTH) / SPACING;\n  vec2 line_pos = vec2(2.*x - 1.,2.*y - 1.);\n  \n  // droplet position in this example\n  gl_Position = vec4(line_pos.x, line_pos.y, 0,1);\n  \n  // apply vector field to the next connecting point\n  // to demonstrate effect of vector field\n  if (mod(vertexId, 2.) == 1.) {\n    \n    // uses the field to calculate the displacement relative to the mouse's xy\n    vec2 d = field(line_pos.xy - mouse.xy);\n    \n    // apply field calculation to vertex\n    d = normalize(d) / LINE_LENGTH;\n    gl_Position += vec4(d.x, d.y, 0,0);\n  }\n  \n  gl_PointSize = 4.;\n  v_color = vec4(mod(vertexId, 2.),1,1,1);\n}"
+  },
   "screenshotURL": "data/images/images-fwmwqwqtzlc2aq39a-thumbnail.jpg",
   "hasSound": "",
   "views": {

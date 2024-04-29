@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "anuar",
   "avatarUrl": "https://graph.facebook.com/1812741555404077/picture?type=large",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){\\nfloat width = floor(sqrt(vertexCount));\\nfloat x = mod(vertexId,width);\\nfloat y = floor(vertexId/width);\\n\\nfloat u = x/(width - 1.0);\\nfloat v = y/(width - 1.0);\\n\\nfloat xOffset = cos(time + y * .2) *.1;\\nfloat yOffset = cos(time + x * .2) *.1;\\n\\nfloat ux = u*2.0 - 1.0 + xOffset;\\nfloat vy = v*2.0 - 1.0 + yOffset;\\n\\n//vertex id 0 1 2 3 4 ... 10 11 12 ... 20 21 22\\n//mod   X   0 1 2 3 4 ... 0  1  2  ... 0  1  2\\n//floor Y   0 0 0 0 0 ... 1  1  1  ... 2  2  2\\n\\nvec2 xy = vec2(ux,vy)*1.2;\\n\\nfloat sizeOffSet = sin(time + x * y * .2)*5.;\\n\\ngl_Position = vec4(xy, 0.0, 1.0);\\ngl_PointSize = 15.0 + sizeOffSet;\\ngl_PointSize*= 32.0 / width;\\nv_color = vec4(47.0, 211.0, 0.0, 1.0);\\n\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main(){\nfloat width = floor(sqrt(vertexCount));\nfloat x = mod(vertexId,width);\nfloat y = floor(vertexId/width);\n\nfloat u = x/(width - 1.0);\nfloat v = y/(width - 1.0);\n\nfloat xOffset = cos(time + y * .2) *.1;\nfloat yOffset = cos(time + x * .2) *.1;\n\nfloat ux = u*2.0 - 1.0 + xOffset;\nfloat vy = v*2.0 - 1.0 + yOffset;\n\n//vertex id 0 1 2 3 4 ... 10 11 12 ... 20 21 22\n//mod   X   0 1 2 3 4 ... 0  1  2  ... 0  1  2\n//floor Y   0 0 0 0 0 ... 1  1  1  ... 2  2  2\n\nvec2 xy = vec2(ux,vy)*1.2;\n\nfloat sizeOffSet = sin(time + x * y * .2)*5.;\n\ngl_Position = vec4(xy, 0.0, 1.0);\ngl_PointSize = 15.0 + sizeOffSet;\ngl_PointSize*= 32.0 / width;\nv_color = vec4(47.0, 211.0, 0.0, 1.0);\n\n}"
+  },
   "screenshotURL": "data/images/images-6xf6be9n2fduyi78u-thumbnail.jpg",
   "hasSound": true,
   "views": {

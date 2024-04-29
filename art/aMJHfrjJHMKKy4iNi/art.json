@@ -29,7 +29,19 @@
   },
   "private": false,
   "username": "fizzer",
-  "settings": "{\"num\":12849,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//\\nvoid main()\\n{\\n  int vx=int(vertexId/4.),vy=int(mod(vertexId,4.));\\n\\n  vec3 rp=vec3(0.,1.,0.),rd=rp.xzy;\\n  \\n  for(int j=0;j<100000;j++)\\n  {\\n    if(j>vx)\\n      continue;\\n    vec3 n=normalize(rp);\\n    rp=n;\\n    rd=normalize(rd-dot(n,rd)*n);\\n    rd=normalize(rd+cross(n,rd)*(sin(float(j)*.007)*10.+cos(float(j)*.009+float(vy)*0.1)+sin(float(j)*.001+float(vy)))*.05);\\n    rp+=rd*0.02;\\n  }\\n\\n  float xx=mod((time-float(vx)/400.0+floor(time/17.)*17.)*.6,1.);\\n  float ss=mod(vertexId/5.,2.);\\n\\n  vec3 n=normalize(rp);\\n  vec3 pos=rp-n*ss*.002+vec3(0.,-pow(xx,2.+cos(float(vx))*.8),0.)*ss;\\n  float a=time/10.;\\n  pos.xz*=mat2(cos(a),sin(a),-sin(a),cos(a));\\n  pos.z+=3.;\\n\\n  #ifdef FIT_VERTICAL\\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\\n  #else\\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  #endif\\n  \\n  v_color.a=1.;\\n  v_color.rgb=mix(vec3(.2,.5,.6),vec3(.5,.6,1.)*.1,(.5+.5*dot(n,normalize(vec3(1.,1.,0.)))))/xx;\\n\\n  gl_PointSize=4./(1.+xx*4.);\\n  gl_Position=vec4(pos.xy/pos.z*aspect,0,1);\\n}\\n\"}",
+  "settings": {
+    "num": 12849,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//\nvoid main()\n{\n  int vx=int(vertexId/4.),vy=int(mod(vertexId,4.));\n\n  vec3 rp=vec3(0.,1.,0.),rd=rp.xzy;\n  \n  for(int j=0;j<100000;j++)\n  {\n    if(j>vx)\n      continue;\n    vec3 n=normalize(rp);\n    rp=n;\n    rd=normalize(rd-dot(n,rd)*n);\n    rd=normalize(rd+cross(n,rd)*(sin(float(j)*.007)*10.+cos(float(j)*.009+float(vy)*0.1)+sin(float(j)*.001+float(vy)))*.05);\n    rp+=rd*0.02;\n  }\n\n  float xx=mod((time-float(vx)/400.0+floor(time/17.)*17.)*.6,1.);\n  float ss=mod(vertexId/5.,2.);\n\n  vec3 n=normalize(rp);\n  vec3 pos=rp-n*ss*.002+vec3(0.,-pow(xx,2.+cos(float(vx))*.8),0.)*ss;\n  float a=time/10.;\n  pos.xz*=mat2(cos(a),sin(a),-sin(a),cos(a));\n  pos.z+=3.;\n\n  #ifdef FIT_VERTICAL\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\n  #else\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\n  #endif\n  \n  v_color.a=1.;\n  v_color.rgb=mix(vec3(.2,.5,.6),vec3(.5,.6,1.)*.1,(.5+.5*dot(n,normalize(vec3(1.,1.,0.)))))/xx;\n\n  gl_PointSize=4./(1.+xx*4.);\n  gl_Position=vec4(pos.xy/pos.z*aspect,0,1);\n}\n"
+  },
   "screenshotURL": "data/images/images-31qctr6ro2lmh4g2x-thumbnail.jpg",
   "hasSound": "",
   "views": {

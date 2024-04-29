@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "guilleperez",
   "avatarUrl": "https://avatars.githubusercontent.com/guilleperez?s=200",
-  "settings": "{\"num\":62,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() \\n{\\n  float width = 10.0;\\n  \\n  //vertexId = 0, 1, 2, 3, 4, 5\\n  float x = floor(vertexId / 2.0); //0, 0, 1, 1, 2, 2\\n  float y = mod(vertexId + 1.0, 2.0); //1, 0, 1, 0\\n  \\n \\n  float angle = x / 30.0 * radians(360.0);\\n  float r = 2.0 - y;\\n  \\n  float u = r * cos(angle);\\n  float v = r * sin(angle);\\n  \\n  vec2 xy = vec2(u, v) * 0.1; //se puede crear vec4 con vectores 2 -> vec4(xy, 0.0, 1.0);\\n\\n  \\n \\n  gl_Position = vec4(xy, 0.0, 1.0); //position del vec4\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0); //color\\n  gl_PointSize = 20.0;\\n}\"}",
+  "settings": {
+    "num": 62,
+    "mode": "TRI_STRIP",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() \n{\n  float width = 10.0;\n  \n  //vertexId = 0, 1, 2, 3, 4, 5\n  float x = floor(vertexId / 2.0); //0, 0, 1, 1, 2, 2\n  float y = mod(vertexId + 1.0, 2.0); //1, 0, 1, 0\n  \n \n  float angle = x / 30.0 * radians(360.0);\n  float r = 2.0 - y;\n  \n  float u = r * cos(angle);\n  float v = r * sin(angle);\n  \n  vec2 xy = vec2(u, v) * 0.1; //se puede crear vec4 con vectores 2 -> vec4(xy, 0.0, 1.0);\n\n  \n \n  gl_Position = vec4(xy, 0.0, 1.0); //position del vec4\n  v_color = vec4(1.0, 0.0, 0.0, 1.0); //color\n  gl_PointSize = 20.0;\n}"
+  },
   "screenshotURL": "data/images/images-ie8wy3m53r6l938qc-thumbnail.jpg",
   "hasSound": true,
   "views": {

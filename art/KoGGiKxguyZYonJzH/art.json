@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "w.chae",
   "avatarUrl": "https://secure.gravatar.com/avatar/e33886e1d2ddd9c8199ae2b5bbb15df9?default=retro&size=200",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Wonhyeong Chae\\n// Exercise Making A Grid\\n// CS250 Spring 2022\\n\\nvoid main() {\\nfloat down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId/across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0., 1.);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  float colorModRed = abs(sin(time * 0.5));\\n  float colorModGreen = abs(tan(time * 0.5));\\n  float colorModBlue = abs(cos(time * 0.5));\\n  \\n  v_color = vec4(colorModRed, colorModGreen, colorModBlue, 1.0);\\n\\n  \\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// Wonhyeong Chae\n// Exercise Making A Grid\n// CS250 Spring 2022\n\nvoid main() {\nfloat down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount/down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId/across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux, vy, 0., 1.);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  float colorModRed = abs(sin(time * 0.5));\n  float colorModGreen = abs(tan(time * 0.5));\n  float colorModBlue = abs(cos(time * 0.5));\n  \n  v_color = vec4(colorModRed, colorModGreen, colorModBlue, 1.0);\n\n  \n}"
+  },
   "screenshotURL": "data/images/images-465o0gyaacj7yqh76-thumbnail.jpg",
   "hasSound": "",
   "views": {

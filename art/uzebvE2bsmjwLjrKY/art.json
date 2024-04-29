@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":10000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"uniform mat4 modelview;\\nuniform mat4 transform;\\nuniform mat3 normalMatrix;\\n\\nuniform vec4 lightPosition;\\n\\nattribute vec4 vertex;\\nattribute vec4 color;\\nattribute vec3 normal;\\n\\nvarying vec4 vertColor;\\n\\nvoid main() {\\n  gl_Position = transform * vertex;\\n  vec3 ecPosition = vec3(modelview * vertex);\\n\\n  vec3 ecNormal = normalize(normalMatrix * normal);\\n\\n  vec3 direction = normalize(lightPosition.xyz - ecPosition);\\n  float intensity = max(0.0, dot(direction, ecNormal));\\n  vertColor = vec4(intensity, intensity, intensity, 1) * color;\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "uniform mat4 modelview;\nuniform mat4 transform;\nuniform mat3 normalMatrix;\n\nuniform vec4 lightPosition;\n\nattribute vec4 vertex;\nattribute vec4 color;\nattribute vec3 normal;\n\nvarying vec4 vertColor;\n\nvoid main() {\n  gl_Position = transform * vertex;\n  vec3 ecPosition = vec3(modelview * vertex);\n\n  vec3 ecNormal = normalize(normalMatrix * normal);\n\n  vec3 direction = normalize(lightPosition.xyz - ecPosition);\n  float intensity = max(0.0, dot(direction, ecNormal));\n  vertColor = vec4(intensity, intensity, intensity, 1) * color;\n}"
+  },
   "screenshotURL": "data/images/images-15gwsc7qd60g0avm9-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "benjamin",
   "avatarUrl": "https://lh5.googleusercontent.com/-TspaDzxOSSM/AAAAAAAAAAI/AAAAAAAABnc/aiT2HEkNbJo/photo.jpg",
-  "settings": "{\"num\":34504,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.5019607843137255,1,1],\"shader\":\"\\n\\nvoid main() {\\n  \\tfloat across = 7.;\\n  \\n\\tfloat x = mod(vertexId, across);\\n    float y = floor(vertexId / across);\\n  \\n  \\tfloat u = x / 10.;\\n    float v = y / 10.;\\n  \\n    gl_Position = vec4(u, v, 0, 1.0);\\n  \\tv_color = vec4(1,0,0,1);\\n\\n}\\n\"}",
+  "settings": {
+    "num": 34504,
+    "mode": "LINE_STRIP",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0.5019607843137255,
+      1,
+      1
+    ],
+    "shader": "\n\nvoid main() {\n  \tfloat across = 7.;\n  \n\tfloat x = mod(vertexId, across);\n    float y = floor(vertexId / across);\n  \n  \tfloat u = x / 10.;\n    float v = y / 10.;\n  \n    gl_Position = vec4(u, v, 0, 1.0);\n  \tv_color = vec4(1,0,0,1);\n\n}\n"
+  },
   "screenshotURL": "data/images/images-1aq8c033lqv78fzft-thumbnail.jpg",
   "hasSound": true,
   "views": {

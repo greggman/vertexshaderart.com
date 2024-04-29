@@ -20,7 +20,19 @@
   "origId": null,
   "name": "lorenz attractor",
   "username": "xt95",
-  "settings": "{\"num\":6079,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/melokind/klangtherapeuten-perlentaucher\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.07058823529411765,0.07450980392156863,0.06666666666666667,1],\"shader\":\"const float PI = 3.14159265;\\nfloat hash( float n ) { return fract(sin(n)*753.5453123); }\\nvec3 project(vec3 p) { return vec3(p.xy / p.z, p.z); }\\n\\nvoid main()\\n{\\n  float id = float(vertexId)/7602.;\\n  \\n  vec3 p = vec3(.1);\\n  //Lorenz attractor\\n  if(vertexId>2000.)\\n  {\\n  float snd = texture2D(sound, vec2(1./128.,.0)).a;\\n  float\\ta = -0.966918-snd,b = 2.879879+pow(snd,4.),c = 0.765145,d = 0.744728;\\n    for(int i=2000; i<7000; i++)\\n    {\\n        if(i<int(vertexId))\\n        {\\n          float x = sin(p.y*b) + c*sin(p.x*b);\\n          float y = sin(p.x*a) + d*sin(p.y*a);\\n          p.x = x;\\n          p.y = y;\\n        }\\n    }\\n    p *= .3;\\n  \\tv_color = vec4(cos(snd*30.)*.5+.5, sin(vertexId)*.3+.5, cos(vertexId*2.)*.2+.2, 1)*2.;\\n  \\tgl_Position = vec4((p), 1);\\n  \\tgl_PointSize=length(p.xy)*8.+.2;\\n  }\\n  else //Starfield\\n  {\\n    p.x = hash(vertexId)*4.-2.;\\n    p.y = hash(vertexId*.5)*4.-2.;\\n    p.z = -mod( hash(vertexId*.25)*10.-time*hash(vertexId*.25), 10.);\\n    p = project(p);\\n  \\tv_color = vec4(cos(vertexId)*.3+.7, sin(vertexId)*.2+.5, cos(vertexId*2.)*.1+.1, 1)*.5;\\n  \\tgl_Position = vec4(p.xy,0., 1);\\n  \\tgl_PointSize=1./pow(p.z,1.2)+3.*pow(length(p.xy),2.)*5.;\\n  }\\n  \\n}\\n\\n\"}",
+  "settings": {
+    "num": 6079,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/melokind/klangtherapeuten-perlentaucher",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.07058823529411765,
+      0.07450980392156863,
+      0.06666666666666667,
+      1
+    ],
+    "shader": "const float PI = 3.14159265;\nfloat hash( float n ) { return fract(sin(n)*753.5453123); }\nvec3 project(vec3 p) { return vec3(p.xy / p.z, p.z); }\n\nvoid main()\n{\n  float id = float(vertexId)/7602.;\n  \n  vec3 p = vec3(.1);\n  //Lorenz attractor\n  if(vertexId>2000.)\n  {\n  float snd = texture2D(sound, vec2(1./128.,.0)).a;\n  float\ta = -0.966918-snd,b = 2.879879+pow(snd,4.),c = 0.765145,d = 0.744728;\n    for(int i=2000; i<7000; i++)\n    {\n        if(i<int(vertexId))\n        {\n          float x = sin(p.y*b) + c*sin(p.x*b);\n          float y = sin(p.x*a) + d*sin(p.y*a);\n          p.x = x;\n          p.y = y;\n        }\n    }\n    p *= .3;\n  \tv_color = vec4(cos(snd*30.)*.5+.5, sin(vertexId)*.3+.5, cos(vertexId*2.)*.2+.2, 1)*2.;\n  \tgl_Position = vec4((p), 1);\n  \tgl_PointSize=length(p.xy)*8.+.2;\n  }\n  else //Starfield\n  {\n    p.x = hash(vertexId)*4.-2.;\n    p.y = hash(vertexId*.5)*4.-2.;\n    p.z = -mod( hash(vertexId*.25)*10.-time*hash(vertexId*.25), 10.);\n    p = project(p);\n  \tv_color = vec4(cos(vertexId)*.3+.7, sin(vertexId)*.2+.5, cos(vertexId*2.)*.1+.1, 1)*.5;\n  \tgl_Position = vec4(p.xy,0., 1);\n  \tgl_PointSize=1./pow(p.z,1.2)+3.*pow(length(p.xy),2.)*5.;\n  }\n  \n}\n\n"
+  },
   "screenshotDataId": "53L7GzyWt2harq8vN",
   "views": {
     "$numberInt": "1521"

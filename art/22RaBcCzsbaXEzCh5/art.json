@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "jeminshin2",
   "avatarUrl": "https://avatars.githubusercontent.com/JeminShin2?s=200",
-  "settings": "{\"num\":10000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Jemin.Shin\\n// Exercise Making A Grid\\n// CS250 Spring 2022\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId/across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux * sin(time), vy * cos(time), 0., 0.5);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20./across;\\n  gl_PointSize *= resolution.x / 400.;\\n  \\n  \\n  v_color = vec4(1,0,0,1);\\n  \\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// Jemin.Shin\n// Exercise Making A Grid\n// CS250 Spring 2022\n\nvoid main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount/down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId/across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux * sin(time), vy * cos(time), 0., 0.5);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20./across;\n  gl_PointSize *= resolution.x / 400.;\n  \n  \n  v_color = vec4(1,0,0,1);\n  \n}"
+  },
   "screenshotURL": "data/images/images-d2fsmpwp2mvlmqnit-thumbnail.jpg",
   "hasSound": "",
   "views": {

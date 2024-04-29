@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "tapos",
   "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLcSqwSc82VQduMzLtVzzfGNr9fy1Y-vHBpYEpqyKQiDA=s96-c",
-  "settings": "{\"num\":27013,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_SEGMENTS 128.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n#define NUM_LINES_DOWN 64.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  // produces 0,1, 1,2, 2,3, ...\\n  float point = floor(mod(vertexId, NUM_POINTS) / 2.0) + mod(vertexId, 2.0) * STEP;\\n  // line count\\n  float count = floor(vertexId / NUM_POINTS);\\n\\n  float u = point / NUM_SEGMENTS;    // 0 <-> 1 across line\\n  float v = count / NUM_LINES_DOWN;  // 0 <-> 1 by line\\n  float invV = 1.0 - v;\\n\\n  // Only use the left most 1/4th of the sound texture\\n  // because there's no action on the right\\n  float historyX = u * 0.5;\\n  // Match each line to a specific row in the sound texture\\n  float historyV = (v * NUM_LINES_DOWN) / soundRes.y;\\n  float snd = texture2D(sound, vec2(historyX, historyV)).r;\\n\\n  //\\n  float x = u * 3.0 - 1.5;\\n  float y = v * 2.0 - 1.0;\\n  vec2 xy = vec2(\\n      x * mix(0.5, 1.0, invV),\\n      y + pow(snd, 4.5) * 1.0) / (v + 0.5);\\n  gl_Position = vec4(xy * 0.25, 0, 1);\\n\\n  float hue = u;\\n  float sat = invV + 1.2;\\n  float val = invV;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "settings": {
+    "num": 27013,
+    "mode": "LINES",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define NUM_SEGMENTS 128.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n#define NUM_LINES_DOWN 64.0\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  // produces 0,1, 1,2, 2,3, ...\n  float point = floor(mod(vertexId, NUM_POINTS) / 2.0) + mod(vertexId, 2.0) * STEP;\n  // line count\n  float count = floor(vertexId / NUM_POINTS);\n\n  float u = point / NUM_SEGMENTS;    // 0 <-> 1 across line\n  float v = count / NUM_LINES_DOWN;  // 0 <-> 1 by line\n  float invV = 1.0 - v;\n\n  // Only use the left most 1/4th of the sound texture\n  // because there's no action on the right\n  float historyX = u * 0.5;\n  // Match each line to a specific row in the sound texture\n  float historyV = (v * NUM_LINES_DOWN) / soundRes.y;\n  float snd = texture2D(sound, vec2(historyX, historyV)).r;\n\n  //\n  float x = u * 3.0 - 1.5;\n  float y = v * 2.0 - 1.0;\n  vec2 xy = vec2(\n      x * mix(0.5, 1.0, invV),\n      y + pow(snd, 4.5) * 1.0) / (v + 0.5);\n  gl_Position = vec4(xy * 0.25, 0, 1);\n\n  float hue = u;\n  float sat = invV + 1.2;\n  float val = invV;\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\n}"
+  },
   "screenshotURL": "data/images/images-frzk4yk01xlfyoide-thumbnail.jpg",
   "hasSound": true,
   "views": {

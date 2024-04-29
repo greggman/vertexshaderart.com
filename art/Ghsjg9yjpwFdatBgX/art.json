@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "demoniak",
   "avatarUrl": "https://avatars.githubusercontent.com/johanberonius?s=200",
-  "settings": "{\"num\":54268,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/robundchris/eminem-vs-zombie-nation-without-kernkraft-400-rob-chris-bootleg\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\nvoid main() {\\n  \\n  float aspect = resolution.x / resolution.y;\\n\\n  float cPoints = 64.;\\n  float circles = ceil(vertexCount / cPoints);\\n  float cId = floor(vertexId / cPoints);\\n  float cNorm = cId / circles;\\n  float vId = mod(vertexId, cPoints);\\n  \\n\\n  float a = 2. * PI * vId / (cPoints - 1.);\\n\\n  float snd = pow(texture2D(sound, vec2(0.05, cNorm * .125)).a, 4.);\\n  \\n  float rad = 0.05 + 0.1 * (1. - cNorm) + sin(a * 10.) * (0.05 + 0.3 * snd);\\n  float x = sin(a) * rad;\\n  float y = cos(a) * rad;\\n  \\n  \\n  x += sin(time * 1.23 + cId / 133.3) * .3;\\n  y += cos(time * 1.09 - cId / 159.2) * .3 / aspect;\\n  \\n  x += sin(time * 1.31 + cId / 171.3) * .4;\\n  y += cos(time * 1.49 - cId / 147.2) * .4 / aspect;\\n  \\n\\n  gl_Position = vec4(x, y * aspect, 0, 1);\\n  \\n  float r = sin(time * 1.42 - cNorm * 8.) * .5 + .5;\\n  float g = sin(time * 1.27 + a) * .5 + .5;\\n  float b =  sin(time * 1.12 + cNorm * 6.) * .5 + .5;\\n\\n  v_color = vec4(r, g, b, 1);\\n}\"}",
+  "settings": {
+    "num": 54268,
+    "mode": "LINE_STRIP",
+    "sound": "https://soundcloud.com/robundchris/eminem-vs-zombie-nation-without-kernkraft-400-rob-chris-bootleg",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n\nvoid main() {\n  \n  float aspect = resolution.x / resolution.y;\n\n  float cPoints = 64.;\n  float circles = ceil(vertexCount / cPoints);\n  float cId = floor(vertexId / cPoints);\n  float cNorm = cId / circles;\n  float vId = mod(vertexId, cPoints);\n  \n\n  float a = 2. * PI * vId / (cPoints - 1.);\n\n  float snd = pow(texture2D(sound, vec2(0.05, cNorm * .125)).a, 4.);\n  \n  float rad = 0.05 + 0.1 * (1. - cNorm) + sin(a * 10.) * (0.05 + 0.3 * snd);\n  float x = sin(a) * rad;\n  float y = cos(a) * rad;\n  \n  \n  x += sin(time * 1.23 + cId / 133.3) * .3;\n  y += cos(time * 1.09 - cId / 159.2) * .3 / aspect;\n  \n  x += sin(time * 1.31 + cId / 171.3) * .4;\n  y += cos(time * 1.49 - cId / 147.2) * .4 / aspect;\n  \n\n  gl_Position = vec4(x, y * aspect, 0, 1);\n  \n  float r = sin(time * 1.42 - cNorm * 8.) * .5 + .5;\n  float g = sin(time * 1.27 + a) * .5 + .5;\n  float b =  sin(time * 1.12 + cNorm * 6.) * .5 + .5;\n\n  v_color = vec4(r, g, b, 1);\n}"
+  },
   "screenshotURL": "data/images/images-ow4oujnbbj9fs8imk-thumbnail.jpg",
   "hasSound": true,
   "views": {

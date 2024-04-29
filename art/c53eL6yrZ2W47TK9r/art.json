@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "dertrackererpro",
   "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg",
-  "settings": "{\"num\":700,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define VERTEX_SPEED 0.5\\n\\nvoid main () {\\n  vec3 pos = vec3(cos(VERTEX_SPEED*time+(vertexId))*1.3, ((vertexId/(vertexCount-1.0))-0.5)*2.0, 0.0);\\n  vec3 clr = vec3(pos.x, pos.y, -pos.y)+0.2;\\n  \\n  gl_PointSize = 15.0;\\n  gl_Position = vec4(pos, 1.0);\\n  v_color = vec4(clr, 1.0);\\n}\"}",
+  "settings": {
+    "num": 700,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define VERTEX_SPEED 0.5\n\nvoid main () {\n  vec3 pos = vec3(cos(VERTEX_SPEED*time+(vertexId))*1.3, ((vertexId/(vertexCount-1.0))-0.5)*2.0, 0.0);\n  vec3 clr = vec3(pos.x, pos.y, -pos.y)+0.2;\n  \n  gl_PointSize = 15.0;\n  gl_Position = vec4(pos, 1.0);\n  v_color = vec4(clr, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-y7dt8bhwiqgbpdcvr-thumbnail.jpg",
   "hasSound": true,
   "views": {

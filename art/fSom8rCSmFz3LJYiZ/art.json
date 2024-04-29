@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "seiji",
   "avatarUrl": "https://lh4.googleusercontent.com/-RS-S20_LZCc/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nAdcRXz-a14kGVDL4kr6M38jRz17A/photo.jpg",
-  "settings": "{\"num\":421,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\n\\nvoid main() {\\n  int num = 5;\\t\\n  \\n  \\n  \\n  if(num == 1){\\n\\t//gl_Position = vec4(sin(time/vertexId), sin(time*vertexId),0.5,1.0);\\n  }\\n  else if(num == 2) {\\n    gl_Position = vec4(sin(vertexId/(cos(time)*100.0))/1.2, \\n                   -1.0+cos(time)+ cos(vertexId/200.0)/1.5,0.0,1.0);\\n  }\\n  else if(num == 3) {\\n    gl_Position = vec4(sin(vertexId),cos(vertexId),0.0,1.0);\\n  }\\n  else if(num == 4) {\\n    gl_Position = vec4(sin(time),1.0-acos(cos(time)),0.0,1.0);\\n  }\\n  \\n  else if(num == 5) {\\n    gl_Position = vec4(cos(vertexId),sin(vertexId),0.0,1.0);\\n  }\\n\\n  gl_PointSize = sin(time)*vertexId/5.0; \\n  \\n  \\n  v_color = vec4(vertexId/500.0,vertexId/255.0,0.5,1);\\n}\"}",
+  "settings": {
+    "num": 421,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n\n\nvoid main() {\n  int num = 5;\t\n  \n  \n  \n  if(num == 1){\n\t//gl_Position = vec4(sin(time/vertexId), sin(time*vertexId),0.5,1.0);\n  }\n  else if(num == 2) {\n    gl_Position = vec4(sin(vertexId/(cos(time)*100.0))/1.2, \n                   -1.0+cos(time)+ cos(vertexId/200.0)/1.5,0.0,1.0);\n  }\n  else if(num == 3) {\n    gl_Position = vec4(sin(vertexId),cos(vertexId),0.0,1.0);\n  }\n  else if(num == 4) {\n    gl_Position = vec4(sin(time),1.0-acos(cos(time)),0.0,1.0);\n  }\n  \n  else if(num == 5) {\n    gl_Position = vec4(cos(vertexId),sin(vertexId),0.0,1.0);\n  }\n\n  gl_PointSize = sin(time)*vertexId/5.0; \n  \n  \n  v_color = vec4(vertexId/500.0,vertexId/255.0,0.5,1);\n}"
+  },
   "screenshotURL": "data/images/images-b37b8fccowmjbzl3q-thumbnail.jpg",
   "hasSound": "",
   "views": {

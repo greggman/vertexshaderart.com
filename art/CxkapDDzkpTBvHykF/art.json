@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "megaloler",
   "avatarUrl": "https://avatars.githubusercontent.com/MegaLoler?s=200",
-  "settings": "{\"num\":4240,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define TAU radians(360.)\\nvoid main() {\\n  \\n  float aspect = resolution.x / resolution.y;\\n  float width = aspect * 2.;\\n  \\n  float across = vertexCount;\\n  float id = vertexId;\\n  float rawX = id / across;\\n  float x = rawX * width - aspect;\\n  float amp0 = texture2D(sound, vec2(0., 0.)).a;\\n  float amp = texture2D(sound, vec2(mix(0., 0.75, rawX), 0.)).a;\\n  float freq = pow(x / 5., mix(amp0, 2., 3.0));\\n  float y = sin((x + time) * PI * freq) * amp;\\n  \\n  gl_Position = vec4(x/aspect, y, 0, 1);\\n  v_color = vec4(1, 1, 1, 1);\\n}\"}",
+  "settings": {
+    "num": 4240,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define TAU radians(360.)\nvoid main() {\n  \n  float aspect = resolution.x / resolution.y;\n  float width = aspect * 2.;\n  \n  float across = vertexCount;\n  float id = vertexId;\n  float rawX = id / across;\n  float x = rawX * width - aspect;\n  float amp0 = texture2D(sound, vec2(0., 0.)).a;\n  float amp = texture2D(sound, vec2(mix(0., 0.75, rawX), 0.)).a;\n  float freq = pow(x / 5., mix(amp0, 2., 3.0));\n  float y = sin((x + time) * PI * freq) * amp;\n  \n  gl_Position = vec4(x/aspect, y, 0, 1);\n  v_color = vec4(1, 1, 1, 1);\n}"
+  },
   "screenshotURL": "data/images/images-cl80fkkazvusepcc4-thumbnail.jpg",
   "hasSound": true,
   "views": {

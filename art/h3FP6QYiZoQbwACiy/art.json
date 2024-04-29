@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "leonzh2k",
   "avatarUrl": "https://avatars.githubusercontent.com/leonzh2k?s=200",
-  "settings": "{\"num\":16384,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  gl_Position = vec4(0, 0, 0, 1);\\n  gl_PointSize = 10.0;\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 16384,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  \n  gl_Position = vec4(0, 0, 0, 1);\n  gl_PointSize = 10.0;\n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-imgr23eov7ch5ye84-thumbnail.jpg",
   "hasSound": "",
   "views": {

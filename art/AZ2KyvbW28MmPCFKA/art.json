@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "rlmp",
   "avatarUrl": "https://lh5.googleusercontent.com/-1YJFhJaN2os/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nBxbo3PsL2Sc2M4RzI-xvJgVZlbxg/photo.jpg",
-  "settings": "{\"num\":13087,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.15294117647058825,0.12941176470588237,0.43529411764705883,1],\"shader\":\"void main() {\\n  float down= floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId /across);\\n  float u = x/(across-1.);\\n  float v = y/(across-1.);\\n  \\n  \\n  float xoff = sin(time+y*0.1) * 0.5 ;\\n  float yoff = cos(time+x*0.2)*0.05;\\n  \\n  float ux = 2.*u-1.+xoff;\\n  float vy = 2.*v-1.+yoff;\\n  \\n  vec2 xy = vec2(ux,vy)*0.8;\\n    \\n  gl_Position = vec4(xy,0,1);\\n  \\n  gl_PointSize = 10.0 +sin(time)+cos(y*x*0.5)*5.;\\n  gl_PointSize*=20./across;\\n  gl_PointSize*=resolution.x/600.;\\n  \\n  v_color = vec4(1,0,0,1)\\n\\n}  \"}",
+  "settings": {
+    "num": 13087,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.15294117647058825,
+      0.12941176470588237,
+      0.43529411764705883,
+      1
+    ],
+    "shader": "void main() {\n  float down= floor(sqrt(vertexCount));\n  float across = floor(vertexCount/down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId /across);\n  float u = x/(across-1.);\n  float v = y/(across-1.);\n  \n  \n  float xoff = sin(time+y*0.1) * 0.5 ;\n  float yoff = cos(time+x*0.2)*0.05;\n  \n  float ux = 2.*u-1.+xoff;\n  float vy = 2.*v-1.+yoff;\n  \n  vec2 xy = vec2(ux,vy)*0.8;\n    \n  gl_Position = vec4(xy,0,1);\n  \n  gl_PointSize = 10.0 +sin(time)+cos(y*x*0.5)*5.;\n  gl_PointSize*=20./across;\n  gl_PointSize*=resolution.x/600.;\n  \n  v_color = vec4(1,0,0,1)\n\n}  "
+  },
   "screenshotURL": "data/images/images-pyo2mxqcyvshtdmig-thumbnail.jpg",
   "hasSound": true,
   "views": {

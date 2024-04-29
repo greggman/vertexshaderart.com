@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "byungchan.park",
   "avatarUrl": "https://secure.gravatar.com/avatar/424f43cf40258729598fe64824076748?default=retro&size=200",
-  "settings": "{\"num\":624,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//name        : Byungchan Park\\n//assignment  : Exercise - Vertexshaderart : Making a Grid, own variation\\n//course name : CS250\\n//term        : Spring 2023\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux * cos(time/4.) ,vy * cos(time), 0,1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n  v_color += vec4(ux * cos(time),vy * cos(time * 2.), u * cos(time * 3.),1);\\n  \\n}\"}",
+  "settings": {
+    "num": 624,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//name        : Byungchan Park\n//assignment  : Exercise - Vertexshaderart : Making a Grid, own variation\n//course name : CS250\n//term        : Spring 2023\n\nvoid main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount/down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux * cos(time/4.) ,vy * cos(time), 0,1);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20.0 / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  v_color = vec4(1, 0, 0, 1);\n  v_color += vec4(ux * cos(time),vy * cos(time * 2.), u * cos(time * 3.),1);\n  \n}"
+  },
   "screenshotURL": "data/images/images-p0441clrslbiupp9y-thumbnail.jpg",
   "hasSound": "",
   "views": {

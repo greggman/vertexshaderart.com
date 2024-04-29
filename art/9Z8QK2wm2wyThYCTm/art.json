@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":3,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  //float width = 10.0;\\n  \\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId + 1.0, 2.0);\\n  \\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 1.0;\\n  \\n  /*float width = 20.0;\\n  \\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.1;\\n  float yOffset = sin(time + x * 0.3) * 0.1;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float uy = v * 2.0 - 1.0 + yOffset;\\n    \\n  vec2 xy = vec2(ux, uy) * 1.2;\\n    \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 10.0;*/\\n}\\n\\n\\n\"}",
+  "settings": {
+    "num": 3,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main()\n{\n  //float width = 10.0;\n  \n  float x = floor(vertexId / 2.0);\n  float y = mod(vertexId + 1.0, 2.0);\n  \n  gl_Position = vec4(x, y, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n  gl_PointSize = 1.0;\n  \n  /*float width = 20.0;\n  \n  float x = mod(vertexId, width);\n  float y = floor(vertexId / width);\n  \n  float u = x / (width - 1.0);\n  float v = y / (width - 1.0);\n  \n  float xOffset = cos(time + y * 0.2) * 0.1;\n  float yOffset = sin(time + x * 0.3) * 0.1;\n  \n  float ux = u * 2.0 - 1.0 + xOffset;\n  float uy = v * 2.0 - 1.0 + yOffset;\n    \n  vec2 xy = vec2(ux, uy) * 1.2;\n    \n  gl_Position = vec4(xy, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n  gl_PointSize = 10.0;*/\n}\n\n\n"
+  },
   "screenshotURL": "data/images/images-vi971qnbauumrvml3-thumbnail.jpg",
   "hasSound": "",
   "views": {

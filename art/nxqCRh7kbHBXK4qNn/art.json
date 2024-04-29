@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":843,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"float h(float p)\\n{\\n    return fract(fract(p * 7.3983) * fract(p * .4427) * 95.4337);\\n}\\n\\nvec2 r(vec2 p, float a)\\n{\\n    return vec2(-1, 1) * p.yx * sin(a) + p.xy * cos(a);\\n}\\n\\nvoid main()\\n{\\n    float t = time;\\n    float o = resolution.x / resolution.y;\\n    float s = vertexId + t;\\n\\n    vec3 b = abs((fract(vec3(.95, .5, .125) * t) - .5) * 2.);\\n    vec3 u = 1. - step(.5, b) * 2.;\\n    vec3 a = (pow(vec3(2.), (40. * b - 20.) * u) * u - u + 1.) * .5;\\n\\n    vec3 p = vec3(h(s), h(s * .731), h(s * 5.319)) * 2. - 1.;\\n    vec3 d = 1. - step(vec3(1, 2, 3), vec3(h(s * 0.911) * 3.));\\n    vec3 v = d - vec3(0, d.xy);\\n\\n    p = mix(step(0., p) * 2. - 1., p, mix(1. - v, v, a.y));\\n    p *= mix(1. / length(p), 1., dot(a, p) * a.z - sin(t * .2) * 2. * (a.x + .5));\\n    p.xy = r(p.xy, t * .2 + a.x * .2);\\n    p.xz = r(p.xz, t * .3 + a.y);\\n\\n    v_color = vec4(a * .8 + .2, 1.);\\n    gl_Position = vec4(p.x, p.y * o, p.z, p.z + 5.);\\n    gl_PointSize = 2.;\\n}\"}",
+  "settings": {
+    "num": 843,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "float h(float p)\n{\n    return fract(fract(p * 7.3983) * fract(p * .4427) * 95.4337);\n}\n\nvec2 r(vec2 p, float a)\n{\n    return vec2(-1, 1) * p.yx * sin(a) + p.xy * cos(a);\n}\n\nvoid main()\n{\n    float t = time;\n    float o = resolution.x / resolution.y;\n    float s = vertexId + t;\n\n    vec3 b = abs((fract(vec3(.95, .5, .125) * t) - .5) * 2.);\n    vec3 u = 1. - step(.5, b) * 2.;\n    vec3 a = (pow(vec3(2.), (40. * b - 20.) * u) * u - u + 1.) * .5;\n\n    vec3 p = vec3(h(s), h(s * .731), h(s * 5.319)) * 2. - 1.;\n    vec3 d = 1. - step(vec3(1, 2, 3), vec3(h(s * 0.911) * 3.));\n    vec3 v = d - vec3(0, d.xy);\n\n    p = mix(step(0., p) * 2. - 1., p, mix(1. - v, v, a.y));\n    p *= mix(1. / length(p), 1., dot(a, p) * a.z - sin(t * .2) * 2. * (a.x + .5));\n    p.xy = r(p.xy, t * .2 + a.x * .2);\n    p.xz = r(p.xz, t * .3 + a.y);\n\n    v_color = vec4(a * .8 + .2, 1.);\n    gl_Position = vec4(p.x, p.y * o, p.z, p.z + 5.);\n    gl_PointSize = 2.;\n}"
+  },
   "screenshotURL": "data/images/images-p9gppiaro099sb4fv-thumbnail.jpg",
   "hasSound": "",
   "views": {

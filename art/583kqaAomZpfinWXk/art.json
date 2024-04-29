@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "seongryul.park",
   "avatarUrl": "https://secure.gravatar.com/avatar/335c7306112b8357ec436839f7018115?default=retro&size=200",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// seongryul.park\\n// CS250 spring 2023\\n// Making A Grid\\n\\n\\nvoid main() \\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. * sin(time);\\n  float vy = v * 2. * cos(time);\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  float r = sin(time * 2.);\\n  float g = sin(time * 3.);\\n  float b = sin(time * 4.);\\n  \\n  v_color = vec4(r, g, b, 1);\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// seongryul.park\n// CS250 spring 2023\n// Making A Grid\n\n\nvoid main() \n{\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. * sin(time);\n  float vy = v * 2. * cos(time);\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20.0 / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  float r = sin(time * 2.);\n  float g = sin(time * 3.);\n  float b = sin(time * 4.);\n  \n  v_color = vec4(r, g, b, 1);\n}"
+  },
   "screenshotURL": "data/images/images-rwtmggc73xjfv30hd-thumbnail.jpg",
   "hasSound": true,
   "views": {

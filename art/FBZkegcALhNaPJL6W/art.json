@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "amagitakayosi",
   "avatarUrl": "https://secure.gravatar.com/avatar/14084b6462b19a8512ce5208a76f8925?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad1ca2d3c1d7383c5f34676d7fced9ad",
-  "settings": "{\"num\":3311,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(time * 0.01) + 5.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.00014, 1.0);\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  pow(count * 0.025, 0.8);\\n  float innerRadius = pow(count * 0.0005, 1.2);\\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\\n\\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 10.0);\\n  b = 0.0;mix(0.0, 0.7, b);\\n  \\n  b = 1. - b;\\n  v_color = vec4(b, b, b, 1);\\n}\"}",
+  "settings": {
+    "num": 3311,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvoid main() {\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\n  float count = floor(vertexId / NUM_POINTS);\n  float offset = count * sin(time * 0.01) + 5.0;\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\n  float radius = pow(count * 0.00014, 1.0);\n  float c = cos(angle + time) * radius;\n  float s = sin(angle + time) * radius;\n  float orbitAngle =  pow(count * 0.025, 0.8);\n  float innerRadius = pow(count * 0.0005, 1.2);\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\n\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  vec2 xy = vec2(\n      oC + c,\n      oS + s);\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\n\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 10.0);\n  b = 0.0;mix(0.0, 0.7, b);\n  \n  b = 1. - b;\n  v_color = vec4(b, b, b, 1);\n}"
+  },
   "screenshotURL": "data/images/images-6i3bn1ne0f8fvop5v-thumbnail.jpg",
   "hasSound": "",
   "views": {

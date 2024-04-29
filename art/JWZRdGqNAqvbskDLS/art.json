@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "hyun",
   "avatarUrl": "https://lh6.googleusercontent.com/-85yu5m2ZywQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdO1OKKAqQzlgMFqnpApfbfi4i4Gw/mo/photo.jpg",
-  "settings": "{\"num\":1000,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/*------------------------------------------------------------------------\\nAuthor\\t\\t\\t\\t\\t: Jina Hyun\\nAssignment Name/Number\\t: Shader/3 (Extra Credit)\\nCourse Name\\t\\t\\t\\t: CS230\\nTerm\\t\\t\\t\\t\\t: Spring 2019\\n------------------------------------------------------------------------*/\\n\\n#define SIZE 0.1\\n#define SPEED 10.0\\n#define SCALE_OFFSET 0.1\\n\\nvoid main(void)\\n{  \\n  // Heart Shape\\n  float x = 16. * sin(vertexId) * sin(vertexId) * sin(vertexId);\\n  float y = 13. * cos(vertexId) - 5. * cos(2. * vertexId) - 2. * cos(3. * vertexId) - cos(4. * vertexId);\\n    \\n  // Map -1 to 1\\n  float size = 0.17 * SIZE;\\n  x = x * size;\\n  y = y * size;\\n  \\n  // Set Scale\\n  float scale = (abs(sin(time * SPEED) * SCALE_OFFSET) + 0.5);\\n  x = x * scale * 0.75;\\n  y = y * scale;\\n    \\n  gl_Position = vec4(x + mouse.x, y + mouse.y, 0.0, 1.0);  \\n  v_color = vec4(abs(sin(time * mouse.x)), abs(cos(time * mouse.y)), abs((mouse.x + mouse.y)/2.), 1.);\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "TRI_FAN",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "/*------------------------------------------------------------------------\nAuthor\t\t\t\t\t: Jina Hyun\nAssignment Name/Number\t: Shader/3 (Extra Credit)\nCourse Name\t\t\t\t: CS230\nTerm\t\t\t\t\t: Spring 2019\n------------------------------------------------------------------------*/\n\n#define SIZE 0.1\n#define SPEED 10.0\n#define SCALE_OFFSET 0.1\n\nvoid main(void)\n{  \n  // Heart Shape\n  float x = 16. * sin(vertexId) * sin(vertexId) * sin(vertexId);\n  float y = 13. * cos(vertexId) - 5. * cos(2. * vertexId) - 2. * cos(3. * vertexId) - cos(4. * vertexId);\n    \n  // Map -1 to 1\n  float size = 0.17 * SIZE;\n  x = x * size;\n  y = y * size;\n  \n  // Set Scale\n  float scale = (abs(sin(time * SPEED) * SCALE_OFFSET) + 0.5);\n  x = x * scale * 0.75;\n  y = y * scale;\n    \n  gl_Position = vec4(x + mouse.x, y + mouse.y, 0.0, 1.0);  \n  v_color = vec4(abs(sin(time * mouse.x)), abs(cos(time * mouse.y)), abs((mouse.x + mouse.y)/2.), 1.);\n}"
+  },
   "screenshotURL": "data/images/images-r73exb16ty0euxj5j-thumbnail.jpg",
   "hasSound": "",
   "views": {

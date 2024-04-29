@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "andris",
   "avatarUrl": "https://lh5.googleusercontent.com/-NGcfEagpVJU/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nBr6ANtWGgvfguJmVugmcp6_jd6hw/photo.jpg",
-  "settings": "{\"num\":60000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/ciccio-and-the-curran/clang\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define T radians(360.)\\n#define f float\\nf h(f p) {\\n  vec2 p2 = fract(vec2(p*5.3983, p*5.4427));\\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\\n  return fract(p2.x*p2.y*95.4337);\\n}\\nvec3 h3(f s) { return vec3(h(s),h(s*.731),h(s*1.319))*2.-1.; }\\nvec2 r(vec2 p,f a) { return vec2(p.x*cos(a)-p.y*sin(a), p.x*sin(a)+p.y*cos(a)); }\\nvec3 fk(f s, f x, f y, f ff) {\\n  vec3 p = vec3(r(vec2(ff*.5,0.),T*h(s*.311)),1);\\n    p.xz = r(p.xz,T*floor(h(s*.731)*y)/y);\\n    p.yz = r(p.yz,T*floor(h(s)*x)/x);\\n  return p;\\n}\\nvec3 c(f s, f b) {\\n  f a = h(s * 0.911) * 3.;\\n  vec3 p = h3(s), A = vec3(1.-step(.5,a));\\n  A.y = 1.-step(1.5,a) * 1.-A.x;\\n  A.z = 1.-step(2.5,a) * 1.-A.x * 1.-A.y;\\n  p = mix(step(0., p)*2.-1.,p,mix(1.-A,A,b));\\n  return p;\\n}\\nvec3 m(f t, f s) {\\n  t = floor(mod(t, 7.));\\n  if (t == 0.||t == 3.) return c(s,step(1.,t));\\n  if (t == 1.||t == 4.) return normalize(h3(s))*mix(1.,h(s*2.117),step(2.,t));\\n  if (t == 2.) return fk(s,3.,3.,h(s*2.117));\\n  if (t == 5.) return h3(s);\\n  return fk(s, 4., 3.,1.);\\n}\\nf e(f p) {\\n  if ((p/=.5) < 1.) return .5*pow(p,3.);\\n  return .5*(pow((p-2.),3.)+2.);\\n}\\nvec3 b(f t, f s) { return mix(m(t, s), m(t + 1., s), e(fract(time))); }\\nvoid main() {\\n  f r = 13., m = 1./r, a = time*.2, A=2.*resolution.y/resolution.x,\\n  v = vertexId/vertexCount, i = floor(vertexId/4e3);\\n  vec3 p = b(time+i,v*4.+time*.01)*(1.+.5*h(i*.8))+h3(i*.3)*6., e=vec3(cos(a)*r,sin(time),sin(a)*r);\\n  f d = length(e), l = 1./d, z=d-dot(p,e)*l;\\n  gl_Position=vec4((p.x*e.z - p.z*e.x)*m*A,(p.y*r-dot(p.xz,e.xz)*e.y*m)*l*2.,z-2.,z);\\n  v_color = mix(vec4(i/4.+p.y,mod(p.x+i,2.),v*p.z,1),vec4(0,1,0,1),sin(time-i*.5));\\n  gl_PointSize = 18./z;\\n}\"}",
+  "settings": {
+    "num": 60000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/ciccio-and-the-curran/clang",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define T radians(360.)\n#define f float\nf h(f p) {\n  vec2 p2 = fract(vec2(p*5.3983, p*5.4427));\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\n  return fract(p2.x*p2.y*95.4337);\n}\nvec3 h3(f s) { return vec3(h(s),h(s*.731),h(s*1.319))*2.-1.; }\nvec2 r(vec2 p,f a) { return vec2(p.x*cos(a)-p.y*sin(a), p.x*sin(a)+p.y*cos(a)); }\nvec3 fk(f s, f x, f y, f ff) {\n  vec3 p = vec3(r(vec2(ff*.5,0.),T*h(s*.311)),1);\n    p.xz = r(p.xz,T*floor(h(s*.731)*y)/y);\n    p.yz = r(p.yz,T*floor(h(s)*x)/x);\n  return p;\n}\nvec3 c(f s, f b) {\n  f a = h(s * 0.911) * 3.;\n  vec3 p = h3(s), A = vec3(1.-step(.5,a));\n  A.y = 1.-step(1.5,a) * 1.-A.x;\n  A.z = 1.-step(2.5,a) * 1.-A.x * 1.-A.y;\n  p = mix(step(0., p)*2.-1.,p,mix(1.-A,A,b));\n  return p;\n}\nvec3 m(f t, f s) {\n  t = floor(mod(t, 7.));\n  if (t == 0.||t == 3.) return c(s,step(1.,t));\n  if (t == 1.||t == 4.) return normalize(h3(s))*mix(1.,h(s*2.117),step(2.,t));\n  if (t == 2.) return fk(s,3.,3.,h(s*2.117));\n  if (t == 5.) return h3(s);\n  return fk(s, 4., 3.,1.);\n}\nf e(f p) {\n  if ((p/=.5) < 1.) return .5*pow(p,3.);\n  return .5*(pow((p-2.),3.)+2.);\n}\nvec3 b(f t, f s) { return mix(m(t, s), m(t + 1., s), e(fract(time))); }\nvoid main() {\n  f r = 13., m = 1./r, a = time*.2, A=2.*resolution.y/resolution.x,\n  v = vertexId/vertexCount, i = floor(vertexId/4e3);\n  vec3 p = b(time+i,v*4.+time*.01)*(1.+.5*h(i*.8))+h3(i*.3)*6., e=vec3(cos(a)*r,sin(time),sin(a)*r);\n  f d = length(e), l = 1./d, z=d-dot(p,e)*l;\n  gl_Position=vec4((p.x*e.z - p.z*e.x)*m*A,(p.y*r-dot(p.xz,e.xz)*e.y*m)*l*2.,z-2.,z);\n  v_color = mix(vec4(i/4.+p.y,mod(p.x+i,2.),v*p.z,1),vec4(0,1,0,1),sin(time-i*.5));\n  gl_PointSize = 18./z;\n}"
+  },
   "screenshotURL": "data/images/images-tpn6igvq9nkm2dsi2-thumbnail.jpg",
   "hasSound": true,
   "views": {

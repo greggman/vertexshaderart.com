@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":100,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n  gl_Position = vec4(0,0,0,1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvoid main() {\n  gl_Position = vec4(0,0,0,1);\n  \n  gl_PointSize = 10.0;\n  \n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-on7wa45l7howaanl6-thumbnail.jpg",
   "hasSound": "",
   "views": {

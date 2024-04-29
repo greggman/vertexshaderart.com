@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "rudy2",
   "avatarUrl": "https://lh3.googleusercontent.com/a/AATXAJxjrAjHwwN61-aEd5Ck_NAnP9iTFLqowFJNDG0m=s96-c",
-  "settings": "{\"num\":400,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Rudy Castan\\n// Exercise Making A Grid with Colors\\n// CS250 Spring 2022\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId/across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 800.;\\n  \\n  \\n  v_color = 0.5*(vec4(1,0,0,1)+vec4(ux*ux, 1.0-vy, u*u * 2.0 - 1., 1));\\n  \\n}\"}",
+  "settings": {
+    "num": 400,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// Rudy Castan\n// Exercise Making A Grid with Colors\n// CS250 Spring 2022\n\nvoid main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount/down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId/across);\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float ux = u * 2.0 - 1.0;\n  float vy = v * 2.0 - 1.0;\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20.0 / across;\n  gl_PointSize *= resolution.x / 800.;\n  \n  \n  v_color = 0.5*(vec4(1,0,0,1)+vec4(ux*ux, 1.0-vy, u*u * 2.0 - 1., 1));\n  \n}"
+  },
   "screenshotURL": "data/images/images-whjiddwcq1iztyf03-thumbnail.jpg",
   "hasSound": "",
   "views": {

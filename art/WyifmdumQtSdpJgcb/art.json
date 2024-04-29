@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":100000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/world-records-dnb/thoughts\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec3 hsv2rgb(vec3 c) {\\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down); \\n\\n  float x = mod(vertexId, across); \\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float snd = texture2D(sound, vec2(u * y * 0.0001, v * 0.25)).a;\\n  \\n  float yOffset = pow(snd, 3.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float uy = v * 2.0 - 1.0 + yOffset - 0.75;\\n  \\n  vec2 xy = vec2(ux, uy) * 0.5;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 200.0 / across; \\n  \\n  float hue = v * u * pow(snd, 2.0); \\n  float sat = 1.0 + v * u * snd;\\n  float value = pow(snd + 0.25, 5.0); \\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, value)), 1); \\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "LINES",
+    "sound": "https://soundcloud.com/world-records-dnb/thoughts",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "vec3 hsv2rgb(vec3 c) {\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down); \n\n  float x = mod(vertexId, across); \n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float snd = texture2D(sound, vec2(u * y * 0.0001, v * 0.25)).a;\n  \n  float yOffset = pow(snd, 3.0);\n  \n  float ux = u * 2.0 - 1.0;\n  float uy = v * 2.0 - 1.0 + yOffset - 0.75;\n  \n  vec2 xy = vec2(ux, uy) * 0.5;\n  \n  gl_Position = vec4(xy, 0.0, 1.0);\n  gl_PointSize = 200.0 / across; \n  \n  float hue = v * u * pow(snd, 2.0); \n  float sat = 1.0 + v * u * snd;\n  float value = pow(snd + 0.25, 5.0); \n  \n  v_color = vec4(hsv2rgb(vec3(hue, sat, value)), 1); \n}"
+  },
   "screenshotURL": "data/images/images-9yn4vpfiik3fufu2p-thumbnail.jpg",
   "hasSound": true,
   "views": {

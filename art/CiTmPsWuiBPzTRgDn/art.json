@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":54,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  vec3 pos = vec3(cos(time+vertexId)*0.7, sin(time+vertexId), 0.0);\\n  float color = 1.0;\\n  gl_PointSize = 40.0;\\n  gl_Position = vec4(pos, 1.0);\\n  v_color = vec4(pos.x, pos.y, -pos.y, 1.0)+0.5;\\n}\"}",
+  "settings": {
+    "num": 54,
+    "mode": "LINE_STRIP",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  vec3 pos = vec3(cos(time+vertexId)*0.7, sin(time+vertexId), 0.0);\n  float color = 1.0;\n  gl_PointSize = 40.0;\n  gl_Position = vec4(pos, 1.0);\n  v_color = vec4(pos.x, pos.y, -pos.y, 1.0)+0.5;\n}"
+  },
   "screenshotURL": "data/images/images-nx2k1jvqdmfkqwyam-thumbnail.jpg",
   "hasSound": true,
   "views": {

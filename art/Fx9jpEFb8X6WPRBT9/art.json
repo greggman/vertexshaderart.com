@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "chrisbartholomew",
   "avatarUrl": "https://secure.gravatar.com/avatar/42e5115d7d012ab147b9b06bc0759073?default=retro&size=200",
-  "settings": "{\"num\":245,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){\\n  float horiz = floor(sqrt(vertexCount));\\n    float vertic = floor(sqrt(vertexCount)) ; \\n float x = mod(vertexId, horiz);\\n  float y = floor(vertexId / vertic);\\n  \\n  float u = x / (horiz - 1.) ;\\n  float v = y / (vertic - 1.) ;\\n  \\n  float ux = u * 2. - 1. ; \\n  float vy = v * 2. - 1. ; \\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  gl_PointSize = floor(sqrt(vertexCount)); \\n  v_color = vec4(1, 0, 0, 1);\\n} \\n\\n  \\n   \"}",
+  "settings": {
+    "num": 245,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main(){\n  float horiz = floor(sqrt(vertexCount));\n    float vertic = floor(sqrt(vertexCount)) ; \n float x = mod(vertexId, horiz);\n  float y = floor(vertexId / vertic);\n  \n  float u = x / (horiz - 1.) ;\n  float v = y / (vertic - 1.) ;\n  \n  float ux = u * 2. - 1. ; \n  float vy = v * 2. - 1. ; \n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  gl_PointSize = floor(sqrt(vertexCount)); \n  v_color = vec4(1, 0, 0, 1);\n} \n\n  \n   "
+  },
   "screenshotURL": "data/images/images-nltiey2ds1p50vdll-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "daniel.shenkutie",
   "avatarUrl": "https://secure.gravatar.com/avatar/a88931f888921daebbcd2858d5dc3258?default=retro&size=200",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/griffinmcelroy/wonderland-round-three?in=griffinmcelroy/sets/the-adventure-zone-ost\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.08235294117647059,0.0784313725490196,0.0784313725490196,1],\"shader\":\"\\n\\nvoid main(){\\n  float down = floor(sqrt(vertexCount));\\n  \\n  \\n  \\n  float accros =floor(vertexCount/ down);\\n  float x  = mod(vertexId,accros);\\n  float y = floor(vertexId/accros);\\n  float u = x/(accros -1.0);\\n  float v = y/(accros -1.0);\\n  \\n  \\n  float ux = 2.0*u -1.0;\\n  float vy = 2.0*v - 1.0;\\n \\n  \\n  gl_Position = vec4(ux,vy,0,1);\\n    gl_PointSize = 10.0;\\n  gl_PointSize *= 20./ accros;\\n  v_color=vec4(1,1,1,1);\\n    \\n \\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/griffinmcelroy/wonderland-round-three?in=griffinmcelroy/sets/the-adventure-zone-ost",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.08235294117647059,
+      0.0784313725490196,
+      0.0784313725490196,
+      1
+    ],
+    "shader": "\n\nvoid main(){\n  float down = floor(sqrt(vertexCount));\n  \n  \n  \n  float accros =floor(vertexCount/ down);\n  float x  = mod(vertexId,accros);\n  float y = floor(vertexId/accros);\n  float u = x/(accros -1.0);\n  float v = y/(accros -1.0);\n  \n  \n  float ux = 2.0*u -1.0;\n  float vy = 2.0*v - 1.0;\n \n  \n  gl_Position = vec4(ux,vy,0,1);\n    gl_PointSize = 10.0;\n  gl_PointSize *= 20./ accros;\n  v_color=vec4(1,1,1,1);\n    \n \n}"
+  },
   "screenshotURL": "data/images/images-vhx60p9f4ff0ixtff-thumbnail.jpg",
   "hasSound": true,
   "views": {

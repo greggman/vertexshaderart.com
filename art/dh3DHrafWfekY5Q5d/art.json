@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "jonaced",
   "avatarUrl": "https://secure.gravatar.com/avatar/4afc7bbaa73d3ae5795519659259854b?default=retro&size=200",
-  "settings": "{\"num\":362,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main() {\\n  float tamCirculo = 360.0;\\n  if (vertexId == 0.0) {\\n    gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\\n  } else {\\n    float angle = vertexId / tamCirculo * radians(360.0);\\n    float radius =  1.0;\\n    float u = radius * cos(angle) ;\\n    float v = radius * sin(angle) ;\\n    gl_Position = vec4(u, v, 0.0, 1.0);\\n    float absU = abs(u);\\n    float absV = abs(v);\\n    vec3 colVec = vec3((absU + absV) * cos(angle/2.0) * cos(angle/2.0), (absU + absV) * sin(angle/3.0) * cos(angle/3.0), (absU + absV) * sin(angle));\\n    v_color = vec4(colVec, 1.0);\\n  }\\n}\\n\\n/*\\nvoid main() {\\n  float tamCirculo = 360.0;\\n  if (vertexId == 0.0) {\\n    gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\\n  } else {\\n    float angle = vertexId / tamCirculo * radians(360.0);\\n    float radius =  1.0;\\n    float u = radius * cos(angle) ;\\n    float v = radius * sin(angle) ;\\n    gl_Position = vec4(u, v, 0.0, 1.0);\\n    float absU = abs(u);\\n    float absV = abs(v);\\n    v_color = vec4((u + absV)/1.6, (absU + v)/1.6, (absU + absV)/3.0, 1.0);\\n  }\\n}\\n\\n\\n\\n\\n\\n\\n\\nvec3 colVec = vec3(absU / abs(1.0 - u), (absU + v) / 2.0, (absU + absV) * cos(angle));\\nvec3 colVec = vec3(absU * abs(0.5 - u), absV * abs(0.5 - v), ((absU * 0.9) + (absV * 0.5)) * cos(angle));\\nvec3 colVec = vec3(absU * abs(0.5 - u), absV * abs(0.5 - v), (absU + absV) * cos(angle));\\n*/\"}",
+  "settings": {
+    "num": 362,
+    "mode": "TRI_FAN",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main() {\n  float tamCirculo = 360.0;\n  if (vertexId == 0.0) {\n    gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\n  } else {\n    float angle = vertexId / tamCirculo * radians(360.0);\n    float radius =  1.0;\n    float u = radius * cos(angle) ;\n    float v = radius * sin(angle) ;\n    gl_Position = vec4(u, v, 0.0, 1.0);\n    float absU = abs(u);\n    float absV = abs(v);\n    vec3 colVec = vec3((absU + absV) * cos(angle/2.0) * cos(angle/2.0), (absU + absV) * sin(angle/3.0) * cos(angle/3.0), (absU + absV) * sin(angle));\n    v_color = vec4(colVec, 1.0);\n  }\n}\n\n/*\nvoid main() {\n  float tamCirculo = 360.0;\n  if (vertexId == 0.0) {\n    gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\n  } else {\n    float angle = vertexId / tamCirculo * radians(360.0);\n    float radius =  1.0;\n    float u = radius * cos(angle) ;\n    float v = radius * sin(angle) ;\n    gl_Position = vec4(u, v, 0.0, 1.0);\n    float absU = abs(u);\n    float absV = abs(v);\n    v_color = vec4((u + absV)/1.6, (absU + v)/1.6, (absU + absV)/3.0, 1.0);\n  }\n}\n\n\n\n\n\n\n\nvec3 colVec = vec3(absU / abs(1.0 - u), (absU + v) / 2.0, (absU + absV) * cos(angle));\nvec3 colVec = vec3(absU * abs(0.5 - u), absV * abs(0.5 - v), ((absU * 0.9) + (absV * 0.5)) * cos(angle));\nvec3 colVec = vec3(absU * abs(0.5 - u), absV * abs(0.5 - v), (absU + absV) * cos(angle));\n*/"
+  },
   "screenshotURL": "data/images/images-35s40dxdeio8y8598-thumbnail.jpg",
   "hasSound": "",
   "views": {

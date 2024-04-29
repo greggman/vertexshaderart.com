@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "renya",
   "avatarUrl": "https://graph.facebook.com/825779784232264/picture?type=large",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/edm/deorro-ft-dycy-five-hours-dont-hold-me-back-edmcom-premiere\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"//test test test\\n\\n\\n\\n#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n\\nfloat slerping( float n ) { \\n  return fract(sin(n)*100000.0);\\n}\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n   float i = slerping(vertexId);\\n  float f = i;\\n   float snd = texture2D(sound, vec2(f, i)).a * cos(i);\\n  snd = pow(snd, 0.5);\\n  vec2 uv;\\n \\n  float count = floor(vertexId / NUM_POINTS);\\n  \\n \\n  float radius = pow(count * 0.00014, sin(time));  \\n  float orbitAngle =  pow(count * 0.025, 0.8);\\n  float innerRadius = pow(count * 0.0005,.0);\\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n       oS*innerRadius*cos(snd)+0.7,\\n      snd*.9)-0.05*snd*oC*2.0*innerRadius-0.7;\\n  gl_Position = vec4(xy * aspect, 0, 1.5);\\n\\n  \\n  v_color = vec4(hsv2rgb(vec3(snd,snd, snd)), snd);\\n\\n  \\n  \\n\\n\\n\\n}\\n\\n\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/edm/deorro-ft-dycy-five-hours-dont-hold-me-back-edmcom-premiere",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "//test test test\n\n\n\n#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n\nfloat slerping( float n ) { \n  return fract(sin(n)*100000.0);\n}\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n   float i = slerping(vertexId);\n  float f = i;\n   float snd = texture2D(sound, vec2(f, i)).a * cos(i);\n  snd = pow(snd, 0.5);\n  vec2 uv;\n \n  float count = floor(vertexId / NUM_POINTS);\n  \n \n  float radius = pow(count * 0.00014, sin(time));  \n  float orbitAngle =  pow(count * 0.025, 0.8);\n  float innerRadius = pow(count * 0.0005,.0);\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\n\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  vec2 xy = vec2(\n       oS*innerRadius*cos(snd)+0.7,\n      snd*.9)-0.05*snd*oC*2.0*innerRadius-0.7;\n  gl_Position = vec4(xy * aspect, 0, 1.5);\n\n  \n  v_color = vec4(hsv2rgb(vec3(snd,snd, snd)), snd);\n\n  \n  \n\n\n\n}\n\n"
+  },
   "screenshotURL": "data/images/images-1nwtq8kn51dfqqkuc-thumbnail.jpg",
   "hasSound": true,
   "views": {

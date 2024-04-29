@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "kolargon",
   "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/billx/tandava-billx-remix\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define ITERS 40\\n#define M_PI 3.1415926535897932384626433832795\\n\\n\\n\\n\\nvoid main ()\\n{\\n  //float snd = texture2D(sound, vec2(0.,  0.)).a;\\n  float finalVertexCount =  vertexCount;//max((0.5*snd)*vertexCount,5000.);\\n  float ratio = resolution.x/resolution.y;\\n  float numAcrossDown = floor(sqrt(finalVertexCount));\\n  \\n  float maxVertexCount =   numAcrossDown* numAcrossDown;\\n  \\n  float finalVertexId = mod(vertexId, maxVertexCount);\\n  \\n  float x = mod(finalVertexId,  numAcrossDown);\\n  float y = floor(finalVertexId /  numAcrossDown);\\n  \\n  float u = x / numAcrossDown;\\n  float v = (y / numAcrossDown)*ratio;\\n  \\n  float ux = ( u  * 2.0 - 1.0) *1./ratio;\\n  float vy = ( v/ratio * 2.0 - 1.0);\\n  \\n\\n  \\n  float snd = texture2D(sound, vec2(0.,  0.)).a;\\n  //apply fragment logic\\n\\n\\t//vec2 position = (gl_FragCoord.xy * 2.0 - resolution) / min(resolution.x, resolution.y);\\n\\tvec2 position = vec2(x, y);\\n\\t\\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  vec2 res = vec2(numAcrossDown, numAcrossDown);\\n  vec2 fragCoord = vec2(u,v);\\n  \\n   vec3 d = normalize( vec3( (position.xy - res.xy * .5) / numAcrossDown, .15));\\n  \\n\\tvec3 p, c, f, g=d, o, y1=vec3(1.0,3.0,0.0);\\n  \\n  \\n \\to.y = 4. + 4.8*cos((o.x=0.1)*(o.z=time * 10.0));\\n\\to.x -= sin(time) + 3.0;\\n\\n    for( float i=.0; i<8.; i+=.05 ) {\\n        f = fract(c = o += d*i*.1); \\n\\tp = floor( c )*.4;\\n        if( cos(p.z) + sin(p.x) > ++p.y ) {\\n\\t    \\tg = (f.y-.04*cos((c.x+c.z)*10.)>.7?y1:f.x*y1.yxz) / i;\\n            break;\\n        }\\n    }\\n    //gl_FragColor = vec4(g,1.0);\\n\\t\\n \\n  \\n  \\n  gl_PointSize = (resolution.y/numAcrossDown) * 1.;//(resolution.y/numAcrossDown)*2.-1.;\\n\\n  v_color = vec4(g,1.0);\\n  \\n\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/billx/tandava-billx-remix",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define ITERS 40\n#define M_PI 3.1415926535897932384626433832795\n\n\n\n\nvoid main ()\n{\n  //float snd = texture2D(sound, vec2(0.,  0.)).a;\n  float finalVertexCount =  vertexCount;//max((0.5*snd)*vertexCount,5000.);\n  float ratio = resolution.x/resolution.y;\n  float numAcrossDown = floor(sqrt(finalVertexCount));\n  \n  float maxVertexCount =   numAcrossDown* numAcrossDown;\n  \n  float finalVertexId = mod(vertexId, maxVertexCount);\n  \n  float x = mod(finalVertexId,  numAcrossDown);\n  float y = floor(finalVertexId /  numAcrossDown);\n  \n  float u = x / numAcrossDown;\n  float v = (y / numAcrossDown)*ratio;\n  \n  float ux = ( u  * 2.0 - 1.0) *1./ratio;\n  float vy = ( v/ratio * 2.0 - 1.0);\n  \n\n  \n  float snd = texture2D(sound, vec2(0.,  0.)).a;\n  //apply fragment logic\n\n\t//vec2 position = (gl_FragCoord.xy * 2.0 - resolution) / min(resolution.x, resolution.y);\n\tvec2 position = vec2(x, y);\n\t\n  gl_Position = vec4(ux, vy, 0, 1);\n  \n  vec2 res = vec2(numAcrossDown, numAcrossDown);\n  vec2 fragCoord = vec2(u,v);\n  \n   vec3 d = normalize( vec3( (position.xy - res.xy * .5) / numAcrossDown, .15));\n  \n\tvec3 p, c, f, g=d, o, y1=vec3(1.0,3.0,0.0);\n  \n  \n \to.y = 4. + 4.8*cos((o.x=0.1)*(o.z=time * 10.0));\n\to.x -= sin(time) + 3.0;\n\n    for( float i=.0; i<8.; i+=.05 ) {\n        f = fract(c = o += d*i*.1); \n\tp = floor( c )*.4;\n        if( cos(p.z) + sin(p.x) > ++p.y ) {\n\t    \tg = (f.y-.04*cos((c.x+c.z)*10.)>.7?y1:f.x*y1.yxz) / i;\n            break;\n        }\n    }\n    //gl_FragColor = vec4(g,1.0);\n\t\n \n  \n  \n  gl_PointSize = (resolution.y/numAcrossDown) * 1.;//(resolution.y/numAcrossDown)*2.-1.;\n\n  v_color = vec4(g,1.0);\n  \n\n}"
+  },
   "screenshotURL": "data/images/images-29vjz4j00hgxtoyp3-thumbnail.jpg",
   "hasSound": true,
   "views": {

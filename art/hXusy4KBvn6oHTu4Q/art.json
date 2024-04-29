@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "oneshade",
   "avatarUrl": "https://secure.gravatar.com/avatar/f0d8718b5dc6efb4cf47453275108912?default=retro&size=200",
-  "settings": "{\"num\":10000,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define EYE_DISTANCE 5.0\\n#define Z_NEAR 5.0\\n#define Z_FAR -5.0\\n\\n#define PI 3.14\\n\\n#define tMin -4.0 * PI\\n#define tMax  4.0 * PI\\n\\nvec3 ParametricCurve(float t) {\\n    return vec3(cos(t), t * 0.25, sin(t));\\n}\\n\\nvoid main() {\\n    vec3 lightDir = normalize(vec3(-1.0, 1.0, 1.0));\\n\\n    float t = tMin + (tMax - tMin) * (vertexId / vertexCount);\\n\\n    vec3 vertex = ParametricCurve(t);\\n    vec3 color = vec3(1.0);\\n\\n    vec2 rot = mouse * PI;\\n    float cy = cos(rot.x), sy = sin(rot.x);\\n    float cp = cos(rot.y), sp = sin(rot.y);\\n    vertex.xz *= mat2(cy, sy, -sy, cy);\\n    vertex.yz *= mat2(cp, sp, -sp, cp);\\n\\n    vec2 screenCoords = vertex.xy / (EYE_DISTANCE - vertex.z);\\n    screenCoords.x *= resolution.y / resolution.x;\\n    float depth = (vertex.z - Z_NEAR) / (Z_FAR - Z_NEAR);\\n    gl_Position = vec4(screenCoords, depth, 1.0);\\n    v_color = vec4(color, 1.0);\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "LINE_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define EYE_DISTANCE 5.0\n#define Z_NEAR 5.0\n#define Z_FAR -5.0\n\n#define PI 3.14\n\n#define tMin -4.0 * PI\n#define tMax  4.0 * PI\n\nvec3 ParametricCurve(float t) {\n    return vec3(cos(t), t * 0.25, sin(t));\n}\n\nvoid main() {\n    vec3 lightDir = normalize(vec3(-1.0, 1.0, 1.0));\n\n    float t = tMin + (tMax - tMin) * (vertexId / vertexCount);\n\n    vec3 vertex = ParametricCurve(t);\n    vec3 color = vec3(1.0);\n\n    vec2 rot = mouse * PI;\n    float cy = cos(rot.x), sy = sin(rot.x);\n    float cp = cos(rot.y), sp = sin(rot.y);\n    vertex.xz *= mat2(cy, sy, -sy, cy);\n    vertex.yz *= mat2(cp, sp, -sp, cp);\n\n    vec2 screenCoords = vertex.xy / (EYE_DISTANCE - vertex.z);\n    screenCoords.x *= resolution.y / resolution.x;\n    float depth = (vertex.z - Z_NEAR) / (Z_FAR - Z_NEAR);\n    gl_Position = vec4(screenCoords, depth, 1.0);\n    v_color = vec4(color, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-b18epr97tsevptzb2-thumbnail.jpg",
   "hasSound": "",
   "views": {

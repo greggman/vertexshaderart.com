@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "joonho.hwang",
   "avatarUrl": "https://secure.gravatar.com/avatar/71946ad0898d0a3558af0dc283a4b9c2?default=retro&size=200",
-  "settings": "{\"num\":6080,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Joonho Hwang\\n// Exercise Making a Grid\\n// CS250 Spring 2022\\n\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n  \\n  gl_Position = vec4(ux, vy, 0.0, 1.0);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 6080,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// Joonho Hwang\n// Exercise Making a Grid\n// CS250 Spring 2022\n\n\nvoid main()\n{\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float ux = u * 2.0 - 1.0;\n  float vy = v * 2.0 - 1.0;\n  \n  gl_Position = vec4(ux, vy, 0.0, 1.0);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20.0 / across;\n  gl_PointSize *= resolution.x / 600.0;\n  \n  \n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-9jm0w5uj48500npvp-thumbnail.jpg",
   "hasSound": "",
   "views": {

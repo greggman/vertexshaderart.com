@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "donga.choi",
   "avatarUrl": "https://secure.gravatar.com/avatar/edffcb435255bbb6bef5ad8a6333dda8?default=retro&size=200",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Dong-A Choi\\n//CS250\\n//Making A Grid exercise\\n//2022 spring\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n   \\n  float u = x / (across-1.);\\n  float v = y / (across-1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  float xPos = ux/2. + sin(time);\\n  \\n  gl_Position = vec4( xPos,vy/2. ,0,1);\\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  if(xPos < 0.){\\n \\t v_color = vec4(1,0,mouse.x,1);\\n  }else {\\n     v_color = vec4(0,1,mouse.x,1);\\n  }\\n  \\n}\\n\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//Dong-A Choi\n//CS250\n//Making A Grid exercise\n//2022 spring\n\nvoid main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n   \n  float u = x / (across-1.);\n  float v = y / (across-1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  float xPos = ux/2. + sin(time);\n  \n  gl_Position = vec4( xPos,vy/2. ,0,1);\n  gl_PointSize = 10.0;\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  if(xPos < 0.){\n \t v_color = vec4(1,0,mouse.x,1);\n  }else {\n     v_color = vec4(0,1,mouse.x,1);\n  }\n  \n}\n"
+  },
   "screenshotURL": "data/images/images-8wjdikks5oxu2m9nr-thumbnail.jpg",
   "hasSound": "",
   "views": {

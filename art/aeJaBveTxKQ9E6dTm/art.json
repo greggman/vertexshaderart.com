@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "daniel",
   "avatarUrl": "https://lh3.googleusercontent.com/-qXZbQEgaXn0/AAAAAAAAAAI/AAAAAAAAA6k/Q8oMgqryECw/photo.jpg",
-  "settings": "{\"num\":21,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.01568627450980392,0.2,1,1],\"shader\":\"#define PI arctan(180)\\n\\nvoid main()\\n{\\n  float across = 10.;\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);  \\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  gl_PointSize = 10.0;\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 21,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.01568627450980392,
+      0.2,
+      1,
+      1
+    ],
+    "shader": "#define PI arctan(180)\n\nvoid main()\n{\n  float across = 10.;\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);  \n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  gl_PointSize = 10.0;\n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-c36j131vemi5m2lgb-thumbnail.jpg",
   "hasSound": "",
   "views": {

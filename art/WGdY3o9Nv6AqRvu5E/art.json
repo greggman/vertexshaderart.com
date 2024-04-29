@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":2,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec2 field(vec2 pos) {\\n  // just for easier readability\\n  float x = pos.x;\\n  float y = pos.y;\\n  \\n  // vector field mapping\\n  return vec2(\\n\\n    -y,\\n    x\\n  );\\n}\\n\\nvoid main() {\\n  // mouse position is the droplets position in this example\\n  gl_Position = vec4(mouse.x, mouse.y, 0,1);\\n  \\n  // apply vector field to the next point\\n  // to demonstrate effect of vector field\\n  if (vertexId == 1.) {\\n    vec2 d = field(mouse.xy);\\n    d = normalize(d);\\n    gl_Position += vec4(d.x, d.y, 0,1);\\n  }\\n  \\n  \\n  gl_PointSize = vertexId * 2.;\\n  v_color = vec4(1.0 - vertexId,1,1,1);\\n}\"}",
+  "settings": {
+    "num": 2,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "vec2 field(vec2 pos) {\n  // just for easier readability\n  float x = pos.x;\n  float y = pos.y;\n  \n  // vector field mapping\n  return vec2(\n\n    -y,\n    x\n  );\n}\n\nvoid main() {\n  // mouse position is the droplets position in this example\n  gl_Position = vec4(mouse.x, mouse.y, 0,1);\n  \n  // apply vector field to the next point\n  // to demonstrate effect of vector field\n  if (vertexId == 1.) {\n    vec2 d = field(mouse.xy);\n    d = normalize(d);\n    gl_Position += vec4(d.x, d.y, 0,1);\n  }\n  \n  \n  gl_PointSize = vertexId * 2.;\n  v_color = vec4(1.0 - vertexId,1,1,1);\n}"
+  },
   "screenshotURL": "data/images/images-u7x7y5e7l25hu68z2-thumbnail.jpg",
   "hasSound": "",
   "views": {

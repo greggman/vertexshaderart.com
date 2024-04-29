@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec3 hsv2rgb(vec3 c) {\\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount)); // gets the count of rows\\n  float across = floor(vertexCount / down); // gets the count of columns\\n  \\n  // vertexId is the \\n  float x = mod(vertexId, across); // always use floats\\n  float y = floor(vertexId / across); // rounds numbers down 0.1 = 0, 10 = 1\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float xOffset = sin(time + y * 0.2) * 0.1; \\n  float yOffset = sin(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;  // gets value from -1 to 1\\n  float uy = v * 2.0 - 1.0 + yOffset;  // gets value from -1 to 1\\n  \\n  vec2 xy = vec2(ux, uy) * 1.3;\\n  \\n  float sizeOffset = sin(time + x * y * 0.02) * 5.0;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 200.0 / across; // set point size\\n  gl_PointSize *= resolution.x / 600.0 + sizeOffset;\\n  \\n  float hue = u * 0.1 + sin(time + v * 20.0) * 0.05;\\n  float sat = 1.;\\n  float value = sin(time + v * u * 20.0) * 0.5 + 0.5;\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, value)), 1); // this is unique to vertex shader art\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "vec3 hsv2rgb(vec3 c) {\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float down = floor(sqrt(vertexCount)); // gets the count of rows\n  float across = floor(vertexCount / down); // gets the count of columns\n  \n  // vertexId is the \n  float x = mod(vertexId, across); // always use floats\n  float y = floor(vertexId / across); // rounds numbers down 0.1 = 0, 10 = 1\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float xOffset = sin(time + y * 0.2) * 0.1; \n  float yOffset = sin(time + x * 0.3) * 0.2;\n  \n  float ux = u * 2.0 - 1.0 + xOffset;  // gets value from -1 to 1\n  float uy = v * 2.0 - 1.0 + yOffset;  // gets value from -1 to 1\n  \n  vec2 xy = vec2(ux, uy) * 1.3;\n  \n  float sizeOffset = sin(time + x * y * 0.02) * 5.0;\n  \n  gl_Position = vec4(xy, 0.0, 1.0);\n  gl_PointSize = 200.0 / across; // set point size\n  gl_PointSize *= resolution.x / 600.0 + sizeOffset;\n  \n  float hue = u * 0.1 + sin(time + v * 20.0) * 0.05;\n  float sat = 1.;\n  float value = sin(time + v * u * 20.0) * 0.5 + 0.5;\n  \n  v_color = vec4(hsv2rgb(vec3(hue, sat, value)), 1); // this is unique to vertex shader art\n}"
+  },
   "screenshotURL": "data/images/images-xky0chefkr16isr4a-thumbnail.jpg",
   "hasSound": "",
   "views": {

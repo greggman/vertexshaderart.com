@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "anuar",
   "avatarUrl": "https://graph.facebook.com/1812741555404077/picture?type=large",
-  "settings": "{\"num\":100000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){\\n  \\n  float ux = floor(vertexId / 6.0) + mod(vertexId, 2.0);\\n  float vy = mod(floor(vertexId / 2.0) + floor(vertexId/3.0), 2.0);\\n  \\n  float angle = ux / 100.0 * radians(180.0) *2.0;\\n  float radius = vy +1.0;\\n\\n  float x = radius* cos(angle);\\n  float y = radius* sin(angle);\\n\\n  vec2 xy = vec2(x,y);\\n\\ngl_Position = vec4(xy*.1, .0, 1.0);\\nv_color = vec4(1.0,0.0,0.0,1.0);\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "TRIANGLES",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main(){\n  \n  float ux = floor(vertexId / 6.0) + mod(vertexId, 2.0);\n  float vy = mod(floor(vertexId / 2.0) + floor(vertexId/3.0), 2.0);\n  \n  float angle = ux / 100.0 * radians(180.0) *2.0;\n  float radius = vy +1.0;\n\n  float x = radius* cos(angle);\n  float y = radius* sin(angle);\n\n  vec2 xy = vec2(x,y);\n\ngl_Position = vec4(xy*.1, .0, 1.0);\nv_color = vec4(1.0,0.0,0.0,1.0);\n}"
+  },
   "screenshotURL": "data/images/images-4dbiugmo9k3lcreea-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "robsouthgate4",
   "avatarUrl": "https://avatars.githubusercontent.com/robsouthgate4?s=200",
-  "settings": "{\"num\":3925,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,1,1],\"shader\":\"\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvec2 vec2Random(vec2 st) {\\n  st = vec2(dot(st, vec2(0.040,-0.250)),\\n  dot(st, vec2(269.5,183.3)));\\n  return -1.0 + 2.0 * fract(sin(st) * 43758.633);\\n}\\n\\nfloat gradientNoise(vec2 st) {\\n  vec2 i = floor(st);\\n  vec2 f = fract(st);\\n\\n  vec2 u = smoothstep(0.0, 1.0, f);\\n\\n  return mix(mix(dot(vec2Random(i + vec2(0.0,0.0)), f - vec2(0.0,0.0)),\\n                 dot(vec2Random(i + vec2(1.0,0.0)), f - vec2(1.0,0.0)), u.x),\\n             mix(dot(vec2Random(i + vec2(0.0,1.0)), f - vec2(0.0,1.0)),\\n                 dot(vec2Random(i + vec2(1.0,1.0)), f - vec2(1.0,1.0)), u.x), u.y);\\n}\\n\\nfloat ran(float x) {\\n  return gradientNoise(vec2(x, 1.0));\\n}\\n\\nvoid main() {\\n  \\tfloat down = floor(sqrt(vertexCount));\\n    float across = floor(vertexCount / down);\\n  \\n  \\tvec2 snd = texture2D(sound, vec2(1.0)).xy;\\n  \\n  \\tfloat x = mod(vertexId, across); \\n    float y = floor(vertexId / across);\\n  \\n  \\tfloat u = x / (across -1.);\\n    float v = y / (across - 1.);\\n  \\n    float xoff = ran(time + y * 0.9);\\n    float yoff = fract(time + x * 0.3);\\n  \\n  \\tfloat ux = u * 2. - 1. + xoff;\\n    float vy = v * 2. - 1. + yoff;\\n  \\n    vec2 xy = vec2(ux, vy) * 0.9;\\n  \\n\\tgl_Position = vec4(xy * 1., 0, 1);\\n    gl_PointSize = 10.;\\n  \\tgl_PointSize *= 20. / down;\\n  \\tgl_PointSize *= resolution.x / 600.;\\n  \\tv_color = vec4(1,vy,0,1);\\n}\"}",
+  "settings": {
+    "num": 3925,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "shader": "\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvec2 vec2Random(vec2 st) {\n  st = vec2(dot(st, vec2(0.040,-0.250)),\n  dot(st, vec2(269.5,183.3)));\n  return -1.0 + 2.0 * fract(sin(st) * 43758.633);\n}\n\nfloat gradientNoise(vec2 st) {\n  vec2 i = floor(st);\n  vec2 f = fract(st);\n\n  vec2 u = smoothstep(0.0, 1.0, f);\n\n  return mix(mix(dot(vec2Random(i + vec2(0.0,0.0)), f - vec2(0.0,0.0)),\n                 dot(vec2Random(i + vec2(1.0,0.0)), f - vec2(1.0,0.0)), u.x),\n             mix(dot(vec2Random(i + vec2(0.0,1.0)), f - vec2(0.0,1.0)),\n                 dot(vec2Random(i + vec2(1.0,1.0)), f - vec2(1.0,1.0)), u.x), u.y);\n}\n\nfloat ran(float x) {\n  return gradientNoise(vec2(x, 1.0));\n}\n\nvoid main() {\n  \tfloat down = floor(sqrt(vertexCount));\n    float across = floor(vertexCount / down);\n  \n  \tvec2 snd = texture2D(sound, vec2(1.0)).xy;\n  \n  \tfloat x = mod(vertexId, across); \n    float y = floor(vertexId / across);\n  \n  \tfloat u = x / (across -1.);\n    float v = y / (across - 1.);\n  \n    float xoff = ran(time + y * 0.9);\n    float yoff = fract(time + x * 0.3);\n  \n  \tfloat ux = u * 2. - 1. + xoff;\n    float vy = v * 2. - 1. + yoff;\n  \n    vec2 xy = vec2(ux, vy) * 0.9;\n  \n\tgl_Position = vec4(xy * 1., 0, 1);\n    gl_PointSize = 10.;\n  \tgl_PointSize *= 20. / down;\n  \tgl_PointSize *= resolution.x / 600.;\n  \tv_color = vec4(1,vy,0,1);\n}"
+  },
   "screenshotURL": "data/images/images-whsya2nj975d5tt3v-thumbnail.jpg",
   "hasSound": true,
   "views": {

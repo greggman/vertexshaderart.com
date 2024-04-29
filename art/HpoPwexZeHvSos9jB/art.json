@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "신일",
   "avatarUrl": "https://lh4.googleusercontent.com/-UYJtSdrMQjs/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rf5HE_ag4Fy6JhSGK74D5Uz9FMccw/mo/photo.jpg",
-  "settings": "{\"num\":19117,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.48627450980392156,0.48627450980392156,0.48627450980392156,1],\"shader\":\"/*\\n *  1. sinil.gang\\n *  2. Shader Programming / 3\\n *  3. CS230\\n *  4. Spring 2019\\n */\\n\\nvoid main()\\n{\\n  // X makes wide, Y too but not wide as much as X \\n  float tmpX = vertexId * 100.;\\n  float tmpY = vertexId * 1500.;\\n  \\n  // Variable for mouse and make Limit and adjustment\\n  float scopeX = mouse.x * 10.;\\n  float scopeY = mouse.y / 5.;\\n  \\n  // Conditional for preventing to make too narrow \\n  if(abs(scopeX) < 1.0)\\n  {\\n    scopeX += 1.0 - scopeX;\\n  }\\n  \\n  // Position setting\\n  gl_Position = vec4(sin(tmpX) * scopeX, sin(tmpY) * mouse.y, 0, 1);\\n \\n  // Size setting\\n  gl_PointSize = abs(sin(time)) * 10.;\\n  \\n  // rgc with trigonometric function of time.\\n  float red = sin(time);\\n  float blue = cos(time);\\n  float green = tan(time);\\n  v_color = vec4(red, green, blue, 1);\\n}\"}",
+  "settings": {
+    "num": 19117,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.48627450980392156,
+      0.48627450980392156,
+      0.48627450980392156,
+      1
+    ],
+    "shader": "/*\n *  1. sinil.gang\n *  2. Shader Programming / 3\n *  3. CS230\n *  4. Spring 2019\n */\n\nvoid main()\n{\n  // X makes wide, Y too but not wide as much as X \n  float tmpX = vertexId * 100.;\n  float tmpY = vertexId * 1500.;\n  \n  // Variable for mouse and make Limit and adjustment\n  float scopeX = mouse.x * 10.;\n  float scopeY = mouse.y / 5.;\n  \n  // Conditional for preventing to make too narrow \n  if(abs(scopeX) < 1.0)\n  {\n    scopeX += 1.0 - scopeX;\n  }\n  \n  // Position setting\n  gl_Position = vec4(sin(tmpX) * scopeX, sin(tmpY) * mouse.y, 0, 1);\n \n  // Size setting\n  gl_PointSize = abs(sin(time)) * 10.;\n  \n  // rgc with trigonometric function of time.\n  float red = sin(time);\n  float blue = cos(time);\n  float green = tan(time);\n  v_color = vec4(red, green, blue, 1);\n}"
+  },
   "screenshotURL": "data/images/images-bn70uxdpni9r5w9wh-thumbnail.jpg",
   "hasSound": "",
   "views": {

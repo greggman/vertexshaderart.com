@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "hamad",
   "avatarUrl": "https://lh3.googleusercontent.com/-0-rND5YdliE/AAAAAAAAAAI/AAAAAAAAABk/oFPiwkQOhY4/photo.jpg",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main () { \\n\\tgl_Position  = vec4(0, 0, 0, 1); //normalized device coordinate\\n\\t\\n  \\tgl_PointSize = 10.0;\\n   \\n  \\tv_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main () { \n\tgl_Position  = vec4(0, 0, 0, 1); //normalized device coordinate\n\t\n  \tgl_PointSize = 10.0;\n   \n  \tv_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-7r9ebwhehh18sl4l0-thumbnail.jpg",
   "hasSound": "",
   "views": {

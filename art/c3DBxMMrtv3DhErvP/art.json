@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "legileurs",
   "avatarUrl": "https://secure.gravatar.com/avatar/a48c633acb8ed21d176343fa75931ff6?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F8839ade8e32fd3ea8c1ca8ac8b2590a3",
-  "settings": "{\"num\":570,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n}\"}",
+  "settings": {
+    "num": 570,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main()\n{\n}"
+  },
   "screenshotURL": "data/images/images-ybfh9kbwmzja90t0b-thumbnail.jpg",
   "hasSound": "",
   "views": {

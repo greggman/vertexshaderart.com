@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "markus",
   "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GifvlNvBe-lLi3fzBlpXK1QVVIW7V5Nwqq8cssCjA",
-  "settings": "{\"num\":3000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/allaboutthebeat/distant-friends-gen-neo\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_POINTS 500.0\\n#define K 1.059463094359295264561825294946\\n#define FIT_VERTICAL\\n\\n\\nvoid main() \\n{\\n\\n  float u = vertexId/soundRes.x;\\n  float v = 0.0;\\n  \\n  v+= 10.0*pow(texture2D(sound,vec2(u,0.0)).a,5.0);\\n  \\n  float x = (u*200.0)-10.0;\\n  float y = 0.0;\\n  gl_PointSize = 100.0;\\n  gl_Position = vec4(x,y,0,1);\\n  \\n  float lum = floor(v *8.0 + 1.9)/10.0;\\n  //float lum = 1.0;\\n  v_color = vec4(v*lum*0.2,lum*0.75,lum*1.0,1);\\n\\n}\"}",
+  "settings": {
+    "num": 3000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/allaboutthebeat/distant-friends-gen-neo",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define NUM_POINTS 500.0\n#define K 1.059463094359295264561825294946\n#define FIT_VERTICAL\n\n\nvoid main() \n{\n\n  float u = vertexId/soundRes.x;\n  float v = 0.0;\n  \n  v+= 10.0*pow(texture2D(sound,vec2(u,0.0)).a,5.0);\n  \n  float x = (u*200.0)-10.0;\n  float y = 0.0;\n  gl_PointSize = 100.0;\n  gl_Position = vec4(x,y,0,1);\n  \n  float lum = floor(v *8.0 + 1.9)/10.0;\n  //float lum = 1.0;\n  v_color = vec4(v*lum*0.2,lum*0.75,lum*1.0,1);\n\n}"
+  },
   "screenshotURL": "data/images/images-t58m9twr6k3espldo-thumbnail.jpg",
   "hasSound": true,
   "views": {

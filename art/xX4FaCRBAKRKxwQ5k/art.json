@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":8,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n \\t\\n   gl_PointSize = 20.0;\\n  \\n//divide vertex id number by a number\\n  vec2 xy = vec2(vertexId / 8.0, vertexId /8.0);\\n  \\n  \\n//alpha changed distance between vertices\\n  //xy is a variable dividing each vertex by a number\\n  gl_Position = vec4(xy, 0.0, 2.5);\\n  \\n//add vertexcolor to the shader \\n  v_color = vec4 (0.5, 0.0, 1.0, 1.0);\\n  \\n // vec2 xy = vec2(-0.5, 0.0);\\n  \\n  if (vertexId == 1.0)\\n  {\\n  xy = vec2(0, 0.5);\\n   \\n  }\\n  else if (vertexId == 2.0)\\n  {\\n    xy + vec2(0.5, 0);\\n  }\\n  \\n  //xy += vec2(0, sin(time));\\n  \\n  gl_Position =vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 8,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n \t\n   gl_PointSize = 20.0;\n  \n//divide vertex id number by a number\n  vec2 xy = vec2(vertexId / 8.0, vertexId /8.0);\n  \n  \n//alpha changed distance between vertices\n  //xy is a variable dividing each vertex by a number\n  gl_Position = vec4(xy, 0.0, 2.5);\n  \n//add vertexcolor to the shader \n  v_color = vec4 (0.5, 0.0, 1.0, 1.0);\n  \n // vec2 xy = vec2(-0.5, 0.0);\n  \n  if (vertexId == 1.0)\n  {\n  xy = vec2(0, 0.5);\n   \n  }\n  else if (vertexId == 2.0)\n  {\n    xy + vec2(0.5, 0);\n  }\n  \n  //xy += vec2(0, sin(time));\n  \n  gl_Position =vec4(xy, 0.0, 1.0);\n  gl_PointSize = 10.0;\n  \n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-e0ckwlaoke2twq0q9-thumbnail.jpg",
   "hasSound": true,
   "views": {

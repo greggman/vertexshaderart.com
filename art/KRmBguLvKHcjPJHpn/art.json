@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "iguacel",
   "avatarUrl": "https://avatars.githubusercontent.com/iguacel?s=200",
-  "settings": "{\"num\":25,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/thesoftmoon/exister?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.07058823529411765,0.06666666666666667,0.06666666666666667,1],\"shader\":\"void main() {\\n  \\n  float down = floor(sqrt(vertexCount));\\n  \\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  float scale = 0.9;\\n  vec2 xy = vec2(ux, vy) * scale;\\n  \\n  gl_Position = vec4(xy, 0., 1.);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(0., .2, 0., 1.);\\n}\"}",
+  "settings": {
+    "num": 25,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/thesoftmoon/exister?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.07058823529411765,
+      0.06666666666666667,
+      0.06666666666666667,
+      1
+    ],
+    "shader": "void main() {\n  \n  float down = floor(sqrt(vertexCount));\n  \n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  float scale = 0.9;\n  vec2 xy = vec2(ux, vy) * scale;\n  \n  gl_Position = vec4(xy, 0., 1.);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  v_color = vec4(0., .2, 0., 1.);\n}"
+  },
   "screenshotURL": "data/images/images-vzwdy476bl07rcfwi-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "oriam",
   "avatarUrl": "https://secure.gravatar.com/avatar/c1ddb12d07628010aa44539d8cedfb07?default=retro&size=200",
-  "settings": "{\"num\":6,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  gl_Position = vec4(-vertexId * 0.2, vertexId * 0.2, 0.0, 1.0);\\n  gl_PointSize = 50.0;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 6,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main()\n{\n  gl_Position = vec4(-vertexId * 0.2, vertexId * 0.2, 0.0, 1.0);\n  gl_PointSize = 50.0;\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-e3849r1roga0i5myw-thumbnail.jpg",
   "hasSound": "",
   "views": {

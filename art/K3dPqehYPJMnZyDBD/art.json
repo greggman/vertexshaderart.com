@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "danyalillo",
   "avatarUrl": "https://lh5.googleusercontent.com/-AubKP6RsE4s/AAAAAAAAAAI/AAAAAAAAABI/DdOK5vvzKn0/photo.jpg",
-  "settings": "{\"num\":889,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main() {\\n  float width = 20.0;\\n  \\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId + 1.0, 2.0);\\n  \\n  float squares = 36.0;\\n  float angle = (x / squares) * radians(360.0);\\n  float radius = y + 1.0;\\n  \\n  float ux = radius * cos(angle) + 35.0;\\n  float vy = radius * sin(angle);\\n  if(vertexId > 74.0)\\n  {\\n    float test = mod(vertexId, 75.0);\\n    if(test != 0.0)\\n    {      \\n    \\tux = ux - floor(vertexId / 74.0) * 4.0;\\n    }\\n  }\\n  \\n  vec2 xy = vec2(ux, vy) * 0.1;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 10.0;\\n}\"}",
+  "settings": {
+    "num": 889,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main() {\n  float width = 20.0;\n  \n  float x = floor(vertexId / 2.0);\n  float y = mod(vertexId + 1.0, 2.0);\n  \n  float squares = 36.0;\n  float angle = (x / squares) * radians(360.0);\n  float radius = y + 1.0;\n  \n  float ux = radius * cos(angle) + 35.0;\n  float vy = radius * sin(angle);\n  if(vertexId > 74.0)\n  {\n    float test = mod(vertexId, 75.0);\n    if(test != 0.0)\n    {      \n    \tux = ux - floor(vertexId / 74.0) * 4.0;\n    }\n  }\n  \n  vec2 xy = vec2(ux, vy) * 0.1;\n  \n  gl_Position = vec4(xy, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n  gl_PointSize = 10.0;\n}"
+  },
   "screenshotURL": "data/images/images-mdhhk7s3w33khrxoj-thumbnail.jpg",
   "hasSound": "",
   "views": {

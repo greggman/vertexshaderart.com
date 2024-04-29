@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "sergioerick",
   "avatarUrl": "https://lh6.googleusercontent.com/-6mWCYE7e8JE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcnyCK5B6N4hdhN62pAcPOwiFeA5g/mo/photo.jpg",
-  "settings": "{\"num\":7000,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main(){\\n\\tfloat width = 10.0;\\n\\tfloat circumPoints = 40.0;\\n  \\tfloat PI = 3.14159;\\n\\n\\tfloat gridId = floor(vertexId/(circumPoints));\\n  \\n\\tfloat xGrid = mod(gridId, width);\\n\\tfloat yGrid = floor(gridId / width);\\n\\n\\tfloat uGrid = xGrid / (width - 1.0);\\n\\tfloat vGrid = yGrid / (width - 1.0);\\n\\n\\tfloat circleId = mod(vertexId, circumPoints);\\n\\n\\tfloat xCircle = floor(circleId/ 2.0);\\n\\tfloat yCircle = mod(vertexId, 2.0);\\n  \\n\\tfloat angle = xCircle / ((circumPoints-2.0)/2.0) * radians(360.0);\\n\\n\\tfloat radius = 2.0 - yCircle;\\n  \\n\\tfloat uCircle = radius * cos(angle);\\n\\tfloat vCircle = radius * sin(angle);\\n  \\n\\tfloat xOffset = cos(time + yGrid * 0.2) * 0.1;\\n\\tfloat yOffset = cos(time + xGrid * 0.3) * 0.2;\\n  \\n\\tfloat ux = uGrid * 2.0 - 1.0 + xOffset + uCircle*0.05;\\n\\tfloat vy = vGrid * 2.0 - 1.0 + yOffset + vCircle*0.05;\\n  \\n\\tvec2 xy = vec2(ux, vy) * 1.3;\\n  \\n\\tgl_Position = vec4(xy, 0.0, 1.0);\\n\\tgl_PointSize = 5.0;\\n\\tv_color = vec4(1.0, 0.0, 0.0,1.0);\\n}\"}",
+  "settings": {
+    "num": 7000,
+    "mode": "TRI_STRIP",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvoid main(){\n\tfloat width = 10.0;\n\tfloat circumPoints = 40.0;\n  \tfloat PI = 3.14159;\n\n\tfloat gridId = floor(vertexId/(circumPoints));\n  \n\tfloat xGrid = mod(gridId, width);\n\tfloat yGrid = floor(gridId / width);\n\n\tfloat uGrid = xGrid / (width - 1.0);\n\tfloat vGrid = yGrid / (width - 1.0);\n\n\tfloat circleId = mod(vertexId, circumPoints);\n\n\tfloat xCircle = floor(circleId/ 2.0);\n\tfloat yCircle = mod(vertexId, 2.0);\n  \n\tfloat angle = xCircle / ((circumPoints-2.0)/2.0) * radians(360.0);\n\n\tfloat radius = 2.0 - yCircle;\n  \n\tfloat uCircle = radius * cos(angle);\n\tfloat vCircle = radius * sin(angle);\n  \n\tfloat xOffset = cos(time + yGrid * 0.2) * 0.1;\n\tfloat yOffset = cos(time + xGrid * 0.3) * 0.2;\n  \n\tfloat ux = uGrid * 2.0 - 1.0 + xOffset + uCircle*0.05;\n\tfloat vy = vGrid * 2.0 - 1.0 + yOffset + vCircle*0.05;\n  \n\tvec2 xy = vec2(ux, vy) * 1.3;\n  \n\tgl_Position = vec4(xy, 0.0, 1.0);\n\tgl_PointSize = 5.0;\n\tv_color = vec4(1.0, 0.0, 0.0,1.0);\n}"
+  },
   "screenshotURL": "data/images/images-6tntp9polvckce7ew-thumbnail.jpg",
   "hasSound": true,
   "views": {

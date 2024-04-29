@@ -31,7 +31,19 @@
   "private": false,
   "unlisted": true,
   "username": "8bitrick",
-  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/turanoza/desert-symphony-the-piano-guys\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n#define PI 3.14159\\nfloat hash(float p) {\\n\\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\\n\\treturn fract(p2.x * p2.y * 95.4337);\\n}\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nfloat m1p1(float v) { return v * 2. - 1.; }\\n\\nvoid main()\\n{\\n  float NUM_FLOWERS = 13.;\\n  float verts_per_flower = vertexCount / NUM_FLOWERS;\\n  float flower = floor(vertexId / verts_per_flower);\\n  float flower_per = flower / (NUM_FLOWERS-1.);\\n  float hash_flower = hash(flower_per-0.17777);\\n  vec2 center = vec2(m1p1(hash_flower), m1p1(hash(hash_flower))) * 0.6;\\n  \\n  float vertex_per = mod(vertexId, verts_per_flower) / verts_per_flower;\\n  float freq = vertex_per * 0.8 + 0.1;\\n  float amp = texture2D(sound,vec2(freq,0.)).a;// + (flower_per) - 1. + hash(flower_per);\\n  \\n  float layers = 37.;\\n  float angle = fract(hash(vertexId/(vertexCount-1.)) * layers) * 0.333 * PI + (0.333 * PI);\\n  vec2 xy = center + vec2(cos(angle), sin(angle)) * amp;\\n  \\n  float dist = clamp(0.,1.,(center.y+1.)*(center.y+1.)-1.);\\n  \\n  gl_PointSize = mix(10.0, 5., dist);\\n  gl_Position = vec4(xy,0,1);\\n  v_color = mix(vec4(hsv2rgb(vec3(amp*0.21, 1.-amp, 1.)), 1.-flower_per), background, dist - 0.5);\\n}\\n\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/turanoza/desert-symphony-the-piano-guys",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\n#define PI 3.14159\nfloat hash(float p) {\n\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\n\treturn fract(p2.x * p2.y * 95.4337);\n}\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nfloat m1p1(float v) { return v * 2. - 1.; }\n\nvoid main()\n{\n  float NUM_FLOWERS = 13.;\n  float verts_per_flower = vertexCount / NUM_FLOWERS;\n  float flower = floor(vertexId / verts_per_flower);\n  float flower_per = flower / (NUM_FLOWERS-1.);\n  float hash_flower = hash(flower_per-0.17777);\n  vec2 center = vec2(m1p1(hash_flower), m1p1(hash(hash_flower))) * 0.6;\n  \n  float vertex_per = mod(vertexId, verts_per_flower) / verts_per_flower;\n  float freq = vertex_per * 0.8 + 0.1;\n  float amp = texture2D(sound,vec2(freq,0.)).a;// + (flower_per) - 1. + hash(flower_per);\n  \n  float layers = 37.;\n  float angle = fract(hash(vertexId/(vertexCount-1.)) * layers) * 0.333 * PI + (0.333 * PI);\n  vec2 xy = center + vec2(cos(angle), sin(angle)) * amp;\n  \n  float dist = clamp(0.,1.,(center.y+1.)*(center.y+1.)-1.);\n  \n  gl_PointSize = mix(10.0, 5., dist);\n  gl_Position = vec4(xy,0,1);\n  v_color = mix(vec4(hsv2rgb(vec3(amp*0.21, 1.-amp, 1.)), 1.-flower_per), background, dist - 0.5);\n}\n"
+  },
   "screenshotURL": "data/images/images-yaymimp38ohxugkcp-thumbnail.jpg",
   "hasSound": true,
   "views": {

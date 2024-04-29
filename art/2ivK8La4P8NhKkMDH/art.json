@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "sylistine",
   "avatarUrl": "https://secure.gravatar.com/avatar/3a93b17a430d08943deebdfb93d4cef3?default=retro&size=200",
-  "settings": "{\"num\":20000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/griffinmcelroy/reunion-tour?in=griffinmcelroy/sets/the-adventure-zone-ost\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nmat4 perspectiveCam(){\\n  float a = resolution.y / resolution.x;\\n  float fov = 0.1;\\n  return mat4(\\n    a, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, fov, -1,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 translate(vec3 t)\\n{\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    t.x, t.y, t.z, 1);\\n}\\n\\nvoid main() {\\n  float trix = mod(vertexId, 2.);\\n  float triy = mod(floor(vertexId / 2.) + floor(vertexId / 3.), 2.);\\n  vec2 trixy = vec2(trix * resolution.y / resolution.x, triy);\\n  \\n  float quadId = floor(vertexId / 6.);\\n  float quadCount = quadId / floor(vertexCount / 6.);\\n  float quadx = floor(quadId / 4.);\\n  float quady = mod(quadId, 8.);\\n  vec2 quadxy = vec2(quadx, quady);\\n  \\n  gl_Position = vec4((trixy + quadxy) * 0.0625, 0, 1);\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 20000,
+    "mode": "TRIANGLES",
+    "sound": "https://soundcloud.com/griffinmcelroy/reunion-tour?in=griffinmcelroy/sets/the-adventure-zone-ost",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nmat4 perspectiveCam(){\n  float a = resolution.y / resolution.x;\n  float fov = 0.1;\n  return mat4(\n    a, 0, 0, 0,\n    0, 1, 0, 0,\n    0, 0, fov, -1,\n    0, 0, 0, 1);\n}\n\nmat4 translate(vec3 t)\n{\n  return mat4(\n    1, 0, 0, 0,\n    0, 1, 0, 0,\n    0, 0, 1, 0,\n    t.x, t.y, t.z, 1);\n}\n\nvoid main() {\n  float trix = mod(vertexId, 2.);\n  float triy = mod(floor(vertexId / 2.) + floor(vertexId / 3.), 2.);\n  vec2 trixy = vec2(trix * resolution.y / resolution.x, triy);\n  \n  float quadId = floor(vertexId / 6.);\n  float quadCount = quadId / floor(vertexCount / 6.);\n  float quadx = floor(quadId / 4.);\n  float quady = mod(quadId, 8.);\n  vec2 quadxy = vec2(quadx, quady);\n  \n  gl_Position = vec4((trixy + quadxy) * 0.0625, 0, 1);\n  \n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-y01wegzeg5g0vxpog-thumbnail.jpg",
   "hasSound": true,
   "views": {

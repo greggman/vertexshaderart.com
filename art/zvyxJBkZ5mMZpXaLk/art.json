@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "thetuesday night machines",
   "avatarUrl": "https://lh4.googleusercontent.com/-FV8gxf8fOhA/AAAAAAAAAAI/AAAAAAAAAAs/OCNDvQKt4Fo/photo.jpg",
-  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n  \\n  float x = atan(vertexId/100.-1.);\\n  float y = sin(time/4.+vertexId*4.)/2.;\\n  \\n \\n  \\n  gl_Position = vec4(x-1., y-x+cos(time+vertexId), 0, 1);\\n  gl_PointSize = ((time*2.+vertexId-1.)*20.)+(cos(time*1.)*10.+20.);\\n\\n  v_color = vec4(sin(time*2.+vertexId/.2),y+.3,.5,0.);\\n}\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvoid main() {\n  \n  float x = atan(vertexId/100.-1.);\n  float y = sin(time/4.+vertexId*4.)/2.;\n  \n \n  \n  gl_Position = vec4(x-1., y-x+cos(time+vertexId), 0, 1);\n  gl_PointSize = ((time*2.+vertexId-1.)*20.)+(cos(time*1.)*10.+20.);\n\n  v_color = vec4(sin(time*2.+vertexId/.2),y+.3,.5,0.);\n}"
+  },
   "screenshotURL": "data/images/images-wdzhpb4qbe4zfbhet-thumbnail.jpg",
   "hasSound": true,
   "views": {

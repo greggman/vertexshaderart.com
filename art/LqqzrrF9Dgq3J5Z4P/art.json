@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "chaerinpark",
   "avatarUrl": "https://avatars.githubusercontent.com/ChaerinPark?s=200",
-  "settings": "{\"num\":40000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name : Chaerin Park\\n//Assignment : Exercise - Vertexshaderart : Color\\n//Course : CS250\\n//Spring 2023\\n\\nvec3 hsv2rgb(vec3 c)\\n{\\n\\tc = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  \\tvec4 k = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  \\tvec3 p = abs(fract(c.xxx + k.xyz) * 9.0 - k.www);\\n  \\treturn c.z * mix(k.xxx, clamp(p - k.xxx, 0.0, 1.0), c.y);\\n}\\n\\n\\nvoid main()\\n{ \\n\\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor(vertexCount / down);\\n  \\n  \\tfloat x = mod(vertexId, across) + 1.0;\\n  \\tfloat y = floor(vertexId / across);\\n  \\n  \\tfloat u = x / (across * 0.2 - 1.0);\\n  \\tfloat v = y / (across / 2.0);\\n  \\n  \\tfloat xoff = sin(time + y * 0.2) * 0.1;\\n  \\tfloat yoff = sin(time * 1.1 + x * 0.3) * 0.2;\\n  \\n  \\tfloat ux = u * 5.0 + xoff * 10.0 + sin(time) + cos(u * time) / 20.0;\\n  \\tfloat vy = v * 3.0 - 1.0 + yoff;\\n  \\n  \\tvec2 xy = vec2(ux, vy) * 1.1;\\n  \\n  \\tgl_Position = vec4(xy, 0, 1);\\n  \\n  \\tfloat soff = sin(time * 1.2 + x * y * 0.02) * 0.5;\\n  \\n  \\tgl_PointSize = 25.0 + soff;\\n  \\tgl_PointSize *= 20.0 / across;\\n  \\tgl_PointSize *= resolution.x / 500.0;\\n  \\n  \\tfloat hue = u * 0.1 + sin(time * 1.3 + v * 20.0);\\n  \\tfloat sat = v;\\n  \\tfloat val = sin(time * 1.4 + v * u * 20.0) * 0.5 + 0.5;\\n  \\n  \\tv_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "settings": {
+    "num": 40000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//Name : Chaerin Park\n//Assignment : Exercise - Vertexshaderart : Color\n//Course : CS250\n//Spring 2023\n\nvec3 hsv2rgb(vec3 c)\n{\n\tc = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  \tvec4 k = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  \tvec3 p = abs(fract(c.xxx + k.xyz) * 9.0 - k.www);\n  \treturn c.z * mix(k.xxx, clamp(p - k.xxx, 0.0, 1.0), c.y);\n}\n\n\nvoid main()\n{ \n\tfloat down = floor(sqrt(vertexCount));\n  \tfloat across = floor(vertexCount / down);\n  \n  \tfloat x = mod(vertexId, across) + 1.0;\n  \tfloat y = floor(vertexId / across);\n  \n  \tfloat u = x / (across * 0.2 - 1.0);\n  \tfloat v = y / (across / 2.0);\n  \n  \tfloat xoff = sin(time + y * 0.2) * 0.1;\n  \tfloat yoff = sin(time * 1.1 + x * 0.3) * 0.2;\n  \n  \tfloat ux = u * 5.0 + xoff * 10.0 + sin(time) + cos(u * time) / 20.0;\n  \tfloat vy = v * 3.0 - 1.0 + yoff;\n  \n  \tvec2 xy = vec2(ux, vy) * 1.1;\n  \n  \tgl_Position = vec4(xy, 0, 1);\n  \n  \tfloat soff = sin(time * 1.2 + x * y * 0.02) * 0.5;\n  \n  \tgl_PointSize = 25.0 + soff;\n  \tgl_PointSize *= 20.0 / across;\n  \tgl_PointSize *= resolution.x / 500.0;\n  \n  \tfloat hue = u * 0.1 + sin(time * 1.3 + v * 20.0);\n  \tfloat sat = v;\n  \tfloat val = sin(time * 1.4 + v * u * 20.0) * 0.5 + 0.5;\n  \n  \tv_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\n}"
+  },
   "screenshotURL": "data/images/images-0jk0s7oxypkp8o4pv-thumbnail.jpg",
   "hasSound": "",
   "views": {

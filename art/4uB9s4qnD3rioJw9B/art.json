@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "alexisrubio96",
   "avatarUrl": "https://avatars.githubusercontent.com/AlexisRubio96?s=200",
-  "settings": "{\"num\":8,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main(){\\n  \\n  \\tfloat x = floor(vertexId / 2.0);  \\n\\tfloat y = mod(vertexId + 1.0, 2.0);\\n  \\n  \\tvec2 xy = vec2(x,y)*1.0;\\n  \\n\\tgl_Position = vec4(x, y, 0.0,10.0);\\t\\t//Posición final de un vertice\\n  \\tv_color = vec4(1.0,0.0,0.0,1.0);\\n  \\tgl_PointSize = 1.0;\\n\\n}\"}",
+  "settings": {
+    "num": 8,
+    "mode": "LINE_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main(){\n  \n  \tfloat x = floor(vertexId / 2.0);  \n\tfloat y = mod(vertexId + 1.0, 2.0);\n  \n  \tvec2 xy = vec2(x,y)*1.0;\n  \n\tgl_Position = vec4(x, y, 0.0,10.0);\t\t//Posición final de un vertice\n  \tv_color = vec4(1.0,0.0,0.0,1.0);\n  \tgl_PointSize = 1.0;\n\n}"
+  },
   "screenshotURL": "data/images/images-237fuub035h1kz3j5-thumbnail.jpg",
   "hasSound": "",
   "views": {

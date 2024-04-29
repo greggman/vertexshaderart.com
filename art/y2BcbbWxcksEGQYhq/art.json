@@ -27,7 +27,19 @@
   "name": "sleep",
   "private": false,
   "username": "spotline",
-  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/spotline/unpeuderepos\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  float x = vertexId * 0.025;\\n  x = mod(x,2.0);\\n  x-= 1.0;\\n  float y = texture2D(sound,vec2(pow(vertexId/soundRes.x,2.0)*0.25,0.0)).a*0.5;\\n  y*= 1.0 + vertexId * 0.025;\\n  float instantY = y;\\n  int smoothCount = 20;\\n  for ( int i=0; i <= 20; i++)\\n  {\\n    y+=texture2D(sound,vec2(pow(vertexId/soundRes.x,2.0),float(i)/float(smoothCount)/64.0)).a;\\n  }\\n  y/=float(smoothCount+1);\\n  float lum = clamp(instantY-y,0.0,0.5)*0.1;\\n\\n  y = pow(y,2.0)-0.7;\\n  gl_Position = vec4(x,y,0,1);\\n  gl_PointSize = 44.0;\\n  instantY = pow(instantY,0.5);\\n  v_color = vec4((0.2+lum)*instantY,(0.2+lum+vertexId*0.0005)*instantY,(0.8+lum)*instantY,instantY);\\n}\\n\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/spotline/unpeuderepos",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main()\n{\n  float x = vertexId * 0.025;\n  x = mod(x,2.0);\n  x-= 1.0;\n  float y = texture2D(sound,vec2(pow(vertexId/soundRes.x,2.0)*0.25,0.0)).a*0.5;\n  y*= 1.0 + vertexId * 0.025;\n  float instantY = y;\n  int smoothCount = 20;\n  for ( int i=0; i <= 20; i++)\n  {\n    y+=texture2D(sound,vec2(pow(vertexId/soundRes.x,2.0),float(i)/float(smoothCount)/64.0)).a;\n  }\n  y/=float(smoothCount+1);\n  float lum = clamp(instantY-y,0.0,0.5)*0.1;\n\n  y = pow(y,2.0)-0.7;\n  gl_Position = vec4(x,y,0,1);\n  gl_PointSize = 44.0;\n  instantY = pow(instantY,0.5);\n  v_color = vec4((0.2+lum)*instantY,(0.2+lum+vertexId*0.0005)*instantY,(0.8+lum)*instantY,instantY);\n}\n"
+  },
   "screenshotURL": "data/images/images-zoron4bjebo5tpvwo-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":3,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n  gl_PointSize = 10.0;\\n}\"}",
+  "settings": {
+    "num": 3,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvoid main() {\n  gl_PointSize = 10.0;\n}"
+  },
   "screenshotURL": "data/images/images-wncl571lmtgu9an87-thumbnail.jpg",
   "hasSound": true,
   "views": {

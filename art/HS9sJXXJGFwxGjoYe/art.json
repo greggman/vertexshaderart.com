@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "marcoisaac",
   "avatarUrl": "https://lh6.googleusercontent.com/-jsbJZMoV7aw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rczbGrsWSlymdrCUasJ8WzEUV3Ptg/mo/photo.jpg",
-  "settings": "{\"num\":28107,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"vec2 drawCircle(float id);\\n\\nvoid main()\\n{\\n  \\n  float circleId = floor(vertexId / 120.0);\\n  float numCircles = floor(900.0 / 5.0);\\n  \\n  float col = floor(sqrt(numCircles));//down\\n  float fil = floor(numCircles/col);//across\\n  \\n  float x = mod(circleId, fil);    // [0, width - 1]\\n  float y = floor(circleId / fil); // [0, inf]\\n\\n  float u = x / (fil - 1.0);\\n  float v = y / (fil - 1.0); \\n  \\n  float xOffset = cos(time + y * 0.2) * 0.3;\\n  float yOffset = cos(time + x * 0.3) * 0.3 ;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float vy = v * 2.0 - 1.0 + yOffset;\\n   \\n  //vec2 xy = vec2(ux, vy)* 0.4;\\n  vec2 xy = drawCircle(vertexId) * 0.16 + vec2(ux, vy) * 1.5;\\n\\n  //gl_Position = vec4(xy + (drawCircleXY(vertexId) * 0.05) , 0.0, 1.0);\\n  gl_Position = vec4(xy, 0.0, 1.0);\\n     \\n  gl_PointSize = 15.0 ;\\n  gl_PointSize *= 32.0 / fil;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  \\n}\\n\\n\\n\\nvec2 drawCircle(float id)\\n{\\n  \\n  float x = floor(id / 2.0) + mod(id, 2.0);\\n  //float y = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\\n  float y = mod(id + 1.0, 2.0);\\n  \\n  float angle = x / 20.0 * radians(180.0) * 2.0 ;\\n  float radius = 2.0 - y;\\n  \\n  float u = radius * cos(angle);\\n  float v = radius * sin(angle);\\n    \\n  vec2 xy = vec2(u, v) * 0.33;\\n  \\n  return xy;\\n}\"}",
+  "settings": {
+    "num": 28107,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "vec2 drawCircle(float id);\n\nvoid main()\n{\n  \n  float circleId = floor(vertexId / 120.0);\n  float numCircles = floor(900.0 / 5.0);\n  \n  float col = floor(sqrt(numCircles));//down\n  float fil = floor(numCircles/col);//across\n  \n  float x = mod(circleId, fil);    // [0, width - 1]\n  float y = floor(circleId / fil); // [0, inf]\n\n  float u = x / (fil - 1.0);\n  float v = y / (fil - 1.0); \n  \n  float xOffset = cos(time + y * 0.2) * 0.3;\n  float yOffset = cos(time + x * 0.3) * 0.3 ;\n  \n  float ux = u * 2.0 - 1.0 + xOffset;\n  float vy = v * 2.0 - 1.0 + yOffset;\n   \n  //vec2 xy = vec2(ux, vy)* 0.4;\n  vec2 xy = drawCircle(vertexId) * 0.16 + vec2(ux, vy) * 1.5;\n\n  //gl_Position = vec4(xy + (drawCircleXY(vertexId) * 0.05) , 0.0, 1.0);\n  gl_Position = vec4(xy, 0.0, 1.0);\n     \n  gl_PointSize = 15.0 ;\n  gl_PointSize *= 32.0 / fil;\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n  \n}\n\n\n\nvec2 drawCircle(float id)\n{\n  \n  float x = floor(id / 2.0) + mod(id, 2.0);\n  //float y = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\n  float y = mod(id + 1.0, 2.0);\n  \n  float angle = x / 20.0 * radians(180.0) * 2.0 ;\n  float radius = 2.0 - y;\n  \n  float u = radius * cos(angle);\n  float v = radius * sin(angle);\n    \n  vec2 xy = vec2(u, v) * 0.33;\n  \n  return xy;\n}"
+  },
   "screenshotURL": "data/images/images-9om2eqdjc5suyd6eb-thumbnail.jpg",
   "hasSound": "",
   "views": {

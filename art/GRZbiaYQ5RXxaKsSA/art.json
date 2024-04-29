@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "evan_chen",
   "avatarUrl": "https://secure.gravatar.com/avatar/cf83fa7e8a58a2de525a1b42e8550220?default=retro&size=200",
-  "settings": "{\"num\":20572,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.403921568627451,0.403921568627451,0.403921568627451,1],\"shader\":\"void main()\\n{\\n  \\n  \\n  gl_PointSize= 1. ; \\n  gl_Position = vec4(1. ) ; \\n  v_color = vec4(1. ) ; \\n}\"}",
+  "settings": {
+    "num": 20572,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.403921568627451,
+      0.403921568627451,
+      0.403921568627451,
+      1
+    ],
+    "shader": "void main()\n{\n  \n  \n  gl_PointSize= 1. ; \n  gl_Position = vec4(1. ) ; \n  v_color = vec4(1. ) ; \n}"
+  },
   "screenshotURL": "data/images/images-dn4fav6m6ixqp77k4-thumbnail.jpg",
   "hasSound": "",
   "views": {

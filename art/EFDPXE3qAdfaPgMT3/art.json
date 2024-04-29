@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float PI = 6.28;\\n  float p = vertexId / vertexCount;\\n  float life = mod(time, p * 10.0);\\n  float speed = mod(time, 2.0);\\n  float vx = cos(PI * p) * speed * life * 0.1;\\n  float vy = sin(PI * p) * speed * life * 0.1;\\n  \\n  gl_Position = vec4(vx, vy, 0.0, 1.0);\\n  gl_PointSize = 10.0;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "vec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float PI = 6.28;\n  float p = vertexId / vertexCount;\n  float life = mod(time, p * 10.0);\n  float speed = mod(time, 2.0);\n  float vx = cos(PI * p) * speed * life * 0.1;\n  float vy = sin(PI * p) * speed * life * 0.1;\n  \n  gl_Position = vec4(vx, vy, 0.0, 1.0);\n  gl_PointSize = 10.0;\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-axeehe66y6m2gt250-thumbnail.jpg",
   "hasSound": "",
   "views": {

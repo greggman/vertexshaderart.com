@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "gaz",
   "avatarUrl": "https://secure.gravatar.com/avatar/1383190fac8e70cb725c3d76dbc811ba?default=retro&size=200",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/naturaviva/dantiez-saunderson-john-norman-get-back-original-mix\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {  \\n  float aspect = resolution.x / resolution.y;\\n  vec2 dim =  floor(vec2(sqrt(vertexCount*aspect) ,sqrt(vertexCount/aspect)));\\n  vec2 p = vec2(mod(vertexId, dim.x), mod(floor(vertexId/ dim.x),dim.y));\\n  p /= dim;\\n  p = p * 2.0 - 1.0;\\n  gl_Position = vec4(p, 0.0, 1.0);  \\n  gl_PointSize=resolution.y / dim.y;\\n  //p.x *= aspect;\\n  vec3 col = texture2D(sound, p * 0.5 + 0.5).rgb;\\n  v_color = vec4(col, 1.0);\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/naturaviva/dantiez-saunderson-john-norman-get-back-original-mix",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {  \n  float aspect = resolution.x / resolution.y;\n  vec2 dim =  floor(vec2(sqrt(vertexCount*aspect) ,sqrt(vertexCount/aspect)));\n  vec2 p = vec2(mod(vertexId, dim.x), mod(floor(vertexId/ dim.x),dim.y));\n  p /= dim;\n  p = p * 2.0 - 1.0;\n  gl_Position = vec4(p, 0.0, 1.0);  \n  gl_PointSize=resolution.y / dim.y;\n  //p.x *= aspect;\n  vec3 col = texture2D(sound, p * 0.5 + 0.5).rgb;\n  v_color = vec4(col, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-39o1j2yw3iwkq9h4i-thumbnail.jpg",
   "hasSound": true,
   "views": {

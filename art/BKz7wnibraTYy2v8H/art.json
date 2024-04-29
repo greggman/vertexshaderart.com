@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "floppafilms google emails",
   "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIuaBwUR9c6Zno3BImNS0s8sMlZcGj0gBrDxanr22L0IECUEO0=s96-c",
-  "settings": "{\"num\":28423,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/user-458550313/whats-up\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/*\\nV       V SSSSSS     A\\n V     V   S        A A\\n  V   V     S      A   A\\n   V V       S    AAAAAAA\\n    V      SSSSS A       A\\n\\nvsa is awesome\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n*/\\n\\n\\n\\n\\n\\n\\nvoid main() {\\n\\tvec3 cameraEyeVec = vec3(0,0,0);\\n  \\tfloat snd = texture2D(sound,vec2(mix(0.1,0.25,time),(vertexId/vertexCount)*.2)).a;\\n  \\tv_color = vec4(1,snd,0,1);\\n}\"}",
+  "settings": {
+    "num": 28423,
+    "mode": "TRIANGLES",
+    "sound": "https://soundcloud.com/user-458550313/whats-up",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "/*\nV       V SSSSSS     A\n V     V   S        A A\n  V   V     S      A   A\n   V V       S    AAAAAAA\n    V      SSSSS A       A\n\nvsa is awesome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n*/\n\n\n\n\n\n\nvoid main() {\n\tvec3 cameraEyeVec = vec3(0,0,0);\n  \tfloat snd = texture2D(sound,vec2(mix(0.1,0.25,time),(vertexId/vertexCount)*.2)).a;\n  \tv_color = vec4(1,snd,0,1);\n}"
+  },
   "screenshotURL": "data/images/images-n19d4nevatvlfabzc-thumbnail.jpg",
   "hasSound": true,
   "views": {

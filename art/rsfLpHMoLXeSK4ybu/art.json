@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":128,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n\\nvoid main() {\\n  float start = mod(vertexId, 2.0);\\n  float x = -1.0 + 2.0 * mod(floor(vertexId / 2.0), 2.0);\\n  float y = -1.0 + 2.0 * mod(floor(vertexId / 4.0), 2.0);\\n  float z = -1.0 + 2.0 * mod(floor(vertexId / 8.0), 2.0);\\n  float w = -1.0 + 2.0 * mod(floor(vertexId / 16.0), 2.0);\\n  float idx = mod(floor(vertexId / 32.0), 4.0);\\n  x += (idx == .0 && start == 1.0 && x < 0.) ? 2. : 0.;\\n  y += (idx == 1.0 && start == 1.0 && y < 0.) ? 2. : 0.;\\n  z += (idx == 2.0 && start == 1.0 && z < 0.) ? 2. : 0.;\\n  w += (idx == 3.0 && start == 1.0 && w < 0.) ? 2. : 0.;\\n  vec4 xyzw = vec4(x, y, z, w);\\n  float a = cos(0.08*time);\\n  float k = sin(0.08*time);\\n  float b = k * mouse.x;\\n  float c = k * mouse.y;\\n  float d = k * sqrt(1. -  dot(mouse, mouse));\\n  mat4 rot = mat4(a, -b, -c, -d,\\n                  b, a, -d, c,\\n                  c, d, a, -b,\\n                  d, -c, b, a);\\n  xyzw = rot * xyzw;\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  gl_Position = vec4(.3 * aspect * xyzw.xy, 0., 1.);\\n  v_color = .25 * (3. + xyzw.z) * vec4(.5, .5 * (1.+xyzw.w), .5, 0.5);\\n}\"}",
+  "settings": {
+    "num": 128,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n\nvoid main() {\n  float start = mod(vertexId, 2.0);\n  float x = -1.0 + 2.0 * mod(floor(vertexId / 2.0), 2.0);\n  float y = -1.0 + 2.0 * mod(floor(vertexId / 4.0), 2.0);\n  float z = -1.0 + 2.0 * mod(floor(vertexId / 8.0), 2.0);\n  float w = -1.0 + 2.0 * mod(floor(vertexId / 16.0), 2.0);\n  float idx = mod(floor(vertexId / 32.0), 4.0);\n  x += (idx == .0 && start == 1.0 && x < 0.) ? 2. : 0.;\n  y += (idx == 1.0 && start == 1.0 && y < 0.) ? 2. : 0.;\n  z += (idx == 2.0 && start == 1.0 && z < 0.) ? 2. : 0.;\n  w += (idx == 3.0 && start == 1.0 && w < 0.) ? 2. : 0.;\n  vec4 xyzw = vec4(x, y, z, w);\n  float a = cos(0.08*time);\n  float k = sin(0.08*time);\n  float b = k * mouse.x;\n  float c = k * mouse.y;\n  float d = k * sqrt(1. -  dot(mouse, mouse));\n  mat4 rot = mat4(a, -b, -c, -d,\n                  b, a, -d, c,\n                  c, d, a, -b,\n                  d, -c, b, a);\n  xyzw = rot * xyzw;\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  gl_Position = vec4(.3 * aspect * xyzw.xy, 0., 1.);\n  v_color = .25 * (3. + xyzw.z) * vec4(.5, .5 * (1.+xyzw.w), .5, 0.5);\n}"
+  },
   "screenshotURL": "data/images/images-ku8yibf3fp4zzjvug-thumbnail.jpg",
   "hasSound": "",
   "views": {

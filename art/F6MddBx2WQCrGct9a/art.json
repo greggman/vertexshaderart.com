@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gonnavis",
   "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GhSJKnNoTgcJa1k6UpXDyxIVcCzuktPMheOKdkK=s96-c",
-  "settings": "{\"num\":9,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvec3 hash3( float n ){\\n  // http://glslsandbox.com/e#61476.1\\n  return fract(sin(vec3(n,n+1.0,n+2.0))*vec3(43758.5453123,22578.1459123,19642.3490423));\\n}\\n\\nvoid main() {\\n  gl_Position=vec4(hash3(vertexId+time*.0001)-.5,1);\\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "settings": {
+    "num": 9,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvec3 hash3( float n ){\n  // http://glslsandbox.com/e#61476.1\n  return fract(sin(vec3(n,n+1.0,n+2.0))*vec3(43758.5453123,22578.1459123,19642.3490423));\n}\n\nvoid main() {\n  gl_Position=vec4(hash3(vertexId+time*.0001)-.5,1);\n  v_color = vec4(1,0,0,1);\n}"
+  },
   "screenshotURL": "data/images/images-37bcsjcyf38exhod0-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -26,7 +26,19 @@
   "name": "Sea",
   "private": true,
   "username": "baldand",
-  "settings": "{\"num\":100000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.5019607843137255,1,1,1],\"shader\":\"#define GRID_WIDTH 40.0\\n#define GRID_DEPTH 50.0\\n#define TRIS (GRID_WIDTH * GRID_DEPTH * 4.0)\\n#define VERTS (TRIS * 3.0)\\n\\nfloat heightMap(vec2 pos) {\\n  return sin(pos.x+time)+sin(pos.y+pos.x*1.4+time);\\n}\\n\\nvec4 heightMapCol(vec2 pos) {\\n  return vec4(0.2,0.4+0.1*sin(100.*pos.x+10.0*pos.y+time*2.),0.8+0.2*sin(200.*pos.y*pos.x+time),1.);\\n}\\n\\nvec2 getPos(float v) {\\n    vec2 pos;\\n    float square = floor(v/12.0);\\n    float sx = mod(v,12.0);\\n    float ox = 1.;\\n    if (sx==0. || sx==3. || sx==4. || sx==6.) ox = 0.;\\n    else if (mod(sx,3.)==2.) ox = .5;\\n    float oy = 1.;\\n    if (sx==0. || sx==1. || sx==3. || sx==9.) oy = 0.;\\n    else if (mod(sx,3.)==2.) oy = .5;\\n    float gx = floor(square/GRID_DEPTH);\\n    float gy = mod(square,GRID_DEPTH);\\n    return vec2(gx+ox,gy+oy);\\n}\\n\\nvoid main() {\\n  v_color = vec4(0.);\\n  vec3 p;\\n  if (vertexId < VERTS) {\\n      vec2 pos = getPos(vertexId);\\n      float h = heightMap(pos);\\n\\t  v_color = heightMapCol(pos);\\n      p = vec3(pos.x-GRID_WIDTH*.5,h*.5-2.,pos.y*.5+1.);\\n  }\\n  gl_Position = vec4(p.xy,1.0/-p.z,p.z);\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "TRIANGLES",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.5019607843137255,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define GRID_WIDTH 40.0\n#define GRID_DEPTH 50.0\n#define TRIS (GRID_WIDTH * GRID_DEPTH * 4.0)\n#define VERTS (TRIS * 3.0)\n\nfloat heightMap(vec2 pos) {\n  return sin(pos.x+time)+sin(pos.y+pos.x*1.4+time);\n}\n\nvec4 heightMapCol(vec2 pos) {\n  return vec4(0.2,0.4+0.1*sin(100.*pos.x+10.0*pos.y+time*2.),0.8+0.2*sin(200.*pos.y*pos.x+time),1.);\n}\n\nvec2 getPos(float v) {\n    vec2 pos;\n    float square = floor(v/12.0);\n    float sx = mod(v,12.0);\n    float ox = 1.;\n    if (sx==0. || sx==3. || sx==4. || sx==6.) ox = 0.;\n    else if (mod(sx,3.)==2.) ox = .5;\n    float oy = 1.;\n    if (sx==0. || sx==1. || sx==3. || sx==9.) oy = 0.;\n    else if (mod(sx,3.)==2.) oy = .5;\n    float gx = floor(square/GRID_DEPTH);\n    float gy = mod(square,GRID_DEPTH);\n    return vec2(gx+ox,gy+oy);\n}\n\nvoid main() {\n  v_color = vec4(0.);\n  vec3 p;\n  if (vertexId < VERTS) {\n      vec2 pos = getPos(vertexId);\n      float h = heightMap(pos);\n\t  v_color = heightMapCol(pos);\n      p = vec3(pos.x-GRID_WIDTH*.5,h*.5-2.,pos.y*.5+1.);\n  }\n  gl_Position = vec4(p.xy,1.0/-p.z,p.z);\n}"
+  },
   "screenshotURL": "data/images/images-zn2y5pj0nou4l9agh-thumbnail.jpg",
   "views": {
     "$numberInt": "1"

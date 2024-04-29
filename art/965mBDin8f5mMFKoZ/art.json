@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "재우",
   "avatarUrl": "https://lh6.googleusercontent.com/-2X_KPdDSJQw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd6jrLpiakTtViM5yPJkYwfQJhnhQ/mo/photo.jpg",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  gl_Position = vec4(0, 1, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1,0,0,1);\\n\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  \n  gl_Position = vec4(0, 1, 0, 1);\n  \n  gl_PointSize = 10.0;\n  \n  v_color = vec4(1,0,0,1);\n\n}"
+  },
   "screenshotURL": "data/images/images-y5qtfeqiyyv437k5d-thumbnail.jpg",
   "hasSound": "",
   "views": {

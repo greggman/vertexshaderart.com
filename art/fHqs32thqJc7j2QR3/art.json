@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":15000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/mouthwateringrecords/dubokaj-trimoto-calim\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.5568627450980392,0.611764705882353,0.5725490196078431,1],\"shader\":\"void main() {\\n  float aspect = resolution.x / resolution.y;\\n  float phi = vertexId * .120;\\n  float radius = fract(vertexId / (10. + sin(time * .01 + phi * .1))) * .6;\\n  phi += radius * 5.;\\n  radius += (sin(phi * 5.) * .5 + .5) * .1;\\n  float tau = acos(-1.) * 2.;\\n  phi += clamp(fract(time * 80. / 60.) * 3., 0., 1.) * tau / 5.;\\n  radius += .5 * radius * texture2D(sound, vec2(abs(fract(phi / tau - .25) - .5) * .25, 0.)).r;\\n  gl_PointSize = mix(1., 3., fract(phi * .1));\\n  vec3 pos = vec3(radius * cos(phi), radius * sin(phi), 0.);\\n  pos.x /= aspect;\\n  gl_Position = vec4(pos, 1);\\n  vec3 color = vec3(0);\\n  v_color = vec4(color, 1.);\\n\\n}\"}",
+  "settings": {
+    "num": 15000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/mouthwateringrecords/dubokaj-trimoto-calim",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.5568627450980392,
+      0.611764705882353,
+      0.5725490196078431,
+      1
+    ],
+    "shader": "void main() {\n  float aspect = resolution.x / resolution.y;\n  float phi = vertexId * .120;\n  float radius = fract(vertexId / (10. + sin(time * .01 + phi * .1))) * .6;\n  phi += radius * 5.;\n  radius += (sin(phi * 5.) * .5 + .5) * .1;\n  float tau = acos(-1.) * 2.;\n  phi += clamp(fract(time * 80. / 60.) * 3., 0., 1.) * tau / 5.;\n  radius += .5 * radius * texture2D(sound, vec2(abs(fract(phi / tau - .25) - .5) * .25, 0.)).r;\n  gl_PointSize = mix(1., 3., fract(phi * .1));\n  vec3 pos = vec3(radius * cos(phi), radius * sin(phi), 0.);\n  pos.x /= aspect;\n  gl_Position = vec4(pos, 1);\n  vec3 color = vec3(0);\n  v_color = vec4(color, 1.);\n\n}"
+  },
   "screenshotURL": "data/images/images-t3ye1v22de0ypn7qu-thumbnail.jpg",
   "hasSound": true,
   "views": {

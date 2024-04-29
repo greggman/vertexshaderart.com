@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "seiji",
   "avatarUrl": "https://lh4.googleusercontent.com/-RS-S20_LZCc/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nAdcRXz-a14kGVDL4kr6M38jRz17A/photo.jpg",
-  "settings": "{\"num\":274,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\n\\nvoid main() {\\n\\t\\n  if(vertexId > 200.0){\\n\\tgl_Position = vec4(sin(time/vertexId), sin(time*vertexId),0.5,1.0);\\n  }\\n  gl_PointSize = 10.0; \\n // gl_Position = persp(PI*0.25, resolution.x/resolution.y, 0.1, 100.0) * vec4(0.5,0.5,0.4,1.0);\\n  gl_Position = vec4(sin(vertexId/(cos(time)*100.0))/1.2, cos(time)+ cos(vertexId/200.0)/1.5,0.0,1.0);\\n  \\n  //gl_Position = vec4(0.1, 0.1,0.2, 1.0);\\n  v_color = vec4(1,vertexId,0.5,1);\\n}\"}",
+  "settings": {
+    "num": 274,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n\n\nvoid main() {\n\t\n  if(vertexId > 200.0){\n\tgl_Position = vec4(sin(time/vertexId), sin(time*vertexId),0.5,1.0);\n  }\n  gl_PointSize = 10.0; \n // gl_Position = persp(PI*0.25, resolution.x/resolution.y, 0.1, 100.0) * vec4(0.5,0.5,0.4,1.0);\n  gl_Position = vec4(sin(vertexId/(cos(time)*100.0))/1.2, cos(time)+ cos(vertexId/200.0)/1.5,0.0,1.0);\n  \n  //gl_Position = vec4(0.1, 0.1,0.2, 1.0);\n  v_color = vec4(1,vertexId,0.5,1);\n}"
+  },
   "screenshotURL": "data/images/images-7f3zjb0svtzpvaxe9-thumbnail.jpg",
   "hasSound": "",
   "views": {

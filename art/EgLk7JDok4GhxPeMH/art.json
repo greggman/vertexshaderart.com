@@ -27,7 +27,19 @@
   "name": "stringart",
   "private": false,
   "username": "gman",
-  "settings": "{\"num\":500,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"CSS\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_SEGMENTS 128.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n#define NUM_LINES_DOWN 64.0\\n#define PI 3.141592653589793\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n\\nvoid main() {\\n  vec4 offsets = vec4(\\n    sin(time), \\n    sin(time * .13) * PI * 2.,\\n    sin(time * .43) * .5 + 1.,\\n    cos(time * .17) * .5 + .5);\\n\\n  vec4 centers = vec4(\\n    sin(time * .163) * .5,\\n    cos(time * .267) * .5,\\n    sin(time * .367) * .5,\\n    cos(time * .497) * .5);\\n\\n  vec4 mult = vec4(\\n    1.,\\n    (sin(time * .1) * .5 + .5) * 3.,\\n    0.,\\n    0.);\\n\\n  vec2 position = vec2(vertexId / vertexCount, mod(vertexId, 2.));\\n  vec2 offset = mix(offsets.xz, offsets.yw, position.y);\\n  float a = mult.x * position.x * PI * 2.0 + offset.x;//mix(u_offsets.x, u_offsets.y, a_position.y);\\n  float c = cos(a * mult.y);\\n  vec2 xy = vec2(\\n    cos(a),\\n    sin(a)) * c * offset.y +\\n    mix(centers.xy, centers.zw, position.y);\\n  vec2 aspect = vec2(resolution.y / resolution.x, 1);\\n  gl_Position = vec4(xy * aspect, 0, 1);\\n  \\n  float hue = position.x;\\n  float sat = 1.;\\n  float val = 1.;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "settings": {
+    "num": 500,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "CSS",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define NUM_SEGMENTS 128.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n#define NUM_LINES_DOWN 64.0\n#define PI 3.141592653589793\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\n\nvoid main() {\n  vec4 offsets = vec4(\n    sin(time), \n    sin(time * .13) * PI * 2.,\n    sin(time * .43) * .5 + 1.,\n    cos(time * .17) * .5 + .5);\n\n  vec4 centers = vec4(\n    sin(time * .163) * .5,\n    cos(time * .267) * .5,\n    sin(time * .367) * .5,\n    cos(time * .497) * .5);\n\n  vec4 mult = vec4(\n    1.,\n    (sin(time * .1) * .5 + .5) * 3.,\n    0.,\n    0.);\n\n  vec2 position = vec2(vertexId / vertexCount, mod(vertexId, 2.));\n  vec2 offset = mix(offsets.xz, offsets.yw, position.y);\n  float a = mult.x * position.x * PI * 2.0 + offset.x;//mix(u_offsets.x, u_offsets.y, a_position.y);\n  float c = cos(a * mult.y);\n  vec2 xy = vec2(\n    cos(a),\n    sin(a)) * c * offset.y +\n    mix(centers.xy, centers.zw, position.y);\n  vec2 aspect = vec2(resolution.y / resolution.x, 1);\n  gl_Position = vec4(xy * aspect, 0, 1);\n  \n  float hue = position.x;\n  float sat = 1.;\n  float val = 1.;\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\n}"
+  },
   "screenshotURL": "data/images/images-3miwbc8y1trizj8o4-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":56050,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/uheplugins/bora\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 100.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float pointV = point / NUM_SEGMENTS;\\n  float circleId = floor(vertexId / NUM_POINTS);\\n  float numCircles = floor(vertexCount / NUM_POINTS);\\n  float circleV = circleId / numCircles;\\n  \\n  float snd = texture2D(sound, vec2(pointV * 0.0125, (1. - circleV) * 0.1)).a;\\n  \\n  float angle = pointV * PI * 2.0 + snd * 5.;\\n  float c = cos(angle) * mix(0.1, 1., circleV);\\n  float s = sin(angle) * mix(0.25, 0.5, circleV);\\n  \\n  float r = mix(0., PI, circleV) + pow(snd, 5.0);\\n  float rc = cos(r + sin(time * 4. + circleV * 4.));\\n  float rs = sin(r + sin(time * 4. + circleV * 4.));\\n  \\n  vec2 aspect = vec2(1, resolution.x / resolution.y) * 0.8;\\n  vec2 xy = vec2(\\n      rc * c + rs * s,\\n     -rs * c + rc * s);\\n  gl_Position = vec4(xy * aspect*snd, 0, 1);\\n\\n  float b = 1.0;\\n  v_color.a = 1.;\\n  v_color.rgb = vec3(1. - circleV, circleV, 1) * (1. - pow(snd, 20.0));\\n  \\n  gl_PointSize = 4.0;\\n  gl_PointSize *= resolution.x / 1600.0;\\n}\"}",
+  "settings": {
+    "num": 56050,
+    "mode": "LINES",
+    "sound": "https://soundcloud.com/uheplugins/bora",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 100.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvoid main() {\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\n  float pointV = point / NUM_SEGMENTS;\n  float circleId = floor(vertexId / NUM_POINTS);\n  float numCircles = floor(vertexCount / NUM_POINTS);\n  float circleV = circleId / numCircles;\n  \n  float snd = texture2D(sound, vec2(pointV * 0.0125, (1. - circleV) * 0.1)).a;\n  \n  float angle = pointV * PI * 2.0 + snd * 5.;\n  float c = cos(angle) * mix(0.1, 1., circleV);\n  float s = sin(angle) * mix(0.25, 0.5, circleV);\n  \n  float r = mix(0., PI, circleV) + pow(snd, 5.0);\n  float rc = cos(r + sin(time * 4. + circleV * 4.));\n  float rs = sin(r + sin(time * 4. + circleV * 4.));\n  \n  vec2 aspect = vec2(1, resolution.x / resolution.y) * 0.8;\n  vec2 xy = vec2(\n      rc * c + rs * s,\n     -rs * c + rc * s);\n  gl_Position = vec4(xy * aspect*snd, 0, 1);\n\n  float b = 1.0;\n  v_color.a = 1.;\n  v_color.rgb = vec3(1. - circleV, circleV, 1) * (1. - pow(snd, 20.0));\n  \n  gl_PointSize = 4.0;\n  gl_PointSize *= resolution.x / 1600.0;\n}"
+  },
   "screenshotURL": "data/images/images-m03374aefkhqmhnyh-thumbnail.jpg",
   "hasSound": true,
   "views": {

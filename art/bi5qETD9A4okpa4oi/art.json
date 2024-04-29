@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "mklcp",
   "avatarUrl": "https://secure.gravatar.com/avatar/df8745915c9604d77a0eb454dc371e90?default=retro&size=200",
-  "settings": "{\"num\":5000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(void)\\n{\\n  float sca = floor(sqrt(vertexCount));\\n  float x = mod(vertexId, sca)/(sca-1.);\\n  float y = floor(vertexId/sca)/(sca-1.);\\n  float af = 12.; // 20.\\n  float xf = sin(time + y*af)*0.2;\\n  float yf = sin(time + x*af)*0.2;\\n  vec2 xy = vec2(x+xf, y+yf)*2.-1.;\\n\\n  gl_Position = vec4(xy*0.8,0,1);\\n\\n  gl_PointSize = 1.;\\n  gl_PointSize += ((resolution.x)/sca)/5.;\\n\\n  v_color = vec4(sin(x),sin(y),sin(time),0.);\\n}\\n// form: all\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "LINES",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main(void)\n{\n  float sca = floor(sqrt(vertexCount));\n  float x = mod(vertexId, sca)/(sca-1.);\n  float y = floor(vertexId/sca)/(sca-1.);\n  float af = 12.; // 20.\n  float xf = sin(time + y*af)*0.2;\n  float yf = sin(time + x*af)*0.2;\n  vec2 xy = vec2(x+xf, y+yf)*2.-1.;\n\n  gl_Position = vec4(xy*0.8,0,1);\n\n  gl_PointSize = 1.;\n  gl_PointSize += ((resolution.x)/sca)/5.;\n\n  v_color = vec4(sin(x),sin(y),sin(time),0.);\n}\n// form: all"
+  },
   "screenshotURL": "data/images/images-5l037lr5zvf3ic8hm-thumbnail.jpg",
   "hasSound": true,
   "views": {

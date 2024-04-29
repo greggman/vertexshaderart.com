@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "richtowns",
   "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
-  "settings": "{\"num\":38360,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/richtowns/elastic-drums-preset-abc\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Spiral Circle thingy\\n// Testing music sync\\n// K Machine ready\\n// now ok\\n\\n\\n#define parameter0 0.2//KParameter0 0.1>>1.5\\n#define parameter1 1.9//KParameter1 1.0>>2.0\\n#define parameter2 2.0//KParameter2 2.0>>5.0\\n#define parameter3 5.0//KParameter3 5.0>>10.0\\n#define parameter4 3.0//KParameter4 1.0>>5.0\\n\\nvoid main () {\\n  float v = vertexId * 200. * sin(time/20000.);\\n  \\n  float spiral = 1. - parameter1 * vertexId / (vertexCount+vertexCount);\\n  \\n  float grid =   floor(vertexCount / 1000.);\\n  float step100 = floor (100. * vertexId / vertexCount); \\n  float sndFactor = texture2D(sound, vec2(mod(step100, 4.), step100/400.)).a;\\n  float scale = parameter0 * (parameter3 * sndFactor);\\n  \\n  float xoff = sndFactor * (sin(time/1.)/2.) * 0.5;\\n  float yoff = sndFactor * (sin(time/1.)/2.) * 0.5;\\n  \\n  float y = sin(v / (50. * (2. + sin(time * 2000.)))) * spiral;\\n  float x = cos(v / (50. * (2. + sin(time * 2000.)))) * spiral;\\n  \\n  float ux = x * scale - xoff;\\n  float uy = y * scale - yoff;\\n  \\n  gl_Position  = vec4(ux, uy, 0, 1);\\n  gl_PointSize =  sndFactor * parameter4;//v / (sndFactor *100000.) ;// grid;\\n\\n  v_color = vec4(sndFactor * parameter2, sin(1./spiral), 1./spiral, 1);\\n}\"}",
+  "settings": {
+    "num": 38360,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/richtowns/elastic-drums-preset-abc",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// Spiral Circle thingy\n// Testing music sync\n// K Machine ready\n// now ok\n\n\n#define parameter0 0.2//KParameter0 0.1>>1.5\n#define parameter1 1.9//KParameter1 1.0>>2.0\n#define parameter2 2.0//KParameter2 2.0>>5.0\n#define parameter3 5.0//KParameter3 5.0>>10.0\n#define parameter4 3.0//KParameter4 1.0>>5.0\n\nvoid main () {\n  float v = vertexId * 200. * sin(time/20000.);\n  \n  float spiral = 1. - parameter1 * vertexId / (vertexCount+vertexCount);\n  \n  float grid =   floor(vertexCount / 1000.);\n  float step100 = floor (100. * vertexId / vertexCount); \n  float sndFactor = texture2D(sound, vec2(mod(step100, 4.), step100/400.)).a;\n  float scale = parameter0 * (parameter3 * sndFactor);\n  \n  float xoff = sndFactor * (sin(time/1.)/2.) * 0.5;\n  float yoff = sndFactor * (sin(time/1.)/2.) * 0.5;\n  \n  float y = sin(v / (50. * (2. + sin(time * 2000.)))) * spiral;\n  float x = cos(v / (50. * (2. + sin(time * 2000.)))) * spiral;\n  \n  float ux = x * scale - xoff;\n  float uy = y * scale - yoff;\n  \n  gl_Position  = vec4(ux, uy, 0, 1);\n  gl_PointSize =  sndFactor * parameter4;//v / (sndFactor *100000.) ;// grid;\n\n  v_color = vec4(sndFactor * parameter2, sin(1./spiral), 1./spiral, 1);\n}"
+  },
   "screenshotURL": "data/images/images-j3lbil9y1c6lfntic-thumbnail.jpg",
   "hasSound": true,
   "views": {

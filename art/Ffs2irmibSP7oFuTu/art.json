@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "shu",
   "avatarUrl": "https://secure.gravatar.com/avatar/6dc8be209aeec21dc99956c1188c1b05?default=retro&size=200",
-  "settings": "{\"num\":3840,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){gl_Position=vec4(vertexId/vertexCount*2.-1.,-tan(mod(vertexId,99.)*vertexId+time)/9.,0,1);v_color=vec4(1,1,1,1)}\"}",
+  "settings": {
+    "num": 3840,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main(){gl_Position=vec4(vertexId/vertexCount*2.-1.,-tan(mod(vertexId,99.)*vertexId+time)/9.,0,1);v_color=vec4(1,1,1,1)}"
+  },
   "screenshotURL": "data/images/images-y4grifiszavh7h2tz-thumbnail.jpg",
   "hasSound": "",
   "views": {

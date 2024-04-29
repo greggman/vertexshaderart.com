@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "sunwoo.lee",
   "avatarUrl": "https://secure.gravatar.com/avatar/847e0aa72622f450daec2296ed8fe915?default=retro&size=200",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.27058823529411763,0.23921568627450981,0.6823529411764706,1],\"shader\":\"// // Name: sunwoo.lee\\n// // Assignment name: Motion\\n// // Course name: CS250\\n// // Term: 2022 Spring\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  \\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  vec2 xy = vec2(ux,vy) * 1.3;\\n  \\n  gl_Position = vec4(xy,0,1);\\n  \\n  float soff = sin(time + x * y * 0.02) * 5.0;\\n  \\n  gl_PointSize = 15.0 + soff;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  \\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.27058823529411763,
+      0.23921568627450981,
+      0.6823529411764706,
+      1
+    ],
+    "shader": "// // Name: sunwoo.lee\n// // Assignment name: Motion\n// // Course name: CS250\n// // Term: 2022 Spring\n\nvoid main()\n{\n  float down = floor(sqrt(vertexCount));\n  \n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float xoff = sin(time + y * 0.2) * 0.1;\n  float yoff = sin(time + x * 0.3) * 0.2;\n  \n  float ux = u * 2. - 1. + xoff;\n  float vy = v * 2. - 1. + yoff;\n  \n  vec2 xy = vec2(ux,vy) * 1.3;\n  \n  gl_Position = vec4(xy,0,1);\n  \n  float soff = sin(time + x * y * 0.02) * 5.0;\n  \n  gl_PointSize = 15.0 + soff;\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.0;\n  \n  \n  v_color = vec4(1,0,0,1);\n}"
+  },
   "screenshotURL": "data/images/images-cqlcdg0bzs1ir2o7n-thumbnail.jpg",
   "hasSound": "",
   "views": {

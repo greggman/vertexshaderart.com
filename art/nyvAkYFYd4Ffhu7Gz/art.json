@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "lizell",
   "avatarUrl": "https://secure.gravatar.com/avatar/8cbc7cccd5a415ae64aab0284832279b?default=retro&size=200",
-  "settings": "{\"num\":548,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n\\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\\n\"}",
+  "settings": {
+    "num": 548,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n\n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  v_color = vec4(1, 0, 0, 1);\n}\n"
+  },
   "screenshotURL": "data/images/images-w28l6odfjkvz0f4ee-thumbnail.jpg",
   "hasSound": "",
   "views": {

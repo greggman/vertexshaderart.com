@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/funieru-mihail/best-of-buddha-bar-ambient\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.27450980392156865,1],\"shader\":\"void main() {\\n  float n = vertexId / vertexCount;\\n  vec4 snd = texture2D(sound, vec2(0.0, 0.0)); \\n  float angle = n * 6.28;\\n  float dx = cos(angle);\\n  float dy = sin(angle * (time / 100.0));\\n\\n  gl_Position = vec4(dx, dy, 0.0, 1);\\n  gl_PointSize = pow(snd.a, 2.0) * 5.0;\\n  v_color = vec4(snd.a, snd.b, cos(time), 1.0);\\n}\"}",
+  "settings": {
+    "num": 20000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/funieru-mihail/best-of-buddha-bar-ambient",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0.27450980392156865,
+      1
+    ],
+    "shader": "void main() {\n  float n = vertexId / vertexCount;\n  vec4 snd = texture2D(sound, vec2(0.0, 0.0)); \n  float angle = n * 6.28;\n  float dx = cos(angle);\n  float dy = sin(angle * (time / 100.0));\n\n  gl_Position = vec4(dx, dy, 0.0, 1);\n  gl_PointSize = pow(snd.a, 2.0) * 5.0;\n  v_color = vec4(snd.a, snd.b, cos(time), 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-eryfdt2xax3nc8qg3-thumbnail.jpg",
   "hasSound": true,
   "views": {

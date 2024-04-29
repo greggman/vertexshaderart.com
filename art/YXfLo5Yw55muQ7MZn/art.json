@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gman",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
-  "settings": "{\"num\":15238,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n\\nvoid main() {\\n  float numQuads = floor(vertexCount / 4.);\\n  float quadId = floor(vertexId / 4.);\\n  float down = floor(sqrt(numQuads));\\n  float across = floor(numQuads / down);\\n  \\n  float gx = mod(quadId, across);\\n  float gy = floor(quadId / across);\\n  \\n  float vId = mod(vertexId, 4.);\\n  \\n  float x = gx + mod(vId, 2.) - step(3., vId);\\n  float y = gy + step(3., vId);\\n\\n  \\n  \\n  \\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(x, y) / vec2(across, down) * 2. - 1.;\\n  \\n  vec2 sp = xy * aspect * 1.1;\\n  \\n  const int count = 60;\\n  for (int i = 0; i < count; ++i) {\\n    float iv = 1. - float(i) / float(count - 1);\\n    vec2 m = texture2D(touch, vec2(0, (float(i) + 0.5) / soundRes.y)).xy;\\n\\n    vec2 dm = m - sp;\\n    float dist = length(dm);\\n    float effect = mix(1., 0., clamp(dist * 3., 0., 1.));\\n    sp = sp - dm * pow(abs(effect), 2.5) * 0.5 * pow(iv, 5.);\\n  }\\n    \\n  \\n  \\n  gl_Position = vec4(sp, 0, 1);\\n\\n  v_color = vec4(vec3(0), 1);\\n}\"}",
+  "settings": {
+    "num": 15238,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n\nvoid main() {\n  float numQuads = floor(vertexCount / 4.);\n  float quadId = floor(vertexId / 4.);\n  float down = floor(sqrt(numQuads));\n  float across = floor(numQuads / down);\n  \n  float gx = mod(quadId, across);\n  float gy = floor(quadId / across);\n  \n  float vId = mod(vertexId, 4.);\n  \n  float x = gx + mod(vId, 2.) - step(3., vId);\n  float y = gy + step(3., vId);\n\n  \n  \n  \n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  vec2 xy = vec2(x, y) / vec2(across, down) * 2. - 1.;\n  \n  vec2 sp = xy * aspect * 1.1;\n  \n  const int count = 60;\n  for (int i = 0; i < count; ++i) {\n    float iv = 1. - float(i) / float(count - 1);\n    vec2 m = texture2D(touch, vec2(0, (float(i) + 0.5) / soundRes.y)).xy;\n\n    vec2 dm = m - sp;\n    float dist = length(dm);\n    float effect = mix(1., 0., clamp(dist * 3., 0., 1.));\n    sp = sp - dm * pow(abs(effect), 2.5) * 0.5 * pow(iv, 5.);\n  }\n    \n  \n  \n  gl_Position = vec4(sp, 0, 1);\n\n  v_color = vec4(vec3(0), 1);\n}"
+  },
   "screenshotURL": "data/images/images-n5suzffth9sqqycz0-thumbnail.jpg",
   "hasSound": "",
   "views": {

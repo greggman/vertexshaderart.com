@@ -11,7 +11,19 @@
   "origId": null,
   "name": "torus",
   "username": "-anon-",
-  "settings": "{\"num\":16384,\"mode\":\"LINE_LOOP\",\"sound\":\"https://soundcloud.com/gargaj/fractured-impulse-monolithic\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// nice little fun toy, i like integration with soundcloud\\n// [commercial] \\n//   also check out http://polycu.be\\n// [/commercial]\\n\\n#define W 128\\n#define H 64\\n#define PI 3.1415926535\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float fv = floor(vertexId / float(W));\\n  float fu = vertexId - fv*float(W);\\n  fu /= float(W);\\n  fv /= float(H);\\n  float u = fu*2.*PI;\\n  float v = fv*2.*PI;\\n  u += time;\\n  \\n  float sin_u = sin(u), cos_u = cos(u);\\n  float sin_v = sin(v), cos_v = cos(v);\\n  float f = texture2D(sound, vec2(abs(fu-.5)+.1,fv*.1)).x+.05;\\n  vec3 p = vec3(cos_u*(cos_v*f+1.), sin_u*(cos_v*f+1.), sin_v*f);\\n  float sin_t = sin(time), cos_t = cos(time);\\n  p *= mat3(cos_t,0,sin_t, 0,1,0, -sin_t,0,cos_t);\\n  sin_t = sin(time*.7), cos_t = cos(time*.7);\\n  p *= mat3(cos_t,sin_t,0, -sin_t,cos_t,0, 0,0,1);\\n  p.x *= resolution.y/resolution.x;\\n  p.z += 3.;\\n  p.xy *= 3./p.z;\\n  gl_Position = vec4(p.x, p.y, 1., p.z);\\n\\n  v_color = vec4(hsv2rgb(vec3(fu*3., 1., 1.)), 1);\\n}\\n\"}",
+  "settings": {
+    "num": 16384,
+    "mode": "LINE_LOOP",
+    "sound": "https://soundcloud.com/gargaj/fractured-impulse-monolithic",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// nice little fun toy, i like integration with soundcloud\n// [commercial] \n//   also check out http://polycu.be\n// [/commercial]\n\n#define W 128\n#define H 64\n#define PI 3.1415926535\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float fv = floor(vertexId / float(W));\n  float fu = vertexId - fv*float(W);\n  fu /= float(W);\n  fv /= float(H);\n  float u = fu*2.*PI;\n  float v = fv*2.*PI;\n  u += time;\n  \n  float sin_u = sin(u), cos_u = cos(u);\n  float sin_v = sin(v), cos_v = cos(v);\n  float f = texture2D(sound, vec2(abs(fu-.5)+.1,fv*.1)).x+.05;\n  vec3 p = vec3(cos_u*(cos_v*f+1.), sin_u*(cos_v*f+1.), sin_v*f);\n  float sin_t = sin(time), cos_t = cos(time);\n  p *= mat3(cos_t,0,sin_t, 0,1,0, -sin_t,0,cos_t);\n  sin_t = sin(time*.7), cos_t = cos(time*.7);\n  p *= mat3(cos_t,sin_t,0, -sin_t,cos_t,0, 0,0,1);\n  p.x *= resolution.y/resolution.x;\n  p.z += 3.;\n  p.xy *= 3./p.z;\n  gl_Position = vec4(p.x, p.y, 1., p.z);\n\n  v_color = vec4(hsv2rgb(vec3(fu*3., 1., 1.)), 1);\n}\n"
+  },
   "screenshotDataId": "kbexK8e8mwDP5wkEi",
   "views": {
     "$numberInt": "1644"

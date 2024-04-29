@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "mark",
   "avatarUrl": "https://lh3.googleusercontent.com/-Lca4UGau1OU/AAAAAAAAAAI/AAAAAAAAAI4/dSttspxaINs/photo.jpg",
-  "settings": "{\"num\":8086,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define FALLTIME 5.\\n\\nfloat rand(vec2 co){\\n    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\\n}\\n\\nvoid main () {\\n  float i = vertexId;\\n  float tdiff = 0.;\\n  if (mod(vertexId, 2.) > 0.) {\\n    i -= 1.;\\n    tdiff = -.01;\\n  }\\n  \\n  float fallTime = 1. + rand(vec2(i, 0.2423424)) * FALLTIME;\\n  \\n  float t = mod(time, fallTime) + tdiff;\\n\\n  float y = -2. * (t / fallTime) + 1.;\\n  float x = -1.5 + rand(\\n    vec2(i, floor(time / fallTime))\\n  ) * 3. + .2 / fallTime * t;\\n  y += .1 * sin(x + t);\\n  \\n  \\n  float l = .7 + .3 * sin(t);\\n  gl_Position = vec4(x, y, 0, 1);\\n  v_color = vec4(l, l, l, 1);\\n}\"}",
+  "settings": {
+    "num": 8086,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define FALLTIME 5.\n\nfloat rand(vec2 co){\n    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\n}\n\nvoid main () {\n  float i = vertexId;\n  float tdiff = 0.;\n  if (mod(vertexId, 2.) > 0.) {\n    i -= 1.;\n    tdiff = -.01;\n  }\n  \n  float fallTime = 1. + rand(vec2(i, 0.2423424)) * FALLTIME;\n  \n  float t = mod(time, fallTime) + tdiff;\n\n  float y = -2. * (t / fallTime) + 1.;\n  float x = -1.5 + rand(\n    vec2(i, floor(time / fallTime))\n  ) * 3. + .2 / fallTime * t;\n  y += .1 * sin(x + t);\n  \n  \n  float l = .7 + .3 * sin(t);\n  gl_Position = vec4(x, y, 0, 1);\n  v_color = vec4(l, l, l, 1);\n}"
+  },
   "screenshotURL": "data/images/images-actdexf2ej4ggy30m-thumbnail.jpg",
   "hasSound": "",
   "views": {

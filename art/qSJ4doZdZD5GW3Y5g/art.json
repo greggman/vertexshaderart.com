@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":10000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float mouseX = max(mouse.x, -.5);\\n  mouseX = min(mouseX, 0.5);\\n  \\n  float xOffset = sin(time + y * 0.2) * mouseX * 0.2;\\n  float yOffset = sin(time + x * 0.3) * 0.1;\\n  \\n  float dx = u * 2.0 - 1.0 + xOffset;\\n  float dy = v * 2.0 - 1.0 + yOffset;\\n  \\n  vec2 xy = vec2(dx, dy) * 0.75;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  \\n  gl_PointSize = 200.0 / across;\\n  gl_PointSize *= resolution.x / 600.0 * vertexId / vertexCount;\\n  \\n  v_color = vec4(vertexId / vertexCount, 0.0, abs(cos(time)), 1);\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float mouseX = max(mouse.x, -.5);\n  mouseX = min(mouseX, 0.5);\n  \n  float xOffset = sin(time + y * 0.2) * mouseX * 0.2;\n  float yOffset = sin(time + x * 0.3) * 0.1;\n  \n  float dx = u * 2.0 - 1.0 + xOffset;\n  float dy = v * 2.0 - 1.0 + yOffset;\n  \n  vec2 xy = vec2(dx, dy) * 0.75;\n  \n  gl_Position = vec4(xy, 0.0, 1.0);\n  \n  gl_PointSize = 200.0 / across;\n  gl_PointSize *= resolution.x / 600.0 * vertexId / vertexCount;\n  \n  v_color = vec4(vertexId / vertexCount, 0.0, abs(cos(time)), 1);\n}"
+  },
   "screenshotURL": "data/images/images-fofkuy5cmrb8az76m-thumbnail.jpg",
   "hasSound": "",
   "views": {

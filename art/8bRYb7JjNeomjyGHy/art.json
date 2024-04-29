@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "dominique",
   "avatarUrl": "https://graph.facebook.com/1571607909560772/picture?type=large",
-  "settings": "{\"num\":3000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"vec2 Crear(float vertexId){\\n  float sqrTotal = floor(sqrt(vertexCount));\\n  float width = sqrTotal;\\n  \\n  float uxf = floor(vertexId/ 6.0) + mod(vertexId, 2.0);\\n  float vyf = mod(floor(vertexId / 2.0) + floor(vertexId / 1.0), 2.0);\\n  \\n  float angle = uxf/ 10.0 * radians(180.0) * 2.0; //el 20 es como la resolucion  convertir, pi radianes por 2( gados de un circulo) , entre 20(ocupar 20 segmentos), lo que necesitas para formar un circulo \\n  float radius = vyf + 1.0; //  el radio del circulo es uno, va a ir girando, centro vacio 1\\n  // ux mas a la derecha , 0, 1 ,2 ,3 ...\\n  \\n  float x =radius * cos(angle);\\n  float y = radius * sin(angle);\\n  \\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.1;\\n  float yOffset = cos(time + x * 0.3) * 0.2;\\n\\n  float uxpri = u * 2.0 - 1.0 + xOffset;\\n  float vypri = v * 2.0 - 1.0 + yOffset;\\n  \\n  // x = radius * cos(angle)  funcionan en radianes \\n  // y = radius * sin(angle)\\n \\n  vec2 xy = vec2(uxpri, vypri) * 6.0;\\n  return xy;  \\n}\\n\\nvoid main() \\n{ \\n  \\n  \\n  \\n  float circulo = floor(vertexId/(20.0*6.0));\\n  float numeCir = floor(vertexCount / (20.0*6.0));\\n  \\n  float a = floor(sqrt(numeCir));\\n  float b = floor(numeCir / a);\\n  \\n  float x = mod(circulo, b);\\n  float y = floor(circulo / b);\\n  \\n  float u = x / (b - 2.0);\\n  float v = y / (b - 2.0);\\n  \\n  float ux = u * 2.0 - 0.5;\\n  float vy = v * 2.0 - 0.5;\\n  \\n  vec2 xy = Crear(vertexId) * 0.1 + vec2(ux,vy)*0.7;\\n  \\n  gl_Position= vec4(xy , 0.0, 1.0);\\n  v_color = vec4(0.0, 1.0, 1.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 3000,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "vec2 Crear(float vertexId){\n  float sqrTotal = floor(sqrt(vertexCount));\n  float width = sqrTotal;\n  \n  float uxf = floor(vertexId/ 6.0) + mod(vertexId, 2.0);\n  float vyf = mod(floor(vertexId / 2.0) + floor(vertexId / 1.0), 2.0);\n  \n  float angle = uxf/ 10.0 * radians(180.0) * 2.0; //el 20 es como la resolucion  convertir, pi radianes por 2( gados de un circulo) , entre 20(ocupar 20 segmentos), lo que necesitas para formar un circulo \n  float radius = vyf + 1.0; //  el radio del circulo es uno, va a ir girando, centro vacio 1\n  // ux mas a la derecha , 0, 1 ,2 ,3 ...\n  \n  float x =radius * cos(angle);\n  float y = radius * sin(angle);\n  \n  float u = x / (width - 1.0);\n  float v = y / (width - 1.0);\n  \n  float xOffset = cos(time + y * 0.2) * 0.1;\n  float yOffset = cos(time + x * 0.3) * 0.2;\n\n  float uxpri = u * 2.0 - 1.0 + xOffset;\n  float vypri = v * 2.0 - 1.0 + yOffset;\n  \n  // x = radius * cos(angle)  funcionan en radianes \n  // y = radius * sin(angle)\n \n  vec2 xy = vec2(uxpri, vypri) * 6.0;\n  return xy;  \n}\n\nvoid main() \n{ \n  \n  \n  \n  float circulo = floor(vertexId/(20.0*6.0));\n  float numeCir = floor(vertexCount / (20.0*6.0));\n  \n  float a = floor(sqrt(numeCir));\n  float b = floor(numeCir / a);\n  \n  float x = mod(circulo, b);\n  float y = floor(circulo / b);\n  \n  float u = x / (b - 2.0);\n  float v = y / (b - 2.0);\n  \n  float ux = u * 2.0 - 0.5;\n  float vy = v * 2.0 - 0.5;\n  \n  vec2 xy = Crear(vertexId) * 0.1 + vec2(ux,vy)*0.7;\n  \n  gl_Position= vec4(xy , 0.0, 1.0);\n  v_color = vec4(0.0, 1.0, 1.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-s0vjk1kx0n9wdz555-thumbnail.jpg",
   "hasSound": "",
   "views": {

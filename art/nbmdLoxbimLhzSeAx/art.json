@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "savash",
   "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GiSY6NYT8sMqDGK2iowOrlmdgPpY-gZiOQumjedfA=s96-c",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.7803921568627451,0.7803921568627451,0.7803921568627451,1],\"shader\":\"void main() {\\n  \\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across-1.);\\n  float v = y / (across-1.);\\n  \\n  float ux = u *2. -1.;\\n  float vy = v *2. -1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n gl_PointSize *= resolution.x / 600.;\\n    \\n  v_color = vec4(1, 255, 0, 1);\\n  \\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.7803921568627451,
+      0.7803921568627451,
+      0.7803921568627451,
+      1
+    ],
+    "shader": "void main() {\n  \n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount/down);\n\n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across-1.);\n  float v = y / (across-1.);\n  \n  float ux = u *2. -1.;\n  float vy = v *2. -1.;\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  gl_PointSize = 10.0;\n  gl_PointSize *= 20. / across;\n gl_PointSize *= resolution.x / 600.;\n    \n  v_color = vec4(1, 255, 0, 1);\n  \n}"
+  },
   "screenshotURL": "data/images/images-dn1jzjtu5f94nv0aq-thumbnail.jpg",
   "hasSound": "",
   "views": {

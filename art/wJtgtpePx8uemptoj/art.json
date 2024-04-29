@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "sergioerick",
   "avatarUrl": "https://lh6.googleusercontent.com/-6mWCYE7e8JE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcnyCK5B6N4hdhN62pAcPOwiFeA5g/mo/photo.jpg",
-  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){\\n\\tfloat pointsDraw = 70.0;\\n\\tfloat radius = 0.8;\\n\\n\\tfloat xCircle = mod(vertexId, pointsDraw);\\n\\tfloat yCircle = floor(vertexId / pointsDraw);\\n\\n\\tfloat angleT = xCircle / pointsDraw * radians(360.0);\\n\\tfloat angleP = yCircle / pointsDraw * radians(360.0);\\n\\n\\tfloat x = radius * sin(angleT) * cos(angleP);\\n\\tfloat y = radius * sin(angleT) * sin(angleP);\\n\\tfloat z = radius * cos(angleT);\\n\\n\\tvec3 xyz = vec3(x, y, z)* 0.8;\\n\\n\\tmat3 rx = mat3(cos(time), 0, sin(time), \\n                 0, 1, 0,\\n                 -sin(time), 0, cos(time));\\n\\tmat3 ry = mat3(1, 0, 0, \\n\\t\\t\\t\\t\\t0, cos(time), -sin(time),\\n\\t\\t\\t\\t\\t0, sin(time), cos(time));\\n  \\n\\txyz = rx * xyz;\\n\\txyz = ry * xyz;\\n\\n\\tgl_Position = vec4(xyz, 1.0);\\n\\tgl_PointSize = 2.0;\\n\\tv_color = vec4(0.0,0.0,1.0,1.0);\\n}\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main(){\n\tfloat pointsDraw = 70.0;\n\tfloat radius = 0.8;\n\n\tfloat xCircle = mod(vertexId, pointsDraw);\n\tfloat yCircle = floor(vertexId / pointsDraw);\n\n\tfloat angleT = xCircle / pointsDraw * radians(360.0);\n\tfloat angleP = yCircle / pointsDraw * radians(360.0);\n\n\tfloat x = radius * sin(angleT) * cos(angleP);\n\tfloat y = radius * sin(angleT) * sin(angleP);\n\tfloat z = radius * cos(angleT);\n\n\tvec3 xyz = vec3(x, y, z)* 0.8;\n\n\tmat3 rx = mat3(cos(time), 0, sin(time), \n                 0, 1, 0,\n                 -sin(time), 0, cos(time));\n\tmat3 ry = mat3(1, 0, 0, \n\t\t\t\t\t0, cos(time), -sin(time),\n\t\t\t\t\t0, sin(time), cos(time));\n  \n\txyz = rx * xyz;\n\txyz = ry * xyz;\n\n\tgl_Position = vec4(xyz, 1.0);\n\tgl_PointSize = 2.0;\n\tv_color = vec4(0.0,0.0,1.0,1.0);\n}"
+  },
   "screenshotURL": "data/images/images-7vznoqhla5lmgoaeh-thumbnail.jpg",
   "hasSound": true,
   "views": {

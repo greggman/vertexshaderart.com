@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "jeminshin2",
   "avatarUrl": "https://avatars.githubusercontent.com/JeminShin2?s=200",
-  "settings": "{\"num\":10000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name \\n\\nvoid main()\\n{\\n  \\n}\\n \"}",
+  "settings": {
+    "num": 10000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//Name \n\nvoid main()\n{\n  \n}\n "
+  },
   "screenshotURL": "data/images/images-9v4c6yg6b0gsxxcce-thumbnail.jpg",
   "hasSound": "",
   "views": {

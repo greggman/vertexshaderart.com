@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "sehoonkim-digipen",
   "avatarUrl": "https://avatars.githubusercontent.com/SehoonKim-digipen?s=200",
-  "settings": "{\"num\":29459,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/*\\nName            : Sehun Kim\\nassignment name : Exercise - Vertexshaderart : Making a Grid\\ncourse name     : CS250\\nterm            : 2022 Spring\\n*/\\nvoid main() {\\n  \\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId , across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux,vy,0,1);\\n  \\n  gl_PointSize = 20.;\\n  gl_PointSize -= 100. * (distance(ux , mouse.x)) * (distance(vy , mouse.y));\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = (vec4(ux*ux, 1.0-vy, u*u * 2.0 - 1., 1));\\n}\"}",
+  "settings": {
+    "num": 29459,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "/*\nName            : Sehun Kim\nassignment name : Exercise - Vertexshaderart : Making a Grid\ncourse name     : CS250\nterm            : 2022 Spring\n*/\nvoid main() {\n  \n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId , across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux,vy,0,1);\n  \n  gl_PointSize = 20.;\n  gl_PointSize -= 100. * (distance(ux , mouse.x)) * (distance(vy , mouse.y));\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  v_color = (vec4(ux*ux, 1.0-vy, u*u * 2.0 - 1., 1));\n}"
+  },
   "screenshotURL": "data/images/images-hvlneikv92976wjq7-thumbnail.jpg",
   "hasSound": "",
   "views": {

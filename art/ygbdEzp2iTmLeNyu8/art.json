@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "mol",
   "avatarUrl": "https://secure.gravatar.com/avatar/fe5b47f4d74c95c9b38908469761a86d?default=retro&size=200",
-  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.19215686274509805,0.2,0.26666666666666666,1],\"shader\":\"// handle points to create a rectangle\\nvec2 calcRect(vec2 dimensions)\\n{\\n  return vec2(\\n    // generate x coordinates based on which vertex this is\\n    mod(floor(vertexId / 2.0), 2.0) * dimensions.x,\\n    // generate y coordinates based on which vertex this is\\n    mod(floor((vertexId + 1.0) / 2.0), 2.0) * dimensions.y);\\n}\\n\\nvoid main()\\n{\\n  gl_PointSize = 5.0;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n  \\n  // calculate scaling to adjust for resolution aspect ratio\\n  vec2 scale = min(\\n    vec2(resolution.y / resolution.x, 1.0), vec2(1.0, resolution.x / resolution.y));\\n  \\n  vec2 rect = calcRect(vec2(0.1, 0.1));\\n  \\n  gl_Position = vec4(\\n    rect.x + floor(vertexId / 4.0) * 0.2 * sin(time),\\n    rect.y + floor(vertexId / 4.0) * 0.2 * cos(time),\\n    0.0, 1.0);\\n  // apply aspect ratio scale\\n  gl_Position.xy *= scale;\\n}\\n\\n\"}",
+  "settings": {
+    "num": 20000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.19215686274509805,
+      0.2,
+      0.26666666666666666,
+      1
+    ],
+    "shader": "// handle points to create a rectangle\nvec2 calcRect(vec2 dimensions)\n{\n  return vec2(\n    // generate x coordinates based on which vertex this is\n    mod(floor(vertexId / 2.0), 2.0) * dimensions.x,\n    // generate y coordinates based on which vertex this is\n    mod(floor((vertexId + 1.0) / 2.0), 2.0) * dimensions.y);\n}\n\nvoid main()\n{\n  gl_PointSize = 5.0;\n  \n  v_color = vec4(1, 0, 0, 1);\n  \n  // calculate scaling to adjust for resolution aspect ratio\n  vec2 scale = min(\n    vec2(resolution.y / resolution.x, 1.0), vec2(1.0, resolution.x / resolution.y));\n  \n  vec2 rect = calcRect(vec2(0.1, 0.1));\n  \n  gl_Position = vec4(\n    rect.x + floor(vertexId / 4.0) * 0.2 * sin(time),\n    rect.y + floor(vertexId / 4.0) * 0.2 * cos(time),\n    0.0, 1.0);\n  // apply aspect ratio scale\n  gl_Position.xy *= scale;\n}\n\n"
+  },
   "screenshotURL": "data/images/images-lxees43v4vgcfh5sv-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":1024,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/fantomenk/fantomenk-a-tiny-spaceships\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// \\\"plasma grid\\\" by johanberonius\\n\\nvoid main() {\\n  float pixels = resolution.x * resolution.y;\\n  float pxGrid = pixels / vertexCount;\\n  float size = sqrt(pxGrid);\\n  \\n  float across = ceil(resolution.x / size);\\n  float down = floor(vertexCount / across);\\n  float x = mod(vertexId+0.01, across);\\n  float y = floor((vertexId+0.01) / across);\\n  \\n\\n  float u = (x + 0.5) / across;\\n  float v = (y + 0.5) / down;\\n\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  \\n  float snd = pow(texture2D(sound, vec2(u * 0.01, v * 0.01)).a, 4.);\\n    \\n  \\n  \\n  gl_PointSize = max(resolution.x / across, resolution.y / down) + 1.;\\n  float r = snd * pow(cos(time * 1.92 + u * 2.9) * sin(-time * 1.63 + v * 2.9) * 0.9 + 0.5, 4.);\\n  float g = snd * pow(cos(time * 1.74 - u * 2.41) * sin(time * 1.34 - v * 3.4) * 0.5 + 0.5, 4.);\\n  float b = snd * pow(cos(time * 1.21 + u * 1.5) * sin(time * 1.53 + v * 1.41) * 0.5 + 0.5, 4.);\\n  v_color = vec4(r, g, b, 1);\\n}\"}",
+  "settings": {
+    "num": 1024,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/fantomenk/fantomenk-a-tiny-spaceships",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// \"plasma grid\" by johanberonius\n\nvoid main() {\n  float pixels = resolution.x * resolution.y;\n  float pxGrid = pixels / vertexCount;\n  float size = sqrt(pxGrid);\n  \n  float across = ceil(resolution.x / size);\n  float down = floor(vertexCount / across);\n  float x = mod(vertexId+0.01, across);\n  float y = floor((vertexId+0.01) / across);\n  \n\n  float u = (x + 0.5) / across;\n  float v = (y + 0.5) / down;\n\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  \n  \n  float snd = pow(texture2D(sound, vec2(u * 0.01, v * 0.01)).a, 4.);\n    \n  \n  \n  gl_PointSize = max(resolution.x / across, resolution.y / down) + 1.;\n  float r = snd * pow(cos(time * 1.92 + u * 2.9) * sin(-time * 1.63 + v * 2.9) * 0.9 + 0.5, 4.);\n  float g = snd * pow(cos(time * 1.74 - u * 2.41) * sin(time * 1.34 - v * 3.4) * 0.5 + 0.5, 4.);\n  float b = snd * pow(cos(time * 1.21 + u * 1.5) * sin(time * 1.53 + v * 1.41) * 0.5 + 0.5, 4.);\n  v_color = vec4(r, g, b, 1);\n}"
+  },
   "screenshotURL": "data/images/images-45sqfjb6u3momy9r8-thumbnail.jpg",
   "hasSound": true,
   "views": {

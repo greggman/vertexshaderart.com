@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":1000,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.10196078431372549,0.10196078431372549,0.10196078431372549,1],\"shader\":\"/* ---------------------------- SURFACE --------------------------//\\nSpecial gifts for everyone who loves 2d games and sprite creation.*/\\n\\nvec3 surface(){\\n  float x, y, w, h;//x,y coordinates and w,h width and height of a surface.\\n  float width = 0.2;\\n  float height = 0.4;\\n  x = mouse.x-(width/2.);//move the surface from the center of widith.\\n  y = mouse.y-(height/2.);//move the surface from the center of height.\\n  w = width+x;\\n  h = height+y;\\n  \\n  vec3 v[4];\\n  v[0] = vec3(x, y, 0.);\\n  v[1] = vec3(x, h, 0.);\\n  v[2] = vec3(w, y, 0.);\\n  v[3] = vec3(w, h, 0.);\\n  \\n  int vid = int(vertexId);\\n  for(int i=0; i<3; i++){\\n    if(vid == i){\\n      return v[i];\\n    }\\n  }\\n  return v[3];\\n}\\n\\nvoid main(){\\n  gl_Position = vec4(surface(), 1);\\n  gl_PointSize = 10.;\\n  v_color = vec4(0, 1, 1, 1);\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "TRI_STRIP",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.10196078431372549,
+      0.10196078431372549,
+      0.10196078431372549,
+      1
+    ],
+    "shader": "/* ---------------------------- SURFACE --------------------------//\nSpecial gifts for everyone who loves 2d games and sprite creation.*/\n\nvec3 surface(){\n  float x, y, w, h;//x,y coordinates and w,h width and height of a surface.\n  float width = 0.2;\n  float height = 0.4;\n  x = mouse.x-(width/2.);//move the surface from the center of widith.\n  y = mouse.y-(height/2.);//move the surface from the center of height.\n  w = width+x;\n  h = height+y;\n  \n  vec3 v[4];\n  v[0] = vec3(x, y, 0.);\n  v[1] = vec3(x, h, 0.);\n  v[2] = vec3(w, y, 0.);\n  v[3] = vec3(w, h, 0.);\n  \n  int vid = int(vertexId);\n  for(int i=0; i<3; i++){\n    if(vid == i){\n      return v[i];\n    }\n  }\n  return v[3];\n}\n\nvoid main(){\n  gl_Position = vec4(surface(), 1);\n  gl_PointSize = 10.;\n  v_color = vec4(0, 1, 1, 1);\n}"
+  },
   "screenshotURL": "data/images/images-oawtgfc01fg4ilkxp-thumbnail.jpg",
   "hasSound": true,
   "views": {

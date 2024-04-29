@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "randomstarz",
   "avatarUrl": "https://secure.gravatar.com/avatar/742ed793ae5d9783e12bdf3ff554e51a?default=retro&size=200",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main ()\\n{\\n  \\tgl_PointSize = 10.0;\\n  \\n  \\t\\n  \\tfloat across = 10.;\\n  \\n  \\n  \\t//float x = ( vertexId / vertexCount ) + 0.1;\\n  \\n  \\tfloat x = mod( vertexId, across );\\n  \\tfloat y = floor( vertexId / across );\\n  \\n  \\tx = x - across / 2.;\\n  \\ty = y - across / 2.;\\n  \\n  \\tx /= across;\\n  \\ty /= across;\\n  \\n\\n  \\tgl_Position = vec4( x, y, 0, 1 );\\n \\n  \\n\\tv_color = vec4( 0.1, 0.4, 0.8, 1.0 );\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main ()\n{\n  \tgl_PointSize = 10.0;\n  \n  \t\n  \tfloat across = 10.;\n  \n  \n  \t//float x = ( vertexId / vertexCount ) + 0.1;\n  \n  \tfloat x = mod( vertexId, across );\n  \tfloat y = floor( vertexId / across );\n  \n  \tx = x - across / 2.;\n  \ty = y - across / 2.;\n  \n  \tx /= across;\n  \ty /= across;\n  \n\n  \tgl_Position = vec4( x, y, 0, 1 );\n \n  \n\tv_color = vec4( 0.1, 0.4, 0.8, 1.0 );\n}"
+  },
   "screenshotURL": "data/images/images-ogyjpa39kqnr7sr72-thumbnail.jpg",
   "hasSound": "",
   "views": {

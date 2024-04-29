@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":5000,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 500.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  gl_Position = vec4(0, vertexId * aspect.x / 500. - 1., 0, 1);\\n  \\n  vec4 color = vec4(0.5, 0.25, 0.5, 1);\\n  vec4 highlight = vec4(1, 1, 1, 0.5);\\n  float length_of_sword = 1000.; // in vertices\\n  float time_speed = 2000.; // arbitrary\\n  highlight *= mod(vertexId - time * time_speed, length_of_sword) / length_of_sword;\\n  v_color = color + highlight;\\n}\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "LINE_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 500.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 5.0\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\n  float count = floor(vertexId / NUM_POINTS);\n\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  gl_Position = vec4(0, vertexId * aspect.x / 500. - 1., 0, 1);\n  \n  vec4 color = vec4(0.5, 0.25, 0.5, 1);\n  vec4 highlight = vec4(1, 1, 1, 0.5);\n  float length_of_sword = 1000.; // in vertices\n  float time_speed = 2000.; // arbitrary\n  highlight *= mod(vertexId - time * time_speed, length_of_sword) / length_of_sword;\n  v_color = color + highlight;\n}"
+  },
   "screenshotURL": "data/images/images-grefl15glfvp2hiux-thumbnail.jpg",
   "hasSound": "",
   "views": {

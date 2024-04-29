@@ -35,7 +35,19 @@
   "unlisted": false,
   "username": "재우",
   "avatarUrl": "https://lh6.googleusercontent.com/-2X_KPdDSJQw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd6jrLpiakTtViM5yPJkYwfQJhnhQ/mo/photo.jpg",
-  "settings": "{\"num\":6084,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/*------------------------------------------------------------------------\\nAuthor\\t\\t\\t\\t\\t: jaewoo choi\\nAssignment Name/Number\\t: Shader/3 (Extra Credit)\\nCourse Name\\t\\t\\t\\t: CS230\\nTerm\\t\\t\\t\\t\\t: Spring 2019\\n------------------------------------------------------------------------*/\\n#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() \\n{\\n  float point = vertexId*3.;\\n  \\n  gl_Position = vec4(sin(point)*mouse.x,cos(point)*mouse.y,0,1);\\n  \\n   \\n\\n  gl_PointSize =55.;\\n  \\n  v_color = vec4(sin(time),cos(time),tan(time),1.0);\\n \\n} \"}",
+  "settings": {
+    "num": 6084,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "/*------------------------------------------------------------------------\nAuthor\t\t\t\t\t: jaewoo choi\nAssignment Name/Number\t: Shader/3 (Extra Credit)\nCourse Name\t\t\t\t: CS230\nTerm\t\t\t\t\t: Spring 2019\n------------------------------------------------------------------------*/\n#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvoid main() \n{\n  float point = vertexId*3.;\n  \n  gl_Position = vec4(sin(point)*mouse.x,cos(point)*mouse.y,0,1);\n  \n   \n\n  gl_PointSize =55.;\n  \n  v_color = vec4(sin(time),cos(time),tan(time),1.0);\n \n} "
+  },
   "screenshotURL": "data/images/images-5gf2z1oixv439ctl6-thumbnail.jpg",
   "hasSound": "",
   "views": {

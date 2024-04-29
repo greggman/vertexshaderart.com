@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "oriam",
   "avatarUrl": "https://secure.gravatar.com/avatar/c1ddb12d07628010aa44539d8cedfb07?default=retro&size=200",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  float width = 10.0;\\n  \\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.1;\\n  float yOffset = cos(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float vy = v * 2.0 - 1.0 + yOffset;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.2;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 20.0;\\n  v_color = vec4(0.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main()\n{\n  float width = 10.0;\n  \n  float x = mod(vertexId, width);\n  float y = floor(vertexId / width);\n  \n  float u = x / (width - 1.0);\n  float v = y / (width - 1.0);\n  \n  float xOffset = cos(time + y * 0.2) * 0.1;\n  float yOffset = cos(time + x * 0.3) * 0.2;\n  \n  float ux = u * 2.0 - 1.0 + xOffset;\n  float vy = v * 2.0 - 1.0 + yOffset;\n  \n  vec2 xy = vec2(ux, vy) * 1.2;\n  \n  gl_Position = vec4(xy, 0.0, 1.0);\n  gl_PointSize = 20.0;\n  v_color = vec4(0.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-js9tkvd4szm7w5tzq-thumbnail.jpg",
   "hasSound": "",
   "views": {

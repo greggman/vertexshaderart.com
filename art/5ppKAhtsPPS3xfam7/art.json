@@ -21,7 +21,19 @@
   "origId": "uQkpXdAa4ABNPNthi",
   "name": "sillage",
   "username": "spotline",
-  "settings": "{\"num\":5009,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/spotline/nested-volumes\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.12941176470588237,0.27058823529411763,0.8470588235294118,1],\"shader\":\"#define NUM_POINTS 5000.0\\n//#define FIT_VERTICA\\n\\nfloat rand(vec2 co){\\n    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\\n}\\n\\nvoid main()\\n{\\n  float u = (float(vertexId)/NUM_POINTS) * 2.0 - 1.0;\\n  float v = 0.0;\\n  float ucoor = log((abs(u)*.5 + 1.0));\\n  v+= floor(texture2D(sound,vec2(ucoor,0.0)).a * 15.0)/10.0;\\n  float osc = 0.2*cos(1.*(1.1*time+3.0*(abs(u)+1.0)));\\n  float osc2 = 0.2*cos(1.*(-1.5*time+10.0*(u+1.0)));\\n  float x = u * 2.0;\\n  float y = v -0.5 + 0.5*pow(x,2.0) + osc +osc2;\\n  gl_Position = vec4(x,y,0,1);\\n  float colorfactor = pow(rand(vec2(x,y)),8.);\\n  gl_PointSize = v*6.0 + colorfactor*1.0;\\n  float r = mix(0.9,1.,colorfactor);\\n  float g = mix(0.9,1.,colorfactor);\\n  float b = 1.;\\n  \\n  v_color = vec4(r,g,b,colorfactor+0.5);\\n}\"}",
+  "settings": {
+    "num": 5009,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/spotline/nested-volumes",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.12941176470588237,
+      0.27058823529411763,
+      0.8470588235294118,
+      1
+    ],
+    "shader": "#define NUM_POINTS 5000.0\n//#define FIT_VERTICA\n\nfloat rand(vec2 co){\n    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\n}\n\nvoid main()\n{\n  float u = (float(vertexId)/NUM_POINTS) * 2.0 - 1.0;\n  float v = 0.0;\n  float ucoor = log((abs(u)*.5 + 1.0));\n  v+= floor(texture2D(sound,vec2(ucoor,0.0)).a * 15.0)/10.0;\n  float osc = 0.2*cos(1.*(1.1*time+3.0*(abs(u)+1.0)));\n  float osc2 = 0.2*cos(1.*(-1.5*time+10.0*(u+1.0)));\n  float x = u * 2.0;\n  float y = v -0.5 + 0.5*pow(x,2.0) + osc +osc2;\n  gl_Position = vec4(x,y,0,1);\n  float colorfactor = pow(rand(vec2(x,y)),8.);\n  gl_PointSize = v*6.0 + colorfactor*1.0;\n  float r = mix(0.9,1.,colorfactor);\n  float g = mix(0.9,1.,colorfactor);\n  float b = 1.;\n  \n  v_color = vec4(r,g,b,colorfactor+0.5);\n}"
+  },
   "screenshotURL": "data/images/images-u6al664te3f7x9h0z-thumbnail.jpg",
   "views": {
     "$numberInt": "196"

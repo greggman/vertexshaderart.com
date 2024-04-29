@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "jonaced",
   "avatarUrl": "https://secure.gravatar.com/avatar/4afc7bbaa73d3ae5795519659259854b?default=retro&size=200",
-  "settings": "{\"num\":20000,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  float vertexPerCircle = 42.0;\\n  float circlePerRow = 22.0;\\n  \\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId + 1.0, 2.0);\\n\\n  float xRow = floor(mod(vertexId , vertexPerCircle * circlePerRow) / vertexPerCircle);\\n  float yColumn = floor(vertexId / (vertexPerCircle * circlePerRow));\\n\\n  //float x = floor(vertexId / 2.0);\\n  //float y = mod(vertexId + 1.0, 2.0);\\n  \\n  // Radianes de 360 da pi\\n  float angle = x / 20.0 * radians(360.0);\\n  float radius = 2.0 - y;\\n  \\n  // Movimiento\\n  float xOffset = cos(time + yColumn * 0.2) * 0.4;\\n  float yOffset = cos(time + xRow * 0.2 ) * 0.8;\\n  \\n  // Se asignan a 4 cuadrantes\\n  float u = radius * cos(angle) * 0.2 + xOffset;\\n  float v = radius * sin(angle) * 0.2 + yOffset;\\n  \\n  vec2 xy = vec2(u + xRow , v + yColumn) * 0.1 - 1.0;\\n    \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 1.0;\\n  v_color = vec4(0.0, 0.7, 1.0, 1.0);\\n} \"}",
+  "settings": {
+    "num": 20000,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main()\n{\n  float vertexPerCircle = 42.0;\n  float circlePerRow = 22.0;\n  \n  float x = floor(vertexId / 2.0);\n  float y = mod(vertexId + 1.0, 2.0);\n\n  float xRow = floor(mod(vertexId , vertexPerCircle * circlePerRow) / vertexPerCircle);\n  float yColumn = floor(vertexId / (vertexPerCircle * circlePerRow));\n\n  //float x = floor(vertexId / 2.0);\n  //float y = mod(vertexId + 1.0, 2.0);\n  \n  // Radianes de 360 da pi\n  float angle = x / 20.0 * radians(360.0);\n  float radius = 2.0 - y;\n  \n  // Movimiento\n  float xOffset = cos(time + yColumn * 0.2) * 0.4;\n  float yOffset = cos(time + xRow * 0.2 ) * 0.8;\n  \n  // Se asignan a 4 cuadrantes\n  float u = radius * cos(angle) * 0.2 + xOffset;\n  float v = radius * sin(angle) * 0.2 + yOffset;\n  \n  vec2 xy = vec2(u + xRow , v + yColumn) * 0.1 - 1.0;\n    \n  gl_Position = vec4(xy, 0.0, 1.0);\n  gl_PointSize = 1.0;\n  v_color = vec4(0.0, 0.7, 1.0, 1.0);\n} "
+  },
   "screenshotURL": "data/images/images-a8gjtdbwgbi5qtj73-thumbnail.jpg",
   "hasSound": "",
   "views": {

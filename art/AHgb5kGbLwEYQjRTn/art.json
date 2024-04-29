@@ -22,7 +22,19 @@
   "origId": null,
   "name": "rings_1",
   "username": "mark",
-  "settings": "{\"num\":15000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/nicolasgodinmusic/bachoff\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159\\n\\nvoid main () {\\n  \\n  float i = vertexId / 2.0;\\n  if (mod(vertexId, 2.0) > 0.) {\\n    float snd = texture2D(sound, vec2(i * 1e-4, 0.)).a;\\n\\n    float ang = mod(1e-3 * i, 3.14159 * 2.) + time * .3;\\n    float rad = .7 * sin(i + time) * snd;\\n\\n    float x = rad * cos(ang);\\n    float y = rad * sin(ang);\\n    \\n    gl_Position = vec4(x, y, 0, 1);\\n    \\n    float r, g, b;\\n    \\n    r = .01 + snd * mod(i, 2.) * .8;\\n    g = .01 + snd * .8;\\n    b = .01 + snd * sin(time * 1e-3) * .8;\\n    \\n  \\tv_color = vec4(r, g, b, 1);\\n  } else {  \\n    float snd = texture2D(sound, vec2(1./20., 0.)).a;\\n    float ring = mod(i, 10.);\\n    \\n    float rad = 1. - .5 * ring * .05 * sin(time * 5. * i) * snd;\\n    float ang = mod(1e-3 * i, 3.14159 * 2.);\\n    \\n    \\n    float x = rad * cos(ang);\\n    float y = rad * sin(ang);\\n    \\n    float g = sin(ang) * snd;\\n    float b = snd * .05;\\n    \\n    gl_Position = vec4(x, y, 0, 1);\\n    v_color = vec4(.1, g, b, 1);\\n  }\\n}\"}",
+  "settings": {
+    "num": 15000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/nicolasgodinmusic/bachoff",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI 3.14159\n\nvoid main () {\n  \n  float i = vertexId / 2.0;\n  if (mod(vertexId, 2.0) > 0.) {\n    float snd = texture2D(sound, vec2(i * 1e-4, 0.)).a;\n\n    float ang = mod(1e-3 * i, 3.14159 * 2.) + time * .3;\n    float rad = .7 * sin(i + time) * snd;\n\n    float x = rad * cos(ang);\n    float y = rad * sin(ang);\n    \n    gl_Position = vec4(x, y, 0, 1);\n    \n    float r, g, b;\n    \n    r = .01 + snd * mod(i, 2.) * .8;\n    g = .01 + snd * .8;\n    b = .01 + snd * sin(time * 1e-3) * .8;\n    \n  \tv_color = vec4(r, g, b, 1);\n  } else {  \n    float snd = texture2D(sound, vec2(1./20., 0.)).a;\n    float ring = mod(i, 10.);\n    \n    float rad = 1. - .5 * ring * .05 * sin(time * 5. * i) * snd;\n    float ang = mod(1e-3 * i, 3.14159 * 2.);\n    \n    \n    float x = rad * cos(ang);\n    float y = rad * sin(ang);\n    \n    float g = sin(ang) * snd;\n    float b = snd * .05;\n    \n    gl_Position = vec4(x, y, 0, 1);\n    v_color = vec4(.1, g, b, 1);\n  }\n}"
+  },
   "screenshotURL": "data/images/images-c34clv5phyill6115-thumbnail.jpg",
   "views": {
     "$numberInt": "99"

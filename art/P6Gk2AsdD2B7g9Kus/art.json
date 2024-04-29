@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "krankerapfel",
   "avatarUrl": "https://secure.gravatar.com/avatar/5f1830cb37d80a96e1946cc8afe0caa0?default=retro&size=200",
-  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n\\t\\n\\n  float x = (vertexId/resolution.x) - 0.99;\\n  gl_Position = vec4(x, sin(x+time), sin(x+time), 1);\\n  gl_PointSize = 50.0;\\n\\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvoid main() {\n\t\n\n  float x = (vertexId/resolution.x) - 0.99;\n  gl_Position = vec4(x, sin(x+time), sin(x+time), 1);\n  gl_PointSize = 50.0;\n\n  v_color = vec4(1,0,0,1);\n}"
+  },
   "screenshotURL": "data/images/images-r71artuclmtt2i279-thumbnail.jpg",
   "hasSound": "",
   "views": {

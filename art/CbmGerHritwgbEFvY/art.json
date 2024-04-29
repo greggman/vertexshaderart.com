@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":3,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,1,1,1],\"shader\":\"\\n\\nvoid main() {\\n\\tgl_PointSize = 10.0;\\n  \\tgl_Position = vec4(0.0,0.0,0.0,1.0);\\n  \\tv_color = vec4(1.0,0.0,0.0,1.0);\\n}\"}",
+  "settings": {
+    "num": 3,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "shader": "\n\nvoid main() {\n\tgl_PointSize = 10.0;\n  \tgl_Position = vec4(0.0,0.0,0.0,1.0);\n  \tv_color = vec4(1.0,0.0,0.0,1.0);\n}"
+  },
   "screenshotURL": "data/images/images-z0joootz576g53u49-thumbnail.jpg",
   "hasSound": true,
   "views": {

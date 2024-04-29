@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n\\n  float gap = 10.; //vertexCount / resolution;\\n  float x = mod(vertexId, gap) / gap;\\n  float y = floor(vertexId / gap) / gap;\\n\\n  gl_Position = vec4(x, y, 0, 1);\\n\\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvoid main() {\n\n  float gap = 10.; //vertexCount / resolution;\n  float x = mod(vertexId, gap) / gap;\n  float y = floor(vertexId / gap) / gap;\n\n  gl_Position = vec4(x, y, 0, 1);\n\n  gl_PointSize = 10.0;\n  \n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-tbn3vr7niedv7xvrz-thumbnail.jpg",
   "hasSound": "",
   "views": {

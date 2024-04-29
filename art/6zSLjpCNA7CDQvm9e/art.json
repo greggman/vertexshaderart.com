@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gman",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
-  "settings": "{\"num\":1000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){float i=vertexId;float t=time;vec2 uv=vec2(cos(i+t)+sin(t*i*.0001),sin(i+t)+sin(t*i*0.0007));gl_Position=vec4(uv*.5,0,1);v_color=vec4(sin(t*i*.001),sin(i+t*.9),1,1);}\\n\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main(){float i=vertexId;float t=time;vec2 uv=vec2(cos(i+t)+sin(t*i*.0001),sin(i+t)+sin(t*i*0.0007));gl_Position=vec4(uv*.5,0,1);v_color=vec4(sin(t*i*.001),sin(i+t*.9),1,1);}\n"
+  },
   "screenshotURL": "data/images/images-q6k4fezg5owzqn7el-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "ian",
   "avatarUrl": "https://lh5.googleusercontent.com/-kwFohQ1qZfc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reGM-mK9emfJ0BML17FZaOd7UGoXg/mo/photo.jpg",
-  "settings": "{\"num\":3600,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.1803921568627451,0.1803921568627451,0.1803921568627451,1],\"shader\":\"#define POINTS_PER_HALF_CIRCLE 60.0\\n#define DELTA_ALPHA 20.0\\n#define DELTA_GAMMA 20.0\\n\\n#define ALPHA_ZERO 45.0\\n#define BETA_ZERO 0.0\\n#define GAMMA_ZERO -10.0\\n\\nvoid main() {\\n  float theta = radians(floor(vertexId/ POINTS_PER_HALF_CIRCLE)*(360.0/POINTS_PER_HALF_CIRCLE) ) ;\\n  float phi = radians(mod(vertexId, POINTS_PER_HALF_CIRCLE)*(180.0/POINTS_PER_HALF_CIRCLE));\\n  \\n  vec3 xyz = vec3(\\n    sin(phi)*sin(theta),\\n    cos(phi),\\n    sin(phi)*cos(theta)\\n  )*0.25;\\n  \\n  float alpha = radians(sin(time)*DELTA_ALPHA) + ALPHA_ZERO;\\n  float beta = BETA_ZERO;\\n  float gamma = radians(cos(time)*DELTA_ALPHA) + GAMMA_ZERO;\\n  \\n  mat3 rotationX = mat3(\\n  \\tvec3(1.0, 0.0, 0.0),\\n    vec3(0.0, cos(alpha), sin(alpha)),\\n    vec3(0.0, -sin(alpha), cos(alpha))\\n  );\\n  mat3 rotationY = mat3(\\n  \\tvec3(cos(beta), 0.0, -sin(beta)),\\n    vec3(0.0, 1.0, 0.0),\\n    vec3(sin(beta), 0.0, cos(beta))\\n  );\\n  mat3 rotationZ = mat3(\\n  \\tvec3(cos(gamma), sin(gamma), 0.0),\\n    vec3(-sin(gamma), cos(gamma), 0.0),\\n    vec3(0.0, 0.0, 1.0)\\n  );\\n  \\n  gl_Position = vec4(rotationX*rotationY*rotationZ*xyz, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 3600,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.1803921568627451,
+      0.1803921568627451,
+      0.1803921568627451,
+      1
+    ],
+    "shader": "#define POINTS_PER_HALF_CIRCLE 60.0\n#define DELTA_ALPHA 20.0\n#define DELTA_GAMMA 20.0\n\n#define ALPHA_ZERO 45.0\n#define BETA_ZERO 0.0\n#define GAMMA_ZERO -10.0\n\nvoid main() {\n  float theta = radians(floor(vertexId/ POINTS_PER_HALF_CIRCLE)*(360.0/POINTS_PER_HALF_CIRCLE) ) ;\n  float phi = radians(mod(vertexId, POINTS_PER_HALF_CIRCLE)*(180.0/POINTS_PER_HALF_CIRCLE));\n  \n  vec3 xyz = vec3(\n    sin(phi)*sin(theta),\n    cos(phi),\n    sin(phi)*cos(theta)\n  )*0.25;\n  \n  float alpha = radians(sin(time)*DELTA_ALPHA) + ALPHA_ZERO;\n  float beta = BETA_ZERO;\n  float gamma = radians(cos(time)*DELTA_ALPHA) + GAMMA_ZERO;\n  \n  mat3 rotationX = mat3(\n  \tvec3(1.0, 0.0, 0.0),\n    vec3(0.0, cos(alpha), sin(alpha)),\n    vec3(0.0, -sin(alpha), cos(alpha))\n  );\n  mat3 rotationY = mat3(\n  \tvec3(cos(beta), 0.0, -sin(beta)),\n    vec3(0.0, 1.0, 0.0),\n    vec3(sin(beta), 0.0, cos(beta))\n  );\n  mat3 rotationZ = mat3(\n  \tvec3(cos(gamma), sin(gamma), 0.0),\n    vec3(-sin(gamma), cos(gamma), 0.0),\n    vec3(0.0, 0.0, 1.0)\n  );\n  \n  gl_Position = vec4(rotationX*rotationY*rotationZ*xyz, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-fhhmbbgklqrqq27kg-thumbnail.jpg",
   "hasSound": "",
   "views": {

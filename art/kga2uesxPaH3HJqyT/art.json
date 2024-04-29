@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "hzktqr",
   "avatarUrl": "https://secure.gravatar.com/avatar/c5ca7d7d4b527ab960b78f57cfbe61c2?default=retro&size=200",
-  "settings": "{\"num\":10000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main(){}"
+  },
   "screenshotURL": "data/images/images-3xet0v9sv5pegqe1l-thumbnail.jpg",
   "hasSound": "",
   "views": {

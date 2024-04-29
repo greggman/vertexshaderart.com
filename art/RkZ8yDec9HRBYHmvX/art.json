@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "jan-ale",
   "avatarUrl": "https://avatars.githubusercontent.com/jan-ale?s=200",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/inabakumori/wasurenbounonekokaburi\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float size = 10.;\\n  float xPos = mod(vertexId/size,1.);\\n  xPos *= 2.;\\n  xPos -= 1.;\\n  float yPos = vertexId/size;\\n  yPos = floor(yPos);\\n  yPos /= size;\\n  yPos *= 2.;\\n  yPos -= 1.;\\n  \\n  float volume = texture2D(sound, vec2(0., time)).a;\\n  xPos += 0.3 * mix(-volume, volume, mod(5.*yPos,2.));\\n  \\n  gl_Position = vec4(xPos, yPos, 0., 1.);\\n  gl_PointSize = 10. * volume;\\n  vec3 col = sin(time+vec3(0.,2.,4.));\\n  v_color = vec4(col, 1.);\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/inabakumori/wasurenbounonekokaburi",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  float size = 10.;\n  float xPos = mod(vertexId/size,1.);\n  xPos *= 2.;\n  xPos -= 1.;\n  float yPos = vertexId/size;\n  yPos = floor(yPos);\n  yPos /= size;\n  yPos *= 2.;\n  yPos -= 1.;\n  \n  float volume = texture2D(sound, vec2(0., time)).a;\n  xPos += 0.3 * mix(-volume, volume, mod(5.*yPos,2.));\n  \n  gl_Position = vec4(xPos, yPos, 0., 1.);\n  gl_PointSize = 10. * volume;\n  vec3 col = sin(time+vec3(0.,2.,4.));\n  v_color = vec4(col, 1.);\n}"
+  },
   "screenshotURL": "data/images/images-y8qreiss8zgwlri48-thumbnail.jpg",
   "hasSound": true,
   "views": {

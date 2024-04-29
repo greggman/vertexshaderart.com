@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "yuso",
   "avatarUrl": "https://lh6.googleusercontent.com/-18vnTfqanvU/AAAAAAAAAAI/AAAAAAAACG0/w2PJTF6mhiY/photo.jpg",
-  "settings": "{\"num\":25914,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/*void main() {\\n  \\n  float width = 20.0;\\n  \\n  float x = floor(vertexId / 2.0);\\n  float y =  mod(vertexId + 1.0, 2.0);\\n  \\nvec2 xy = vec2(x, y) * 0.1;\\n  \\n  //float xOffset = cos(time + y * 0.2) * 0.1;\\n  //float yOffset = sin(time + x * 0.3) * 0.1;\\n  \\n  \\n  //float ux = u * 2.0 - 1.0 + xOffset;\\n  //float uy = v * 2.0 - 1.0 + yOffset;\\n\\n  \\n  \\n  gl_Position = vec4(xy, 0.0, 1.0); // Posición del vector\\n  v_color = vec4(1.0, 0.0, 1.0, 0.0);\\n  gl_PointSize = 20.0;\\n  \\n}*/\\n/*\\nvoid main() {\\n  \\n  float width = 20.0;\\n  \\n  float x = floor(vertexId / 2.0);\\n  float y =  mod(vertexId + 1.0, 2.0);\\n  \\n  float u = cos(x -1.);\\n  float v = cos(y- 1.0);\\n  \\nvec2 xy = vec2(u, v) * 0.1;\\n  \\n  //float xOffset = cos(time + y * 0.2) * 0.1;\\n  //float yOffset = sin(time + x * 0.3) * 0.1;\\n  \\n  \\n  //float ux = u * 2.0 - 1.0 + xOffset;\\n  //float uy = v * 2.0 - 1.0 + yOffset;\\n\\n  \\n  \\n  gl_Position = vec4(xy, 0.0, 1.0); // Posición del vector\\n  v_color = vec4(1.0, 0.0, 1.0, 0.0);\\n  gl_PointSize = 20.0;\\n  \\n}*/\\n\\nvoid main()\\n{\\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId + 1.0, 2.0);\\n  \\n  float angle = x / 20.0 * radians(360.0);\\n  float radius = 2.0 - y;\\n  \\n  float u = radius * cos(angle);\\n  float v = radius * sin(angle);\\n  \\n  vec2 xy = vec2(u, v) * 0.1;\\n  \\n\\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 20.0;\\n  v_color = vec4(0.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 25914,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "/*void main() {\n  \n  float width = 20.0;\n  \n  float x = floor(vertexId / 2.0);\n  float y =  mod(vertexId + 1.0, 2.0);\n  \nvec2 xy = vec2(x, y) * 0.1;\n  \n  //float xOffset = cos(time + y * 0.2) * 0.1;\n  //float yOffset = sin(time + x * 0.3) * 0.1;\n  \n  \n  //float ux = u * 2.0 - 1.0 + xOffset;\n  //float uy = v * 2.0 - 1.0 + yOffset;\n\n  \n  \n  gl_Position = vec4(xy, 0.0, 1.0); // Posición del vector\n  v_color = vec4(1.0, 0.0, 1.0, 0.0);\n  gl_PointSize = 20.0;\n  \n}*/\n/*\nvoid main() {\n  \n  float width = 20.0;\n  \n  float x = floor(vertexId / 2.0);\n  float y =  mod(vertexId + 1.0, 2.0);\n  \n  float u = cos(x -1.);\n  float v = cos(y- 1.0);\n  \nvec2 xy = vec2(u, v) * 0.1;\n  \n  //float xOffset = cos(time + y * 0.2) * 0.1;\n  //float yOffset = sin(time + x * 0.3) * 0.1;\n  \n  \n  //float ux = u * 2.0 - 1.0 + xOffset;\n  //float uy = v * 2.0 - 1.0 + yOffset;\n\n  \n  \n  gl_Position = vec4(xy, 0.0, 1.0); // Posición del vector\n  v_color = vec4(1.0, 0.0, 1.0, 0.0);\n  gl_PointSize = 20.0;\n  \n}*/\n\nvoid main()\n{\n  float x = floor(vertexId / 2.0);\n  float y = mod(vertexId + 1.0, 2.0);\n  \n  float angle = x / 20.0 * radians(360.0);\n  float radius = 2.0 - y;\n  \n  float u = radius * cos(angle);\n  float v = radius * sin(angle);\n  \n  vec2 xy = vec2(u, v) * 0.1;\n  \n\n  gl_Position = vec4(xy, 0.0, 1.0);\n  gl_PointSize = 20.0;\n  v_color = vec4(0.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-9xenvn7aeibvynbn8-thumbnail.jpg",
   "hasSound": "",
   "views": {

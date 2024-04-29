@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "rubinhuang9239",
   "avatarUrl": "https://avatars.githubusercontent.com/Rubinhuang9239?s=200",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.11372549019607843,0.07450980392156863,0.26666666666666666,1],\"shader\":\"void main() {\\n  \\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor (vertexCount/down);\\n  \\n  \\tfloat x = mod(vertexId, across);\\n  \\tfloat y = floor(vertexId / across);\\n  \\n  \\tfloat u = x/ (across - 1.0);\\n  \\tfloat v = y/ (across - 1.0);\\n  \\n    float ux = u*2.0-1.0;\\n    float vy = v*2.0-1.0;\\n\\n  \\tgl_Position = vec4( ux + cos(sin(ux + time)) * 0.1, vy + cos(sin(vy + time))*0.1, 0.0, 1.0); \\n\\t\\n  \\tgl_PointSize = 16.0 + sin(time)*12.0;\\n  \\tgl_PointSize *= 20.0/across;\\t\\n  \\tgl_PointSize *= resolution.x/600.0;\\t\\n  \\n  \\tv_color = vec4(ux + cos(sin(ux + time)), vy + cos(sin(vy + time)), 0.75,1.0);\\n\\n}\\n\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.11372549019607843,
+      0.07450980392156863,
+      0.26666666666666666,
+      1
+    ],
+    "shader": "void main() {\n  \tfloat down = floor(sqrt(vertexCount));\n  \tfloat across = floor (vertexCount/down);\n  \n  \tfloat x = mod(vertexId, across);\n  \tfloat y = floor(vertexId / across);\n  \n  \tfloat u = x/ (across - 1.0);\n  \tfloat v = y/ (across - 1.0);\n  \n    float ux = u*2.0-1.0;\n    float vy = v*2.0-1.0;\n\n  \tgl_Position = vec4( ux + cos(sin(ux + time)) * 0.1, vy + cos(sin(vy + time))*0.1, 0.0, 1.0); \n\t\n  \tgl_PointSize = 16.0 + sin(time)*12.0;\n  \tgl_PointSize *= 20.0/across;\t\n  \tgl_PointSize *= resolution.x/600.0;\t\n  \n  \tv_color = vec4(ux + cos(sin(ux + time)), vy + cos(sin(vy + time)), 0.75,1.0);\n\n}\n"
+  },
   "screenshotURL": "data/images/images-j0d408nqn07t977bk-thumbnail.jpg",
   "hasSound": "",
   "views": {

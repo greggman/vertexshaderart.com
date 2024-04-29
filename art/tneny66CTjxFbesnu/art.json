@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "sylistine",
   "avatarUrl": "https://secure.gravatar.com/avatar/3a93b17a430d08943deebdfb93d4cef3?default=retro&size=200",
-  "settings": "{\"num\":500,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/aivisura/love-like-you?in=aivisura/sets/steven-universe\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\nvoid main()\\n{\\n  float deg = vertexId + (time / 2.);\\n  vec3 pos = vec3(sin(deg), cos(deg), vertexId*16.);\\n  \\n  // Applied a sin wave to the tex2d sample as a smoothing operation\\n  float fov = (sin(radians(texture2D(sound, vec2(.4, 0)).a) * 90.) + 0.1) / 256.;\\n  \\n  mat4 camera = mat4(\\n    resolution.y / resolution.x, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, fov, fov,\\n    0, 0, 0, 1);\\n  \\n  gl_Position = camera * vec4(pos.xyz, 1);\\n  v_color = vec4(1, (vertexId / vertexCount) / 2. + 0.5, 1, 1);\\n}\"}",
+  "settings": {
+    "num": 500,
+    "mode": "LINE_STRIP",
+    "sound": "https://soundcloud.com/aivisura/love-like-you?in=aivisura/sets/steven-universe",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n\nvoid main()\n{\n  float deg = vertexId + (time / 2.);\n  vec3 pos = vec3(sin(deg), cos(deg), vertexId*16.);\n  \n  // Applied a sin wave to the tex2d sample as a smoothing operation\n  float fov = (sin(radians(texture2D(sound, vec2(.4, 0)).a) * 90.) + 0.1) / 256.;\n  \n  mat4 camera = mat4(\n    resolution.y / resolution.x, 0, 0, 0,\n    0, 1, 0, 0,\n    0, 0, fov, fov,\n    0, 0, 0, 1);\n  \n  gl_Position = camera * vec4(pos.xyz, 1);\n  v_color = vec4(1, (vertexId / vertexCount) / 2. + 0.5, 1, 1);\n}"
+  },
   "screenshotURL": "data/images/images-jtsu7veo0ayn5mxxy-thumbnail.jpg",
   "hasSound": true,
   "views": {

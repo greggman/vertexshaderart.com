@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "sairu312",
   "avatarUrl": "https://avatars.githubusercontent.com/Sairu312?s=200",
-  "settings": "{\"num\":4875,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"\\n//#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n//#define STEP 1.0\\n\\n\\nvoid main() {\\n  vec3 p;\\n  \\n  //triangleIdは三角形の識別ようID\\n  //triangleVertexIdはその三角形内での頂点の識別IDは\\n  float triangleId = floor(vertexId / 3.0);\\n  float triangleVertexId = mod(vertexId, 3.0);\\n  \\n  float angle = radians(60.0) * (triangleVertexId * 2.0 + triangleId * 0.6667);\\n  p = vec3(sin(angle), cos(angle), -0.01 * triangleId);\\n  \\n  p.x *= resolution.y / resolution.x;\\n  \\n  gl_Position = vec4(p * 0.8, 1);\\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(0.5, 0.5, 0.5, 0.5);\\n}\"}",
+  "settings": {
+    "num": 4875,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "\n//#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n//#define STEP 1.0\n\n\nvoid main() {\n  vec3 p;\n  \n  //triangleIdは三角形の識別ようID\n  //triangleVertexIdはその三角形内での頂点の識別IDは\n  float triangleId = floor(vertexId / 3.0);\n  float triangleVertexId = mod(vertexId, 3.0);\n  \n  float angle = radians(60.0) * (triangleVertexId * 2.0 + triangleId * 0.6667);\n  p = vec3(sin(angle), cos(angle), -0.01 * triangleId);\n  \n  p.x *= resolution.y / resolution.x;\n  \n  gl_Position = vec4(p * 0.8, 1);\n  gl_PointSize = 10.0;\n  \n  v_color = vec4(0.5, 0.5, 0.5, 0.5);\n}"
+  },
   "screenshotURL": "data/images/images-rd83nf4vwr2d6ctw0-thumbnail.jpg",
   "hasSound": "",
   "views": {

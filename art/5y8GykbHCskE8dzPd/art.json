@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "leon",
   "avatarUrl": "https://secure.gravatar.com/avatar/f317f07c8ac4ad3d72b708a2cb4070e3?default=retro&size=200",
-  "settings": "{\"num\":609,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nconst float pi = 3.1415;\\nconst float tau = 6.283;\\n#define ss(a,b,t) (smoothstep(a,b,t))\\n#define wr(a) (a*.5+.5)\\nmat2 rot(float a) { float c=cos(a), s=sin(a); return mat2(c,-s,s,c); }\\n\\nvoid main()\\n{\\n  // element indices\\n  float i = floor(vertexId/3.) / vertexCount * 3.;\\n  float layers = 14.;\\n  float ii = floor(i*layers);\\n  float il = ii/layers;\\n  i = i*layers;\\n  float ia = i * tau;\\n  vec2 circle = vec2(cos(ia),sin(ia));\\n  \\n  // triangle indices\\n  float tri = fract(vertexId/3.);\\n  float tria = tri * tau;\\n  float top = step(mod(vertexId, 3.), 0.5);\\n  \\n  // parameters\\n  float speed = 0.5;\\n  float size = 0.05;\\n  float radius = 0.5;\\n  float height = 0.1;\\n  \\n  // fade size\\n  float anim = fract(time*speed-il);\\n  size *= sin(anim*pi);\\n  height *= sin(anim*pi);\\n  \\n  // triangle shape\\n  vec2 uv = vec2(cos(tria + ia),sin(tria + ia));\\n  vec3 pos = vec3(0);\\n  pos.xy += uv * size * (1.-top);\\n  pos.z -= top * height;\\n  \\n  // translate\\n  pos.z -= ((anim)*2.-1.)*.5;\\n  \\n  // circle distribution\\n  pos.xy += circle*radius;\\n  \\n  // camera rotation\\n  pos.xz *= rot(sin(time*speed)*.3);\\n  pos.yz *= rot(cos(time*speed)*.3);\\n  \\n  // origin offset\\n  pos.z += 1.;\\n  \\n  // perspective\\n  pos.xy = pos.xy / max(0.01,pos.z);\\n  pos.x *= resolution.y/resolution.x;\\n  \\n  // result\\n  gl_Position = vec4(pos.xy, 0, 1);\\n  v_color = vec4(1.-top);\\n}\"}",
+  "settings": {
+    "num": 609,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nconst float pi = 3.1415;\nconst float tau = 6.283;\n#define ss(a,b,t) (smoothstep(a,b,t))\n#define wr(a) (a*.5+.5)\nmat2 rot(float a) { float c=cos(a), s=sin(a); return mat2(c,-s,s,c); }\n\nvoid main()\n{\n  // element indices\n  float i = floor(vertexId/3.) / vertexCount * 3.;\n  float layers = 14.;\n  float ii = floor(i*layers);\n  float il = ii/layers;\n  i = i*layers;\n  float ia = i * tau;\n  vec2 circle = vec2(cos(ia),sin(ia));\n  \n  // triangle indices\n  float tri = fract(vertexId/3.);\n  float tria = tri * tau;\n  float top = step(mod(vertexId, 3.), 0.5);\n  \n  // parameters\n  float speed = 0.5;\n  float size = 0.05;\n  float radius = 0.5;\n  float height = 0.1;\n  \n  // fade size\n  float anim = fract(time*speed-il);\n  size *= sin(anim*pi);\n  height *= sin(anim*pi);\n  \n  // triangle shape\n  vec2 uv = vec2(cos(tria + ia),sin(tria + ia));\n  vec3 pos = vec3(0);\n  pos.xy += uv * size * (1.-top);\n  pos.z -= top * height;\n  \n  // translate\n  pos.z -= ((anim)*2.-1.)*.5;\n  \n  // circle distribution\n  pos.xy += circle*radius;\n  \n  // camera rotation\n  pos.xz *= rot(sin(time*speed)*.3);\n  pos.yz *= rot(cos(time*speed)*.3);\n  \n  // origin offset\n  pos.z += 1.;\n  \n  // perspective\n  pos.xy = pos.xy / max(0.01,pos.z);\n  pos.x *= resolution.y/resolution.x;\n  \n  // result\n  gl_Position = vec4(pos.xy, 0, 1);\n  v_color = vec4(1.-top);\n}"
+  },
   "screenshotURL": "data/images/images-ansonix1pnrfdgif8-thumbnail.jpg",
   "hasSound": "",
   "views": {

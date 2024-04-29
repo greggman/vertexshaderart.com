@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":5,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Simple 2D Polygon generator, after enough vertices are added the geometry resolves to a circle\\n\\n\\nvoid main() {\\n  float radius = 0.5;\\n  float theta = vertexId / vertexCount * 6.28;\\n  \\n  float z = cos(theta + time);\\n  float x = cos(theta + time) * radius;\\n  float y = sin(theta + time) * radius;\\n  \\n  gl_Position = vec4(x, y, z, 1);\\n  gl_PointSize = 1.0;\\n  v_color = vec4(vertexId / vertexCount, z, 1.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 5,
+    "mode": "TRI_FAN",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// Simple 2D Polygon generator, after enough vertices are added the geometry resolves to a circle\n\n\nvoid main() {\n  float radius = 0.5;\n  float theta = vertexId / vertexCount * 6.28;\n  \n  float z = cos(theta + time);\n  float x = cos(theta + time) * radius;\n  float y = sin(theta + time) * radius;\n  \n  gl_Position = vec4(x, y, z, 1);\n  gl_PointSize = 1.0;\n  v_color = vec4(vertexId / vertexCount, z, 1.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-ln62ap86yu91m5t3f-thumbnail.jpg",
   "hasSound": "",
   "views": {

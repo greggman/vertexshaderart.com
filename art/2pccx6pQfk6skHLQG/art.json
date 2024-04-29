@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":6,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  if (vertexId == 0.0) {\\n   \\tgl_Position = vec4(-0.05, -0.3, 0, 1);  \\n  }\\n  else if (vertexId == 1.0) {\\n  \\tgl_Position = vec4(0.25, 0.3, 0, 1);    \\n  }\\n  else if (vertexId == 2.0) {\\n  \\tgl_Position = vec4(0.0125, -0.3, 0, 1);    \\n  }\\n  \\n  else if (vertexId == 3.0) {\\n  \\tgl_Position = vec4(-0.05, 0.3, 0, 1);    \\n  }\\n  else if (vertexId == 4.0) {\\n  \\tgl_Position = vec4(0.25, 0.3, 0, 1);    \\n  }\\n  else if (vertexId == 5.0) {\\n  \\tgl_Position = vec4(-0.05, -0.3, 0, 1);    \\n  }\\n  \\n  if (vertexId == 1.0 || vertexId == 2.0 || vertexId == 4.0) {   \\n  \\tv_color = vec4(1, 1, 1, 1);\\n  }\\n  else {\\n    v_color = vec4(1, 0, 0, 1);\\n  }\\n  \\n  \\n  \\n}\\n\"}",
+  "settings": {
+    "num": 6,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  \n  if (vertexId == 0.0) {\n   \tgl_Position = vec4(-0.05, -0.3, 0, 1);  \n  }\n  else if (vertexId == 1.0) {\n  \tgl_Position = vec4(0.25, 0.3, 0, 1);    \n  }\n  else if (vertexId == 2.0) {\n  \tgl_Position = vec4(0.0125, -0.3, 0, 1);    \n  }\n  \n  else if (vertexId == 3.0) {\n  \tgl_Position = vec4(-0.05, 0.3, 0, 1);    \n  }\n  else if (vertexId == 4.0) {\n  \tgl_Position = vec4(0.25, 0.3, 0, 1);    \n  }\n  else if (vertexId == 5.0) {\n  \tgl_Position = vec4(-0.05, -0.3, 0, 1);    \n  }\n  \n  if (vertexId == 1.0 || vertexId == 2.0 || vertexId == 4.0) {   \n  \tv_color = vec4(1, 1, 1, 1);\n  }\n  else {\n    v_color = vec4(1, 0, 0, 1);\n  }\n  \n  \n  \n}\n"
+  },
   "screenshotURL": "data/images/images-40ivsbfnej7f891u6-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "P_Malin",
   "avatarUrl": "https://pbs.twimg.com/profile_images/2157402471/Profile_200x200.png",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.0)\\n#define TAU radians(360.0)\\n\\nfloat seed;\\n\\nfloat fhash(float f)\\n{\\n  return fract(sin(f*123.456)*234.5678);\\n}\\n\\nfloat fhash()\\n{\\n  seed=fhash(seed);\\n  return seed;\\n}\\n\\nmat2 Rotate(float b)\\n{\\n    float c=cos(b),s=sin(b);\\n    return mat2(c,-s,s,c);\\n}\\n\\nfloat saturate( float x ) { return clamp(x,0.,1.); }\\n\\n\\nvoid main() {\\n  float starCount = 1000.0;\\n  \\n  seed = floor(vertexId / starCount);\\n  \\n  float singlePointCount = 4000.;\\n  \\n  if (vertexId < singlePointCount)\\n  {\\n    seed = vertexId / singlePointCount;\\n  }\\n  \\n  vec3 O = vec3(fhash(), fhash(), fhash()) * 2.0 - 1.0;\\n  O.z += 1.0;\\n  O = O * 500.0;\\n    \\n  float R = fhash()*TAU;\\n  float Q = fhash()*TAU;\\n  \\n  float A = fhash() * 5.0;\\n  \\n  vec3 col = vec3(fhash(), fhash(), fhash());\\n  col.g = (col.r + col.b) / 2.;\\n    \\n  seed = mod(vertexId, starCount) / starCount;     \\n\\n  float s = -log(fhash());\\n  \\n  float theta=fhash()*TAU + time*.1;\\n  vec2 es = vec2(1,.5);\\n  vec2 ePos = vec2(sin(theta),cos(theta))*es*s;\\n  \\n  float rotA = s*A + fhash();\\n  \\n  ePos = ePos * Rotate(rotA);\\n  \\n  float D=dot(ePos,ePos) / dot(es,es);\\n  float H=((pow(2.7,-D*30.))+2.)*.2;\\n  float Z=pow((fhash()*2.0-1.),3.0)*H;\\n  \\n  vec3 P = vec3(ePos, Z) * 10.;\\n  \\n  P.yz *= Rotate(R);\\n  P.xy *= Rotate(Q);\\n  \\n  P = P + O;\\n  P.z -= time * 20.;\\n  P.z = mod(P.z, 1000.0);\\n  \\n  ePos = P.xy;\\n  ePos /= P.z;\\n  \\n    \\n  vec2 screenPos = ePos * (resolution.yx / resolution.x);\\n  \\n  gl_PointSize = 1. + 500. / P.z;\\n  //gl_PointSize = 2.;\\n\\n  gl_Position=vec4(screenPos,1.0 / vertexId,1);\\n  \\n  vec3 col2 = col + fhash();\\n  col2 *= .3;\\n  \\n  float fade = (1000.-P.z) / 1000.0;\\n  col2 *= sqrt(fade);\\n  \\n  v_color=vec4(col2, 0);  \\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.0)\n#define TAU radians(360.0)\n\nfloat seed;\n\nfloat fhash(float f)\n{\n  return fract(sin(f*123.456)*234.5678);\n}\n\nfloat fhash()\n{\n  seed=fhash(seed);\n  return seed;\n}\n\nmat2 Rotate(float b)\n{\n    float c=cos(b),s=sin(b);\n    return mat2(c,-s,s,c);\n}\n\nfloat saturate( float x ) { return clamp(x,0.,1.); }\n\n\nvoid main() {\n  float starCount = 1000.0;\n  \n  seed = floor(vertexId / starCount);\n  \n  float singlePointCount = 4000.;\n  \n  if (vertexId < singlePointCount)\n  {\n    seed = vertexId / singlePointCount;\n  }\n  \n  vec3 O = vec3(fhash(), fhash(), fhash()) * 2.0 - 1.0;\n  O.z += 1.0;\n  O = O * 500.0;\n    \n  float R = fhash()*TAU;\n  float Q = fhash()*TAU;\n  \n  float A = fhash() * 5.0;\n  \n  vec3 col = vec3(fhash(), fhash(), fhash());\n  col.g = (col.r + col.b) / 2.;\n    \n  seed = mod(vertexId, starCount) / starCount;     \n\n  float s = -log(fhash());\n  \n  float theta=fhash()*TAU + time*.1;\n  vec2 es = vec2(1,.5);\n  vec2 ePos = vec2(sin(theta),cos(theta))*es*s;\n  \n  float rotA = s*A + fhash();\n  \n  ePos = ePos * Rotate(rotA);\n  \n  float D=dot(ePos,ePos) / dot(es,es);\n  float H=((pow(2.7,-D*30.))+2.)*.2;\n  float Z=pow((fhash()*2.0-1.),3.0)*H;\n  \n  vec3 P = vec3(ePos, Z) * 10.;\n  \n  P.yz *= Rotate(R);\n  P.xy *= Rotate(Q);\n  \n  P = P + O;\n  P.z -= time * 20.;\n  P.z = mod(P.z, 1000.0);\n  \n  ePos = P.xy;\n  ePos /= P.z;\n  \n    \n  vec2 screenPos = ePos * (resolution.yx / resolution.x);\n  \n  gl_PointSize = 1. + 500. / P.z;\n  //gl_PointSize = 2.;\n\n  gl_Position=vec4(screenPos,1.0 / vertexId,1);\n  \n  vec3 col2 = col + fhash();\n  col2 *= .3;\n  \n  float fade = (1000.-P.z) / 1000.0;\n  col2 *= sqrt(fade);\n  \n  v_color=vec4(col2, 0);  \n}"
+  },
   "screenshotURL": "data/images/images-ptde8y850tnu02ve0-thumbnail.jpg",
   "hasSound": "",
   "views": {

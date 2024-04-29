@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":120,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main ()\\n{\\n  \\n  float ux = floor(vertexId/ 6.0) + mod(vertexId, 2.0);\\n  float vy = mod(floor(vertexId / 2.0) + floor(vertexId / 1.0), 2.0);\\n\\n  float angle = ux/ 20.0 * radians(180.0) * 2.0; //el 20 es como la resolucion  convertir, pi radianes por 2( gados de un circulo) , entre 20(ocupar 20 segmentos), lo que necesitas para formar un circulo \\n  float radius = vy + 1.0; //  el radio del circulo es uno, va a ir girando, centro vacio 1\\n  // ux mas a la derecha , 0, 1 ,2 ,3 ...\\n  float x =radius * cos(angle);\\n  float y = radius * sin(angle);\\n  \\n  // x = radius * cos(angle)  funcionan en radianes \\n  // y = radius * sin(angle)\\n \\n  vec2 xy = vec2(x,y);\\n  \\n  gl_Position = vec4(xy * 0.1, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  \\n  \\n  \\n  \\n  \\n  \\n}\"}",
+  "settings": {
+    "num": 120,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main ()\n{\n  \n  float ux = floor(vertexId/ 6.0) + mod(vertexId, 2.0);\n  float vy = mod(floor(vertexId / 2.0) + floor(vertexId / 1.0), 2.0);\n\n  float angle = ux/ 20.0 * radians(180.0) * 2.0; //el 20 es como la resolucion  convertir, pi radianes por 2( gados de un circulo) , entre 20(ocupar 20 segmentos), lo que necesitas para formar un circulo \n  float radius = vy + 1.0; //  el radio del circulo es uno, va a ir girando, centro vacio 1\n  // ux mas a la derecha , 0, 1 ,2 ,3 ...\n  float x =radius * cos(angle);\n  float y = radius * sin(angle);\n  \n  // x = radius * cos(angle)  funcionan en radianes \n  // y = radius * sin(angle)\n \n  vec2 xy = vec2(x,y);\n  \n  gl_Position = vec4(xy * 0.1, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n  \n  \n  \n  \n  \n  \n}"
+  },
   "screenshotURL": "data/images/images-ze7ujesz1usfvmy2g-thumbnail.jpg",
   "hasSound": "",
   "views": {

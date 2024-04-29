@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "mv10",
   "avatarUrl": "https://secure.gravatar.com/avatar/ae371690b3859dd1515ccf3e9ddc2ec8?default=retro&size=200",
-  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// very long playlist:\\n// https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\\n\\n// lolengine.net/blog/2013/07/27/rgb-to-hsv-in-glsl\\nvec3 hsv2rgb(vec3 c)\\n{\\n    c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main () {\\n  \\n  // same as Sound Basics 1\\n  float norm = (vertexId / vertexCount);\\n  float x = (norm - 0.5) * 2.0;\\n  \\n  // this time we use the frequency (first sound-texture component)\\n  // and leave history (second component) at 0.0 which is \\\"now\\\"; bass\\n  // is the most interesting area, so we stick to the first 20% only;\\n  // also, add a very tiny offset, the data seems to clip around zero\\n  float freq = norm * 0.2 + 0.004;\\n  float y = (texture2D(sound,  vec2(freq, 0.0)).a - 0.5);\\n\\n  // grab the volume (single value, no frequency) and use that as the\\n  // color hue; small multiplier, volume almost never gets near 1.0\\n  float vol = texture2D(volume, vec2(0.0, 0.0)).a * 2.0;\\n  vec3 hsv = vec3(vol, 1.0, 1.0);\\n  \\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  v_color = vec4(hsv2rgb(hsv), 1.0);\\n\\n  gl_PointSize = 5.0;\\n\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// very long playlist:\n// https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\n\n// lolengine.net/blog/2013/07/27/rgb-to-hsv-in-glsl\nvec3 hsv2rgb(vec3 c)\n{\n    c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main () {\n  \n  // same as Sound Basics 1\n  float norm = (vertexId / vertexCount);\n  float x = (norm - 0.5) * 2.0;\n  \n  // this time we use the frequency (first sound-texture component)\n  // and leave history (second component) at 0.0 which is \"now\"; bass\n  // is the most interesting area, so we stick to the first 20% only;\n  // also, add a very tiny offset, the data seems to clip around zero\n  float freq = norm * 0.2 + 0.004;\n  float y = (texture2D(sound,  vec2(freq, 0.0)).a - 0.5);\n\n  // grab the volume (single value, no frequency) and use that as the\n  // color hue; small multiplier, volume almost never gets near 1.0\n  float vol = texture2D(volume, vec2(0.0, 0.0)).a * 2.0;\n  vec3 hsv = vec3(vol, 1.0, 1.0);\n  \n  gl_Position = vec4(x, y, 0.0, 1.0);\n  v_color = vec4(hsv2rgb(hsv), 1.0);\n\n  gl_PointSize = 5.0;\n\n}"
+  },
   "screenshotURL": "data/images/images-yoxjqmao8yxtj3up1-thumbnail.jpg",
   "hasSound": true,
   "views": {

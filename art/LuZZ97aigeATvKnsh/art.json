@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "langtoner",
   "avatarUrl": "https://secure.gravatar.com/avatar/dceb35cad80ced6f55f55cf8d2fd8971?default=retro&size=200",
-  "settings": "{\"num\":10,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\ngl_Position = vec4(0,0,0,1);\\ngl_PointSize = 10.0;\\n  \\n  \\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "settings": {
+    "num": 10,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvoid main() {\ngl_Position = vec4(0,0,0,1);\ngl_PointSize = 10.0;\n  \n  \n  v_color = vec4(1,0,0,1);\n}"
+  },
   "screenshotURL": "data/images/images-pprvk0gvxrs303gcl-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "danielskantze",
   "avatarUrl": "https://avatars.githubusercontent.com/danielskantze?s=200",
-  "settings": "{\"num\":100,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 21.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float p = vertexId / vertexCount;\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  float size = min(resolution.x, resolution.y);\\n  float inset = 0.8;\\n  \\n  float laps = 10.0;\\n  \\n  vec2 pos = vec2(inset * sin(laps * PI * p * 2.0), inset * cos(laps * PI * p * 2.0));\\n  \\n  pos = pos * aspect;\\n  // gl_Position = vec4(pos * aspect + mouse * 0.1, 0, 1);\\n  gl_Position = vec4(pos.x, p, pos.y, 1);\\n\\n  float hue = (time * 0.01 + p * 1.001);\\n  v_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "LINE_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 21.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float p = vertexId / vertexCount;\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  float size = min(resolution.x, resolution.y);\n  float inset = 0.8;\n  \n  float laps = 10.0;\n  \n  vec2 pos = vec2(inset * sin(laps * PI * p * 2.0), inset * cos(laps * PI * p * 2.0));\n  \n  pos = pos * aspect;\n  // gl_Position = vec4(pos * aspect + mouse * 0.1, 0, 1);\n  gl_Position = vec4(pos.x, p, pos.y, 1);\n\n  float hue = (time * 0.01 + p * 1.001);\n  v_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);\n}"
+  },
   "screenshotURL": "data/images/images-rp9salr445ckgyt7l-thumbnail.jpg",
   "hasSound": "",
   "views": {

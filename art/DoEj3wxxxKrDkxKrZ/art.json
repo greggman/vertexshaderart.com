@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {  \\n  float vertNorm = vertexId / vertexCount;\\n\\n  float theta = vertNorm * 6.28;\\n  float amplitude = max(mouse.x, 0.25);\\n  float posX = cos(theta) * amplitude;\\n  float posY = sin(theta) * amplitude;\\n  \\n  gl_Position = vec4(posX, posY, 0.0, 1.0);\\n  gl_PointSize = 5.0;\\n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {  \n  float vertNorm = vertexId / vertexCount;\n\n  float theta = vertNorm * 6.28;\n  float amplitude = max(mouse.x, 0.25);\n  float posX = cos(theta) * amplitude;\n  float posY = sin(theta) * amplitude;\n  \n  gl_Position = vec4(posX, posY, 0.0, 1.0);\n  gl_PointSize = 5.0;\n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-hpkdxil7xdl4zbeah-thumbnail.jpg",
   "hasSound": "",
   "views": {

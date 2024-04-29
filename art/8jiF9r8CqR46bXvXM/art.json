@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "도영",
   "avatarUrl": "https://lh4.googleusercontent.com/-U1yoYVQNRaI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdPOWnx_PVuWVFfdWUFWnYSBIUGSQ/mo/photo.jpg",
-  "settings": "{\"num\":5000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() \\n{\\n  \\tfloat value = vertexId*10.0;\\n    \\n\\tfloat x =mouse.x;\\n\\tfloat y = mouse.y;\\n  \\n \\tfloat snd = texture2D(sound, vec2(0, 0)).a;\\n  \\tgl_Position = vec4(cos(value), sin(value), 0, abs(snd*2.0));\\n  \\n  \\tgl_PointSize = 50.0;\\n  \\n  \\tv_color = vec4(cos(x), sin(y), tan(x*y), 1);\\n}\\n\\n  \"}",
+  "settings": {
+    "num": 5000,
+    "mode": "LINES",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvoid main() \n{\n  \tfloat value = vertexId*10.0;\n    \n\tfloat x =mouse.x;\n\tfloat y = mouse.y;\n  \n \tfloat snd = texture2D(sound, vec2(0, 0)).a;\n  \tgl_Position = vec4(cos(value), sin(value), 0, abs(snd*2.0));\n  \n  \tgl_PointSize = 50.0;\n  \n  \tv_color = vec4(cos(x), sin(y), tan(x*y), 1);\n}\n\n  "
+  },
   "screenshotURL": "data/images/images-fviyv80ibkbu9gvbn-thumbnail.jpg",
   "hasSound": true,
   "views": {

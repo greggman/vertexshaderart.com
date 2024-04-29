@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gerrygoo",
   "avatarUrl": "https://avatars.githubusercontent.com/gerrygoo?s=200",
-  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define two_pi radians(360.0) \\n#define rot_x mat3(1, 0, 0, 0, cos(time), -sin(time), 0, sin(time), cos(time))\\n#define rot_z mat3(cos(time), -sin(time), 0, sin(time), cos(time), 0, 0, 0, 1)\\n\\nvoid main() {\\n\\n  float\\t\\n    per_circle = 100.0,\\n    r = 0.8,\\n    \\n    x = mod(vertexId, per_circle),\\n    y = floor(vertexId / per_circle),\\n    \\n    ph = x / per_circle * two_pi,\\n    th = y / per_circle * two_pi;\\n  \\n  vec3 pos = vec3(\\n  \\tr * sin(ph) * cos(th),\\n    r * sin(ph) * sin(th),\\n    r * cos(ph)\\n  );\\n  \\n  \\n  \\n  \\n  gl_Position = vec4(\\n    rot_x * rot_z * pos,\\n    1\\n  );\\n  \\n  gl_PointSize = 5.0;\\n  v_color = vec4(0, 0.8, 1, 1);\\n  \\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define two_pi radians(360.0) \n#define rot_x mat3(1, 0, 0, 0, cos(time), -sin(time), 0, sin(time), cos(time))\n#define rot_z mat3(cos(time), -sin(time), 0, sin(time), cos(time), 0, 0, 0, 1)\n\nvoid main() {\n\n  float\t\n    per_circle = 100.0,\n    r = 0.8,\n    \n    x = mod(vertexId, per_circle),\n    y = floor(vertexId / per_circle),\n    \n    ph = x / per_circle * two_pi,\n    th = y / per_circle * two_pi;\n  \n  vec3 pos = vec3(\n  \tr * sin(ph) * cos(th),\n    r * sin(ph) * sin(th),\n    r * cos(ph)\n  );\n  \n  \n  \n  \n  gl_Position = vec4(\n    rot_x * rot_z * pos,\n    1\n  );\n  \n  gl_PointSize = 5.0;\n  v_color = vec4(0, 0.8, 1, 1);\n  \n}"
+  },
   "screenshotURL": "data/images/images-g276co5zitkjxzfbm-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":1734,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/mortengranau/motorcycle-as-the-rush-comes-metronome-morten-granau-remix\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.2196078431372549,0.4549019607843137,0.5058823529411764,1],\"shader\":\"// Simple Line which responds to music\\n// This is intended to be super simple, to learn how to use VertexShaderArt\\n// If you're just beginning please feel free to experiment with this or use as a starting point for your shaders\\n\\nvoid main()\\n{\\n  // vertex_percent is vertexId mapped to [0..1]\\n  float nb_circles = 10.0;\\n  float nbpointspercircle = vertexCount/nb_circles;\\n  float vertex_percent = (vertexId) / (vertexCount-1.0); // We use -1.0 to ensure a point exists at the end\\n  float x = (vertex_percent*2.0-1.0)*0.7; // Mapping vertex_percent [0..1] to X screen range, which is [-1..1]\\n  \\n  // sound texture has (amplitude, history) for (u,v). \\n  // u range is [0..1]: 0 is lowest bass, 1 is highest treble\\n  // v range is [0..1]: 0 is right now, 1 is 4 seconds in the past\\n  // It is all in the alpha channel of the sound texture\\n  \\n  // Set y position to amplitude in [0..1] range.\\n  // Y will be 1.0 at peak amplitude (top of screen) and 0.0 for silence (middle of screen)\\n  float y = -0.5+2.0*texture2D(sound,vec2(0.5*vertex_percent,0.0)).a*0.5; \\n  \\n  float r = 0.1;\\n  float posx = r*(mod(vertexId, nb_circles)+1.0) * cos(vertex_percent*2.0*3.14)*0.5*((y*2.0)-1.0);\\n  float posy = r*(mod(vertexId, nb_circles)+1.0) * sin(vertex_percent*2.0*3.14)*0.5*((y*2.0)-1.0);\\n \\n  \\n  gl_PointSize = 5.0; // Set point size in case want to render points instead of line, not used in line\\n  gl_Position = vec4(posx,posy,0,1); // simply plot onto screen space at z=0 with opacity=1, screen range is [-1..1] for both x and y\\n  v_color = vec4(sin(time)*sin(time), y+1.0, 50.0*vertex_percent*y, 1.0);\\n  vec4 aa = background;\\n} \\n\\n\"}",
+  "settings": {
+    "num": 1734,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/mortengranau/motorcycle-as-the-rush-comes-metronome-morten-granau-remix",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.2196078431372549,
+      0.4549019607843137,
+      0.5058823529411764,
+      1
+    ],
+    "shader": "// Simple Line which responds to music\n// This is intended to be super simple, to learn how to use VertexShaderArt\n// If you're just beginning please feel free to experiment with this or use as a starting point for your shaders\n\nvoid main()\n{\n  // vertex_percent is vertexId mapped to [0..1]\n  float nb_circles = 10.0;\n  float nbpointspercircle = vertexCount/nb_circles;\n  float vertex_percent = (vertexId) / (vertexCount-1.0); // We use -1.0 to ensure a point exists at the end\n  float x = (vertex_percent*2.0-1.0)*0.7; // Mapping vertex_percent [0..1] to X screen range, which is [-1..1]\n  \n  // sound texture has (amplitude, history) for (u,v). \n  // u range is [0..1]: 0 is lowest bass, 1 is highest treble\n  // v range is [0..1]: 0 is right now, 1 is 4 seconds in the past\n  // It is all in the alpha channel of the sound texture\n  \n  // Set y position to amplitude in [0..1] range.\n  // Y will be 1.0 at peak amplitude (top of screen) and 0.0 for silence (middle of screen)\n  float y = -0.5+2.0*texture2D(sound,vec2(0.5*vertex_percent,0.0)).a*0.5; \n  \n  float r = 0.1;\n  float posx = r*(mod(vertexId, nb_circles)+1.0) * cos(vertex_percent*2.0*3.14)*0.5*((y*2.0)-1.0);\n  float posy = r*(mod(vertexId, nb_circles)+1.0) * sin(vertex_percent*2.0*3.14)*0.5*((y*2.0)-1.0);\n \n  \n  gl_PointSize = 5.0; // Set point size in case want to render points instead of line, not used in line\n  gl_Position = vec4(posx,posy,0,1); // simply plot onto screen space at z=0 with opacity=1, screen range is [-1..1] for both x and y\n  v_color = vec4(sin(time)*sin(time), y+1.0, 50.0*vertex_percent*y, 1.0);\n  vec4 aa = background;\n} \n\n"
+  },
   "screenshotURL": "data/images/images-h2paqfm9n19o4vpgv-thumbnail.jpg",
   "hasSound": true,
   "views": {

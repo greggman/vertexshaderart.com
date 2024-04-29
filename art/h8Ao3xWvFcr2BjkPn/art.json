@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "richtowns",
   "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.6274509803921569,1],\"shader\":\"// Taking control - the  moving grid\\n\\nvoid main() {\\n  float scale = 1.;\\n  float modi = 1.; //0.5 * (sin(time)+1.);\\n  float grid = floor(modi * 5.) + 5.;\\n  float xoff = -0.5 * scale;\\n  float yoff = -0.5 * scale;\\n  float x = mod(vertexId , grid);\\n  float y = mod(floor(vertexId / grid), grid);\\n  float ux = x * scale / grid + xoff;\\n  float uy = y * scale / grid + yoff;\\n  gl_Position = vec4(ux, uy, 0, 1);\\n  gl_PointSize = 100./grid;\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0.6274509803921569,
+      1
+    ],
+    "shader": "// Taking control - the  moving grid\n\nvoid main() {\n  float scale = 1.;\n  float modi = 1.; //0.5 * (sin(time)+1.);\n  float grid = floor(modi * 5.) + 5.;\n  float xoff = -0.5 * scale;\n  float yoff = -0.5 * scale;\n  float x = mod(vertexId , grid);\n  float y = mod(floor(vertexId / grid), grid);\n  float ux = x * scale / grid + xoff;\n  float uy = y * scale / grid + yoff;\n  gl_Position = vec4(ux, uy, 0, 1);\n  gl_PointSize = 100./grid;\n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-5dhjkg0ehm37o0r29-thumbnail.jpg",
   "hasSound": "",
   "views": {

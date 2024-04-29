@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "vanoog",
   "avatarUrl": "https://secure.gravatar.com/avatar/896efd4abc5be73fd287b615b8a43698?default=retro&size=200",
-  "settings": "{\"num\":100,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main(){\\n  float pi = 3.14159;\\n  \\n  float y = mod(vertexId,2.0);\\n  float x = floor(vertexId/2.0);\\n  \\n  float angle = x / 20.0 * radians(360.0);\\n  \\n  float r = 2.0 - y;\\n  \\n  x = r*cos(angle);\\n  y = r*sin(angle);\\n  \\n  vec2 xy = vec2(x, y) * 0.1;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(sin(time*x), cos(time*y), cos(x*y), 1.0);\\n  \\n  gl_PointSize = 10.0;\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main(){\n  float pi = 3.14159;\n  \n  float y = mod(vertexId,2.0);\n  float x = floor(vertexId/2.0);\n  \n  float angle = x / 20.0 * radians(360.0);\n  \n  float r = 2.0 - y;\n  \n  x = r*cos(angle);\n  y = r*sin(angle);\n  \n  vec2 xy = vec2(x, y) * 0.1;\n  \n  gl_Position = vec4(xy, 0.0, 1.0);\n  v_color = vec4(sin(time*x), cos(time*y), cos(x*y), 1.0);\n  \n  gl_PointSize = 10.0;\n}"
+  },
   "screenshotURL": "data/images/images-f2spl3aqfcb7kevh0-thumbnail.jpg",
   "hasSound": "",
   "views": {

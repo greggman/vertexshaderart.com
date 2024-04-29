@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "의진",
   "avatarUrl": "https://lh3.googleusercontent.com/-qluvRnEYs7k/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rc-ybddM4LQHc0g0BGvplkyZtwpJg/mo/photo.jpg",
-  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/*your name : uijin.lee\\nthe assignment number : assignment 3 extra credit\\nthe course name : CS230\\nthe term : Spring 2019\\n*/\\n  \\n#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n  float m = vertexId ;\\n\\n  gl_Position = vec4(m*mouse.x,m*mouse.y,0, 1);\\n  gl_PointSize = 5.0;\\n  \\n  v_color = vec4(sin(time), cos(time), tan(time), 1.0);\\n  \\n}\"}",
+  "settings": {
+    "num": 20000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "/*your name : uijin.lee\nthe assignment number : assignment 3 extra credit\nthe course name : CS230\nthe term : Spring 2019\n*/\n  \n#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvoid main() {\n  float m = vertexId ;\n\n  gl_Position = vec4(m*mouse.x,m*mouse.y,0, 1);\n  gl_PointSize = 5.0;\n  \n  v_color = vec4(sin(time), cos(time), tan(time), 1.0);\n  \n}"
+  },
   "screenshotURL": "data/images/images-j396wc846nwx3xipg-thumbnail.jpg",
   "hasSound": "",
   "views": {

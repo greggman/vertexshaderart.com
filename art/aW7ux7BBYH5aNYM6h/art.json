@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":20000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n  \\n  vec2 p = vec2(0,0);\\n  \\n  if(vertexId < 0.5){\\n    p = vec2 (0., 0.5);\\n  }else if (vertexId < 1.5)\\n  {\\n     p = vec2 (0.5, -0.5);\\n  }else if (vertexId < 2.5)\\n  {\\n     p = vec2 (-0.5, -0.5);\\n  }\\n    \\n  gl_Position = vec4(p, 0., 1.);\\n\\n  v_color = vec4(1,1,1, 1);\\n}\\n\\n\"}",
+  "settings": {
+    "num": 20000,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvoid main() {\n  \n  vec2 p = vec2(0,0);\n  \n  if(vertexId < 0.5){\n    p = vec2 (0., 0.5);\n  }else if (vertexId < 1.5)\n  {\n     p = vec2 (0.5, -0.5);\n  }else if (vertexId < 2.5)\n  {\n     p = vec2 (-0.5, -0.5);\n  }\n    \n  gl_Position = vec4(p, 0., 1.);\n\n  v_color = vec4(1,1,1, 1);\n}\n\n"
+  },
   "screenshotURL": "data/images/images-u6crmgza45c3fkpmr-thumbnail.jpg",
   "hasSound": "",
   "views": {

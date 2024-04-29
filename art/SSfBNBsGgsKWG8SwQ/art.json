@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "liaminjapan",
   "avatarUrl": "https://avatars.githubusercontent.com/LiamInJapan?s=200",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.12549019607843137,0,0.3411764705882353,1],\"shader\":\"void main()\\n{\\n  gl_Position = vec4(0,0,0,1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1,0,0,1);\\n  \\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.12549019607843137,
+      0,
+      0.3411764705882353,
+      1
+    ],
+    "shader": "void main()\n{\n  gl_Position = vec4(0,0,0,1);\n  \n  gl_PointSize = 10.0;\n  \n  v_color = vec4(1,0,0,1);\n  \n}"
+  },
   "screenshotURL": "data/images/images-y1qh17i4d3kt3jkpc-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -26,7 +26,19 @@
   "name": "Rainbow Grid",
   "private": true,
   "username": "baldand",
-  "settings": "{\"num\":10000,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.5058823529411764,0.4588235294117647,0.4588235294117647,1],\"shader\":\"void main() {\\n  vec3 pos = vec3(sin(vertexId*(.1+.1*sin(time*.001))+time*.01),cos(vertexId*(.1+.1*sin(time*.0011))+time*.01),1.1);\\n  gl_Position = vec4(pos.xy,1.0/pos.z,pos.z);\\n  v_color = vec4(sin(vertexId+time),cos(vertexId+time),sin(vertexId*1.1+time),1.);\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "LINE_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.5058823529411764,
+      0.4588235294117647,
+      0.4588235294117647,
+      1
+    ],
+    "shader": "void main() {\n  vec3 pos = vec3(sin(vertexId*(.1+.1*sin(time*.001))+time*.01),cos(vertexId*(.1+.1*sin(time*.0011))+time*.01),1.1);\n  gl_Position = vec4(pos.xy,1.0/pos.z,pos.z);\n  v_color = vec4(sin(vertexId+time),cos(vertexId+time),sin(vertexId*1.1+time),1.);\n}"
+  },
   "screenshotURL": "data/images/images-yrmt3uastjimfjnlx-thumbnail.jpg",
   "views": {
     "$numberInt": "1"

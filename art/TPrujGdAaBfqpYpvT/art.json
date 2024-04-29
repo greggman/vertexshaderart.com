@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":1024,\"mode\":\"LINE_LOOP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float phi = vertexId / vertexCount * 3.14159265*2.0;\\n  \\n  float x = cos(phi);\\n  float y = sin(phi);\\n  float z = 0.0;\\n  \\n  float theta = 20.0 * sin(cos(phi)*3.1415192) * sin(time);//(x+time * 0.3) * 3.141592*2.0;\\n  \\n  y *= cos(theta);\\n  z = sin(theta) * sin(phi);\\n  \\n  vec4 pos = vec4(x, y, z, 1.0);\\n    \\n  vec3 eye = vec3(sin(time*0.3), 0, cos(time*0.3));\\n  vec3 right = vec3(-eye.z, 0, eye.x);\\n  vec3 look = -eye;\\n\\n  mat4 L = mat4(vec4(right, 0),\\n                vec4(0, 1, 0, 0),\\n                vec4(look, 0),\\n                vec4(0, 0, 0, 1));\\n  \\n  gl_Position = (L * pos) * vec4((resolution.y / resolution.x) * 0.5, 0.5, 0.5, 1);\\n  v_color = vec4(sin(theta) * 0.5 + 0.5,\\n                 cos(phi) * 0.5 + 0.5,\\n                 sin(time) * 0.5 + 0.5,\\n                 1.0);\\n}\"}",
+  "settings": {
+    "num": 1024,
+    "mode": "LINE_LOOP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  float phi = vertexId / vertexCount * 3.14159265*2.0;\n  \n  float x = cos(phi);\n  float y = sin(phi);\n  float z = 0.0;\n  \n  float theta = 20.0 * sin(cos(phi)*3.1415192) * sin(time);//(x+time * 0.3) * 3.141592*2.0;\n  \n  y *= cos(theta);\n  z = sin(theta) * sin(phi);\n  \n  vec4 pos = vec4(x, y, z, 1.0);\n    \n  vec3 eye = vec3(sin(time*0.3), 0, cos(time*0.3));\n  vec3 right = vec3(-eye.z, 0, eye.x);\n  vec3 look = -eye;\n\n  mat4 L = mat4(vec4(right, 0),\n                vec4(0, 1, 0, 0),\n                vec4(look, 0),\n                vec4(0, 0, 0, 1));\n  \n  gl_Position = (L * pos) * vec4((resolution.y / resolution.x) * 0.5, 0.5, 0.5, 1);\n  v_color = vec4(sin(theta) * 0.5 + 0.5,\n                 cos(phi) * 0.5 + 0.5,\n                 sin(time) * 0.5 + 0.5,\n                 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-0jwrasq7zltr4fxm8-thumbnail.jpg",
   "hasSound": "",
   "views": {

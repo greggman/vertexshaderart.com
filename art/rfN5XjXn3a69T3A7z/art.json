@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// 2D Sin Wave\\n\\nvoid main() {\\n  float vertexNorm = vertexId/vertexCount;\\n  float x = vertexNorm - 0.5;\\n  float y = 0.25 * sin(time + vertexNorm * 2.0);\\n  \\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  gl_PointSize = vertexNorm * 10.0;\\n  v_color = vec4(vertexNorm, 0.0, x, 1.0);\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// 2D Sin Wave\n\nvoid main() {\n  float vertexNorm = vertexId/vertexCount;\n  float x = vertexNorm - 0.5;\n  float y = 0.25 * sin(time + vertexNorm * 2.0);\n  \n  gl_Position = vec4(x, y, 0.0, 1.0);\n  gl_PointSize = vertexNorm * 10.0;\n  v_color = vec4(vertexNorm, 0.0, x, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-n7i6m2xz4hcud33jk-thumbnail.jpg",
   "hasSound": "",
   "views": {

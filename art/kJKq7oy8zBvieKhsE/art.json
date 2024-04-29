@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "janalex",
   "avatarUrl": "https://secure.gravatar.com/avatar/d3da53f9bbb18316fd80884d9d495947?default=retro&size=200",
-  "settings": "{\"num\":2218,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.00392156862745098,0.023529411764705882,1],\"shader\":\"\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float xoff = 0.0; //sin(time + y * 0.2) * 0.1;\\n  float yoff = 0.0; // sin(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2.0 - 1.0 + xoff;\\n  float vy = v * 2.0 - 1.0 + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.3;\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time + x * y * 0.02) * 5.0;\\n  \\n  gl_PointSize = 15.0 + soff;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  float hue = u * 0.1 + sin(time + v * 20.0) * 0.05;\\n  float sat = 1.0;\\n  float val = sin(time + v * u * 20.0) + 0.5;\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1.0);\\n}\"}",
+  "settings": {
+    "num": 2218,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0.00392156862745098,
+      0.023529411764705882,
+      1
+    ],
+    "shader": "\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float xoff = 0.0; //sin(time + y * 0.2) * 0.1;\n  float yoff = 0.0; // sin(time + x * 0.3) * 0.2;\n  \n  float ux = u * 2.0 - 1.0 + xoff;\n  float vy = v * 2.0 - 1.0 + yoff;\n  \n  vec2 xy = vec2(ux, vy) * 1.3;\n  \n  gl_Position = vec4(xy, 0, 1);\n  \n  float soff = sin(time + x * y * 0.02) * 5.0;\n  \n  gl_PointSize = 15.0 + soff;\n  gl_PointSize *= 20.0 / across;\n  gl_PointSize *= resolution.x / 600.0;\n  \n  float hue = u * 0.1 + sin(time + v * 20.0) * 0.05;\n  float sat = 1.0;\n  float val = sin(time + v * u * 20.0) + 0.5;\n  \n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-r4v4hac03qbkmnri0-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -26,7 +26,19 @@
   "name": "cube",
   "private": true,
   "username": "baldand",
-  "settings": "{\"num\":32,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  vec3 z = vec3(0.);\\n  vec3 o = vec3(1.);\\n  vec3 a = z;\\n  vec3 b = z;\\n  vec3 p = z;\\n  \\n  float cube = floor(vertexId/36.);\\n  float cubeVert = mod(vertexId,36.0);\\n  float face = floor(cubeVert/6.);\\n  float faceVert = mod(cubeVert,6.);\\n  if (face==0.) { a.x = 1.; b.z = 1.; }\\n  if (face==1.) { a.x = 1.; b.y = 1.; }\\n  if (face==2.) { a.x = 1.; b.y = 1.; p.z = 1.; }\\n  if (face==3.) { a.y = 1.; b.z = 1.; }\\n  if (face==4.) { a.y = 1.; b.z = 1.; p.x = 1.; }\\n  if (face==5.) { a.x = 1.; b.z = 1.; p.y = 1.; }\\n  if (faceVert>0. && faceVert<4.) p += a;\\n  if (faceVert>1. && faceVert<5.) p += b;\\n  p.z += 3.;\\n  p.y -= 2.;\\n  p.x -= .5;\\n  gl_Position = vec4(p.xy,1.0/-p.z,p.z);\\n  v_color = vec4(1.);\\n}\"}",
+  "settings": {
+    "num": 32,
+    "mode": "LINE_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  vec3 z = vec3(0.);\n  vec3 o = vec3(1.);\n  vec3 a = z;\n  vec3 b = z;\n  vec3 p = z;\n  \n  float cube = floor(vertexId/36.);\n  float cubeVert = mod(vertexId,36.0);\n  float face = floor(cubeVert/6.);\n  float faceVert = mod(cubeVert,6.);\n  if (face==0.) { a.x = 1.; b.z = 1.; }\n  if (face==1.) { a.x = 1.; b.y = 1.; }\n  if (face==2.) { a.x = 1.; b.y = 1.; p.z = 1.; }\n  if (face==3.) { a.y = 1.; b.z = 1.; }\n  if (face==4.) { a.y = 1.; b.z = 1.; p.x = 1.; }\n  if (face==5.) { a.x = 1.; b.z = 1.; p.y = 1.; }\n  if (faceVert>0. && faceVert<4.) p += a;\n  if (faceVert>1. && faceVert<5.) p += b;\n  p.z += 3.;\n  p.y -= 2.;\n  p.x -= .5;\n  gl_Position = vec4(p.xy,1.0/-p.z,p.z);\n  v_color = vec4(1.);\n}"
+  },
   "screenshotURL": "data/images/images-p51x58b5y1wlpqpdq-thumbnail.jpg",
   "views": {
     "$numberInt": "1"

@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "shinyisshiny",
   "avatarUrl": "https://secure.gravatar.com/avatar/382822a2fd34cc1eedf9317c4c63083d?default=retro&size=200",
-  "settings": "{\"num\":966,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.03137254901960784,0.050980392156862744,0.32941176470588235,1],\"shader\":\"void main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n  \\n}\\n  \\n  \"}",
+  "settings": {
+    "num": 966,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.03137254901960784,
+      0.050980392156862744,
+      0.32941176470588235,
+      1
+    ],
+    "shader": "void main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  v_color = vec4(1, 0, 0, 1);\n  \n}\n  \n  "
+  },
   "screenshotURL": "data/images/images-2mc0h8r53k4na3n1l-thumbnail.jpg",
   "hasSound": true,
   "views": {

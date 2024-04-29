@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":247,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/caseandpoint/settle-the-score\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  \\n \\n  float x = sin(time+cos(vertexId));\\n   float yy = sin(vertexId * time*0.0009);\\n  float dim = sin(yy+x)+ 4.;\\n  float red = sin(vertexId) * 255.;\\n  float bleu = sin(vertexId) * 255.;\\n  float green = sin(vertexId) * 255.;\\n  gl_Position = vec4(x,yy,0,1);\\n  gl_PointSize = (dim);\\n    v_color = vec4(1,bleu,green,0);\\n \\n}\"}",
+  "settings": {
+    "num": 247,
+    "mode": "LINES",
+    "sound": "https://soundcloud.com/caseandpoint/settle-the-score",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  \n  \n \n  float x = sin(time+cos(vertexId));\n   float yy = sin(vertexId * time*0.0009);\n  float dim = sin(yy+x)+ 4.;\n  float red = sin(vertexId) * 255.;\n  float bleu = sin(vertexId) * 255.;\n  float green = sin(vertexId) * 255.;\n  gl_Position = vec4(x,yy,0,1);\n  gl_PointSize = (dim);\n    v_color = vec4(1,bleu,green,0);\n \n}"
+  },
   "screenshotURL": "data/images/images-ed4tiyto0y1w1ng9e-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "aaron",
   "avatarUrl": "https://graph.facebook.com/10104810304767532/picture?type=large",
-  "settings": "{\"num\":5000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 500.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvoid main() {\\n  float quadId = floor(vertexId / 6.);\\n  float quadVert = mod(vertexId, 6.);\\n  float trisize = 2.;\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  \\n  vec4 camera_scale = vec4(1. / resolution.xy /2., 1., 1.); // converts 1 unit to 1 pixel\\n  //vec4 camera_scale = vec4(1, 1, 1, 1);\\n  vec4 camera_translation = vec4(0, resolution.y, 0, 0);\\n  \\n  float realId = quadVert - floor(quadVert / 3.);\\n  float rad = PI / 2. * realId + PI / 4.;\\n  vec2 pos = vec2(cos(rad), sin(rad));\\n  pos *= vec2(trisize * 20., trisize);\\n  pos.y += quadId * sqrt(trisize * trisize * 2.);\\n  gl_Position = (vec4(pos, 0, 1) - camera_translation) * camera_scale;\\n  \\n  vec4 color = vec4(0.33, 0.25, 0.5, 1);\\n  vec4 highlight_max = vec4(1, 1, 1, 1);\\n  vec4 highlight_min = vec4(0, 0, 0, 0);\\n  float time_speed = 500.; // arbitrary\\n  v_color = color + mix(highlight_min, highlight_max, mod(pos.y - time * 500., resolution.y) / resolution.y) * 0.75;\\n}\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 500.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 5.0\n\nvoid main() {\n  float quadId = floor(vertexId / 6.);\n  float quadVert = mod(vertexId, 6.);\n  float trisize = 2.;\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  \n  vec4 camera_scale = vec4(1. / resolution.xy /2., 1., 1.); // converts 1 unit to 1 pixel\n  //vec4 camera_scale = vec4(1, 1, 1, 1);\n  vec4 camera_translation = vec4(0, resolution.y, 0, 0);\n  \n  float realId = quadVert - floor(quadVert / 3.);\n  float rad = PI / 2. * realId + PI / 4.;\n  vec2 pos = vec2(cos(rad), sin(rad));\n  pos *= vec2(trisize * 20., trisize);\n  pos.y += quadId * sqrt(trisize * trisize * 2.);\n  gl_Position = (vec4(pos, 0, 1) - camera_translation) * camera_scale;\n  \n  vec4 color = vec4(0.33, 0.25, 0.5, 1);\n  vec4 highlight_max = vec4(1, 1, 1, 1);\n  vec4 highlight_min = vec4(0, 0, 0, 0);\n  float time_speed = 500.; // arbitrary\n  v_color = color + mix(highlight_min, highlight_max, mod(pos.y - time * 500., resolution.y) / resolution.y) * 0.75;\n}"
+  },
   "screenshotURL": "data/images/images-2cgppphin4hp8buux-thumbnail.jpg",
   "hasSound": "",
   "views": {

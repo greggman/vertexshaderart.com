@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "thetuesday night machines",
   "avatarUrl": "https://lh4.googleusercontent.com/-FV8gxf8fOhA/AAAAAAAAAAI/AAAAAAAAAAs/OCNDvQKt4Fo/photo.jpg",
-  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n\\n  float x = vertexId;\\n  float y = vertexId;\\n  \\n  gl_Position = vec4(x, y, 0., 1.);\\n  gl_PointSize = 10.;\\n\\n  v_color = vec4(1., 0., 0., 1.);\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n\n  float x = vertexId;\n  float y = vertexId;\n  \n  gl_Position = vec4(x, y, 0., 1.);\n  gl_PointSize = 10.;\n\n  v_color = vec4(1., 0., 0., 1.);\n}"
+  },
   "screenshotURL": "data/images/images-xdcrroj3kebozh27d-thumbnail.jpg",
   "hasSound": "",
   "views": {

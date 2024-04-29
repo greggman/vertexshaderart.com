@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":333,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/kuroko-basket-94353325/classical-music-drill-type-beat-compilation-part-1-ft-mozart-beethoven-bach?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n\\n#define PI radians(180.)\\n#define NUM_SEGMENTS 1.0\\n#define NUM_POINTS (NUM_SEGMENTS * 3.0)\\n#define STEP 1.93\\nvoid main() {\\n    float T = cos( time*mod(floor(vertexId / 2.0) * -mod(vertexId, 2.0) * STEP, NUM_SEGMENTS));\\nfloat snd = texture2D(sound,vec2(0.,1.)).a;\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(time * .6- mouse.y) + 11.0;\\n  float angle = point * PI * 3.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.014, 1.0);\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  pow(count * 0.0000025, .9);\\n  float innerRadius = pow(count * 0.0003, .2);\\n  float oC = cos(orbitAngle + count * 0.00005) * innerRadius*mouse.y*sin(time);\\n  float oS = sin(orbitAngle + count * 0.0005) * innerRadius-mouse.x+sin(time);\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC -1.+ c+oS,\\n      oS + s+c);\\n  gl_Position = vec4(xy * aspect * .60161, sin(time), 1);\\n\\n  float b = 0.2 *sin(time-1.)/ pow(sin(count *1.4+T) * 1.3 + 0.17, 1.8);\\n  b = 0.20;mix(-.3, mouse.x/0.9, b)/-T;\\n  v_color = vec4(c,- snd/c, cos(T*snd-snd*b)+b/c-b, .489);\\n}\"}",
+  "settings": {
+    "num": 333,
+    "mode": "TRI_STRIP",
+    "sound": "https://soundcloud.com/kuroko-basket-94353325/classical-music-drill-type-beat-compilation-part-1-ft-mozart-beethoven-bach?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\n\n#define PI radians(180.)\n#define NUM_SEGMENTS 1.0\n#define NUM_POINTS (NUM_SEGMENTS * 3.0)\n#define STEP 1.93\nvoid main() {\n    float T = cos( time*mod(floor(vertexId / 2.0) * -mod(vertexId, 2.0) * STEP, NUM_SEGMENTS));\nfloat snd = texture2D(sound,vec2(0.,1.)).a;\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\n  float count = floor(vertexId / NUM_POINTS);\n  float offset = count * sin(time * .6- mouse.y) + 11.0;\n  float angle = point * PI * 3.0 / NUM_SEGMENTS + offset;\n  float radius = pow(count * 0.014, 1.0);\n  float c = cos(angle + time) * radius;\n  float s = sin(angle + time) * radius;\n  float orbitAngle =  pow(count * 0.0000025, .9);\n  float innerRadius = pow(count * 0.0003, .2);\n  float oC = cos(orbitAngle + count * 0.00005) * innerRadius*mouse.y*sin(time);\n  float oS = sin(orbitAngle + count * 0.0005) * innerRadius-mouse.x+sin(time);\n\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  vec2 xy = vec2(\n      oC -1.+ c+oS,\n      oS + s+c);\n  gl_Position = vec4(xy * aspect * .60161, sin(time), 1);\n\n  float b = 0.2 *sin(time-1.)/ pow(sin(count *1.4+T) * 1.3 + 0.17, 1.8);\n  b = 0.20;mix(-.3, mouse.x/0.9, b)/-T;\n  v_color = vec4(c,- snd/c, cos(T*snd-snd*b)+b/c-b, .489);\n}"
+  },
   "screenshotURL": "data/images/images-1cwoe7rtigtu9zysg-thumbnail.jpg",
   "hasSound": true,
   "views": {

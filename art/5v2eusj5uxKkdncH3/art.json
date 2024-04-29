@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "manicacci",
   "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mDyfFoqitxTWo-qZKhCHoB-NGUHXoLZQXHkfafGQA",
-  "settings": "{\"num\":5000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#ifndef GL_ES\\nprecision mediump float;\\n#endif\\n\\nvoid main() {\\n  \\n}\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "LINES",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#ifndef GL_ES\nprecision mediump float;\n#endif\n\nvoid main() {\n  \n}"
+  },
   "screenshotURL": "data/images/images-iap57hz9j570r2k0e-thumbnail.jpg",
   "hasSound": true,
   "views": {

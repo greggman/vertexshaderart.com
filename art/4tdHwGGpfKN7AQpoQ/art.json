@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":2524,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.8784313725490196,0.9333333333333333,0.8313725490196079,1],\"shader\":\"\\nvoid main(){\\n  \\n  vec2 xy =vec2(-0.5,0);\\n  if (vertexId == 1.0)\\n   {\\n      xy=vec2(0,0.5);\\n   }\\n  \\n  else if(vertexId == 2.0)\\n  {\\n   xy = vec2(0.5,0);\\n  }\\n  xy +=vec2(0,sin(time));\\n   gl_Position = vec4(xy,0.0,1.0);\\n    gl_PointSize =10.0;\\n    \\n    v_color = vec4(1.0,0.0,0.0,1.0);\\n    \\n  \\n  }\"}",
+  "settings": {
+    "num": 2524,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.8784313725490196,
+      0.9333333333333333,
+      0.8313725490196079,
+      1
+    ],
+    "shader": "\nvoid main(){\n  \n  vec2 xy =vec2(-0.5,0);\n  if (vertexId == 1.0)\n   {\n      xy=vec2(0,0.5);\n   }\n  \n  else if(vertexId == 2.0)\n  {\n   xy = vec2(0.5,0);\n  }\n  xy +=vec2(0,sin(time));\n   gl_Position = vec4(xy,0.0,1.0);\n    gl_PointSize =10.0;\n    \n    v_color = vec4(1.0,0.0,0.0,1.0);\n    \n  \n  }"
+  },
   "screenshotURL": "data/images/images-xawtx1iyojqtfrxhk-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "jarredthecoder",
   "avatarUrl": "https://avatars.githubusercontent.com/JarredTheCoder?s=200",
-  "settings": "{\"num\":21017,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.30980392156862746,0.30980392156862746,0,1],\"shader\":\"varying vec2 surfacePosition;\\nvoid main(){\\n\\tvec2 pos = surfacePosition;\\n\\n\\tconst float pi = 3.14159;\\n\\tconst float n = 12.0;\\n\\t\\n\\tfloat radius = length(pos)*6. - 1.;\\n\\tfloat t = atan(pos.y, pos.x)/pi;\\n\\t\\n\\tfloat color = 0.0;\\n\\tfor (float i = 1.; i < n; i++){\\n\\t\\tcolor += 0.01/abs(color+i*0.15*sin(18.0*pi*(t + i/n*time*0.05)) - radius);\\n\\t}\\n\\t\\n\\tv_color = vec4(vec3(1., 1., 1.0) * color, color);\\n\\t\\n}\"}",
+  "settings": {
+    "num": 21017,
+    "mode": "TRIANGLES",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.30980392156862746,
+      0.30980392156862746,
+      0,
+      1
+    ],
+    "shader": "varying vec2 surfacePosition;\nvoid main(){\n\tvec2 pos = surfacePosition;\n\n\tconst float pi = 3.14159;\n\tconst float n = 12.0;\n\t\n\tfloat radius = length(pos)*6. - 1.;\n\tfloat t = atan(pos.y, pos.x)/pi;\n\t\n\tfloat color = 0.0;\n\tfor (float i = 1.; i < n; i++){\n\t\tcolor += 0.01/abs(color+i*0.15*sin(18.0*pi*(t + i/n*time*0.05)) - radius);\n\t}\n\t\n\tv_color = vec4(vec3(1., 1., 1.0) * color, color);\n\t\n}"
+  },
   "screenshotURL": "data/images/images-m4kdlq8jon5l9hby8-thumbnail.jpg",
   "hasSound": true,
   "views": {

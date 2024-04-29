@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "amousa",
   "avatarUrl": "https://secure.gravatar.com/avatar/56dbb51128cd65d4867bc57e4afd88ab?default=retro&size=200",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/brandxmusic/climbing-high-1\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float down = sqrt(vertexCount);\\n  float across = floor(vertexCount / down);\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  \\n  \\n  float xoffset = (sin(time+ y *0.1)*0.3);\\n  float yoffset = (cos(time+ x *0.1)*0.9);\\n\\n  float ux = u * 2. - 1. ;\\n  float vy = v * 2. - 1. ;\\n\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 15.0 / across;\\n  gl_PointSize *= resolution.x / 600.0 *   (((sin(0.6*time) + 1.0) / 2.0))+0.5;\\n\\n  v_color = vec4((sin(0.5*time) + 1.0)/2.0 , (cos(0.4*time) + 1.0)/2.0,0.2, 1);\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/brandxmusic/climbing-high-1",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  float down = sqrt(vertexCount);\n  float across = floor(vertexCount / down);\n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  \n  \n  float xoffset = (sin(time+ y *0.1)*0.3);\n  float yoffset = (cos(time+ x *0.1)*0.9);\n\n  float ux = u * 2. - 1. ;\n  float vy = v * 2. - 1. ;\n\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  gl_PointSize = 10.0;\n  gl_PointSize *= 15.0 / across;\n  gl_PointSize *= resolution.x / 600.0 *   (((sin(0.6*time) + 1.0) / 2.0))+0.5;\n\n  v_color = vec4((sin(0.5*time) + 1.0)/2.0 , (cos(0.4*time) + 1.0)/2.0,0.2, 1);\n}"
+  },
   "screenshotURL": "data/images/images-dgmo711z5eg342t6s-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -30,7 +30,19 @@
   },
   "private": true,
   "username": "dzozef",
-  "settings": "{\"num\":20000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n\\nvoid Track( float vertexid )\\n{\\n}\\n\\nvoid Background( float vertexid )\\n{\\n}\\n\\nvoid main() {\\n  gl_Position = vec4(vertexId);\\n\\n  \\n  v_color = vec4(vec3(vertexId), 1);\\n}\"}",
+  "settings": {
+    "num": 20000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\n\nvoid Track( float vertexid )\n{\n}\n\nvoid Background( float vertexid )\n{\n}\n\nvoid main() {\n  gl_Position = vec4(vertexId);\n\n  \n  v_color = vec4(vec3(vertexId), 1);\n}"
+  },
   "screenshotURL": "data/images/images-zhfr478nbq4lal6o9-thumbnail.jpg",
   "hasSound": "",
   "views": {

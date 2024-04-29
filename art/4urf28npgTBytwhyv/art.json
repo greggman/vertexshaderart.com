@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "kolargon",
   "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/billx/tandava-billx-remix\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define ITERS 40\\n#define M_PI 3.1415926535897932384626433832795\\n\\n#define DEBUG 1\\n#define TAU 6.28318530718\\n\\nfloat pattern(vec2 p){p.x*=.866;p.x-=p.y*.5;p=mod(p,1.);return p.x+p.y<1.?0.:1.;}\\n\\nvoid main ()\\n{\\n  \\n  float finalVertexCount =  vertexCount;//max((0.5*snd)*vertexCount,5000.);\\n  float ratio = resolution.x/resolution.y;\\n  float numAcrossDown = floor(sqrt(finalVertexCount));\\n  \\n  float maxVertexCount =   numAcrossDown* numAcrossDown;\\n  \\n  float finalVertexId = mod(vertexId, maxVertexCount);\\n  \\n  float x = mod(finalVertexId,  numAcrossDown);\\n  float y = floor(finalVertexId /  numAcrossDown);\\n  \\n  float u = x / numAcrossDown;\\n  float v = (y / numAcrossDown)*ratio;\\n  \\n  float ux = ( u  * 2.0 - 1.0) *1./ratio;\\n  float vy = ( v/ratio * 2.0 - 1.0);\\n  \\n  float snd = texture2D(sound, vec2(0.,  u)).a;\\n  \\n  \\n  //apply fragment logic\\n\\nvec2 surfacePosition = vec2(0.,0.);\\n  \\n\\n\\tvec2 p = vec2(x,y);\\n    vec2 res = vec2(numAcrossDown,numAcrossDown);\\n  \\n\\tvec2 uv1=(p.xy*2.-res.xy)/min(res.x,res.y); \\n\\tuv1 += surfacePosition;\\n\\tfloat dp = dot(uv1,uv1);\\n\\tuv1 /= 1.-dp*dp;\\n  \\n\\tfloat a=0.,d=dot(uv1,uv1),s=0.,t=fract(time*.1),v1=0.;\\n\\tfor(int i=0;i<8;i++){s=fract(t+a);v+=pattern(uv1*(pow(2.,(1.-s)*8.))*.5)*sin(fract(t+a)*3.14);a+=.125;}\\n\\t\\n \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = (resolution.y/numAcrossDown) * 1.;//(resolution.y/numAcrossDown)*2.-1.;\\n\\n  v_color = vec4(mix(vec3(.7,.8,1),vec3(.8,.8,.9),d)*v*.25,1);;\\n  \\n\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/billx/tandava-billx-remix",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define ITERS 40\n#define M_PI 3.1415926535897932384626433832795\n\n#define DEBUG 1\n#define TAU 6.28318530718\n\nfloat pattern(vec2 p){p.x*=.866;p.x-=p.y*.5;p=mod(p,1.);return p.x+p.y<1.?0.:1.;}\n\nvoid main ()\n{\n  \n  float finalVertexCount =  vertexCount;//max((0.5*snd)*vertexCount,5000.);\n  float ratio = resolution.x/resolution.y;\n  float numAcrossDown = floor(sqrt(finalVertexCount));\n  \n  float maxVertexCount =   numAcrossDown* numAcrossDown;\n  \n  float finalVertexId = mod(vertexId, maxVertexCount);\n  \n  float x = mod(finalVertexId,  numAcrossDown);\n  float y = floor(finalVertexId /  numAcrossDown);\n  \n  float u = x / numAcrossDown;\n  float v = (y / numAcrossDown)*ratio;\n  \n  float ux = ( u  * 2.0 - 1.0) *1./ratio;\n  float vy = ( v/ratio * 2.0 - 1.0);\n  \n  float snd = texture2D(sound, vec2(0.,  u)).a;\n  \n  \n  //apply fragment logic\n\nvec2 surfacePosition = vec2(0.,0.);\n  \n\n\tvec2 p = vec2(x,y);\n    vec2 res = vec2(numAcrossDown,numAcrossDown);\n  \n\tvec2 uv1=(p.xy*2.-res.xy)/min(res.x,res.y); \n\tuv1 += surfacePosition;\n\tfloat dp = dot(uv1,uv1);\n\tuv1 /= 1.-dp*dp;\n  \n\tfloat a=0.,d=dot(uv1,uv1),s=0.,t=fract(time*.1),v1=0.;\n\tfor(int i=0;i<8;i++){s=fract(t+a);v+=pattern(uv1*(pow(2.,(1.-s)*8.))*.5)*sin(fract(t+a)*3.14);a+=.125;}\n\t\n \n  gl_Position = vec4(ux, vy, 0, 1);\n  \n  gl_PointSize = (resolution.y/numAcrossDown) * 1.;//(resolution.y/numAcrossDown)*2.-1.;\n\n  v_color = vec4(mix(vec3(.7,.8,1),vec3(.8,.8,.9),d)*v*.25,1);;\n  \n\n}"
+  },
   "screenshotURL": "data/images/images-o9f6od6dvvhdfluwd-thumbnail.jpg",
   "hasSound": true,
   "views": {

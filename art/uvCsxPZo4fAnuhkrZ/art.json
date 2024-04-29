@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "이원용",
   "avatarUrl": "https://secure.gravatar.com/avatar/19bc9a19b7b6dda587101c7dc9b41c99?default=retro&size=200",
-  "settings": "{\"num\":19999,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/wubbixmusic/boss-fight\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"\\n/*\\nName: Lee Wonyong\\nAssignment 03 / shader\\nclass: CS230\\nterm: 2019 spring\\n*/\\nvoid main() \\n{\\n  float get_sound = texture2D(sound, vec2(mouse.x,mouse.y)).a;\\n  // get the sound value and insert it\\n  gl_Position = vec4(sin(get_sound)*mouse.x, cos(get_sound)*mouse.y,0 , abs(sin(get_sound*10.0)));\\n  // position of points, x , y , z , depth\\n  gl_PointSize = 100.0;\\n  // size of points\\n  v_color=vec4(abs(sin(get_sound)),abs(cos(get_sound)),abs(sin(get_sound)),1.0);\\n  // set color of points red, green, blue, alpha\\n}\\n\\n\"}",
+  "settings": {
+    "num": 19999,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/wubbixmusic/boss-fight",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "\n/*\nName: Lee Wonyong\nAssignment 03 / shader\nclass: CS230\nterm: 2019 spring\n*/\nvoid main() \n{\n  float get_sound = texture2D(sound, vec2(mouse.x,mouse.y)).a;\n  // get the sound value and insert it\n  gl_Position = vec4(sin(get_sound)*mouse.x, cos(get_sound)*mouse.y,0 , abs(sin(get_sound*10.0)));\n  // position of points, x , y , z , depth\n  gl_PointSize = 100.0;\n  // size of points\n  v_color=vec4(abs(sin(get_sound)),abs(cos(get_sound)),abs(sin(get_sound)),1.0);\n  // set color of points red, green, blue, alpha\n}\n\n"
+  },
   "screenshotURL": "data/images/images-ziksc6uu99ezoo06l-thumbnail.jpg",
   "hasSound": true,
   "views": {

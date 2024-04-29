@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "jonnynewo",
   "avatarUrl": "https://secure.gravatar.com/avatar/2ee3fa32fc5fe43ece0455f4e45b5c3b?default=retro&size=200",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.011764705882352941,0.2196078431372549,1],\"shader\":\"void main() {\\n  \\n // float across = 10.; // corr to res of 100\\n // float across = 31.; // corr to res of 1000\\n  \\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down); \\n  \\t\\n // needs to be changed to square root (sqrt) of total res (100, 1000, etc)\\n // this was coded to adjust to resolution changes from manually setting sqrt\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\t// NOTE: has to be in decimal becase \\\"vertexId\\\" is already a\\n  \\t// decimal and you can only divide decimals by decimals\\n  \\t// MOD - divides, but only keeps the remainder\\n  \\t// floor - is a function that throws away the remainder\\n  \\n  float u = x / (across -1.); // the minus one makes it symmetrical\\n  float v = y / (across -1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  \\t// setting to normalized device coordinate, X,Y,Z\\n  \\t// gl_Position = vec4(0, 0, 0, 1); orig code\\n  \\t// gl_Position = vec4(u, v, 0, 1); 1st pass\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0; \\t// refers to 10 pixels!\\n  gl_PointSize *= 20. / across; // dividing point size by number across, divided by how many we have across now\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1, 0, 0, 1); \\t// refers to R, G, B, alpha\\n  \\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0.011764705882352941,
+      0.2196078431372549,
+      1
+    ],
+    "shader": "void main() {\n  \n // float across = 10.; // corr to res of 100\n // float across = 31.; // corr to res of 1000\n  \n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down); \n  \t\n // needs to be changed to square root (sqrt) of total res (100, 1000, etc)\n // this was coded to adjust to resolution changes from manually setting sqrt\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \t// NOTE: has to be in decimal becase \"vertexId\" is already a\n  \t// decimal and you can only divide decimals by decimals\n  \t// MOD - divides, but only keeps the remainder\n  \t// floor - is a function that throws away the remainder\n  \n  float u = x / (across -1.); // the minus one makes it symmetrical\n  float v = y / (across -1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  \t// setting to normalized device coordinate, X,Y,Z\n  \t// gl_Position = vec4(0, 0, 0, 1); orig code\n  \t// gl_Position = vec4(u, v, 0, 1); 1st pass\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  \n  gl_PointSize = 10.0; \t// refers to 10 pixels!\n  gl_PointSize *= 20. / across; // dividing point size by number across, divided by how many we have across now\n  gl_PointSize *= resolution.x / 600.;\n  \n  v_color = vec4(1, 0, 0, 1); \t// refers to R, G, B, alpha\n  \n}"
+  },
   "screenshotURL": "data/images/images-6jmy3jy0sl553997e-thumbnail.jpg",
   "hasSound": "",
   "views": {

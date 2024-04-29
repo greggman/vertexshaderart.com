@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "nathan2",
   "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD1UTwiIjcHi479UROSg1X6rOGjkm4OniwszUsteg",
-  "settings": "{\"num\":1320,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.043137254901960784,0.07058823529411765,0.09019607843137255,1],\"shader\":\"#define PI radians(180.0)\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvec2 getCirclePoint(float id, float numSegments) {  \\n  // Each square is made of 2 triangles, 6 points\\n  float ux = mod(id, 2.0) + floor(id / 6.0);  \\n  float vy = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\\n\\n  // \\n  float angle = ux / numSegments * 2.0 * PI;\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  \\n  float radius = vy;\\n  \\n  float x = c * radius;\\n  float y = s * radius;\\n  \\n  return vec2(x, y);\\n}\\n\\nvoid main() {\\n  float numSegments = 20.0;\\n  float numPointsPerCircle = numSegments * 6.0;\\n  \\n  float circleId = floor(vertexId / numPointsPerCircle);\\n  \\n  vec2 xy = getCirclePoint(vertexId, numSegments) * 0.1;\\n  \\n  gl_Position = vec4(xy.x + circleId * 0.1 - 0.5, xy.y + sin(time + circleId)*0.1, 0, 1);\\n  \\n  // Circle color\\n  float hue = sin(circleId * 0.1 + time * .1) * 0.8;\\n  float sat = 0.4;\\n  float val = 1.0;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 0.5);\\n}\"}",
+  "settings": {
+    "num": 1320,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.043137254901960784,
+      0.07058823529411765,
+      0.09019607843137255,
+      1
+    ],
+    "shader": "#define PI radians(180.0)\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvec2 getCirclePoint(float id, float numSegments) {  \n  // Each square is made of 2 triangles, 6 points\n  float ux = mod(id, 2.0) + floor(id / 6.0);  \n  float vy = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\n\n  // \n  float angle = ux / numSegments * 2.0 * PI;\n  float c = cos(angle);\n  float s = sin(angle);\n  \n  float radius = vy;\n  \n  float x = c * radius;\n  float y = s * radius;\n  \n  return vec2(x, y);\n}\n\nvoid main() {\n  float numSegments = 20.0;\n  float numPointsPerCircle = numSegments * 6.0;\n  \n  float circleId = floor(vertexId / numPointsPerCircle);\n  \n  vec2 xy = getCirclePoint(vertexId, numSegments) * 0.1;\n  \n  gl_Position = vec4(xy.x + circleId * 0.1 - 0.5, xy.y + sin(time + circleId)*0.1, 0, 1);\n  \n  // Circle color\n  float hue = sin(circleId * 0.1 + time * .1) * 0.8;\n  float sat = 0.4;\n  float val = 1.0;\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 0.5);\n}"
+  },
   "screenshotURL": "data/images/images-bnyxagaak7tyeoq56-thumbnail.jpg",
   "hasSound": "",
   "views": {

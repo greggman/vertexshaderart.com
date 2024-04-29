@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "valentin",
   "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.141\\n\\nfloat dis(float n) \\n{ \\n  return fract(sin(n)*8.700); \\n}\\n\\n\\n\\nvoid main () \\n{\\n  float Id = dis(vertexId);\\n  float fr = dis(Id);\\n  float tex = texture2D(sound, vec2(fr, Id)).a * cos(Id);\\n  \\n  tex = pow(tex, 2.9);\\n  \\n  float pang = vertexId;\\n  float view = 7.5 * 2.0;\\n  float t = (time * (fr + .1))*10.6;\\n  float x = Id * sin(pang + t);\\n  float y = Id * cos(pang + t);\\n  \\n  \\n  \\n  y +=  52.25 * tex * (.12 - y);\\n  y *= 87.78;\\n  \\n  \\n  \\n  float sizeAfter = tex / (y + 1.15);\\n  \\n  gl_Position = vec4(x, y, 0.4, 1.3);\\n  gl_PointSize = 6.2 * sizeAfter;\\n  \\n  v_color = vec4(tex * 1.1 * (3. - fr), tex * 0.9 * cos(fr * PI), tex * 9.10, sizeAfter);\\n  \\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI 3.141\n\nfloat dis(float n) \n{ \n  return fract(sin(n)*8.700); \n}\n\n\n\nvoid main () \n{\n  float Id = dis(vertexId);\n  float fr = dis(Id);\n  float tex = texture2D(sound, vec2(fr, Id)).a * cos(Id);\n  \n  tex = pow(tex, 2.9);\n  \n  float pang = vertexId;\n  float view = 7.5 * 2.0;\n  float t = (time * (fr + .1))*10.6;\n  float x = Id * sin(pang + t);\n  float y = Id * cos(pang + t);\n  \n  \n  \n  y +=  52.25 * tex * (.12 - y);\n  y *= 87.78;\n  \n  \n  \n  float sizeAfter = tex / (y + 1.15);\n  \n  gl_Position = vec4(x, y, 0.4, 1.3);\n  gl_PointSize = 6.2 * sizeAfter;\n  \n  v_color = vec4(tex * 1.1 * (3. - fr), tex * 0.9 * cos(fr * PI), tex * 9.10, sizeAfter);\n  \n}"
+  },
   "screenshotURL": "data/images/images-e6l3c5pszer4ze7l6-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "refactorized",
   "avatarUrl": "https://avatars.githubusercontent.com/refactorized?s=200",
-  "settings": "{\"num\":457,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"const float tau = 6.28318530718;\\nconst float cycles = 42.0;\\nconst float wrap = 17.0;\\n\\nvoid  main() {\\n  float ratio = vertexId / vertexCount;\\n  float modio = mod((ratio * wrap), 1.0);\\n  float theta = ratio * tau * cycles;\\n  float tmod =  modio * tau * cycles;\\n  gl_Position = vec4(sin(tmod) * ratio, cos(tmod) * ratio, 0, 1);\\n  gl_PointSize = 22.0;\\n  v_color = vec4(\\n    0.5 + sin(theta) / 2.0, \\n    0.5 + sin(theta + tau/3.0) / 2.0, \\n    0.5 + sin(theta + 2.0 * tau / 3.0) / 2.0, \\n    0.0 ) * 1.2 * (1.0 - ratio);\\n}\"}",
+  "settings": {
+    "num": 457,
+    "mode": "TRI_FAN",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "const float tau = 6.28318530718;\nconst float cycles = 42.0;\nconst float wrap = 17.0;\n\nvoid  main() {\n  float ratio = vertexId / vertexCount;\n  float modio = mod((ratio * wrap), 1.0);\n  float theta = ratio * tau * cycles;\n  float tmod =  modio * tau * cycles;\n  gl_Position = vec4(sin(tmod) * ratio, cos(tmod) * ratio, 0, 1);\n  gl_PointSize = 22.0;\n  v_color = vec4(\n    0.5 + sin(theta) / 2.0, \n    0.5 + sin(theta + tau/3.0) / 2.0, \n    0.5 + sin(theta + 2.0 * tau / 3.0) / 2.0, \n    0.0 ) * 1.2 * (1.0 - ratio);\n}"
+  },
   "screenshotURL": "data/images/images-qnik4bc3ubzvij8m0-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "nathan2",
   "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD1UTwiIjcHi479UROSg1X6rOGjkm4OniwszUsteg",
-  "settings": "{\"num\":7772,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.0784313725490196,0.058823529411764705,0.027450980392156862,1],\"shader\":\"#define PI radians(180.0)\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvec2 getSquarePoint(float id) {  \\n  float x = mod(id, 2.0) + floor(id / 6.0);\\n  float y = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\\n  \\n  return vec2(x, y);\\n}\\n\\nvec2 getCirclePoint(float id, float numSegments) {  \\n  // Each square is made of 2 triangles, 6 points\\n  vec2 uv = getSquarePoint(id);\\n\\n  // Calculate angle and radial values\\n  float angle = uv.x / numSegments * 2.0 * PI;\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  \\n  // Translate back to x y\\n  float radius = uv.y;\\n  float x = c * radius;\\n  float y = s * radius;\\n  \\n  return vec2(x, y);\\n}\\n\\nvoid main() {\\n  float numSegments = 20.0;\\n  float numPointsPerCircle = numSegments * 6.0;\\n  \\n  float numCircles = floor(vertexCount / numPointsPerCircle) - 1.0;\\n  float circleId = floor(vertexId / numPointsPerCircle);\\n  \\n  float aspect = resolution.x / resolution.y; \\n  vec2 xy = getCirclePoint(vertexId, numSegments) * 0.1;\\n  \\n  float scaledTime = time * 0.1;\\n  \\n  float cX = 2.0 * (circleId / numCircles) - 1.0;\\n  \\n  float nearness = abs(cos((scaledTime + circleId) / 2.0));\\n  \\n  gl_Position = vec4(xy.x + cX + sin(scaledTime * 5.0 + circleId) * 0.2, xy.y + sin(scaledTime + circleId)*0.5, 0.0, 1);\\n  gl_PointSize = 2.0 * nearness + 1.0;\\n  \\n  // Circle color\\n  float hue = sin(circleId * 0.1 + scaledTime * .1) * 0.8;\\n  float sat = 0.4;\\n  float val = 1.0;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1.0);\\n  \\n}\"}",
+  "settings": {
+    "num": 7772,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.0784313725490196,
+      0.058823529411764705,
+      0.027450980392156862,
+      1
+    ],
+    "shader": "#define PI radians(180.0)\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvec2 getSquarePoint(float id) {  \n  float x = mod(id, 2.0) + floor(id / 6.0);\n  float y = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\n  \n  return vec2(x, y);\n}\n\nvec2 getCirclePoint(float id, float numSegments) {  \n  // Each square is made of 2 triangles, 6 points\n  vec2 uv = getSquarePoint(id);\n\n  // Calculate angle and radial values\n  float angle = uv.x / numSegments * 2.0 * PI;\n  float c = cos(angle);\n  float s = sin(angle);\n  \n  // Translate back to x y\n  float radius = uv.y;\n  float x = c * radius;\n  float y = s * radius;\n  \n  return vec2(x, y);\n}\n\nvoid main() {\n  float numSegments = 20.0;\n  float numPointsPerCircle = numSegments * 6.0;\n  \n  float numCircles = floor(vertexCount / numPointsPerCircle) - 1.0;\n  float circleId = floor(vertexId / numPointsPerCircle);\n  \n  float aspect = resolution.x / resolution.y; \n  vec2 xy = getCirclePoint(vertexId, numSegments) * 0.1;\n  \n  float scaledTime = time * 0.1;\n  \n  float cX = 2.0 * (circleId / numCircles) - 1.0;\n  \n  float nearness = abs(cos((scaledTime + circleId) / 2.0));\n  \n  gl_Position = vec4(xy.x + cX + sin(scaledTime * 5.0 + circleId) * 0.2, xy.y + sin(scaledTime + circleId)*0.5, 0.0, 1);\n  gl_PointSize = 2.0 * nearness + 1.0;\n  \n  // Circle color\n  float hue = sin(circleId * 0.1 + scaledTime * .1) * 0.8;\n  float sat = 0.4;\n  float val = 1.0;\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1.0);\n  \n}"
+  },
   "screenshotURL": "data/images/images-oh2dc37vgbwmyn45y-thumbnail.jpg",
   "hasSound": "",
   "views": {

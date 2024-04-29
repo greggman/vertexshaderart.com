@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":1000,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\nvoid main() {\\n\\n  float stripId = mod(vertexId, 2.0);\\n  float norId = vertexId / vertexCount;\\n  \\n  float x = norId - 0.5;\\n  float y = stripId - 0.5;\\n  \\n  float ar = resolution.x / resolution.y;\\n  \\n  y += sin(x  * 50.0) * sin(time);  \\n  y *= cos(time);\\n  \\n  vec2 p = vec2(x * ar, y);\\n  p.y -= abs(norId - 0.5) * 2.0;\\n  \\n  gl_Position = vec4(p.x, p.y, 0, 1);\\n\\n  v_color = vec4(1,1,1,1);\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n\nvoid main() {\n\n  float stripId = mod(vertexId, 2.0);\n  float norId = vertexId / vertexCount;\n  \n  float x = norId - 0.5;\n  float y = stripId - 0.5;\n  \n  float ar = resolution.x / resolution.y;\n  \n  y += sin(x  * 50.0) * sin(time);  \n  y *= cos(time);\n  \n  vec2 p = vec2(x * ar, y);\n  p.y -= abs(norId - 0.5) * 2.0;\n  \n  gl_Position = vec4(p.x, p.y, 0, 1);\n\n  v_color = vec4(1,1,1,1);\n}"
+  },
   "screenshotURL": "data/images/images-whitf9c4w3fcztyod-thumbnail.jpg",
   "hasSound": "",
   "views": {

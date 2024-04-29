@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "makavelli3145",
   "avatarUrl": "https://avatars.githubusercontent.com/makavelli3145?s=200",
-  "settings": "{\"num\":2340,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/mouthofvigilance/womb-handsaloof?in=mouthofvigilance/sets/handsaloof\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.09411764705882353,0.14901960784313725,0.611764705882353,1],\"shader\":\"void main(){\\n\\n  \\tfloat x1 = vertexId/ 10.;\\n  \\tfloat y1 = vertexId/10.;\\n  \\ty1 = y1*y1;\\n  \\n  \\tfloat x2 = mod(vertexId, 10.0);\\n  \\tfloat y2 = floor(vertexId/10.0);\\n  \\n  \\tfloat x3 = x2/10.0;\\n  \\tfloat y3 = y2/10.0;\\n    \\t\\n  \\n  \\t//gl_Position = vec4(0, 0, 0, 1);\\n    //gl_Position = vec4(x, 0, 0, 1);\\n  \\t//gl_Position = vec4(x1, y1, 0, 1);\\n  \\t//gl_Position = vec4(x2, y2, 0, 1);\\n  \\tgl_Position = vec4(x3, y3, 0, 1);\\n  \\n  \\tgl_PointSize = 10.0;\\n  \\n \\t\\n  \\t//Note that v_color is unique to vertexshaderart\\n  \\tv_color = vec4(1, 0, 0, 1);\\n\\n}\"}",
+  "settings": {
+    "num": 2340,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/mouthofvigilance/womb-handsaloof?in=mouthofvigilance/sets/handsaloof",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.09411764705882353,
+      0.14901960784313725,
+      0.611764705882353,
+      1
+    ],
+    "shader": "void main(){\n\n  \tfloat x1 = vertexId/ 10.;\n  \tfloat y1 = vertexId/10.;\n  \ty1 = y1*y1;\n  \n  \tfloat x2 = mod(vertexId, 10.0);\n  \tfloat y2 = floor(vertexId/10.0);\n  \n  \tfloat x3 = x2/10.0;\n  \tfloat y3 = y2/10.0;\n    \t\n  \n  \t//gl_Position = vec4(0, 0, 0, 1);\n    //gl_Position = vec4(x, 0, 0, 1);\n  \t//gl_Position = vec4(x1, y1, 0, 1);\n  \t//gl_Position = vec4(x2, y2, 0, 1);\n  \tgl_Position = vec4(x3, y3, 0, 1);\n  \n  \tgl_PointSize = 10.0;\n  \n \t\n  \t//Note that v_color is unique to vertexshaderart\n  \tv_color = vec4(1, 0, 0, 1);\n\n}"
+  },
   "screenshotURL": "data/images/images-xn45dxdmd1os73mjo-thumbnail.jpg",
   "hasSound": true,
   "views": {

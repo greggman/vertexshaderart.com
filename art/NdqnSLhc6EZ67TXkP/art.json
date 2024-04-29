@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "floppafilms google emails",
   "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIuaBwUR9c6Zno3BImNS0s8sMlZcGj0gBrDxanr22L0IECUEO0=s96-c",
-  "settings": "{\"num\":1024,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/user-458550313/whats-up\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"mat2 rot(float a) {\\n  float s=sin(a), c=cos(a);\\n  return mat2(c,s,-s,c);\\n}\\n\\nvoid main() {\\n  float a = 4. * 6.283185307179586 * vertexId / vertexCount;\\n  \\n  float r = 3.25;\\n  float s = texture2D(sound, vec2(mix(0.01, 0.02, 0.03), 0.)).a;\\n  vec2 off = vec2(0.5 * sin(r*a) + 1., cos(r*a));\\n  vec3 p = vec3(sin(a), 1, cos(a)) * off.xyx;\\n  \\n  p.xz *= rot(time);\\n  p.yz *= rot(0.8);\\n  \\n  gl_Position = vec4(p/(p.z+3.), 1);\\n  v_color = vec4(1./(p.z+2.),s,0,1);\\n}\"}",
+  "settings": {
+    "num": 1024,
+    "mode": "LINE_STRIP",
+    "sound": "https://soundcloud.com/user-458550313/whats-up",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "mat2 rot(float a) {\n  float s=sin(a), c=cos(a);\n  return mat2(c,s,-s,c);\n}\n\nvoid main() {\n  float a = 4. * 6.283185307179586 * vertexId / vertexCount;\n  \n  float r = 3.25;\n  float s = texture2D(sound, vec2(mix(0.01, 0.02, 0.03), 0.)).a;\n  vec2 off = vec2(0.5 * sin(r*a) + 1., cos(r*a));\n  vec3 p = vec3(sin(a), 1, cos(a)) * off.xyx;\n  \n  p.xz *= rot(time);\n  p.yz *= rot(0.8);\n  \n  gl_Position = vec4(p/(p.z+3.), 1);\n  v_color = vec4(1./(p.z+2.),s,0,1);\n}"
+  },
   "screenshotURL": "data/images/images-xi7z5ypu2r43cz2zz-thumbnail.jpg",
   "hasSound": true,
   "views": {

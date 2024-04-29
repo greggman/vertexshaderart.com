@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":12972,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 4.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nuniform int numPoints;\\n\\nconst vec2 aspect=vec2(1.0,16.0/9.0);\\n#define PER_ROW 256.0 // cells per row\\n#define DEGEN_VERTS_PER_ROW 4.0 // verts\\n#define VERTS_IN_ROW ((PER_ROW*2.0)+DEGEN_VERTS_PER_ROW + 2.0)\\n  /*\\n    Draw triangle strip by inserting degenerate triangles (zero area) \\n    at the end, and begining of rows.\\n\\n    Why?      Heightmaps, plane distorations / displacements \\n              Cache coherance\\n              Fewers verts used to make a grid \\n\\n    Why not?  UV's shared, wasted triangles, \\n              hardware implementation determines net gain of approach\\n              cache priming may or may not work dependant on hardware\\n              (it has in the cases i've used it for, 25% perf gain over triangles\\n                with indexed tri-strip and cache priming. \\n                Case usage was distorting images using a grid and interpolation \\n                instead of shader.)\\n\\n             11\\\\\\\\ 13\\\\\\\\ 15,(16,17) <---degen\\n             | \\\\\\\\ |  \\\\\\\\|\\ndegen-->(8,9)10 \\\\\\\\12   14\\n             1\\\\\\\\  3\\\\\\\\  5(6,7)    <---degen\\n             | \\\\\\\\ | \\\\\\\\ |\\n             |  \\\\\\\\|  \\\\\\\\|\\n             0    2    4\\n  */ \\n\\nvoid main(){\\n  gl_PointSize=3.0;\\n  vec2 id = vec2(vertexId);\\n  vec2  p = floor(id/vec2(2.0,VERTS_IN_ROW));\\n  float row = p.y; p.y=id.x;\\n  gl_Position = vec4(mod(p, vec2(VERTS_IN_ROW/2.0, 2.0))+vec2(0.0,row),0.0,1.0);\\n  bool test = (gl_Position.x>=(PER_ROW+1.0));\\n  gl_Position.xy = (gl_Position.xy*float(!test))+(float(test)*vec2(PER_ROW*float(gl_Position.x==(PER_ROW+1.0)),row+1.0));\\n  gl_Position.xy *=aspect/(PER_ROW/1.40);\\n  gl_Position.xy-=vec2(.7,.7);\\n  v_color =vec4(1.0);\\n}\"}",
+  "settings": {
+    "num": 12972,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 4.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 5.0\n\nuniform int numPoints;\n\nconst vec2 aspect=vec2(1.0,16.0/9.0);\n#define PER_ROW 256.0 // cells per row\n#define DEGEN_VERTS_PER_ROW 4.0 // verts\n#define VERTS_IN_ROW ((PER_ROW*2.0)+DEGEN_VERTS_PER_ROW + 2.0)\n  /*\n    Draw triangle strip by inserting degenerate triangles (zero area) \n    at the end, and begining of rows.\n\n    Why?      Heightmaps, plane distorations / displacements \n              Cache coherance\n              Fewers verts used to make a grid \n\n    Why not?  UV's shared, wasted triangles, \n              hardware implementation determines net gain of approach\n              cache priming may or may not work dependant on hardware\n              (it has in the cases i've used it for, 25% perf gain over triangles\n                with indexed tri-strip and cache priming. \n                Case usage was distorting images using a grid and interpolation \n                instead of shader.)\n\n             11\\\\ 13\\\\ 15,(16,17) <---degen\n             | \\\\ |  \\\\|\ndegen-->(8,9)10 \\\\12   14\n             1\\\\  3\\\\  5(6,7)    <---degen\n             | \\\\ | \\\\ |\n             |  \\\\|  \\\\|\n             0    2    4\n  */ \n\nvoid main(){\n  gl_PointSize=3.0;\n  vec2 id = vec2(vertexId);\n  vec2  p = floor(id/vec2(2.0,VERTS_IN_ROW));\n  float row = p.y; p.y=id.x;\n  gl_Position = vec4(mod(p, vec2(VERTS_IN_ROW/2.0, 2.0))+vec2(0.0,row),0.0,1.0);\n  bool test = (gl_Position.x>=(PER_ROW+1.0));\n  gl_Position.xy = (gl_Position.xy*float(!test))+(float(test)*vec2(PER_ROW*float(gl_Position.x==(PER_ROW+1.0)),row+1.0));\n  gl_Position.xy *=aspect/(PER_ROW/1.40);\n  gl_Position.xy-=vec2(.7,.7);\n  v_color =vec4(1.0);\n}"
+  },
   "screenshotURL": "data/images/images-8ofp47deymvwnlxsz-thumbnail.jpg",
   "hasSound": "",
   "views": {

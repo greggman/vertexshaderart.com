@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "bluesky",
   "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14Ghql9JmmmeDe6q40nZwbsU6b-3RZSzJcvM_CVL4ww=s96-c",
-  "settings": "{\"num\":4617,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/aivisura/love-like-you?in=aivisura/sets/steven-universe\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.19215686274509805,0.12941176470588237,0.1411764705882353,1],\"shader\":\"#define PI radians(180.)\\n#define TAU radians(360.)\\n\\nfloat rand(vec2 co){\\n    return fract(sin(dot(co, vec2(12.9898, 78.233))) * 43758.5453);\\n}\\n\\n\\nvoid main()\\n{\\n  \\n  float pointsPerLoop = 30.;\\n  float deg = radians(vertexId / pointsPerLoop * 360. + vertexId * 0.0625 + (time * 20.));\\n  float sx = mod(vertexId, pointsPerLoop) / pointsPerLoop;\\n  float sy = floor(vertexId / pointsPerLoop) / floor(vertexCount / pointsPerLoop);\\n  float radius = (1.85 + pow(texture2D(sound, vec2(sx * 0.125, sy)).a, 2.) * 2.) * (1. - sy);\\n  \\n  radius *= rand(vec2(sx, sy)) * cos(time* sy);\\n  \\n  float x = cos(deg) * radius;\\n  float y = sin(deg) * radius;\\n  float z = vertexId * 0.01;\\n  vec3 pos = vec3(x, y, z);\\n  \\n  float aspect = resolution.y / resolution.x;\\n  mat4 camera = mat4(\\n    aspect, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 0., 0.1,\\n    0, 0, 0, 1);\\n  \\n  gl_Position = camera * vec4(pos.xyz, 1);\\n  v_color = vec4(1, (vertexId / vertexCount) / 2. + 0.5, 1, 1);\\n}\"}",
+  "settings": {
+    "num": 4617,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/aivisura/love-like-you?in=aivisura/sets/steven-universe",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.19215686274509805,
+      0.12941176470588237,
+      0.1411764705882353,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define TAU radians(360.)\n\nfloat rand(vec2 co){\n    return fract(sin(dot(co, vec2(12.9898, 78.233))) * 43758.5453);\n}\n\n\nvoid main()\n{\n  \n  float pointsPerLoop = 30.;\n  float deg = radians(vertexId / pointsPerLoop * 360. + vertexId * 0.0625 + (time * 20.));\n  float sx = mod(vertexId, pointsPerLoop) / pointsPerLoop;\n  float sy = floor(vertexId / pointsPerLoop) / floor(vertexCount / pointsPerLoop);\n  float radius = (1.85 + pow(texture2D(sound, vec2(sx * 0.125, sy)).a, 2.) * 2.) * (1. - sy);\n  \n  radius *= rand(vec2(sx, sy)) * cos(time* sy);\n  \n  float x = cos(deg) * radius;\n  float y = sin(deg) * radius;\n  float z = vertexId * 0.01;\n  vec3 pos = vec3(x, y, z);\n  \n  float aspect = resolution.y / resolution.x;\n  mat4 camera = mat4(\n    aspect, 0, 0, 0,\n    0, 1, 0, 0,\n    0, 0, 0., 0.1,\n    0, 0, 0, 1);\n  \n  gl_Position = camera * vec4(pos.xyz, 1);\n  v_color = vec4(1, (vertexId / vertexCount) / 2. + 0.5, 1, 1);\n}"
+  },
   "screenshotURL": "data/images/images-zhy2vbwpc1xw72h0h-thumbnail.jpg",
   "hasSound": true,
   "views": {

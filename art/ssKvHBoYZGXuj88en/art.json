@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":1156,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.8901960784313725,0.40784313725490196,0.00784313725490196,1],\"shader\":\"void main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float ac = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, ac);\\n  float y = floor(vertexId / ac);\\n  \\n  float u = x / (ac - 1.);\\n  float v = y / (ac - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  float snd = pow(texture2D(sound, vec2(u * 0.01, v * 0.01)).a, 4.);\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  gl_PointSize = 25.5 * snd + 2.0;\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 1156,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.8901960784313725,
+      0.40784313725490196,
+      0.00784313725490196,
+      1
+    ],
+    "shader": "void main()\n{\n  float down = floor(sqrt(vertexCount));\n  float ac = floor(vertexCount / down);\n  \n  float x = mod(vertexId, ac);\n  float y = floor(vertexId / ac);\n  \n  float u = x / (ac - 1.);\n  float v = y / (ac - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  float snd = pow(texture2D(sound, vec2(u * 0.01, v * 0.01)).a, 4.);\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  gl_PointSize = 25.5 * snd + 2.0;\n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-t4hn0ycil9ufaiq9s-thumbnail.jpg",
   "hasSound": true,
   "views": {

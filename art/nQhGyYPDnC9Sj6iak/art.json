@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "rus-abd",
   "avatarUrl": "https://avatars.githubusercontent.com/Rus-Abd?s=200",
-  "settings": "{\"num\":226,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/user-610439645/timur-mutsuraev-den-pobedy?in_system_playlist=your-moods%3A%3A266771761%3A0\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n\\nvec2 getPosition(){\\n  \\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor(vertexCount/down);\\n  \\n  \\tfloat x = mod(vertexId,across);\\n  \\tfloat y = floor(vertexId/across);\\n  \\n    float u = x / (across-1.);\\n    float v = y / (across-1.);\\n  \\n  \\tvec2 res = (vec2(u,v) - .5) *2.;\\n\\treturn vec2(res);\\n}\\n\\nvoid main() {\\n  \\n  vec3 position = vec3(getPosition(),.1);\\n\\n \\n  gl_PointSize = 2. * (1./position.z);\\n  \\n  \\n  \\n  \\n   gl_Position =  vec4(position,1.);\\n   v_color = vec4(1.,1.,1.,1.);\\n}\"}",
+  "settings": {
+    "num": 226,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/user-610439645/timur-mutsuraev-den-pobedy?in_system_playlist=your-moods%3A%3A266771761%3A0",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\n\nvec2 getPosition(){\n  \tfloat down = floor(sqrt(vertexCount));\n  \tfloat across = floor(vertexCount/down);\n  \n  \tfloat x = mod(vertexId,across);\n  \tfloat y = floor(vertexId/across);\n  \n    float u = x / (across-1.);\n    float v = y / (across-1.);\n  \n  \tvec2 res = (vec2(u,v) - .5) *2.;\n\treturn vec2(res);\n}\n\nvoid main() {\n  \n  vec3 position = vec3(getPosition(),.1);\n\n \n  gl_PointSize = 2. * (1./position.z);\n  \n  \n  \n  \n   gl_Position =  vec4(position,1.);\n   v_color = vec4(1.,1.,1.,1.);\n}"
+  },
   "screenshotURL": "data/images/images-wxo5k4qgmxm5z95nv-thumbnail.jpg",
   "hasSound": true,
   "views": {

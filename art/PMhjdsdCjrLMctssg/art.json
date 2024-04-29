@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "minseok.kim",
   "avatarUrl": "https://secure.gravatar.com/avatar/9dbf6d7b52812c1307f1a8c8f4872756?default=retro&size=200",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.27450980392156865,0.2784313725490196,0.42745098039215684,1],\"shader\":\"//Name : minseok kim\\n//Assignment : Exercise - Vertexshaderart : Making a Grid\\n//Course : CS250\\n//Term : Spring 2023\\n\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across-1.);\\n  float v = y / (across-1.);\\n  \\n  float ux = u * 2. -1.;\\n  float vy = v * 2. -1.;\\n  \\n  gl_Position = vec4(ux,vy,0,1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  \\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  v_color = vec4(1,0,0,1);\\n  \\n}\\n\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.27450980392156865,
+      0.2784313725490196,
+      0.42745098039215684,
+      1
+    ],
+    "shader": "//Name : minseok kim\n//Assignment : Exercise - Vertexshaderart : Making a Grid\n//Course : CS250\n//Term : Spring 2023\n\n\nvoid main()\n{\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across-1.);\n  float v = y / (across-1.);\n  \n  float ux = u * 2. -1.;\n  float vy = v * 2. -1.;\n  \n  gl_Position = vec4(ux,vy,0,1);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20.0 / across;\n  \n  gl_PointSize *= resolution.x / 600.0;\n  \n  v_color = vec4(1,0,0,1);\n  \n}\n"
+  },
   "screenshotURL": "data/images/images-r1y6prtdjizib41zv-thumbnail.jpg",
   "hasSound": "",
   "views": {

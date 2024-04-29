@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "michell",
   "avatarUrl": "https://graph.facebook.com/10214849161372343/picture?type=large",
-  "settings": "{\"num\":20,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  float ux = floor(vertexId / 6.0) + mod(vertexId, 2.0);\\n  float vy = mod(floor(vertexId / 2.0) + floor(vertexId / 3.0), 2.0);\\n  \\n  float angle = ux / 20.0 * radians(180.0) * 2.0;\\n  float radius = vy + 1.0;\\n  \\n  float x = radius * cos(angle);\\n  float y = radius * sin(angle);\\n  \\n  // x = radius * cos(angle);\\n  // y = radius * sin(anlge);\\n  \\n  vec2 xy = vec2(x,y);\\n  \\n  gl_Position = vec4(xy *0.1, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 20,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main()\n{\n  float ux = floor(vertexId / 6.0) + mod(vertexId, 2.0);\n  float vy = mod(floor(vertexId / 2.0) + floor(vertexId / 3.0), 2.0);\n  \n  float angle = ux / 20.0 * radians(180.0) * 2.0;\n  float radius = vy + 1.0;\n  \n  float x = radius * cos(angle);\n  float y = radius * sin(angle);\n  \n  // x = radius * cos(angle);\n  // y = radius * sin(anlge);\n  \n  vec2 xy = vec2(x,y);\n  \n  gl_Position = vec4(xy *0.1, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-782dw6cws8x64ahwt-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "clydepashley",
   "avatarUrl": "https://avatars.githubusercontent.com/clydepashley?s=200",
-  "settings": "{\"num\":849,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  float down = floor(sqrt (vertexCount));\\n  float across = floor (vertexCount / down);\\n  \\n  //Create Grid\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  //Respace out\\n  x = x / (across - 1.);\\n  y = y / (across - 1.);\\n  \\n  //Move back around origin\\n  x = x * 2. - 1.;\\n  y = y * 2. - 1.;\\n  \\n  float sin_thing = sin(vertexId + time);\\n  \\n  gl_Position = vec4(x,y,0,1);\\n  gl_PointSize = sin_thing * 10.;\\n  v_color = vec4(sin_thing * 140., sin_thing * 2.,mod(sin_thing,1.),1);\\n  //v_color = vec4(mod(sin_thing,2.), sin_thing * 2.,mod(sin_thing,1.),1);\\n}\"}",
+  "settings": {
+    "num": 849,
+    "mode": "TRI_FAN",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  \n  float down = floor(sqrt (vertexCount));\n  float across = floor (vertexCount / down);\n  \n  //Create Grid\n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  //Respace out\n  x = x / (across - 1.);\n  y = y / (across - 1.);\n  \n  //Move back around origin\n  x = x * 2. - 1.;\n  y = y * 2. - 1.;\n  \n  float sin_thing = sin(vertexId + time);\n  \n  gl_Position = vec4(x,y,0,1);\n  gl_PointSize = sin_thing * 10.;\n  v_color = vec4(sin_thing * 140., sin_thing * 2.,mod(sin_thing,1.),1);\n  //v_color = vec4(mod(sin_thing,2.), sin_thing * 2.,mod(sin_thing,1.),1);\n}"
+  },
   "screenshotURL": "data/images/images-de3u8l7gh19tbiubs-thumbnail.jpg",
   "hasSound": "",
   "views": {

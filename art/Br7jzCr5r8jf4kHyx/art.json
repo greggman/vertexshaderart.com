@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gerrygoo",
   "avatarUrl": "https://avatars.githubusercontent.com/gerrygoo?s=200",
-  "settings": "{\"num\":1,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  float width = 10.0;\\n  \\n  float tot = 30.0;\\n  \\n  float pi = 3.141592654;\\n  float ang = tot/pi;\\n  \\n  float w = 0.1;\\n  float h = 0.1;\\n  \\n  float vid = vertexId;\\n  \\n  float x = w * floor(vid / 2.0) + cos(ang * vid);\\n  float y = h * mod(vid, 2.0)  - sin(ang * vid);\\n\\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  \\n  v_color = vec4(sin(time * vid), 1.0, cos(time * vid), 1.0);\\n  gl_PointSize = 10.0;\\n}\\n\\n\\n\"}",
+  "settings": {
+    "num": 1,
+    "mode": "LINE_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main()\n{\n  float width = 10.0;\n  \n  float tot = 30.0;\n  \n  float pi = 3.141592654;\n  float ang = tot/pi;\n  \n  float w = 0.1;\n  float h = 0.1;\n  \n  float vid = vertexId;\n  \n  float x = w * floor(vid / 2.0) + cos(ang * vid);\n  float y = h * mod(vid, 2.0)  - sin(ang * vid);\n\n  gl_Position = vec4(x, y, 0.0, 1.0);\n  \n  v_color = vec4(sin(time * vid), 1.0, cos(time * vid), 1.0);\n  gl_PointSize = 10.0;\n}\n\n\n"
+  },
   "screenshotURL": "data/images/images-efqndcbwqe2d590e3-thumbnail.jpg",
   "hasSound": "",
   "views": {

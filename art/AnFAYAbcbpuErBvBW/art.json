@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "山ん",
   "avatarUrl": "https://lh3.googleusercontent.com/a/ALm5wu09xCAkradsOw1xY6nU5FV5jRgli9RGVQZipU4g=s96-c",
-  "settings": "{\"num\":2416,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define ZOOM (1.1)\\n#define SCALE (1.0/(vertexCount))\\n#define SIDE (sqrt(vertexCount))\\n#define TAU (6.283185307179586476925286766559)\\n#define SPEED (10.)\\n#define AMP (sqrt(SIDE)*0.002)\\nvoid main()\\n{\\n  float x = -1.1 + ZOOM * 2. *   floor(fract(vertexId/SIDE) * SIDE + 0.5) / SIDE;\\n  float y = -1.1 + ZOOM * 2. * floor(vertexId / SIDE) / SIDE;\\n  \\n  x += AMP * sin(SPEED * time + x * TAU);\\n  y -= AMP * cos(SPEED * time + y * TAU);\\n\\n  gl_PointSize = 2.0;\\n  gl_Position = vec4(x,y,0.0,1.0);\\n  v_color = vec4(1.0,1.0,1.0,1.0);\\n}\\n\\n\\n/*\\nvertexId    : float     : number of the vertex 0, 1, 2\\nvertexCount : float     : total number of vertices\\nresolution  : vec2      : resolution of the art\\nmouse       : vec2      : mouse position normalized (-1 to 1)\\ntouch       : sampler2D : touch history 32x240 (4sec @60fps)\\n            :           : x = x, y = y, z = pressure, w = time\\n            :           : column 0 is mouse or first finger.\\n            :           : column 1 is second finger ...\\ntime        : float     : time in seconds\\nvolume      : sampler2D : volume for music 1x240 alpha only\\nsound       : sampler2D : data from the music Nx240, alpha only\\n            :           : 240 rows of history (4secs @60fps)\\nfloatSound  : sampler2D : data from the music Nx240, alpha only\\n            :           : 240 rows of history (4secs @60fps)\\n            :           : see spec for difference between\\n            :           : getFloatFrequencyData and\\n            :           : getByteFrenquencyData.\\nsoundRes    : vec2      : resolution of sound\\nbackground  : vec4      : background color\\n\\n\\ngl_Position : vec4    : standard GLSL vertex shader output\\nv_color     : vec4    : color to output from fragment shader\\n*/\"}",
+  "settings": {
+    "num": 2416,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define ZOOM (1.1)\n#define SCALE (1.0/(vertexCount))\n#define SIDE (sqrt(vertexCount))\n#define TAU (6.283185307179586476925286766559)\n#define SPEED (10.)\n#define AMP (sqrt(SIDE)*0.002)\nvoid main()\n{\n  float x = -1.1 + ZOOM * 2. *   floor(fract(vertexId/SIDE) * SIDE + 0.5) / SIDE;\n  float y = -1.1 + ZOOM * 2. * floor(vertexId / SIDE) / SIDE;\n  \n  x += AMP * sin(SPEED * time + x * TAU);\n  y -= AMP * cos(SPEED * time + y * TAU);\n\n  gl_PointSize = 2.0;\n  gl_Position = vec4(x,y,0.0,1.0);\n  v_color = vec4(1.0,1.0,1.0,1.0);\n}\n\n\n/*\nvertexId    : float     : number of the vertex 0, 1, 2\nvertexCount : float     : total number of vertices\nresolution  : vec2      : resolution of the art\nmouse       : vec2      : mouse position normalized (-1 to 1)\ntouch       : sampler2D : touch history 32x240 (4sec @60fps)\n            :           : x = x, y = y, z = pressure, w = time\n            :           : column 0 is mouse or first finger.\n            :           : column 1 is second finger ...\ntime        : float     : time in seconds\nvolume      : sampler2D : volume for music 1x240 alpha only\nsound       : sampler2D : data from the music Nx240, alpha only\n            :           : 240 rows of history (4secs @60fps)\nfloatSound  : sampler2D : data from the music Nx240, alpha only\n            :           : 240 rows of history (4secs @60fps)\n            :           : see spec for difference between\n            :           : getFloatFrequencyData and\n            :           : getByteFrenquencyData.\nsoundRes    : vec2      : resolution of sound\nbackground  : vec4      : background color\n\n\ngl_Position : vec4    : standard GLSL vertex shader output\nv_color     : vec4    : color to output from fragment shader\n*/"
+  },
   "screenshotURL": "data/images/images-j6yu3m9yv5s3eyd9x-thumbnail.jpg",
   "hasSound": "",
   "views": {

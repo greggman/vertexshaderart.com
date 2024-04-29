@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "shortwavedave",
   "avatarUrl": "https://secure.gravatar.com/avatar/5999d47c7003bd60c3f1bfd965a79666?default=retro&size=200",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.047058823529411764,0.06274509803921569,0.29411764705882354,1],\"shader\":\"void main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  float x = mod(vertexId,across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across-1.);\\n  float v = y / (across-1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux,vy,0,1);\\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.047058823529411764,
+      0.06274509803921569,
+      0.29411764705882354,
+      1
+    ],
+    "shader": "void main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  float x = mod(vertexId,across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across-1.);\n  float v = y / (across-1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux,vy,0,1);\n  gl_PointSize = 10.0;\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  v_color = vec4(1,0,0,1);\n}"
+  },
   "screenshotURL": "data/images/images-ts7836v8szqmtjdrx-thumbnail.jpg",
   "hasSound": "",
   "views": {

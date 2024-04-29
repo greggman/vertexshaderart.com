@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "juhye",
   "avatarUrl": "https://lh5.googleusercontent.com/-WIjF1SYiutc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfjC8iee2cn7usm3MsiloBz79O9-Q/mo/photo.jpg",
-  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/*------------------------------------------------------------------------\\nAuthor\\t\\t\\t\\t\\t: Joohye Son\\nAssignment Name/Number\\t: Shader/3 (Extra Credit)\\nCourse Name\\t\\t\\t\\t: CS230\\nTerm\\t\\t\\t\\t\\t: Spring 2019\\n------------------------------------------------------------------------*/\\n#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n\\n  \\ngl_Position=vec4(sin(time)*mouse.x, cos(time)*mouse.y*cos(vertexId), 0, 1);\\n  gl_PointSize=20.;\\n  v_color=vec4(sin(time), cos(time), tan(time), 1);\\n  \\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "/*------------------------------------------------------------------------\nAuthor\t\t\t\t\t: Joohye Son\nAssignment Name/Number\t: Shader/3 (Extra Credit)\nCourse Name\t\t\t\t: CS230\nTerm\t\t\t\t\t: Spring 2019\n------------------------------------------------------------------------*/\n#define PI radians(180.)\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n\nvoid main() {\n\n  \ngl_Position=vec4(sin(time)*mouse.x, cos(time)*mouse.y*cos(vertexId), 0, 1);\n  gl_PointSize=20.;\n  v_color=vec4(sin(time), cos(time), tan(time), 1);\n  \n}"
+  },
   "screenshotURL": "data/images/images-jns6at1yydbn1nzik-thumbnail.jpg",
   "hasSound": "",
   "views": {

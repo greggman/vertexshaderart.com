@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/aeon-audio-studio/vitalism-gradus-full-production\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n  float n = vertexId / vertexCount;\\n  vec4 snd = texture2D(sound, vec2(0.0, 0.0)); \\n  float angle = n * 6.28;\\n  \\n  float avx = 0.5;\\n  float axy = 0.2;\\n  \\n  float dx = cos(angle * time * avx) * n; // + mouse.x;\\n  float dy = sin(angle * time * axy) * n; // + mouse.y;\\n  \\n  gl_Position = vec4(dx, dy, 0.0, abs(cos(snd.a)));\\n  gl_PointSize = dy / resolution.y * n * 10.0;\\n  v_color = vec4(abs(dy / dx), abs(dx / dy), dy / dx, 1.0);\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/aeon-audio-studio/vitalism-gradus-full-production",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvoid main() {\n  float n = vertexId / vertexCount;\n  vec4 snd = texture2D(sound, vec2(0.0, 0.0)); \n  float angle = n * 6.28;\n  \n  float avx = 0.5;\n  float axy = 0.2;\n  \n  float dx = cos(angle * time * avx) * n; // + mouse.x;\n  float dy = sin(angle * time * axy) * n; // + mouse.y;\n  \n  gl_Position = vec4(dx, dy, 0.0, abs(cos(snd.a)));\n  gl_PointSize = dy / resolution.y * n * 10.0;\n  v_color = vec4(abs(dy / dx), abs(dx / dy), dy / dx, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-rv7j2nwch97g8aazg-thumbnail.jpg",
   "hasSound": true,
   "views": {

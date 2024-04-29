@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "evan_chen",
   "avatarUrl": "https://secure.gravatar.com/avatar/cf83fa7e8a58a2de525a1b42e8550220?default=retro&size=200",
-  "settings": "{\"num\":2590,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.8784313725490196,0.9333333333333333,0.8313725490196079,1],\"shader\":\"\\nconst float line = 3. ; \\nvec2 drawTriangle(in float vertexId ,out vec3 color )\\n{\\n  vec2 res  = vec2(1.);\\n // res.x = floor(mod(vertexId , line))/line;\\n // res.y = floor(vertexId/ line) ; \\n  if(vertexId < (vertexCount / 3. ))\\n  {\\n    res.x = -0.5 ; \\n    res.y = -0.5 ;  \\n    color.r = 1.;\\n    color.g = 0. ; \\n    color.b = 0. ; \\n    \\n  } \\n  else if (vertexId > (vertexCount * 2. /3. )) \\n  {\\n    res.x = 0.5 ; \\n    res.y = -0.5 ; \\n    color.r = 0.;\\n    color.g = 1. ; \\n    color.b = 0. ; \\n  }\\n  else\\n  {\\n    res.x = 0. ; \\n    res.y = 0.5 ;\\n    color.r = 0.;\\n    color.g = 0. ; \\n    color.b = 1. ; \\n  }\\n  return res; \\n  \\n}\\n\\nvoid main()\\n{\\n  vec3 color = vec3(0.);\\n  \\n  \\n  gl_Position = vec4(drawTriangle(vertexId ,color) , 0.0 ,1.) ;\\n  \\n  gl_PointSize = 10. ; \\n  \\n  v_color = vec4(color , 1.0);\\n}\"}",
+  "settings": {
+    "num": 2590,
+    "mode": "TRI_FAN",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.8784313725490196,
+      0.9333333333333333,
+      0.8313725490196079,
+      1
+    ],
+    "shader": "\nconst float line = 3. ; \nvec2 drawTriangle(in float vertexId ,out vec3 color )\n{\n  vec2 res  = vec2(1.);\n // res.x = floor(mod(vertexId , line))/line;\n // res.y = floor(vertexId/ line) ; \n  if(vertexId < (vertexCount / 3. ))\n  {\n    res.x = -0.5 ; \n    res.y = -0.5 ;  \n    color.r = 1.;\n    color.g = 0. ; \n    color.b = 0. ; \n    \n  } \n  else if (vertexId > (vertexCount * 2. /3. )) \n  {\n    res.x = 0.5 ; \n    res.y = -0.5 ; \n    color.r = 0.;\n    color.g = 1. ; \n    color.b = 0. ; \n  }\n  else\n  {\n    res.x = 0. ; \n    res.y = 0.5 ;\n    color.r = 0.;\n    color.g = 0. ; \n    color.b = 1. ; \n  }\n  return res; \n  \n}\n\nvoid main()\n{\n  vec3 color = vec3(0.);\n  \n  \n  gl_Position = vec4(drawTriangle(vertexId ,color) , 0.0 ,1.) ;\n  \n  gl_PointSize = 10. ; \n  \n  v_color = vec4(color , 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-lt1p0bstdg9fo98xw-thumbnail.jpg",
   "hasSound": "",
   "views": {

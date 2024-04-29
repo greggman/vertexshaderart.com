@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.8196078431372549,0.8196078431372549,0.8196078431372549,1],\"shader\":\"void main(){\\n  v_color = vec4(0.0,0.0,0.0,1);\\n  gl_PointSize = 20.0;\\n  \\n  float width = 10.0;\\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  x = x / (width - 1.0);\\n  y = y / (width - 1.0);\\n  \\n  x = x * 2.0 - 1.0;\\n  y = y * 2.0 - 1.0;\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.1;\\n  x = x + xOffset;\\n  \\n  float yOffset = cos(time + x) * 0.2;\\n  y = y + yOffset;\\n  \\n  vec2 xy = vec2(x ,y) * 0.5;\\n  \\n  gl_Position = vec4(xy,0.0,1.0);\\n}\"}",
+  "settings": {
+    "num": 20000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.8196078431372549,
+      0.8196078431372549,
+      0.8196078431372549,
+      1
+    ],
+    "shader": "void main(){\n  v_color = vec4(0.0,0.0,0.0,1);\n  gl_PointSize = 20.0;\n  \n  float width = 10.0;\n  float x = mod(vertexId, width);\n  float y = floor(vertexId / width);\n  \n  x = x / (width - 1.0);\n  y = y / (width - 1.0);\n  \n  x = x * 2.0 - 1.0;\n  y = y * 2.0 - 1.0;\n  \n  float xOffset = cos(time + y * 0.2) * 0.1;\n  x = x + xOffset;\n  \n  float yOffset = cos(time + x) * 0.2;\n  y = y + yOffset;\n  \n  vec2 xy = vec2(x ,y) * 0.5;\n  \n  gl_Position = vec4(xy,0.0,1.0);\n}"
+  },
   "screenshotURL": "data/images/images-8zjguu4aub63zn5ai-thumbnail.jpg",
   "hasSound": "",
   "views": {

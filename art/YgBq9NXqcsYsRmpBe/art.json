@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":168,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/********Ejecicio #1 *********/\\n/*void main(){\\n//Vector 4\\n  float width = 20.0;\\n  \\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.1;\\n  float yOffset = sin(time + x * 0.3) * 0.1;\\n  \\n  float ux = u * 2.0 -1.0 + xOffset;\\n  float uy = v * 2.0 -1.0 + yOffset;\\n  \\n  vec2 xy = vec2(ux, uy) * 1.2;\\n  \\n  gl_Position = vec4(ux, uy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 10.0;\\n}\\n*/\\n\\n\\nvoid main(){\\n//Vector 4\\n  float width = 20.0;\\n  \\n  float y = mod(vertexId + 1.0, 2.0);\\n  float x = floor(vertexId / 2.0);\\n  float ang = (x/20.0)*radians(360.0);\\n  float r = y + 1.0;\\n  float rx = r * cos(ang);\\n  float ry = r *sin (ang);\\n  \\n  float u = rx / (width - 1.0);\\n  float v = ry / (width - 1.0);\\n  \\n  float xOffset = cos(time + ry * 0.2) * 0.1;\\n  float yOffset = sin(time + rx * 0.3) * 0.1;\\n  \\n  float mov =  (floor(vertexId /42.0));\\n  \\n  float ux = u * 2.0 - mov + xOffset;\\n  float uy = v * 2.0 - 1.0 + yOffset;\\n  \\n  vec2 xy = vec2 (ux, uy) * 0.2;\\n  \\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 1.0;\\n}\\n\"}",
+  "settings": {
+    "num": 168,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "/********Ejecicio #1 *********/\n/*void main(){\n//Vector 4\n  float width = 20.0;\n  \n  float x = mod(vertexId, width);\n  float y = floor(vertexId / width);\n  \n  float u = x / (width - 1.0);\n  float v = y / (width - 1.0);\n  \n  float xOffset = cos(time + y * 0.2) * 0.1;\n  float yOffset = sin(time + x * 0.3) * 0.1;\n  \n  float ux = u * 2.0 -1.0 + xOffset;\n  float uy = v * 2.0 -1.0 + yOffset;\n  \n  vec2 xy = vec2(ux, uy) * 1.2;\n  \n  gl_Position = vec4(ux, uy, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n  gl_PointSize = 10.0;\n}\n*/\n\n\nvoid main(){\n//Vector 4\n  float width = 20.0;\n  \n  float y = mod(vertexId + 1.0, 2.0);\n  float x = floor(vertexId / 2.0);\n  float ang = (x/20.0)*radians(360.0);\n  float r = y + 1.0;\n  float rx = r * cos(ang);\n  float ry = r *sin (ang);\n  \n  float u = rx / (width - 1.0);\n  float v = ry / (width - 1.0);\n  \n  float xOffset = cos(time + ry * 0.2) * 0.1;\n  float yOffset = sin(time + rx * 0.3) * 0.1;\n  \n  float mov =  (floor(vertexId /42.0));\n  \n  float ux = u * 2.0 - mov + xOffset;\n  float uy = v * 2.0 - 1.0 + yOffset;\n  \n  vec2 xy = vec2 (ux, uy) * 0.2;\n  \n  \n  gl_Position = vec4(xy, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n  gl_PointSize = 1.0;\n}\n"
+  },
   "screenshotURL": "data/images/images-9sq3twzp9riypfrqk-thumbnail.jpg",
   "hasSound": true,
   "views": {

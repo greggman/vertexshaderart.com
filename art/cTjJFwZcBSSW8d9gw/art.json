@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "chaerinpark",
   "avatarUrl": "https://avatars.githubusercontent.com/ChaerinPark?s=200",
-  "settings": "{\"num\":277,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/yoasobimusic/jqiurhdzp3dy?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name : Chaerin Park\\n//Assignment : Exercise - Vertexshaderart : Making a Grid\\n//Course : CS250\\n//Spring 2023\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n  \\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  float r = sin(time);\\n  float g = sin(time) + cos(time);\\n  float b = cos(time);\\n  \\n  v_color = vec4(r, g, b, 1);\\n}\"}",
+  "settings": {
+    "num": 277,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/yoasobimusic/jqiurhdzp3dy?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//Name : Chaerin Park\n//Assignment : Exercise - Vertexshaderart : Making a Grid\n//Course : CS250\n//Spring 2023\n\nvoid main()\n{\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float ux = u * 2.0 - 1.0;\n  float vy = v * 2.0 - 1.0;\n  \n  \n  gl_Position = vec4(ux, vy, 0, 1);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20.0 / across;\n  gl_PointSize *= resolution.x / 600.0;\n  \n  float r = sin(time);\n  float g = sin(time) + cos(time);\n  float b = cos(time);\n  \n  v_color = vec4(r, g, b, 1);\n}"
+  },
   "screenshotURL": "data/images/images-3nsin53boylhavckc-thumbnail.jpg",
   "hasSound": true,
   "views": {

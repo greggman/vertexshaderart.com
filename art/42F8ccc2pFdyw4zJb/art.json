@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "hyukseung",
   "avatarUrl": "https://lh5.googleusercontent.com/-ZNMiGaHJfCo/AAAAAAAAAAI/AAAAAAAAIM0/HuoX3r8CVAQ/photo.jpg",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.09803921568627451,0.1568627450980392,0.23921568627450981,1],\"shader\":\"\\nvoid main() {\\n  gl_Position = vec4(0, 0, 0, 1);\\n  gl_PointSize = 10.0;\\n  v_color = vec4(1, 0, 0, 1)\\n}\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.09803921568627451,
+      0.1568627450980392,
+      0.23921568627450981,
+      1
+    ],
+    "shader": "\nvoid main() {\n  gl_Position = vec4(0, 0, 0, 1);\n  gl_PointSize = 10.0;\n  v_color = vec4(1, 0, 0, 1)\n}"
+  },
   "screenshotURL": "data/images/images-j1y3ndnknvnb3r30l-thumbnail.jpg",
   "hasSound": "",
   "views": {

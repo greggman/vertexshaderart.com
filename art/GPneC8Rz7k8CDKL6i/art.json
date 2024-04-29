@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "patrik",
   "avatarUrl": "https://lh6.googleusercontent.com/-KrDG70pboLE/AAAAAAAAAAI/AAAAAAAAAeo/TWpXHYT89SA/photo.jpg",
-  "settings": "{\"num\":50000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main () {\\n  vec4 pos = vec4(-1.0, sin(4.0*time + vertexId * 0.005)-0.5 * 0.8, 0.0, 1.0);\\n  gl_PointSize = 15.0;\\n  gl_Position = pos + vertexId*0.0006;\\n  v_color = vec4(mouse, pos.y, 1.0) + 0.5;\\n}\"}",
+  "settings": {
+    "num": 50000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main () {\n  vec4 pos = vec4(-1.0, sin(4.0*time + vertexId * 0.005)-0.5 * 0.8, 0.0, 1.0);\n  gl_PointSize = 15.0;\n  gl_Position = pos + vertexId*0.0006;\n  v_color = vec4(mouse, pos.y, 1.0) + 0.5;\n}"
+  },
   "screenshotURL": "data/images/images-bd74ifwrtdjlvsddv-thumbnail.jpg",
   "hasSound": true,
   "views": {

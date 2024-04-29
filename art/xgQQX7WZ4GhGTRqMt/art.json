@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "minjae-yu",
   "avatarUrl": "https://avatars.githubusercontent.com/minjae-yu?s=200",
-  "settings": "{\"num\":4928,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.11764705882352941,0.11372549019607843,0.3254901960784314,1],\"shader\":\"//Name : MINJAE YU\\n//Assignment : Making a Grid\\n//Course : CS250\\n//Term : Spring 2023\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u =  x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux * cos(time), vy * sin(time), 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(cos(time), sin(time), cos(time), 1);\\n}\"}",
+  "settings": {
+    "num": 4928,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.11764705882352941,
+      0.11372549019607843,
+      0.3254901960784314,
+      1
+    ],
+    "shader": "//Name : MINJAE YU\n//Assignment : Making a Grid\n//Course : CS250\n//Term : Spring 2023\nvoid main()\n{\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u =  x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux * cos(time), vy * sin(time), 0, 1);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.;\n  \n  v_color = vec4(cos(time), sin(time), cos(time), 1);\n}"
+  },
   "screenshotURL": "data/images/images-9c15t0i18lx7j0cff-thumbnail.jpg",
   "hasSound": true,
   "views": {

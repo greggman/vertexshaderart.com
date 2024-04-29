@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "julien",
   "avatarUrl": "https://avatars.githubusercontent.com/julien?s=200",
-  "settings": "{\"num\":1183,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/photek/quadranttt\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.00784313725490196,0.0196078431372549,0.21176470588235294,1],\"shader\":\"\\n\\nvec3 hsv2rgb(vec3 c) {\\n\\t\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n  \\n}\\n\\n#define PI radians(180.0)\\n\\nvoid main() {\\n  \\n  float down = floor(sqrt(vertexCount));\\n  \\n  float across = floor(vertexCount / down);\\n  \\n  \\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time + x * 0.1) * 0.25;\\n  \\n  float ux = u * 2.0 - 1.0 + xoff;\\n  float vy = v * 2.0 - 1.0 + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.0; // x,y pos and scale;\\n\\n  \\n  float su = abs(u - 0.5) * 2.0;\\n  float sv = abs(v - 0.5) * 2.0;\\n  \\n  float au = abs(atan(su, sv)) / PI;\\n  float av = length(vec2(su, sv));\\n    \\n  float snd = texture2D(sound, vec2(au * 0.05, av * 0.25)).a;\\n    \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  \\n  \\n  float soff = sin(time + x * y * 0.02) * 8.0;\\n  \\n  gl_PointSize = pow(snd + 0.3, 5.0) * 20.0 + soff;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  \\n  float pump = step(0.2, snd);\\n    \\n  float hue = u + 0.1 + snd * 0.2 + time * 0.1;  // u * 0.1 + sin(time + v * 20.0) * 0.05;\\n  float saturation = mix(0.0, 1.0, pump);\\n  float value = mix(0.1, pow(snd + 0.2, 5.0), pump); //sin(time + v * u * 20.0) * 0.5 + 0.5;\\n  \\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, saturation, value)), 1.0);\\n}\"}",
+  "settings": {
+    "num": 1183,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/photek/quadranttt",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.00784313725490196,
+      0.0196078431372549,
+      0.21176470588235294,
+      1
+    ],
+    "shader": "\n\nvec3 hsv2rgb(vec3 c) {\n\t\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n  \n}\n\n#define PI radians(180.0)\n\nvoid main() {\n  \n  float down = floor(sqrt(vertexCount));\n  \n  float across = floor(vertexCount / down);\n  \n  \n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float xoff = sin(time + y * 0.2) * 0.1;\n  float yoff = sin(time + x * 0.1) * 0.25;\n  \n  float ux = u * 2.0 - 1.0 + xoff;\n  float vy = v * 2.0 - 1.0 + yoff;\n  \n  vec2 xy = vec2(ux, vy) * 1.0; // x,y pos and scale;\n\n  \n  float su = abs(u - 0.5) * 2.0;\n  float sv = abs(v - 0.5) * 2.0;\n  \n  float au = abs(atan(su, sv)) / PI;\n  float av = length(vec2(su, sv));\n    \n  float snd = texture2D(sound, vec2(au * 0.05, av * 0.25)).a;\n    \n  gl_Position = vec4(xy, 0.0, 1.0);\n  \n  \n  float soff = sin(time + x * y * 0.02) * 8.0;\n  \n  gl_PointSize = pow(snd + 0.3, 5.0) * 20.0 + soff;\n  gl_PointSize *= 20.0 / across;\n  gl_PointSize *= resolution.x / 600.0;\n  \n  \n  float pump = step(0.2, snd);\n    \n  float hue = u + 0.1 + snd * 0.2 + time * 0.1;  // u * 0.1 + sin(time + v * 20.0) * 0.05;\n  float saturation = mix(0.0, 1.0, pump);\n  float value = mix(0.1, pow(snd + 0.2, 5.0), pump); //sin(time + v * u * 20.0) * 0.5 + 0.5;\n  \n  \n  v_color = vec4(hsv2rgb(vec3(hue, saturation, value)), 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-hkjoeadwptk7cz4cc-thumbnail.jpg",
   "hasSound": true,
   "views": {

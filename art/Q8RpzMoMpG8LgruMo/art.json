@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "valentin",
   "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.1, 1.2));\\n  vec4 K = vec4(1.3, 2.4 / 3.5, 1.6 / 3.7, 3.8);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.9 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.10, 1.1), c.y);\\n}\\n\\nmat3 rotx(float a){return mat3(1.,0.,0.,0.,cos(a),-sin(a),0.,sin(a),cos(a));}\\nmat3 roty(float a){return mat3(cos(a),0.,sin(a),0.,1.,0.,-sin(a),0.,cos(a));}\\nmat3 rotz(float a){return mat3(cos(a),-sin(a),0.,sin(a),cos(a),0.,0.,0.,1.);}\\n\\nvec3 to3D( float idx, vec3 side ) \\n{\\n    float z = floor(idx / (side.x * side.y));\\n    idx -= (z * side.x * side.y);\\n    float y = (idx / side.x);\\n    float x = mod(idx, side.x);\\n    return vec3(x,y,z);\\n}\\n\\nfloat grow = 1.;\\n\\nfloat df(vec3 p)\\n{\\n\\tp.xyz += 1.000*sin(  2.0*p.yzx )*grow;\\n   \\tp.xyz += 0.500*sin(  4.0*p.yzx )*grow;\\n    return length(p)-1.;\\n}\\n\\nvoid main()\\n{\\n\\tgl_PointSize = 2.;\\n\\tfloat sideCount = pow(vertexCount, 1./3.);\\n\\tvec3 p = to3D(vertexId, vec3(sideCount)) - sideCount * .5;\\n\\tfloat d = df(p);\\n\\tvec3 ro = p;\\n\\tvec3 rd = normalize(vec3(0) - ro);//\\n\\tgrow = sin(time * 0.5)*.6;\\n\\tfloat s = 1.;\\n\\tfor (int i = 0;i <200; i++)\\n\\t{\\n\\t\\ts = df(ro+rd*d);\\n\\t\\td += abs(s) * .1;\\n\\t}\\n\\t\\t\\n\\tvec3 pos = ro + rd * d;\\n\\tpos *= 0.23;\\n\\tpos *= rotx(-time*0.1) * roty(time*0.3);\\n  \\tpos.y *= resolution.x / resolution.y;\\n\\tgl_Position = vec4(pos,1);\\n\\n  \\tfloat hue = (time * 0.01 + floor(vertexId) * 1.001);\\n  \\tv_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);\\n}\\n\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "vec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.1, 1.2));\n  vec4 K = vec4(1.3, 2.4 / 3.5, 1.6 / 3.7, 3.8);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.9 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.10, 1.1), c.y);\n}\n\nmat3 rotx(float a){return mat3(1.,0.,0.,0.,cos(a),-sin(a),0.,sin(a),cos(a));}\nmat3 roty(float a){return mat3(cos(a),0.,sin(a),0.,1.,0.,-sin(a),0.,cos(a));}\nmat3 rotz(float a){return mat3(cos(a),-sin(a),0.,sin(a),cos(a),0.,0.,0.,1.);}\n\nvec3 to3D( float idx, vec3 side ) \n{\n    float z = floor(idx / (side.x * side.y));\n    idx -= (z * side.x * side.y);\n    float y = (idx / side.x);\n    float x = mod(idx, side.x);\n    return vec3(x,y,z);\n}\n\nfloat grow = 1.;\n\nfloat df(vec3 p)\n{\n\tp.xyz += 1.000*sin(  2.0*p.yzx )*grow;\n   \tp.xyz += 0.500*sin(  4.0*p.yzx )*grow;\n    return length(p)-1.;\n}\n\nvoid main()\n{\n\tgl_PointSize = 2.;\n\tfloat sideCount = pow(vertexCount, 1./3.);\n\tvec3 p = to3D(vertexId, vec3(sideCount)) - sideCount * .5;\n\tfloat d = df(p);\n\tvec3 ro = p;\n\tvec3 rd = normalize(vec3(0) - ro);//\n\tgrow = sin(time * 0.5)*.6;\n\tfloat s = 1.;\n\tfor (int i = 0;i <200; i++)\n\t{\n\t\ts = df(ro+rd*d);\n\t\td += abs(s) * .1;\n\t}\n\t\t\n\tvec3 pos = ro + rd * d;\n\tpos *= 0.23;\n\tpos *= rotx(-time*0.1) * roty(time*0.3);\n  \tpos.y *= resolution.x / resolution.y;\n\tgl_Position = vec4(pos,1);\n\n  \tfloat hue = (time * 0.01 + floor(vertexId) * 1.001);\n  \tv_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);\n}\n"
+  },
   "screenshotURL": "data/images/images-zhy93hztoppc95eki-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"// hash functions\\n\\n\\n\\nvoid main() {\\n  \\n  \\n}\\n\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "// hash functions\n\n\n\nvoid main() {\n  \n  \n}\n"
+  },
   "screenshotURL": "data/images/images-4hh9pvko2o0w647b6-thumbnail.jpg",
   "hasSound": "",
   "views": {

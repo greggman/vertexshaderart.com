@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "zug",
   "avatarUrl": "https://lh3.googleusercontent.com/-ic9UqwOeGYY/AAAAAAAAAAI/AAAAAAAAABU/vJK2D-kzm0k/photo.jpg",
-  "settings": "{\"num\":2242,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){gl_Position=vec4(vertexId/vertexCount*7.461-6.,cos(mod(vertexId/time,3.)-vertexId+time),0,1);v_color=vec4(0,1,0,1)}\"}",
+  "settings": {
+    "num": 2242,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main(){gl_Position=vec4(vertexId/vertexCount*7.461-6.,cos(mod(vertexId/time,3.)-vertexId+time),0,1);v_color=vec4(0,1,0,1)}"
+  },
   "screenshotURL": "data/images/images-uijlp4766agb6m5pa-thumbnail.jpg",
   "hasSound": "",
   "views": {

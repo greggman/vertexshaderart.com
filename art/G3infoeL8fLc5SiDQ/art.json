@@ -35,7 +35,19 @@
   "unlisted": true,
   "username": "brendon",
   "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"float rand(vec2 co){\\n    return fract(sin(dot(co.xy, vec2(12.9898,78.233))) * 43758.5453);\\n}\\n\\nvoid main() {\\n  float n = vertexId / vertexCount;\\n  float pointSize = n * 3.0;\\n  float width = 5.0;\\n  float height = 5.0;\\n  float randomX = rand(vec2(vertexId, 5.0));\\n  float randomY = rand(vec2(vertexId, 10.0));\\n  \\n  float xOff = cos(time * n) * 0.25;\\n  float yOff = sin(time * n * n) * 0.3 * n;\\n  \\n  float x = randomX * width + xOff;\\n  float y = height * randomY + yOff;\\n  \\n  gl_Position = vec4(x - 1.0, y - 1.0, 0.0, 1.0);\\n  gl_PointSize = pointSize;\\n  v_color = vec4(n, cos(time), n, 1.0);\\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "float rand(vec2 co){\n    return fract(sin(dot(co.xy, vec2(12.9898,78.233))) * 43758.5453);\n}\n\nvoid main() {\n  float n = vertexId / vertexCount;\n  float pointSize = n * 3.0;\n  float width = 5.0;\n  float height = 5.0;\n  float randomX = rand(vec2(vertexId, 5.0));\n  float randomY = rand(vec2(vertexId, 10.0));\n  \n  float xOff = cos(time * n) * 0.25;\n  float yOff = sin(time * n * n) * 0.3 * n;\n  \n  float x = randomX * width + xOff;\n  float y = height * randomY + yOff;\n  \n  gl_Position = vec4(x - 1.0, y - 1.0, 0.0, 1.0);\n  gl_PointSize = pointSize;\n  v_color = vec4(n, cos(time), n, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-rflk23r1ord67f6ss-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -27,7 +27,19 @@
   "name": "pulse",
   "private": false,
   "username": "gman",
-  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"CSS\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159\\n#define NUM_SEGMENTS 51.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n//#define FIT_VERTICAL\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * 0.02;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS - offset;\\n  float rPlus = pow(sin(time * 3. + -count * 0.05), 4.0);\\n  float radius = count * 0.02 + rPlus * 0.2 + 0.0;\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle = count * 0.00;\\n  float oRadius = count * 0.00;\\n  float oC = cos(orbitAngle + time * count * 0.01) * oRadius;\\n  float oS = sin(orbitAngle + time * count * 0.01) * oRadius;\\n\\n  #ifdef FIT_VERTICAL\\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\\n  #else\\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  #endif\\n\\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\\n  gl_PointSize = 2.0 + length(xy) * 20. * resolution.x / 1600.0;\\n\\n  float hue = (time * 0.01 + count * 1.001);\\n  v_color = mix(vec4(hsv2rgb(vec3(hue, 1.- rPlus, 1.)), 1), background, length(xy) - rPlus);\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "CSS",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI 3.14159\n#define NUM_SEGMENTS 51.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 5.0\n//#define FIT_VERTICAL\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\n  float count = floor(vertexId / NUM_POINTS);\n  float offset = count * 0.02;\n  float angle = point * PI * 2.0 / NUM_SEGMENTS - offset;\n  float rPlus = pow(sin(time * 3. + -count * 0.05), 4.0);\n  float radius = count * 0.02 + rPlus * 0.2 + 0.0;\n  float c = cos(angle + time) * radius;\n  float s = sin(angle + time) * radius;\n  float orbitAngle = count * 0.00;\n  float oRadius = count * 0.00;\n  float oC = cos(orbitAngle + time * count * 0.01) * oRadius;\n  float oS = sin(orbitAngle + time * count * 0.01) * oRadius;\n\n  #ifdef FIT_VERTICAL\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\n  #else\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\n  #endif\n\n  vec2 xy = vec2(\n      oC + c,\n      oS + s);\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\n  gl_PointSize = 2.0 + length(xy) * 20. * resolution.x / 1600.0;\n\n  float hue = (time * 0.01 + count * 1.001);\n  v_color = mix(vec4(hsv2rgb(vec3(hue, 1.- rPlus, 1.)), 1), background, length(xy) - rPlus);\n}"
+  },
   "screenshotURL": "data/images/images-wa0a1s6901sy21cud-thumbnail.jpg",
   "hasSound": "",
   "views": {

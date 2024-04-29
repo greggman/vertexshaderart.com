@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "sunwoo.lee",
   "avatarUrl": "https://secure.gravatar.com/avatar/847e0aa72622f450daec2296ed8fe915?default=retro&size=200",
-  "settings": "{\"num\":108,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// // Name: sunwoo.lee\\n// // Assignment name: Making a Grid\\n// // Course name: CS250\\n// // Term: 2022 Spring\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  \\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux,vy,0,1);\\n  \\n  gl_PointSize = 25.0;//*abs(sin(time));\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 1900.0;\\n  \\n  float gradiant_sin= sin(time*0.5)+1.0*0.5;\\n  float gradiant_cos= cos(time*0.5)+1.0*0.5;\\n  \\n  v_color = vec4(mix(vec3(gradiant_cos,0.,gradiant_sin),vec3(gradiant_sin,0.,gradiant_cos),vec3(smoothstep( -1.0, 1.0, ux))),1.0);\\n}\"}",
+  "settings": {
+    "num": 108,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// // Name: sunwoo.lee\n// // Assignment name: Making a Grid\n// // Course name: CS250\n// // Term: 2022 Spring\n\nvoid main()\n{\n  float down = floor(sqrt(vertexCount));\n  \n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n  \n  gl_Position = vec4(ux,vy,0,1);\n  \n  gl_PointSize = 25.0;//*abs(sin(time));\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 1900.0;\n  \n  float gradiant_sin= sin(time*0.5)+1.0*0.5;\n  float gradiant_cos= cos(time*0.5)+1.0*0.5;\n  \n  v_color = vec4(mix(vec3(gradiant_cos,0.,gradiant_sin),vec3(gradiant_sin,0.,gradiant_cos),vec3(smoothstep( -1.0, 1.0, ux))),1.0);\n}"
+  },
   "screenshotURL": "data/images/images-qoansppiynpahobjl-thumbnail.jpg",
   "hasSound": "",
   "views": {

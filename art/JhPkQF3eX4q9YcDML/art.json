@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "alejandrocamara",
   "avatarUrl": "https://avatars.githubusercontent.com/AlejandroCamara?s=200",
-  "settings": "{\"num\":742,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  \\t// Distancia entre los puntos\\n  \\t// y numero de puntos por fila\\n  \\tfloat width = 10.0;\\n  \\n  \\t\\n  \\t// Ubicacion de los circulos\\n  \\tfloat x = mod(vertexId, width);\\t// Columna\\n  \\tfloat y = floor(vertexId / width);\\t// Fila\\n  \\n  \\t// Escala de los puntos para que quepan en la pantalla\\n  \\tfloat u = x / (width - 1.0);\\n  \\tfloat v = y / (width - 1.0);\\n  \\n  \\n  \\t// Movimiento en onda\\n  \\tfloat xOffset = sin(time + y * 0.2) * 0.1;\\n  \\tfloat yOffset = cos(time + x * 0.3) * 0.2;\\n  \\n  \\t//float xOffset = 0.0;\\n  \\t//float yOffset = 0.0;\\n  \\n  \\t// Coordenadas finales\\n  \\tfloat ux = u * 2.0 - 1.0 + xOffset;\\n  \\tfloat vy = v * 2.0 - 1.0 + yOffset;\\n  \\t\\n  \\tvec2 xy = vec2(ux, vy) * 1.2;\\n  \\n\\tgl_Position = vec4(xy, 0.0, 1.0);\\n  \\tv_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  \\tgl_PointSize = 20.0;\\n}\"}",
+  "settings": {
+    "num": 742,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main()\n{\n  \t// Distancia entre los puntos\n  \t// y numero de puntos por fila\n  \tfloat width = 10.0;\n  \n  \t\n  \t// Ubicacion de los circulos\n  \tfloat x = mod(vertexId, width);\t// Columna\n  \tfloat y = floor(vertexId / width);\t// Fila\n  \n  \t// Escala de los puntos para que quepan en la pantalla\n  \tfloat u = x / (width - 1.0);\n  \tfloat v = y / (width - 1.0);\n  \n  \n  \t// Movimiento en onda\n  \tfloat xOffset = sin(time + y * 0.2) * 0.1;\n  \tfloat yOffset = cos(time + x * 0.3) * 0.2;\n  \n  \t//float xOffset = 0.0;\n  \t//float yOffset = 0.0;\n  \n  \t// Coordenadas finales\n  \tfloat ux = u * 2.0 - 1.0 + xOffset;\n  \tfloat vy = v * 2.0 - 1.0 + yOffset;\n  \t\n  \tvec2 xy = vec2(ux, vy) * 1.2;\n  \n\tgl_Position = vec4(xy, 0.0, 1.0);\n  \tv_color = vec4(1.0, 0.0, 0.0, 1.0);\n  \tgl_PointSize = 20.0;\n}"
+  },
   "screenshotURL": "data/images/images-e0jw4gqptq32tgd3w-thumbnail.jpg",
   "hasSound": true,
   "views": {

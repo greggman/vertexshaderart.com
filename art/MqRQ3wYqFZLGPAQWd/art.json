@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "jaewoo.choi",
   "avatarUrl": "https://secure.gravatar.com/avatar/d216764c49a53ce2f15ebd1c1d4a9c7f?default=retro&size=200",
-  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name: Jaewoo.choi\\n//Assignment Name: Vertexshaderart : Making a Grid\\n//Course Name: CS250\\n//Term&Year: 2022&Spring\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n\\n\\n\\n  \\n  gl_Position = vec4(ux,vy,0,1);\\n  \\n  gl_PointSize  = 10.0;\\n  gl_PointSize *= 20. / across; \\n  gl_PointSize *= resolution.x / 600.;\\n\\n  v_color = vec4(1,0,0,1); \\n  \\n  \\n}\"}",
+  "settings": {
+    "num": 1000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//Name: Jaewoo.choi\n//Assignment Name: Vertexshaderart : Making a Grid\n//Course Name: CS250\n//Term&Year: 2022&Spring\nvoid main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  \n  float ux = u * 2. - 1.;\n  float vy = v * 2. - 1.;\n\n\n\n  \n  gl_Position = vec4(ux,vy,0,1);\n  \n  gl_PointSize  = 10.0;\n  gl_PointSize *= 20. / across; \n  gl_PointSize *= resolution.x / 600.;\n\n  v_color = vec4(1,0,0,1); \n  \n  \n}"
+  },
   "screenshotURL": "data/images/images-vwv4rqo6xc0w7k168-thumbnail.jpg",
   "hasSound": "",
   "views": {

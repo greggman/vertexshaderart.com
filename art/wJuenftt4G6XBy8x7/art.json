@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gman",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
-  "settings": "{\"num\":15238,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n\\nvoid main() {\\n  float numQuads = floor(vertexCount / 4.);\\n  float quadId = floor(vertexId / 4.);\\n  float down = floor(sqrt(numQuads));\\n  float across = floor(numQuads / down);\\n  \\n  float gx = mod(quadId, across);\\n  float gy = floor(quadId / across);\\n  \\n  float vId = mod(vertexId, 4.);\\n  \\n  float x = gx + mod(vId, 2.) - step(3., vId);\\n  float y = gy + step(3., vId);\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(x, y) / vec2(across, down) * 2. - 1.;\\n  gl_Position = vec4(xy * aspect * 1.1, 0, 1);\\n\\n  v_color = vec4(vec3(0), 1);\\n}\"}",
+  "settings": {
+    "num": 15238,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n\nvoid main() {\n  float numQuads = floor(vertexCount / 4.);\n  float quadId = floor(vertexId / 4.);\n  float down = floor(sqrt(numQuads));\n  float across = floor(numQuads / down);\n  \n  float gx = mod(quadId, across);\n  float gy = floor(quadId / across);\n  \n  float vId = mod(vertexId, 4.);\n  \n  float x = gx + mod(vId, 2.) - step(3., vId);\n  float y = gy + step(3., vId);\n\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  vec2 xy = vec2(x, y) / vec2(across, down) * 2. - 1.;\n  gl_Position = vec4(xy * aspect * 1.1, 0, 1);\n\n  v_color = vec4(vec3(0), 1);\n}"
+  },
   "screenshotURL": "data/images/images-xvdzwmh2ntvshhvxi-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "mhorga",
   "avatarUrl": "https://secure.gravatar.com/avatar/00bbccef092919170c720cae49be2403?default=retro&size=200",
-  "settings": "{\"num\":2000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.17647058823529413,1],\"shader\":\"// circles made of triangles - try > 2000 vertices for smooth edge\\nvoid main() {\\n  float x = floor(vertexId / 6.) + mod(vertexId, 2.);\\n  float y = mod(floor(vertexId / 2.) + floor(vertexId / 3.), 2.);\\n  float s = sin(x);\\n  float c = cos(x);\\n  float radius = y + 1.;\\n  x = s * radius;\\n  y = c * radius;\\n  vec2 xy = vec2(x, y);\\n  gl_Position = vec4(xy * 0.1, 0, 1);\\n  v_color = vec4(1, 0 , 0, 1);\\n}\\n\\n#if 0\\n\\n// a mesh made out of triangles (switch to Triangles primitive)\\nvoid main() {\\n  float x = floor(vertexId / 6.) + mod(vertexId, 2.);\\n  float y = mod(floor(vertexId / 2.) + floor(vertexId / 3.), 2.);\\n  vec2 xy = vec2(x, y);\\n  gl_Position = vec4(xy * 0.1, 0, 1);\\n  v_color = vec4(1, 0 , 0, 1)\\n}\\n\\n// a grid made of points (switch to using Points primitive)\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  float x = mod(vertexId, across) / (across - 1.);\\n  float y = floor(vertexId / across) / (across - 1.);\\n  float u = x * 2. - 1.;\\n  float v = y * 2. - 1.;\\n  gl_Position = vec4(u, v, 0, 1);\\n  gl_PointSize = 10.;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;  \\n  v_color = vec4(1, 0 , 0, 1);  \\n}\\n\\n#endif\\n\"}",
+  "settings": {
+    "num": 2000,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0.17647058823529413,
+      1
+    ],
+    "shader": "// circles made of triangles - try > 2000 vertices for smooth edge\nvoid main() {\n  float x = floor(vertexId / 6.) + mod(vertexId, 2.);\n  float y = mod(floor(vertexId / 2.) + floor(vertexId / 3.), 2.);\n  float s = sin(x);\n  float c = cos(x);\n  float radius = y + 1.;\n  x = s * radius;\n  y = c * radius;\n  vec2 xy = vec2(x, y);\n  gl_Position = vec4(xy * 0.1, 0, 1);\n  v_color = vec4(1, 0 , 0, 1);\n}\n\n#if 0\n\n// a mesh made out of triangles (switch to Triangles primitive)\nvoid main() {\n  float x = floor(vertexId / 6.) + mod(vertexId, 2.);\n  float y = mod(floor(vertexId / 2.) + floor(vertexId / 3.), 2.);\n  vec2 xy = vec2(x, y);\n  gl_Position = vec4(xy * 0.1, 0, 1);\n  v_color = vec4(1, 0 , 0, 1)\n}\n\n// a grid made of points (switch to using Points primitive)\nvoid main() {\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  float x = mod(vertexId, across) / (across - 1.);\n  float y = floor(vertexId / across) / (across - 1.);\n  float u = x * 2. - 1.;\n  float v = y * 2. - 1.;\n  gl_Position = vec4(u, v, 0, 1);\n  gl_PointSize = 10.;\n  gl_PointSize *= 20. / across;\n  gl_PointSize *= resolution.x / 600.;  \n  v_color = vec4(1, 0 , 0, 1);  \n}\n\n#endif\n"
+  },
   "screenshotURL": "data/images/images-9pxc9hor06vyndqni-thumbnail.jpg",
   "hasSound": "",
   "views": {

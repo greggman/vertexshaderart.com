@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "dertrackererpro",
   "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg",
-  "settings": "{\"num\":300,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"mat2 Rotate2D(float x) {\\n  float a=sin(x), b=cos(x);\\n  return mat2(b, -a, a, b);\\n}\\n\\nvoid main () {\\n  vec3 pos = vec3((vertexId/vertexCount)*2.0, 0.0, 0.0);\\n  pos.xy *= Rotate2D(time+vertexId*2.0);\\n  vec3 clr = vec3(pos.x, pos.y, -pos.x)+0.3;\\n  pos.y*=0.3;\\n  pos.yz *= Rotate2D(time)*2.0;\\n  \\n  gl_PointSize = 3.0;\\n  gl_Position = vec4(pos, 1.0);\\n  v_color = vec4(clr, 1.0);\\n}\"}",
+  "settings": {
+    "num": 300,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "mat2 Rotate2D(float x) {\n  float a=sin(x), b=cos(x);\n  return mat2(b, -a, a, b);\n}\n\nvoid main () {\n  vec3 pos = vec3((vertexId/vertexCount)*2.0, 0.0, 0.0);\n  pos.xy *= Rotate2D(time+vertexId*2.0);\n  vec3 clr = vec3(pos.x, pos.y, -pos.x)+0.3;\n  pos.y*=0.3;\n  pos.yz *= Rotate2D(time)*2.0;\n  \n  gl_PointSize = 3.0;\n  gl_Position = vec4(pos, 1.0);\n  v_color = vec4(clr, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-httx5njufis10g6h6-thumbnail.jpg",
   "hasSound": true,
   "views": {

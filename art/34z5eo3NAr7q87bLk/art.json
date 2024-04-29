@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "mol",
   "avatarUrl": "https://secure.gravatar.com/avatar/fe5b47f4d74c95c9b38908469761a86d?default=retro&size=200",
-  "settings": "{\"num\":32,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {  \\n  gl_PointSize = 5.0;\\n  \\n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\\n  \\n  gl_Position.x = sin(time + vertexId / 32.0) / 2.0;\\n  gl_Position.y = cos(time + vertexId / 32.0) / 2.0;\\n  gl_Position.z = 0.0;\\n  gl_Position[3] = 1.0;\\n}\"}",
+  "settings": {
+    "num": 32,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {  \n  gl_PointSize = 5.0;\n  \n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\n  \n  gl_Position.x = sin(time + vertexId / 32.0) / 2.0;\n  gl_Position.y = cos(time + vertexId / 32.0) / 2.0;\n  gl_Position.z = 0.0;\n  gl_Position[3] = 1.0;\n}"
+  },
   "screenshotURL": "data/images/images-qew6lhpxsxjdo6frg-thumbnail.jpg",
   "hasSound": true,
   "views": {

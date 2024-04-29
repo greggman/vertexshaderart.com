@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "legileurs",
   "avatarUrl": "https://secure.gravatar.com/avatar/a48c633acb8ed21d176343fa75931ff6?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F8839ade8e32fd3ea8c1ca8ac8b2590a3",
-  "settings": "{\"num\":16384,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,1,1,1],\"shader\":\"void main() {\\n  gl_PointSize = 10.0;\\n  gl_Position = vec4(0.0, 0.0, 0.0, 1);\\n  v_color = vec4(0.0, 0.0, 0.0, .0);\\n}\"}",
+  "settings": {
+    "num": 16384,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main() {\n  gl_PointSize = 10.0;\n  gl_Position = vec4(0.0, 0.0, 0.0, 1);\n  v_color = vec4(0.0, 0.0, 0.0, .0);\n}"
+  },
   "screenshotURL": "data/images/images-wtvk0ys1pbuhgob7u-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":1920,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvec2 createCircle(float vertexId){\\n  float ux = floor(vertexId / 6.0) + mod(vertexId, 2.0);\\n  float vy = mod(floor(vertexId / 2.0) + floor (vertexId /3.0), 2.0);\\n  \\n  float angle = ux /20.0 * radians(180.0) * 2.0;\\n  float radius = vy + 1.0;\\n  \\n  float x = radius * cos(angle);\\n  float y = radius * sin(angle);\\n  \\n  vec2 xy = vec2(x,y);\\n  return xy;  \\n}\\n\\nvoid main() \\n{ \\n  \\n  \\n  \\n  float circleId = floor(vertexId/(20.0*6.0));\\n  float numCircles = floor(vertexCount / (20.0*6.0));\\n  \\n  float down = floor(sqrt(numCircles));\\n  float across = floor(numCircles / down);\\n  \\n  float x = mod(circleId, across);\\n  float y = floor(circleId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n  \\n  vec2 xy = createCircle(vertexId) * 0.1 + vec2(ux,vy)*0.7;\\n  \\n  gl_Position= vec4(xy , 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 1920,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvec2 createCircle(float vertexId){\n  float ux = floor(vertexId / 6.0) + mod(vertexId, 2.0);\n  float vy = mod(floor(vertexId / 2.0) + floor (vertexId /3.0), 2.0);\n  \n  float angle = ux /20.0 * radians(180.0) * 2.0;\n  float radius = vy + 1.0;\n  \n  float x = radius * cos(angle);\n  float y = radius * sin(angle);\n  \n  vec2 xy = vec2(x,y);\n  return xy;  \n}\n\nvoid main() \n{ \n  \n  \n  \n  float circleId = floor(vertexId/(20.0*6.0));\n  float numCircles = floor(vertexCount / (20.0*6.0));\n  \n  float down = floor(sqrt(numCircles));\n  float across = floor(numCircles / down);\n  \n  float x = mod(circleId, across);\n  float y = floor(circleId / across);\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float ux = u * 2.0 - 1.0;\n  float vy = v * 2.0 - 1.0;\n  \n  vec2 xy = createCircle(vertexId) * 0.1 + vec2(ux,vy)*0.7;\n  \n  gl_Position= vec4(xy , 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-xsqe39n7zycs1psmt-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "ilyadorosh",
   "avatarUrl": "https://avatars.githubusercontent.com/ilyadorosh?s=200",
-  "settings": "{\"num\":10000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159\\n#define NUM_SEGMENTS 21.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n//#define FIT_VERTICAL\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\nvec3 inv(vec3 a){return 1.-a;}\\n\\n\\nvoid main() {\\n  float localTime = time + 20.0;\\n  float v = vertexId;\\n  float vertex = mod(v, 6.);\\n  v = (v-vertex)/6.;\\n  float a1 = mod(v, 32.);\\n  v = (v-a1)/32.;\\n  float a2 = v-8.;\\n  \\n  float a1n = (a1+.5)/32.*2.*PI;\\n  float a2n = (a2+.5)/32.*2.*PI;\\n  \\n  a1 += mod(vertex,2.);\\n  a2 += vertex==2.||vertex>=4.?1.:0.;\\n  \\n  a1 = a1/32.*2.*PI;\\n  a2 = a2/32.*2.*PI;\\n  \\n  vec3 pos = vec3(cos(a1)*cos(a2),sin(a2),sin(a1)*cos(a2));\\n  vec3 norm = vec3(cos(a1n)*cos(a2n),sin(a2n),sin(a1n)*cos(a2n));\\n  \\n  \\n  pos.xz *= mat2(cos(time),sin(time),-sin(time),cos(time));\\n  pos.yz *= mat2(cos(time),sin(time),-sin(time),cos(time));\\n  norm.xz *= mat2(cos(time),sin(time),-sin(time),cos(time));\\n  norm.yz *= mat2(cos(time),sin(time),-sin(time),cos(time));\\n  \\n\\n  float a = pos.x;\\n  a = fract(sin(dot(floor(pos.xy*8.0+time*2.0),vec2(5.34,6.57)))*37.536);\\n  //a=2.*a-1.;\\n  vec3 color = vec3(a, -a, abs(a));\\n  color = inv(color);  \\n  \\n  \\n  gl_Position = vec4(pos.x*resolution.y/resolution.x,pos.y, pos.z*.5+.5, 1);\\n  \\n\\n\\n  v_color = vec4(color, 1);\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI 3.14159\n#define NUM_SEGMENTS 21.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 5.0\n//#define FIT_VERTICAL\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\nvec3 inv(vec3 a){return 1.-a;}\n\n\nvoid main() {\n  float localTime = time + 20.0;\n  float v = vertexId;\n  float vertex = mod(v, 6.);\n  v = (v-vertex)/6.;\n  float a1 = mod(v, 32.);\n  v = (v-a1)/32.;\n  float a2 = v-8.;\n  \n  float a1n = (a1+.5)/32.*2.*PI;\n  float a2n = (a2+.5)/32.*2.*PI;\n  \n  a1 += mod(vertex,2.);\n  a2 += vertex==2.||vertex>=4.?1.:0.;\n  \n  a1 = a1/32.*2.*PI;\n  a2 = a2/32.*2.*PI;\n  \n  vec3 pos = vec3(cos(a1)*cos(a2),sin(a2),sin(a1)*cos(a2));\n  vec3 norm = vec3(cos(a1n)*cos(a2n),sin(a2n),sin(a1n)*cos(a2n));\n  \n  \n  pos.xz *= mat2(cos(time),sin(time),-sin(time),cos(time));\n  pos.yz *= mat2(cos(time),sin(time),-sin(time),cos(time));\n  norm.xz *= mat2(cos(time),sin(time),-sin(time),cos(time));\n  norm.yz *= mat2(cos(time),sin(time),-sin(time),cos(time));\n  \n\n  float a = pos.x;\n  a = fract(sin(dot(floor(pos.xy*8.0+time*2.0),vec2(5.34,6.57)))*37.536);\n  //a=2.*a-1.;\n  vec3 color = vec3(a, -a, abs(a));\n  color = inv(color);  \n  \n  \n  gl_Position = vec4(pos.x*resolution.y/resolution.x,pos.y, pos.z*.5+.5, 1);\n  \n\n\n  v_color = vec4(color, 1);\n}"
+  },
   "screenshotURL": "data/images/images-fmf4u4b08aqjtuiac-thumbnail.jpg",
   "hasSound": "",
   "views": {

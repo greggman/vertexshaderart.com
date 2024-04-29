@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "chemlo",
   "avatarUrl": "https://secure.gravatar.com/avatar/bd1fc3e2f0d77392e06266faedc63267?default=retro&size=200",
-  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec3 posf2(float t, float i) {\\n\\treturn vec3(\\n      sin(t+i*.9553) +\\n      sin(t*1.311+i) +\\n      sin(t*1.4+i*1.53) +\\n      sin(t*1.84+i*.76),\\n      sin(t+i*.79553+2.1) +\\n      sin(t*1.311+i*1.1311+2.1) +\\n      sin(t*1.4+i*1.353-2.1) +\\n      sin(t*1.84+i*.476-2.1),\\n      sin(t+i*.5553-2.1) +\\n      sin(t*1.311+i*1.1-2.1) +\\n      sin(t*1.4+i*1.23+2.1) +\\n      sin(t*1.84+i*.36+2.1)\\n\\t)*.2;\\n}\\n\\nvoid main() {\\n  float t = time*.20;\\n  float i = vertexId+sin(vertexId)*100.;\\n  \\n  vec3 pos = posf2(t, i);\\n  \\n  pos.yz *= mat2(.8,.6,-.6,.8);\\n  pos.xz *= mat2(.8,.6,-.6,.8);\\n  \\n  gl_PointSize = 1.+pos.z*5.;\\n  gl_Position = vec4(pos.x, pos.y, pos.z, 1);\\n  v_color = vec4(pos.z*10., 0. , -pos.z*10., 1);\\n}\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "vec3 posf2(float t, float i) {\n\treturn vec3(\n      sin(t+i*.9553) +\n      sin(t*1.311+i) +\n      sin(t*1.4+i*1.53) +\n      sin(t*1.84+i*.76),\n      sin(t+i*.79553+2.1) +\n      sin(t*1.311+i*1.1311+2.1) +\n      sin(t*1.4+i*1.353-2.1) +\n      sin(t*1.84+i*.476-2.1),\n      sin(t+i*.5553-2.1) +\n      sin(t*1.311+i*1.1-2.1) +\n      sin(t*1.4+i*1.23+2.1) +\n      sin(t*1.84+i*.36+2.1)\n\t)*.2;\n}\n\nvoid main() {\n  float t = time*.20;\n  float i = vertexId+sin(vertexId)*100.;\n  \n  vec3 pos = posf2(t, i);\n  \n  pos.yz *= mat2(.8,.6,-.6,.8);\n  pos.xz *= mat2(.8,.6,-.6,.8);\n  \n  gl_PointSize = 1.+pos.z*5.;\n  gl_Position = vec4(pos.x, pos.y, pos.z, 1);\n  v_color = vec4(pos.z*10., 0. , -pos.z*10., 1);\n}"
+  },
   "screenshotURL": "data/images/images-4rlgpo9b58z2994kn-thumbnail.jpg",
   "hasSound": "",
   "views": {

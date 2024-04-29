@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "allen",
   "avatarUrl": "https://lh3.googleusercontent.com/a-/ACNPEu_O3bvsyDIr94ZElp2XWO7TMHPnxykRhtxM_15luA=s96-c",
-  "settings": "{\"num\":2532,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec3 hsv2rgb(vec3 c)\\n{\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n\\nvoid main() {\\n  \\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float xoff = sin(time + y * 0.2) * 0.5;\\n  float yoff = sin(time + x * 0.7) * 0.1;\\n  \\n  float ux = u * 2.0 - 1.0 + xoff;\\n  float vy = v * 2.0 - 1.0 + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 0.75;\\n\\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time + x * vy * 0.05) * 10.0;\\n  \\n  gl_PointSize = 1.5 + soff;\\n  gl_PointSize *= 25.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  \\n  float hue = u * time + 0.5;\\n  float sat = 1.0 * (time * 0.5);\\n  float value = sin(u * 20.0) * 0.5 + 0.5;\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, value)), 1);\\n\\n\\n}\"}",
+  "settings": {
+    "num": 2532,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "vec3 hsv2rgb(vec3 c)\n{\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\n\nvoid main() {\n  \n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float xoff = sin(time + y * 0.2) * 0.5;\n  float yoff = sin(time + x * 0.7) * 0.1;\n  \n  float ux = u * 2.0 - 1.0 + xoff;\n  float vy = v * 2.0 - 1.0 + yoff;\n  \n  vec2 xy = vec2(ux, vy) * 0.75;\n\n  gl_Position = vec4(xy, 0, 1);\n  \n  float soff = sin(time + x * vy * 0.05) * 10.0;\n  \n  gl_PointSize = 1.5 + soff;\n  gl_PointSize *= 25.0 / across;\n  gl_PointSize *= resolution.x / 600.0;\n  \n  \n  float hue = u * time + 0.5;\n  float sat = 1.0 * (time * 0.5);\n  float value = sin(u * 20.0) * 0.5 + 0.5;\n  \n  v_color = vec4(hsv2rgb(vec3(hue, sat, value)), 1);\n\n\n}"
+  },
   "screenshotURL": "data/images/images-g9118lb45fnrmohh6-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "jamination",
   "avatarUrl": "https://secure.gravatar.com/avatar/bd499cc8eca0978852d6d5748be7baed?default=retro&size=200",
-  "settings": "{\"num\":10000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 21.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nfloat x = 0.0;\\n\\nvoid main() {\\n  gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 3.0;\\n  v_color = vec4(100.0, 0.0, 10.0, 255.0);\\n  x += .01;\\n}\"}",
+  "settings": {
+    "num": 10000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n#define NUM_SEGMENTS 21.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 5.0\n\nfloat x = 0.0;\n\nvoid main() {\n  gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\n  gl_PointSize = 3.0;\n  v_color = vec4(100.0, 0.0, 10.0, 255.0);\n  x += .01;\n}"
+  },
   "screenshotURL": "data/images/images-ib0xy16o7p5iqobnj-thumbnail.jpg",
   "hasSound": "",
   "views": {

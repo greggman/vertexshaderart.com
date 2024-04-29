@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gman",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
-  "settings": "{\"num\":1,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n\\nfloat pulse(float t) {\\n  return pow(t, 2.);\\n}\\n\\nvoid main() {\\n  float t = fract(time / 1.5);\\n  float scale = 1. - \\n      pulse(step(0.9, t) * (1. - t) * 10.0) * .1 -\\n      pulse(step(0.7, t) * step(t, 0.8) * (0.8 - t) * 10.0) * .4;\\n    \\n  gl_PointSize = scale * 200.0;\\n  gl_Position = vec4(0, 0, 0, 1);\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 1,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n\nfloat pulse(float t) {\n  return pow(t, 2.);\n}\n\nvoid main() {\n  float t = fract(time / 1.5);\n  float scale = 1. - \n      pulse(step(0.9, t) * (1. - t) * 10.0) * .1 -\n      pulse(step(0.7, t) * step(t, 0.8) * (0.8 - t) * 10.0) * .4;\n    \n  gl_PointSize = scale * 200.0;\n  gl_Position = vec4(0, 0, 0, 1);\n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-wm1t78vrooq294oag-thumbnail.jpg",
   "hasSound": "",
   "views": {

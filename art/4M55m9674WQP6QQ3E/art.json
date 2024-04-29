@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "mats",
   "avatarUrl": "https://lh3.googleusercontent.com/-oRuhWa2k-Mg/AAAAAAAAAAI/AAAAAAAABAM/VJyYs7ET7R4/photo.jpg",
-  "settings": "{\"num\":1914,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/mickenilsson/ut-ni-on\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n#define PI radians(180.0)\\nvoid main() {\\n\\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor(vertexCount/ down);\\n  \\n\\tfloat x = mod(vertexId, across);\\n\\tfloat y = floor(vertexId / across);\\n\\n  \\tfloat u = x / (across - 1.);\\n  \\tfloat v = y / (across - 1.);\\n\\n  \\tfloat xoff = sin(time + y * .2) * 0.1;\\n  \\tfloat yoff = sin(time + x * .3) * 0.2;\\n\\n  \\t\\n  \\tfloat ux = u * 2. - 1. + xoff;\\n  \\tfloat vy = v * 2. - 1. + yoff;\\n  \\n\\tvec2 xy = vec2(ux,vy) * 1.3;\\n    \\n\\n    float sv = abs(v - 0.5) * 2.;\\n  \\tfloat su = abs(u - 0.5) * 2.;\\n   \\tfloat au = abs(atan(su,sv)) / PI;\\n  \\tfloat av = length(vec2(su, sv));\\n\\n\\tfloat snd = texture2D(sound, vec2(su * .125, sv * .25)).a;\\n  \\t\\n  \\tgl_Position = vec4(xy, 0, 1);\\n  \\n  \\tfloat soff = sin(time + x * y * 0.02) * 5.;\\n  \\n    gl_PointSize = snd * 30. + soff;\\n    gl_PointSize *= 20. /across;\\n    gl_PointSize *= resolution.x /600.;\\n\\n  \\tfloat pump= step(0.8, snd);\\n  \\tfloat hue = u * .1 + snd * 0.2 + time; // u * .1 + sin(time + v * 20.) * 0.05;\\n  \\tfloat sat = mix(0., 1., pump); // mix(1., -10., av);\\n  \\tfloat val = pow(snd + 0.2, 5.); // 1.; // sin(time + v * u *20.0) * .5 + .5;\\n    v_color = vec4(hsv2rgb(vec3(hue, sat, val)),1);\\n  \\n}\"}",
+  "settings": {
+    "num": 1914,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/mickenilsson/ut-ni-on",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "vec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\n#define PI radians(180.0)\nvoid main() {\n\tfloat down = floor(sqrt(vertexCount));\n  \tfloat across = floor(vertexCount/ down);\n  \n\tfloat x = mod(vertexId, across);\n\tfloat y = floor(vertexId / across);\n\n  \tfloat u = x / (across - 1.);\n  \tfloat v = y / (across - 1.);\n\n  \tfloat xoff = sin(time + y * .2) * 0.1;\n  \tfloat yoff = sin(time + x * .3) * 0.2;\n\n  \t\n  \tfloat ux = u * 2. - 1. + xoff;\n  \tfloat vy = v * 2. - 1. + yoff;\n  \n\tvec2 xy = vec2(ux,vy) * 1.3;\n    \n\n    float sv = abs(v - 0.5) * 2.;\n  \tfloat su = abs(u - 0.5) * 2.;\n   \tfloat au = abs(atan(su,sv)) / PI;\n  \tfloat av = length(vec2(su, sv));\n\n\tfloat snd = texture2D(sound, vec2(su * .125, sv * .25)).a;\n  \t\n  \tgl_Position = vec4(xy, 0, 1);\n  \n  \tfloat soff = sin(time + x * y * 0.02) * 5.;\n  \n    gl_PointSize = snd * 30. + soff;\n    gl_PointSize *= 20. /across;\n    gl_PointSize *= resolution.x /600.;\n\n  \tfloat pump= step(0.8, snd);\n  \tfloat hue = u * .1 + snd * 0.2 + time; // u * .1 + sin(time + v * 20.) * 0.05;\n  \tfloat sat = mix(0., 1., pump); // mix(1., -10., av);\n  \tfloat val = pow(snd + 0.2, 5.); // 1.; // sin(time + v * u *20.0) * .5 + .5;\n    v_color = vec4(hsv2rgb(vec3(hue, sat, val)),1);\n  \n}"
+  },
   "screenshotURL": "data/images/images-seeup7nsfm0uuf2bg-thumbnail.jpg",
   "hasSound": true,
   "views": {

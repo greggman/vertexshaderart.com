@@ -2120,7 +2120,7 @@ define([
       try {
         const res = await fetch(`../art/${q.art}/art.json`);
         const art = await res.json();
-        settings = JSON.parse(art.settings);
+        settings = art.settings;
         options.screenshotURL = `../${art.screenshotURL}`;
       } catch {
         settings = s.sets.default;

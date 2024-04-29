@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "clydepashley",
   "avatarUrl": "https://avatars.githubusercontent.com/clydepashley?s=200",
-  "settings": "{\"num\":20,\"mode\":\"TRI_FAN\",\"sound\":\"https://soundcloud.com/wondem/01-veggie-wondem-ras-g-sd-master01wav\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  float down = floor(sqrt (vertexCount));\\n  float across = floor (vertexCount / down);\\n  \\n  //Create Grid\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  //Respace out\\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  x = u;\\n  y = v;\\n  \\n  //Move back around origin\\n  x = x * 2. - 1.;\\n  y = y * 2. - 1.;\\n  \\n\\n  float snd = texture2D(sound, vec2(u, 0.)).a;\\n  float sin_thing = sin(vertexId + snd);  \\n  //Sin\\n \\n  x = sin(x+(snd/6.)/y);\\n  //y = cos(x+(snd/1000.)/y/(snd/1000.));\\n  \\n  //Comment and uncomment here, and change vertexCount to 10, 20, 50, 5000\\n  //y = cos(x+(snd/10.))*3.5 - 2.9;\\n  //y = cos(y+(snd/10.))*3.5 - 2.9;\\n  \\n\\n  \\n  gl_Position = vec4(x,y,0,1);\\n  gl_PointSize = sin_thing * 10.;\\n  //v_color = vec4(snd * 4., sin_thing * 20.,mod(snd,1.),1);\\n  //v_color = vec4(snd+snd, mod(snd, 0.5) , mod(snd,1.3),1);\\n  v_color = vec4(mod(sin_thing,2.), sin_thing *  2.,mod(sin_thing,1.),1);\\n  //v_color = vec4(snd * snd, sin_thing * 20.,mod(snd,1.),1);\\n}\"}",
+  "settings": {
+    "num": 20,
+    "mode": "TRI_FAN",
+    "sound": "https://soundcloud.com/wondem/01-veggie-wondem-ras-g-sd-master01wav",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  \n  float down = floor(sqrt (vertexCount));\n  float across = floor (vertexCount / down);\n  \n  //Create Grid\n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  //Respace out\n  float u = x / (across - 1.);\n  float v = y / (across - 1.);\n  x = u;\n  y = v;\n  \n  //Move back around origin\n  x = x * 2. - 1.;\n  y = y * 2. - 1.;\n  \n\n  float snd = texture2D(sound, vec2(u, 0.)).a;\n  float sin_thing = sin(vertexId + snd);  \n  //Sin\n \n  x = sin(x+(snd/6.)/y);\n  //y = cos(x+(snd/1000.)/y/(snd/1000.));\n  \n  //Comment and uncomment here, and change vertexCount to 10, 20, 50, 5000\n  //y = cos(x+(snd/10.))*3.5 - 2.9;\n  //y = cos(y+(snd/10.))*3.5 - 2.9;\n  \n\n  \n  gl_Position = vec4(x,y,0,1);\n  gl_PointSize = sin_thing * 10.;\n  //v_color = vec4(snd * 4., sin_thing * 20.,mod(snd,1.),1);\n  //v_color = vec4(snd+snd, mod(snd, 0.5) , mod(snd,1.3),1);\n  v_color = vec4(mod(sin_thing,2.), sin_thing *  2.,mod(sin_thing,1.),1);\n  //v_color = vec4(snd * snd, sin_thing * 20.,mod(snd,1.),1);\n}"
+  },
   "screenshotURL": "data/images/images-0rk8g3bz49roxuanf-thumbnail.jpg",
   "hasSound": true,
   "views": {

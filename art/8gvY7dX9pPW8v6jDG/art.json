@@ -27,7 +27,19 @@
   "name": "cubez",
   "private": true,
   "username": "torokati44",
-  "settings": "{\"num\":1084,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float localVertexId = mod(vertexId, 36.0);\\n  float triangleVertexId = mod(localVertexId, 6.0);\\n  float faceId = (localVertexId - triangleVertexId);\\n  float cubeId = (vertexId - localVertexId) / 36.0;\\n  \\n\\n  gl_Position = vec4(cubeId/100.0, (faceId * 1.0 + localVertexId)/100.0, 0.0, 1.0);\\n\\n  v_color = vec4(hsv2rgb(vec3(faceId/10.0, 1.0, 1.0)), 1.0);\\n}\"}",
+  "settings": {
+    "num": 1084,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  float localVertexId = mod(vertexId, 36.0);\n  float triangleVertexId = mod(localVertexId, 6.0);\n  float faceId = (localVertexId - triangleVertexId);\n  float cubeId = (vertexId - localVertexId) / 36.0;\n  \n\n  gl_Position = vec4(cubeId/100.0, (faceId * 1.0 + localVertexId)/100.0, 0.0, 1.0);\n\n  v_color = vec4(hsv2rgb(vec3(faceId/10.0, 1.0, 1.0)), 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-tfdol5bkc2nomub1m-thumbnail.jpg",
   "views": {
     "$numberInt": "2"

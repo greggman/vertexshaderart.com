@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "julien",
   "avatarUrl": "https://avatars.githubusercontent.com/julien?s=200",
-  "settings": "{\"num\":2093,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.8,1],\"shader\":\"\\n\\nvoid main() {\\n  \\n  float down = floor(sqrt(vertexCount));\\n  \\n  float across = floor(vertexCount / down);\\n  \\n  \\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n\\n  \\n  gl_Position = vec4(ux, vy, 0.0, 1.0);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 2093,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0.8,
+      1
+    ],
+    "shader": "\n\nvoid main() {\n  \n  float down = floor(sqrt(vertexCount));\n  \n  float across = floor(vertexCount / down);\n  \n  \n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float ux = u * 2.0 - 1.0;\n  float vy = v * 2.0 - 1.0;\n\n  \n  gl_Position = vec4(ux, vy, 0.0, 1.0);\n  \n  gl_PointSize = 10.0;\n  gl_PointSize *= 20.0 / across;\n  gl_PointSize *= resolution.x / 600.0;\n  \n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-jcu8peaevtn37nwzb-thumbnail.jpg",
   "hasSound": "",
   "views": {

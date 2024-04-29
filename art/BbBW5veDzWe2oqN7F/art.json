@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "다은",
   "avatarUrl": "https://lh3.googleusercontent.com/--VGFNmU3UuQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rekfGpN6byv9fIvs3pAjQAlrfA__A/mo/photo.jpg",
-  "settings": "{\"num\":20000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"// your name (daeun Jeong)\\n// the assignment number (03)\\n// the course name (CS230)\\n// the term (Spring 2019)\\n\\nvoid main() \\n{ \\n  float xOff = sin(time) * 0.2;\\n  \\n  float yOff = cos(time) * 0.2;\\n  \\n  float blueOff = abs(cos(time));\\n  \\n  float alphaOff = abs(sin(time)) + 0.5;\\n  \\n  float sizeOff = abs(sin(time)) * 10.0 + 10.0;\\n  \\n  vec4 pos = vec4(mouse.x + xOff, mouse.y + yOff, 0.0, 1.0);\\n  \\n  gl_Position =  pos;\\n  \\n  gl_PointSize = sizeOff;\\n  \\n  v_color = vec4(0.1, 0.1, blueOff, alphaOff);\\n}\"}",
+  "settings": {
+    "num": 20000,
+    "mode": "LINES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "// your name (daeun Jeong)\n// the assignment number (03)\n// the course name (CS230)\n// the term (Spring 2019)\n\nvoid main() \n{ \n  float xOff = sin(time) * 0.2;\n  \n  float yOff = cos(time) * 0.2;\n  \n  float blueOff = abs(cos(time));\n  \n  float alphaOff = abs(sin(time)) + 0.5;\n  \n  float sizeOff = abs(sin(time)) * 10.0 + 10.0;\n  \n  vec4 pos = vec4(mouse.x + xOff, mouse.y + yOff, 0.0, 1.0);\n  \n  gl_Position =  pos;\n  \n  gl_PointSize = sizeOff;\n  \n  v_color = vec4(0.1, 0.1, blueOff, alphaOff);\n}"
+  },
   "screenshotURL": "data/images/images-6k5lpd957exe7mumy-thumbnail.jpg",
   "hasSound": "",
   "views": {

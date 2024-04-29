@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "minkicho",
   "avatarUrl": "https://secure.gravatar.com/avatar/d60bba6d40dad392ba0244fbcca8d579?default=retro&size=200",
-  "settings": "{\"num\":3233,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"\\n// Minki Cho\\n// Exercise Grid\\n// CS250 Spring 2022\\n\\n\\nvoid main() \\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n\\n  float speed = 2.5;\\n  ux += sin(time * speed + u * 3. + vy * 0.5) * 0.06;\\n  vy += cos(time * speed + v * 3. + ux * 0.5) * 0.1;\\n  \\n  gl_Position = vec4(vy, ux, 0, 1);\\n\\n  gl_PointSize = sin(time)*10.0;\\n  gl_PointSize *= resolution.x / 800.0;\\n\\n  vec4 color1 = vec4(0.0, sin(time * 0.5) * 0.5 + 0.5, 0.0, 1.0);\\n  vec4 color2 = vec4(0.0, 0.0, cos(time * 1.5) * 0.5 + 0.5, 1.0);\\n  vec4 blendedColor = mix(color1, color2, (sin(time * 1.5) + 1.0) * 0.5);\\n  \\n  vec4 pointColor = vec4(ux, 1.0 - vy, 1., 1.0);\\n  v_color = mix(blendedColor, pointColor, 0.5);\\n}\"}",
+  "settings": {
+    "num": 3233,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "\n// Minki Cho\n// Exercise Grid\n// CS250 Spring 2022\n\n\nvoid main() \n{\n  float down = floor(sqrt(vertexCount));\n  float across = floor(vertexCount / down);\n  \n  float x = mod(vertexId, across);\n  float y = floor(vertexId / across);\n  \n  float u = x / (across - 1.0);\n  float v = y / (across - 1.0);\n  \n  float ux = u * 2.0 - 1.0;\n  float vy = v * 2.0 - 1.0;\n\n  float speed = 2.5;\n  ux += sin(time * speed + u * 3. + vy * 0.5) * 0.06;\n  vy += cos(time * speed + v * 3. + ux * 0.5) * 0.1;\n  \n  gl_Position = vec4(vy, ux, 0, 1);\n\n  gl_PointSize = sin(time)*10.0;\n  gl_PointSize *= resolution.x / 800.0;\n\n  vec4 color1 = vec4(0.0, sin(time * 0.5) * 0.5 + 0.5, 0.0, 1.0);\n  vec4 color2 = vec4(0.0, 0.0, cos(time * 1.5) * 0.5 + 0.5, 1.0);\n  vec4 blendedColor = mix(color1, color2, (sin(time * 1.5) + 1.0) * 0.5);\n  \n  vec4 pointColor = vec4(ux, 1.0 - vy, 1., 1.0);\n  v_color = mix(blendedColor, pointColor, 0.5);\n}"
+  },
   "screenshotURL": "data/images/images-fi07ve1bi59fpi0c9-thumbnail.jpg",
   "hasSound": "",
   "views": {

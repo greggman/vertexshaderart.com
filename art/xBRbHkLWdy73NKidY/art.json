@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "vincent23",
   "avatarUrl": "https://avatars.githubusercontent.com/vincent23?s=200",
-  "settings": "{\"num\":24,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec4 quad(int id) {\\n  if (id == 0) {\\n    return vec4(-1, 1, 0, 1);\\n  } else if (id == 1 || id == 4) {\\n    return vec4(-1, -1, 0, 1);\\n  } else if (id == 2 || id == 3) {\\n    return vec4(1, 1, 0, 1);\\n  } else if (id == 5) {\\n    return vec4(1, -1, 0, 1);\\n  } else {\\n  \\treturn vec4(0);\\n  }\\n}\\n\\nvoid scale(inout vec4 v, vec3 scale) {\\n\\tv.xyz *= scale;\\n}\\n\\nvoid scale(inout float v, float scale) {\\n\\tv *= scale;\\n}\\n\\nvoid trans(inout vec4 v, vec3 trans) {\\n\\tv.xyz += trans;\\n}\\n\\nvoid trans(inout float v, float trans) {\\n\\tv += trans;\\n}\\n\\nfloat duplicate(inout int id, int n) {\\n  if (id < n) {\\n  \\treturn -1.;\\n  } else {\\n  \\tid -= n;\\n    return 1.;\\n  }\\n}\\n\\nvoid main() {\\n  int id = int(vertexId);\\n  float side2 = duplicate(id, 12);\\n  float side = duplicate(id, 6);\\n  vec4 q = quad(id);\\n  scale(q, vec3(.3));\\n  trans(q.y, side * .4);\\n  trans(q.x, side2 * .4);\\n  trans(q.x, sin(time));\\n  scale(q.x, resolution.y / resolution.x);\\n  gl_Position = q;\\n  v_color = vec4(1);\\n}\"}",
+  "settings": {
+    "num": 24,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "vec4 quad(int id) {\n  if (id == 0) {\n    return vec4(-1, 1, 0, 1);\n  } else if (id == 1 || id == 4) {\n    return vec4(-1, -1, 0, 1);\n  } else if (id == 2 || id == 3) {\n    return vec4(1, 1, 0, 1);\n  } else if (id == 5) {\n    return vec4(1, -1, 0, 1);\n  } else {\n  \treturn vec4(0);\n  }\n}\n\nvoid scale(inout vec4 v, vec3 scale) {\n\tv.xyz *= scale;\n}\n\nvoid scale(inout float v, float scale) {\n\tv *= scale;\n}\n\nvoid trans(inout vec4 v, vec3 trans) {\n\tv.xyz += trans;\n}\n\nvoid trans(inout float v, float trans) {\n\tv += trans;\n}\n\nfloat duplicate(inout int id, int n) {\n  if (id < n) {\n  \treturn -1.;\n  } else {\n  \tid -= n;\n    return 1.;\n  }\n}\n\nvoid main() {\n  int id = int(vertexId);\n  float side2 = duplicate(id, 12);\n  float side = duplicate(id, 6);\n  vec4 q = quad(id);\n  scale(q, vec3(.3));\n  trans(q.y, side * .4);\n  trans(q.x, side2 * .4);\n  trans(q.x, sin(time));\n  scale(q.x, resolution.y / resolution.x);\n  gl_Position = q;\n  v_color = vec4(1);\n}"
+  },
   "screenshotURL": "data/images/images-j1ekwaw2srvnhdd6t-thumbnail.jpg",
   "hasSound": "",
   "views": {

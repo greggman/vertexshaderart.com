@@ -21,7 +21,19 @@
   "origId": "asSnAehpD5b5tuJ27",
   "name": "round",
   "username": "artsime",
-  "settings": "{\"num\":88796,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/jamie-berry/jamie-berry-sweet-rascal-original-mix-free-download\",\"lineSize\":\"CSS\",\"backgroundColor\":[0.12941176470588237,0.01568627450980392,0.07058823529411765,1],\"shader\":\"#define NUM_SEGMENTS 64.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n#define NUM_LINES_DOWN 32.0\\n#define PI 3.14159\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 5.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 16.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  // produces 0,1, 1,2, 2,3, ...\\n  float point = floor(mod(vertexId, NUM_POINTS) / 2.0) + mod(vertexId, 1500.0) * STEP;\\n  // line count\\n  float count = floor(vertexId / NUM_POINTS);\\n\\n  float u = point / NUM_SEGMENTS;    // 0 <-> 1 across line\\n  float v = count / NUM_LINES_DOWN;  // 0 <-> 1 by line\\n  float invV = 1.2 - v;\\n\\n  // Only use the left most 1/4th of the sound texture\\n  // because there's no action on the right\\n  float historyX = u * 0.300;\\n  // Match each line to a specific row in the sound texture\\n  float historyV = (v * NUM_LINES_DOWN + 0.5) / soundRes.y;\\n  float snd = texture2D(sound, vec2(historyX, historyV)).a;\\n  \\n  gl_PointSize = min(32.0, 3.0 + pow((snd + 0.2) * 1.5, 10.0) * mix(13.0, 0.3, v));\\n\\n  float x = u * PI * 1400.0 + snd - 0.5 + sin(count + time * 0.00000) * 0.1450;\\n  float y = v - pow(snd, 1.5) * 0.4 + 0.5;\\n  float c = cos(x);\\n  float s = sin(x);\\n  vec2 xy = vec2(c * y, s * y);\\n  gl_Position = vec4(xy, 0, 1);\\n\\n  float hue = u;\\n  float sat = invV;\\n  float val = 1.0;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "settings": {
+    "num": 88796,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/jamie-berry/jamie-berry-sweet-rascal-original-mix-free-download",
+    "lineSize": "CSS",
+    "backgroundColor": [
+      0.12941176470588237,
+      0.01568627450980392,
+      0.07058823529411765,
+      1
+    ],
+    "shader": "#define NUM_SEGMENTS 64.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n#define NUM_LINES_DOWN 32.0\n#define PI 3.14159\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 5.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 16.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  // produces 0,1, 1,2, 2,3, ...\n  float point = floor(mod(vertexId, NUM_POINTS) / 2.0) + mod(vertexId, 1500.0) * STEP;\n  // line count\n  float count = floor(vertexId / NUM_POINTS);\n\n  float u = point / NUM_SEGMENTS;    // 0 <-> 1 across line\n  float v = count / NUM_LINES_DOWN;  // 0 <-> 1 by line\n  float invV = 1.2 - v;\n\n  // Only use the left most 1/4th of the sound texture\n  // because there's no action on the right\n  float historyX = u * 0.300;\n  // Match each line to a specific row in the sound texture\n  float historyV = (v * NUM_LINES_DOWN + 0.5) / soundRes.y;\n  float snd = texture2D(sound, vec2(historyX, historyV)).a;\n  \n  gl_PointSize = min(32.0, 3.0 + pow((snd + 0.2) * 1.5, 10.0) * mix(13.0, 0.3, v));\n\n  float x = u * PI * 1400.0 + snd - 0.5 + sin(count + time * 0.00000) * 0.1450;\n  float y = v - pow(snd, 1.5) * 0.4 + 0.5;\n  float c = cos(x);\n  float s = sin(x);\n  vec2 xy = vec2(c * y, s * y);\n  gl_Position = vec4(xy, 0, 1);\n\n  float hue = u;\n  float sat = invV;\n  float val = 1.0;\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\n}"
+  },
   "screenshotDataId": "guDSJocAmZP4fmhiG",
   "views": {
     "$numberInt": "238"

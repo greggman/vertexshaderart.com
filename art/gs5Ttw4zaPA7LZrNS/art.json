@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "theflyingd",
   "avatarUrl": "https://avatars.githubusercontent.com/theflyingd?s=200",
-  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  float down = floor(sqrt(vertexCount));\\n  float accross = floor(vertexCount/down);\\n \\n  float x =mod(vertexId, accross);\\n  float y =floor(vertexId /accross);\\n  \\n  float u = x/(accross- 1.);\\n  float v = y/(accross- 1.);\\n  \\n  float ux = u * 2. -1.; \\n  float vy = v * 2. -1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n   \\n  gl_PointSize = 10.0;\\n    \\n   \\n  v_color = vec4(1, 0, 1, 1);\\n    \\n \\n\\n}\\n\"}",
+  "settings": {
+    "num": 100,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n  \n  float down = floor(sqrt(vertexCount));\n  float accross = floor(vertexCount/down);\n \n  float x =mod(vertexId, accross);\n  float y =floor(vertexId /accross);\n  \n  float u = x/(accross- 1.);\n  float v = y/(accross- 1.);\n  \n  float ux = u * 2. -1.; \n  float vy = v * 2. -1.;\n  \n  gl_Position = vec4(ux, vy, 0, 1);\n   \n  gl_PointSize = 10.0;\n    \n   \n  v_color = vec4(1, 0, 1, 1);\n    \n \n\n}\n"
+  },
   "screenshotURL": "data/images/images-vclafltm3cvm65b2v-thumbnail.jpg",
   "hasSound": "",
   "views": {

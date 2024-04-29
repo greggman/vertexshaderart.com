@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "willy",
   "avatarUrl": "https://graph.facebook.com/10100732765030221/picture?type=large",
-  "settings": "{\"num\":551,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.25098039215686274,1],\"shader\":\"\\nvoid main() {\\n  \\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor(vertexCount / down);\\n  \\n  \\tfloat x = mod(vertexId, across);\\n  \\tfloat y = floor(vertexId / across);\\n  \\n  \\tfloat u = x / (across - 1.);\\n  \\tfloat v = y / (across - 1.0);\\n  \\n  \\tfloat ux = u * 2. - 1.;\\n  \\tfloat vy = v * 2. - 1.;\\n  \\n\\tgl_Position = vec4(ux, vy, 0, 1);\\n  \\tgl_PointSize = 10.0;\\n  \\tgl_PointSize *= 20./ across;\\n  \\tgl_PointSize *= resolution.x / 600.;\\n  \\tv_color = vec4(1.0, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 551,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0.25098039215686274,
+      1
+    ],
+    "shader": "\nvoid main() {\n  \tfloat down = floor(sqrt(vertexCount));\n  \tfloat across = floor(vertexCount / down);\n  \n  \tfloat x = mod(vertexId, across);\n  \tfloat y = floor(vertexId / across);\n  \n  \tfloat u = x / (across - 1.);\n  \tfloat v = y / (across - 1.0);\n  \n  \tfloat ux = u * 2. - 1.;\n  \tfloat vy = v * 2. - 1.;\n  \n\tgl_Position = vec4(ux, vy, 0, 1);\n  \tgl_PointSize = 10.0;\n  \tgl_PointSize *= 20./ across;\n  \tgl_PointSize *= resolution.x / 600.;\n  \tv_color = vec4(1.0, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-dbzsy7oxa24xpr3cn-thumbnail.jpg",
   "hasSound": "",
   "views": {

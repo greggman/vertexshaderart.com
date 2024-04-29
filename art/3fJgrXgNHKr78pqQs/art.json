@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":16005,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\nvoid main() {\\n  vec3 p = vec3(sin(PI/80.*vertexId),cos(PI/80.*vertexId),0);\\n  \\n  mat2 rot = mat2(\\n    cos(PI/80.*vertexId/40.),sin(PI/80.*vertexId/40.),\\n    -sin(PI/80.*vertexId/40.),cos(PI/80.*vertexId/40.)\\n  );\\n  \\n  p.xz = p.xz*rot;\\n  vec3 op = p;\\n  \\n  p.xz = p.xz*mat2(cos(time),sin(time),-sin(time),cos(time));\\n  p.xy = p.xy*mat2(cos(time*.5),sin(time*.5),-sin(time*.5),cos(time*.5));\\n  \\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  p.xy*= aspect;\\n  gl_Position = vec4(p/(p.z+2.)*.7, 1);\\n\\n  v_color = vec4((op*.5+.5)*max(dot(p,vec3(.5,1,-1)),0.),1);\\n}\"}",
+  "settings": {
+    "num": 16005,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define PI radians(180.)\n\nvoid main() {\n  vec3 p = vec3(sin(PI/80.*vertexId),cos(PI/80.*vertexId),0);\n  \n  mat2 rot = mat2(\n    cos(PI/80.*vertexId/40.),sin(PI/80.*vertexId/40.),\n    -sin(PI/80.*vertexId/40.),cos(PI/80.*vertexId/40.)\n  );\n  \n  p.xz = p.xz*rot;\n  vec3 op = p;\n  \n  p.xz = p.xz*mat2(cos(time),sin(time),-sin(time),cos(time));\n  p.xy = p.xy*mat2(cos(time*.5),sin(time*.5),-sin(time*.5),cos(time*.5));\n  \n  vec2 aspect = vec2(1, resolution.x / resolution.y);\n  p.xy*= aspect;\n  gl_Position = vec4(p/(p.z+2.)*.7, 1);\n\n  v_color = vec4((op*.5+.5)*max(dot(p,vec3(.5,1,-1)),0.),1);\n}"
+  },
   "screenshotURL": "data/images/images-ek948z8ppr8qt9880-thumbnail.jpg",
   "hasSound": "",
   "views": {

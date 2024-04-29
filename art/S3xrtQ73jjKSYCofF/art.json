@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "thetuesday night machines",
   "avatarUrl": "https://lh4.googleusercontent.com/-FV8gxf8fOhA/AAAAAAAAAAI/AAAAAAAAAAs/OCNDvQKt4Fo/photo.jpg",
-  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n  \\n  float x = vertexId/100.-1.;\\n  float y = tan(time/4.+vertexId)/20.;\\n  \\n \\n  \\n  gl_Position = vec4(x, y, 0, 1);\\n  gl_PointSize = (sin(time*2.+vertexId-1.)*20.)+(cos(time*1.)*10.+20.);\\n\\n  v_color = vec4(sin(time*2.+vertexId),y+.3,.5,0.) ;\\n  \\n}\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\nvoid main() {\n  \n  float x = vertexId/100.-1.;\n  float y = tan(time/4.+vertexId)/20.;\n  \n \n  \n  gl_Position = vec4(x, y, 0, 1);\n  gl_PointSize = (sin(time*2.+vertexId-1.)*20.)+(cos(time*1.)*10.+20.);\n\n  v_color = vec4(sin(time*2.+vertexId),y+.3,.5,0.) ;\n  \n}"
+  },
   "screenshotURL": "data/images/images-4nfmshuyd9yljy6p6-thumbnail.jpg",
   "hasSound": "",
   "views": {

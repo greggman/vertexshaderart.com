@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "chaerinpark",
   "avatarUrl": "https://avatars.githubusercontent.com/ChaerinPark?s=200",
-  "settings": "{\"num\":9704,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name : Chaerin Park\\n//Assignment : Exercise - Vertexshaderart : Motion\\n//Course : CS250\\n//Spring 2023\\n\\nvoid main()\\n{\\n\\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor(vertexCount / down);\\n  \\n  \\tfloat x = mod(vertexId, across);\\n  \\tfloat y = floor(vertexId / across);\\n  \\n  \\tfloat u = x / (across - 1.0);\\n  \\tfloat v = y / (across - 1.0);\\n  \\n  \\tfloat xoff = sin(time * 2.0 + v * x) * 0.5;\\n  \\tfloat yoff = cos(time + u * 3.0) * 0.5;\\n  \\n  \\tfloat ux = u * 2.0 - 1.0 * xoff;\\n  \\tfloat vy = v * 2.0 - 1.0 + yoff;\\n  \\n  \\tvec2 xy = vec2(ux - 0.4, vy) * 1.3;\\n  \\n  \\tgl_Position = vec4(xy, 0, 1);\\n  \\n  \\tfloat soff = sin(time + x) * 5.0;\\n  \\n  \\tgl_PointSize = 15.0 + soff;\\n  \\tgl_PointSize *= 20.0 / across;\\n  \\tgl_PointSize *= resolution.x / resolution.y;\\n  \\n  \\tfloat r = sin(time) + 0.5;\\n  \\t\\n  \\tv_color = vec4(r, 0.5, 0.5, 1);\\n}\\n\"}",
+  "settings": {
+    "num": 9704,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//Name : Chaerin Park\n//Assignment : Exercise - Vertexshaderart : Motion\n//Course : CS250\n//Spring 2023\n\nvoid main()\n{\n\tfloat down = floor(sqrt(vertexCount));\n  \tfloat across = floor(vertexCount / down);\n  \n  \tfloat x = mod(vertexId, across);\n  \tfloat y = floor(vertexId / across);\n  \n  \tfloat u = x / (across - 1.0);\n  \tfloat v = y / (across - 1.0);\n  \n  \tfloat xoff = sin(time * 2.0 + v * x) * 0.5;\n  \tfloat yoff = cos(time + u * 3.0) * 0.5;\n  \n  \tfloat ux = u * 2.0 - 1.0 * xoff;\n  \tfloat vy = v * 2.0 - 1.0 + yoff;\n  \n  \tvec2 xy = vec2(ux - 0.4, vy) * 1.3;\n  \n  \tgl_Position = vec4(xy, 0, 1);\n  \n  \tfloat soff = sin(time + x) * 5.0;\n  \n  \tgl_PointSize = 15.0 + soff;\n  \tgl_PointSize *= 20.0 / across;\n  \tgl_PointSize *= resolution.x / resolution.y;\n  \n  \tfloat r = sin(time) + 0.5;\n  \t\n  \tv_color = vec4(r, 0.5, 0.5, 1);\n}\n"
+  },
   "screenshotURL": "data/images/images-hcqv8rqergkg1iahm-thumbnail.jpg",
   "hasSound": "",
   "views": {

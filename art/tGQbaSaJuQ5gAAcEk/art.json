@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "andris",
   "avatarUrl": "https://lh5.googleusercontent.com/-NGcfEagpVJU/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nBr6ANtWGgvfguJmVugmcp6_jd6hw/photo.jpg",
-  "settings": "{\"num\":4000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/ciccio-and-the-curran/clang\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define T radians(360.)\\n#define f float\\nf h(f p) {\\n  vec2 p2 = fract(vec2(p*5.3983, p*5.4427));\\n  p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\\n  return fract(p2.x*p2.y*95.4337);\\n}\\nvec3 h3(f s) { return vec3(h(s),h(s*.731),h(s*1.319))*2.-1.; }\\nvec2 r(vec2 p,f a) { return vec2(p.x*cos(a)-p.y*sin(a), p.x*sin(a)+p.y*cos(a)); }\\nvec3 fk(f s,f x,f ff) {\\n  vec3 p = vec3(r(vec2(ff*.5,0.),T*h(s*.311)),1);\\n    p.xz = r(p.xz,T*floor(h(s*.731)*3.)/3.);\\n    p.yz = r(p.yz,T*floor(h(s)*x)/x);\\n  return p;\\n}\\nvec3 c(f s, f b) {\\n  f a = h(s*0.911)*3.;\\n  vec3 p = h3(s), A = vec3(1.-step(.5,a));\\n  A.y = 1.-step(1.5,a)-A.x;\\n  A.z = 1.-step(2.5,a)-A.x-A.y;\\n  p = mix(step(0.,p)*2.-1.,p,mix(1.-A,A,b));\\n  return p;\\n}\\nvec3 o(f t, f s) {\\n  t = floor(mod(t, 7.));\\n  if (t == 0.||t == 3.) return c(s,step(1.,t));\\n  if (t == 1.||t == 4.) return normalize(h3(s))*mix(1.,h(s*2.117),step(2.,t));\\n  if (t == 2.) return fk(s,3.,h(s*2.117));\\n  if (t == 5.) return h3(s);\\n  return fk(s,4.,1.);\\n}\\nvoid main() {\\n  f r = 6.,m = 1./r,t=time,a=t*.2,b=fract(time),\\n    u=step(.5,b),w=1.-2.*u,v=vertexId/vertexCount,s=v*4.+t*.01;\\n  vec3 p =  mix(o(t,s),o(t+1.,s),w*pow(2.,((40.*b)-20.)*w)*.5+u),e=vec3(cos(a)*r,sin(t)*2.,sin(a)*r);\\n  f d = length(e), l=1./d,z=d-dot(p,e)*l;\\n  gl_Position=vec4((p.x*e.z - p.z*e.x)*m*2.*resolution.y/resolution.x,(p.y*r-dot(p.xz,e.xz)*e.y*m)*l*2.,z-2.,z);\\n  v_color = vec4(abs(p.x),p.y*cos(t*3.),abs(p.z),1);\\n  gl_PointSize = 18./z;\\n}\"}",
+  "settings": {
+    "num": 4000,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/ciccio-and-the-curran/clang",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define T radians(360.)\n#define f float\nf h(f p) {\n  vec2 p2 = fract(vec2(p*5.3983, p*5.4427));\n  p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\n  return fract(p2.x*p2.y*95.4337);\n}\nvec3 h3(f s) { return vec3(h(s),h(s*.731),h(s*1.319))*2.-1.; }\nvec2 r(vec2 p,f a) { return vec2(p.x*cos(a)-p.y*sin(a), p.x*sin(a)+p.y*cos(a)); }\nvec3 fk(f s,f x,f ff) {\n  vec3 p = vec3(r(vec2(ff*.5,0.),T*h(s*.311)),1);\n    p.xz = r(p.xz,T*floor(h(s*.731)*3.)/3.);\n    p.yz = r(p.yz,T*floor(h(s)*x)/x);\n  return p;\n}\nvec3 c(f s, f b) {\n  f a = h(s*0.911)*3.;\n  vec3 p = h3(s), A = vec3(1.-step(.5,a));\n  A.y = 1.-step(1.5,a)-A.x;\n  A.z = 1.-step(2.5,a)-A.x-A.y;\n  p = mix(step(0.,p)*2.-1.,p,mix(1.-A,A,b));\n  return p;\n}\nvec3 o(f t, f s) {\n  t = floor(mod(t, 7.));\n  if (t == 0.||t == 3.) return c(s,step(1.,t));\n  if (t == 1.||t == 4.) return normalize(h3(s))*mix(1.,h(s*2.117),step(2.,t));\n  if (t == 2.) return fk(s,3.,h(s*2.117));\n  if (t == 5.) return h3(s);\n  return fk(s,4.,1.);\n}\nvoid main() {\n  f r = 6.,m = 1./r,t=time,a=t*.2,b=fract(time),\n    u=step(.5,b),w=1.-2.*u,v=vertexId/vertexCount,s=v*4.+t*.01;\n  vec3 p =  mix(o(t,s),o(t+1.,s),w*pow(2.,((40.*b)-20.)*w)*.5+u),e=vec3(cos(a)*r,sin(t)*2.,sin(a)*r);\n  f d = length(e), l=1./d,z=d-dot(p,e)*l;\n  gl_Position=vec4((p.x*e.z - p.z*e.x)*m*2.*resolution.y/resolution.x,(p.y*r-dot(p.xz,e.xz)*e.y*m)*l*2.,z-2.,z);\n  v_color = vec4(abs(p.x),p.y*cos(t*3.),abs(p.z),1);\n  gl_PointSize = 18./z;\n}"
+  },
   "screenshotURL": "data/images/images-7tmaebgbnxpysec6z-thumbnail.jpg",
   "hasSound": true,
   "views": {

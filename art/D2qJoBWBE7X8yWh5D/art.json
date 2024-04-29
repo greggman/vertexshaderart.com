@@ -31,7 +31,19 @@
   "private": true,
   "unlisted": false,
   "username": "gman",
-  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"CSS\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//\\n\\n#define PI radians(180.)\\n\\n// hash function from https://www.shadertoy.com/view/4djSRW\\nfloat hash(float p) {\\n\\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\\n\\treturn fract(p2.x * p2.y * 95.4337);\\n}\\n\\nfloat m1p1(float v) {\\n  return v * 2. - 1.;\\n}\\n\\nfloat p1m1(float v) {\\n  return v * .5 + .5;\\n}\\n\\nvec3 shape00(float vertexId, float time) {\\n  vec3 clocks = vec3(\\n    time * hash(vertexId), \\n    time * hash(vertexId * 0.37), \\n    time * hash(vertexId * 0.73));\\n  vec3 radius  = vec3(\\n    hash(vertexId * 0.23),\\n    hash(vertexId * 1.17),\\n    hash(vertexId * 2.99)\\n    );\\n  return vec3(\\n      sin(clocks.x) * radius.x,\\n      sin(clocks.y) * radius.y,\\n      cos(clocks.z) * radius.z);\\n}\\n\\nvec3 shape01(float vertexId, float time) {\\n  return vec3(\\n    m1p1(hash(vertexId * 0.33)),\\n    m1p1(hash(vertexId * 1.57)),\\n    m1p1(hash(vertexId * 2.39)));\\n    \\n}\\n\\nvec3 shape02(float vertexId, float time) {\\n  return vec3( \\n    sin(vertexId * 0.005),\\n    cos(vertexId * 0.005),\\n    cos(vertexId + time * 0.01));\\n  \\n}\\n\\nvec3 shape03(float vertexId, float time) {\\n  float r = cos(vertexId * mod(floor(time * 20.), 15.) * 0.25);\\n  return vec3( \\n    sin(vertexId * 0.005) * r,\\n    cos(vertexId * 0.005) * r,\\n    sin(vertexId + time * 0.01));\\n  \\n}\\n\\nvoid main() {\\n  vec3 pos00 = shape03(vertexId, time); \\n  vec3 pos = pos00;\\n  gl_Position = vec4(pos, 1);\\n  gl_Position = vec4(gl_Position.xyz, .6 / gl_Position.z);\\n  \\n  float zish = p1m1(gl_Position.z / gl_Position.w);\\n  gl_PointSize = zish;\\n  v_color = vec4(1, 1, 1, zish);\\n  v_color = vec4(v_color.rgb * v_color.a, v_color.a);\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "CSS",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//\n\n#define PI radians(180.)\n\n// hash function from https://www.shadertoy.com/view/4djSRW\nfloat hash(float p) {\n\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\n\treturn fract(p2.x * p2.y * 95.4337);\n}\n\nfloat m1p1(float v) {\n  return v * 2. - 1.;\n}\n\nfloat p1m1(float v) {\n  return v * .5 + .5;\n}\n\nvec3 shape00(float vertexId, float time) {\n  vec3 clocks = vec3(\n    time * hash(vertexId), \n    time * hash(vertexId * 0.37), \n    time * hash(vertexId * 0.73));\n  vec3 radius  = vec3(\n    hash(vertexId * 0.23),\n    hash(vertexId * 1.17),\n    hash(vertexId * 2.99)\n    );\n  return vec3(\n      sin(clocks.x) * radius.x,\n      sin(clocks.y) * radius.y,\n      cos(clocks.z) * radius.z);\n}\n\nvec3 shape01(float vertexId, float time) {\n  return vec3(\n    m1p1(hash(vertexId * 0.33)),\n    m1p1(hash(vertexId * 1.57)),\n    m1p1(hash(vertexId * 2.39)));\n    \n}\n\nvec3 shape02(float vertexId, float time) {\n  return vec3( \n    sin(vertexId * 0.005),\n    cos(vertexId * 0.005),\n    cos(vertexId + time * 0.01));\n  \n}\n\nvec3 shape03(float vertexId, float time) {\n  float r = cos(vertexId * mod(floor(time * 20.), 15.) * 0.25);\n  return vec3( \n    sin(vertexId * 0.005) * r,\n    cos(vertexId * 0.005) * r,\n    sin(vertexId + time * 0.01));\n  \n}\n\nvoid main() {\n  vec3 pos00 = shape03(vertexId, time); \n  vec3 pos = pos00;\n  gl_Position = vec4(pos, 1);\n  gl_Position = vec4(gl_Position.xyz, .6 / gl_Position.z);\n  \n  float zish = p1m1(gl_Position.z / gl_Position.w);\n  gl_PointSize = zish;\n  v_color = vec4(1, 1, 1, zish);\n  v_color = vec4(v_color.rgb * v_color.a, v_color.a);\n}"
+  },
   "screenshotURL": "data/images/images-08w7c6r49jcvlca6s-thumbnail.jpg",
   "hasSound": "",
   "views": {

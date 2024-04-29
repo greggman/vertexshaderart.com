@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "oneshade",
   "avatarUrl": "https://secure.gravatar.com/avatar/f0d8718b5dc6efb4cf47453275108912?default=retro&size=200",
-  "settings": "{\"num\":91125,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define EYE_DISTANCE 2.0\\n#define Z_NEAR 2.5\\n#define Z_FAR -2.5\\n\\n#define POINT_SIZE 5.0\\n\\n#define PI 3.1415\\n#define TAU PI * 2.0\\n\\n#define RESOLUTION vec2(45.0)\\n#define SIZE vec2(TAU, TAU)\\n\\n#define r 0.75 // Radius\\n#define t 0.4 // Thickness\\n\\nvec3 ParametricSurface(float u, float v) {\\n    float cu = cos(u), su = sin(u);\\n    float cv = cos(v), sv = sin(v);\\n    return vec3(r * cv + t * cv * cu, t * su, r * sv + t * sv * cu);\\n}\\n\\nvec3 getNormal(in vec3 v) {\\n    return normalize(v - vec3(normalize(v.xz) * r, 0.0).xzy);\\n}\\n\\nvoid main() {\\n    vec3 lightDir = normalize(vec3(-1.0, 1.0, 1.0));\\n\\n    float u = mod(vertexId, RESOLUTION.x);\\n    float v = (vertexId - u) / RESOLUTION.x;\\n    u = u / RESOLUTION.x * SIZE.x; v = v / RESOLUTION.y * SIZE.y;\\n\\n    vec3 vertex = ParametricSurface(u, v);\\n    vec3 color = vec3(max(0.0, dot(getNormal(vertex), lightDir)));\\n\\n    vec2 rot = vec2(time, -0.5); // mouse * PI;\\n    float cy = cos(rot.x), sy = sin(rot.x);\\n    float cp = cos(rot.y), sp = sin(rot.y);\\n    vertex.xz *= mat2(cy, sy, -sy, cy);\\n    vertex.yz *= mat2(cp, sp, -sp, cp);\\n\\n    vec2 screenCoords = vertex.xy / (EYE_DISTANCE - vertex.z);\\n    screenCoords.x *= resolution.y / resolution.x;\\n    float depth = (vertex.z - Z_NEAR) / (Z_FAR - Z_NEAR);\\n    gl_Position = vec4(screenCoords, depth, 1.0);\\n    gl_PointSize = POINT_SIZE / (EYE_DISTANCE - vertex.z);\\n    v_color = vec4(color, 1.0);\\n}\"}",
+  "settings": {
+    "num": 91125,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define EYE_DISTANCE 2.0\n#define Z_NEAR 2.5\n#define Z_FAR -2.5\n\n#define POINT_SIZE 5.0\n\n#define PI 3.1415\n#define TAU PI * 2.0\n\n#define RESOLUTION vec2(45.0)\n#define SIZE vec2(TAU, TAU)\n\n#define r 0.75 // Radius\n#define t 0.4 // Thickness\n\nvec3 ParametricSurface(float u, float v) {\n    float cu = cos(u), su = sin(u);\n    float cv = cos(v), sv = sin(v);\n    return vec3(r * cv + t * cv * cu, t * su, r * sv + t * sv * cu);\n}\n\nvec3 getNormal(in vec3 v) {\n    return normalize(v - vec3(normalize(v.xz) * r, 0.0).xzy);\n}\n\nvoid main() {\n    vec3 lightDir = normalize(vec3(-1.0, 1.0, 1.0));\n\n    float u = mod(vertexId, RESOLUTION.x);\n    float v = (vertexId - u) / RESOLUTION.x;\n    u = u / RESOLUTION.x * SIZE.x; v = v / RESOLUTION.y * SIZE.y;\n\n    vec3 vertex = ParametricSurface(u, v);\n    vec3 color = vec3(max(0.0, dot(getNormal(vertex), lightDir)));\n\n    vec2 rot = vec2(time, -0.5); // mouse * PI;\n    float cy = cos(rot.x), sy = sin(rot.x);\n    float cp = cos(rot.y), sp = sin(rot.y);\n    vertex.xz *= mat2(cy, sy, -sy, cy);\n    vertex.yz *= mat2(cp, sp, -sp, cp);\n\n    vec2 screenCoords = vertex.xy / (EYE_DISTANCE - vertex.z);\n    screenCoords.x *= resolution.y / resolution.x;\n    float depth = (vertex.z - Z_NEAR) / (Z_FAR - Z_NEAR);\n    gl_Position = vec4(screenCoords, depth, 1.0);\n    gl_PointSize = POINT_SIZE / (EYE_DISTANCE - vertex.z);\n    v_color = vec4(color, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-er4jpe4h70m8a7186-thumbnail.jpg",
   "hasSound": "",
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": false,
   "username": "trip-les-ix",
   "avatarUrl": "https://avatars.githubusercontent.com/trip-les-ix?s=200",
-  "settings": "{\"num\":100000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//time vertexId gl_Position v_color resolution\\n\\n// 3d plasma\\n// maybe I wil polygonize this in my next code\\n#define kp1 -.2\\n#define width 384.\\n#define height 512.\\n\\nfloat plasma(vec2 pos)\\n{\\n  float c = 0.20;\\n  float spd = 4.96;\\n  float tm = time * spd;\\n  c = sin(tan(pos.x) + tan(3.4 * pos.y) + \\n          sin(3.0 * pos.x + pos.y + 3.0 * tm) + \\n          sin(pos.x + sin(pos.y + 2.0 * tm))) + \\n    (sin(pos.x * pos.y - 3.0 * tm) * 0.5 + 0.25);\\n  return c;\\n}\\n\\nvoid main() {\\n  float ratio = resolution.x / resolution.y;\\n  float w = width;\\n  float h = height / ratio;\\n\\n  float vId = float(vertexId);\\n  float px = (mod(vId, w) - w / 2.0) / (w / 2.0);\\n  float py = (floor(vId / w) - h / 2.0) / (h / 0.5) + 0.5;\\n  \\n  //gl_Position = vec4(px, py, 0, 1);\\n  float y = -0.75 + py;\\n  float c = sin(plasma(vec2(px*2., py) * 4.60)) * 0.5 + 0.25;\\n  gl_Position = vec4(px / py, (y + c * 0.615+kp1) / py, 0.0, 1);\\n  gl_PointSize = 2.0;\\n\\n  \\n  v_color = vec4(2.2 + c, 0.4 + c,  1.7 + c, 1) * 0.75;\\n}\"}",
+  "settings": {
+    "num": 100000,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "//time vertexId gl_Position v_color resolution\n\n// 3d plasma\n// maybe I wil polygonize this in my next code\n#define kp1 -.2\n#define width 384.\n#define height 512.\n\nfloat plasma(vec2 pos)\n{\n  float c = 0.20;\n  float spd = 4.96;\n  float tm = time * spd;\n  c = sin(tan(pos.x) + tan(3.4 * pos.y) + \n          sin(3.0 * pos.x + pos.y + 3.0 * tm) + \n          sin(pos.x + sin(pos.y + 2.0 * tm))) + \n    (sin(pos.x * pos.y - 3.0 * tm) * 0.5 + 0.25);\n  return c;\n}\n\nvoid main() {\n  float ratio = resolution.x / resolution.y;\n  float w = width;\n  float h = height / ratio;\n\n  float vId = float(vertexId);\n  float px = (mod(vId, w) - w / 2.0) / (w / 2.0);\n  float py = (floor(vId / w) - h / 2.0) / (h / 0.5) + 0.5;\n  \n  //gl_Position = vec4(px, py, 0, 1);\n  float y = -0.75 + py;\n  float c = sin(plasma(vec2(px*2., py) * 4.60)) * 0.5 + 0.25;\n  gl_Position = vec4(px / py, (y + c * 0.615+kp1) / py, 0.0, 1);\n  gl_PointSize = 2.0;\n\n  \n  v_color = vec4(2.2 + c, 0.4 + c,  1.7 + c, 1) * 0.75;\n}"
+  },
   "screenshotURL": "data/images/images-9bo862efqktfyg91d-thumbnail.jpg",
   "hasSound": "",
   "views": {

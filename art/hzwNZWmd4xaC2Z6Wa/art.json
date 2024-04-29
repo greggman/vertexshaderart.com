@@ -32,7 +32,19 @@
   "unlisted": true,
   "username": "legileurs",
   "avatarUrl": "https://secure.gravatar.com/avatar/a48c633acb8ed21d176343fa75931ff6?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F8839ade8e32fd3ea8c1ca8ac8b2590a3",
-  "settings": "{\"num\":16384,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n}\"}",
+  "settings": {
+    "num": 16384,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {\n}"
+  },
   "screenshotURL": "data/images/images-4rf8uhe8j0uzv8y70-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gman",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
-  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// hash function from https://www.shadertoy.com/view/4djSRW\\nfloat noise(float p) {\\n\\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\\n\\treturn fract(p2.x * p2.y * 95.4337);\\n}\\n\\n\\nvoid main() {\\n  float u = vertexId / vertexCount;\\n  vec2 xy = vec2(\\n    noise(u + time),\\n    noise(u * 0.6223)) * 2.0 - 1.0;\\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  gl_PointSize = 2.0;\\n  v_color = vec4(1);\\n}\"}",
+  "settings": {
+    "num": 5000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// hash function from https://www.shadertoy.com/view/4djSRW\nfloat noise(float p) {\n\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\n\treturn fract(p2.x * p2.y * 95.4337);\n}\n\n\nvoid main() {\n  float u = vertexId / vertexCount;\n  vec2 xy = vec2(\n    noise(u + time),\n    noise(u * 0.6223)) * 2.0 - 1.0;\n  gl_Position = vec4(xy, 0, 1);\n  \n  gl_PointSize = 2.0;\n  v_color = vec4(1);\n}"
+  },
   "screenshotURL": "data/images/images-9bkn8e21bzhrh2lsx-thumbnail.jpg",
   "hasSound": "",
   "views": {

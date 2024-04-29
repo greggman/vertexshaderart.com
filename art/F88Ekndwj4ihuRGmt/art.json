@@ -34,7 +34,19 @@
   "unlisted": true,
   "username": "isaín",
   "avatarUrl": "https://lh6.googleusercontent.com/-PShsQ2rITQc/AAAAAAAAAAI/AAAAAAAAARc/ffHK8TazFeI/photo.jpg",
-  "settings": "{\"num\":22,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main() {\\n  \\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId + 1.0, 2.0);\\n  \\n  vec2 xy = vec2(x, y) * 0.1;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 20.0;\\n  \\n}\"}",
+  "settings": {
+    "num": 22,
+    "mode": "TRI_STRIP",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main() {\n  \n  float x = floor(vertexId / 2.0);\n  float y = mod(vertexId + 1.0, 2.0);\n  \n  vec2 xy = vec2(x, y) * 0.1;\n  \n  gl_Position = vec4(xy, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n  gl_PointSize = 20.0;\n  \n}"
+  },
   "screenshotURL": "data/images/images-45o9q12z5ppgsxi6b-thumbnail.jpg",
   "hasSound": "",
   "views": {

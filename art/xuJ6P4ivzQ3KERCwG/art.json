@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "jc",
   "avatarUrl": "https://lh6.googleusercontent.com/-wxkmpL8A-s0/AAAAAAAAAAI/AAAAAAAAAFg/cZuqYtkpOCI/photo.jpg",
-  "settings": "{\"num\":21,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n  float ux = floor(vertexId / 6.0) + mod(vertexId, 2.0);\\n  float vy = mod(floor(vertexId / 2.0) + floor(vertexId / 3.0), 2.0);\\n    \\n  float x = ux;\\n  float y = vy;\\n  \\n  vec2 xy = vec2(x,y);\\n  \\n  gl_Position = vec4(xy * 0.1, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "settings": {
+    "num": 21,
+    "mode": "TRIANGLES",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main()\n{\n  float ux = floor(vertexId / 6.0) + mod(vertexId, 2.0);\n  float vy = mod(floor(vertexId / 2.0) + floor(vertexId / 3.0), 2.0);\n    \n  float x = ux;\n  float y = vy;\n  \n  vec2 xy = vec2(x,y);\n  \n  gl_Position = vec4(xy * 0.1, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n}"
+  },
   "screenshotURL": "data/images/images-f17nqjog0vwdybhy8-thumbnail.jpg",
   "hasSound": "",
   "views": {

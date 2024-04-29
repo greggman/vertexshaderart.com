@@ -13,6 +13,10 @@ for (const u of Object.values(users)) {
   delete u.emails;
 }
 
+for (const a of Object.values(art)) {
+  a.settings = JSON.parse(a.settings);
+}
+
 const screenshotRE = /images\/(.*?-thumbnail\..*?)$/;
 for (const a of Object.values(art)) {
   const m = screenshotRE.exec(a.screenshotURL);

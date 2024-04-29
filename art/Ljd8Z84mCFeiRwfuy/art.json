@@ -33,7 +33,19 @@
   "unlisted": true,
   "username": "gerrygoo",
   "avatarUrl": "https://avatars.githubusercontent.com/gerrygoo?s=200",
-  "settings": "{\"num\":10,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"// 1m x 1m\\n\\n#define G = 9.8\\n\\nfloat rand(float x) {\\n\\treturn fract(sin(x)*10000000.0);\\n}\\n\\nvoid main() {\\n\\n  \\n\\n  float\\n    i = vertexId,\\n    // r = rand(),\\n    \\n    origin_x = -1.0,\\n    origin_y = 1.0,\\n    \\n\\n    x_i_offset = 2.0 * rand(i),\\n    y_i_offset = 0.0,\\n    \\n    starting_x = origin_x,\\n    starting_y = origin_y,\\n    \\n  \\tfall_distance = - (mod(time, 2.0) * 0.5) * mod(time, 2.0),\\n  \\n  \\twiggle_x_offset =  0.01 * sin(time*10.0),\\n  \\n    x = starting_x + wiggle_x_offset + x_i_offset,\\n    y = starting_y + fall_distance //+ y_i_offset;\\n    \\n    ;\\n  \\n  gl_Position = vec4(x, y, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  v_color = vec4(0, 0.8, 1, 1);\\n  \\n}\"}",
+  "settings": {
+    "num": 10,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "// 1m x 1m\n\n#define G = 9.8\n\nfloat rand(float x) {\n\treturn fract(sin(x)*10000000.0);\n}\n\nvoid main() {\n\n  \n\n  float\n    i = vertexId,\n    // r = rand(),\n    \n    origin_x = -1.0,\n    origin_y = 1.0,\n    \n\n    x_i_offset = 2.0 * rand(i),\n    y_i_offset = 0.0,\n    \n    starting_x = origin_x,\n    starting_y = origin_y,\n    \n  \tfall_distance = - (mod(time, 2.0) * 0.5) * mod(time, 2.0),\n  \n  \twiggle_x_offset =  0.01 * sin(time*10.0),\n  \n    x = starting_x + wiggle_x_offset + x_i_offset,\n    y = starting_y + fall_distance //+ y_i_offset;\n    \n    ;\n  \n  gl_Position = vec4(x, y, 0, 1);\n  \n  gl_PointSize = 10.0;\n  v_color = vec4(0, 0.8, 1, 1);\n  \n}"
+  },
   "screenshotURL": "data/images/images-e33hloz13jcbwvkwn-thumbnail.jpg",
   "hasSound": true,
   "views": {

@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":400,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"const float speed = 0.2;\\n\\nvoid main() {\\n  vec4 position = \\n    vec4(1.25 * abs(cos(time * speed) * -sin(time * speed)) * cos(speed * time + vertexId), \\n         vertexId/vertexCount*2.0-1.0, \\n         0.0, 1.0);\\n  gl_PointSize = vertexId/vertexCount * 5.0;\\n  gl_Position = position;\\n  v_color = vec4(1.0);\\n}\"}",
+  "settings": {
+    "num": 400,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "const float speed = 0.2;\n\nvoid main() {\n  vec4 position = \n    vec4(1.25 * abs(cos(time * speed) * -sin(time * speed)) * cos(speed * time + vertexId), \n         vertexId/vertexCount*2.0-1.0, \n         0.0, 1.0);\n  gl_PointSize = vertexId/vertexCount * 5.0;\n  gl_Position = position;\n  v_color = vec4(1.0);\n}"
+  },
   "screenshotURL": "data/images/images-20zgeykxs42b09us7-thumbnail.jpg",
   "hasSound": "",
   "views": {

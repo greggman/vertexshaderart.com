@@ -32,7 +32,19 @@
   "unlisted": false,
   "username": "mol",
   "avatarUrl": "https://secure.gravatar.com/avatar/fe5b47f4d74c95c9b38908469761a86d?default=retro&size=200",
-  "settings": "{\"num\":14944,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {  \\n  gl_PointSize = 5.0;\\n  \\n  v_color = vec4(\\n    abs(sin(vertexId * 0.1 - time * 8.0)),\\n    abs(sin(vertexId * 0.1 - time * 8.0 + 2.09)),\\n    abs(sin(vertexId * 0.1 - time * 8.0 + 4.18879020479)),\\n    1.0);\\n  \\n  gl_Position.x = sin(time * 2.0 - vertexId / 2.0) * vertexId / 64.0 / 64.0;\\n  gl_Position.y = cos(time * 2.0 - vertexId / 2.0) * vertexId / 64.0 / 64.0;\\n  gl_Position.z = 0.0;\\n  gl_Position[3] = 1.0;\\n}\"}",
+  "settings": {
+    "num": 14944,
+    "mode": "LINES",
+    "sound": "https://soundcloud.com/chibi-tech/lolitazia-season",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "void main() {  \n  gl_PointSize = 5.0;\n  \n  v_color = vec4(\n    abs(sin(vertexId * 0.1 - time * 8.0)),\n    abs(sin(vertexId * 0.1 - time * 8.0 + 2.09)),\n    abs(sin(vertexId * 0.1 - time * 8.0 + 4.18879020479)),\n    1.0);\n  \n  gl_Position.x = sin(time * 2.0 - vertexId / 2.0) * vertexId / 64.0 / 64.0;\n  gl_Position.y = cos(time * 2.0 - vertexId / 2.0) * vertexId / 64.0 / 64.0;\n  gl_Position.z = 0.0;\n  gl_Position[3] = 1.0;\n}"
+  },
   "screenshotURL": "data/images/images-nfm87fpv0x37v7uuh-thumbnail.jpg",
   "hasSound": true,
   "views": {

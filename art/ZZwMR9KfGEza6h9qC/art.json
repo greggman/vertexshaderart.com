@@ -34,7 +34,19 @@
   "unlisted": false,
   "username": "dron",
   "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKD9cgmpithB46qFdf31lpdyttGLSjrFXGekm792_6ckvM=s96-c",
-  "settings": "{\"num\":922,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/dron007/suliko\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// vertexId\\n// vertexCount\\n// \\nvoid main() {\\n  float PI = 3.14159265;\\n  float down = floor(sqrt(vertexCount));\\n  float grid = floor(vertexCount/down);\\n  float x = mod(vertexId, grid)/(grid-1.); // 0..1\\n  float y = floor(vertexId/grid)/(grid-1.); // 0..1\\n  //float snd = 0.8;//texture2D(sound, vec2(-x,y)).a;\\n  //float snd = texture2D(sound, vec2(x,y)).a;\\n  float snd = texture2D(sound, vec2(-x,y)).a;\\n  \\n  gl_Position = vec4(cos(2.*PI*x)*snd, sin(2.*PI*y)*snd, 0, 1);\\n//  gl_Position = vec4(x, y, 0, 1);\\n//  gl_Position = vec4(snd, 0, 0, 1);\\n  gl_PointSize = 20.*snd+3.;\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "settings": {
+    "num": 922,
+    "mode": "POINTS",
+    "sound": "https://soundcloud.com/dron007/suliko",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "// vertexId\n// vertexCount\n// \nvoid main() {\n  float PI = 3.14159265;\n  float down = floor(sqrt(vertexCount));\n  float grid = floor(vertexCount/down);\n  float x = mod(vertexId, grid)/(grid-1.); // 0..1\n  float y = floor(vertexId/grid)/(grid-1.); // 0..1\n  //float snd = 0.8;//texture2D(sound, vec2(-x,y)).a;\n  //float snd = texture2D(sound, vec2(x,y)).a;\n  float snd = texture2D(sound, vec2(-x,y)).a;\n  \n  gl_Position = vec4(cos(2.*PI*x)*snd, sin(2.*PI*y)*snd, 0, 1);\n//  gl_Position = vec4(x, y, 0, 1);\n//  gl_Position = vec4(snd, 0, 0, 1);\n  gl_PointSize = 20.*snd+3.;\n  v_color = vec4(1, 0, 0, 1);\n}"
+  },
   "screenshotURL": "data/images/images-ozlmsuubqinnu6um4-thumbnail.jpg",
   "hasSound": true,
   "views": {

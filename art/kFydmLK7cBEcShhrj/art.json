@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.1411764705882353,0.32941176470588235,0.5803921568627451,1],\"shader\":\"\\nvoid main() {\\n\\tgl_Position = vec4(1, 0, 0, 0);\\n  \\n  \\tgl_PointSize = 10.0;\\n\\n  \\tv_color = vec4(1, 0, 0, 1);\\n} \"}",
+  "settings": {
+    "num": 5000,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0.1411764705882353,
+      0.32941176470588235,
+      0.5803921568627451,
+      1
+    ],
+    "shader": "\nvoid main() {\n\tgl_Position = vec4(1, 0, 0, 0);\n  \n  \tgl_PointSize = 10.0;\n\n  \tv_color = vec4(1, 0, 0, 1);\n} "
+  },
   "screenshotURL": "data/images/images-qtjl1olthuh77fo1n-thumbnail.jpg",
   "hasSound": "",
   "views": {

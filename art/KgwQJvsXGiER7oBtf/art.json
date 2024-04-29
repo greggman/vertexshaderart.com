@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":49807,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define EYE_DIST 2.0\\n\\nvoid main() {\\n    float pointId = (vertexId/vertexCount);\\n    float faceId = floor(vertexId / 100.0);\\n\\n    /*\\n    Face ID:\\n     Right - 0\\n      Left - 1\\n       Top - 2\\n    Bottom - 3\\n     Front - 4\\n      Back - 5\\n    */\\n// VertexCount\\n  /*  vec3 pos = vec3(0.0, mod(pointId, 10.0), 0.5);\\n    pos.x = (pointId - pos.y) / 10.0;\\n    pos.xy = pos.xy / 10.0 - 0.5;\\n\\n    if (mod(faceId, 2.0) == 1.0) pos.z *= -1.0;\\n    if (faceId == 0.0 || faceId == 1.0) pos = pos.zyx;\\n    if (faceId == 2.0 || faceId == 3.0) pos = pos.xzy;\\n\\n    // Set color before transforms so the colors don't slip\\n    v_color = vec4(pos * 2.0 + 1.0, 1.0);\\n\\n    float c = cos(time), s = sin(time);\\n    pos.xz *= mat2(c, s, -s, c);\\n    pos.yz *= mat2(c, s, -s, c);\\n    pos *= 1.5;\\n\\n    gl_Position = vec4(pos.xy / (EYE_DIST - pos.z), 0.0, 1.0);\\n    gl_Position.x *= resolution.y / resolution.x;\\n    gl_PointSize = 5.0 / (EYE_DIST - pos.z);*/\\n  \\n    float c = cos(time/6.), s = sin(time/6.);\\n   vec3 pos = vec3( cos(vertexId), sin(vertexId), 0.5);\\n      pos.xy *=pointId;\\n  \\tpos.z*=cos(pointId)*sin(time*4.+pointId*2.)*2.;\\n      v_color = vec4(pos * 2.0 + 1.0, 1.0);\\n    pos.xz *= mat2(c, s, -s, c);\\n   pos.yz *= mat2(c, s, -s, c);\\npos *=1.5;\\n\\n    gl_Position = vec4(pos.xy / (EYE_DIST - pos.z), 0.0, 1.0);\\n   gl_PointSize =2.;\\n}\"}",
+  "settings": {
+    "num": 49807,
+    "mode": "POINTS",
+    "sound": "",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "#define EYE_DIST 2.0\n\nvoid main() {\n    float pointId = (vertexId/vertexCount);\n    float faceId = floor(vertexId / 100.0);\n\n    /*\n    Face ID:\n     Right - 0\n      Left - 1\n       Top - 2\n    Bottom - 3\n     Front - 4\n      Back - 5\n    */\n// VertexCount\n  /*  vec3 pos = vec3(0.0, mod(pointId, 10.0), 0.5);\n    pos.x = (pointId - pos.y) / 10.0;\n    pos.xy = pos.xy / 10.0 - 0.5;\n\n    if (mod(faceId, 2.0) == 1.0) pos.z *= -1.0;\n    if (faceId == 0.0 || faceId == 1.0) pos = pos.zyx;\n    if (faceId == 2.0 || faceId == 3.0) pos = pos.xzy;\n\n    // Set color before transforms so the colors don't slip\n    v_color = vec4(pos * 2.0 + 1.0, 1.0);\n\n    float c = cos(time), s = sin(time);\n    pos.xz *= mat2(c, s, -s, c);\n    pos.yz *= mat2(c, s, -s, c);\n    pos *= 1.5;\n\n    gl_Position = vec4(pos.xy / (EYE_DIST - pos.z), 0.0, 1.0);\n    gl_Position.x *= resolution.y / resolution.x;\n    gl_PointSize = 5.0 / (EYE_DIST - pos.z);*/\n  \n    float c = cos(time/6.), s = sin(time/6.);\n   vec3 pos = vec3( cos(vertexId), sin(vertexId), 0.5);\n      pos.xy *=pointId;\n  \tpos.z*=cos(pointId)*sin(time*4.+pointId*2.)*2.;\n      v_color = vec4(pos * 2.0 + 1.0, 1.0);\n    pos.xz *= mat2(c, s, -s, c);\n   pos.yz *= mat2(c, s, -s, c);\npos *=1.5;\n\n    gl_Position = vec4(pos.xy / (EYE_DIST - pos.z), 0.0, 1.0);\n   gl_PointSize =2.;\n}"
+  },
   "screenshotURL": "data/images/images-0j0toyhlvandw4d4m-thumbnail.jpg",
   "hasSound": "",
   "views": {

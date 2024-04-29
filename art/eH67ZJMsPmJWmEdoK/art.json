@@ -23,7 +23,19 @@
   "unlisted": false,
   "username": "-anon-",
   "avatarUrl": "",
-  "settings": "{\"num\":840,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main(){\\n//Vector 4\\n  float width = 20.0;\\n  float row = 42.0 * 15.0;\\n  float circleID = mod(vertexId, row);\\n  \\n  float y = mod(vertexId + 1.0, 2.0);\\n  float x = floor(vertexId / 2.0);\\n  float movx = floor(circleID/42.0) * 1.1;\\n  float movy = floor(vertexId/ row) * 1.1;\\n  float ang = (x/20.0)*radians(360.0);\\n  float r = 2.0 - y;\\n  float rx = r * cos(ang);\\n  float ry = r *sin (ang);\\n  \\n  float u = rx / (width - 1.0);\\n  float v = ry / (width - 1.0);\\n  \\n  float xOffset = cos(time + movy * 0.2) * 0.1;\\n  float yOffset = sin(time + movx * 0.2) * 0.1;\\n  \\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float uy = v * 2.0 - 1.0 + yOffset;\\n  \\n  vec2 xy = vec2 (ux + movx, uy + movy) * 0.2;\\n  \\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 1.0;\\n}\\n\"}",
+  "settings": {
+    "num": 840,
+    "mode": "TRI_STRIP",
+    "sound": "https://soundcloud.com/caseandpoint/case-point-upgrade-free-download",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "shader": "void main(){\n//Vector 4\n  float width = 20.0;\n  float row = 42.0 * 15.0;\n  float circleID = mod(vertexId, row);\n  \n  float y = mod(vertexId + 1.0, 2.0);\n  float x = floor(vertexId / 2.0);\n  float movx = floor(circleID/42.0) * 1.1;\n  float movy = floor(vertexId/ row) * 1.1;\n  float ang = (x/20.0)*radians(360.0);\n  float r = 2.0 - y;\n  float rx = r * cos(ang);\n  float ry = r *sin (ang);\n  \n  float u = rx / (width - 1.0);\n  float v = ry / (width - 1.0);\n  \n  float xOffset = cos(time + movy * 0.2) * 0.1;\n  float yOffset = sin(time + movx * 0.2) * 0.1;\n  \n  \n  float ux = u * 2.0 - 1.0 + xOffset;\n  float uy = v * 2.0 - 1.0 + yOffset;\n  \n  vec2 xy = vec2 (ux + movx, uy + movy) * 0.2;\n  \n  \n  gl_Position = vec4(xy, 0.0, 1.0);\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\n  gl_PointSize = 1.0;\n}\n"
+  },
   "screenshotURL": "data/images/images-yeqq5rwl4o9saxhr2-thumbnail.jpg",
   "hasSound": true,
   "views": {
