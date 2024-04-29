@@ -1,0 +1,45 @@
+{
+  "_id": "S7tQLj7rJ3Nyf4q8P",
+  "owner": {
+    "_id": "ux3fjoRm5soDepFAZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1486735121030"
+      }
+    },
+    "username": "lizell",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/8cbc7cccd5a415ae64aab0284832279b?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1536317726251"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1536317726251"
+    }
+  },
+  "origId": "AndijhSm4Fuox73p9",
+  "name": "vibrations",
+  "notes": "by lizell",
+  "rank": {
+    "$numberDouble": "1.288508887540139"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "lizell",
+  "avatarUrl": "https://secure.gravatar.com/avatar/8cbc7cccd5a415ae64aab0284832279b?default=retro&size=200",
+  "settings": "{\"num\":25957,\"mode\":\"POINTS\",\"sound\":\"https://m.soundcloud.com/ahrix/electro-house-ahrix-nova\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.058823529411764705,0.058823529411764705,0.058823529411764705,1],\"shader\":\"// chrillo\\n\\n#define PI 3.14159\\n\\nfloat hash( float n ) { return fract(sin(n)*753.5453123); }\\n\\nvoid main () {\\n  float i = hash(vertexId);\\n  float f = hash(i);\\n  float snd = texture2D(sound, vec2(f, i)).a * cos(i);\\n  snd = pow(snd, 2.);\\n  \\n  \\n  float ang = vertexId / 1000.;\\n  float perspective = .5 * (1. - mouse.y);\\n  float t = time * (f + .5) - mouse.x;\\n  float x = i * sin(ang + t) * .8;\\n  float y = i * cos(ang + t);\\n  y +=  .1 * snd * (1. - y);\\n  y *= perspective;\\n  \\n  float vis = snd / (y + 1.);\\n  \\n  gl_Position = vec4(x, y, 0., 1.);\\n  gl_PointSize = 5. * vis;\\n  \\n  v_color = vec4(\\n    snd * .7 * (2. - f),\\n    snd * .8 * cos(f * PI),\\n    snd * 2.,\\n    vis);\\n}\"}",
+  "screenshotURL": "data/images/images-2qxfdby41lw91cwke-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "x9NJiWZLYE3LP3kp9"
+}

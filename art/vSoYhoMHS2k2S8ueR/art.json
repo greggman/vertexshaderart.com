@@ -1,0 +1,46 @@
+{
+  "_id": "vSoYhoMHS2k2S8ueR",
+  "owner": {
+    "_id": "ton59f9P8EyXxMoto",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684322503530"
+      }
+    },
+    "profile": {
+      "name": "Myunghyun Kim",
+      "avatarUrl": "https://avatars.githubusercontent.com/MyunghyunKim0227?s=200"
+    },
+    "username": "myunghyunkim0227"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684325239751"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684325239751"
+    }
+  },
+  "origId": null,
+  "name": "Making A Grid_myunghyun,kim",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3875323686159788"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "myunghyunkim0227",
+  "avatarUrl": "https://avatars.githubusercontent.com/MyunghyunKim0227?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"https://on.soundcloud.com/KvgR5\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name: Myunghyun Kim\\n//Assignment: Exercise - Vertexshaderart : Making a Grid\\n//Course: CS250\\n//Term: Spring 2023\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  float red = sin(time) * 4.;\\n  float blue = sin(time) * 4.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 300.;\\n  \\n  v_color = vec4(red, 0, blue, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-5ufrcrfqcrl2s2h20-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "35"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "kFRFqeJ2miRuCXWe3"
+}

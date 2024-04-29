@@ -1,0 +1,47 @@
+{
+  "_id": "6N22GnCbsgYC6faeW",
+  "owner": {
+    "_id": "s7HjFWhhQTWKGaPrB",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554168718684"
+      }
+    },
+    "profile": {
+      "first_name": "철짜",
+      "last_name": "이",
+      "avatarUrl": "https://lh5.googleusercontent.com/-Ms9fjf33Cc0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reZGVnMGsJP55FG1NwfwQX9im-L6Q/mo/photo.jpg"
+    },
+    "username": "철짜"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554181253984"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554181253984"
+    }
+  },
+  "origId": null,
+  "name": "JJEONDA",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.950638505281269"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "철짜",
+  "avatarUrl": "https://lh5.googleusercontent.com/-Ms9fjf33Cc0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reZGVnMGsJP55FG1NwfwQX9im-L6Q/mo/photo.jpg",
+  "settings": "{\"num\":16384,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/*------------------------------------------------------------------------\\nAuthor\\t\\t\\t\\t\\t = chulseung.lee\\nAssignment Name/Number  = Shader/3 (Extra Credit)\\nCourse Name\\t\\t\\t\\t= CS230\\nTerm\\t\\t\\t\\t\\t= Spring 2019\\n------------------------------------------------------------------------*/\\n\\nvoid main() {\\n  gl_Position = vec4(mouse.x, mouse.y, 0, 1);\\n  gl_PointSize = 300.0;\\n  \\n  gl_PointSize *= abs(mouse.x)+abs(mouse.y);\\n  \\n  v_color = vec4(sin(time*10.0), mouse.x * mouse.y, 1.0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-6fzgwn9evvfhol9hv-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ep3ntSZpZEejHvAB4"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "3NDzadNsSWytgiaLt",
+  "owner": {
+    "_id": "pgKWPgR9Cfeze4JZf",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684327971226"
+      }
+    },
+    "profile": {
+      "name": "seoseulbin",
+      "avatarUrl": "https://avatars.githubusercontent.com/seoseulbin?s=200"
+    },
+    "username": "seoseulbin"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684328885142"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684328885142"
+    }
+  },
+  "origId": null,
+  "name": "Making A Grid with 4 Colors",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.810877736568779"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "seoseulbin",
+  "avatarUrl": "https://avatars.githubusercontent.com/seoseulbin?s=200",
+  "settings": "{\"num\":1690,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Seulbin Seo\\n// Exercise Making A Grid with 4 Colors\\n// CS250 Spring 2022\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  if (u < 0.5 && v < 0.5) {\\n    v_color = vec4(0.85, 0.1, 0.57, 1);\\n  } else if (u >= 0.5 && v < 0.5) {\\n    v_color = vec4(0, 1, 0, 1); \\n  } else if (u < 0.5 && v >= 0.5) {\\n    v_color = vec4(0, 0.4, 1, 1); \\n  } else {\\n    v_color = vec4(1, 1.4, 0.2, 1);\\n  }\\n}\"}",
+  "screenshotURL": "data/images/images-7wspl9i4cfxvvlzh1-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "a4J3RAQLMDmiyg3An"
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "EG3pbFeZPLiS72ia5",
+  "owner": {
+    "_id": "SNHTADKX2cCtRukEZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554178887760"
+      }
+    },
+    "profile": {
+      "first_name": "wnstjr",
+      "last_name": "yang",
+      "avatarUrl": "https://lh6.googleusercontent.com/-woU5-VARLRA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcYXRdpCnpCitbsXa2kxR4Dtr7jrA/mo/photo.jpg"
+    },
+    "username": "wnstjr"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554178984947"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554178984947"
+    }
+  },
+  "origId": null,
+  "name": "준석",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1483301666148855"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "wnstjr",
+  "avatarUrl": "https://lh6.googleusercontent.com/-woU5-VARLRA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcYXRdpCnpCitbsXa2kxR4Dtr7jrA/mo/photo.jpg",
+  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\n\\n\\nvoid main() {\\n  \\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float xoff = 0.0; \\n  float yoff = 0.0; \\n  \\n  vec2 xy = vec2(xoff, yoff)*2.5;\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n \\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize=abs(sin(time)*(mouse.x))* 500.0;\\n  \\n  float red=cos(time*2.0);\\n  float blue=sin(time*2.0);\\n  float green=tan(time*2.0);\\n  \\n  v_color=vec4(red,green,blue,1.0);\\t\\n}\"}",
+  "screenshotURL": "data/images/images-3xasbhrlte8svoqv1-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "sD5LHmqvuuuGjHHZZ"
+}

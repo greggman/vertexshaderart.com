@@ -1,0 +1,46 @@
+{
+  "_id": "9tYkByMY9xHJQLM8M",
+  "owner": {
+    "_id": "sbiee4rKiWAEvAjNr",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1507987372682"
+      }
+    },
+    "profile": {
+      "name": "Valentin Safonnikov",
+      "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg"
+    },
+    "username": "valentin"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1508157238022"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1508157238022"
+    }
+  },
+  "origId": "PHANwhhRXk62fsaeC",
+  "name": "Simple Sphere",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6603199660120196"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "valentin",
+  "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg",
+  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n\\nmat4 aspect = mat4(\\n  1, 0, 0, 0,\\n  0, resolution.x / resolution.y, 2, 1,\\n  0, 0, 1, 1,\\n  0, 0, 0, 1);\\n\\nmat4 scale(float s) {\\n  return mat4(\\n    s, 0, 0, s,\\n    0, s, s, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, s);\\n}\\n\\nmat4 rotY() {\\n  float s = sin(time / 4.);\\n  float c = cos(time / 4.);\\n  return mat4(\\n    c, 0, c-s, 0,\\n    0, c, 0, 0,\\n    s, 0, c, 0,\\n    0, 0, 0, c);\\n}\\n\\nmat4 rotX() {\\n  float deg = radians((-0.5 * (mouse.y + 1.)) * 360.);\\n  float s = sin(deg);\\n  float c = cos(deg);\\n  return mat4(\\n    1, 0, 0, c,\\n    0, c, c/s, 0,\\n    0, s, c, 0,\\n    s, 0, 0, 1);\\n}\\n\\nvoid main()\\n{\\n  float pointsPerCircle = 5000.;\\n  if(vertexId < pointsPerCircle) {\\n    float yPos = cos(vertexId / pointsPerCircle * PI);\\n    float xyLen = sin(vertexId / pointsPerCircle * PI);\\n    float xPos = sin(vertexId) * xyLen;\\n    float zPos = cos(vertexId) * xyLen;\\n    vec4 pos = vec4(xPos, yPos, zPos, 1);\\n    pos =  aspect * scale(0.5) * rotX() * rotY() * pos;\\n  \\tgl_Position = pos;\\n    gl_PointSize = (-pos.z + 0.5) * 8.;\\n  \\tv_color = mix(vec4(1, 0, 0, 1), vec4(0, 0, 1, 1), vertexId / pointsPerCircle);\\n  }\\n}\"}",
+  "screenshotURL": "data/images/images-2gphq0lzasd8zeijw-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "vG7ZQDxXHY9ynkNQy"
+}

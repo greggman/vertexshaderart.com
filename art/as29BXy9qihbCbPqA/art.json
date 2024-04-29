@@ -1,0 +1,45 @@
+{
+  "_id": "as29BXy9qihbCbPqA",
+  "owner": {
+    "_id": "HBPA5fBLqSQaSdvHS",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493456527434"
+      }
+    },
+    "username": "chemlo",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/bd1fc3e2f0d77392e06266faedc63267?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1493784797269"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1493784797269"
+    }
+  },
+  "origId": null,
+  "name": "Lonely Rolling Star",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2427105450166882"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "chemlo",
+  "avatarUrl": "https://secure.gravatar.com/avatar/bd1fc3e2f0d77392e06266faedc63267?default=retro&size=200",
+  "settings": "{\"num\":256,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/gamechops/dj-jo-lonely-rolling-star\",\"lineSize\":\"CSS\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\nfloat soundIntensity(float frq){\\n\\treturn texture2D(sound, vec2(frq, 0)).a;\\n}\\n\\nfloat soundIntensityDelta(float frq, float timeOffset){\\n\\tfloat currentIntensity = soundIntensity(frq); \\n  \\treturn currentIntensity - texture2D(sound, vec2(frq, timeOffset)).a;\\n}\\n\\nfloat meanIntensity(){\\n  \\tconst float samples = 25.;\\n \\tfloat intensity;\\n  \\n    for(float i = 0.; i < samples; i+=1./samples){\\n\\t\\tintensity += soundIntensity(i);\\n  \\t}\\n  \\n\\treturn intensity/samples;\\n}\\n\\nfloat meanIntensityDelta(float frq, float range){\\n  \\tconst float samples = 25.;\\n \\tfloat intensity = 1.;\\n \\t\\n  \\tfor(float i = 0.; i < samples; i+=1./samples){\\n    \\tintensity += abs(soundIntensityDelta(frq, i*range));\\n  \\t}\\n  \\n\\treturn intensity/samples;\\n}\\n\\nvec3 getVertexColor(){\\n\\tfloat ratio = (vertexId/vertexCount);\\n  \\tfloat intensity = soundIntensity(ratio);\\n  \\n  \\treturn vec3(\\n        clamp(soundIntensity(ratio)/1.5, 0.0, 0.5),\\n        clamp(0.4 + soundIntensity(ratio)*0.5 - meanIntensityDelta(ratio, 0.015)/4., 0.0, 0.4),\\n        0.5\\n    );\\n}\\n\\nvoid main(){\\n  \\tfloat aspect = resolution.x / resolution.y;\\n  \\tfloat timeMultiplier = 0.33;\\n  \\tfloat perspective = 0.66;\\n  \\n\\tfloat vertexRatio = (vertexId+1.)/vertexCount;\\n    float vertexRadians = vertexRatio * 2.;\\n  \\n    float x = cos(vertexRadians*PI-time*timeMultiplier);\\n    float y = sin(vertexRadians*PI-time*timeMultiplier) * perspective;\\n    float z = soundIntensity((vertexId/vertexCount)) * perspective;\\n  \\n    gl_Position = vec4(\\n        x,\\n        y*aspect,\\n        1. - z,\\n        2.5 - z - meanIntensity()\\n    );\\n    \\n  \\tv_color = vec4(getVertexColor(), 0.5);\\n  \\n  \\tgl_PointSize = pow(soundIntensity((vertexId/vertexCount))+1.5, 5.);\\n      \\n\\n}\"}",
+  "screenshotURL": "data/images/images-v2qlmxxm74lsgizsz-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "169"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "hGRefsjZkJnqPXxHe"
+}

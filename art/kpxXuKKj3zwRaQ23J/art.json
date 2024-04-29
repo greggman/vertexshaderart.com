@@ -1,0 +1,36 @@
+{
+  "_id": "kpxXuKKj3zwRaQ23J",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1687283122795"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1687283122795"
+    }
+  },
+  "origId": null,
+  "name": "Cool Attractors",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2610178355841801"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":45000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.1803921568627451,0.2627450980392157,0.25098039215686274,1],\"shader\":\"#define pi 3.14159\\n#define Dir(a) vec2(cos(a), sin(a))\\n\\nvoid main() {\\n  float vc = vertexCount;\\n  float svc = sqrt(vertexCount);\\n  float id = vertexId;\\n  id /= vc;\\n  \\n  float t = 0.3 * time;\\n  \\n\\n  vec2 uv = vec2(mod(vertexId, svc), floor(vertexId / svc)) / svc - 0.5;\\n  \\n  float d = 0.;\\n  const float n = 12.;\\n  for (float i = 0.; i < n; i++) {\\n  \\tfloat a = atan(uv.y, uv.x);\\n  \\tvec2 dir = 0.1 * sin(2.*a + t) * Dir(8.*pi*uv.x) \\n  \\t         + 0.1 * cos(2.*a + t) * Dir(8.*pi*uv.y);\\n  \\td += length(dir);\\n  \\tuv += dir;     \\n  }\\n\\n  gl_Position = vec4(uv, 0, 1);\\n  gl_PointSize = 3.*(1.-exp(-0.5*d*d));\\n  v_color = vec4(4. * exp(-d*d));\\n}\\n\"}",
+  "screenshotURL": "data/images/images-dlr1602tjq4skbp8k-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "105"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "ZAB9pkYPmYTtA34Ev"
+}

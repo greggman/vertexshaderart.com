@@ -1,0 +1,36 @@
+{
+  "_id": "q9kGY6PexnYDi9oCF",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1602838696198"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1602838696198"
+    }
+  },
+  "origId": "Piyv2py4bQL283mTB",
+  "name": "Sphere + Cube Distribution",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8138156641987664"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":9527,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\n\\nmat4 persp(float fov, float aspect, float zNear, float zFar) {\\n  float f = tan(PI * 0.5 - 0.5 * fov);\\n  float rangeInv = 1.0 / (zNear - zFar);\\n\\n  return mat4(\\n    f / aspect, 0, 0, 0,\\n    0, f, 0, 0,\\n    0, 0, (zNear + zFar) * rangeInv, -1,\\n    0, 0, zNear * zFar * rangeInv * 2., 0);\\n}\\n\\nmat4 rotY(float angleInRadians) {\\n    float s = sin(angleInRadians);\\n    float c = cos(angleInRadians);\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\nfloat anim(float t) {\\n  float st = sin(t);\\n  return (sign(st)*( 1.0-pow(1.0-abs(st), 5.0) ))*0.5+0.5;\\n}\\n\\nvec3 SampleSpherePos(float idx, float num) {\\n  idx += 0.5;\\n  float phi = 10.166407384630519631619018026484 * idx;\\n  float th_cs = 1.0 - 2.0*idx/num;\\n  float th_sn = sqrt(clamp(1.0 - th_cs*th_cs, 0.0, 1.0));\\n  return vec3( cos(phi)*th_sn, sin(phi)*th_sn, th_cs );\\n}\\n\\nvec3 SampleCubePos(float idx, float num) {\\n  float side = floor(pow(num, 1.0/3.0)+0.5);\\n  vec3 res;\\n  res.x = mod(idx, side);\\n  res.y = floor( mod(idx, side*side)/side );\\n  res.z = floor( mod(idx, side*side*side)/side/side );\\n  res -= vec3(side * 0.5);\\n  res *= 1.5/side;\\n  return res;\\n}\\n\\nvoid main() {\\n  //vec3 samplePos = mix(SampleCubePos(vertexId, vertexCount), SampleSpherePos(vertexId, vertexCount), anim(time));\\n  vec3 samplePos = SampleSpherePos(vertexId, vertexCount);\\n  vec4 vertPos = rotY(time*0.1) * vec4(samplePos, 1.0) + vec4(0,0,-3.0,0);\\n  \\n  gl_Position = persp(PI*0.25, resolution.x/resolution.y, 0.1, 100.0) * vertPos;\\n  gl_PointSize = 3.0; \\n\\n  v_color = vec4(1,1,1,1);\\n}\"}",
+  "screenshotURL": "data/images/images-q1koyr5tydd0ay6dr-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "163"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "eAXqsL4L8BW7uXics"
+}

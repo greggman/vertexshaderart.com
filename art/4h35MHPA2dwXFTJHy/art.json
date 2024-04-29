@@ -1,0 +1,46 @@
+{
+  "_id": "4h35MHPA2dwXFTJHy",
+  "owner": {
+    "_id": "QyFr9WoPZHnnBeKat",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1540408032900"
+      }
+    },
+    "profile": {
+      "first_name": "dertrackererpro",
+      "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg"
+    },
+    "username": "dertrackererpro"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1540721439293"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1540822458710"
+    }
+  },
+  "origId": "R4LHf9BCLCCDYjbez",
+  "name": "3D Sine Wave",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7493747377679838"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "dertrackererpro",
+  "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg",
+  "settings": "{\"num\":50000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main () {\\n  vec4 pos = vec4(-1.0, sin(2.0*time + vertexId * 0.005)-0.5 * 0.8, 0.0, 1.0);\\n  gl_PointSize = 15.0;\\n  gl_Position = pos + vertexId*0.0006;\\n  v_color = vec4(pos.x, pos.y, -pos.y, 1.0) + 0.5;\\n}\"}",
+  "screenshotURL": "data/images/images-3vwwhlmtxdzqqq6e2-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "297"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "gbpvvSGRBqXGTpgnH"
+}

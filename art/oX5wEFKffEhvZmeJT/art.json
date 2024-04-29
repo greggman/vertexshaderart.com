@@ -1,0 +1,36 @@
+{
+  "_id": "oX5wEFKffEhvZmeJT",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1626776506774"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1626776506774"
+    }
+  },
+  "origId": "PERFs2wtC9jvSqbDY",
+  "name": "3D Point Cloud Scene",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0233141603426432"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define EYE_DISTANCE 2.0\\n#define Z_NEAR 2.5\\n#define Z_FAR -2.5\\n\\n#define POINT_SIZE 5.0\\n\\n#define PI 3.1415\\n\\n#define RESOLUTION vec3(45.0)\\n#define SIZE vec3(2.5)\\n\\n// New hash based on hash13() from \\\"Hash without Sine\\\" by Dave_Hoskins (https://www.shadertoy.com/view/4djSRW)\\n// 4 in, 1 out\\nfloat Hash41(in vec4 p) {\\n\\tp = fract(p * 0.1031);\\n    p += dot(p, p.zwyx + 31.32);\\n    return fract((p.x + p.y) * p.z - p.x * p.w);\\n}\\n\\n\\nfloat SmoothNoise4D(in vec4 p) {\\n    vec4 cell = floor(p);\\n    vec4 local = fract(p);\\n    local *= local * (3.0 - 2.0 * local);\\n\\n    float ldbq = Hash41(cell);\\n    float rdbq = Hash41(cell + vec4(1.0, 0.0, 0.0, 0.0));\\n    float ldfq = Hash41(cell + vec4(0.0, 0.0, 1.0, 0.0));\\n    float rdfq = Hash41(cell + vec4(1.0, 0.0, 1.0, 0.0));\\n    float lubq = Hash41(cell + vec4(0.0, 1.0, 0.0, 0.0));\\n    float rubq = Hash41(cell + vec4(1.0, 1.0, 0.0, 0.0));\\n    float lufq = Hash41(cell + vec4(0.0, 1.0, 1.0, 0.0));\\n    float rufq = Hash41(cell + vec4(1.0, 1.0, 1.0, 0.0));\\n    float ldbw = Hash41(cell + vec4(0.0, 0.0, 0.0, 1.0));\\n    float rdbw = Hash41(cell + vec4(1.0, 0.0, 0.0, 1.0));\\n    float ldfw = Hash41(cell + vec4(0.0, 0.0, 1.0, 1.0));\\n    float rdfw = Hash41(cell + vec4(1.0, 0.0, 1.0, 1.0));\\n    float lubw = Hash41(cell + vec4(0.0, 1.0, 0.0, 1.0));\\n    float rubw = Hash41(cell + vec4(1.0, 1.0, 0.0, 1.0));\\n    float lufw = Hash41(cell + vec4(0.0, 1.0, 1.0, 1.0));\\n    float rufw = Hash41(cell + 1.0);\\n\\n    return mix(mix(mix(mix(ldbq, rdbq, local.x),\\n                       mix(lubq, rubq, local.x),\\n                       local.y),\\n\\n                   mix(mix(ldfq, rdfq, local.x),\\n                       mix(lufq, rufq, local.x),\\n                       local.y),\\n\\n                   local.z),\\n\\n               mix(mix(mix(ldbw, rdbw, local.x),\\n                       mix(lubw, rubw, local.x),\\n                       local.y),\\n\\n                   mix(mix(ldfw, rdfw, local.x),\\n                       mix(lufw, rufw, local.x),\\n                       local.y),\\n\\n                   local.z),\\n\\n               local.w);\\n}\\n\\nfloat FractalNoise4D(in vec4 p) {\\n    p *= 2.0;\\n\\n    float nscale = 1.0;\\n    float tscale = -0.21;\\n    float value = 0.0;\\n\\n    for (int octave=0; octave < 5; octave++) {\\n        value += SmoothNoise4D(p) * nscale;\\n        tscale += nscale;\\n        nscale *= 0.5;\\n        p *= 1.0;\\n    }\\n\\n    return value / tscale;\\n}\\n\\nfloat mapShape(vec3 p) {\\n    return FractalNoise4D(vec4(p, time * 0.25)) - 0.4;\\n}\\n\\nvec3 mapColor(in vec3 p) {\\n    vec3 lightDir = normalize(vec3(-1.0, 1.0, .40));\\n    vec2 e = vec2(0.001, 0.0);\\n    vec3 normal = normalize(vec3(mapShape(p + e.xyy) - mapShape(p - e.xyy),\\n                                 mapShape(p + e.yxy) - mapShape(p - e.yxy),\\n                                 mapShape(p + e.yyx) - mapShape(p - e.yyx)));\\n\\n    return vec3(max(0.0, dot(normal, lightDir)) + 0.31);\\n}\\n\\nvoid main() {\\n    float t = time * 0.25;\\n\\n    float cellId = vertexId;\\n    float gridX = mod(cellId, RESOLUTION.x);\\n    float gridY = mod(cellId - gridX, RESOLUTION.x * RESOLUTION.y) / RESOLUTION.x;\\n    float gridZ = (cellId - gridX - gridY * RESOLUTION.x) / RESOLUTION.x / RESOLUTION.y;\\n    vec3 gridPoint = vec3(gridX, gridY, gridZ) / RESOLUTION * SIZE - 0.45 * SIZE;\\n\\n    vec3 vertex = mapShape(gridPoint) < 0.0 ? gridPoint : vec3(0.0);\\n    vec3 color = mapColor(vertex);\\n\\n    vec2 mouseRot = mouse * PI;\\n    float cy = cos(mouseRot.x), sy = sin(mouseRot.x);\\n    float cp = cos(mouseRot.y), sp = sin(mouseRot.y);\\n    vertex.xz *= mat2(cy, sy, -sy, cy);\\n    vertex.yz *= mat2(cp, sp, -sp, cp);\\n\\n    vec2 screenCoords = vertex.xy / (EYE_DISTANCE - vertex.z);\\n    screenCoords.x *= resolution.y / resolution.x;\\n    float depth = (vertex.z - Z_NEAR) / (Z_FAR - Z_NEAR);\\n    gl_Position = vec4(screenCoords, depth, 1.50);\\n    gl_PointSize = POINT_SIZE / (EYE_DISTANCE - vertex.z);\\n    v_color = vec4(color, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-alsdehi0rp2qwwoua-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "129"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "9oYkpo4EFY9vdLFxu"
+}

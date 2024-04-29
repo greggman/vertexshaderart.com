@@ -1,0 +1,46 @@
+{
+  "_id": "ZvcLBFp3AkteTsGku",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1494927741274"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1494952126012"
+    }
+  },
+  "origId": null,
+  "name": "Getting it",
+  "notes": "Yes!",
+  "rank": {
+    "$numberDouble": "1.7575332509028339"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.6274509803921569,1],\"shader\":\"void main() {\\n  \\n  float density = 10.;\\n  \\n  float xoff = -0.5;\\n    \\n  float yoff = -0.5;\\n  \\n  float ux = 0.1;\\n  \\n  float uy = 0.1;\\n  \\n  float x = mod(vertexId , density);\\n  \\n  float y = mod(floor(vertexId / density), density);\\n  \\n  \\n  gl_Position = vec4(x * ux, y * uy, 0, 1);\\n\\n   \\n  gl_PointSize = mod(vertexId, density * density) / 5.;\\n\\n  v_color = vec4(1, 0, 0, 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-4wx1m3jvte423zxdn-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "12"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "7JJ5yxoQNX2byQGnm"
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "SRpckdENpS5Hpem8o",
+  "owner": {
+    "_id": "WPxtJNRQGyNafwBwv",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1552607566363"
+      }
+    },
+    "profile": {
+      "first_name": "Marco Isaac",
+      "last_name": "Buendía Mejía",
+      "avatarUrl": "https://lh6.googleusercontent.com/-jsbJZMoV7aw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rczbGrsWSlymdrCUasJ8WzEUV3Ptg/mo/photo.jpg"
+    },
+    "username": "marcoisaac"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1552607683992"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1552607683992"
+    }
+  },
+  "origId": "59tQtCvfJrkPnfsbk",
+  "name": "cuadros locos + circulo",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3051402863679331"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "marcoisaac",
+  "avatarUrl": "https://lh6.googleusercontent.com/-jsbJZMoV7aw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rczbGrsWSlymdrCUasJ8WzEUV3Ptg/mo/photo.jpg",
+  "settings": "{\"num\":1300,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  float width = 20.0;\\n  \\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.1;\\n  float yOffset = cos(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float vy = v * 2.0 - 1.0 + yOffset;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.2;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 20.0;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\\n\\n/*\\n\\nvoid main()\\n{\\n  \\n  float width = 20.0;\\n  float x = floor(vertexId / width);\\n  float y = mod(vertexId, 2.0);\\n  \\n  float angle = x / 20.0 * radians(360.0);\\n  float radius = 2.0 - y;\\n  \\n  float u = radius * cos(angle);\\n  float v = radius * sin(angle);\\n  \\n  float xOffset = cos(time * 2.0) * 0.2 ;\\n  float yOffset = cos(time * 3.0) * 1.0 ;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float uy = v * 2.0 - 1.0 + yOffset;\\n  \\n  vec2 xy = vec2(ux, uy) * 0.3;\\n  \\n\\n  gl_Position = vec4(xy, 0.0, 5.0);\\n  gl_PointSize = 20.0;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\\n\\n*/\"}",
+  "screenshotURL": "data/images/images-d80ptcy074z1jw9ls-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "WFArug2qjsPBKY52P"
+}

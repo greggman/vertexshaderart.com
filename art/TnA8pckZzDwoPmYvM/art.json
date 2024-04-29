@@ -1,0 +1,46 @@
+{
+  "_id": "TnA8pckZzDwoPmYvM",
+  "owner": {
+    "_id": "qKPpzdr6wbcudsddm",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1552696746395"
+      }
+    },
+    "profile": {
+      "name": "Alejandro Cámara",
+      "avatarUrl": "https://avatars.githubusercontent.com/AlejandroCamara?s=200"
+    },
+    "username": "alejandrocamara"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1553029252655"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1553051974769"
+    }
+  },
+  "origId": null,
+  "name": "P04-Ej02",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3092513897487676"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "alejandrocamara",
+  "avatarUrl": "https://avatars.githubusercontent.com/AlejandroCamara?s=200",
+  "settings": "{\"num\":8280,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main() {\\n  \\n  //float phi = mod((vertexId / 180.0), 180.0);\\n  //float theta = mod(vertexId, 360.0);\\n  \\n\\n  //float phi = floor(vertexId/ 180.0);\\n  //float theta = floor(vertexId/ 360.0);\\n  \\n  \\n  \\n  //float phi = (floor(vertexId / 180.0));\\n  //float theta = (mod(vertexId, 360.0)) ;\\n  \\n  float phi = radians(floor(vertexId / 180.0)) * 4.0;\\n  float theta = radians(mod(vertexId, 360.0)) * 4.0;\\n  float p = 1.0;\\n  \\n  mat4 rotX = mat4(\\n    1, \\t0,\\t\\t \\t0,\\t\\t\\t0,\\n  \\t0, \\tcos(time ), -sin(time),\\t0,\\n    0, \\tsin(time ), cos(time ),\\t0,\\n    0,\\t0,\\t\\t\\t0,\\t\\t\\t1\\n  );\\n  \\n  mat4 rotY = mat4(\\n  \\tcos(time ), \\t0,\\tsin(time),\\t0,\\n  \\t0,\\t\\t\\t\\t1,\\t0,\\t\\t\\t0,\\n    -sin(time), \\t0, \\tcos(time ),\\t0,\\n    0,\\t\\t\\t\\t0,\\t0,\\t\\t\\t1\\n  );\\n  \\n  mat4 rotZ = mat4(\\n  \\tcos(time), \\t-sin(time ),\\t0,\\t0,\\n  \\tsin(time),\\tcos(time ),\\t\\t0,\\t0,\\n    0, \\t\\t\\t0, \\t\\t\\t\\t1,\\t0,\\n    0,\\t\\t\\t0,\\t\\t\\t\\t0,\\t1\\n  );\\n  \\n  float x = p * sin(phi) * cos(theta);\\n  float y = p * sin(phi) * sin(theta);\\n  float z = p * cos(phi);\\n  \\n  vec4 pos = vec4(x,y,z, 1.0);\\n  //gl_Position = vec4(pos) / 0.1;\\n  gl_Position = vec4(rotX * rotZ * pos) / 0.1;\\n  v_color = vec4(0.0, 0.0, 1.0, 1.0);\\n  gl_PointSize = 3.0;\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-hp32xqbsjdtwnwxxp-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "uoYoMWMefHhGo8kiz"
+}

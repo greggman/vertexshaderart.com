@@ -1,0 +1,47 @@
+{
+  "_id": "vZ4PBCfpqJPJ4eweJ",
+  "owner": {
+    "_id": "9mSJ94a3jLQYEtpma",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1574356902539"
+      }
+    },
+    "profile": {
+      "first_name": "Nathan",
+      "last_name": "Gutierrez",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD1UTwiIjcHi479UROSg1X6rOGjkm4OniwszUsteg"
+    },
+    "username": "nathan2"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1574359647467"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1574359647467"
+    }
+  },
+  "origId": "Wjh598Fb6DK7AzRda",
+  "name": "Lesson03",
+  "notes": "vertexshaderart lessons",
+  "rank": {
+    "$numberDouble": "1.1523184686298056"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "nathan2",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD1UTwiIjcHi479UROSg1X6rOGjkm4OniwszUsteg",
+  "settings": "{\"num\":4616,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.10980392156862745,0.16470588235294117,0.22745098039215686,1],\"shader\":\"vec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time * 1.1 + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2.0 - 1.0 + xoff;\\n  float vy = v * 2.0 - 1.0 + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.3;\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time * 1.2 + x*y*0.02) * 5.0;\\n  \\n  gl_PointSize = 10.0 + soff;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  float hue = u * 0.1 + sin(time * 1.3 + v * 20.) * 0.05;\\n  float sat = 1.0;\\n  float val = sin(time * 1.4 + v * u * 20.0) * 0.5 + 0.5;\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-ukesxa3t1qakkeb4j-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "6"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "LZCiTon2YcC2am2ks"
+}

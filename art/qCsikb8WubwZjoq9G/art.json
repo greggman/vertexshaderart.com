@@ -1,0 +1,47 @@
+{
+  "_id": "qCsikb8WubwZjoq9G",
+  "owner": {
+    "_id": "ZS4MdCA33fb76CwsE",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554054895392"
+      }
+    },
+    "profile": {
+      "first_name": "윤수",
+      "last_name": "권",
+      "avatarUrl": "https://lh5.googleusercontent.com/-uoLq7WqJDyE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rePSz3yuG_mKNfPWq5PvUl80AL7Hw/mo/photo.jpg"
+    },
+    "username": "윤수"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554139111416"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554139111416"
+    }
+  },
+  "origId": null,
+  "name": "yoonsoo.kwon",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1479681180101549"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "윤수",
+  "avatarUrl": "https://lh5.googleusercontent.com/-uoLq7WqJDyE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rePSz3yuG_mKNfPWq5PvUl80AL7Hw/mo/photo.jpg",
+  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/*------------------------------------------------------------------------\\nAuthor\\t\\t\\t\\t\\t : yoonsoo.kwon \\nAssignment Name/Number  : Shader/3 (Extra Credit)\\nCourse Name\\t\\t\\t\\t: CS230\\nTerm\\t\\t\\t\\t\\t: Spring 2019\\n------------------------------------------------------------------------*/\\n\\nvoid main()\\n{\\n  //vertexId is 0,1,2,3,4 .....\\n  //By dividing by 10, it's going to be 0.0, 0.1, 0.2 , 0.3.....\\n  float value = vertexId/10.;\\n  \\n  //We can get a bunch of form by sending mouse position * value\\n  gl_Position = vec4(mouse.x*value  , mouse.y*value , 0,1);\\n  //By using sin we can get loop of sin and the size will be from 0 to 50.\\n  gl_PointSize = abs(sin(time+value))*50.;\\n  \\n  //Set with sin, cos, tan to get various color. \\n  v_color = vec4(sin(time), cos(time), tan(time), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-2taf52nr9vwi9khoc-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "84"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "mmqqah4wZGXbHwgT7"
+}

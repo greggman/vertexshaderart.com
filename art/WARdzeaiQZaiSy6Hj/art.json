@@ -1,0 +1,46 @@
+{
+  "_id": "WARdzeaiQZaiSy6Hj",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1449082902129"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1591668931663"
+    }
+  },
+  "origId": null,
+  "name": "uniuni",
+  "rank": {
+    "$numberDouble": "10.775740014660776"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "gman",
+  "settings": "{\"num\":100000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/ambientmusicalgenre/alicks-giants-under-the-sea\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.7098039215686275,0.27058823529411763,0.24313725490196078,1],\"shader\":\"/*\\n\\n __  __  _  _  ____  __  __  _  _  ____ \\n(  )(  )( \\\\( )(_  _)(  )(  )( \\\\( )(_  _)\\n )(__)(  )  (  _)(_  )(__)(  )  (  _)(_ \\n(______)(_)\\\\_)(____)(______)(_)\\\\_)(____)\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n*/\\n#define PI radians(180.)\\n#define NUM_SEGMENTS 200.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float maxCount = floor(vertexCount / NUM_POINTS);\\n  float offset = count * sin(time * 0.01) + 5.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.00014, 1.0);\\n  \\n  const int numSamples = 8;\\n  float snd = 0.;\\n  for (int i = 0; i < numSamples; ++i) {\\n    snd = max(texture2D(sound, vec2(\\n      0.05+ float(i) / float(numSamples) * 0.00 + 0.01, \\n      count / maxCount)).a, snd);\\n  }\\n  \\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  pow((maxCount - count) * mix(0.125, 0.25, sin(time * 0.25)), 0.8);\\n  float innerRadius = pow((maxCount - count) * 0.00005, 1.5);\\n  float oC = cos(orbitAngle + count * 0.001 + time) * innerRadius;\\n  float oS = sin(orbitAngle + count * 0.002 + time * 0.01) * innerRadius;\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n  gl_Position = vec4(xy * aspect * 40. + mouse * 0.0, 0, 1);\\n\\n  float b = 1.0 - pow(abs(sin(count * 0.2)) * 0.5 + 0.5, 2.0 + pow(snd+0.3, 5.) * 5.);\\n  v_color = vec4(vec3(b), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-fprrdobp2yiuwmr8l-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "221"
+  },
+  "likes": {
+    "$numberInt": "2"
+  },
+  "revisionId": "6xWtquaxarHxqeYYR",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "notes": ""
+}

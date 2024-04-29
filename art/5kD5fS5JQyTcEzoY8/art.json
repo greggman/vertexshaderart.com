@@ -1,0 +1,45 @@
+{
+  "_id": "5kD5fS5JQyTcEzoY8",
+  "owner": {
+    "_id": "PaTtiG9fc6wWxh69k",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1501018355084"
+      }
+    },
+    "username": "sylistine",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/3a93b17a430d08943deebdfb93d4cef3?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1600839950899"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1601854589781"
+    }
+  },
+  "origId": null,
+  "name": "Sound Texture Visualizer",
+  "notes": "Soundテキスチャーのサンプルをいじるとどんなパターンを綺麗に絞れるかとのためのシェーダーです。\n\nShader intended for viewing the raw effect of various processes on the sampled sound texture.\nHelpful for developing unique processing formulas.\n\nIn this example, I'm trying to isolate the rising and falling \"Let's go!\" sample\nThis helped also identify some really cool, clean patterns on the high end.",
+  "rank": {
+    "$numberDouble": "1.8122604356390057"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "sylistine",
+  "avatarUrl": "https://secure.gravatar.com/avatar/3a93b17a430d08943deebdfb93d4cef3?default=retro&size=200",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/griffinmcelroy/wonderland-round-three?in=griffinmcelroy/sets/the-adventure-zone-ost\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 21.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nfloat enhance(float v, float freq) {\\n  v *= 0.8 + freq; // enhance strength of high-end values\\n  v = smoothstep(0.33, 0.7, v);\\n  return pow(v, 4.); // enhance enhance enhance\\n}\\n\\nvoid main() {\\n  vec2 res = resolution * 0.25;\\n  float width = res.x;\\n  vec2 vUV = vec2(mod(vertexId, width), floor(vertexId / width)) / res;\\n  \\n  vec2 sUV = (vUV+0.00)*0.66;\\n  float col = texture2D(sound, sUV).a;\\n  col = enhance(col, sUV.x);\\n  \\n  // attempting to use the previous frame of audio to enhance the current\\n  float delta = 1./480.;\\n  sUV.y += delta;\\n  float iterations = 5.;\\n  sUV.x -= delta * floor(iterations * 0.5);\\n  float col2 = 0.;\\n  for(float i = 1.; i <= 5.; i++) {\\n    float snd = texture2D(sound, sUV).a;\\n    snd = enhance(snd, sUV.x);\\n    \\n    //average\\n    /*\\n    float newpercent = 1. / i;\\n    col2 = col2 * (1. - newpercent) + snd * newpercent;\\n\\t*/\\n    \\n    //max\\n    col2 = max(col2, snd);\\n    \\n    sUV.x += delta;\\n  }\\n  col2 *= 2.;\\n  col *= col2;\\n  \\n  gl_Position = vec4(vUV * 2. - 1., 0.0, 1.0);\\n  gl_PointSize = 4.0;\\n  v_color = vec4(col);\\n}\"}",
+  "screenshotURL": "data/images/images-1cxor1idzrh16a8c7-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "190"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "8uTotz7rF3AW7mxFd"
+}

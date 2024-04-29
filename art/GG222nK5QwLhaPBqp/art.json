@@ -1,0 +1,47 @@
+{
+  "_id": "GG222nK5QwLhaPBqp",
+  "owner": {
+    "_id": "95683ZgBuRkukjtj7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1589922178477"
+      }
+    },
+    "profile": {
+      "first_name": "Markus",
+      "last_name": "Q",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GifvlNvBe-lLi3fzBlpXK1QVVIW7V5Nwqq8cssCjA"
+    },
+    "username": "markus"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1589922530622"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1589926159284"
+    }
+  },
+  "origId": "PmRwSpR6jxkbJgsE4",
+  "name": "Straight Lines",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5105773058835563"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "markus",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GifvlNvBe-lLi3fzBlpXK1QVVIW7V5Nwqq8cssCjA",
+  "settings": "{\"num\":80976,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/turborecordings/tiga-vs-audion-lets-go-6\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define K 1.0594630943592952645618\\n\\nvec4 hueRamp(vec4 col)\\n{\\n  vec4 black = vec4(0.0,0.,0.0,1.0);\\n  vec4 main = vec4(0.3,0.1,0.8,1.0);\\n  vec4 result = mix(black,main,col.a*10.0-0.5);\\n  return result;\\n}\\n\\nvoid main()\\n{\\n  float W = 400.0;\\n  float H = 250.0;\\n  float u = 0.0;\\n  float v = 0.0;\\n  u = mod(vertexId/W,1.0);\\n  v = floor(vertexId/W)/H;\\n  float uScaled = pow(2.0,u*0.17)-1.0;\\n  float vScaled = pow(abs(v-0.5)*1.0,1.3);\\n  \\n  v_color = vec4(pow(texture2D(sound,vec2(uScaled,vScaled)).a,5.0));\\n  v_color = hueRamp(v_color);\\n  \\n  float x = v*-2.0 + 1.0;\\n  float y;\\n  y = u*2.0 - 0.8;\\n  gl_PointSize = 12.0;\\n  gl_Position = vec4(x,y,0,1);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-fbdbafqn9b885qva5-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "8"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "wvAR7Ao78zfYaKdmt"
+}

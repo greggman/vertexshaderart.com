@@ -1,0 +1,45 @@
+{
+  "_id": "qGKmWQ4t3CedrMdN2",
+  "owner": {
+    "_id": "5vj4on2zFGjvFpoeq",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1556923932187"
+      }
+    },
+    "username": "tjak",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/1a86b3500dea44608fae35d58b17a5ce?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1559503789224"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1559503888266"
+    }
+  },
+  "origId": null,
+  "name": "nice shape",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2447300873146498"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "tjak",
+  "avatarUrl": "https://secure.gravatar.com/avatar/1a86b3500dea44608fae35d58b17a5ce?default=retro&size=200",
+  "settings": "{\"num\":36,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\nvec3 hsv2rgb(vec3 c) {\\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvec3 triangle(int vtx) {\\n  if (vtx == 0) {\\n    return vec3(-1.0, -1.0, 0.0);\\n  } else if (vtx == 1) {\\n    return vec3(0.0, 1.0, 0.0);\\n  } else if (vtx == 2) {\\n    return vec3(1.0, -1.0, 0.0);\\n  } else {\\n    return vec3(0.0, sin(time)*sin(time), 0.0);\\n  }\\n}\\n\\nvoid main() {\\n  float triangleId = floor(vertexId / 3.0);\\n  float triangleCount = floor(vertexCount / 3.0);\\n  float triVtx = mod(vertexId, 3.0);\\n  \\n  // uniformly spaced in (0, 1)\\n  float t = mix(triangleId/triangleCount,\\n                (triangleId+1.)/triangleCount,\\n                0.5);\\n  \\n  float angle = 2. * PI * t;\\n  angle += time;\\n  vec3 pos = triangle(int(triVtx));\\n  mat3 rot = mat3(\\n    vec3(cos(angle), -sin(angle), 0.0),\\n    vec3(sin(angle), cos(angle), 0.0),\\n    vec3(0.0, 0.0, 1.0)\\n  );\\n  mat3 scal = mat3(0.2);\\n  pos = scal * rot * pos;\\n  \\n  pos.y *= resolution.x/resolution.y;\\n\\n  gl_Position = vec4(pos, 1.0);\\n  vec3 col = hsv2rgb(vec3(t, 0.7, 0.7));\\n  v_color = vec4(col, 1.0 - t);\\n}\"}",
+  "screenshotURL": "data/images/images-i0mv6mart8riqkik2-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "tLfH47AvxgW5SvuXc"
+}

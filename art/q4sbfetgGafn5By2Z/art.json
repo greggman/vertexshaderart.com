@@ -1,0 +1,33 @@
+{
+  "_id": "q4sbfetgGafn5By2Z",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1445869586258"
+    }
+  },
+  "origId": "wTaKE9X796qNFqgEM",
+  "name": "trippy",
+  "username": "-anon-",
+  "settings": "{\"num\":34509,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/liquidheasy/neuron\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159\\n//#define FIT_VERTICAL\\n\\nvoid main() {\\n  float NUM_SEGMENTS = 6.0 + time*0.001;\\n  float NUM_POINTS = (NUM_SEGMENTS * 2.0);\\n  float STEP = time*0.0001;\\n  if (STEP > 0.03) STEP = 0.03;\\n  float localTime = time*0.1 + 20.0;\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(time * localTime*0.0001) + 5.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.00014, 1.0);\\n  float c = cos(angle + localTime) * radius;\\n  float s = sin(angle + localTime) * radius;\\n  float orbitAngle =  pow(count * 0.025, 0.8);\\n  float innerRadius = pow(count * 0.0005, 1.2);\\n  float oC = cos(orbitAngle + count * 0.0001+0.3*cos(time*0.1+c)) * innerRadius;\\n  float oS = sin(orbitAngle + count * 0.0001+0.3*sin(time*0.1+orbitAngle)) * innerRadius;\\n\\n  #ifdef FIT_VERTICAL\\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\\n  #else\\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  #endif\\n\\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n  gl_Position = vec4(xy * aspect, 0, 1);\\n\\n  //float b = mix(0.0, 0.7, step(0.5, mod(count + localTime * 1.0, 6.0) / 2.0));\\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 10.0);\\n  b = 0.0;\\n  mix(0.3, 0.2, b);\\n  v_color = vec4(0.8-b, 0.4-c*10.0, 1.0-s*10.0, 1);\\n}\"}",
+  "screenshotDataId": "6jaYFoyMEwovP2wgZ",
+  "views": {
+    "$numberInt": "438"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Wy2Q3yEroapWrz9oK",
+  "screenshotURL": "data/images/images-6jaYFoyMEwovP2wgZ-thumbnail.png",
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1445869586262"
+    }
+  },
+  "hasSound": true,
+  "rank": {
+    "$numberDouble": "1.3484281148558512"
+  }
+}

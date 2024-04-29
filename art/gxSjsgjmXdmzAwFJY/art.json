@@ -1,0 +1,36 @@
+{
+  "_id": "gxSjsgjmXdmzAwFJY",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1550248715719"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1550248715719"
+    }
+  },
+  "origId": null,
+  "name": "Circle of points",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1536397110879117"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":400,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"const float speed = 0.2;\\n\\nvoid main() {\\n  vec4 position = \\n    vec4(1.25 * abs(cos(time * speed) * -sin(time * speed)) * cos(speed * time + vertexId), \\n         vertexId/vertexCount*2.0-1.0, \\n         0.0, 1.0);\\n  gl_PointSize = vertexId/vertexCount * 5.0;\\n  gl_Position = position;\\n  v_color = vec4(1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-20zgeykxs42b09us7-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "112"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "CErSftTWuriJ8YwqG"
+}

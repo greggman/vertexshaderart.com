@@ -1,0 +1,36 @@
+{
+  "_id": "Ka9eWpFE3Yj86HdYN",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1508581614383"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1508581614383"
+    }
+  },
+  "origId": "mQuMhKJA2PG4x8j7h",
+  "name": "It's So In Vogue To Be Dead",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0748783134298585"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/griffinmcelroy/wonderland-round-three?in=griffinmcelroy/sets/the-adventure-zone-ost\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n#define parameter0 5.//KParameter0 -15.>>20.\\n#define parameter1 5.//KParameter1 -15.>>20.\\n#define parameter2 5.//KParameter1 1.>>10.\\n#define parameter3 4.//KParameter1 1.>>10.\\n#define PI radians(180.)\\n\\nmat4 scale(float s)\\n{\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, 1);\\n}\\n\\nvoid main() {\\n  float segmentsPerCircle = 16.;\\n  float vertsPerSegment = 6.;\\n  \\n  // set base vert pos\\n  float bx = mod(vertexId, 2.) + floor(vertexId / 6.);\\n  float by = mod(floor(vertexId / 2.) + floor(vertexId / 3.), 2.);\\n  float angle = mod(bx, segmentsPerCircle) / segmentsPerCircle * 2. *  PI;\\n  \\n  // offset circles\\n  float circleCount = vertexCount / (segmentsPerCircle * vertsPerSegment);\\n  float circlesPerRow = 45.;\\n  float circlesPerColumn = floor(circleCount / circlesPerRow);\\n  float circleId = floor(vertexId / (segmentsPerCircle * vertsPerSegment));\\n  float cx = mod(circleId, circlesPerRow);\\n  float cy = floor(circleId / circlesPerRow);\\n  \\n  float sx = cx - circlesPerRow * .5;\\n  float sy = cy - circlesPerColumn * 0.5; cy - circlesPerColumn * 0.5;\\n  vec2 soundTexCoords0 = vec2(0, 0);\\n  float soundXTimeOffset = 0.;sin(time) * 0.015625;\\n  float beatwave =\\n    (  1. - abs( sin( time ) ) - 1. ) * sign( sin( time * 0.5 ) );\\n  float sampleRange = beatwave * 0.025 + 0.125;\\n  soundTexCoords0.x = abs(atan(sx / sy)) / (PI * 0.5) * sampleRange;\\n  float maxRadius = sqrt(pow(circlesPerRow * 0.5, 2.) + pow(circlesPerColumn * 0.5, 2.));\\n  // lets pretend the max radius is actually a little longer.\\n  maxRadius *= 1.5;\\n  float historyDepth = 0.0625;\\n  float currentRadius = sqrt(pow(sx, 2.) + pow(sy, 2.)) / maxRadius;\\n  soundTexCoords0.y = currentRadius * historyDepth;\\n  vec2 soundTexCoords1 = soundTexCoords0;\\n  soundTexCoords1.y = historyDepth - soundTexCoords0.y + historyDepth;\\n  float outgoingR = texture2D(sound, soundTexCoords0).a;\\n  float r = outgoingR;\\n  r = r * (1. - soundTexCoords0.x) + 0.1;\\n  r = pow(r, 5.);\\n  float radius = by * r;\\n  float x = cos(angle) * radius;\\n  float y = sin(angle) * radius;\\n  \\n  gl_Position = vec4(x, y, -r / 2., 1);\\n  gl_Position += vec4(cx - circlesPerRow * .5, cy - circlesPerColumn * 0.5, 0, 0);\\n  \\n  // scale\\n  gl_Position *= scale((1. - r) / (6. + parameter1) / x * y);\\n  \\n  // fix aspect\\n  vec4 aspect = vec4(resolution.y / resolution.x, 1, 1, 1);\\n  gl_Position *= aspect;\\n  \\n  float g = (sin((abs(sx) + abs(sy)) * 10.25 - time * 1. *parameter2) * 0.5 + 0.5);\\n  v_color = vec4(r * 2. - 0.5, g, 1, 1);\\n  \\n  gl_PointSize = 5. * r * parameter3 ;\\n}\"}",
+  "screenshotURL": "data/images/images-0612poreet0o6jhkl-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "153"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "XyoDZfm95ft8sGfFf"
+}

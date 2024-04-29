@@ -1,0 +1,36 @@
+{
+  "_id": "7rEgrhT8EQfJ7PDrk",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551479122586"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551479122586"
+    }
+  },
+  "origId": "dN7ijsBkvACZ3Nv8B",
+  "name": "the tangled webs I weave",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0330552239838493"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"// hash functions\\n\\n\\n\\nvoid main() {\\n  gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-nftqfsshw18rawtkl-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "43"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "gfWvxENdJRnBGPnLQ"
+}

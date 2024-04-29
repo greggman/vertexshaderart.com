@@ -1,0 +1,46 @@
+{
+  "_id": "b3HJWpHiePeAo4JrM",
+  "owner": {
+    "_id": "DMjrQbvFJZiBrahNH",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684316626390"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/JeminShin2?s=200"
+    },
+    "username": "jeminshin2"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684414594680"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684414594680"
+    }
+  },
+  "origId": "mwEZ5Nk4R35Dsd7eu",
+  "name": "Motion",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7430336475540265"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "jeminshin2",
+  "avatarUrl": "https://avatars.githubusercontent.com/JeminShin2?s=200",
+  "settings": "{\"num\":10000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main()\\n{\\n\\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor(vertexCount / down);\\n  \\n  \\tfloat x = mod(vertexId, across);\\n  \\tfloat y = floor(vertexId / across);\\n  \\n  \\tfloat u = x / (across - 1.0);\\n  \\tfloat v = y / (across - 1.0);\\n  \\n  \\tfloat xoff = sin(time + y  * 2.0 ) * 0.5;\\n  \\tfloat yoff = cos(time + x * 3.0) * 0.5;\\n  \\n  \\tfloat ux = u * 2.0 - 1.0 * xoff;\\n  \\tfloat vy = v * 2.0 - 1.0 + yoff;\\n  \\n  \\tvec2 xy = vec2(ux , vy) * 1.3;\\n  \\n  \\tgl_Position = vec4(xy, 0, 1);\\n\\n  \\n  \\tgl_PointSize = 15.0 ;\\n  \\tgl_PointSize *= 20.0 / across;\\n  \\tgl_PointSize *= resolution.x / 600.;\\n\\n  \\t\\n  \\tv_color = vec4(1, 0.5, 0.5, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-c35b35ngfjae182ra-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Gk4YjhEBSXQrZvSWH"
+}

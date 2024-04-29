@@ -1,0 +1,46 @@
+{
+  "_id": "SJYTAAwib5eJy8voP",
+  "owner": {
+    "_id": "yzwhJTH9ASEBDtEi9",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1466660344065"
+      }
+    },
+    "username": "shu",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/6dc8be209aeec21dc99956c1188c1b05?default=retro&size=200",
+      "info": "http://soundcloud.com/switchstyle"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1486189313791"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1486456232051"
+    }
+  },
+  "origId": null,
+  "name": "412b synchrony",
+  "notes": "412 bytes",
+  "rank": {
+    "$numberDouble": "1.1037563132655168"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "shu",
+  "avatarUrl": "https://secure.gravatar.com/avatar/6dc8be209aeec21dc99956c1188c1b05?default=retro&size=200",
+  "settings": "{\"num\":6000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"vec3 f(vec3 c){c=vec3(c.x,clamp(c.yz,0.,1.));vec4 K=vec4(1.,2./3.,1./3.,3.);vec3 p=abs(fract(c.xxx+K.xyz)*6.-K.www);return c.z*mix(K.xxx,clamp(p-K.xxx,0.,1.),c.y);}void main(){float c=floor(vertexCount/6.);float i=floor(vertexId/6.);float j=mod(vertexId,6.);gl_Position=vec4(i/c*2.-1.+(mod(j,2.)>0.?2./c*9.:0.),j>1.&&j<5.?sin(i/c+mod(i,9.)+time):0.,-i/c,1);v_color=vec4(f(vec3(c/i+time,1,1)),.3);v_color.rgb*=.3}\"}",
+  "screenshotURL": "data/images/images-v8gfosbtrnwvl14tm-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "349"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "8RGJu4ensQeMQJ4ri"
+}

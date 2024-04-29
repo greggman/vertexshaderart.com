@@ -1,0 +1,46 @@
+{
+  "_id": "iQGt7fDGEeR4vD6ez",
+  "owner": {
+    "_id": "F5H8bRPnrGa3XNp95",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1652946063947"
+      }
+    },
+    "profile": {
+      "name": "Geonhwi Sim",
+      "avatarUrl": "https://avatars.githubusercontent.com/geonhwisim-digipen?s=200"
+    },
+    "username": "geonhwisim-digipen"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1652946877995"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1652947000557"
+    }
+  },
+  "origId": null,
+  "name": "Making a Grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2745065773575068"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "geonhwisim-digipen",
+  "avatarUrl": "https://avatars.githubusercontent.com/geonhwisim-digipen?s=200",
+  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.8745098039215686,0.5843137254901961,0.7098039215686275,1],\"shader\":\"// Name: Geonhwi Sim\\n// Assignment Name: Making a grid\\n// Course Name: CS250\\n// Term: Spring 2022\\n\\nvoid main() {\\n  float down = sqrt(vertexCount);\\n  float across = floor(vertexCount / down);\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n\\n  float ux = u * 2. - 1. * sin(time * 0.5);\\n  float vy = v * 2. - 1. * cos(time * 0.5);\\n  \\n  gl_Position = vec4(ux - 1.0, vy - 1.0, 0, 1);\\n  gl_PointSize = 15.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 400.0;\\n\\n  v_color = vec4(0, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-mwf2h05zvukz9dlhs-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ZNb7NruZEXxoZb3Mo"
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "iE3Xz7bewdDm3shFC",
+  "owner": {
+    "_id": "pdZqGqCCdaZadyFNo",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1446229281794"
+      }
+    },
+    "profile": {
+      "name": "Mihail Szabolcs",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/378800000551418133/f31731617a0899fd1ead112449b1c178_200x200.png"
+    },
+    "username": "c0d3rguy"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1446230771097"
+    }
+  },
+  "origId": null,
+  "name": "Infinite Heart of Glass",
+  "username": "c0d3rguy",
+  "settings": "{\"num\":256,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/special-guests-band/blondie-heart-of-glass-1979\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  float t = time + 5.0;\\n  \\n  float sndx = texture2D(sound, vec2(0.4, 0.4)).a;\\n  float sndy = texture2D(sound, vec2(0.2, 0.2)).a;\\n  \\n  float xo = vertexId / 128.0;\\n  float yo = vertexId / 64.0;\\n   \\n  vec2 xy = vec2(cos(xo * t) * 2.0 * sndx, \\n                 sin(yo * t) * 2.0 * sndy * sndx);\\n  xy *= 0.8;\\n\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n\\n  v_color = vec4(vec3(clamp(xy.y + 0.8, 0.0, 1.0), \\n                      clamp(xy.x + 0.7, 0.0, 1.0), \\n                      clamp(xy.y + 0.8, 0.0, 1.0)), 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-9h2aq4d3g8kdx2xez-thumbnail.jpg",
+  "views": {
+    "$numberInt": "140"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "6atefXiFyqtwzqrm7",
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1446232894592"
+    }
+  },
+  "hasSound": true,
+  "rank": {
+    "$numberDouble": "1.985163255251807"
+  },
+  "avatarUrl": "https://pbs.twimg.com/profile_images/378800000551418133/f31731617a0899fd1ead112449b1c178_200x200.png"
+}

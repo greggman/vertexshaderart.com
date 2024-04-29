@@ -1,0 +1,45 @@
+{
+  "_id": "2FpAyYRgGQytFrcAM",
+  "owner": {
+    "_id": "8YazjgbR8FtHJgYgR",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1689266555980"
+      }
+    },
+    "username": "ersh",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/a55f941068214979f79e0d64d5062a5d?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1689316865040"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1689320547944"
+    }
+  },
+  "origId": "jETzmmycobJrRvXH9",
+  "name": "SphereDistribution lines",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5945985293172453"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "ersh",
+  "avatarUrl": "https://secure.gravatar.com/avatar/a55f941068214979f79e0d64d5062a5d?default=retro&size=200",
+  "settings": "{\"num\":16265,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//// RESET TIME!\\n\\n// 1. or 2.\\n#define LINES 2.\\n\\n#define PI radians(180.)\\n\\n\\nmat4 persp(float fov, float aspect, float zNear, float zFar) {\\n  float f = tan(PI * 0.5 - 0.5 * fov);\\n  float rangeInv = 1.0 / (zNear - zFar);\\n\\n  return mat4(\\n    f / aspect, 0, 0, 0,\\n    0, f, 0, 0,\\n    0, 0, (zNear + zFar) * rangeInv, -1,\\n    0, 0, zNear * zFar * rangeInv * 2., 0);\\n}\\n\\nmat4 rotY(float angleInRadians) {\\n    float s = sin(angleInRadians);\\n    float c = cos(angleInRadians);\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\nvec3 SampleSpherePos(float idx, float num) {\\n  idx += 0.5;\\n  //float phi = 10.166407384630519631619018026484 * idx;\\n  float phi = 2.399949895 * idx;\\n  float th_cs = 1.0 - 2.0*idx/num;\\n  float th_sn = sqrt(clamp(1.0 - th_cs*th_cs, 0.0, 1.0));\\n  return vec3( cos(phi)*th_sn, sin(phi)*th_sn, th_cs );\\n}\\n\\nfloat gcd(in float a, in float b) {\\n  a = floor(a); b = floor(b);\\n  if (b < 1.) { return 1.; }\\n  for (int n = 0; n < 10; n++) {\\n    if (b < 0.0001) break;\\n    float bb = mod(a, b);\\n    a = b;\\n    b = bb;\\n  }\\n  return a;\\n}\\n\\nfloat shuffle(float n, float count, float st) {\\n  float mult = st + gcd(count, st) / count;\\n  float nn = n * mult;\\n  return floor(mod(nn, count));\\n}\\n\\n//float shuffles[] = float[](8., 13., 21., 34., 42., 47., 55., 68., 76., 84., 89., 97., 102., 144.);\\nfloat getShuf(float t) {\\n  t = mod(floor(t), 10.);\\n  return\\n    t < 1.  ? 8. :\\n    t < 2.  ? 13. :\\n    t < 3.  ? 21. :\\n    t < 4.  ? 34. :\\n    t < 5.  ? 55. :\\n    t < 6.  ? 89. :\\n    t < 7.  ? 144. :\\n    t < 8.  ? 233. :\\n    t < 9.  ? 335. :\\n    t < 10. ? 568. :\\n    5.\\n    ;\\n}\\n\\nvoid main() {\\n  float count = min(ceil(time*100.), vertexCount / LINES);\\n  if (vertexId / LINES >= count) { return; }\\n  float line_id = floor(vertexId / count);\\n  float id = shuffle(mod(vertexId, count), count, getShuf(time/(8.) + line_id));\\n  //float id = shuffle(vertexId, count, 568.);\\n  //float id = shuffle(vertexId, count, ceil(time));\\n  //float id = shuffle(vertexId, count, floor((mouse.x+1.)*100.));\\n  vec4 vertPos = rotY(time*0.1) * vec4(SampleSpherePos(id, count), 1.0) + vec4(0,0,-3.0,0);\\n\\n  gl_Position = persp(PI*0.25, resolution.x/resolution.y, 0.1, 100.0) * vertPos;\\n  gl_PointSize = 3.0; \\n\\n  v_color = vec4(1.3 + vertPos.z * 0.3);\\n}\"}",
+  "screenshotURL": "data/images/images-rqz871idb95ap9wo9-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "56"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "CMswHYPpcmMGS9Nhi"
+}

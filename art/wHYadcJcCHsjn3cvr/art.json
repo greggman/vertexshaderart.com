@@ -1,0 +1,36 @@
+{
+  "_id": "wHYadcJcCHsjn3cvr",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1498138156911"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1498138156911"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0432114168648305"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":3,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,1,1,1],\"shader\":\"void main() {\\n\\tgl_PointSize = 10.0;\\n  \\tgl_Position = vec4(0.0, 0.0, 0.0, 1.0);\\n \\tv_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-768cr750wf8j84seq-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "65"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "qTE9W9enZKmm6xbY7"
+}

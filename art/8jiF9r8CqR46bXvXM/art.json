@@ -1,0 +1,47 @@
+{
+  "_id": "8jiF9r8CqR46bXvXM",
+  "owner": {
+    "_id": "FdF3Ffp5KMucnmivz",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554193926255"
+      }
+    },
+    "profile": {
+      "first_name": "도영",
+      "last_name": "이",
+      "avatarUrl": "https://lh4.googleusercontent.com/-U1yoYVQNRaI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdPOWnx_PVuWVFfdWUFWnYSBIUGSQ/mo/photo.jpg"
+    },
+    "username": "도영"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554199133048"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554199133048"
+    }
+  },
+  "origId": null,
+  "name": "Cs230",
+  "notes": "moving with music\n& change color with mouse\nposition",
+  "rank": {
+    "$numberDouble": "1.6796519384426096"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "도영",
+  "avatarUrl": "https://lh4.googleusercontent.com/-U1yoYVQNRaI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdPOWnx_PVuWVFfdWUFWnYSBIUGSQ/mo/photo.jpg",
+  "settings": "{\"num\":5000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() \\n{\\n  \\tfloat value = vertexId*10.0;\\n    \\n\\tfloat x =mouse.x;\\n\\tfloat y = mouse.y;\\n  \\n \\tfloat snd = texture2D(sound, vec2(0, 0)).a;\\n  \\tgl_Position = vec4(cos(value), sin(value), 0, abs(snd*2.0));\\n  \\n  \\tgl_PointSize = 50.0;\\n  \\n  \\tv_color = vec4(cos(x), sin(y), tan(x*y), 1);\\n}\\n\\n  \"}",
+  "screenshotURL": "data/images/images-fviyv80ibkbu9gvbn-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "LhfrRoj5kEeTZdawW"
+}

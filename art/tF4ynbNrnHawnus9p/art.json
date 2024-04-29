@@ -1,0 +1,36 @@
+{
+  "_id": "tF4ynbNrnHawnus9p",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1498138091988"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1498138091988"
+    }
+  },
+  "origId": "ut2hNmEtGzvzi7Rwj",
+  "name": "Learn Vertex Shaders",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.980582520699336"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":3,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,1,1,1],\"shader\":\"void main() {\\n\\tgl_PointSize = 10.0;\\n  \\tgl_Position = vec4(0.0, 0.0, 0.0, 1.0);\\n \\tv_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-zodq1oypukyv9x70e-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "69"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Azg8wHNNSvT7eY7mt"
+}

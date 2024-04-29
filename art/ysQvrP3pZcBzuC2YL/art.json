@@ -1,0 +1,46 @@
+{
+  "_id": "ysQvrP3pZcBzuC2YL",
+  "owner": {
+    "_id": "HzeqnW8R7voj7FLgT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1505942443270"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/trip-les-ix?s=200"
+    },
+    "username": "trip-les-ix"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1516530511864"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1516530511864"
+    }
+  },
+  "origId": "bcenao9Loe5Xc2Y7T",
+  "name": "spacetunnel",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.748260645242889"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "trip-les-ix",
+  "avatarUrl": "https://avatars.githubusercontent.com/trip-les-ix?s=200",
+  "settings": "{\"num\":100000,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/florandfaun/alone\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n//KDrawmode=GL_LINE_STRIP\\n#define PI radians(180.0)\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nmat4 rotY( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\n\\nmat4 rotZ( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c,-s, 1, 0, \\n      s, c, 0, 0,\\n      0, 0, 1, 0,\\n      0, 0, 0, 1); \\n}\\n\\nmat4 trans(vec3 trans) {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    trans, 1);\\n}\\n\\nmat4 ident() {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 scale(vec3 s) {\\n  return mat4(\\n    s[0], 0, 0, 0,\\n    0, s[1], 0, 0,\\n    0, 0, s[2], 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 uniformScale(float s) {\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 persp(float fov, float aspect, float zNear, float zFar) {\\n  float f = tan(PI * 0.5 - 0.5 * fov);\\n  float rangeInv = 1.0 / (zNear - zFar);\\n\\n  return mat4(\\n    f / aspect, 0, 0, 0,\\n    0, f, 0, 0,\\n    0, 0, (zNear + zFar) * rangeInv, -1,\\n    0, 0, zNear * zFar * rangeInv * 2., 0);\\n}\\n\\nmat4 trInv(mat4 m) {\\n  mat3 i = mat3(\\n    m[0][0], m[1][0], m[2][0], \\n    m[0][1], m[1][1], m[2][1], \\n    m[0][2], m[1][2], m[2][2]);\\n  vec3 t = -i * m[3].xyz;\\n    \\n  return mat4(\\n    i[0], t[0], \\n    i[1], t[1],\\n    i[2], t[2],\\n    0, 0, 0, 1);\\n}\\n\\nmat4 transpose(mat4 m) {\\n  return mat4(\\n    m[0][0], m[1][0], m[2][0], m[3][0], \\n    m[0][1], m[1][1], m[2][1], m[3][1],\\n    m[0][2], m[1][2], m[2][2], m[3][2],\\n    m[0][3], m[1][3], m[2][3], m[3][3]);\\n}\\n\\nmat4 lookAt(vec3 eye, vec3 target, vec3 up) {\\n  vec3 zAxis = normalize(eye - target);\\n  vec3 xAxis = normalize(cross(up, zAxis));\\n  vec3 yAxis = cross(zAxis, xAxis);\\n\\n  return mat4(\\n    xAxis, 0,\\n    yAxis, 0.07,\\n    zAxis, 0.01,\\n    eye, 1);\\n}\\n\\nmat4 inverse(mat4 m) {\\n  float\\n      a00 = m[0][0], a01 = m[0][1], a02 = m[0][2], a03 = m[0][3],\\n      a10 = m[1][0], a11 = m[1][1], a12 = m[1][2], a13 = m[1][3],\\n      a20 = m[2][0], a21 = m[2][1], a22 = m[2][2], a23 = m[2][3],\\n      a30 = m[3][0], a31 = m[3][1], a32 = m[3][2], a33 = m[3][3],\\n\\n      b00 = a00 * a11 - a01 * a10,\\n      b01 = a00 * a12 - a02 * a10,\\n      b02 = a00 * a13 - a03 * a10,\\n      b03 = a01 * a12 - a02 * a11,\\n      b04 = a01 * a13 - a03 * a11,\\n      b05 = a02 * a13 - a03 * a12,\\n      b06 = a20 * a31 - a21 * a30,\\n      b07 = a20 * a32 - a22 * a30,\\n      b08 = a20 * a33 - a23 * a30,\\n      b09 = a21 * a32 - a22 * a31,\\n      b10 = a21 * a33 - a23 * a31,\\n      b11 = a22 * a33 - a23 * a32,\\n\\n      det = b00 * b11 - b01 * b10 - b02 * b09 + b03 * b08 - b04 * b07 + b05 * b06;\\n\\n  return mat4(\\n      a11 * b11 - a12 * b10 + a13 * b09,\\n      a02 * b10 - a01 * b11 - a03 * b09,\\n      a31 * b05 - a32 * b04 + a33 * b03,\\n      a22 * b04 - a21 * b05 - a23 * b03,\\n      a12 * b08 - a10 * b11 - a13 * b07,\\n      a00 * b11 - a02 * b08 + a03 * b07,\\n      a32 * b02 - a30 * b05 - a33 * b01,\\n      a20 * b05 - a22 * b02 + a23 * b01,\\n      a10 * b10 - a11 * b08 + a13 * b06,\\n      a01 * b08 - a00 * b10 - a03 * b06,\\n      a30 * b04 - a31 * b02 + a33 * b00,\\n      a21 * b02 - a20 * b04 - a23 * b00,\\n      a11 * b07 - a10 * b09 - a12 * b06,\\n      a00 * b09 - a01 * b07 + a02 * b06,\\n      a31 * b01 - a30 * b03 - a32 * b00,\\n      a20 * b03 - a21 * b01 + a22 * b00) / det;\\n}\\n\\nmat4 cameraLookAt(vec3 eye, vec3 target, vec3 up) {\\n  #if 1\\n  return inverse(lookAt(eye, target, up));\\n  #else\\n  vec3 zAxis = normalize(target - eye);\\n  vec3 xAxis = normalize(cross(up, zAxis));\\n  vec3 yAxis = cross(zAxis, xAxis);\\n\\n  return mat4(\\n    xAxis, 0,\\n    yAxis, 0.6,\\n    zAxis, 0.3,\\n    -dot(xAxis, eye), -dot(yAxis, eye), -dot(zAxis, eye), 1);  \\n  #endif\\n  \\n}\\n\\n\\n// hash function from https://www.shadertoy.com/view/4djSRW\\nfloat hash(float p) {\\n\\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\\n\\treturn fract(p2.x * p2.y * 95.4337);\\n}\\n\\nfloat m1p1(float v) {\\n  return v * 2. - 1.;\\n}\\n\\nfloat p1m1(float v) {\\n  return v * .5 + 5.;\\n}\\n\\nfloat inv(float v) {\\n  return 1. - v;\\n}\\n\\n\\nfloat goop(float t) {\\n  return (sin(t)  * 8. + sin(t * 0.27) * 4. + sin(t * 0.13) * 2. + sin(t * 0.73)) / 15.0;\\n}\\n\\nfloat mod289(float x){return x - floor(x * (1.0 / 289.0)) * 289.0;}\\nvec4 mod289(vec4 x){return x - floor(x * (1.0 / 289.0)) * 289.0;}\\nvec4 perm(vec4 x){return mod289(((x * 34.0) + 1.0) * x);}\\n\\nfloat noise(vec3 p){\\n    vec3 a = floor(p);\\n    vec3 d = p - a;\\n    d = d * d * (3.0 - 2.0 * d);\\n\\n    vec4 b = a.xxyy + vec4(0.0, 1.0, 0.0, 1.0);\\n    vec4 k1 = perm(b.xyxy);\\n    vec4 k2 = perm(k1.xyxy + b.zzww);\\n\\n    vec4 c = k2 + a.zzzz;\\n    vec4 k3 = perm(c);\\n    vec4 k4 = perm(c + 1.0);\\n\\n    vec4 o1 = fract(k3 * (.0 / 41.0));\\n    vec4 o2 = fract(k4 * (1.0 / 41.0));\\n\\n    vec4 o3 = o2 * d.z + o1 * (0.4 - d.z);\\n    vec2 o4 = o3.yw * d.x + o3.xz * (1.0 - d.x);\\n\\n    return o4.y * d.y + o4.x * (3.0 - d.y);\\n}\\n\\nvec3 getCenterPoint(const float id, vec2 seed) {\\n  float a0 = id + seed.x;\\n  float a1 = id + seed.y;\\n  return vec3(\\n    (sin(a0 * 0.39) + sin(a0 * 0.73) + sin(a0 * 1.27)) / 3.,\\n    (sin(a1 * 0.43) + sin(a1 * 0.37) + tan(a1 * 1.73)) / 2.,\\n    0);\\n}\\n\\n#define POINTS_PER_LINE 50.\\nvoid main() {\\n  float lineId = floor(vertexId / POINTS_PER_LINE);\\n  float pointId = mod(vertexId, POINTS_PER_LINE);\\n  float numLines = floor(vertexCount / POINTS_PER_LINE);\\n  vec2 uv = vec2(\\n    pointId / POINTS_PER_LINE, \\n    lineId / numLines);\\n\\n  float ang = uv.x * PI * 2. + uv.y * mix(10., 100., sin(time * 0.1));\\n  vec3 pos = vec3(\\n    cos(ang),\\n    sin(ang),\\n    uv.y * 10.\\n    );\\n  \\n  vec3 eye = vec3(0, 0, 0.0);\\n  vec3 target = vec3(0, 0, 1);\\n  vec3 up = vec3(0, 1, 0);\\n  \\n  float sa = abs(atan(uv.x, uv.y) / PI);\\n  float snd = texture2D(sound, vec2(0.02, mix(1.0, 0.0, uv.y))).a;\\n  \\n  pos.xy *= mix(1., 2.2, pow(snd, 5.));\\n  float tm = time - uv.y * 15.;\\n  pos.xy += vec2(sin(tm), cos(tm * 1.11)) * -0.2;\\n  float aspect = resolution.x / resolution.y;\\n  \\n  mat4 mat = persp(radians(140.), 1., 0.1, 200.); \\n  mat *= cameraLookAt(eye, target, up);\\n  mat *= scale(vec3(0.5, 0.4, 1));\\n  gl_Position = mat * vec4(pos, 1);\\n  float clipZ = gl_Position.z / gl_Position.w;\\n  gl_PointSize = mix(0.7, 50., pow(1. - uv.y, 50.));\\n  gl_PointSize *= resolution.x / 1400.;\\n\\n  float hue = pos.z* 0.02 + time * (0.01 + mouse.y);\\n  float sat = 1.;\\n  float val = 1.;\\n  float alp = noise(pos * 3. + time * vec3(.7,0.3,5.));//clamp(goop(uv.x * 20. + time) + goop(uv.y * 20.123 + time), 0., 1.);\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), alp);\\n  v_color.rgb *= v_color.a;\\n}\"}",
+  "screenshotURL": "data/images/images-2h6b0axs64rlhi9r1-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "JTyRPzfPvdEiD6gBe"
+}

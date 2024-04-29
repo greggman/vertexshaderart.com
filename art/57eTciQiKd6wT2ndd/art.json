@@ -1,0 +1,36 @@
+{
+  "_id": "57eTciQiKd6wT2ndd",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1589157387084"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1589157387084"
+    }
+  },
+  "origId": "Cj2C3bSnE4yoFBfHp",
+  "name": "mostly harmless",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.257332238897249"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":60,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define VERTICES_PER_TRI 3\\n\\n#define AND(a,x) int(floor(x - (a * 16.0)))\\n#define MASK 1024.0\\n#define SCALE 112.0\\n#define MAX_TRIS 32\\n#define TOTAL_TRI 21\\n\\nfloat aspect=resolution.x/resolution.y;\\nvec3 triangles[MAX_TRIS];\\nmat4 indices[4];\\n\\nconst vec3 masker = vec3(MASK,1.0,MASK*MASK);\\nvec4 unpackVertex(float a)\\n{\\n  vec4 r = vec4(a);\\n  r.xyz/=masker.yxz;\\n  return vec4(mod(r.xyz,masker.xxx), 1.0);\\n}\\nmat4 rotX(float angle) {\\n\\n    float s = sin( angle );\\n    float c = cos( angle );\\n\\n    return mat4(\\n      1, 0, 0, 0,\\n      0, c, s, 0,\\n      0,-s, c, 0,\\n      0, 0, 0, 1);\\n}\\n\\nvoid populate(){ \\n\\n#define V1 18451.0\\n#define V2 7169.0\\n#define V3 46.0\\n#define V4 22588.0\\n#define V5 75.0\\n#define V6 18534.0\\n#define V7 7288.0\\n#define V8 54525998.0\\n#define V9 54526027.0\\n#define V10 19930228.0\\n#define V11 19930116.0\\n#define V12 31473724.0\\n\\ntriangles[0]=vec3(V1,V2,V3);\\ntriangles[1]=vec3(V3,V1,V4);\\ntriangles[2]=vec3(V4,V3,V5);\\ntriangles[3]=vec3(V5,V4,V6);\\ntriangles[4]=vec3(V6,V5,V7);\\ntriangles[5]=vec3(V3,V8,V5);\\ntriangles[6]=vec3(V8,V9,V5);\\ntriangles[7]=vec3(V10,V5,V9);\\ntriangles[8]=vec3(V7,V10,V5);\\ntriangles[9]=vec3(V11,V3,V8);\\ntriangles[10]=vec3(V2,V11,V3);\\ntriangles[11]=vec3(V12,V9,V8);\\ntriangles[12]=vec3(V12,V4,V6);\\ntriangles[13]=vec3(V12,V1,V4);\\ntriangles[14]=vec3(V12,V6,V9);\\ntriangles[15]=vec3(V12,V8,V1);\\ntriangles[16]=vec3(V9,V6,V10);\\ntriangles[17]=vec3(V8,V1,V11);\\ntriangles[18]=vec3(V7,V6,V10);\\ntriangles[19]=vec3(V2,V1,V11);\\n}\\n\\nfloat getVertex(int target){\\n  int h= ((target/VERTICES_PER_TRI));\\n  for(int i=0;i<MAX_TRIS;i++){\\n    if(i==h){\\n      vec3 t = triangles[i];\\n      int n= int(mod(float(target),3.0));\\n      for(int ii=0;ii<3;ii++){\\n        if(ii==n) return t.x;\\n      \\tt = t.yzx;  \\n      }\\n      \\n    }\\n  }\\n}\\n\\nmat4 persp(float fov, float aspect, float zNear, float zFar) {\\n  float f = tan(PI * 0.5 - 0.5 * fov);\\n  float rangeInv = 1.0 / (zNear - zFar);\\n\\n  return mat4(\\n    f / aspect, 0, 0, 0,\\n    0, f, 0, 0,\\n    0, 0, (zNear + zFar) * rangeInv, -1,\\n    0, 0, zNear * zFar * rangeInv * 2., 0);\\n}\\n\\n\\nmat4 rotY( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\n\\nmat4 rotZ( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c,-s, 0, 0, \\n      s, c, 0, 0,\\n      0, 0, 1, 0,\\n      0, 0, 0, 1); \\n}\\n\\nvoid main() {\\n  populate();\\n  \\n  int target=int(mod(vertexId,float(TOTAL_TRI*VERTICES_PER_TRI)));\\n  gl_Position= (unpackVertex(getVertex(target))-vec4(60.0,11.0,30.0,0.0))/10.0;\\n\\n  gl_Position=rotY(time/5.0)*rotZ(sin(time)/2.0)*gl_Position;\\n  v_color = vec4((vertexId/float(TOTAL_TRI*VERTICES_PER_TRI))+.1,0.0,0.0,1.0);\\n  \\n  gl_Position.z-=10.0;\\n  gl_Position = persp(PI*0.5, resolution.x/resolution.y, 0.1, 100.0) *  vec4(gl_Position.xyz, 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-n8u1y2qvqedw28et1-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "69"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "52mqyG2YrXaPeBAPd"
+}

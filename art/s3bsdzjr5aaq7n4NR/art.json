@@ -1,0 +1,47 @@
+{
+  "_id": "s3bsdzjr5aaq7n4NR",
+  "owner": {
+    "_id": "4FyZdAiKGxroxAzHY",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551481183440"
+      }
+    },
+    "profile": {
+      "first_name": "Julio",
+      "last_name": "Gonzalez Menendez",
+      "avatarUrl": "https://lh4.googleusercontent.com/-_qIuSe0i5BM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re8EYbgzIrdnuAsoVZKmC72bCiiKQ/mo/photo.jpg"
+    },
+    "username": "julio"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1552706951577"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1553036874466"
+    }
+  },
+  "origId": null,
+  "name": "Ej1",
+  "notes": "Proyecto 4",
+  "rank": {
+    "$numberDouble": "1.323001471285555"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "julio",
+  "avatarUrl": "https://lh4.googleusercontent.com/-_qIuSe0i5BM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re8EYbgzIrdnuAsoVZKmC72bCiiKQ/mo/photo.jpg",
+  "settings": "{\"num\":27186,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n  float pointsPerCircle = 42.0;\\n  float circleAngle = 20.0;\\n  float circlesPerRow = 25.0;\\n  float pointsPerRow = pointsPerCircle * circlesPerRow;\\n  \\n  float vertexIdX = floor(mod(vertexId , pointsPerRow) / pointsPerCircle) * 1.3;\\n  float vertexIdY = floor(vertexId / pointsPerRow) * 1.3;\\n  \\n  float xCircle = floor(vertexId / 2.0);\\n  float yCircle = mod(vertexId + 1.0, 2.0);\\n  \\n  // Radianes de 360 da 2pi\\n  float angle = xCircle / circleAngle * radians(360.0);\\n  float radius = 1.7 - yCircle;\\n  \\n  // Movimiento\\n  float xOffset = cos(time + vertexIdY * 0.2) * 0.4;\\n  float yOffset = cos(time + vertexIdX * 0.2 ) * 0.8;\\n  \\n  // Se asignan a 4 cuadrantes\\n  float uCircle = radius * cos(angle) * 0.3;\\n  float vCircle = radius * sin(angle) * 0.3;\\n  float uxCircle = uCircle - (circlesPerRow / 2.0) + xOffset;\\n  float vyCircle = vCircle - (circlesPerRow / 2.0) + yOffset;\\n  \\n  vec2 xy = vec2(uxCircle + vertexIdX, vyCircle + vertexIdY) * 0.1;\\n    \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 1.0;\\n  v_color = vec4(0.0, 0.7, 1.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-96qi85he4jpb48jb9-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "yPj9k2vcTKdWTXheP"
+}

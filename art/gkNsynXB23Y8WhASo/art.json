@@ -1,0 +1,47 @@
+{
+  "_id": "gkNsynXB23Y8WhASo",
+  "owner": {
+    "_id": "zzNEZzGPm5MT9wGsQ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1576512750256"
+      }
+    },
+    "profile": {
+      "first_name": "Xurxo",
+      "last_name": "Santomé",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD0p44DV5qPWJz5scluCuMG3Emc9M_fA2dSRyXD"
+    },
+    "username": "xurxo"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1576514559998"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1576516605989"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6108041634204595"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "xurxo",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD0p44DV5qPWJz5scluCuMG3Emc9M_fA2dSRyXD",
+  "settings": "{\"num\":14429,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.09411764705882353,0.08627450980392157,0.5294117647058824,1],\"shader\":\"\\nvoid main()  {\\n  float down = floor(sqrt(vertexCount));\\n  float across =floor (vertexCount/down);\\n  float x= mod(vertexId,across);\\n  float y= floor(vertexId /across);\\n\\n  float u = x/(across-1.);\\n  float v = y/(across-1.);\\n  \\n  float ux = u * 2.-1.;\\n  float vy = v * 2.-1.;\\n   \\n  gl_Position = vec4(ux,vy,0,1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20./across;\\n  gl_PointSize *= resolution.x/600.;\\n  \\n  v_color = vec4(1,0,0,1);\\n  \\n}\\n\\n\\n\"}",
+  "screenshotURL": "data/images/images-3heyj3k7mlv08w6hh-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "f32jrT5GmbbkaRujd"
+}

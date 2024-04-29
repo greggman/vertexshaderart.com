@@ -1,0 +1,46 @@
+{
+  "_id": "MGn7wAioaMfoXcbmL",
+  "owner": {
+    "_id": "QwzsYvDScS9sqNHNF",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1699414239850"
+      }
+    },
+    "profile": {
+      "first_name": "aphim44",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIbUrfKa-_sasPTCzc5YyCidETMwcm-KjFqfbic41trqgs=s96-c"
+    },
+    "username": "aphim44"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1699421981412"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1699421981412"
+    }
+  },
+  "origId": "cxdd3QwD34CZzTpFj",
+  "name": "sfj",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1549373257011262"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "aphim44",
+  "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIbUrfKa-_sasPTCzc5YyCidETMwcm-KjFqfbic41trqgs=s96-c",
+  "settings": "{\"num\":40,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.7803921568627451,0.5568627450980392,0.5568627450980392,1],\"shader\":\"void main(){\\n  float act = resolution[1]/resolution[0];\\n\\n  v_color = vec4(0.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 5.0;\\n  \\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId +1., 2.0);\\n  \\n  float elements = x / 5.0;\\n  float angle = elements * radians(360.0);\\n  float radius = 4. - y;\\n  \\n x = radius * cos(angle);\\n  y = radius * sin(angle);\\n  \\n  vec2 xy = vec2(x, y) * abs(sin(time))*.05;\\n  xy[0]*=act;\\n//  xy[0]*=cos(10.);\\n  //xy[1]*=sin(10.);\\n\\n\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-yqc24n0mtiybq1vaw-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "W9FuXbwFk3YQ98xZT"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "uQsrjwoCeqSersLA9",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1499894692765"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1499894692765"
+    }
+  },
+  "origId": null,
+  "name": "VM in GPU",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.960911683810676"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":488,\"mode\":\"LINE_LOOP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.08235294117647059,0.08235294117647059,0.08235294117647059,1],\"shader\":\"#define MAX_STACK 8\\n\\n// Define asembly for our vm.\\n\\n#define NOP 0\\n\\n#define REX 1\\n#define REY 2\\n\\n#define SUM 3\\n#define MIS 4\\n\\n#define MUL 5\\n#define DIV 6\\n\\n#define SIN 7\\n#define COS 8\\n\\n#define LFC 9\\n\\n#define LNC 10\\n#define GCP 11\\n\\n// Varibales for programm and programms length.\\n\\n/*uniform */ int   prog   [256];\\n/*uniform */ int   progLength;\\n\\n// Precalculated constants.\\n\\n/*uniform */ float consts [256];\\n\\nfloat getConsts(int id) {\\n    for (int i=0; i<256; i++) {\\n        if (i == id) return consts[i];\\n    }\\n}\\n\\n\\n// Stack.\\nfloat stack [MAX_STACK];\\n\\nfloat getStack(int id) {\\n    for (int i=0; i<MAX_STACK; i++) {\\n        if (i == id) return stack[i];\\n    }\\n}\\nvoid setStack(int id,float value) {\\n    for (int i=0; i<MAX_STACK; i++) {\\n        if (i == id)  stack[i] = value;\\n    }\\n}\\n\\n\\nvoid main() {  \\n  \\n  consts[0] = 6.28; // PI2\\n  consts[1] = .0;  \\n  consts[2] = .0; \\n\\n  prog[0]  = LNC;\\n  prog[1]  = LFC;\\n  prog[2]  = 0;\\n  prog[3]  = DIV;\\n  prog[4]  = GCP;\\n  prog[5]  = MUL;\\n  prog[6]  = COS;\\n  prog[7]  = LFC;\\n  prog[8]  = 1;\\n  prog[9]  = SUM;\\n  prog[10] = REX;\\n  \\n  prog[11]  = LNC;\\n  prog[12]  = LFC;\\n  prog[13]  = 0;\\n  prog[14]  = DIV;\\n  prog[15]  = GCP;\\n  prog[16]  = MUL;\\n  prog[17]  = SIN;\\n  prog[18]  = LFC;\\n  prog[19]  = 2;\\n  prog[20]  = SUM;\\n  prog[21]  = REY;\\n  \\n  progLength = 22;\\n\\n  int stackPtr = 0;\\n  bool argFlag = false;\\n  \\n  float a,b = 0.0;\\n  \\n  float x = 0.;\\n  float y = 0.;\\n    \\n  for(int pCt = 0;pCt<256;pCt++){\\n    \\n  \\tif(pCt>=progLength) \\n    {\\n      break;\\n    }\\n    \\n    if(argFlag)\\n    {\\n      argFlag = false;\\n      continue;\\n    }\\n  \\n  \\tif (prog[pCt]==NOP)\\n    {\\n    \\t// Do nothing.\\n  \\t} else if (prog[pCt]==REX)\\n    {\\n    \\tx = getStack(--stackPtr);\\n  \\t} else if (prog[pCt]==REY)\\n    {\\n    \\ty = getStack(--stackPtr);\\n  \\t} else\\n  \\tif (prog[pCt]==SUM){\\n    \\ta = getStack(--stackPtr);\\n        b = getStack(--stackPtr);\\n        setStack(stackPtr++, a+b); \\n  \\t} else\\n  \\tif (prog[pCt]==MIS){\\n    \\ta = getStack(--stackPtr);\\n        b = getStack(--stackPtr);\\n        setStack(stackPtr++, a-b); \\n  \\t} else\\n  \\tif (prog[pCt]==MUL){\\n   \\t\\ta = getStack(--stackPtr);\\n        b = getStack(--stackPtr);\\n        setStack(stackPtr++, a*b); \\n  \\t} else\\n  \\tif (prog[pCt]==DIV){\\n    \\ta = getStack(--stackPtr);\\n        b = getStack(--stackPtr);\\n        setStack(stackPtr++, a/b); \\n  \\t} else\\n  \\tif (prog[pCt]==SIN){\\n    \\tsetStack(stackPtr-1, sin(getStack(stackPtr-1))); \\n  \\t} else  \\n  \\tif (prog[pCt]==COS){\\n    \\tsetStack(stackPtr-1, cos(getStack(stackPtr-1))); \\n  \\t} else\\n  \\tif (prog[pCt]==LFC){\\n    \\tsetStack(stackPtr++,getConsts(prog[pCt+1]));\\n      \\targFlag = true;\\n  \\t} else\\n  \\tif (prog[pCt]==LNC){\\n    \\tsetStack(stackPtr++,vertexCount );\\n  \\t} else\\n  \\tif (prog[pCt]==GCP){\\n    \\tsetStack(stackPtr++,vertexId );\\n  \\t}\\n    \\n  }\\n  \\n  gl_Position = vec4(x,y,0,1);\\n  gl_PointSize = 3.;\\n  v_color = vec4(1, 1, 1, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-1yecq3mjrnnzlw2e2-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "99"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "6nf83YAwu53kChNWH"
+}

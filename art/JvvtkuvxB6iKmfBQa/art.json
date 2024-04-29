@@ -1,0 +1,47 @@
+{
+  "_id": "JvvtkuvxB6iKmfBQa",
+  "owner": {
+    "_id": "birrm7PTT27EqQaa6",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1679653509145"
+      }
+    },
+    "profile": {
+      "first_name": "Seb",
+      "last_name": "Maire",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/AGNmyxbz60ciBcSyCj3Dt3II92yJebQyNYi3_hc9mMxwSg=s96-c"
+    },
+    "username": "seb"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679653573811"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1679949970093"
+    }
+  },
+  "origId": null,
+  "name": "twist hairs",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.4291836013484185"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "seb",
+  "avatarUrl": "https://lh3.googleusercontent.com/a/AGNmyxbz60ciBcSyCj3Dt3II92yJebQyNYi3_hc9mMxwSg=s96-c",
+  "settings": "{\"num\":3907,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define COUNT_PER_LINE 100.\\n\\nvoid main() {\\n\\n  gl_PointSize=2.;\\n  vec2 baseP = vec2(mod(vertexId,COUNT_PER_LINE)*.2+.1*sin(vertexId*.2), \\n                    floor(vertexId/COUNT_PER_LINE))*.05;\\n  vec2 hairId = vec2(mod(vertexId,COUNT_PER_LINE), \\n                     floor(vertexId/COUNT_PER_LINE));\\n  vec2 offse = vec2(.02+0.05*sin(vertexId), 0.5*sin(vertexId*.2+time)*.05+.1);\\n  vec2 position = baseP + mod(vertexId, 2.0)*offse;\\ngl_Position = vec4((position-.5)*2., 0., 1);\\n\\tvec3 rgb = mix(vec3(0.816,0.165,0.996), \\n                   vec3(0.180,0.494,1.000)*.3, \\n                   sin(vertexId)*.5+.5);\\n\\trgb = mix(vec3(0.), rgb, mod(vertexId, 2.0));\\n  v_color = vec4(rgb,1.);\\n}\"}",
+  "screenshotURL": "data/images/images-994wwzya5osurulq2-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "9"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "3P7Xgq6kWKStNjSeC"
+}

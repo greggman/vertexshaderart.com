@@ -1,0 +1,36 @@
+{
+  "_id": "zsPkZPEA85uft8ybJ",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1567088286643"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1567088286643"
+    }
+  },
+  "origId": "SEk9EQMb8GksyQBhX",
+  "name": "Sphere + Cube Distribution",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8404822950894342"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":3000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\n\\nmat4 persp(float fov, float aspect, float zNear, float zFar) {\\n  float f = tan(PI * 0.5 - 0.5 * fov);\\n  float rangeInv = 1.0 / (zNear - zFar);\\n\\n  return mat4(\\n    f / aspect, 0, 0, 0,\\n    0, f, 0, 0,\\n    0, 0, (zNear + zFar) * rangeInv, -1,\\n    0, 0, zNear * zFar * rangeInv * 2., 0);\\n}\\n\\nmat4 rotY(float angleInRadians) {\\n    float s = sin(angleInRadians);\\n    float c = cos(angleInRadians);\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\nfloat anim(float t) {\\n  float st = sin(t);\\n  return (sign(st)*( 1.0-pow(1.0-abs(st), 5.0) ))*0.5+0.5;\\n}\\n\\nvec3 SampleSpherePos(float idx, float num) {\\n  idx += 0.5;\\n  float phi = 15.166407384630519631619018026484 * idx;\\n  float th_cs = 1.0 - 2.0*idx/num;\\n  float th_sn = sqrt(clamp(1.0 - th_cs*th_cs, 0.0, 1.0));\\n  return vec3( cos(phi)*th_sn, sin(phi)*th_sn, th_cs );\\n}\\n\\nvec3 SampleSpherePos2(float idx, float num) {\\n  idx += 0.5;\\n  float phi = 10.166407384630519631619018026484 * idx;\\n  float th_cs = 1.0 - 2.0*idx/num;\\n  float th_sn = sqrt(clamp(1.0 - th_cs*th_cs, 0.0, 1.0));\\n  return vec3( cos(phi)*th_sn, sin(phi)*th_sn, th_cs );\\n}\\n\\n\\nvec3 SampleCubePos(float idx, float num) {\\n  float side = floor(pow(num, 1.0/3.0)+0.5);\\n  vec3 res;\\n  res.x = mod(idx, side);\\n  res.y = floor( mod(idx, side*side)/side );\\n  res.z = floor( mod(idx, side*side*side)/side/side );\\n  res -= vec3(side * 0.5);\\n  res *= 1.5/side;\\n  return res;\\n}\\n\\nvoid main() {\\n  vec3 samplePos = mix(SampleSpherePos(vertexId, vertexCount), SampleSpherePos2(vertexId, vertexCount), anim(time));\\n  \\n  vec4 vertPos = rotY(time*0.1) * vec4(samplePos, 1.0) + vec4(0,0,-3.0,0);\\n  \\n  gl_Position = persp(PI*0.25, resolution.x/resolution.y, 0.1, 100.0) * vertPos;\\n  gl_PointSize = 3.0; \\n\\n  vec4 color2 = vec4(1,0,0,1);\\n  v_color = mix(vec4(0,0,1,1), color2, anim(time));\\n}\"}",
+  "screenshotURL": "data/images/images-ndvt06x0oabx68n1s-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "92"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "5EzFZ6RQFfqPTZmbw"
+}

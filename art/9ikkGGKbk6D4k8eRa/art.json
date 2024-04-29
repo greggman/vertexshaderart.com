@@ -1,0 +1,45 @@
+{
+  "_id": "9ikkGGKbk6D4k8eRa",
+  "owner": {
+    "_id": "XZ9fGNm72T7MyEqAy",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1612890971955"
+      }
+    },
+    "username": "oneshade",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/f0d8718b5dc6efb4cf47453275108912?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1612921919282"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1613019480244"
+    }
+  },
+  "origId": null,
+  "name": "Shadertoy Renderer",
+  "notes": "Point based shadertoy renderer.",
+  "rank": {
+    "$numberDouble": "1.77195913141606"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "oneshade",
+  "avatarUrl": "https://secure.gravatar.com/avatar/f0d8718b5dc6efb4cf47453275108912?default=retro&size=200",
+  "settings": "{\"num\":99225,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define iResolution vec2(315.0)\\n#define iMouse mouse\\n#define iTime time\\n\\n#define renderSize vec2(1.0)\\n\\n\\n\\n/***************************************************************************/\\n\\n\\n\\nfloat sdBox(in vec3 p, in vec3 d) {\\n    vec3 q = abs(p) - d;\\n    return length(max(q, 0.0)) + min(max(q.x, max(q.y, q.z)), 0.0);\\n}\\n\\nfloat sdBox2D(in vec2 p, in vec2 d) {\\n    vec2 q = abs(p) - d;\\n    return length(max(q, 0.0)) + min(max(q.x, q.y), 0.0);\\n}\\n\\nvec2 pModPolar(in vec2 p, in float offs, in float reps) {\\n    float rep = 6.28 / reps, hRep = 0.5 * rep;\\n    return sin(mod(atan(p.y, p.x) + offs + hRep, rep) - hRep + vec2(1.57, 0.0)) * length(p);\\n}\\n\\nfloat mapScene(in vec3 p) {\\n    float turn = iTime;\\n\\n    float c = cos(turn), s = sin(turn);\\n    vec3 p1 = p, p2 = p;\\n\\n    float cell = mod(floor(atan(p1.z, p1.x) / 6.28 * 6.0 + 0.5), 2.0);\\n    float dir = cell * 2.0 - 1.0, lock = cell * 0.157;\\n    p1.xz = pModPolar(p1.xz, 0.0, 6.0) - vec2(3.0, 0.0);\\n    p1.xy *= mat2(c, -s, s, c);\\n\\n    float teeth1 = sdBox(vec3(pModPolar(p1.xz, turn * dir + lock, 20.0), p1.y).xzy - vec3(1.35, 0.0, 0.0), vec3(0.25, 0.175, 0.075));\\n    float ring1 = sdBox2D(vec2(length(p1.xz) - 1.1, p1.y), vec2(0.25));\\n    float gears1 = min(ring1, teeth1);\\n\\n    cell = mod(floor(atan(p2.z, p2.x) / 6.28 * 6.0), 2.0);\\n    dir = cell * 2.0 - 1.0, lock = cell * 0.157;\\n    p2.xz = pModPolar(p2.xz, 0.52, 6.0) - vec2(2.75, 0.0);\\n    p2.xy *= mat2(c, -s, s, c);\\n    p2.xy = p2.yx;\\n\\n    float teeth2 = sdBox(vec3(pModPolar(p2.xz, turn * dir + lock, 20.0), p2.y).xzy - vec3(1.35, 0.0, 0.0), vec3(0.25, 0.175, 0.075));\\n    float ring2 = sdBox2D(vec2(length(p2.xz) - 1.1, p2.y), vec2(0.25));\\n    float gears2 = min(ring2, teeth2);\\n\\n    return min(gears1, gears2) - 0.025;\\n}\\n\\nvec3 getNormal(in vec3 p) {\\n    vec3 e = vec3(0.01, 0.0, 0.0);\\n    return normalize(vec3(mapScene(p + e.xyy) - mapScene(p - e.xyy),\\n                          mapScene(p + e.yxy) - mapScene(p - e.yxy),\\n                          mapScene(p + e.yyx) - mapScene(p - e.yyx)));\\n}\\n\\nvoid mainImage(out vec4 fragColor, in vec2 fragCoord) {\\n    vec2 screenCenter = 0.5 * iResolution.xy;\\n\\n    vec2 mouse = (iMouse.xy - screenCenter) / iResolution.y * 3.14;\\n    vec2 uv = (fragCoord.xy - screenCenter) / iResolution.y;\\n    fragColor = vec4(0.0, 0.0, 0.0, 1.0);\\n\\n    vec3 ro = vec3(0.0, 0.0, 10.0);\\n    vec3 rd = normalize(vec3(uv, -1.0));\\n\\n    vec2 rot = vec2(iTime, -0.6);\\n\\n    float cy = cos(rot.x), sy = sin(rot.x);\\n    float cp = cos(rot.y), sp = sin(rot.y);\\n\\n    ro.yz *= mat2(cp, -sp, sp, cp);\\n    rd.yz *= mat2(cp, -sp, sp, cp);\\n\\n    ro.xz *= mat2(cy, -sy, sy, cy);\\n    rd.xz *= mat2(cy, -sy, sy, cy);\\n\\n    float t = 0.0;\\n    for (float i=0.0; i < 100.0; i++) {\\n        vec3 p = ro + rd * t;\\n        float d = mapScene(p);\\n        if (d < 0.001) {\\n            vec3 n = getNormal(p);\\n            vec3 l = vec3(-0.58, 0.58, 0.58);\\n\\n            l.yz *= mat2(cp, -sp, sp, cp);\\n            l.xz *= mat2(cy, -sy, sy, cy);\\n\\n            fragColor.rgb += max(0.0, dot(n, l));\\n            break;\\n        }\\n\\n        if (t > 50.0) {\\n            fragColor.rgb = mix(vec3(0.25, 0.25, 1.0), vec3(1.0), 0.5 + 0.5 * rd.y);\\n            break;\\n        }\\n\\n        t += d;\\n    }\\n}\\n\\n\\n\\n/***************************************************************************/\\n\\n\\nvoid main() {\\n    float x = mod(vertexId, iResolution.x);\\n    float y = (vertexId - x) / iResolution.y;\\n    vec2 point = vec2(x, y) / iResolution * renderSize - 0.5 * renderSize;\\n    gl_Position = vec4(point, 0.0, 1.0);\\n    gl_Position.x *= resolution.y / resolution.x;\\n    gl_PointSize = 1.0;\\n    mainImage(v_color, vec2(x, y));\\n}\"}",
+  "screenshotURL": "data/images/images-4cwrlsae2orwwpycc-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "215"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "yZBmMpFqD8gqTGPv8"
+}

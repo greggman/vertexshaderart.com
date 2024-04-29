@@ -1,0 +1,46 @@
+{
+  "_id": "dzCu7QoEjYiNTWqFD",
+  "owner": {
+    "_id": "SgjMKqPjMtNu8emwC",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1491226739572"
+      }
+    },
+    "profile": {
+      "name": "Antoine “NuSan” Zanuttini",
+      "avatarUrl": "https://lh4.googleusercontent.com/-9Jawf2P8ZPU/AAAAAAAAAAI/AAAAAAAAAHA/GxUGacmbvXo/photo.jpg"
+    },
+    "username": "antoine"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1491226764896"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1491229975643"
+    }
+  },
+  "origId": null,
+  "name": "Hyperbolic grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.460179152286292"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "antoine",
+  "avatarUrl": "https://lh4.googleusercontent.com/-9Jawf2P8ZPU/AAAAAAAAAAI/AAAAAAAAAHA/GxUGacmbvXo/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec3 ToPolar(vec3 uv, float K, float percent) {\\n  float R = sqrt(dot(uv,uv)) + K;\\n  R = mix(1.0, R, percent);\\n  return  vec3(uv / R);\\n}\\n\\nvec2 ToCartesian(vec2 uv, float K) {\\n  return  vec2(uv.x / sqrt(uv.x*uv.x + K*K), uv.y / sqrt(uv.y*uv.y + K*K));\\n}\\n\\nvoid main() {\\n  float planecount = floor(vertexId / 10000.0);\\n  float restplane = mod(vertexId, 10000.0);\\n  vec3 point = (vec3(floor(restplane / 100.0) , mod(restplane, 100.0), planecount*5.0) - 50.0) * 0.035;\\n  \\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  \\n  \\n  float K = 0.5;\\n  float percent = sin(time * 1.0) * 0.5 + 0.5;\\n  \\n  vec3 xyz = ToPolar(point, K, percent);\\n  vec2 xy = xyz.xy;// / xyz.z;\\n  //gl_Position = vec4(xy * aspect + mouse * 0.5, 0, 1);\\n  gl_Position = vec4(xy * aspect + mouse * 0.5, xyz.z, 1.0);\\n  gl_PointSize = 4.0;\\n\\n  v_color = vec4(abs(sin(xy*10.0)),abs(point.z*0.5), 1.0);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-13nb2u24chetl8cd1-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "dkG38cbok2stANEZw"
+}

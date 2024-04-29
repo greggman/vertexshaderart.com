@@ -1,0 +1,44 @@
+{
+  "_id": "ruRxM7a7ngW6o8SPY",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1447595070568"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1447607674563"
+    }
+  },
+  "origId": "ScnXYT2B8gmr2trfw",
+  "name": "balls",
+  "private": false,
+  "username": "gman",
+  "settings": "{\"num\":38300,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/techno-musictv/minimal-techno-remix-1-click\",\"lineSize\":\"CSS\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid sphere(float v, float time, out vec3 pos, out vec3 color) {\\n  float vertex = mod(v, 6.);\\n  v = (v-vertex)/6.;\\n  float a1 = mod(v, 8.);\\n  v = (v-a1)/8.;\\n  float a2 = v-8.;\\n  \\n  float a1n = (a1+.5)/8.*2.*PI;\\n  float a2n = (a2+.5)/8.*2.*PI;\\n  \\n  a1 += mod(vertex,2.);\\n  a2 += vertex==2.||vertex>=4.?1.:0.;\\n  \\n  a1 = a1/8.*2.*PI;\\n  a2 = a2/8.*2.*PI;\\n  \\n  pos = vec3(cos(a1)*cos(a2),sin(a2),sin(a1)*cos(a2));\\n  vec3 norm = vec3(cos(a1n)*cos(a2n),sin(a2n),sin(a1n)*cos(a2n));\\n  \\n  pos.xz *= mat2(cos(time),sin(time),-sin(time),cos(time));\\n  pos.yz *= mat2(cos(time),sin(time),-sin(time),cos(time));\\n  norm.xz *= mat2(cos(time),sin(time),-sin(time),cos(time));\\n  norm.yz *= mat2(cos(time),sin(time),-sin(time),cos(time));\\n  \\n  color = vec3(1,1,1) * (dot(normalize(vec3(0.3, 0.5, 0.3)), norm) * 0.5 + 0.5);\\n}\\n\\nvoid main() {\\n  vec3 pos;\\n  vec3 light;\\n\\n  float count = floor(vertexId / 384.0);\\n  float col = mod(count, 10.);\\n  float row = floor(count / 10.);\\n  float u   = col / 9.;\\n  float v   = row / 9.;\\n  float vs  = v * 2. - 1.;\\n  float us  = u * 2. - 1.;\\n  float s = \\n    texture2D(sound, vec2(0.05, abs(us) * 0.05)).a +\\n    texture2D(sound, vec2(0.10, abs(us) * 0.05)).a + \\n    texture2D(sound, vec2(0.15, abs(us) * 0.05)).a;\\n  float s2 = \\n    texture2D(sound, vec2(0.025, abs(vs) * 0.05)).a +\\n    texture2D(sound, vec2(0.120, abs(vs) * 0.05)).a + \\n    texture2D(sound, vec2(0.125, abs(vs) * 0.05)).a;\\n  sphere(mod(vertexId, 384.0), time + pow(s * 2. - 1.,s), pos, light);\\n  \\n  vec3 p = vec3((col + mod(row, 2.) * 0.5) / 9. * 2. - 1., (row + mod(col, 2.) * 0.0) / 9. * 2. - 1., 0.);\\n  float a = atan(vs, us);// + time;\\n  vec3 cs = vec3(1, 1, 1);\\n  \\n  gl_Position = vec4(p * cs + vec3(pos.x*resolution.y/resolution.x,pos.y, -pos.z*.5+.5) * (0.1 + 0.1 * pow(s * 0.7, 2.0)), 1);  \\n\\n  v_color = vec4(vec3(light) * pow(s2 * 0.7, 3.0), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-i6gmagfend2kt7ldd-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "584"
+  },
+  "likes": {
+    "$numberInt": "7"
+  },
+  "revisionId": "dZta9MN6fiGL6T4Kv",
+  "rank": {
+    "$numberDouble": "10.94986851107151"
+  },
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+}

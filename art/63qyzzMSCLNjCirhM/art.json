@@ -1,0 +1,36 @@
+{
+  "_id": "63qyzzMSCLNjCirhM",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676491599486"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1676491599486"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2373815868425935"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":1,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.027450980392156862,0.011764705882352941,0.0196078431372549,1],\"shader\":\"\\n\\n\\nvoid main() {\\n  gl_PointSize = 15.0;\\n   v_color = vec4(0.0,0.0,0.0,1.0);\\n  gl_Position = vec4(0.0,0.0,0.0,1.0);\\n \\n\\n}\"}",
+  "screenshotURL": "data/images/images-d4fibv7djvebcag69-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "42"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "qimRD3643H4LC4hEy"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "fe8yM9E3pBta2SbNa",
+  "owner": {
+    "_id": "yumJxCTi3otBwEFh4",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1618264688331"
+      }
+    },
+    "username": "chriscamplin",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/5798c9f697b3fea48de32ade2ba3e54c?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1621015321915"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1621015321915"
+    }
+  },
+  "origId": "S7g7iMY2BZtMTZzuG",
+  "name": "Squares",
+  "notes": "code from tutorial on vertexshaders.com youtube channel.",
+  "rank": {
+    "$numberDouble": "1.6765591149492083"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "chriscamplin",
+  "avatarUrl": "https://secure.gravatar.com/avatar/5798c9f697b3fea48de32ade2ba3e54c?default=retro&size=200",
+  "settings": "{\"num\":100000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/christopher-camplin/qlabmilano\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 4.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nmat4 rotX(float angleInRadians) {\\n    float s = sin(angleInRadians);\\n    float c = cos(angleInRadians);\\n  \\t\\n    return mat4( \\n      1, 0, 0, 0,\\n      0, c, s, 0,\\n      0, -s, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\nmat4 rotY(float angleInRadians) {\\n    float s = sin(angleInRadians);\\n    float c = cos(angleInRadians);\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\nmat4 rotZ(float angleInRadians) {\\n    float s = sin(angleInRadians);\\n    float c = cos(angleInRadians);\\n  \\t\\n    return mat4( \\n      c,-s, 0, 0, \\n      s, c, 0, 0,\\n      0, 0, 1, 0,\\n      0, 0, 0, 1); \\n}\\n\\nmat4 trans(vec3 trans) {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    trans, 1);\\n}\\n\\nmat4 ident() {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 scale(vec3 s) {\\n  return mat4(\\n    s[0], 0, 0, 0,\\n    0, s[1], 0, 0,\\n    0, 0, s[2], 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 uniformScale(float s) {\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 persp(float fov, float aspect, float zNear, float zFar) {\\n  float f = tan(PI * 0.5 - 0.5 * fov);\\n  float rangeInv = 1.0 / (zNear - zFar);\\n\\n  return mat4(\\n    f / aspect, 0, 0, 0,\\n    0, f, 0, 0,\\n    0, 0, (zNear + zFar) * rangeInv, -1,\\n    0, 0, zNear * zFar * rangeInv * 2., 0);\\n}\\n\\nmat4 trInv(mat4 m) {\\n  mat3 i = mat3(\\n    m[0][0], m[1][0], m[2][0], \\n    m[0][1], m[1][1], m[2][1], \\n    m[0][2], m[1][2], m[2][2]);\\n  vec3 t = -i * m[3].xyz;\\n    \\n  return mat4(\\n    i[0], t[0], \\n    i[1], t[1],\\n    i[2], t[2],\\n    0, 0, 0, 1);\\n}\\n\\nmat4 transpose(mat4 m) {\\n  return mat4(\\n    m[0][0], m[1][0], m[2][0], m[3][0], \\n    m[0][1], m[1][1], m[2][1], m[3][1],\\n    m[0][2], m[1][2], m[2][2], m[3][2],\\n    m[0][3], m[1][3], m[2][3], m[3][3]);\\n}\\n\\nmat4 lookAt(vec3 eye, vec3 target, vec3 up) {\\n  vec3 zAxis = normalize(eye - target);\\n  vec3 xAxis = normalize(cross(up, zAxis));\\n  vec3 yAxis = cross(zAxis, xAxis);\\n\\n  return mat4(\\n    xAxis, 0,\\n    yAxis, 0,\\n    zAxis, 0,\\n    eye, 1);\\n}\\n\\n\\nvec2 getCirclePoint(float id, float numCircleSegments) {\\n\\n  float vy = mod(floor(id / 2.0) + floor( id / 3.0), 2.);\\n  // floor: division; throw away the remainder 000000 111111 222222 333333 444444\\n  // id:  0 1 2 3 4 5 6 7 8 9 10 11 12\\n  //\\t  0 0 0 0 0 0 1 1 1 1 1  1 1\\n  //    + 0 1 0 1 0 1 0 1 0 1 0  1 0\\n  //    _____________________________\\n  //\\t= 0 1 0 1 0 1 0 2 1 2 1  2 1\\t\\n\\n  float ux = floor(id / 6.0) + mod(id, 2.);\\n  // id:  0 1 2 3 4 5 6 7 8 9 10 11 12\\n  //\\t  0 0 1 1 2 2 3 3 4 4 5  5  6\\n  //    + 0 0 0 1 1 1 2 2 2 3 3  3 4\\n  //    _____________________________\\n  //\\t= 0 1 0 1 0 1 0 2 1 2 1  2 1\\t\\n  float angle = ux  / numCircleSegments * PI * 2.;\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  float radius = vy + 1.0;\\n\\n  float x = c * radius;\\n  float y = s * radius;\\n\\n  \\n  return vec2(x, y);\\n}\\n\\nvoid main() {\\n  \\t// \\n  \\tfloat numSegments = 4.0;\\n  \\tvec2 circleXY = getCirclePoint(vertexId, numSegments);\\n  \\tfloat numPointsPerCircle = numSegments * 6.0;\\n  \\tfloat circleId = floor(vertexId / numPointsPerCircle);\\n  \\tfloat numCircles = floor(vertexCount / numPointsPerCircle);\\n  \\n  \\tfloat sliceId = floor(vertexId / 6.0);\\n  \\tfloat oddSlice = mod(sliceId, 2.0); // ) if it's even, one if it's odd\\n  \\tfloat cols = floor(sqrt(numCircles));\\n  \\tfloat rows = floor(numCircles / cols);\\n  \\t// vertex ID is number of the vertex\\n  \\tfloat x = mod(circleId, rows); // divide by 10 keep the remainder, \\n  \\tfloat y = floor(circleId / rows); //. floor throws away the remainder 0000 1111 2222\\n\\n\\n  \\n  \\tfloat s = sin(PI * time + y * 0.25);\\n  \\tfloat c = cos(PI * time + x * 0.25);\\n  \\tfloat xOff = sin(PI * time * 1.5 + y * 0.25) * 0.01;\\n  \\tfloat yOff = cos(time + x * 0.25) * 0.2;\\n  \\tfloat zOff = sin(time * x * y * 0.005) * 0.05;\\n  \\n  \\tfloat u = x /(rows - 1.);\\n  \\tfloat v = y / (rows - 1.);\\\\\\n\\n    float ux = u * 2. - 1. + xOff;\\n  \\tfloat vy = v * 2. - 1. - zOff;\\n\\n  \\t// concentrate on center\\n  \\tfloat sv = abs(v - 0.5) * 2.0;\\n  \\tfloat su = abs(u - 0.5) * 2.0;\\n  \\n    // circular -  atan returns values between PI & -PI\\n  \\tfloat au = abs(atan(su, sv)) / PI;\\n  \\tfloat av = length(vec2(su, sv));\\n    // sound\\n\\n    float snd = texture2D(sound, vec2(au * 0.05, av * 0.25)).a;\\n  \\tfloat aspect = resolution.x / resolution.y;\\n  \\tfloat scl = pow(snd + 0.2, 5.); //* mix(1., 1.1, oddSlice); //mix: multiply by 1.0 or 1.1 if it's odd or even\\n  \\tscl *= 20. / rows;\\t\\n  \\tvec2 xy = circleXY * 0.1 * scl + vec2(ux, vy) * 1.25;\\n  \\tfloat z = -pow(snd + c, 2.) - zOff + snd;\\n  \\tvec4 pos = vec4(circleXY, z, 1);\\n  \\tmat4 mat = ident();\\n  \\tmat *= scale(vec3(1, aspect, 1));\\n    mat *= rotX(radians(45.));\\n    //mat *= rotY(radians(-45.));\\n  \\tmat *= rotZ(time * 0.1);\\n\\tmat += transpose(mat * snd * mouse.x * mouse.y);\\n  \\tmat *= trans(vec3(ux, vy, 0) * 1.3);\\n  \\tmat *= uniformScale(0.02 * scl);\\n  \\tmat *= rotY(PI * snd * 0.1 * sign(ux));\\n  \\tmat *= rotZ(time  * sign(ux));\\n  \\n\\tgl_Position = mat * pos;\\n\\n  \\n  \\tfloat pump = step(0.6, snd);\\n    float hue = 0.5 - pump * mouse.x * 0.1;\\n    hue = hue + smoothstep(x, y, snd);\\n    float sat = 0.8;\\n  \\t// add more impact using pow\\n    float val = 1.0; //mix(.1, pow(snd + 0.2, 5.), pump);pow(snd + 0.1, 5.0);\\n  \\t//val += oddSlice;\\n    vec4 color = vec4(hsv2rgb(vec3(fract(hue), sat, val)), 1);\\n    //color *= snd;\\n    //background += 0.1;\\n  \\tvec4 newColor = vec4(0.25, 0.02, 0.5, 1.0);\\n    vec4 finalColor = mix(color, background, s);\\n\\tfinalColor = mix(color, newColor, c);\\n    v_color = finalColor;\\n  }\\n\\n\"}",
+  "screenshotURL": "data/images/images-nzvwjs1cgrg1ldb07-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "30"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "MiEbfwMSHD2ZJZypP"
+}

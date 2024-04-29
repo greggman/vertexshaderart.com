@@ -1,0 +1,45 @@
+{
+  "_id": "BtMPmXiuE37mpnQB7",
+  "owner": {
+    "_id": "33GYvgRj3LP6Xt7T6",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1652800663941"
+      }
+    },
+    "username": "hyosang_jung",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/012973e43b86800472c970853da48caf?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1653482023088"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1653482023088"
+    }
+  },
+  "origId": null,
+  "name": "Audio Reactive Art New",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.4746021400286697"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "hyosang_jung",
+  "avatarUrl": "https://secure.gravatar.com/avatar/012973e43b86800472c970853da48caf?default=retro&size=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/user6017377/6n5vosmj8t2h?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name: Hyosang Jung\\n//Assignment Name: Exercise - Vertexshaderart : Audio Reactive\\n//Course Name: CS250\\n//Term&Year: 2022&Fall\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n#define PI radians(180.0)\\n\\nvoid main() {\\n  float down = sqrt(vertexCount);\\n  float across = floor(vertexCount / down);\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float su = abs(u - 0.5) * 2.;\\n  float sv = abs(v - 0.5) * 2.;\\n  \\n  float au = abs(atan(su, sv)) / PI;\\n  float av = length(vec2(su, sv));\\n  \\n  float snd = texture2D(sound, vec2(0, av)).a;\\n\\n  float xoff = 0.;//sin(time + y * 0.2) * 0.1;\\n  float yoff = 0.;//sin(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  vec2 xy = vec2(ux, vy);\\n  \\n  gl_Position = vec4(ux,vy, 0, 1);\\n  \\n  float soff = 1.;//sin(time + x * y * .02) * 5.;  \\n  gl_PointSize = pow(snd, 5.0) * 30.0*(abs(sin(time))+0.5) + soff;\\n\\n  \\n  float pump = step(0.8, snd);\\n  \\n  float hue = u * .1 + snd * 0.2 + time * .1; //sin(time + v * 20.) * .05;\\n  float sat = mix(0., 1., pump);\\n  float val = mix(.1, pow(snd + 0.2, 5.0), pump);\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-1px40mof4pmgm3a6t-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "2rLLDPZu4iPq7wxaz"
+}

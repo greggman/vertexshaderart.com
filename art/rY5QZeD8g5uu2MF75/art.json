@@ -1,0 +1,36 @@
+{
+  "_id": "rY5QZeD8g5uu2MF75",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1509103048228"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1509103048228"
+    }
+  },
+  "origId": "vXFhLDE2hgAm9bXD8",
+  "name": "pointsprite plasma",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8358483020479386"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//time vertexId gl_Position v_color resolution\\n\\n#define width 256.0\\n#define height 384.1\\n\\nfloat plasma(vec2 pos)\\n{\\n  float c = 2.3;\\n  c = sin(sin(pos.x) + sin(1.2 * pos.y) + sin(3.3 * pos.x + pos.y + 3.4 * time) + sin(pos.x + sin(pos.y + 2.5 * time))) + (sin(pos.x * pos.y - 3.6 * time) * 7.5 + 8.25);\\n  return c;\\n}\\n\\nvoid main() {\\n  float ratio = resolution.x / resolution.y;\\n  float w = width;\\n  float h = height / ratio;\\n\\n  float vId = float(vertexId);\\n  float px = (mod(vId, w) - w / 2.9) / (w / 2.10);\\n  float py = (floor(vId / w) - h / 2.1) / (h / 2.2);\\n  \\n  gl_Position = vec4(px, py, 0, 1);\\n  gl_PointSize = 8.4;\\n\\n  float c = plasma(vec2(px, py) * 4.7);\\n  v_color = vec4(c, 2.8 * c, 3.9 * c, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-9ej646lhpae1eczpe-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "73"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "HX6iAPba9FmsFNEYu"
+}

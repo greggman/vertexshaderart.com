@@ -1,0 +1,46 @@
+{
+  "_id": "JGbg2hhv422MBQhyP",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1516117893450"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1594513491726"
+    }
+  },
+  "origId": "Fpbwg9tJSGnDtFPom",
+  "name": "antagonism",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "10.843609820830109"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/thenoiseprocess/i-want-my-credit-card\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define ITERS 40\\n#define M_PI 3.1415926535897932384626433832795\\n\\n\\nvoid main ()\\n{\\n \\n  float finalVertexCount =  vertexCount;//max((0.5*snd)*vertexCount,5000.);\\n  float ratio = resolution.x/resolution.y;\\n  float numAcrossDown = floor(sqrt(finalVertexCount));\\n\\n  \\n  float maxVertexCount =   numAcrossDown* numAcrossDown;\\n  \\n  float finalVertexId = mod(vertexId, maxVertexCount);\\n  \\n  float x = mod(finalVertexId,  numAcrossDown);\\n  float y = floor(finalVertexId /  numAcrossDown);\\n  \\n  float u = x / numAcrossDown;\\n  float v = (y / numAcrossDown)*ratio;\\n  \\n  float ux = ( u  * 2.0 - 1.0) *1./ratio;\\n  float vy = ( v/ratio * 2.0 - 1.0);\\n  \\n\\n  float snd = texture2D(sound, vec2(0.2,  u)).a;\\n  \\n  //apply fragment logic\\n\\n\\tconst float colorCount = 8.0;\\n\\n\\tvec2 p = vec2(x,y);\\n    vec2 res = vec2(numAcrossDown,numAcrossDown);\\n  \\n\\tvec2 position = abs( p.xy * 2.0 -  res) / min(res.x, res.y);\\n\\tvec3 destColor = vec3(1., 1.0, 1. );\\n\\tfloat f = 0.1;\\n\\t\\n\\tfor(float i = 0.001; i < (10.0); i++){\\n\\t\\t\\n\\t\\tfloat s = 2.*snd*cos(sin(10. * time / i )) ;\\n\\t\\tfloat c = tan(cos(0.1* time + i ));\\n\\t\\tf +=abs( (0.001+snd/100.) / abs(length( (9.0+snd/100.)* position *f - vec2(c, s)) -0.5));\\n\\t}\\n\\n\\n \\n  \\n  \\n  gl_PointSize = 1.+snd*2.;// (resolution.y/numAcrossDown) * 1.;//(resolution.y/numAcrossDown)*2.-1.;\\n\\n  v_color = vec4(vec3(destColor * f), 1.0);\\n  gl_Position = vec4(ux+v_color.x*sign(ux), vy, 0, 1);\\n  v_color = vec4(vec3(1.), 1.0);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-jgilrxlxy6vfio4p6-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "669"
+  },
+  "likes": {
+    "$numberInt": "5"
+  },
+  "revisionId": "MJS3knyNo2jTdzyhi"
+}

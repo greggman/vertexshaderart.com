@@ -1,0 +1,47 @@
+{
+  "_id": "tiY4qnEQ7wBnY5XdH",
+  "owner": {
+    "_id": "4FyZdAiKGxroxAzHY",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551481183440"
+      }
+    },
+    "profile": {
+      "first_name": "Julio",
+      "last_name": "Gonzalez Menendez",
+      "avatarUrl": "https://lh4.googleusercontent.com/-_qIuSe0i5BM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re8EYbgzIrdnuAsoVZKmC72bCiiKQ/mo/photo.jpg"
+    },
+    "username": "julio"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551481188410"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551481188410"
+    }
+  },
+  "origId": null,
+  "name": "Bandera",
+  "notes": "Primera",
+  "rank": {
+    "$numberDouble": "1.9609190935614351"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "julio",
+  "avatarUrl": "https://lh4.googleusercontent.com/-_qIuSe0i5BM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re8EYbgzIrdnuAsoVZKmC72bCiiKQ/mo/photo.jpg",
+  "settings": "{\"num\":347,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.8156862745098039,0.8509803921568627,0.2,1],\"shader\":\"void main()\\n{\\n  float width = 20.0;\\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n\\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n\\n  float xOffset = sin(time + y * 0.1) * 0.5;\\n  float yOffset = cos(time + x * 0.4) * 0.3;\\n\\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float vy = v * 2.0 - 1.0 + yOffset;\\n\\n  vec2 xy = vec2(ux, vy) * 0.5;\\n\\n  gl_Position = vec4(ux, vy, sin(time), 1.0);\\n  v_color = vec4(sin(time / vertexId), sin(time), cos(vertexId), sin(time));\\n  gl_PointSize = 40.0;\\n}\"}",
+  "screenshotURL": "data/images/images-0ivkzjc8coamzvy87-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "7"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "2md7haPtupbQfQvL6"
+}

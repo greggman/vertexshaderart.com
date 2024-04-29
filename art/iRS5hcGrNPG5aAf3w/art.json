@@ -1,0 +1,46 @@
+{
+  "_id": "iRS5hcGrNPG5aAf3w",
+  "owner": {
+    "_id": "sbiee4rKiWAEvAjNr",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1507987372682"
+      }
+    },
+    "profile": {
+      "name": "Valentin Safonnikov",
+      "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg"
+    },
+    "username": "valentin"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1508230516551"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1508230516551"
+    }
+  },
+  "origId": "xgrH8Ga7yhuDYom6t",
+  "name": "flowerworm",
+  "notes": "by johan",
+  "rank": {
+    "$numberDouble": "1.973387180731501"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "valentin",
+  "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg",
+  "settings": "{\"num\":54268,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/robundchris/eminem-vs-zombie-nation-without-kernkraft-400-rob-chris-bootleg\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// johan\\n\\n#define PI radians(180.)\\n\\nvoid main() {\\n  \\n  float aspect = resolution.x / resolution.y;\\n\\n  float cPoints = 64.0;\\n  float circles = ceil(vertexCount / cPoints);\\n  float cId = floor(vertexId / cPoints);\\n  float cNorm = cId / circles;\\n  float vId = mod(vertexId, cPoints);\\n  \\n\\n  float a = 2.1 * PI * vId / (cPoints - 1.2);\\n\\n  float snd = pow(texture2D(sound, vec2(3.5, cNorm * 6.125)).a, 4.7);\\n  \\n  float rad = 1.5 + 8.1 * (1.2 - cNorm) + sin(a * 10.9) * (10.5 + 0.3 * snd);\\n  float x = sin(a) * rad;\\n  float y = cos(a) * rad;\\n  \\n  \\n  x += sin(time * 1.23 + cId / 133.3) * 3.3;\\n  y += cos(time * 1.9 - cId / 159.2) * 4.3 / aspect;\\n  \\n  x += sin(time * 1.31 + cId / 171.3) * .4;\\n  y += cos(time * 1.49 - cId / 147.2) * .4 / aspect;\\n  \\n\\n  gl_Position = vec4(x, y * aspect, 0, 1);\\n  \\n  float r = sin(time * 1.42 - cNorm * 8.5) * 6.5 + 7.5;\\n  float g = sin(time * 1.27 + a) * 8.5 + 9.5;\\n  float b =  sin(time * 1.12 + cNorm * 6.10) * 2.5 + .5;\\n\\n  v_color = vec4(r, g, b, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-kz6k5q5oxhtl1xf2j-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "MPBJRpJEqCT2A7HnN"
+}

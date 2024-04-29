@@ -1,0 +1,36 @@
+{
+  "_id": "4uK5xMjmxCZaGBewc",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1512181560852"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1512181560852"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.062946183284746"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":3,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/majorlazer/major-lazer-dj-snake-lean-on-feat-mo\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.5019607843137255,1,1,1],\"shader\":\"\\nvoid main() {\\n\\tgl_PointSize = 10.0;\\n  \\tgl_Position = vec4(0.0, 0.0, 0.0, 1.0);\\n  \\tv_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-gwrffjwcfdyraxj0u-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "30"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "LuyEwbtTg4MEw3kiZ"
+}

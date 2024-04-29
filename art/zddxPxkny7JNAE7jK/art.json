@@ -1,0 +1,47 @@
+{
+  "_id": "zddxPxkny7JNAE7jK",
+  "owner": {
+    "_id": "q4xaX8JuN9ATDe8tt",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1517619250907"
+      }
+    },
+    "profile": {
+      "first_name": "Anuar",
+      "last_name": "Rivera Gonzalez",
+      "avatarUrl": "https://graph.facebook.com/1812741555404077/picture?type=large"
+    },
+    "username": "anuar"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1518223995387"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1518561454224"
+    }
+  },
+  "origId": null,
+  "name": "sphere",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2344323207925212"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "anuar",
+  "avatarUrl": "https://graph.facebook.com/1812741555404077/picture?type=large",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/botanicsage/gooddaychr\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n  float angleOffset = 5.0;\\n  float theta = radians(mod(vertexId * angleOffset, 180.0));\\n  float fi = radians(mod(floor(vertexId / (180.0 / angleOffset)) * angleOffset, 360.0));\\n  \\n  float x = sin(theta) * cos(fi);\\n  float y = sin(theta) * sin(fi);\\n  float z = cos(theta);\\n  \\n  vec3 pos = vec3(x, y, z) * (texture2D(sound, vec2(0.225, 0)).a);\\n  \\n  mat4 rotx = mat4(1.0);\\n  rotx[1][1] = cos(time);\\n  rotx[2][1] = -sin(time);\\n  rotx[1][2] = sin(time);\\n  rotx[2][2] = cos(time);\\n  \\n  mat4 rotz = mat4(1.0);\\n  rotz[0][0] = cos(time);\\n  rotz[1][0] = -sin(time);\\n  rotz[0][1] = sin(time);\\n  rotz[1][1] = cos(time);\\n  \\n  \\n  gl_Position = rotz * rotx * vec4(pos, 1.0);\\n  gl_PointSize = 2.0;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-m42fxiizo4pqj1hsu-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "xRXJJG2ttbiQSTr7a"
+}

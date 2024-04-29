@@ -1,0 +1,46 @@
+{
+  "_id": "GxL6CjaGt3wyQZxyL",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1466785430752"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1467413742953"
+    }
+  },
+  "origId": null,
+  "name": "lesson-01-points",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1246921295962935"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "gman",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.25098039215686274,1],\"shader\":\"void main() {\\n  float down = sqrt(vertexCount);\\n  float across = floor(vertexCount / down);\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n\\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  gl_PointSize = 15.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-b6wfbzpwwwsn5h13r-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "173"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "9sAEB6gHMFczsrTGt"
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "MLdXbo7E4ENYKNQqj",
+  "owner": {
+    "_id": "74DGefcaFXNz9a4tp",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1714139701715"
+      }
+    },
+    "profile": {
+      "first_name": "Salvatore",
+      "last_name": "Spoto",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKio7TORJMn8A7RkX3-sf6UDKi8ACBRf3ulZjs1E6B-yDqExhFe=s96-c"
+    },
+    "username": "salvatore"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1714205641861"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1714205641861"
+    }
+  },
+  "origId": null,
+  "name": "Cube",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "3.0113640495326894"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "salvatore",
+  "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKio7TORJMn8A7RkX3-sf6UDKi8ACBRf3ulZjs1E6B-yDqExhFe=s96-c",
+  "settings": "{\"num\":1,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"\\n// Must be called with idx > 0 and idx < 8\\nvec4 GetCubeVertex(int idx)\\n{\\n  // Half the cube side\\n  float h_size = 0.5; \\n\\n  // idx 1,3,5,7 have negative x\\n  float x = h_size + mod(float(idx), 2.) * -2. * h_size;\\n  // idx 3,4,6,7 have negative y\\n  float y = h_size + mod(float(idx / 2), 2.) * -2. * h_size;  \\n  // idx 4,5,6,7 have negative z\\n  float z = h_size + mod(float(idx / 4), 2.) * -2. * h_size;\\n  \\n  return vec4(x, y, z, 1.);\\n}\\n\\n\\nvoid main() \\n{\\n  vec4 v = GetCubeVertex(int(vertexId));\\n  gl_Position = v;\\n  gl_PointSize = 10.;\\n  v_color = vec4(0,0,0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-r6gwi3wy9x5apif9l-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "PYLWzvvXJyKGQnFCB"
+}

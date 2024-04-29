@@ -1,0 +1,47 @@
+{
+  "_id": "A9X62RRorFW5Ys8h7",
+  "owner": {
+    "_id": "WPxtJNRQGyNafwBwv",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1552607566363"
+      }
+    },
+    "profile": {
+      "first_name": "Marco Isaac",
+      "last_name": "Buendía Mejía",
+      "avatarUrl": "https://lh6.googleusercontent.com/-jsbJZMoV7aw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rczbGrsWSlymdrCUasJ8WzEUV3Ptg/mo/photo.jpg"
+    },
+    "username": "marcoisaac"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1552710516163"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1552710516163"
+    }
+  },
+  "origId": "59tQtCvfJrkPnfsbk",
+  "name": "circulos",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9155125376277822"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "marcoisaac",
+  "avatarUrl": "https://lh6.googleusercontent.com/-jsbJZMoV7aw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rczbGrsWSlymdrCUasJ8WzEUV3Ptg/mo/photo.jpg",
+  "settings": "{\"num\":2638,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"vec2 drawCircleXY(float id);\\n\\nvoid main()\\n{\\n  \\n  float circleCount = floor(vertexCount / 360.0);\\n  float circleId = floor(vertexId / 120.0);\\n  \\n  float sqrTotal = floor(sqrt(circleCount));\\n  float width = sqrTotal;\\n  \\n  float x = mod(circleId, width);    // [0, width - 1]\\n  float y = floor(circleId / width); // [0, inf]\\n\\n  \\n  float angle = x / 20.0 * radians(180.0) * 2.0 ;\\n  float radius = y + 1.0;\\n  \\n  float u = radius * cos(angle);\\n  float v = radius * sin(angle);\\n  \\n  \\n  float xOffset = cos(time * 2.0) * 0.2 ;\\n  float yOffset = cos(time * 3.0) * 1.0 ;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float vy = v * 2.0 - 1.0 + yOffset;\\n   \\n  vec2 xy = vec2(ux, vy)* 0.4;\\n  //vec2 xyy = vec2(ux, vy);\\n\\n  gl_Position = vec4(xy + (drawCircleXY(vertexId) * 0.05) , 0.0, 1.0);\\n     \\n  gl_PointSize = 15.0 ;\\n  gl_PointSize *= 32.0 / width;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  \\n}\\n\\n\\n\\nvec2 drawCircleXY(float id)\\n{\\n  \\n  float x = floor(id / 6.0) + mod(id, 2.0);\\n  float y = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\\n  \\n  float angle = x / 20.0 * radians(180.0) * 2.0 ;\\n  float radius = y + 1.0;\\n  \\n  float u = radius * cos(angle);\\n  float v = radius * sin(angle);\\n    \\n  vec2 xy = vec2(u, v);\\n  \\n  return xy;\\n}\"}",
+  "screenshotURL": "data/images/images-bmemxdi48zakxhobr-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ucHhpgiZ4Lqtde86E"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "5EtotDS2NmQ69fxWF",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1697404075598"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1697404075598"
+    }
+  },
+  "origId": "8oJh9QtFGgJksSFFk",
+  "name": "OVERSHOOT",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9424507875666797"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":27854,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Some code originated from here: https://www.vertexshaderart.com/art/TGGLggjxQgLPEFHWx\\n\\n\\n// Calculates the size of the grid based on total number of points\\nfloat SIZE = floor(sqrt(vertexCount));\\n\\n// The actual points are placed in a 16x16 area, divided by the size gets the distance\\n// between points\\nfloat SPACING = 22.0 / SIZE;\\n\\n// How much the mouse changes the position, mouse influence\\nfloat DIST  = 22.0;\\n\\n// Detail scale (zoom out)\\nfloat SCALE = 1.0;\\n\\n\\n// Height scale, ranges from 0.001 to 1.001. The 0.001 additional is to ensure it stays\\n// Positive, so that the calculation of the colors still works.\\nfloat H_SCALE = 1.501 + sin(time / 0.09) / 5.0;\\n\\n// Values used by noise to offset the terrain for interactivity\\nfloat x_offset = mouse.x * DIST;\\nfloat y_offset = mouse.y * DIST;\\n\\n// How fast the camera orbits the area\\nfloat ROTATE_SPEED = 4.4;\\n\\n// This value determines the fullness of the display. 1.0 is default\\n// Too high and the dots cause interference with each other\\n// Too low and it can be hard to see the shape\\n// The dots get smaller as they get farther from the camera\\nfloat DOT_SIZE = 1.0;\\n\\n// These colors are used for the color display, and are mixed in main based on height\\nvec4 SNOW_COLOUR  = vec4(3.0, 1.0, 1.0, 1);\\nvec4 STONE_COLOUR = vec4(0.4, 0.4, 0.1, 1);\\nvec4 DIRT_COLOUR  = vec4(0.1, 2.2, 1.1, 1);\\nvec4 GRASS_COLOUR = vec4(0.3, 0.2, 0.3, 2);\\n\\n// Rotates a point around the global Y axis\\n// This is used to rotate the grid\\nvec3 rotateY( vec3 p, float a )\\n{\\n    float sa = sin(a);\\n    float ca = cos(a);\\n    vec3 r;\\n    r.x = ca*p.x + sa*p.z;\\n    r.y = p.y;\\n    r.z = -sa*p.x + ca*p.z;\\n    return r;\\n}\\n// Rotates a point around the global X axis\\n// This is used to tile the camera downwards to look at terrain from slightly above\\nvec3 rotateX( vec3 p, float a )\\n{\\n    float sa = sin(a);\\n    float ca = cos(a);\\n    vec3 r;\\n    r.y = ca*p.y + sa*p.z;\\n    r.x = p.x;\\n    r.z = -sa*p.y + ca*p.z;\\n    return r;\\n}\\n// Hash unction returns a pseudo-random value for a given value\\nfloat hash( in float n )\\n{\\n\\treturn fract(sin(n)*43758.5453);\\n}\\n// blends the hash of of 4 points around the given vector smoothly using\\n// a cubic hermite interpolation\\nfloat noise(in vec2 x)\\n{\\n\\tvec2 p = floor(x);\\n\\tvec2 f = fract(x);\\n\\t\\t\\n\\tf = f*f*(3.0-2.0*f);\\t\\n\\tfloat n = p.x + p.y*57.0;\\n\\t\\n\\tfloat res = mix(mix( hash(n+  0.0), hash(n+  1.0),f.x),\\n\\t\\t\\t\\t\\tmix( hash(n+ 57.0), hash(n+ 58.0),f.x),f.y);\\n\\treturn res;\\n}\\n\\n\\n// Scaling factor used only in the noise function\\nfloat feature_scale = 2.0;\\n\\n// Fractal Brownian Motion\\n\\nfloat fbm(in vec2 p, in float size) {\\n  // How much the influence of each iteration is decreased\\n  const float lucanarity = 2.0;\\n  // How much the scale of each iteration is increased\\n  const float detail     = 2.0;\\n  \\n  p = p * feature_scale;\\n  float h = noise(p);\\n  \\n  float influence = 1.0;\\n  \\n  for (int i = 0; i < 14; i++) {\\n    p = p * size;\\n  \\th += noise(p) * influence;\\n    size *= 2.0;\\n    influence /= lucanarity;\\n  }\\n  return h;\\n}\\n\\n// The code that given a position, gives a height, design the terrain here\\nfloat heightAt(in vec2 po) {\\n  po.x = (po.x + x_offset) * SCALE;\\n  po.y = (po.y + y_offset) * SCALE;\\n  return (fbm(po, 3.0) * 3.0) * pow(fbm(po, 0.2),3.0) * (0.03 * H_SCALE);\\n}\\n\\n// returns a value 0.0 to 1.0 representing how far between min and max the value is\\nfloat factor(float min, float max, float value) {\\n  float val = (value - min) / (max - min);\\n  if (val > 1.0) return 1.0;\\n  if (val < 0.0) return 0.0;\\n  return val;\\n}\\n\\n// Takes a point ID and converts it into coordinates\\nvec3 pointOf(float id) {\\n  float x = mod(id, SIZE);\\n  float y = floor(id / SIZE);\\n  \\n  return vec3((-SIZE/2.0 + x) * SPACING, heightAt( vec2( x, y ) / SIZE * 4.0), (-SIZE/2.0 + y) * SPACING );\\n}\\n\\n// Entry point of shader\\nvoid main() {\\n  // Get the point position, x, y and z, with y being the height\\n  vec3 p = pointOf(vertexId);\\n  \\n  // Based on the height (before rotation) determine colors\\n  vec4 ground_colour = mix(DIRT_COLOUR , GRASS_COLOUR, factor(0.2, 0.0, p.y / H_SCALE));\\n  \\n  vec4 top_colour    = mix(STONE_COLOUR, SNOW_COLOUR , factor(1.2, 2.0, p.y / H_SCALE));\\n  \\n  vec4 colour        = mix(ground_colour, top_colour , factor(0.2, 0.3, p.y / H_SCALE));\\n  \\n  // Rotate the point around the global Y axis\\n  p = rotateY(p, time * ROTATE_SPEED);\\n  // Move the point down\\n  p.z += 16.0;\\n  // rotate the point up on the global X axis to simulare the camera looking downwards\\n  p = rotateX(p, 0.8);\\n  \\n  // Set point size based on spacing and the distance (p.z) from the camera\\n  gl_PointSize = SPACING * (2048.0 * DOT_SIZE) / (pow(p.z,2.0));\\n  \\n  // Set the position of the point\\n  gl_Position = vec4(p.x, p.y - 9.0, 1.0/p.z, p.z);\\n  \\n  // Set the color of the point\\n  v_color = colour;\\n}\"}",
+  "screenshotURL": "data/images/images-szbazl937ioxoy43y-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "61"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "YYoxj36hojSSACycY"
+}

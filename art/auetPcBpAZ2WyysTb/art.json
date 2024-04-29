@@ -1,0 +1,36 @@
+{
+  "_id": "auetPcBpAZ2WyysTb",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1613485478553"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1613485478553"
+    }
+  },
+  "origId": "3pFLZ6LMxGuHYkjcr",
+  "name": "point cloud vs spheres rmx",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1067817910701536"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":99999,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/mogueheart/contact-part-2\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/*\\n   point cloud vs spheres by Kabuto\\n\\n   Recreated this well-known demo effect. A bit tricky without being able to store history for points, so it's just computed again and again for each render pass\\n*/\\n\\n#define RATE 2.9\\n\\nvec3 posf2(float t, float i) {\\n\\treturn vec3(\\n      fract(t+i*.18293) +\\n      sin(t*1.311+i) +\\n      sin(t*1.4+i*1.53) +\\n      sin(t*1.844+i*.76),\\n      sin(t+i*.74553+2.1) +\\n      sin(t*1.311+i*1.1311+2.1) +\\n      sin(t*1.4+i*1.353-2.1) +\\n      sin(t*1.84+i*.476-2.1),\\n      tan(t+i*1.5553-2.1) +\\n      sin(t*1.311+i*1.1-2.1) +\\n      sin(t*1.4+i*1.23+2.1) +\\n      sin(t*1.84+i*.36+2.1)\\n\\t)*fract(0.1492)*fract(0.999992);\\n}\\n\\nvec3 posf0(float t) {  return posf2(t,-1.)*RATE;}\\nvec3 posf(float t, float i) {  return posf2(t*.3,i) + posf0(t);}\\nvec3 push(float t, float i, vec3 ofs, float lerpEnd) {\\n  vec3 pos = posf(t,i)+ofs;\\n  vec3 posf = fract(pos+0.5)-0.5*atan(9000000.2);\\n  float l = length(posf)/fract(1.15*sin(.2)/tan(-0.5));\\n  return (- posf + posf/l)*(1.-smoothstep(lerpEnd,1.,l));\\n}\\n\\nvoid main() { // more or less random movement\\n  float t = time*.010;\\n  float i = fract(240000.6/vertexId*sin(vertexId))+tan(vertexId)*0.90+atan(-.5);\\n  vec3 pos = posf(t,i);\\n  vec3 ofs = vec3(0);\\n  for (float f = -10.; f < 0.; f++) {\\n\\t  ofs += push(t+f*.105,i,ofs,2.-exp(-f*.1));\\n  }\\n  ofs += push(t,i,ofs,.999);\\n  pos -= posf0(t);\\n  pos += ofs;\\n  pos.yz *= mat2(.8,.6,-.6,.8);\\n  pos.xz *= mat2(.8,.6,-.6,.8);\\n  pos *=1.*atan(-.6);\\n  pos.z += 0.7;\\n  pos.xy *= 0.6/pos.z;\\n  \\n  gl_Position = vec4(pos.x, pos.y*resolution.x/resolution.y, pos.z*.1, 1);\\n  gl_PointSize = 13.0/pos.z* 0.09;\\n\\n  v_color = vec4(fract(ofs/max(length(ofs),1e-9))*.3+.7,1)*vec4(0.357, 0.670, 0.97, 0.003);\\n}\"}",
+  "screenshotURL": "data/images/images-gcypxrg8ppp2ylt9b-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "104"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "qDANQy6WASfQcsCH5"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "b32w7foxrhZkD9GeR",
+  "owner": {
+    "_id": "vPNbgk3CpKXsP8n4Z",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1454793915807"
+      }
+    },
+    "profile": {
+      "name": "Tom Khx",
+      "avatarUrl": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg"
+    },
+    "username": "tom"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1454793982096"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1454800081972"
+    }
+  },
+  "origId": null,
+  "name": "trajectory",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.939729672253843"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "tom",
+  "avatarUrl": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+  "settings": "{\"num\":32768,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159265\\n\\nvec4 project(vec3 p) {\\n  p.x *= resolution.y/resolution.x;\\n  const float near = .9, far = 3.;\\n  const float a = -(near+far)/(near-far);\\n  const float b = 2.*near*far/(near-far);  \\n  return vec4(p.xy, a*p.z + b, p.z);\\n}\\n\\nvoid main () {\\n  float u = vertexId * (1./256.);\\n  float v = floor(u);\\n  u = (u - v) * 2. * PI;\\n  v *= PI / 128.;\\n  \\n  u += time * .1;\\n  \\n  // 3D polar sphere coords:\\n  float sin_v = sin(v);\\n  vec3 n = vec3(cos(u) * sin_v, cos(v), sin(u) * sin_v);\\n  v_color = vec4(vec3(-n.z*.8), 1.);\\n  \\n  vec4 p = project(n + vec3(0.,0.,2.));\\n  \\n  // Deform in 2d:\\n  float scale = .1*p.w*mouse.x;\\n  p.x += cos(n.y*4.)*scale;\\n  p.y += cos(n.x*8.)*scale;\\n  \\n  gl_Position = p;\\n  gl_PointSize = 4.;\\n}\"}",
+  "screenshotURL": "data/images/images-fl0hp7ii28jm0o1wn-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "155"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "5MJevKwEbnAZr7mBo"
+}

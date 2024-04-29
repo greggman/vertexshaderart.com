@@ -1,0 +1,46 @@
+{
+  "_id": "6hsoh4en6G7rPqjb8",
+  "owner": {
+    "_id": "T2kiqcyrWpNY4YuE7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1704921597360"
+      }
+    },
+    "profile": {
+      "name": "Simon Taeter",
+      "avatarUrl": "https://avatars.githubusercontent.com/staeter?s=200"
+    },
+    "username": "staeter"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1705072487738"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1705072487738"
+    }
+  },
+  "origId": "BrGxYaWHdj7D4XZyf",
+  "name": "nice error 1",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2592602644885402"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "staeter",
+  "avatarUrl": "https://avatars.githubusercontent.com/staeter?s=200",
+  "settings": "{\"num\":38729,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_SEGMENTS 128.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n// complex numbers\\n// vec2(real part, complex part)\\nvec2 cProd(vec2 a, vec2 b) {\\n  return vec2(a.x*b.x - a.y*b.y, a.x*b.y + a.y*b.x);\\n}\\nfloat cModSqrd(vec2 a) {\\n  return (a.x*a.x + a.y*a.y);\\n}\\nint mandelbrot(float x, float y) {\\n  int n = 0;\\n  vec2 z = vec2(0,0);\\n  vec2 c = vec2(x,y);\\n  \\n  // no loops in glsl so jsut repeat 100 times\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  z = cProd(z,z) + c; n++; if(abs(cModSqrd(z))>4.) return n;\\n  \\n  return n;\\n}\\n\\nvoid main() {\\n  float resArea = resolution.x * resolution.y;\\n  float areaPerVertex = resArea/vertexCount;\\n  float vertLen = sqrt(areaPerVertex);\\n  float vertAcrossX = floor(resolution.x/vertLen);\\n  float vertAcrossY = floor(resolution.y/vertLen);\\n  \\n  float u = (mod(vertexId, vertAcrossX))/(vertAcrossX);\\n  u = (u - 0.5) * 2.;\\n  float v = (floor(vertexId / vertAcrossX))/(vertAcrossY);\\n  v = (v - 0.5) * 2.;\\n  \\n  float x = u * (resolution.x/resolution.y) / v;\\n  float y = v * (resolution.y/resolution.x) / vertLen;\\n    \\n  gl_Position = vec4(u, v, 0, 1);\\n  gl_PointSize = vertLen*1.05/2.;\\n  \\n  \\n  v_color = vec4(hsv2rgb(vec3((x+y)/vertLen+time/10., 1., 1.)), 1.);\\n}\"}",
+  "screenshotURL": "data/images/images-tpmyek6qpvxczrk3j-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "GyeeKvfq5CdBqBvcA"
+}

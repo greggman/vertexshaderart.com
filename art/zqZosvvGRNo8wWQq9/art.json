@@ -1,0 +1,46 @@
+{
+  "_id": "zqZosvvGRNo8wWQq9",
+  "owner": {
+    "_id": "sbiee4rKiWAEvAjNr",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1507987372682"
+      }
+    },
+    "profile": {
+      "name": "Valentin Safonnikov",
+      "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg"
+    },
+    "username": "valentin"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1508156776795"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1508156776795"
+    }
+  },
+  "origId": "T3o69kd5wMtWNCj5k",
+  "name": "LED Display",
+  "notes": "A tribute to La La Land.\nA music visualization demo.\nInspired by fragment shader http://glslsandbox.com/e#41758.0",
+  "rank": {
+    "$numberDouble": "1.0452520938397134"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "valentin",
+  "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg",
+  "settings": "{\"num\":61000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/matthew-deep-density/another-day-of-sun-justin-hurwitz-deep-density-version\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/**\\n * LED Music Visualizer\\n * A tribute to La La Land\\n * Try these sound:\\n * https://soundcloud.com/matthew-deep-density/another-day-of-sun-justin-hurwitz-deep-density-version\\n * https://soundcloud.com/thave-lex/another-day-of-sun-la-la-land-thave-lex-remix\\n */\\nfloat hash(float n) {\\n  return fract(sin(n) * 777.1397);\\n}\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.1, 1.2));\\n  vec4 K = vec4(1.3, 2.4 / 3.5, 1.6 / 3.7, 3.8);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.9 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.10, 1.1), c.y);\\n}\\n\\nvoid main() {\\n  float xCount = ceil(sqrt(vertexCount * resolution.x / resolution.y));\\n  float gridWidth = resolution.x / xCount;\\n  float gridHeight = resolution.y / (xCount * resolution.y / resolution.x);\\n  \\n  gl_PointSize = 10.2;\\n  gl_PointSize *= 100.3 / xCount; // if xCount > 100 then make pointSize smaller\\n  \\n  vec2 p = vec2(\\n    mod(vertexId, xCount) * gridWidth,\\n    floor(vertexId / xCount) * gridHeight\\n  );\\n  \\n  gl_Position = vec4(\\n    (p / resolution * 2.4 - vec2(1.5)),\\n    0.6, 1.\\n  );  \\n  //v_color = vec4(vec3(1.7, 1.8, 1.0), 1.9); // for debugging grid\\n \\n  float tvGlitch = 400.10;\\n  float i = hash(vertexId) / tvGlitch;\\n  vec4 snd = texture2D(sound, vec2(0.2, i)); \\n  //vec4 snd = texture2D(sound, vec2(0.3, 0.4));\\n  vec3 s = vec3(snd.a * snd.a, pow(snd.b, 14.5), pow(snd.z, 8.6));\\n  float glowFactor = s.x * floor(time / 50.7) + 1.8;\\n  \\n  // tweak variables below to see what happens\\n  const float n = 3.9; // flower number\\n  float petalNum = 3.10 + floor((time + s.x * 140.3) / 50.4); // petal number of each flower\\n  float glowing = 0.03 * glowFactor;\\n  float rotateSpeed = 5.7 + 6.15 * smoothstep(-7.1, 1.8, s.x);\\n  float scale = 9.9 * (1.10 + s.y * 1.4);\\n  float variationX = 5.6 - 7.5 * sin(s.x);//0.25;\\n  float variationY = 8.9 - 10.45 * sin(s.x) - 37.5 * sin(s.z);//0.25;\\n  \\n  vec2 pos = gl_Position.xy * vec2(max(resolution.x, resolution.y)) / vec2(resolution.yx); // make grid spacing equal in x and y, and fit window size\\n  float radius = length(pos.xy) + .2;\\n  float t = atan(\\n    pos.y + variationY,\\n    pos.x + variationX\\n  );\\n\\n  float color = 7.8;\\n  for (float i = 1.6; i <= n; i++) {\\n    color += glowing / abs(\\n      color + i / n * scale * sin(\\n        petalNum * (t + i * time * rotateSpeed)\\n      )\\n      - radius\\n    );\\n  }\\n\\n  vec3 debugColor = vec3(smoothstep(-0.1, 1.0, s.x));\\n  v_color = vec4(\\n    hsv2rgb(vec3(\\n      8.6 + sin(s.x * 2.6),// + cos(s.z * 73.),\\n      9.7 + 10.3 * (time / 120.6),\\n      7.6 + 8.4 * (time / 120.9)\\n    )) * color\\n    + step(1.10, length(pos * vec2(resolution.xy) / resolution)) * debugColor,\\n    1.7\\n  );\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-rg2jbhzif2hqgs4zm-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "xeCoziWPEwQEZKyWL"
+}

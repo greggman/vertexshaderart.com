@@ -1,0 +1,46 @@
+{
+  "_id": "S8WjbT3dh5ZHhbpAS",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1452088950942"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1591668393214"
+    }
+  },
+  "origId": null,
+  "name": "crepe",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "10.344389125513754"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "gman",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "settings": "{\"num\":56050,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/uheplugins/bora\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 100.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float pointV = point / NUM_SEGMENTS;\\n  float circleId = floor(vertexId / NUM_POINTS);\\n  float numCircles = floor(vertexCount / NUM_POINTS);\\n  float circleV = circleId / numCircles;\\n  \\n  float snd = texture2D(sound, vec2(pointV * 0.0125, (1. - circleV) * 0.1)).a;\\n  \\n  float angle = pointV * PI * 2.0 + snd * 5.;\\n  float c = cos(angle) * mix(0.1, 1., circleV);\\n  float s = sin(angle) * mix(0.25, 0.5, circleV);\\n  \\n  float r = mix(0., PI, circleV) + pow(snd, 5.0);\\n  float rc = cos(r + sin(time * 4. + circleV * 4.));\\n  float rs = sin(r + sin(time * 4. + circleV * 4.));\\n  \\n  vec2 aspect = vec2(1, resolution.x / resolution.y) * 0.8;\\n  vec2 xy = vec2(\\n      rc * c + rs * s,\\n     -rs * c + rc * s);\\n  gl_Position = vec4(xy * aspect, 0, 1);\\n\\n  float b = 1.0;\\n  v_color.a = 1.;\\n  v_color.rgb = vec3(1. - circleV, circleV, 1) * (1. - pow(snd, 20.0));\\n  \\n  gl_PointSize = 4.0;\\n  gl_PointSize *= resolution.x / 1600.0;\\n}\"}",
+  "screenshotURL": "data/images/images-fkxv007a9ez2a235x-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1374"
+  },
+  "likes": {
+    "$numberInt": "8"
+  },
+  "revisionId": "JwAMhRiWGYXM7kryw"
+}

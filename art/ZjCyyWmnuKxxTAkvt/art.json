@@ -1,0 +1,45 @@
+{
+  "_id": "ZjCyyWmnuKxxTAkvt",
+  "owner": {
+    "_id": "D9c43gfZ2NcdAj8DJ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1590579087275"
+      }
+    },
+    "username": "jluethi",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/21e93db3614e6e91a28d7f82b4e44433?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1590585193889"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1590585728940"
+    }
+  },
+  "origId": "5vn8CgvHBoa5KFxpa",
+  "name": "website1",
+  "notes": "slot1/21",
+  "rank": {
+    "$numberDouble": "1.8774087111998183"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "jluethi",
+  "avatarUrl": "https://secure.gravatar.com/avatar/21e93db3614e6e91a28d7f82b4e44433?default=retro&size=200",
+  "settings": "{\"num\":10000,\"mode\":\"LINE_LOOP\",\"sound\":\"https://soundcloud.com/jaems_lu/cowbop-201019-1158\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.14901960784313725,0.12941176470588237,0.27058823529411763,1],\"shader\":\"vec3 hsv2rgb(vec3 c) {\\nc = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0/ 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n  \\n}\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  float x = mod(vertexId, across) ;\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across-1.);\\n  float v = y / (across-1.);\\n  \\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time + x * 0.3) * 0.3;\\n  \\n  \\n  float sv = abs(v - .5) * 2.;\\n  float su = abs(u - .5) * 2.;\\n  \\n  \\n  float ux = u * 2. -1. +xoff;\\n  float vy = v * 2. -1. +yoff;\\n  \\n  vec2 xy =vec2(ux, vy)* 1.3;\\n  \\n  float snd = texture2D(sound, vec2(su* .5,sv)).a;\\n  \\n  float soff = 0.;//sin(time + x * y * 0.02) * 25.;\\n  \\n  \\ngl_Position = vec4(xy,0,1);\\n  \\n  gl_PointSize = snd * 30. + soff;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\nfloat hue = u * .1 + sin(time + v *20.) *0.05;\\nfloat sat = 1.;\\nfloat val = pow(snd,.9 - 10.);//;sin(time + v * u * 20.0) * 0.5 + .5;\\n  \\n  v_color = vec4(hsv2rgb(vec3(snd,sat,val)),1);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-j05xfwnj8al0gnmuo-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "286"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "6ek7DwYdTGo5Hiw7P"
+}

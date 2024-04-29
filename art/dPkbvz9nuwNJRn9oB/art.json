@@ -1,0 +1,46 @@
+{
+  "_id": "dPkbvz9nuwNJRn9oB",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1523446918914"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1523446918914"
+    }
+  },
+  "origId": "cgibgS9oD8o5yDmqZ",
+  "name": "another test 2",
+  "notes": "http://glslsandbox.com/e#38484.0",
+  "rank": {
+    "$numberDouble": "1.1895232394818238"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/user-158087960/studiomix-douzirec-06-2007-flac\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Created by K Machine from http://glslsandbox.com/e#46121.0\\nvec2 vertexResolution = resolution;\\n// Author: @amagitakayosi\\n// Alternate version by Laura and dennis family\\n//#ifdef  GL_ES\\n//precision  mediump float;\\n//#endif \\n\\n//#extension  GL_OES_standard_derivatives : enable\\n\\n//uniform  float time;\\n//uniform  vec2 vertexResolution;\\n\\nvec2 rot(in vec2 uv, in float t) {\\n    float c = sin(t), s = cos(t);\\n\\tuv.x=uv.x+.1*sin(t);\\n\\tuv.y=uv.y+.1*cos(t);\\n    return mat2(c, -s, s, c) * uv;\\n}\\n\\nvoid main() {float finalDesiredPointSize = 3.;\\nfloat maxFinalSquareSideSize = floor(sqrt(vertexCount));\\nfloat finalMaxVertexCount = maxFinalSquareSideSize*maxFinalSquareSideSize;\\nfloat maxVerticesPerLine = floor(maxFinalSquareSideSize  *resolution.x/resolution.y);\\nvertexResolution = vec2(maxVerticesPerLine, floor(finalMaxVertexCount/maxVerticesPerLine));\\nfloat finalVertexCount = vertexResolution.x*vertexResolution.y;\\nfloat finalVertexId = mod(vertexId,finalVertexCount);\\nfloat x = mod(finalVertexId, vertexResolution.x);\\nfloat y = floor(finalVertexId / vertexResolution.x);\\nvec2 simFragCoord = vec2(x,y);//simfragCoord will replace the gl_FragCoord of fragment shader\\nfloat u_i = (x /vertexResolution.x);\\nfloat v_i = (y /vertexResolution.y);\\nfloat sizeFactor = finalDesiredPointSize*vertexResolution.x/resolution.x;\\nfloat ux = sizeFactor*(u_i - 0.5);\\nfloat vy = sizeFactor*(v_i - 0.5);\\ngl_PointSize = finalDesiredPointSize;\\ngl_Position = vec4(ux, vy, 0., 1.);\\nvec2 surfacePosition = vec2(ux,vy);\\n\\n    vec2 p = (simFragCoord.xy * 2. - vertexResolution) / min(vertexResolution.x, vertexResolution.y);\\n\\n    p = p * (length(p) + sin(time * 1.4) - .2);\\n    p = rot(p + .1, time + sin(time + (length(p) + 3.) * 4.) * .4);\\n\\n    v_color = vec4(\\n        sin(p.x * 5. + sin(p.x * 9. + time + 9.)) + cos(p.y * 6. + sin(p.y * 5. + time)),\\n        sin(p.x * 5. + sin(p.y * 9. + time + 9.)) + cos(p.y * 5. + sin(p.x * 3. + time)),\\n        sin(p.x * 5. + sin(p.x * 9. + time + 9.)) + cos(p.y * 1. + sin(p.y * 1. + time)),\\n        1\\n    );\\n}\"}",
+  "screenshotURL": "data/images/images-gg7rgjef057qczmyz-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "7vZvtRoh8eNN4vkqj"
+}

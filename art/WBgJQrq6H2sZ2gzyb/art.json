@@ -1,0 +1,36 @@
+{
+  "_id": "WBgJQrq6H2sZ2gzyb",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1512908569240"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1512908569240"
+    }
+  },
+  "origId": null,
+  "name": "test",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2541237644938559"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.1450980392156863,0.30980392156862746,1],\"shader\":\"void main ()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-vw8arwvvehovcvucq-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "71"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "vbT9YTmFRNwYfE73D"
+}

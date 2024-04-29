@@ -1,0 +1,46 @@
+{
+  "_id": "fSz8brGjX9TATFZLC",
+  "owner": {
+    "_id": "rNn8aeTHLQXkcMmn8",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684322503601"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/Jaeyeong-An?s=200"
+    },
+    "username": "jaeyeong-an"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684325983625"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684325983625"
+    }
+  },
+  "origId": null,
+  "name": "Making A Grid by Jaeyeong An(own variation)",
+  "notes": "Duplicate the shader and tweak it to make my variation",
+  "rank": {
+    "$numberDouble": "1.085262967608145"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "jaeyeong-an",
+  "avatarUrl": "https://avatars.githubusercontent.com/Jaeyeong-An?s=200",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/oschzqgdxjxe/haon-pullik-prod-godic-korean?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name : Jaeyeong An\\n//Assignment : Exercise - Vertexshaderart : Making a Grid\\n//Course : CS250\\n//Term : 2023 Fall\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. -1. * sin(time);\\n  float vy = v * 2. -1. * cos(time);\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 500. ;\\n  \\n  v_color = vec4(sin(time), cos(time), 0, 1);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-vlsx6bdgp6tsk2bnu-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "41"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "LLTkiZwcMFyAw6Y3s"
+}

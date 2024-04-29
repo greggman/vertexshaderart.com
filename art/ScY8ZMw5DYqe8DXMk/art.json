@@ -1,0 +1,45 @@
+{
+  "_id": "ScY8ZMw5DYqe8DXMk",
+  "owner": {
+    "_id": "zhcyc448mbXBSX3RY",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1652867755974"
+      }
+    },
+    "username": "donga.choi",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/edffcb435255bbb6bef5ad8a6333dda8?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1654003139768"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1654006506532"
+    }
+  },
+  "origId": null,
+  "name": "Circles from Triangles",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2103472681285103"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "donga.choi",
+  "avatarUrl": "https://secure.gravatar.com/avatar/edffcb435255bbb6bef5ad8a6333dda8?default=retro&size=200",
+  "settings": "{\"num\":5000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Dong-A Choi\\n//Circles from Triangles exercise\\n//CS250\\n//2022 Spring\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n#define PI radians(180.0)\\n\\nmat4 rotX(float angleInRadians) {\\n    float s = sin(angleInRadians);\\n    float c = cos(angleInRadians);\\n  \\t\\n    return mat4( \\n      1, 0, 0, 0,\\n      0, c, s, 0,\\n      0, -s, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\nmat4 rotY(float angleInRadians) {\\n    float s = sin(angleInRadians);\\n    float c = cos(angleInRadians);\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\nmat4 rotZ(float angleInRadians) {\\n    float s = sin(angleInRadians);\\n    float c = cos(angleInRadians);\\n  \\t\\n    return mat4( \\n      c,-s, 0, 0, \\n      s, c, 0, 0,\\n      0, 0, 1, 0,\\n      0, 0, 0, 1); \\n}\\n\\nmat4 trans(vec3 trans) {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    trans, 1);\\n}\\n\\nmat4 ident() {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 scale(vec3 s) {\\n  return mat4(\\n    s[0], 0, 0, 0,\\n    0, s[1], 0, 0,\\n    0, 0, s[2], 0,\\n    0, 0, 0, 1);\\n}\\nmat4 uniformScale(float s) {\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, 1);\\n}\\nvec2 getCirclePoint(float id, float numCircleSegments){\\n  float ux = floor(id / 6.) + mod(id, 2.);\\n  float vy = mod(floor(id / 2.) + floor(id / 3.), 2.);\\n  \\n  float angle = ux / numCircleSegments * PI*2.;\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  \\n  float radius = vy + 1.;\\n  \\n  float x = c * radius;\\n  float y = s * radius;\\n  \\n  return vec2(x, y);\\n}\\n\\n\\nvoid main() {\\n  \\n  float numCircleSegments = 36.;\\n  vec2 circleXY = getCirclePoint(vertexId, numCircleSegments);\\n  float numPointsPerCircle = numCircleSegments * 6.;\\n  float circleId = floor(vertexId / numPointsPerCircle);\\n  float numCircles = floor(vertexCount / numPointsPerCircle);\\n  \\n  float sliceId = floor(vertexId / 6.);\\n  float oddSlice = mod(sliceId, 2.);\\n  \\n  float down = floor(sqrt(numCircles));\\n  float across = floor(numCircles / down);  \\n  \\n  float x = mod(circleId, across);\\n  float y = floor(circleId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n\\n  float xoff = 0.;\\n  float yoff = 0.;\\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  float su = abs(u - 0.5) * 2.;\\n  float sv = abs(v - 0.5) * 2.;\\n  float au = abs(atan(su, sv)) / PI;\\n  float av = length(vec2(su, sv));\\n  float snd = texture2D(sound, vec2(au * 0.05, av * .25)).a;\\n \\n  \\n  float aspect = resolution.x/resolution.y;\\n  float sc = pow(snd + 0.2, 5.)*mix(1., 1.1 ,oddSlice);\\n  sc *= 20. / across;\\n  \\n  vec4 pos = vec4(circleXY, 0, 1);\\n  mat4 mat = ident();\\n  mat *= scale(vec3(1,aspect, 1));\\n  mat *= rotZ(time * 0.1);\\n  mat *= trans(vec3(ux, vy, 0) * 1.4);\\n  mat *= rotZ(snd * 20. * sign(ux));\\n  mat *= uniformScale(0.03 * sc);\\n  \\n  gl_Position = mat * pos;\\n  \\n  float soff = 0.;\\n  \\n  float pump = step(0.8, snd);\\n  float hue = u * .1 + snd * 0.2 + time * .1;\\n  float sat = 1.;\\n  float val = mix(.4, pow(snd + 0.2, 5.0), pump);\\n  \\n  hue = hue + pump * oddSlice * 0.5 + pump * 0.33;\\n  val += oddSlice * pump;\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-ju77kwv6widwys1dc-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "gRLEMdZM9mC8mgHJE"
+}

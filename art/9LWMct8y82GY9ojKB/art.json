@@ -1,0 +1,45 @@
+{
+  "_id": "9LWMct8y82GY9ojKB",
+  "owner": {
+    "_id": "iFSyTSHmeekk4Ga75",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1683697855014"
+      }
+    },
+    "username": "minkicho",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/d60bba6d40dad392ba0244fbcca8d579?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684722758896"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684722758896"
+    }
+  },
+  "origId": null,
+  "name": "Exercise - Vertexshaderart : Audio Reactive",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6170251599875949"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "minkicho",
+  "avatarUrl": "https://secure.gravatar.com/avatar/d60bba6d40dad392ba0244fbcca8d579?default=retro&size=200",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Minki Cho\\n// Audio Reactive\\n// CS250 Spring 2022\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n#define PI radians(180.0)\\n\\nuniform float u_time;\\nvec3 permute(vec3 x) { return mod(((x*34.0)+1.0)*x, 289.0); }\\n\\nfloat noise(vec2 v){\\n    const vec4 C = vec4(0.2113247, 0.36602784439,\\n                        -0.5773526, 0.0243902439);\\n    vec2 i  = floor(v + dot(v, C.yy) );\\n    vec2 x0 = v -   i + dot(i, C.xx);\\n\\n    vec2 i1;\\n    i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);\\n    vec4 x12 = x0.xyxy + C.xxzz;\\n    x12.xy -= i1;\\n\\n    i = mod(i, 289.0);\\n    vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 ))\\n                + i.x + vec3(0.0, i1.x, 1.0 ));\\n\\n    vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy),\\n                            dot(x12.zw,x12.zw)), 0.0);\\n    m = m*m ;\\n    m = m*m ;\\n\\n    vec3 x = 2.0 * fract(p * C.www) - 1.0;\\n    vec3 h = abs(x) - 0.5;\\n    vec3 ox = floor(x + 0.5);\\n    vec3 a0 = x - ox;\\n\\n    m *= 1.792842 - 0.153734 * ( a0*a0 + h*h );\\n\\n    vec3 g;\\n    g.x  = a0.x  * x0.x  + h.x  * x0.y;\\n    g.yz = a0.yz * x12.xz + h.yz * x12.yw;\\n    return 130.0 * dot(m, g);\\n}\\n\\nvoid main() {\\n  float down = sqrt(vertexCount);\\n  float across = floor(vertexCount / down);\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float su = abs(u - 0.5);\\n  float sv = abs(v - 0.1);\\n  \\n  float au = abs(atan(su, sv)) / PI;\\n  float av = length(vec2(su, sv));\\n  \\n  float snd = texture2D(sound, vec2(au * 0.05, av * .25)).a;\\n\\n  float n = noise(vec2(u, v) + u_time * 0.1);\\n  \\n  vec2 xy = vec2( u * 2. - 1., v * 2. - 1.) * 1.3;\\n  float z =  snd * 2.0 - 1.0;\\n  \\n  gl_Position = vec4(xy, z, 1);\\n  \\n  float soff = 1.;\\n  gl_PointSize = pow(snd + 0.2, 5.0) * 30.0 + soff;\\n  gl_PointSize *= 20.0 / across;\\n\\n  float pump = step(0.8, snd);\\n  \\n  float hue = u * .1 + snd * 0.2 + u_time * .1;\\n  float sat = mix(0., 1., pump);\\n  float val = mix(.1, pow(snd + 0.2, 5.0), pump);\\n  v_color = vec4(hsv2rgb(vec3(n *hue, sat, val)), 1);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-9wokw46w0pb4tfj80-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "XCexn2hGJvPLaHx35"
+}

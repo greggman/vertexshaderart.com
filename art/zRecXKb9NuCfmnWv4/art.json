@@ -1,0 +1,46 @@
+{
+  "_id": "zRecXKb9NuCfmnWv4",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1494969599667"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1494969641704"
+    }
+  },
+  "origId": "rRHoXfKZBnnwFz4bZ",
+  "name": "Init",
+  "notes": "Hmmm!",
+  "rank": {
+    "$numberDouble": "1.1687612687741888"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.6274509803921569,1],\"shader\":\"void main() {\\n  gl_Position = vec4(0, 0, 0, 1);\\n  gl_PointSize = 40.;\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-7bmizxwjtimhrr3wf-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "4wED6kACqeDg5cS3Z"
+}

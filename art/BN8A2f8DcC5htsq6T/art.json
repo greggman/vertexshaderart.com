@@ -1,0 +1,47 @@
+{
+  "_id": "BN8A2f8DcC5htsq6T",
+  "owner": {
+    "_id": "gCKgzQzioC4gDMxq9",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1496305181205"
+      }
+    },
+    "profile": {
+      "name": "Paul Gutierrez",
+      "avatarUrl": "https://lh3.googleusercontent.com/-zoLHh8QcDvA/AAAAAAAAAAI/AAAAAAAAAMY/JF7a2zyY1xc/photo.jpg",
+      "info": "Trying to create shaders to work with the K machine app."
+    },
+    "username": "PLU Collective"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1496307884991"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1496307884991"
+    }
+  },
+  "origId": null,
+  "name": "Lesson01",
+  "notes": "Lesson One tutorial code.",
+  "rank": {
+    "$numberDouble": "1.3557345171326272"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "PLU Collective",
+  "avatarUrl": "https://lh3.googleusercontent.com/-zoLHh8QcDvA/AAAAAAAAAAI/AAAAAAAAAMY/JF7a2zyY1xc/photo.jpg",
+  "settings": "{\"num\":679,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.08235294117647059,0.11372549019607843,0.3843137254901961,1],\"shader\":\"void main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / across;\\n  float v = y / across;\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-kzeo5244lld5esh30-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "qeCav4EzGPSHq4Pr9"
+}

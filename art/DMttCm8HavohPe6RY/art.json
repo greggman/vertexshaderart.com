@@ -1,0 +1,46 @@
+{
+  "_id": "DMttCm8HavohPe6RY",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1522800235606"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1522802867348"
+    }
+  },
+  "origId": "8LsJgzRWQxy2bJWwJ",
+  "name": "fragment conversion test 2",
+  "notes": "http://glslsandbox.com/e#46080.0",
+  "rank": {
+    "$numberDouble": "1.3478213893152744"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/user-158087960/studiomix-douzirec-06-2007-flac\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n#ifdef GL_ES\\nprecision mediump float;\\n#endif\\n \\n#extension GL_OES_standard_derivatives : enable\\n\\n//Step 1 >> comment all uniforms and varying\\n/*\\nuniform float time;\\nuniform vec2 mouse;\\nuniform vec2 resolution;\\nvarying vec2 surfacePosition;\\n*/\\n\\nvec2 pattern(vec2 p) {\\n\\t\\n\\tfloat a = atan(p.x,p.y);\\n\\tfloat r = 9.0 * pow(1.0/length(p), 0.4);\\n\\tfloat t =  time + length(p) * 0.0012;\\n\\treturn vec2(sin(a*3.0+cos(t*0.25)*10.0), sin(r*2.+sin(time*0.1)*10.0));\\n}\\n\\nvoid main( void ) {\\n\\n\\n  //Step 2 >> replace  gl_FragCoord\\n  float finalDesiredPointSize = 3.;\\n  float maxFinalSquareSideSize = floor(sqrt(vertexCount));\\n  float finalMaxVertexCount = maxFinalSquareSideSize*maxFinalSquareSideSize;\\n  \\n  float maxVerticesPerLine = floor(maxFinalSquareSideSize  *resolution.x/resolution.y);\\n  \\n  //x = number of elements in a line as x value for local resolution\\n  //y = number of possible lines with the given vertexCount\\n  vec2 vertexResolution = vec2(maxVerticesPerLine, floor(finalMaxVertexCount/maxVerticesPerLine));\\n  \\n  //we can now calculate the final number of elements\\n  float finalVertexCount = vertexResolution.x*vertexResolution.y;\\n  \\n  //and adjust finalVertexId\\n  float finalVertexId = mod(vertexId,finalVertexCount);\\n  \\n  //Calculate the position of the elements based on their finalVertexId\\n  float x = mod(finalVertexId, vertexResolution.x);\\n  float y = floor(finalVertexId / vertexResolution.x);\\n  \\n  vec2 simfragCoord = vec2(x,y);//simfragCoord will replace the gl_FragCoord of fragment shader\\n  \\n  \\n  //Step 3 >> calculate vertice positions\\n  //relative coordinate of the vertex (cordinates in 0..1 referential)\\n  float u = (x /vertexResolution.x);\\n  float v = (y /vertexResolution.y);\\n  \\n  //set vertices disposition\\n  float sizeFactor = finalDesiredPointSize*vertexResolution.x/resolution.x;\\n  \\n  float ux = sizeFactor*(u - 0.5);\\n  float vy = sizeFactor*(v - 0.5);\\n  \\n  gl_PointSize = finalDesiredPointSize;\\n  gl_Position = vec4(ux, vy, 0., 1.);\\n  \\n  //create the surfacePosition\\n  vec2 surfacePosition = vec2(ux,vy);\\n\\n   /****************************************************************/\\n  //Step 4 >> paste the old fragment code with following changes:\\n\\n  //replace gl_FragCoord by vfragCoord \\n  //replace gl_FragColor by v_color\\n  \\n\\n\\tvec2 p = surfacePosition * 99.0;\\n\\tvec3 col = vec3(0.0);\\n\\t\\n\\tfor (int i=0; i<3; i++)\\n\\t\\tp.xy = pattern(p);\\n\\t\\n\\tcol.xy = sin(p.xy);\\n\\tcol.z = max(step(abs(p.x*p.x),0.5), -1.0 / abs(p.y));\\n\\t\\n\\tv_color = vec4( col, 1.0 );\\n\\n  \\n  /****************************************************************/\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-y1rgwspmz2prgv99x-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "kGM7XBpTRao3CZzuz"
+}

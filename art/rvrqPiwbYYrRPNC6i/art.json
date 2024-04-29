@@ -1,0 +1,47 @@
+{
+  "_id": "rvrqPiwbYYrRPNC6i",
+  "owner": {
+    "_id": "r6XcKj2Zo8BjapJbF",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1590975314952"
+      }
+    },
+    "profile": {
+      "first_name": "xi",
+      "last_name": "liu",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GhDJubRRp-SM2AciN7fDuusjZXt4-We-Q9ZOwXU"
+    },
+    "username": "xi"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1590975711970"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1590975711970"
+    }
+  },
+  "origId": "hx3wegzB6mT7kmxAg",
+  "name": "lesson02",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5856987521421047"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "xi",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GhDJubRRp-SM2AciN7fDuusjZXt4-We-Q9ZOwXU",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.0196078431372549,0.2784313725490196,1],\"shader\":\"void main(){\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  \\n  \\n  float u = x/(across-1.);\\n  float v = y/(across-1.);\\n  \\n  float xoff = sin(time + y*0.2) * 0.1;\\n  float yoff = sin(time + x*0.2) * 0.1;\\n  \\n  \\n  float ux = u * 2. -1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.2;\\n  \\n  gl_Position = vec4(xy,0,1);\\n  \\n  float soff = sin(time + x * y * 0.02) * 5.;\\n  \\n  gl_PointSize = 15.0 + soff;\\n  gl_PointSize *= 20./across;\\n  gl_PointSize *= resolution.x/600.;\\n  \\n  \\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-ufkgug8ufwkzvbnnr-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "QCdrvbmg9xgZ44LSg"
+}

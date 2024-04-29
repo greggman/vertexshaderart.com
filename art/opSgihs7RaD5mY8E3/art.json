@@ -1,0 +1,47 @@
+{
+  "_id": "opSgihs7RaD5mY8E3",
+  "owner": {
+    "_id": "95683ZgBuRkukjtj7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1589922178477"
+      }
+    },
+    "profile": {
+      "first_name": "Markus",
+      "last_name": "Q",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GifvlNvBe-lLi3fzBlpXK1QVVIW7V5Nwqq8cssCjA"
+    },
+    "username": "markus"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1605596191956"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1605596697718"
+    }
+  },
+  "origId": "cjTYyd8z2yEWqYFeg",
+  "name": "Lines Explained",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1676375267081522"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "markus",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GifvlNvBe-lLi3fzBlpXK1QVVIW7V5Nwqq8cssCjA",
+  "settings": "{\"num\":3000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/allaboutthebeat/distant-friends-gen-neo\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_POINTS 500.0\\n#define K 1.059463094359295264561825294946\\n#define FIT_VERTICAL\\n\\n\\nvoid main() \\n{\\n\\n  float u = vertexId/soundRes.x;\\n  float v = 0.0;\\n  \\n  v+= 10.0*pow(texture2D(sound,vec2(u,0.0)).a,5.0); // last value for overall peak of color\\n  \\n  float x = (u*10.0)-1.0;\\n  float y = 0.0;\\n  gl_PointSize = 40.0;\\n  gl_Position = vec4(x,y,0,0.1); // change last value for resolution\\n  \\n  float lum = floor(v *10.0 + 1.9)/20.0;\\n  //float lum = 1.0; // tester\\n  v_color = vec4(v*lum*0.4,lum*0.2,lum*1.0,1); // v * lum * R, lum * G, lum * B, ?\\n\\n}\"}",
+  "screenshotURL": "data/images/images-6iwrp5d002ewr0ba1-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "19"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "MTsiMh75BHeYwmEiE"
+}

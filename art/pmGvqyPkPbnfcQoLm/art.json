@@ -1,0 +1,46 @@
+{
+  "_id": "pmGvqyPkPbnfcQoLm",
+  "owner": {
+    "_id": "qKPpzdr6wbcudsddm",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1552696746395"
+      }
+    },
+    "profile": {
+      "name": "Alejandro Cámara",
+      "avatarUrl": "https://avatars.githubusercontent.com/AlejandroCamara?s=200"
+    },
+    "username": "alejandrocamara"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1552696880627"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1553140228309"
+    }
+  },
+  "origId": null,
+  "name": "Circle",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5867536322441866"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "alejandrocamara",
+  "avatarUrl": "https://avatars.githubusercontent.com/AlejandroCamara?s=200",
+  "settings": "{\"num\":360,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId + 1.0, 2.0);\\n \\n  \\n  float angle = radians(vertexId);\\n  float radius = 1.0;\\n  \\n  float u = radius * cos(angle);\\n  float v = radius * sin(angle);\\n  \\n  vec2 xy = vec2(u, v) * 0.5;\\n  \\n\\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 1.0;\\n  /*if (mod(vertexId, 42.0) > 1.0) {\\n    v_color = vec4(0.0, 0.0, 1.0, 1.0);\\n  }else if (mod(vertexId, 42.0) == 0.0) {\\n    v_color = vec4(0.0, 1.0, 1.0, 1.0);\\n  }*/\\n  v_color = vec4(0.0, 0.0, 1.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-qs5kp7e8vpddtd9p3-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "6"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "WremSRqQmbLrzKto4"
+}

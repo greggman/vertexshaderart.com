@@ -1,0 +1,47 @@
+{
+  "_id": "icmkfJD93vQnbZQfB",
+  "owner": {
+    "_id": "NgKQjgpqQ68SZDN9t",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1562732220584"
+      }
+    },
+    "profile": {
+      "first_name": "Abhijit",
+      "last_name": "Chavan",
+      "avatarUrl": "https://lh5.googleusercontent.com/-i3qvQNrpbfU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd3L2Osg3Ys5HSXRn6QArB46T_mBA/photo.jpg"
+    },
+    "username": "abhijit"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1562737416362"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1562747484503"
+    }
+  },
+  "origId": null,
+  "name": "VertexAndPrivateShader1Demo",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9925442653951013"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "abhijit",
+  "avatarUrl": "https://lh5.googleusercontent.com/-i3qvQNrpbfU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd3L2Osg3Ys5HSXRn6QArB46T_mBA/photo.jpg",
+  "settings": "{\"num\":3855,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main() {\\n  \\n  float vcount = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount /vcount) ;\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2.0 - 1.0 + xoff;\\n  float vx = v * 2.0 - 1.0 + yoff;\\n  \\n  vec2 xy = vec2(ux ,vx) * 0.7;\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time + x * y * 0.02 ) * 1.0;\\n  \\n  gl_PointSize = 5.0 + soff;\\n  gl_PointSize += 20. / across;\\n  gl_PointSize += resolution.x /600.;\\n \\n  v_color = vec4(ux,vx,0,1);  \\n}\"}",
+  "screenshotURL": "data/images/images-877tlxbj9i8ihovq0-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "sodXP53W5v4KTkvjN"
+}

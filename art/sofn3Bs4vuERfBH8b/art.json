@@ -1,0 +1,46 @@
+{
+  "_id": "sofn3Bs4vuERfBH8b",
+  "owner": {
+    "_id": "CL56fLeJWNjv8p9hc",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1501331424273"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/ray7551?s=200"
+    },
+    "username": "ray7551"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1502040923678"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1502040923678"
+    }
+  },
+  "origId": null,
+  "name": "attractor",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1653834624540957"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "ray7551",
+  "avatarUrl": "https://avatars.githubusercontent.com/ray7551?s=200",
+  "settings": "{\"num\":5000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 4.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\nconst float a = 1.641, b = 1.902, c = 0.316, d= 1.525;\\nvoid stepPos() {\\n}\\n\\nvoid main() {\\n  float t = vertexId / vertexCount;\\n  float t1 = mod(vertexId, 4.);\\n  //gl_Position.x = sin(a * prevPos.z)  * t1- cos(b * prevPos.x) * t1;\\n  //gl_Position.y = sin(c * prevPos.x)  * t1- cos(d * prevPos.z) * t1;\\n  gl_Position.z = 0.;//sin(c * prevPos.x)  * t1- cos(d * prevPos.z) * t1;\\n  //t * (sin(t * 10. ) + sin(t1 * 10.));//prevPos.z;\\n  \\n  if(vertexId == 1.) {\\n    gl_Position.xyz = vec3(0., 0., 0.);\\n  }\\n  //gl_Position.w = prevPos.z;\\n\\n  float hue = (time * 0.01 + vertexId * 1.001);\\n  v_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-js76i65jpioebwo6u-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "TPfz6nHi72tJgRWB7"
+}

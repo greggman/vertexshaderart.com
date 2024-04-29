@@ -1,0 +1,47 @@
+{
+  "_id": "uDDkmQ76JPKLooXHk",
+  "owner": {
+    "_id": "95683ZgBuRkukjtj7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1589922178477"
+      }
+    },
+    "profile": {
+      "first_name": "Markus",
+      "last_name": "Q",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GifvlNvBe-lLi3fzBlpXK1QVVIW7V5Nwqq8cssCjA"
+    },
+    "username": "markus"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1598543221425"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1598543221425"
+    }
+  },
+  "origId": "Qh7WiD2iwnCrdfCXy",
+  "name": "MicInput",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.681368728857362"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "markus",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GifvlNvBe-lLi3fzBlpXK1QVVIW7V5Nwqq8cssCjA",
+  "settings": "{\"num\":80944,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/griffinmcelroy/wonderland-round-three?in=griffinmcelroy/sets/the-adventure-zone-ost\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\nmat4 scale(float s)\\n{\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, 1);\\n}\\n\\nvoid main() {\\n  float segmentsPerCircle = 24.;\\n  float vertsPerSegment = 6.;\\n  \\n  // set base vert pos\\n  float bx = mod(vertexId, 2.) + floor(vertexId / 6.);\\n  float by = mod(floor(vertexId / 2.) + floor(vertexId / 3.), 2.);\\n  float angle = mod(bx, segmentsPerCircle) / segmentsPerCircle *  2. * PI;\\n  \\n  // offset circles\\n  float circleCount = vertexCount / segmentsPerCircle * vertsPerSegment;\\n  float circlesPerRow = 33.;\\n  float circlesPerColumn = floor(circleCount / circlesPerRow);\\n  float circleId = floor(vertexId / (segmentsPerCircle * vertsPerSegment));\\n  float cx = mod(circleId, circlesPerRow) * 2.;\\n  float cy = floor(circleId / circlesPerRow) * 2.;\\n  \\n  vec2 soundTexCoords = vec2(0, 0);\\n  float sx = cx - circlesPerRow;\\n  soundTexCoords.x = abs(sx) / (abs(sx) + cy) * 0.215;\\n  soundTexCoords.y = ((abs(sx) + cy) - 1.) / (circlesPerRow + circlesPerColumn) * 0.25;\\n  float r = texture2D(sound, soundTexCoords).a;\\n  r = r * 1.0;\\n  r = pow(r, 4.);\\n  float radius = by * r;\\n  float x = cos(angle) * radius;\\n  float y = sin(angle) * radius;\\n  \\n  gl_Position = vec4(x, y, -r / 2., 1);\\n  gl_Position += vec4(cx, cy, 0, 0);\\n  gl_Position += vec4(-16., -8, 0, 0) * 2.;\\n  \\n  // scale\\n  gl_Position *= scale(1. / 20.);\\n  \\n  // fix aspect\\n  vec4 aspect = vec4(resolution.y / resolution.x, 1, 1, 1);\\n  gl_Position *= aspect;\\n  \\n  v_color = vec4(r * 2. - 0.5, 0, 1, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-x8k6q35meop75gfeh-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "66"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "5mF9qWB9QnreQrcMq"
+}

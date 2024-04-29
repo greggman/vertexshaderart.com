@@ -1,0 +1,46 @@
+{
+  "_id": "gTDpcK8Kws8upyKKp",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1516101819119"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1516101819119"
+    }
+  },
+  "origId": "76ZBdQLBg9fxMqXhD",
+  "name": "mandelbulb vertices sounded 2",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.555651820476704"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":10000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/guigoo-official/acido\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"const int maxIter = 10;\\nfloat df(vec3 p, float power) {\\n    vec3 z = p;\\n    float r = 0.0;\\n    float dr = 1.0;\\n    for(int i = 0; i < maxIter; i++) {\\n        r = length(z);\\n        if(r > 100.0) break;\\n        \\n        float theta = acos(z.z/r);\\n        float phi = atan(z.y, z.x);\\n        \\n        dr = power*pow(r, power-1.0)*dr + 1.0;\\n        \\n        r = pow(r, power);\\n        theta *= power;\\n        phi *= power;\\n        \\n        z = r*vec3(sin(theta)*cos(phi), sin(theta)*sin(phi), cos(theta));\\n        z += p;\\n    }\\n    return 0.5*log(r)*r/dr;\\n}\\n\\n\\nstruct Ray {\\n    bool hit;\\n    vec3 hitPos;\\n    float t;\\n    int steps;\\n};\\nconst int maxSteps = 50;\\n\\nRay trace(vec3 camPos, vec3 rayDir, float _factor) {\\n    vec3 p = vec3(0);\\n    float t = 0.0; \\n    int steps = 0;\\n    bool hit = false;\\n    for(int i = 0; i < maxSteps; i++) {\\n        p = camPos + t*rayDir;\\n        float d = df(p, 8.0*abs(sin(0.5*_factor)) + 1.0);\\n        if(d < 0.001) {\\n            hit = true;\\n            steps = i;\\n            break;\\n        }\\n        t += d*0.9;\\n    }\\n    return Ray(hit, p, t, steps);\\n}\\n\\n\\nvec3 shading(Ray tr) {\\n    if(tr.hit) {\\n    \\treturn vec3(pow(1.0 - float(tr.steps)/float(maxSteps), 0.7));\\n    }\\n    else {\\n        return vec3(0);\\n    }\\n}\\n\\n\\n\\n\\nvoid main ()\\n{\\n   float finalDesiredPointSize = 3.;\\n   float maxFinalSquareSideSize = floor(sqrt(vertexCount));\\n   float finalMaxVertexCount = maxFinalSquareSideSize*maxFinalSquareSideSize;\\n  \\n  //first the number of elements in a line\\n  //we want to keep the resolution.xresolution.y ratio\\n  float across = floor(maxFinalSquareSideSize  *resolution.x/resolution.y);\\n \\n  //deduce from finalMaxVertexCount the number of possible lines with the given across\\n  float down = floor(finalMaxVertexCount / across);\\n  \\n  //Now we have the across and down number of elements, we can now calculate the final number of vertices\\n  float finalVertexCount = across*down;\\n  \\n  //and the consequent finalVertexId\\n  float finalVertexId = mod(vertexId,finalVertexCount);\\n  \\n  //Now we calculate the position of the elements based on their finalVertexId\\n  float x = mod(finalVertexId, across);\\n  float y = floor(finalVertexId / across);\\n  \\n  float u = (x /across);\\n  float v = (y /down);\\n  \\n  float u0 = (u * (across*finalDesiredPointSize/resolution.x));\\n  float v0 = (v * (across*finalDesiredPointSize/resolution.x ));\\n  \\n  float ux =  u0 - 0.5*(across*finalDesiredPointSize/resolution.x);\\n  float vy =  v0- 0.5*(across*finalDesiredPointSize/resolution.x);;\\n  \\n\\n  \\n  //vec2 fragCoord = vec2(ux,vy);\\n  \\n    //apply fragment logic\\n\\n\\tvec2 fragCoord = vec2(x,y);\\n  \\n\\tvec2 iResolution = vec2(across, down);\\n    float iTime = time;\\n  \\n\\tvec2 uv = (2.0*fragCoord.xy - iResolution.xy) / iResolution.y;\\n    \\n     //vec2 uv = vec2(u,v);\\n  \\n    //vec3 camPos = vec3(-2, 0, 0);\\n    //vec3 camPos = 2.0*vec3(cos(iTime), 0, sin(iTime));\\n  vec3 camPos = 2.0*vec3(cos(iTime), 0, sin(iTime));\\n    vec3 camFront = normalize(-camPos);\\n    vec3 camUp = vec3(0, 1, 0);\\n    vec3 camRight = cross(camFront, camUp);\\n    float focus = 1.0;\\n    \\n    vec3 rayDir = normalize(uv.x*camRight + uv.y*camUp + focus*camFront);\\n  \\n  float udnd = u;\\n  if(u>0.5)\\n    udnd =  1.-u;\\n  \\n  float sndFactor = texture2D(sound, vec2(udnd,  0.2)).a;\\n    Ray tr = trace(camPos, rayDir, 1.+sndFactor);\\n    \\n\\t//fragColor = vec4(shading(tr), 1.0);\\n\\t\\n v_color = vec4(shading(tr), 1.0);\\n  gl_Position = vec4(ux*v_color.x*5.*pow(2.*sndFactor,10.), vy*v_color.y *5., 0, 1);\\n  //gl_Position = vec4(ux , vy , 0, 1);\\n  \\n  gl_PointSize = finalDesiredPointSize;\\n\\n  \\n  \\n  //v_color = vec4(1.,1.,1.,1.);\\n}\"}",
+  "screenshotURL": "data/images/images-b1mx6qnlwwr047y09-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "7"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "yCTm2JBaLF4ha8EuQ"
+}

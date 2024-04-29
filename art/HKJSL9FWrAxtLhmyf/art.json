@@ -1,0 +1,47 @@
+{
+  "_id": "HKJSL9FWrAxtLhmyf",
+  "owner": {
+    "_id": "FnSSHyPDYryK5QpAW",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1517960988603"
+      }
+    },
+    "profile": {
+      "first_name": "Ale",
+      "last_name": "Vega Prado",
+      "avatarUrl": "https://lh6.googleusercontent.com/-A2JcKOXWDHc/AAAAAAAAAAI/AAAAAAAAAcE/deS0m5oEnec/photo.jpg"
+    },
+    "username": "ale"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1518223864345"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1518550433941"
+    }
+  },
+  "origId": null,
+  "name": "rot",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3046863098984447"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "ale",
+  "avatarUrl": "https://lh6.googleusercontent.com/-A2JcKOXWDHc/AAAAAAAAAAI/AAAAAAAAAcE/deS0m5oEnec/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\" /* float theta = radians(0.0)< angle <radians(180.0);\\n  float fi = radians(0.0) < angle < radians(360.0)\\n  float ux = radius * sin(theta) * cos(fi); */\\n\\nvoid main()\\n{\\n   float theta = radians(mod(vertexId, 180.0));\\n   float phi = radians(floor(vertexId / 180.0));\\n  \\n  float x = sin(theta) * cos (phi);\\n  float y = sin(theta) * sin (phi);\\n  float z = cos (theta);\\n  \\n  mat4 rotX = mat4(1.0);\\n  rotX[1][1] = cos(time);\\n  rotX[2][1] = -sin(time);\\n  rotX[1][2] = sin(time);\\n  rotX[2][2] = cos(time);\\n\\n  \\n  vec3 xyz = vec3(x, y, z)*0.7;\\n  \\n  gl_Position = rotX * vec4(xyz, 1.0);\\n  gl_PointSize = 1.0;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-kfitq52c4cmgi97x3-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Z8tNfuZn7cFwEHno7"
+}

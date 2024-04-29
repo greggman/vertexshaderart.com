@@ -1,0 +1,45 @@
+{
+  "_id": "nCfNyk6WPr6gn4kSB",
+  "owner": {
+    "_id": "MqPTcXoEuGA34rGui",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1497270876730"
+      }
+    },
+    "username": "zugzwang404",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/fec4f7164a172e58419d6bff6d7368b3?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1498818605669"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1498818605669"
+    }
+  },
+  "origId": "XRdg3Wi744WAEMHKZ",
+  "name": "Spiral-TRIdNCE2",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2786984425054355"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "zugzwang404",
+  "avatarUrl": "https://secure.gravatar.com/avatar/fec4f7164a172e58419d6bff6d7368b3?default=retro&size=200",
+  "settings": "{\"num\":84989,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// \\n//\\n//  Move the mouse\\n//\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 10.0, 1.0));\\n  vec4 K = vec4(1.0, 1.0 / 31.0* 3., 0.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 2.0 * K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.3, 0.6), c.y);\\n}\\n\\nvoid main() {\\n  float tm  = cos(time) *120.;\\n  vec2 aspect = vec2(0.011, resolution.x / resolution.y);\\n  float t = (vertexId* 0.9-mod(vertexId,2.0))*0.3;\\n  float phase = -tm*mod(vertexId,2.0);\\n  float a =  0.173;\\n  float b = 0.3063489;\\n  float x = a * exp(b+t*1.3)*cos(t+phase)*0.015;\\n  float y = a * exp(-b*1.3)*sin(t*phase)*0.015;\\n  vec4 m = texture2D(touch, vec2(0., vertexId * 0.05));\\n  vec2 xy = vec2(x, y);\\n  gl_Position = vec4(xy * aspect + m.xy, 0, 1);\\n\\n  \\n  float hue = (floor(vertexId * -.005) * 0.5 - time * 0.01);\\n  float sat = 1.;\\n  float val = 0.5+mod(vertexId,2.0)*3.8;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-0y1vthbsd0sykza4b-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "95"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "mDqDJFgXCDtK3Zqnk"
+}

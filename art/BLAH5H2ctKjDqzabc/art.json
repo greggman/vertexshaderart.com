@@ -1,0 +1,46 @@
+{
+  "_id": "BLAH5H2ctKjDqzabc",
+  "owner": {
+    "_id": "DMjrQbvFJZiBrahNH",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684316626390"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/JeminShin2?s=200"
+    },
+    "username": "jeminshin2"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684479150672"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684479150672"
+    }
+  },
+  "origId": "Cn2Pn9cEKGgg9ZkC5",
+  "name": "Colors-jemin.shin",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.577906665645804"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "jeminshin2",
+  "avatarUrl": "https://avatars.githubusercontent.com/JeminShin2?s=200",
+  "settings": "{\"num\":10000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name : Jemin.Shin\\n//Exercise - Vertexshaderart : Colors\\n//Course : CS250\\n//Date : 2023 Spring \\n\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\nvoid main()\\n{\\n\\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor(vertexCount / down);\\n  \\n  \\tfloat x = mod(vertexId, across);\\n  \\tfloat y = floor(vertexId / across);\\n  \\n  \\tfloat u = x / (across - 1.0);\\n  \\tfloat v = y / (across - 1.0);\\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time + x * 0.3) * 0.2;\\n  \\n  \\tfloat ux = u * 2.0 - 1.0 * xoff;\\n  \\tfloat vy = v * 2.0 - 1.0 + yoff;\\n  \\n  \\tvec2 xy = vec2(ux , vy);\\n  \\n  \\tgl_Position = vec4(xy, 0, 1);\\n\\n  float soff = sin(time + x * y * .02) * 5.;\\n  \\n  \\tgl_PointSize = 15.0  + soff;\\n  \\tgl_PointSize *= 20.0 / across;\\n  \\tgl_PointSize *= resolution.x / 600.;\\n  \\n  float hue = u * .1 + sin(time +v * 20.) * 0.05;\\n  float sat = 1.;\\n  float val = sin(time + v * u * 20.0);\\n\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-sveqeipcvgu3a9nzf-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "cuJgNWP5aMB3wJXat"
+}

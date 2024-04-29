@@ -1,0 +1,46 @@
+{
+  "_id": "W6AZjsv3rqioGwCLa",
+  "owner": {
+    "_id": "oCanjNxeHcQ7gDPmW",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1505499213122"
+      }
+    },
+    "profile": {
+      "name": "Zug Zwang",
+      "avatarUrl": "https://lh3.googleusercontent.com/-ic9UqwOeGYY/AAAAAAAAAAI/AAAAAAAAABU/vJK2D-kzm0k/photo.jpg"
+    },
+    "username": "zug"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1642024813634"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1642073070493"
+    }
+  },
+  "origId": "rghHKREPitTaTLiyH",
+  "name": "Oh my word",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.632777081109505"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "zug",
+  "avatarUrl": "https://lh3.googleusercontent.com/-ic9UqwOeGYY/AAAAAAAAAAI/AAAAAAAAABU/vJK2D-kzm0k/photo.jpg",
+  "settings": "{\"num\":11111,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/kuroko-basket-94353325/classical-music-drill-type-beat-compilation-part-1-ft-mozart-beethoven-bach?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.27058823529411763,0.050980392156862744,0.34901960784313724,1],\"shader\":\"\\n\\n#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 1.0)\\n#define STEP 1.93\\nvoid main() {\\n    float T = cos( time*mod(floor(vertexId / 12.0) * -mod(vertexId, 12.0) * STEP, NUM_SEGMENTS));\\n\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(time * .006- mouse.y) + 11.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.0014, 2.0);\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  pow(count * 0.0025, .9);\\n  float innerRadius = pow(count * 0.005, 1.2);\\n  float oC = cos(orbitAngle + count * 0.003) * innerRadius*mouse.y*sin(time);\\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius-mouse.x+sin(time);\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC -1.+ c+oS,\\n      oS + s+c);\\n  gl_Position = vec4(xy * aspect * .60161, sin(time), 1);\\n\\n  float b = 0.2 *sin(time-1.)/ pow(sin(count *1.4+T) * 2.3 + 0.17, .28);\\n  b = 0.1920;mix(-.3, mouse.x/0.9/T, b)/-T;\\n  v_color = vec4(c, c, sin(T*2./b)+b/c-b, .489);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-go3bn66wd32dq2ctc-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "90"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "snGh7X5FGLbbj2XuJ"
+}

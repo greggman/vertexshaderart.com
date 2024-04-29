@@ -1,0 +1,36 @@
+{
+  "_id": "d8rzf4Hgtp69tQvrz",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1652847862183"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1652847862183"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.4525635722337078"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,0.7333333333333333,0,1],\"shader\":\"/*\\nName            : Sehun Kim\\nassignment name : Exercise - Vertexshaderart : Making a Grid\\ncourse name     : CS250\\nterm            : 2022 Spring\\n*/\\nvoid main() {\\n  \\n  float across = 10.;\\n  \\n  float x = mod(vertexId , across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / across;\\n  float v = y / across;\\n  \\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux,vy,0,1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-sg86jhm1bdhbqgxl5-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "11"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "SuhgdRPiy6HnCvddP"
+}

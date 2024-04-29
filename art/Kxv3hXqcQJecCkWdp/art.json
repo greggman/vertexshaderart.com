@@ -1,0 +1,46 @@
+{
+  "_id": "Kxv3hXqcQJecCkWdp",
+  "owner": {
+    "_id": "e8Df3vxkkP3DCZunh",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1563345787374"
+      }
+    },
+    "profile": {
+      "first_name": "phi16",
+      "avatarUrl": "https://lh6.googleusercontent.com/-EMFaalZS9Rg/AAAAAAAAAAI/AAAAAAAAAjg/SGZ_70U2Idc/photo.jpg"
+    },
+    "username": "phi16"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1563459494058"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1563459494058"
+    }
+  },
+  "origId": null,
+  "name": "Light in rain : side V",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8721290669780577"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "phi16",
+  "avatarUrl": "https://lh6.googleusercontent.com/-EMFaalZS9Rg/AAAAAAAAAAI/AAAAAAAAAjg/SGZ_70U2Idc/photo.jpg",
+  "settings": "{\"num\":80000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"float rand(vec2 co) {\\n    return fract(sin(dot(co,vec2(95.92921,392.492))) * 93683.2319);\\n}\\n\\nfloat noise(vec2 r) {\\n\\tvec2 p = floor(r);\\n    vec2 f = fract(r);\\n    f = smoothstep(0.,1.,f);\\n    vec2 e = vec2(0,1);\\n    float p00 = rand(p+e.xx);\\n    float p01 = rand(p+e.xy);\\n    float p10 = rand(p+e.yx);\\n    float p11 = rand(p+e.yy);\\n\\treturn mix(\\n        mix(p00,p01,f.y),\\n        mix(p10,p11,f.y),\\n    f.x) - 0.5;\\n}\\n\\nfloat ot(vec2 r) {\\n\\tfloat v = noise(r) + noise(r*2.*mat2(1,-2,2,1)/sqrt(5.))/2. + noise(r*4.*mat2(-3,5,-5,-3)/sqrt(34.))/4.;\\n    return v * 0.5 + 0.5;\\n}\\n\\nvoid shift(inout vec3 p) {\\n\\tp.y += pow(ot(p.xz),1.2)*0.5;\\n}\\n\\nvoid main() {\\n  vec3 pos, color;\\n  float alpha = 1.0;\\n  vec2 div;\\n  int i = int(mod(vertexId,6.));\\n  if(i==0) {\\n    div = vec2(-1,-1);\\n  } else if(i==1) {\\n    div = vec2(-1,1);\\n  } else if(i==2) {\\n    div = vec2(1,-1);\\n  } else if(i==3) {\\n    div = vec2(1,-1);\\n  } else if(i==4) {\\n    div = vec2(-1,1);\\n  } else if(i==5) {\\n    div = vec2(1,1);\\n  }\\n  if(vertexId < 6.) {\\n    pos = vec3(0,0,100.);\\n    pos.xy += div * 1000.;\\n    color = vec3(0.03);\\n  } else if(vertexId < 12.) {\\n    pos = vec3(0,0.2,0);\\n    pos.xz += div * 100.;\\n    color = vec3(0,0,0.2);\\n  } else if(vertexId < 4812.) {\\n    float vid = vertexId-6.;\\n    float unitIx = floor(vid/6.);\\n    vec2 p = vec2(mod(unitIx,40.), floor(unitIx/40.));\\n    p.x -= 20.5;\\n    p *= 0.5;\\n    vec2 origP = p;\\n    \\n    p += div * 0.25;\\n\\tpos = vec3(p.x,0,p.y);\\n    shift(pos);\\n    \\n    color = vec3(0.1,0.1,0.3);\\n    color *= noise(pos.xz) * 0.5 + 0.5;\\n    \\n    vec3 u = pos - vec3(1,1.5,1);\\n    u.xy *= mat2(2,-1,1,2)/sqrt(5.);\\n    float ll = length(u.xz) - abs(u.y*0.2);\\n    \\n    color = mix(vec3(1,0.8,0.4),color,smoothstep(0.5,0.0,1. - ll));\\n } else if(vertexId < 15000.) {\\n    float vid = vertexId-4812.;\\n    float unitIx = floor(vid/6.);\\n    float per = time*3. + rand(vec2(unitIx,3));\\n    float seed = (unitIx + floor(per)*sqrt(2.)) * .2;\\n    float th = rand(vec2(seed,0))*3.1415926535*2.;\\n    th += rand(vec2(seed,1));\\n    float rad = rand(vec2(seed,2))*10. + 0.2;\\n    pos = vec3(cos(th),0,sin(th)) * rad;\\n    float ww = rand(vec2(seed,4))*0.02;\\n    float ww2 = rand(vec2(seed,6))*0.5;\\n    vec2 ddiv = mat2(1.,1.,-1.,1.)/sqrt(2.)*div;\\n    pos.xy += ddiv * vec2(0.02+ww,0.5*fract(per)+ww2);\\n    pos.y += 3.0;\\n    pos.z -= 1.0;\\n    pos.y -= (pow(fract(per),2.)+1.)*rad - rad;\\n  \\tcolor = mix(vec3(0.3,0.4,1.0), vec3(1.), rand(vec2(seed,5)));\\n    color *= pow(rand(vec2(seed,6)),4.)*0.9+0.1;\\n  } else {\\n    float vid = vertexId-4812.;\\n    float unitIx = floor(vid/6.);\\n    float v = rand(vec2(unitIx,9.))*2.-1.;\\n    float per = time * 0.02 * v;\\n    float au = time*0.05 + rand(vec2(unitIx,10.));\\n    pos = vec3(\\n      fract(rand(vec2(unitIx,1.)) + per) * 10. - 5.,\\n      rand(vec2(unitIx,2.)) * 2.,\\n      rand(vec2(unitIx,3.)) * 2. - 1.\\n    );\\n    pos.x += sin(au*3.1415926535*2.)*0.1;\\n    pos.y += sin(au*0.9*3.1415926535*2.)*0.1;\\n    pos.z += sin(au*1.1*3.1415926535*2.)*0.1;\\n    vec3 ddiv = vec3(div,0.);\\n    float ra = time*(1. + rand(vec2(unitIx,8.)));\\n    ddiv.xy *= mat2(cos(ra),-sin(ra),sin(ra),cos(ra));\\n    ra *= 2.;\\n    ddiv.yz *= mat2(cos(ra),-sin(ra),sin(ra),cos(ra));\\n    float size = rand(vec2(unitIx,5.))+0.5;\\n    pos += ddiv*0.01*size;\\n    \\n    vec3 u = pos - vec3(1,1.8,1);\\n    u.xy *= mat2(2,-1,1,2)/sqrt(5.);\\n    float ll = length(u.xz) - u.y*0.05;\\n    \\n    color = mix(vec3(1,0.8,0.4),vec3(0.0),smoothstep(0.5,0.9,ll));\\n  \\talpha = 0.;\\n  }\\n  vec3 cam = vec3(0.,1.,0.);\\n  pos -= cam;\\n  pos.yz *= mat2(5,-1,1,5)/sqrt(26.);\\n\\n  float near = 0.001;\\n  float far = 1000.;\\n  float fovy = 3.1415926535 * 0.4;\\n  float aspect = resolution.x / resolution.y;\\n  float f = 1. / tan(fovy / 2.);\\n  mat4 P = mat4(\\n    f / aspect, 0, 0, 0,\\n    0, f, 0, 0,\\n    0,0,-2./(far-near),1,\\n    0,0,-(far+near)/(far-near),1\\n    //  0, 0, (far + near) / (near - far), (2. * far * near) / (near - far),\\n    //  0, 0, -1, 0\\n  );\\n  gl_Position = P * vec4(pos,1.);\\n  v_color = vec4(color,alpha);\\n}\"}",
+  "screenshotURL": "data/images/images-a8z01fgvo45zvgz00-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "351"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "KZWkJLKemsA3MLmjf"
+}

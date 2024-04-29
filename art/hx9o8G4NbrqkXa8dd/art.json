@@ -1,0 +1,47 @@
+{
+  "_id": "hx9o8G4NbrqkXa8dd",
+  "owner": {
+    "_id": "XXJ3rh9sSe4pkGYPu",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1517961347141"
+      }
+    },
+    "profile": {
+      "first_name": "Michell",
+      "last_name": "Yáñez Caballero",
+      "avatarUrl": "https://graph.facebook.com/10214849161372343/picture?type=large"
+    },
+    "username": "michell"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1518145136543"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1518145136543"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.4995909537688088"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "michell",
+  "avatarUrl": "https://graph.facebook.com/10214849161372343/picture?type=large",
+  "settings": "{\"num\":3567,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"vec2 getCircle(float id) \\n{\\n   \\n  float uxc= floor(id / 6.0) + mod(id, 2.0);\\n  float vyc = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\\n  \\n  float angle = uxc / 20.0 * radians(180.0) * 2.0;  //20 segmentos\\n  float radius = vyc + 1.0;\\n  \\n  \\n  float xc = radius * cos(angle);\\n  float yc = radius * sin(angle);\\n  \\n  return vec2(xc, yc);\\n}\\n\\nvoid main()\\n{\\n  \\n  vec2 circleXY = getCircle(vertexId);\\n  \\n  float circleId = floor(vertexId / 120.0);\\n  float circleCount = floor(vertexCount / 120.0);\\n  \\n  float sqrTotal = floor(sqrt(circleCount));\\n  float width = sqrTotal;\\n  \\n  float x = mod(circleId, width);    \\n  float y = floor(circleId / width); \\n\\n\\n  float u = x / (width - 1.0) ;\\n  float v = y/ (width - 1.0) ;\\n\\n  float ux = u * 2.0 - 1.0 ;\\n  float vy = v * 2.0 - 1.0 ;\\n  \\n  vec2 xy = circleXY * 0.1  + vec2( ux, vy);\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  \\n\\n}\"}",
+  "screenshotURL": "data/images/images-1xm241qu4ezj4n4qj-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Lon5btzu4aobJ9fHv"
+}

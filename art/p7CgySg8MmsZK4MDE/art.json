@@ -1,0 +1,47 @@
+{
+  "_id": "p7CgySg8MmsZK4MDE",
+  "owner": {
+    "_id": "u3AyZpoGZ399Yn2dm",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551481226929"
+      }
+    },
+    "profile": {
+      "first_name": "Isaín",
+      "last_name": "Cuadra",
+      "avatarUrl": "https://lh6.googleusercontent.com/-PShsQ2rITQc/AAAAAAAAAAI/AAAAAAAAARc/ffHK8TazFeI/photo.jpg"
+    },
+    "username": "isaín"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551487188380"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551487188380"
+    }
+  },
+  "origId": "AA2EgkaRKHJ5g74i5",
+  "name": "circuloM",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7270768311983034"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "isaín",
+  "avatarUrl": "https://lh6.googleusercontent.com/-PShsQ2rITQc/AAAAAAAAAAI/AAAAAAAAARc/ffHK8TazFeI/photo.jpg",
+  "settings": "{\"num\":83,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/sayyida-ghazia-sartaj/yeh-kia-jaga-hai-asha-bhosle\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.8392156862745098,0.9450980392156862,1,1],\"shader\":\"void main(){\\n  \\n  float y = mod(vertexId,2.0);\\n  float x = floor(vertexId/2.0);\\n  \\n  float angle = x / 20.0 * radians(360.0);\\n  \\n  float r = 2.0 - y;\\n  \\n  float vx = r*cos(angle);\\n  float vy = r*sin(angle);\\n  \\n  vec2 xy = vec2(vx, vy) * 0.1;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(cos(time*x), sin(time*y), tan(time), 1.0);\\n  \\n  gl_PointSize = 10.0;\\n}\"}",
+  "screenshotURL": "data/images/images-x4dwfyl93vml29lbm-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ybJGhj9TgrE2quuxL"
+}

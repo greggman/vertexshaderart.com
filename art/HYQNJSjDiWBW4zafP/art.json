@@ -1,0 +1,36 @@
+{
+  "_id": "HYQNJSjDiWBW4zafP",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1514494797273"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1514494797273"
+    }
+  },
+  "origId": "SqctCGQnp8j6NNnSE",
+  "name": "projection",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6423567504469496"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":4368,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 21.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n \\tc = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n\\tvec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  \\tvec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  \\treturn c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  // Set up vertices\\n  vec3 vert;\\n  if (vertexId == 0.0) {\\n  \\tvert = vec3(0.0, 0.0, 0.5);\\n  } else if (vertexId == 1.0) {\\n  \\tvert = vec3(0.0, 0.5, 0.5);\\n  } else if (vertexId == 2.0) {\\n  \\tvert = vec3(0.5, 0.5, 1.0);\\n  }\\n  // Project\\n  vec3 normal = vec3(0.0, 0.0, 1.0);\\n  vec3 outPos = (dot(vert, normal) * normal) / (length(normal) * length(normal));\\n  gl_Position = vec4(outPos, 1.0);\\n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-wu4v9xhedy400sgnx-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "84"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "CffEHQJL2qoP5pvBt"
+}

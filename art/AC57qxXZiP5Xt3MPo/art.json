@@ -1,0 +1,46 @@
+{
+  "_id": "AC57qxXZiP5Xt3MPo",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1496650006733"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1496652003118"
+    }
+  },
+  "origId": null,
+  "name": "circle",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5550462688398958"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":1,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"CSS\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  //float density = 2.;\\n  float density = floor(vertexCount / 1000.) + 1.;\\n  \\n  //float xoff = -0.5* (density / 20.);\\n  //float yoff = -0.5 * (density / 20.);\\n  \\n  float xoff = -1. * (density / 50.);\\n  float yoff = -1. * (density / 50.);\\n  float ux = 0.1 * (20. / density);\\n  float uy = 0.1 * (20. / density);\\n  float x = mod(vertexId , density);\\n  float y = mod(floor(vertexId / density), density);\\n  \\n  gl_Position = vec4(x * ux + xoff, y * uy + yoff, 0, 1);\\n  //gl_PointSize = mod(vertexId, density * density) / 5.;\\n  gl_PointSize = 200. / density;\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-qhpv2y82xr67layx0-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "QQXidmqkhf7gBk57p"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "jDrqfnTPaPAoShgv2",
+  "owner": {
+    "_id": "A7f5Np8SECZR4hq7m",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551480191741"
+      }
+    },
+    "profile": {
+      "name": "Guille Pérez Trueba",
+      "avatarUrl": "https://avatars.githubusercontent.com/guilleperez?s=200"
+    },
+    "username": "guilleperez"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551482560589"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551482560589"
+    }
+  },
+  "origId": null,
+  "name": "ejercicio2",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6430101622761368"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "guilleperez",
+  "avatarUrl": "https://avatars.githubusercontent.com/guilleperez?s=200",
+  "settings": "{\"num\":15,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main() \\n{\\n  float width = 10.0;\\n  \\n  //vertexId = 0, 1, 2, 3, 4, 5\\n  float x = floor(vertexId / 2.0); //0, 0, 1, 1, 2, 2\\n  float y = mod(vertexId + 1.0, 2.0); //1, 0, 1, 0\\n  \\n  vec2 xy = vec2(x, y) * 0.1;\\n  \\n \\n  gl_Position = vec4(xy, 0.0, 1.0); //position del vec4\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0); //color\\n  gl_PointSize = 20.0;\\n}\"}",
+  "screenshotURL": "data/images/images-ump78u3vechp01hkv-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Nkfa7F47aQiajwzo6"
+}

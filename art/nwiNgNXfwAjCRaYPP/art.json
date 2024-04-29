@@ -1,0 +1,36 @@
+{
+  "_id": "nwiNgNXfwAjCRaYPP",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551488141919"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551488141919"
+    }
+  },
+  "origId": "ocZSLuzxqD2QALRCq",
+  "name": "omg",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5530134371013369"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n  \\n  float width = 20.0;\\n  \\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  float u = x/ (width - 1.0);\\n  float v = y/ (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) *0.1;\\n  float yOffset = sin(time + x * 0.3) * 0.1;\\n\\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float vy = v * 2.0 - 1.0 + yOffset;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.2;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 10.0;\\n}\"}",
+  "screenshotURL": "data/images/images-x1rmsggd298896rs6-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "37"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "fkLsXGfoQixpHfj3a"
+}

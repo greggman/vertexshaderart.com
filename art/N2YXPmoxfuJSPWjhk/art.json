@@ -1,0 +1,46 @@
+{
+  "_id": "N2YXPmoxfuJSPWjhk",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1649487536805"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1649487536805"
+    }
+  },
+  "origId": null,
+  "name": "faster faster",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3145046725017158"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "gman",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "settings": "{\"num\":2,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"\\nvoid main() {\\n  float x = vertexId - 0.5;\\n  \\n  float duration = 30.0;\\n  float t = mod(time, duration);\\n  float v = t / duration;\\n\\n  \\n  \\n  float b = fract(t * mix(1., 8., pow(v, 8.0)));\\n  v_color = vec4(b, b, b, 1);\\n\\n\\n  gl_Position = vec4(x, (v * 2.0 - 1.0) * vertexId, 0, 1);\\n  gl_PointSize = 256.0;\\n}\"}",
+  "screenshotURL": "data/images/images-z4pcv900x5tyxme8g-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "xEDg9on4DggxeZTJD"
+}

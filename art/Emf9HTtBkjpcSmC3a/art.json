@@ -1,0 +1,46 @@
+{
+  "_id": "Emf9HTtBkjpcSmC3a",
+  "owner": {
+    "_id": "sbiee4rKiWAEvAjNr",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1507987372682"
+      }
+    },
+    "profile": {
+      "name": "Valentin Safonnikov",
+      "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg"
+    },
+    "username": "valentin"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1507997065502"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1508329461709"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0328096991145763"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "valentin",
+  "avatarUrl": "https://lh6.googleusercontent.com/-N5ZByw2DecY/AAAAAAAAAAI/AAAAAAAAAAA/5dsRjPCpkQ8/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n\\nvoid main() {\\n  \\n  float n = vertexId/1.0;\\n  \\n  float angle = 1.45*sin(n*0.23);\\n  float radius = cos(n*0.1) * tan(angle*0.9);\\n  \\n  float scale = 0.2;\\n  \\n  float x = radius*sin(angle) * cos(2.0*time) * cos(2.0*time) * scale * 0.12;\\n  float y = radius*cos(angle) * scale;\\n\\n  float red = abs(x*9.0);\\n  float green = abs(y*9.0);\\n  float blue = 1.0;\\n  \\n  x += 0.6*sin(time*0.5);\\n  y += 0.25*cos(time*1.8);\\n  \\n  \\n  //bool beg = mod(vertexId, 2) ? true : false;\\n  \\n  //float x = 0.05*n;\\n  //float y = 0.05*n;\\n  \\n  \\n \\n  \\n  gl_Position = vec4(x, y, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(red, green, blue, 1); \\n}\"}",
+  "screenshotURL": "data/images/images-9m5eh2co8szmq18aj-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "10"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "mxhdeTvQdfDk44Ga3"
+}

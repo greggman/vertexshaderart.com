@@ -1,0 +1,36 @@
+{
+  "_id": "Bt5C5fTXArXh3hvqh",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1583379410920"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1583379410920"
+    }
+  },
+  "origId": null,
+  "name": "circles",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.262448955334073"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":10093,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_POINTS 180.\\n#define GRID 10.\\n#define NUM_ITEMS 5.\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nfloat bezier(float A, float B, float C, float D, float t) {\\n  float E = mix(A, B, t);\\n  float F = mix(B, C, t);\\n  float G = mix(C, D, t);\\n\\n  float H = mix(E, F, t);\\n  float I = mix(F, G, t);\\n\\n  return mix(H, I, t);\\n}\\n\\nvec2 circle(float eid) {\\n\\tfloat vid = floor(eid/2.);\\n\\tfloat edge = floor(mod(eid,2.));\\n    float angle = mod(vid+edge, NUM_POINTS*2.)/NUM_POINTS*2.*PI*2.;\\n  \\treturn vec2(cos(angle),sin(angle));\\n}\\n\\nvec2 circle(float eid, float start, float arclen) {\\n\\tfloat vid = floor(eid/2.);\\n\\tfloat edge = floor(mod(eid,2.));\\n    float angle = start + (mod(vid+edge, NUM_POINTS*2.)/NUM_POINTS*2.*arclen);\\n  \\treturn vec2(cos(angle),sin(angle));\\n}\\n\\n\\nvoid main() {\\n  \\tfloat layerVid = mod(vertexId,NUM_POINTS*NUM_ITEMS*NUM_ITEMS);\\n  \\tfloat layer = floor(vertexId/(NUM_POINTS*NUM_ITEMS*NUM_ITEMS));\\n  \\tfloat instance = floor(layerVid / NUM_POINTS);\\n    float instanceVid = floor( mod(vertexId,NUM_POINTS) );\\n  \\tfloat even = mod(instance,2.);\\n  \\tfloat odd = 1.-even;\\n  \\tfloat edge = floor(mod(instanceVid,4.)/2.);//1.;//cos(mod(layerVid,4.));\\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  \\tvec2 offs = vec2( mod(instance,NUM_ITEMS)-2.2, floor(instance/NUM_ITEMS)-2. )*vec2(0.4,0.39);\\n\\tvec2 xy;\\n\\n  if (layer == 1.) {\\n\\txy = offs+circle(instanceVid) * (0.2 + even*0.04);\\n//    float alpha = instanceVid/NUM_POINTS;\\n//    xy = vec2(alpha,bezier(0.,1.,0.,1.,alpha))*0.2;//*2.-1.,bezier(.8,0.,0.,.8,alpha)*0.1);\\n              \\n    v_color = vec4(0.5*edge,0.5*edge,0.5*edge,1);  \\n    //v_color = vec4(1,0,0,1);\\n  } else {\\n\\n    float angle = mod(time + instance,PI*2.);\\n    float speed = 1.+floor(even);\\n\\n    float arcStart = mod(angle*speed+PI*even+0.8,PI*2.);\\n\\tfloat arcPart = arcStart/(PI*2.);\\n    float arcSeg = mod(arcPart,0.25);\\n    arcPart = bezier(0.,1.,0.,1.,arcSeg/0.25)*0.25 + arcPart - arcSeg;\\n\\n\\n    arcStart = arcPart * PI * 2.;\\n    \\n    xy = offs+circle(instanceVid,arcStart,PI*0.5/*1.6*/) * (0.2 + even*0.04);\\n    v_color = vec4(0.,0.2+clamp(even*cos(arcStart-0.5),0.,1.) + clamp(odd*sin(arcStart+PI),0.,1.),0,1);  \\n  }\\n\\n  \\n  \\tgl_Position = vec4(xy * aspect, 0, 1);\\n  \\n}\\n\\n\\n  /*\\nfloat point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float offset = count * 0.02;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = 0.2;\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle = count * 0.01;\\n  float oC = cos(orbitAngle + time * count * 0.01) * sin(orbitAngle);\\n  float oS = sin(orbitAngle + time * count * 0.01) * sin(orbitAngle);\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n   //  float hue = (time * 0.01 + instance * 1.001);\\n  //v_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);\\n\\n*/\\n\"}",
+  "screenshotURL": "data/images/images-p1gp7ox4oa5ehuxl3-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "80"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "SHPCqMRppEdEzMovZ"
+}

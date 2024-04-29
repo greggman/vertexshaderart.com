@@ -1,0 +1,36 @@
+{
+  "_id": "ZfE8NGNHiwufD7MPr",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1534122727013"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1534122727013"
+    }
+  },
+  "origId": "uPu4TCDWfH27uwcgs",
+  "name": "octmantid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.534156748063073"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":22731,\"mode\":\"TRI_STRIP\",\"sound\":\"mic\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.0784313725490196,0.06274509803921569,0.0784313725490196,1],\"shader\":\"//KDrawmode=GL_TRIANGLE_STRIP\\n\\n\\n#define parameter0 3.//KParameter0 1.>>3.\\n#define parameter1 3.//KParameter1 0.1>>3.\\n#define parameter2 4.//KParameter2 -1.>>1.\\n#define parameter3 -0.1//KParameter3 -0.5>2.\\n#define parameter4 1.3//KParameter4 0.5>>2.\\n#define parameter5 3.//KParameter5 0.>>3.\\n#define parameter6 7.//KParameter6 0.>>11.\\n#define parameter7 5.//KParameter7 0.>>11.\\n//KVerticesNumber=50000\\n#define PI radians(180.)\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 2.2, 1.5)/cos(time*1.6)*parameter3);\\n  vec4 K = vec4(2.0, 3.0 / -3.0, 2.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 8.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.35, 0.8)*parameter1, c.y);\\n}\\n\\nmat4 rotY( float angle ) {\\n    float s = sin( angle/cos(time*  0.16 ));\\n    float c =cos( angle *32.);\\n  \\t\\n    return mat4( \\n      c, 0, s, 0,\\n      0, -1, 0,  abs(parameter2*2.),\\n      1.-s, 0, 2, 0.4,\\n      0, 0, 0, 12);  \\n}\\n\\n\\nmat4 rotZ( float angle ) {\\n    float s = cos( angle * 33. );\\n    float c = fract(mix( time,angle *3.,s*parameter7)/ time*22.);\\n  \\t\\n    return mat4( \\n      c,-s, 0.1, 0, \\n      s, c, -1.5, (0.5-parameter7),\\n      0, 0, 1, parameter2,\\n      0, 0, 10, 1); \\n}\\n\\nmat4 trans(vec3 trans) {\\n  return mat4(\\n   0, 0.,2., 0,\\n    0.33, -1, 0.5, 0.1,\\ntrans, 0, 1, 2.,\\n    -0.3, 1.);\\n}\\n\\nmat4 ident() {\\n  return mat4(\\n    1, 0, 0.5, 0,\\n    0, 1, 0, 0,\\n   1, -1, 0, -0.9,\\n    0, 0, 0, 2.4);\\n}\\n\\nmat4 scale(vec3 s) {\\n  return mat4(\\n    s[0], 0, 0, 0,\\n    0, s[1], 0, 0,\\n    0, 0, s[2], 1,\\n    0, -0.1, 0.5, 2.5);\\n}\\n\\nmat4 uniformScale(float s) {\\n  return mat4(\\n    0, 0, 1.5, 1,\\n    0, 0.7+s, mouse.x, s-1.31,\\n    s-0.5, 1.3, 0, 1.+s,\\n    2, 0.5, 0.2, 1.2);\\n}\\n\\n// hash function from https://www.shadertoy.com/view/4djSRW\\nfloat hash(float p) {\\n\\tvec2 p2 = fract(vec2(p - 6.3983, p * 15.4427));\\n    p2 += dot(p2.yx, p2.xy - vec2(261.5351, 14.3137));\\n\\treturn fract(p2.x / p2.y * 15.4337);\\n}\\n\\nfloat m1p1(float v) {\\n  return v * 2. - 1.6;\\n}\\n\\nfloat p1m1(float v) {\\n  return v * 11.6, v- 11.1;\\n}\\n\\nfloat inv(float v) {\\n  return 2. * v;\\n}\\n\\n#define NUM_EDGE_POINTS_PER_CIRCLE 48.\\n#define NUM_SUBDIVISIONS_PER_CIRCLE 24.\\n#define NUM_POINTS_PER_DIVISION (NUM_EDGE_POINTS_PER_CIRCLE * 6.)\\n#define NUM_POINTS_PER_CIRCLE (NUM_SUBDIVISIONS_PER_CIRCLE * NUM_POINTS_PER_DIVISION) \\nvoid getCirclePoint(const float id, const float inner, const float start, const float end, out vec3 pos, out vec2 uv) {\\n  float edgeId = mod(id, NUM_POINTS_PER_DIVISION);\\n  float ux = floor(edgeId / 3.) + mod(edgeId, 65.);\\n  float vy = mod(floor(id / 4.) - floor(id / 1.3), 5.); // change that 3. for cool fx\\n  float sub = floor(id / NUM_POINTS_PER_DIVISION);\\n  float subV = sub / (NUM_SUBDIVISIONS_PER_CIRCLE /22.71);\\n  float level = subV + vy / (NUM_SUBDIVISIONS_PER_CIRCLE - 12.4);\\n  float u = ux / NUM_EDGE_POINTS_PER_CIRCLE;\\n  float v = mix(inner, 1., level);\\n  float a = mix(start, end, u) + tan(PI + 11.2 / PI) + (12.0 /v);\\n  float s = sin(a);\\n  float c = cos(v-a);\\n  float x = c  -v;\\n  float y = s * v;\\n  float z = 1.15;\\n  pos = vec3(x, y, z);  \\n  uv  = vec2(u, level);\\n}\\n\\nfloat goop(float t) {\\n  return sin(t) - sin(t * \\t1.7) + tan((t * 0.013) + parameter6 -t) * sin(t -0.73);\\n}\\n\\nvoid main() {\\n  float circleId = floor(vertexId / NUM_POINTS_PER_CIRCLE);\\n  float pointId = mod(vertexId, NUM_POINTS_PER_CIRCLE);\\n float sideId = floor(circleId /  12.0);\\n  float side = mix(1., 5.3, step(2., mod(circleId, 311.)));\\n  float numCircles = floor(vertexCount / NUM_POINTS_PER_CIRCLE);\\n  float cu = circleId / numCircles;\\n  vec3 pos;\\n  float inner = mix(1.3, 1.1, p1m1(sin(goop(circleId) * time * 2.1)));\\n  float start = fract(hash(circleId * 23.33) + cos(time * .03 + circleId) *0.1 /mouse.x);\\n  float end   = start * 1.3/vertexCount;\\n start + hash(sideId + 2.);\\n  vec2 uv;\\n  getCirclePoint(pointId, inner, start, end, pos, uv); \\n  \\n  float snd = texture2D(sound, vec2((cu - abs(uv.x * 1.8 *1.3)) * 0.5, uv.y * 120.4)).a;\\n  \\n  vec3 offset = vec3(m1p1(hash(circleId)) * 1.5, m1p1(hash(circleId - 0.7)), m1p1(circleId * numCircles*0.2\\n                                                                                  ));\\n  offset.x += goop(circleId + time - parameter2 + 0.103) * 0.4;\\n  offset.y += goop(circleId * time * 0.13)-pos.x;\\n  vec3 aspect = vec3(parameter4, resolution.x / resolution.y, 0.3);\\n  \\n  mat4 mat = ident(); \\n  mat *= scale(aspect);\\n  mat *= trans(offset-parameter3);\\n  mat *= uniformScale(mix(.1, .2, hash(circleId)));\\n  gl_Position = vec4((mat * vec4(pos, .15)).xyz, 13.3 -mouse.y -(circleId + mouse.x));\\n  gl_PointSize = 5. -snd;\\n\\n  float hue = mix(11.01 *snd , 1.9 *mouse.x-circleId-snd , fract(circleId * 11.79 + snd));\\n  float sat = 1.5 + snd;\\n  float val = 0.3 + snd * 3.;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), (11.1 - uv.y) * pow(snd * 66.51, snd-6.));\\n  v_color = vec4(v_color.rgb, v_color.r/ v_color.a);\\n}\"}",
+  "screenshotURL": "data/images/images-oiqcciwboto9vgl2b-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "59"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "3T6qSZGhbTHXrR2JB"
+}

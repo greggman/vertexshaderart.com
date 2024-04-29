@@ -1,0 +1,46 @@
+{
+  "_id": "kR26egNf7BwrsJHyM",
+  "owner": {
+    "_id": "CwvvvtJL5Ykqzxv4N",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1557600049871"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/jorenvo?s=200"
+    },
+    "username": "jorenvo"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1557779073661"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1557897395523"
+    }
+  },
+  "origId": null,
+  "name": "cube",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0092761126199796"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "jorenvo",
+  "avatarUrl": "https://avatars.githubusercontent.com/jorenvo?s=200",
+  "settings": "{\"num\":46,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/vassvik/linear-sine-wave-sweep-30sec\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.011764705882352941,0.054901960784313725,0.24705882352941178,1],\"shader\":\"// from https://www.laurivan.com/rgb-to-hsv-to-rgb-for-shaders/\\nvec3 hsv2rgb(vec3 c)\\n{\\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nfloat norm_sin(float x) {\\n \\treturn (sin(x) + 1.) / 2.;\\n}\\n\\nfloat flip(float n) {\\n  return n > 0.5 ? 0. : 1.;\\n}\\n\\n/*\\n  6----7\\n /|   /|\\n2----3 |\\n| 4  | 5\\n|/   |/\\n0----1\\n\\n*/\\n// render with 8 * 6 vertices in LINES\\n#define V_PER_LINE 2.\\n#define V_PER_FACE 4.\\n#define V_PER_CORNER 6.\\n#define V_PER_CUBE 8.\\n#define AVG_SAMPLES 4\\n#define FREQ_BUCKETS 1\\nvoid main() {\\n  float vertex_id = floor(vertexId / V_PER_CORNER);\\n  float face_id = mod(vertex_id, V_PER_FACE);\\n  float corner_id = mod(vertex_id, V_PER_FACE);\\n  vec3 c = vec3(mod(vertex_id, V_PER_LINE),\\n                floor(corner_id / V_PER_LINE),\\n                1);\\n\\n  float is_backface = floor(vertex_id / V_PER_FACE);\\n  if(mod(vertexId, 2.) != 0.) {\\n  \\tfloat line_point = mod(vertexId, V_PER_CORNER);\\n    if (line_point >= 5.){\\n      c.x = flip(c.x); \\n    } else if (line_point >= 3.) {\\n      c.y = flip(c.y);\\n    } else if (line_point >= 1.) {\\n\\t  is_backface = 1.;\\n    }\\n  }\\n  \\n  float yoffset = 0.;\\n  if(c.y == 10.0) { // bottom\\n    for(int i = 0; i < AVG_SAMPLES; i++) {\\n      float ampl = texture2D(sound, vec2(0, i)).a;\\n   \\t  yoffset += ampl;// > .90 ? ampl : ampl * .95;\\n    }\\n    \\n  \\tyoffset /= float(AVG_SAMPLES);\\n  \\tfloat m = 100.;\\n  \\tc.y -= pow(yoffset * m, 4.) / pow(m, 4.) * 125.;\\n  }\\n  \\n  yoffset = 0.;\\n  if(c.y == 1.0) { // top\\n    for(int i = 0; i < AVG_SAMPLES; i++) {\\n      float ampl = texture2D(sound, vec2(i, 50)).a;\\n   \\t  yoffset += ampl;\\n    }\\n    \\n  \\tyoffset /= float(AVG_SAMPLES);\\n  \\tfloat m = 100.;\\n  \\tc.y += pow(yoffset * m, 4.) / pow(m, 4.) * 125.;\\n  }\\n  \\n  float face_offset = .35 * is_backface;\\n  c += face_offset;\\n  \\n  // go from [0,1] -> [0,2]\\n  c *= 2.0;\\n  \\n  // go from [0,2] -> [-1, 1]\\n  c -= 1.0;\\n  \\n  c *= .2;\\n  \\n  gl_Position = vec4(c, 1);\\n  \\n  gl_PointSize = 5.;\\n  v_color = vec4(hsv2rgb(vec3(1, 1, 1)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-zojv0lh8ezks53vlp-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "8"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "JouXmJT4YASYSrMpS"
+}

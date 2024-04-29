@@ -1,0 +1,47 @@
+{
+  "_id": "itFYHyLvFpbtiqvaP",
+  "owner": {
+    "_id": "FdF3Ffp5KMucnmivz",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554193926255"
+      }
+    },
+    "profile": {
+      "first_name": "도영",
+      "last_name": "이",
+      "avatarUrl": "https://lh4.googleusercontent.com/-U1yoYVQNRaI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdPOWnx_PVuWVFfdWUFWnYSBIUGSQ/mo/photo.jpg"
+    },
+    "username": "도영"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554213556193"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554213556193"
+    }
+  },
+  "origId": null,
+  "name": "Cs230",
+  "notes": "adding header",
+  "rank": {
+    "$numberDouble": "1.9961467473262549"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "도영",
+  "avatarUrl": "https://lh4.googleusercontent.com/-U1yoYVQNRaI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdPOWnx_PVuWVFfdWUFWnYSBIUGSQ/mo/photo.jpg",
+  "settings": "{\"num\":10000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/*------------------------------------------------------------------------\\nFile Name:Extra Credit-Vertex Shader\\nCourse name: Cs230Kr\\nAssignment name/Number:Shader Programming Assignment/3\\nAuthor:Doyeong Yi\\nTerm:Spring 2019\\n------------------------------------------------------------------------*/\\nvoid main() \\n{\\n  \\tfloat value = vertexId*10.0; \\n// Put value multiplied by vertexid and 10.0 for flotat type variable which named “value”\\n    \\n\\tfloat x =mouse.x;\\n\\t// Put the float type variable that accepts the mouse's x coordinate\\n\\tfloat y = mouse.y;\\n \\t // Put the float type variable that accepts the mouse's y coordinate\\n\\n \\tfloat snd = texture2D(sound, vec2(0, 0)).a;\\n\\t//Put sound value in float type variable which named “snd”\\n\\n  \\tgl_Position = vec4(cos(value), sin(value), 0, abs(snd*2.0));\\n  \\t//set position\\n  \\tgl_PointSize = 50.0;\\n  \\t//set point size 50.0\\n\\n  \\tv_color = vec4(cos(x), sin(y), tan(x*y), 1);\\n\\t//set color\\n}\\n\"}",
+  "screenshotURL": "data/images/images-u01g02gjp1bvkq3ud-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "NjZHEgesboSnNT36p"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "c9GGGN9nw3aPqNYBW",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1495058960097"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1495058960097"
+    }
+  },
+  "origId": "DwqqEvCDpZA7dj9qu",
+  "name": "Init V",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6991131781015143"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.25098039215686274,1],\"shader\":\"// I HAD TO STEAL THIS !!!!!\\n\\nvoid main(){\\n  float grid = 20.;\\n  float scale = 20.;\\n  \\n  float x = mod(vertexId, grid );\\n  float y = mod(floor(vertexId / grid), grid);\\n  \\n  float xmod = 1. / scale;\\n  float ymod = 1. / scale;\\n  \\n  float xoff = 0. - (10. / (scale + grid));\\n  // float xoff = xoff + sin(time);\\n  float yoff = 0. - (10. / (scale + grid));\\n  \\n  \\n  gl_Position = vec4(x * xmod + xoff, y * ymod + yoff,0 ,1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1,0,0,1);\\n  \\n  \\n}\"}",
+  "screenshotURL": "data/images/images-llgioij561tzofclq-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "DZoWS3uEanagZgwEH"
+}

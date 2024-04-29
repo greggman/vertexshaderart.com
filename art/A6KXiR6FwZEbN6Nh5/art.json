@@ -1,0 +1,46 @@
+{
+  "_id": "A6KXiR6FwZEbN6Nh5",
+  "owner": {
+    "_id": "r5LZGMGGwYzncg5YC",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1625274707441"
+      }
+    },
+    "profile": {
+      "name": "Ilya",
+      "avatarUrl": "https://avatars.githubusercontent.com/ilyadorosh?s=200"
+    },
+    "username": "ilyadorosh"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1625282406144"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1625342115493"
+    }
+  },
+  "origId": null,
+  "name": "q-weight",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8947350638635514"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "ilyadorosh",
+  "avatarUrl": "https://avatars.githubusercontent.com/ilyadorosh?s=200",
+  "settings": "{\"num\":22957,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"vec3 inv(vec3 a){return 1.-a;}\\n\\nvoid main() {\\n\\n  float width = 40.0;\\n  \\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.2;\\n  float yOffset = sin(time + x * 0.3) * 0.1;\\n  //* length(mouse.x)\\n  \\n  float ux = u *1.3  - 1.0 + xOffset ;\\n  float uy = v * 2.0 - 1.0 + mouse.y;\\n  \\n  vec2 xy = vec2(ux, uy) * 1.2;\\n  \\n  float a = 1.-20.*vertexId /vertexCount;\\n  \\n  vec3 color = vec3(a, -a, abs(a));\\n  color = inv(color);  \\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(color, 1.0);\\n  gl_PointSize = 40.0;\\n}\"}",
+  "screenshotURL": "data/images/images-kceokoahu4az3kspb-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "FQXGKsmno63mc4zMF"
+}

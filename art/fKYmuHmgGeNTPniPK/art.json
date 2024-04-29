@@ -1,0 +1,36 @@
+{
+  "_id": "fKYmuHmgGeNTPniPK",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1538036455501"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1538036455501"
+    }
+  },
+  "origId": null,
+  "name": "strobes",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1941020558816369"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.07450980392156863,0.07450980392156863,0.08627450980392157,1],\"shader\":\"#define PI 3.141592653589793238462643383\\n\\nvec3 hueShift(vec3 color,float hueAdjust){\\n\\tconst vec3 kRGBToYPrime=vec3(0.299,0.587,0.114);\\n\\tconst vec3 kRGBToI=vec3(0.596,-0.275,-0.321);\\n\\tconst vec3 kRGBToQ=vec3(0.212,-0.523,0.311);\\n\\tconst vec3 kYIQToR=vec3(1.0,0.956,0.621);\\n\\tconst vec3 kYIQToG=vec3(1.0,-0.272,-0.647);\\n\\tconst vec3 kYIQToB=vec3(1.0,-1.107,1.704);\\n\\tfloat YPrime=dot(color,kRGBToYPrime);\\n\\tfloat I=dot(color,kRGBToI);\\n\\tfloat Q=dot(color,kRGBToQ);\\n\\tfloat hue=atan(Q,I);\\n\\tfloat chroma=sqrt(I*I+Q*Q);\\n\\thue+=hueAdjust;\\n\\tQ=chroma*sin(hue);\\n\\tI=chroma*cos(hue);\\n\\tvec3 yIQ=vec3(YPrime,I,Q);\\n\\treturn vec3(dot(yIQ,kYIQToR),dot(yIQ,kYIQToG),dot(yIQ,kYIQToB));\\n}\\n\\n//I don't understand how to achieve 3D scenes.\\nvoid main(){\\n  float t=vertexId/vertexCount;\\n  float aspect=resolution.x/resolution.y;\\n  float x=cos(((t-(time/9.))+2.4)*25.3),\\n        y=sin(((t+(time/6.))*5.62)+x);\\n  x+=sin(t*y*2.);\\n  vec2 shift=vec2(fract(sin(x*y*522.41)*25.2)-.5,fract(sin(x*y*564.1)*35.2)-.5);\\n  x+=pow(length(shift),2.5)*shift.x;\\n  y+=pow(length(shift),2.5)*shift.y;\\n  gl_Position=vec4(x/aspect,y,0.,1.+(length(shift)*+.1));\\n  gl_PointSize=1.2+((pow(sin(t*PI),5.)*3.)/((length(shift)*5.)+1.));\\n  vec3 a=vec3(1.,1.,1.);\\n  vec3 b=hueShift(vec3(1.,0.,0.),(t*8.)+time);\\n  v_color=vec4(mix(a,b,clamp(pow(length(shift),2.)*4.,0.,1.)),1.);\\n}\"}",
+  "screenshotURL": "data/images/images-bxd8b6b6r9ie6abhy-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "232"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "s3Dk5exSctqZrY6G5"
+}

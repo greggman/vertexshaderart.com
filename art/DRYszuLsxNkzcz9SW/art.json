@@ -1,0 +1,47 @@
+{
+  "_id": "DRYszuLsxNkzcz9SW",
+  "owner": {
+    "_id": "9mSJ94a3jLQYEtpma",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1574356902539"
+      }
+    },
+    "profile": {
+      "first_name": "Nathan",
+      "last_name": "Gutierrez",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD1UTwiIjcHi479UROSg1X6rOGjkm4OniwszUsteg"
+    },
+    "username": "nathan2"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1574455156182"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1574455156182"
+    }
+  },
+  "origId": "ZTEp3znDaGd9mFj4J",
+  "name": "Tube of Dots",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1601987251451487"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "nathan2",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD1UTwiIjcHi479UROSg1X6rOGjkm4OniwszUsteg",
+  "settings": "{\"num\":16743,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.0784313725490196,0.058823529411764705,0.027450980392156862,1],\"shader\":\"#define PI radians(180.0)\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvec2 getCirclePoint(float id, float numSegments) {  \\n  // Each square is made of 2 triangles, 6 points\\n  float ux = mod(id, 2.0) + floor(id / 6.0);  \\n  float vy = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\\n\\n  // Calculate angle and radial values\\n  float angle = ux / numSegments * 2.0 * PI;\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  \\n  // Translate back to x y\\n  float radius = vy;\\n  float x = c * radius;\\n  float y = s * radius;\\n  \\n  return vec2(x, y);\\n}\\n\\nvoid main() {\\n  float numSegments = 20.0;\\n  float numPointsPerCircle = numSegments * 6.0;\\n  \\n  float numCircles = floor(vertexCount / numPointsPerCircle) - 1.0;\\n  float circleId = floor(vertexId / numPointsPerCircle);\\n  \\n  vec2 xy = getCirclePoint(vertexId, numSegments) * 0.1;\\n  \\n  float cX = 2.0 * (circleId / numCircles) - 1.0;\\n  \\n  float nearness = abs(cos((time + circleId) / 2.0));\\n  \\n  gl_Position = vec4(xy.x + cX, xy.y + sin(time + circleId)*0.5, 0.0, 1);\\n  gl_PointSize = 2.0 * nearness + 1.0;\\n  \\n  // Circle color\\n  float hue = sin(circleId * 0.1 + time * .1) * 0.8;\\n  float sat = 0.4;\\n  float val = 1.0;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1.0);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-c2u169kc65p3ubza8-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "8"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "kwWNuaoFS6Xm8ERk9"
+}

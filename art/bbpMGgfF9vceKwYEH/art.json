@@ -1,0 +1,46 @@
+{
+  "_id": "bbpMGgfF9vceKwYEH",
+  "owner": {
+    "_id": "oCanjNxeHcQ7gDPmW",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1505499213122"
+      }
+    },
+    "profile": {
+      "name": "Zug Zwang",
+      "avatarUrl": "https://lh3.googleusercontent.com/-ic9UqwOeGYY/AAAAAAAAAAI/AAAAAAAAABU/vJK2D-kzm0k/photo.jpg"
+    },
+    "username": "zug"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1642025965457"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1642025965457"
+    }
+  },
+  "origId": "p3J4jE3L87RgWNw5f",
+  "name": "mostly harmless 4 Kmaachine WIP",
+  "notes": "not tested",
+  "rank": {
+    "$numberDouble": "1.6456899949084516"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "zug",
+  "avatarUrl": "https://lh3.googleusercontent.com/-ic9UqwOeGYY/AAAAAAAAAAI/AAAAAAAAABU/vJK2D-kzm0k/photo.jpg",
+  "settings": "{\"num\":21237,\"mode\":\"LINE_LOOP\",\"sound\":\"https://soundcloud.com/kuroko-basket-94353325/classical-music-drill-type-beat-compilation-part-1-ft-mozart-beethoven-bach?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.06666666666666667,0.0196078431372549,0.23137254901960785,1],\"shader\":\"//KDrawmode=GL_TRIANGLE_STRIP\\n\\n#define KP0 2.//KParameter -2.>>2.\\n#define KP1 -1.5//KParameter -2.>>2.\\n#define zoom 1.//KParameter 0.3>>7.\\n\\n#define KP2 .3//KParameter 0.2>>2.\\n//KVerticesNumber=9000\\n\\n\\n#define PI radians(180.)\\n#define VERTICES_PER_TRI 3\\n#define MASK 16\\n#define SCALE 112.0\\n#define MAX_TRIS 9\\n#define MAX_NORMALS 12\\n#define TOTAL_TRI 12\\n#define VERTS_PER_VEC4 5 \\n#define Fs sampler2D floatSound;\\n\\n//( Fs, vec2(0.));\\n\\nfloat aspect=resolution.x/resolution.y;\\nvec4 triangles[MAX_TRIS];\\nvec3 normals[MAX_NORMALS];\\nconst vec3 masker = vec3(MASK,.70,MASK*MASK);\\nvec4 unpackVertex(float a)\\n{\\n  vec4 r = vec4(a-1.);\\n  r.xyz/=masker.yxz;\\n  return vec4(mod(r.xyz,masker.xxx), 1.0);\\n}\\nconst float znear=0.001, zfar=1000.0;\\nconst float rangeInv = 1.0 / (znear-zfar);\\n\\nmat4 persp = mat4(\\n    0.90 / aspect, 0, 0, 0,\\n    0, 1.0, 0, 0,\\n    0, 0, (znear + zfar) * rangeInv, -1,\\n    0, 0, znear  * zfar * rangeInv * 3., 0);\\n\\nvoid populate(){ \\n\\ntriangles[ 0]=vec4(         cos(time*0.3),        96.0,         4.0,        91.0)*cos(time*0.33);  \\ntriangles[ 1]=vec4(         4.0,        12.,      47.0,         4.0); \\ntriangles[ 2]=vec4(        KP1*91.0,      112.0,        91.0,        96.0);   \\ntriangles[ 3]=vec4(      13332.0,        91.0*mouse.y,      2112.0,      3332.0);   \\ntriangles[ 4]=vec4(      KP0*126.0,        91.0,        47.0,        91.0);    \\ntriangles[ 5]=vec4(      1326.0,      2112.0,      3328.0,      3332.0);   \\ntriangles[ 6]=vec4(         0.0,         4.0,      3328.0,      3328.0)-sin(time);   \\ntriangles[ 7]=vec4(         4.0,      sin(3332.0*time),      1326.0,      43332.0)*mouse.y;  \\ntriangles[ 8]=vec4(         21., 42.0,      13256.0,        3.0);    \\n  \\nnormals[0]=vec3(0.,0.,-1.);\\nnormals[1]=vec3(0.,0.,-1.);\\nnormals[2]=vec3(0.,0.,-1.);\\nnormals[3]=vec3(0.09,0.97,0.19);\\nnormals[4]=vec3(0.27,0.85,0.43);\\nnormals[5]=vec3(0.16,0.90,0.39);\\nnormals[6]=vec3(0.51,0.84,0.10);\\nnormals[7]=vec3(0.,0.80,0.58);\\nnormals[8]=vec3(0.,-1.,0.);\\nnormals[9]=vec3(0.,-1.,0.);\\nnormals[10]=vec3(0.16,-0.98,0.);\\nnormals[11]=vec3(0.0015,-0.198,0.03);\\n}\\n\\nfloat getVertex(int target){\\n  int h= ((target/VERTS_PER_VEC4));\\n  int n = int(mod(float(target),float(VERTS_PER_VEC4)));\\n  for(int i=0;i<MAX_TRIS;i++){\\n    if(i==h){\\n      vec4 t = triangles[i];\\n      for(int ii=0;ii<VERTS_PER_VEC4;ii++){\\n        if(ii==n) return t.x;\\n        t = t.yzwx;  \\n      }\\n    }\\n  }\\n}\\n\\nvec3 getNormal(int target){\\n\\n  for(int i=0;i<=MAX_NORMALS;i++){\\n    if(i==target){\\n      return normals[i];\\n      \\n    }\\n  }\\n}\\n\\n\\n#define MSET float s = sin( angle );float c = cos( angle );\\nmat4 rotX(float angle) { MSET\\n    return mat4(\\n      1, 0, 0, 0,\\n      0, c, s, 0,\\n      0,-s,- c, 0,\\n      0, 0, 0, 1);\\n}\\n\\nmat4 rotY( float angle ) { MSET\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\nmat4 rotZ( float angle ) { MSET\\n    return mat4( \\n      c,-s, 0, 0, \\n      s, c, 0, 0,\\n      0, 0, 1, 0,\\n      2.5/mouse.x, 0, 0, 1); \\n}\\n\\nvoid main() {\\n  populate();\\n  \\n  int target=int(mod(vertexId,float(TOTAL_TRI*VERTICES_PER_TRI)));\\n  int target2=int(mod(vertexId,float((TOTAL_TRI*2)*VERTICES_PER_TRI)));\\n  vec3 normal=normalize(getNormal(target/3));\\n  gl_Position= (unpackVertex(getVertex(target))-vec4(1.0,0.0,7.5,1.0))/3.0;\\n  if(target2>=((TOTAL_TRI)*VERTICES_PER_TRI)){\\n    //Mirror the model in x-axis\\n    gl_Position.x=-gl_Position.x;\\n    normal=reflect(normal,vec3(1.,1.0,0.));\\n  }\\n  \\n  mat4 tr=rotX(KP0*1.)*rotZ(KP1)*rotY(sin(time/4.));;\\n  vec4 n2 =tr*normal.xyzz;n2.w=1.0;\\n  n2=vec4(dot(n2,vec4(-.8,.08,0.-.92,0.0)));\\n  gl_Position=tr*gl_Position;\\n  v_color = n2/3.0+0.1*(vec4( 5.0,3.0*KP2,.10,0.4));//vec4((vertexId/float(TOTAL_TRI*VERTICES_PER_TRI))+.1,0.0,0.0,1.0);\\n  v_color.w=0.70;\\n  gl_Position.z-=5./zoom;\\ngl_Position = persp * vec4(gl_Position.xyz, 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-boxqh59px59rpwtoi-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "84"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "qKjHbtEiq3TkTJ6nM"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "Kq2X2rn957ZFHdph9",
+  "owner": {
+    "_id": "EXqwLpAZaavbaKq4c",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1625680149537"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/soumakdev?s=200"
+    },
+    "username": "soumakdev"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1625681930753"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1625681930753"
+    }
+  },
+  "origId": null,
+  "name": "grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0327578026036501"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "soumakdev",
+  "avatarUrl": "https://avatars.githubusercontent.com/soumakdev?s=200",
+  "settings": "{\"num\":4137,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/anuv-jain/mishri\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n\\n  float u = 0.5 - x / (across -1.);\\n  float v = 0.5 - y / (across - 1.);\\n\\n  \\n  gl_Position = vec4(u,v,0,1);\\n  \\n  gl_PointSize = 10.;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x /600.;\\n  \\n  v_color = vec4(1, 0, 0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-qquzu2r3ux4zol3ey-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ERjLJEyqDbAAfRSj5"
+}

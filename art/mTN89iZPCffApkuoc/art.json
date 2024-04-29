@@ -1,0 +1,45 @@
+{
+  "_id": "mTN89iZPCffApkuoc",
+  "owner": {
+    "_id": "pcELy2L9fFWbeNwPj",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1662560958091"
+      }
+    },
+    "username": "digaus",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/905731a406a90585de08ead028282160?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662561505625"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1662561536921"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5331690778600788"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "digaus",
+  "avatarUrl": "https://secure.gravatar.com/avatar/905731a406a90585de08ead028282160?default=retro&size=200",
+  "settings": "{\"num\":5496,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){\\n  float x = vertexId / 10.0;\\n  float y = vertexId /10.0;\\n  \\n  gl_Position = vec4(x,0,0,1);\\n  gl_PointSize = 10.0;\\n  v_color = vec4(1,1,0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-8ry1tt6zaq33z2ner-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "o5B5GPnDA7Gt8hBGz"
+}

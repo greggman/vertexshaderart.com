@@ -1,0 +1,46 @@
+{
+  "_id": "mJLSnvDjL3N6wkYDR",
+  "owner": {
+    "_id": "A7f5Np8SECZR4hq7m",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551480191741"
+      }
+    },
+    "profile": {
+      "name": "Guille Pérez Trueba",
+      "avatarUrl": "https://avatars.githubusercontent.com/guilleperez?s=200"
+    },
+    "username": "guilleperez"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551480308028"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551481125855"
+    }
+  },
+  "origId": "nrAECwQ8yDDyTrSit",
+  "name": "petl",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9840098380588147"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "guilleperez",
+  "avatarUrl": "https://avatars.githubusercontent.com/guilleperez?s=200",
+  "settings": "{\"num\":400,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/nightclubband/show-it-2-me\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,0.5019607843137255,1,1],\"shader\":\"void main() \\n{\\n  float width = 10.0;\\n  float x = mod(vertexId, width); \\n  float y = floor(vertexId / width);\\n  \\n  float u = x /(width - 1.0);\\n  float v  = y / (width - 1.0);\\n  \\n  \\n  //Desfamiento\\n  //desfazamiento + [x = diferente] * r\\n  float xOffset = cos(time + y) * 0.1;\\n  float yOffset = sin(time + x) * 0.1;\\n  \\n\\n  //Acomodar en los cuadrantes\\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float uy = v * 2.0 - 1.0 + yOffset;\\n  \\n  \\n  vec2 xy = vec2(ux, uy); //se puede crear vec4 con vectores 2 -> vec4(xy, 0.0, 1.0);\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0); //position del vec4\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0); //color\\n  gl_PointSize = 20.0;\\n}\\n\"}",
+  "screenshotURL": "data/images/images-jho3j3dzxbxj9i28v-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "6"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "dMMXEWEz6eG2kuwWt"
+}

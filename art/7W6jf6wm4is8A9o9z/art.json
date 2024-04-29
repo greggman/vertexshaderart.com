@@ -1,0 +1,46 @@
+{
+  "_id": "7W6jf6wm4is8A9o9z",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1494948627525"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1494969367705"
+    }
+  },
+  "origId": null,
+  "name": "training step 1.1",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5697596733518293"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.2,0,0,1],\"shader\":\"void main() {\\n  gl_Position = vec4(1, 0, 0, 1);\\n  gl_PointSize = 40.;\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-vder76ip51y0s5voo-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "9"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "PhXsYvrmsq8q377SR"
+}

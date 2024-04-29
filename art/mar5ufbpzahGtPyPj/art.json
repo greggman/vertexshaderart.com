@@ -1,0 +1,47 @@
+{
+  "_id": "mar5ufbpzahGtPyPj",
+  "owner": {
+    "_id": "GSrFowNMfHXH8wjXx",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551104641035"
+      }
+    },
+    "profile": {
+      "first_name": "kerem",
+      "last_name": "bekman",
+      "avatarUrl": "https://lh5.googleusercontent.com/-z7y0urriCCM/AAAAAAAAAAI/AAAAAAAADLE/NRSX6XDPDgU/photo.jpg"
+    },
+    "username": "kerem"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551109281344"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551109281344"
+    }
+  },
+  "origId": null,
+  "name": "test1",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2803211932268026"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "kerem",
+  "avatarUrl": "https://lh5.googleusercontent.com/-z7y0urriCCM/AAAAAAAAAAI/AAAAAAAADLE/NRSX6XDPDgU/photo.jpg",
+  "settings": "{\"num\":360,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.03529411764705882,0.050980392156862744,0.09411764705882353,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 6.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  \\n  float accross = floor(sqrt(vertexCount));\\n  \\n  float x = mod(vertexId, accross);\\n  float y = floor(vertexId / accross);\\n  \\n  // 1 2 3 4 5 6 7 8 9 0 1 2 3 4\\n  // 0 0 0 0 0 0 0 0 0 0 1 1 1 1\\n  \\n  float xoff = sin(time + y * 0.2) * 0.5;\\n  float yoff = sin(time + x * 0.2) * 0.5;\\n  \\n  float soff = sin(time + x * 0.2) * 20.;\\n  \\n\\n  float ux = x / accross;\\n  float uy = y / accross;\\n  \\n  ux = 2.*ux - 1.;\\n  uy = 2.*uy - 1.;\\n  \\n  gl_Position = vec4(ux + xoff, uy + yoff, 0, 1);\\n  \\n  gl_PointSize = 10. + soff;\\n  \\n  v_color = vec4(hsv2rgb(vec3(1,1,1)), 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-qlwz4g2wambibn1cf-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "hzyhQwgdMszXJFjJy"
+}

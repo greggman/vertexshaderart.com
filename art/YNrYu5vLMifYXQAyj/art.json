@@ -1,0 +1,46 @@
+{
+  "_id": "YNrYu5vLMifYXQAyj",
+  "owner": {
+    "_id": "mDiE85wue3FMQCMXk",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1546121397447"
+      }
+    },
+    "profile": {
+      "first_name": "The Tuesday Night Machines",
+      "avatarUrl": "https://lh4.googleusercontent.com/-FV8gxf8fOhA/AAAAAAAAAAI/AAAAAAAAAAs/OCNDvQKt4Fo/photo.jpg"
+    },
+    "username": "thetuesday night machines"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1546126898429"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1546204801351"
+    }
+  },
+  "origId": "S3xrtQ73jjKSYCofF",
+  "name": "Experiment003",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7597412042233909"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "thetuesday night machines",
+  "avatarUrl": "https://lh4.googleusercontent.com/-FV8gxf8fOhA/AAAAAAAAAAI/AAAAAAAAAAs/OCNDvQKt4Fo/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,0.9333333333333333,0.7333333333333333,1],\"shader\":\"\\nvoid main() {\\n  \\n  float x = vertexId/15000.;\\n  float y = vertexId/20000. + atan(time/23.) + tan(vertexId/200.+time/40.)+0.5;\\n \\n \\n  \\n  gl_Position = vec4(x*2.2-1.3, y*1.-1., y, 1) * (sin(time/3.) +2.);\\n  gl_PointSize = vertexId/21. + 503. * (sin(time/5.)+1.);\\n\\n  v_color = vec4(x,y/2.+0.5,1.,1.);\\n} \"}",
+  "screenshotURL": "data/images/images-w18wzkv0l0uqbcxj9-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "110"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "PmBTYouv7YfDinQwb"
+}

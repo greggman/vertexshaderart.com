@@ -1,0 +1,36 @@
+{
+  "_id": "ALErfYvkmdWzuqg7M",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1513129309697"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1513129309697"
+    }
+  },
+  "origId": null,
+  "name": "Dueling",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.639300341789287"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":1283,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n  \\n  float Pos = vertexId/vertexCount;\\n\\n  gl_Position = vec4(Pos, 0, 0.5,0.5);\\n\\n  \\n  v_color = vec4(1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-1zie0rskjasq8mekq-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "72"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "v5yJEvJcjGXghwJWx"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "6zSLjpCNA7CDQvm9e",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1487059812965"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1487059937162"
+    }
+  },
+  "origId": null,
+  "name": "179b",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5495729403784562"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "gman",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "settings": "{\"num\":1000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){float i=vertexId;float t=time;vec2 uv=vec2(cos(i+t)+sin(t*i*.0001),sin(i+t)+sin(t*i*0.0007));gl_Position=vec4(uv*.5,0,1);v_color=vec4(sin(t*i*.001),sin(i+t*.9),1,1);}\\n\"}",
+  "screenshotURL": "data/images/images-q6k4fezg5owzqn7el-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "6"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "9oPBFchZMkpQEvfau"
+}

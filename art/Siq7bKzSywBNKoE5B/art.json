@@ -1,0 +1,47 @@
+{
+  "_id": "Siq7bKzSywBNKoE5B",
+  "owner": {
+    "_id": "gCKgzQzioC4gDMxq9",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1496305181205"
+      }
+    },
+    "profile": {
+      "name": "Paul Gutierrez",
+      "avatarUrl": "https://lh3.googleusercontent.com/-zoLHh8QcDvA/AAAAAAAAAAI/AAAAAAAAAMY/JF7a2zyY1xc/photo.jpg",
+      "info": "Trying to create shaders to work with the K machine app."
+    },
+    "username": "PLU Collective"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1497418523535"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1497430085561"
+    }
+  },
+  "origId": null,
+  "name": "woozy mod",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.662271326438612"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "PLU Collective",
+  "avatarUrl": "https://lh3.googleusercontent.com/-zoLHh8QcDvA/AAAAAAAAAAI/AAAAAAAAAMY/JF7a2zyY1xc/photo.jpg",
+  "settings": "{\"num\":5000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//woozy by gman\\n\\n//KDrawmode=GL_LINES\\n#define PointsCntrl 30.//KParameter0 15.>>45.\\n#define PumpCntrl 0.9//KParameter1 0.1>>0.9\\n#define SndCntrl 0.5//KParameter2 0.1>>0.9\\n#define AngleCntrl 21.//KParameter3 10.>>50.\\n#define ColorCntrl 5.//KParameter4 1.>>10.\\n#define ScaleCntrl 1.1//KParameter5 0.4>>1.4\\n#define RadiusCntrl 8.//KParameter6 1.>>20.\\n#define Squiggle 1.//KParameter7 1.>>10.\\n\\n#define PI radians(180.0)\\n\\nvoid main() {\\n  float pointsPerLine = PointsCntrl;\\n  float lineId = floor(vertexId / pointsPerLine);\\n  float numLines = floor(vertexCount / pointsPerLine);\\n\\n  float lineV = lineId / numLines;\\n  float angle = lineV * PI * 2.;\\n  \\n  float pointId = mod(vertexId, pointsPerLine);\\n  float pointV = pointId / (pointsPerLine - floor(pointsPerLine / Squiggle));\\n  \\n  float id = floor(pointId / 2.) + mod(pointId, 2.);\\n  float idV = id / (pointsPerLine / 2. - 1.);\\n  \\n  float snd = texture2D(sound, vec2(abs(lineV - 0.5) * 0.15, pointV * SndCntrl)).a;\\n  \\n  float odd = mod(id, 2.);\\n  angle += sin(time + idV * AngleCntrl) * odd * 0.2 + time * 0.1 + snd * 0.;\\n//  angle += odd * 0.2;\\n  \\n//  float radius = pow(idV + 1., 2.) - 3.0;\\n  float radius = pow(idV, 2.) + sin(time + lineV * PI * 2. * RadiusCntrl) * odd * idV * 0.1;\\n  float c = cos(angle) * radius;\\n  float s = sin(angle) * radius;\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y) * ScaleCntrl;\\n  vec2 xy = vec2(c, s);\\n  gl_Position = vec4(xy * aspect, 0, 1);\\n\\n  float p = 1. - pow(snd, ColorCntrl);\\n  float pump = step(PumpCntrl, snd);\\n  v_color = vec4(0, p, p, idV) + pump * vec4(0,10,10,0);\\n  v_color.rgb *= v_color.a;\\n}\"}",
+  "screenshotURL": "data/images/images-v17gdabjoyhwwig1o-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "4M8r2DSX9a6GiLddL"
+}

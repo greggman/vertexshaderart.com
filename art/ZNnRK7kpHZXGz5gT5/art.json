@@ -1,0 +1,43 @@
+{
+  "_id": "ZNnRK7kpHZXGz5gT5",
+  "owner": {
+    "_id": "3rSa7stTYpQ9y6mjB",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445836902062"
+      }
+    },
+    "profile": {
+      "name": "Filip Szczepański",
+      "avatarUrl": "https://avatars.githubusercontent.com/FreeFull?s=200"
+    },
+    "username": "freefull"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1445840757177"
+    }
+  },
+  "origId": null,
+  "name": "MagnetTV",
+  "username": "freefull",
+  "settings": "{\"num\":19272,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_SEGMENTS 128.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n#define NUM_LINES_DOWN 64.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  // produces 0,1, 1,2, 2,3, ...\\n  float point = floor(mod(vertexId, NUM_POINTS) / 2.0) + mod(vertexId, 2.0) * STEP;\\n  // line count\\n  float count = floor(vertexId / NUM_POINTS);\\n\\n  float u = point / NUM_SEGMENTS;    // 0 <-> 1 across line\\n  float v = count / NUM_LINES_DOWN;  // 0 <-> 1 by line\\n  float invV = 1.0 - v;\\n  \\n  float x = u * 2.0 - 1.0;\\n  float y = v * 2.0 - 1.0;\\n  gl_Position = vec4(x, y, 0, 1);\\n\\n  gl_PointSize = cos(60.0*(length(vec2(x*sin(y*3.0+time),y))- time/20.0))*4.0 + 4.0;\\n  \\n  float hue = x*y;\\n  float sat = 0.8;\\n  float val = 0.8;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "screenshotDataId": "BnFhPf79SsMQsqBaZ",
+  "views": {
+    "$numberInt": "1423"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "KDdbvuH3qpqLoGBiN",
+  "screenshotURL": "data/images/images-hh71fpxvcv3l13nv3-thumbnail.jpg",
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1446233548912"
+    }
+  },
+  "rank": {
+    "$numberDouble": "1.4967403740617022"
+  },
+  "avatarUrl": "https://avatars.githubusercontent.com/FreeFull?s=200"
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "fXX9cns72XG97J3rk",
+  "owner": {
+    "_id": "MaXmXceoMdLX3NSGw",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551479403174"
+      }
+    },
+    "profile": {
+      "first_name": "Sergio Erick",
+      "last_name": "Chávez Flores",
+      "avatarUrl": "https://lh6.googleusercontent.com/-6mWCYE7e8JE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcnyCK5B6N4hdhN62pAcPOwiFeA5g/mo/photo.jpg"
+    },
+    "username": "sergioerick"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551543812460"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551543812460"
+    }
+  },
+  "origId": null,
+  "name": "Circle_TriStrip",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8995561351631565"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "sergioerick",
+  "avatarUrl": "https://lh6.googleusercontent.com/-6mWCYE7e8JE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcnyCK5B6N4hdhN62pAcPOwiFeA5g/mo/photo.jpg",
+  "settings": "{\"num\":164,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  float squares = 80.0;\\n  float PI = 3.14159;\\n  \\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId, 2.0);  \\n  \\n  float angle = (x/squares)*(2.0*PI);\\n  float r = y + 0.5; \\n  \\n  float x1 = r * cos(angle);\\n  float y1 = r * sin(angle); \\n  \\n  vec2 xy = vec2(x1,y1)*0.4;\\n  \\n  gl_Position = vec4(xy,0.0,1.0);\\n  v_color=vec4(0.0, 0.0,1.0,1.0);\\n  gl_PointSize = 10.0;\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-a9ulk6ew7ah541dl2-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Eitcbjk6ewNEjpy9g"
+}

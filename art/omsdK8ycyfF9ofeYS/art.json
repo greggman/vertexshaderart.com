@@ -1,0 +1,45 @@
+{
+  "_id": "omsdK8ycyfF9ofeYS",
+  "owner": {
+    "_id": "6LYHhwj5wMwA9HvPG",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1535280458435"
+      }
+    },
+    "username": "aaron1924",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/401c5d5fc2a9202f44ee18595001dbac?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1535281784985"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1535281784985"
+    }
+  },
+  "origId": null,
+  "name": "Fireworks",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3357468401561747"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "aaron1924",
+  "avatarUrl": "https://secure.gravatar.com/avatar/401c5d5fc2a9202f44ee18595001dbac?default=retro&size=200",
+  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define TAU 6.28318530718\\n\\nvec3 hash(vec3 p)\\n{\\n    p = fract(p * vec3(.1031,.11369,.13787));\\n    p += dot(p, p.yxz+19.19);\\n    return fract(vec3((p.x + p.y)*p.z, (p.x+p.z)*p.y, (p.y+p.z)*p.x));\\n}\\n\\n\\n\\nvec2 solve( float a, float b, float c )\\n{\\n  float d = sqrt( b * b - 4.0 * a * c );\\n  vec2 dV = vec2( d, -d );\\n  return (-b + dV) / (2.0 * a);\\n}\\n\\n\\nvec3 throw( vec3 pos, vec3 vel, float h, float t )\\n{\\n      vec3 g = vec3(0, -4., 0);\\n              \\n      for( int iBounce=0; iBounce < 3; iBounce++)\\n    {\\n      vec2 q = solve( 0.5 * g.y, vel.y, -h + pos.y);\\n      float tInt = max( q.x, q.y );\\n      tInt -= 0.0001;\\n      \\n      if ( t < tInt )\\n      {\\n         pos += vel*t + 0.5*g*t*t;\\n         break;\\n      }\\n      else\\n      {\\n          vec3 v = vel + g * tInt;\\n          pos += vel * tInt + 0.5 * g * tInt * tInt;\\n             vel = v;\\n        \\n          vel.y = -vel.y * 0.3;\\n          vel.xz *= 0.6;\\n\\n          t -= tInt;\\n      }\\n    }\\n\\n      return pos;\\n}\\n\\n\\n\\nfloat box(vec3 p)\\n{\\n  p = abs(p);\\n  return max(p.x, max(p.y, p.z));\\n}\\n\\nmat2 rot(float a)\\n{\\n  float s=sin(a), c=cos(a);\\n  return mat2(c,s,-s,c);\\n}\\n\\n\\n\\nvec3 fountain(float id, float count)\\n{\\n  vec3 d = normalize(hash(vec3(id))-0.5);\\n  d.y=abs(d.y);\\n  \\n  float t=fract(0.3*time + id/count);\\n  vec3 p=d*t;\\n  p.y = max(-8. * t * (t-.9), 0.1*sin(t));\\n  \\n  return p;\\n}\\n\\n/*vec3 boom(float id, float count, float t)\\n{\\n  vec3 d = hash(vec3(id))-0.5;\\n  d *= (1.0 + id/count) / length(d);\\n  \\n  vec3 p=d*pow(t, 0.6);\\n  \\n  return p;\\n}*/\\n\\nvec3 boom(float id, float count, vec3 pos, float t)\\n{\\n  vec3 d = hash(vec3(id))-0.5;\\n  d *= (1.0 + id/count) / length(d);\\n  \\n  return throw(pos, d, -1.0, t);\\n}\\n\\nvec3 spiral(float id, float count)\\n{\\n  vec3 rnd = hash(vec3(id)) - 0.5;\\n  \\n  float t = time + id/count;\\n  \\n  float a = 2. * t + rnd.x;\\n  if(2.*id > count)a += 0.5*TAU;\\n  \\n  vec3 td = (2. + rnd.z) * vec3(sin(a), 0.1 * rnd.y, cos(a));\\n  vec3 to = vec3(0,1,0);\\n    \\n  return throw(to, td, -2.0, fract(t+a));\\n}\\n\\n\\nvoid main() {\\n  vec3 p = vec3(0);\\n  \\n  float md = 32.0;\\n  float gr = floor(md*vertexId/vertexCount+md*time);\\n  \\n  float t = time;\\n  p = 2. * hash(vec3(gr)) - 1.; p.xz *= vec2(5, 3); p.y += 2.;\\n  p = boom(vertexId, vertexCount, p, fract(t - gr/md));\\n  \\n  //p.z -= 3. * fract(t - gr/md);\\n  \\n  p.z += 4.;\\n  \\n  vec2 uv = p.xy / p.z;\\n  uv.x *= resolution.y / resolution.x;\\n  \\n  gl_PointSize = 4. / p.z;\\n  gl_Position = vec4(uv, 0, 1);\\n  \\n  vec3 col = hash(vec3(3.*gr));\\n  col /= box(col);\\n  \\n  v_color = vec4(col, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-4w7oc77vc9lq6arxz-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "6GoqNm686fQJmsJRp"
+}

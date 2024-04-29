@@ -1,0 +1,46 @@
+{
+  "_id": "maYBia4hupYbN3YjZ",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1516120571508"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1516120571508"
+    }
+  },
+  "origId": "tEPdh34hM3fNGFFsg",
+  "name": "black and white new2",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8156755945213565"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/billx/tandava-billx-remix\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvec2 rotate(vec2 f, float deg) \\n{\\n\\treturn vec2(f.x * cos(deg) - f.y * sin(deg), f.x * sin(deg) + f.y * cos(deg));\\n}\\n\\nfloat pattern(vec2 p){p.x -= .866; p.x -= p.y * .005; p = mod(p, 1.); return p.x + p.y < 1.0 ? 0.3: 1.;}\\n\\nvoid main ()\\n{\\n   float finalDesiredPointSize = 3.;\\n   float maxFinalSquareSideSize = floor(sqrt(vertexCount));\\n   float finalMaxVertexCount = maxFinalSquareSideSize*maxFinalSquareSideSize;\\n  \\n  //first the number of elements in a line\\n  float across = floor(maxFinalSquareSideSize  *resolution.x/resolution.y);\\n  finalDesiredPointSize = resolution.x/across;\\n  //we want to keep the resolution >> across/down must be the same as resolution.x/resolution.y\\n  //across = across*resolution.x/resolution.y;\\n  \\n  //then the number of possible lines with the given vertexCount\\n  float down = floor(finalMaxVertexCount / across);\\n  \\n  //we can now calculate the final number of elements\\n  float finalVertexCount = across*down;\\n  \\n  //and the consequent finalVertexId\\n  float finalVertexId = mod(vertexId,finalVertexCount);\\n  \\n  //Now we calculate the position of the elements based on their finalVertexId\\n  float x = mod(finalVertexId, across);\\n  float y = floor(finalVertexId / across);\\n  \\n  float u = (x /across);\\n  float v = (y /down);\\n  \\n  float u0 = (u * (across*finalDesiredPointSize/resolution.x));\\n  float v0 = (v * (across*finalDesiredPointSize/resolution.x ));\\n  \\n  float ux =  u0 - 0.5*(across*finalDesiredPointSize/resolution.x);\\n  float vy =  v0- 0.5*(across*finalDesiredPointSize/resolution.x);;\\n  \\n    if(u>0.5)\\n    u = 1.-u;\\n\\t\\n    \\n  float udnd = u;\\n  if(u>0.5)\\n    udnd =  1.-u;\\n  \\n  float snd = texture2D(sound, vec2(0.,  udnd)).a;\\n  \\n    //apply fragment logic\\n\\n\\tvec2 position = vec2(x,y);\\n  \\n\\tvec2 uv\\t\\t\\t= vec2(u,v);//position.xy/resolution.xy;\\n\\tvec2 aspect\\t\\t= resolution/min(resolution.x, resolution.y);\\n\\tvec2 p       \\t\\t= (uv -.5) * aspect;\\n\\tvec2 c\\t\\t\\t= p/dot(p,p);\\n\\tfloat centerDistance = distance(c, snd*6.*vec2(0.5)) / 6.0;\\n  \\n\\tc = rotate(c, max(-10.0, 2.3*sin(time + centerDistance + sin(time + centerDistance))));\\n\\t//gl_FragColor = vec4(pattern(3.*c));\\n\\t\\n  \\n \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = finalDesiredPointSize;\\n\\n  v_color = vec4(pattern(3.*c));;\\n  \\n\\n}\"}",
+  "screenshotURL": "data/images/images-oyeqpgry1ja1gj9y7-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "7"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "TctzdEXSNq8WzfLEC"
+}

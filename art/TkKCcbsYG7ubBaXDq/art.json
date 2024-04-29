@@ -1,0 +1,46 @@
+{
+  "_id": "TkKCcbsYG7ubBaXDq",
+  "owner": {
+    "_id": "ftizELg7EWmj8LW7K",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684040210652"
+      }
+    },
+    "profile": {
+      "name": "yejin shin",
+      "avatarUrl": "https://avatars.githubusercontent.com/yejin-shin?s=200"
+    },
+    "username": "yejin-shin"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684041990259"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684041990259"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7175184460576416"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "yejin-shin",
+  "avatarUrl": "https://avatars.githubusercontent.com/yejin-shin?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"//Name : Yejin Shin\\n//Assignment : Making a Grid\\n//Course : CS250\\n//Spring, 2023\\n\\nvoid main()\\n{\\n\\tfloat down = floor(sqrt(vertexCount));\\n\\tfloat across = floor(vertexCount/down);\\n\\n  \\tfloat x = mod(vertexId, across);\\n\\tfloat y = floor(vertexId / across);\\n\\n\\tfloat u = x / (across - 1.);\\n\\tfloat v = y / (across - 1.);\\n\\n\\tfloat ux = u * 5. - 1.;\\n\\tfloat vy = v * 5. - 1.;\\n\\t\\n\\tgl_Position = vec4(ux, vy, 0, 1);\\n\\t\\n\\tgl_PointSize = 10.0;\\n\\tgl_PointSize *= 20. / across;\\n\\tgl_PointSize *= resolution.x /200.;\\t\\n\\t\\n\\n  \\tv_color = vec4(0.3, 0.8, 0.8, 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-rnd67cs6p1anqpkzb-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "qBXph2ithME5oRG4u"
+}

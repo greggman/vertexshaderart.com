@@ -1,0 +1,46 @@
+{
+  "_id": "3K4d92nvq5JFcZa8K",
+  "owner": {
+    "_id": "EkDC3uCtmryBQmSjA",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1570109771845"
+      }
+    },
+    "profile": {
+      "name": "Marco",
+      "avatarUrl": "https://avatars.githubusercontent.com/Foxhunt?s=200"
+    },
+    "username": "foxhunt"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1570109787427"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1570110330115"
+    }
+  },
+  "origId": null,
+  "name": "sine",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3395404497184988"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "foxhunt",
+  "avatarUrl": "https://avatars.githubusercontent.com/Foxhunt?s=200",
+  "settings": "{\"num\":262,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.20784313725490197,1],\"shader\":\"#define PI 3.1415926535897932384626433832795\\n\\nfloat oscillate(float i, float mi, float ma) {\\n  float r = ma - mi;\\n  float o = mi + abs(mod(i + r, r * 2.) - r);\\n  return o;\\n}\\n\\nvoid main() {\\n  \\n  float x = mod(time * .4 + (vertexId / vertexCount * 2. - 1.), 2.) - 1.;\\n  \\n  float y = sin(x * PI * 10.) * oscillate(time * .02, -.2, .2);\\n  \\n  gl_Position = vec4(x, y, 0, 1);\\n  \\n  gl_PointSize = 3.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-eilnjhtsdinc3k5as-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "oT3NSzuDY5qNc8GWF"
+}

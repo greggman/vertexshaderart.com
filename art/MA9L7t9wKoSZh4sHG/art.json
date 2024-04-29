@@ -1,0 +1,36 @@
+{
+  "_id": "MA9L7t9wKoSZh4sHG",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1536370561092"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1536370561092"
+    }
+  },
+  "origId": null,
+  "name": "danix",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2508532178473883"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":30452,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.5019607843137255,0,0.25098039215686274,1],\"shader\":\"void main() {\\n  float width = 10.0;\\n  \\n  float x =mod( vertexId,width);\\n  float y = floor (vertexId / width);\\n  \\n  float u= x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y *0.2)*0.1;\\n  float yOffset = sin(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2.0 - 1.0 * xOffset;\\n  float vy = v * 2.0 - 1.0;\\n  \\n  \\n  gl_Position = vec4(0,0,0,1.0);\\n  gl_PointSize = 40.0;\\n  v_color = vec4(1.0,0.0,0.0,2.0);\\n  \\n  \\n}\"}",
+  "screenshotURL": "data/images/images-w24a9rashrfihe8ni-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "66"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "GeWumrkwuFTS8F6M2"
+}

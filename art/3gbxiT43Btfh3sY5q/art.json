@@ -1,0 +1,46 @@
+{
+  "_id": "3gbxiT43Btfh3sY5q",
+  "owner": {
+    "_id": "stvFsPkYBockiRmAB",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1696999602459"
+      }
+    },
+    "profile": {
+      "name": "Bryan Gonzales",
+      "avatarUrl": "https://avatars.githubusercontent.com/BryGo1995?s=200"
+    },
+    "username": "brygo1995"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1697000180168"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1697172263165"
+    }
+  },
+  "origId": null,
+  "name": "tutorial1",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6087398930228405"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "brygo1995",
+  "avatarUrl": "https://avatars.githubusercontent.com/BryGo1995?s=200",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main() {\\n\\t\\n  float across = 10.0;\\n  \\n  float x = mod(vertexId, 10.0);\\n  float y = floor(vertexId / 10.0);\\n  \\n  float u = x / across;\\n  float v = y / across;\\n  \\n  u += sin(time + x);\\n  v += sin(time + y);\\n  float z = 2.0 * sin(time);\\n  \\n  gl_Position = vec4(u, v, z, 1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-txhceaq3xvlc2vtot-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "38zDmLLsXnnJJRRG8"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "nxbZAMQjGvme7F55J",
+  "owner": {
+    "_id": "DQaoRdk6AWtPXDMif",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1504629543261"
+      }
+    },
+    "username": "legileurs",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/a48c633acb8ed21d176343fa75931ff6?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F8839ade8e32fd3ea8c1ca8ac8b2590a3"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1504633154848"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1504633154848"
+    }
+  },
+  "origId": "Kyf3xbtcypvZ4KbPc",
+  "name": "test",
+  "notes": "test",
+  "rank": {
+    "$numberDouble": "1.9579538127739569"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "legileurs",
+  "avatarUrl": "https://secure.gravatar.com/avatar/a48c633acb8ed21d176343fa75931ff6?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F8839ade8e32fd3ea8c1ca8ac8b2590a3",
+  "settings": "{\"num\":16384,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,1,1,1],\"shader\":\"///GLSL\\nvoid main() {\\n  gl_PointSize = 100.0;\\n  gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\\n  /*RGB */\\n  v_color = vec4(1.0, .0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-zljwjcglcf3vm7nvh-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "JhKwbQCz3QxzmjRLp"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "SZgEYFYSHKMqWSBCo",
+  "owner": {
+    "_id": "jhMvK8TduGx9Yrrzp",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1514250123308"
+      }
+    },
+    "profile": {
+      "name": "Frank Palazzolo",
+      "avatarUrl": "https://avatars.githubusercontent.com/palazzol?s=200"
+    },
+    "username": "palazzol"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1514250140672"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1517272404242"
+    }
+  },
+  "origId": null,
+  "name": "raster",
+  "notes": "just learning...",
+  "rank": {
+    "$numberDouble": "1.0478547486294212"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "palazzol",
+  "avatarUrl": "https://avatars.githubusercontent.com/palazzol?s=200",
+  "settings": "{\"num\":52720,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n  // vertex_percent is vertexId mapped to [0..1]\\n  float vertex_percent = vertexId / (vertexCount-1.0); // We use -1.0 to ensure a point exists at the end\\n  float x = vertex_percent*2.0 - 1.0; // Mapping vertex_percent [0..1] to X screen range, which is [-1..1]\\n  \\n  // sound texture has (amplitude, history) for (u,v). \\n  // u range is [0..1]: 0 is lowest bass, 1 is highest treble\\n  // v range is [0..1]: 0 is right now, 1 is 4 seconds in the past\\n  // It is all in the alpha channel of the sound texture\\n  \\n  // Set y position to amplitude in [0..1] range.\\n  // Y will be 1.0 at peak amplitude (top of screen) and 0.0 for silence (middle of screen)\\n  float y = texture2D(sound,vec2(vertex_percent,0.0)).a; \\n  \\n  float q = floor(sqrt(vertexCount));\\n  float x_percent = (mod(vertexId, q)) / q;\\n  float y_percent = (floor(vertexId / q)) / q;\\n    \\n  x = (x_percent*2.0 - 1.0)*0.5;\\n  y = -(y_percent*2.0 - 1.0)*0.5;\\n  \\n  x = x + x * 0.2*sin(vertex_percent*20.0+time*15.0);\\n  y = y + y * 0.2*cos(vertex_percent*30.0+time*15.0);\\n  \\n  \\n  gl_PointSize = 10.0; // Set point size in case want to render points instead of line, not used in line\\n  gl_Position = vec4(x,y,0,1); // simply plot onto screen space at z=0 with opacity=1, screen range is [-1..1] for both x and y\\n  v_color = vec4(1.0-x_percent, y_percent, x_percent, 1.0); // Just setting to the color white with opacity=1\\n\\n}\\n\"}",
+  "screenshotURL": "data/images/images-h2nnc5fphy29ryko5-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "8"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "AyK9uPmSjtFysNCn9"
+}

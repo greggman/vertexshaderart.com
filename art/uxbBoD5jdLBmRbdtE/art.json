@@ -1,0 +1,47 @@
+{
+  "_id": "uxbBoD5jdLBmRbdtE",
+  "owner": {
+    "_id": "Gyn4vE9wtszDPta57",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554190536287"
+      }
+    },
+    "profile": {
+      "first_name": "정학",
+      "last_name": "김",
+      "avatarUrl": "https://lh6.googleusercontent.com/-OMiZ3nksbAM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd4iIW6pXdqajwjPLfViARoXXTGxg/mo/photo.jpg"
+    },
+    "username": "정학"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554210829396"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554210829396"
+    }
+  },
+  "origId": "5rPSkvavMCsT3A4KY",
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9135189363756062"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "정학",
+  "avatarUrl": "https://lh6.googleusercontent.com/-OMiZ3nksbAM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd4iIW6pXdqajwjPLfViARoXXTGxg/mo/photo.jpg",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n  float x = floor(vertexId - 7.);\\n  float y = floor(vertexId - 7.);\\n  \\n  float u = x / 10.;\\n  float v = y / 10.;\\n  \\n  float ux = mouse.x * u * 2.;\\n  float vy = mouse.y * v * 2.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(cos(time) + 1., mouse.x, mouse.y, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-wtwrlwspxibh2wym2-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "214"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "6eGtmAwkSKoXB8hx8"
+}

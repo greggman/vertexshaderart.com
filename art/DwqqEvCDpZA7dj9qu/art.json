@@ -1,0 +1,46 @@
+{
+  "_id": "DwqqEvCDpZA7dj9qu",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1494938899781"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1494939294662"
+    }
+  },
+  "origId": "eiQJGkMsgvxpx6Ejq",
+  "name": "Init",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.287709334366537"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.25098039215686274,1],\"shader\":\"\\n// I get error when I type g1_Positon !!!\\n// so use this instead\\n\\n\\nvoid main(){\\n  \\n  gl_Position = vec4(0, 0, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n  \\n  \\n}\"}",
+  "screenshotURL": "data/images/images-pxrgz5helblb25sff-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "6"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "uSnx6NAJ6v5EiN2wS"
+}

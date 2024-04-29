@@ -1,0 +1,46 @@
+{
+  "_id": "JoWAeXNsfz23C8d8b",
+  "owner": {
+    "_id": "a3PnYPa8MGo9QSALX",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667032560256"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/JarredTheCoder?s=200"
+    },
+    "username": "jarredthecoder"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669288333230"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1669288333230"
+    }
+  },
+  "origId": null,
+  "name": "graysounds",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6584032960849997"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "jarredthecoder",
+  "avatarUrl": "https://avatars.githubusercontent.com/JarredTheCoder?s=200",
+  "settings": "{\"num\":5081,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.47843137254901963,0.47843137254901963,0.47843137254901963,1],\"shader\":\"#define NUM 15.0\\n\\nvoid main() {\\n  gl_PointSize = 74.6;\\n  float a = mod(vertexId, NUM * 1.0);\\n  float b = mod(floor(vertexId / NUM), NUM * 1.0);\\n  float xax = a / NUM * 2.0 - 1.0;\\n  float yax = b / NUM * 2.0 - 1.0;\\n  gl_Position = vec4(xax, yax, 0, 1);\\n  v_color = vec4(pow(texture2D(sound,vec2(xax,yax)).a,8.0));\\n}\"}",
+  "screenshotURL": "data/images/images-6qzsf4xfvsa9wh594-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "42"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "bKEZ2qkeokxJcPh7T"
+}

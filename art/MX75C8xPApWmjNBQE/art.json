@@ -1,0 +1,46 @@
+{
+  "_id": "MX75C8xPApWmjNBQE",
+  "owner": {
+    "_id": "LA2p9fSSrZYuhdYNz",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1497993369279"
+      }
+    },
+    "profile": {
+      "name": "Sean Whalen",
+      "avatarUrl": "https://lh4.googleusercontent.com/-2XVr7oP52uM/AAAAAAAAAAI/AAAAAAAAF8w/OxC5EHp2Xvk/photo.jpg"
+    },
+    "username": "sean"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1498453779308"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1498453779308"
+    }
+  },
+  "origId": "khesbmKPst2TQsnnL",
+  "name": "mousething",
+  "notes": "work in progress",
+  "rank": {
+    "$numberDouble": "1.46645015716374"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "sean",
+  "avatarUrl": "https://lh4.googleusercontent.com/-2XVr7oP52uM/AAAAAAAAAAI/AAAAAAAAF8w/OxC5EHp2Xvk/photo.jpg",
+  "settings": "{\"num\":1677,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"CSS\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\n\\nvoid main() {\\n  vec2 foci[4];\\n  foci[0] = vec2(0,0);\\n  foci[1] = vec2(.2, sin(time));\\n  foci[2] = vec2(sin(time*.3), -.8);\\n  foci[3] = mouse;\\n  \\n  \\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.); \\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  vec2 pos = vec2(ux, vy);\\n  \\n  \\n  \\n  for (int i = 0; i < 4; i++)\\n  {\\n    vec2 dir = foci[i] - pos;\\n    float dist = length(dir);\\n \\tvec2 u_dir = dir / dist;\\n \\tvec2 offset = -0.1 * u_dir;\\n    pos += offset;\\n  }\\n    \\n\\n  gl_Position = vec4(pos, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(.5,.5,0,1);\\n  \\n}\\n  \\n\"}",
+  "screenshotURL": "data/images/images-ljj6h1rkqziaer3vs-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "XyepBNuh8uXN8Rgxw"
+}

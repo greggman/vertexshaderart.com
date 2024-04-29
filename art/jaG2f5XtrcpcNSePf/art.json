@@ -1,0 +1,48 @@
+{
+  "_id": "jaG2f5XtrcpcNSePf",
+  "owner": {
+    "_id": "aQGBaB28tNPpoJahx",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1523273254098"
+      }
+    },
+    "profile": {
+      "first_name": "Brendon",
+      "last_name": "Conradie",
+      "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
+      "info": "Wannabe graphics programmer working in the mobile gaming industry"
+    },
+    "username": "brendon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1524505337363"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1524505337363"
+    }
+  },
+  "origId": null,
+  "name": "Vertex Shader Art Lesson 1",
+  "notes": "This stuff is quite tough",
+  "rank": {
+    "$numberDouble": "1.2285072846755742"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "brendon",
+  "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float down = floor(sqrt(vertexCount)); // gets the count of rows\\n  float across = floor(vertexCount / down); // gets the count of columns\\n  \\n  // vertexId is the \\n  float x = mod(vertexId, across); // always use floats\\n  float y = floor(vertexId / across); // rounds numbers down 0.1 = 0, 10 = 1\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;  // gets value from -1 to 1\\n  float uy = v * 2.0 - 1.0;  // gets value from -1 to 1\\n  \\n  gl_Position = vec4(ux, uy, 0.0, 1.0);\\n  \\n  gl_PointSize = 200.0 / across; // set point size\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  v_color = vec4(1.0, 0, 0, 1); // this is unique to vertex shader art\\n}\"}",
+  "screenshotURL": "data/images/images-279912njg6kxm0ey7-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "qPYvHj2RRmFSQP6ou"
+}

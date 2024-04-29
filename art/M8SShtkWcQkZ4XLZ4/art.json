@@ -1,0 +1,46 @@
+{
+  "_id": "M8SShtkWcQkZ4XLZ4",
+  "owner": {
+    "_id": "f2wyNgAd5xFR62ZE7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1635420240606"
+      }
+    },
+    "profile": {
+      "name": "Vidar Waagbø",
+      "avatarUrl": "https://avatars.githubusercontent.com/vidarw?s=200"
+    },
+    "username": "vidarw"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635420250658"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1635425627697"
+    }
+  },
+  "origId": null,
+  "name": "tutorial",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7480465180972629"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "vidarw",
+  "avatarUrl": "https://avatars.githubusercontent.com/vidarw?s=200",
+  "settings": "{\"num\":99647,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/eboo11/trust-no-one-001\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.0)\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n\\nvec2 rotate(vec2 point, float degree, vec2 pivot)\\n{\\n    float radAngle = -radians(degree);// \\\"-\\\" - clockwise\\n    float x = point.x;\\n    float y = point.y;\\n\\n    float rX = pivot.x + (x - pivot.x) * cos(radAngle) - (y - pivot.y) * sin(radAngle);\\n    float rY = pivot.y + (x - pivot.x) * sin(radAngle) + (y - pivot.y) * cos(radAngle);\\n\\n    return vec2(rX, rY);\\n}\\n\\nvoid pond() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n    \\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n   \\n  float su = abs(u - 0.5) * 2.; // center u and create symmetry;\\n  float sv = abs(v  - 0.5) * 2.;\\n  \\n  float au = abs(atan(su, sv)) / PI;\\n  float av = length(vec2(su, sv));\\n  float snd = texture2D(sound, vec2(au * .250, av  * .25)).a; // Only using parts of the spectrum and 1 second of data.\\n  \\n  float x_offset = 0.; // sin(time + y * 0.01) * .4;\\n  float y_offset = 0.; // sin(time + x * 0.01) * .1;\\n  \\n  float ux = u * 2. - 1. + x_offset;\\n  float vy = v * 2. - 1. + y_offset;\\n  \\n  \\n  vec2 xy = rotate(vec2(ux, vy) * 0.6, time * snd, vec2(0, 0));\\n  \\n  gl_Position = vec4(xy, 0, 1); \\n  \\n\\n  \\n  float s_offset = 0.; // sin(time + x * y * 0.03) * 2.;\\n  \\n  \\n  gl_PointSize = snd * 10.0 + s_offset;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  \\n  float hue = abs(sin(snd)*1.);\\n  float sat = 1.;\\n  float val = pow(snd + 0.3, 5.0);\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1); \\n}\\n\\n\\nvoid main() {\\n  pond();\\n}\"}",
+  "screenshotURL": "data/images/images-ryajn33qbh37h28ua-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "69"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "8iYjQy6rdn3j8kJc9"
+}

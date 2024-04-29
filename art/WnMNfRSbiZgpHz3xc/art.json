@@ -1,0 +1,47 @@
+{
+  "_id": "WnMNfRSbiZgpHz3xc",
+  "owner": {
+    "_id": "4FyZdAiKGxroxAzHY",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551481183440"
+      }
+    },
+    "profile": {
+      "first_name": "Julio",
+      "last_name": "Gonzalez Menendez",
+      "avatarUrl": "https://lh4.googleusercontent.com/-_qIuSe0i5BM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re8EYbgzIrdnuAsoVZKmC72bCiiKQ/mo/photo.jpg"
+    },
+    "username": "julio"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1553047657538"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1553114339875"
+    }
+  },
+  "origId": null,
+  "name": "Ej2",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7630125554992784"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "julio",
+  "avatarUrl": "https://lh4.googleusercontent.com/-_qIuSe0i5BM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re8EYbgzIrdnuAsoVZKmC72bCiiKQ/mo/photo.jpg",
+  "settings": "{\"num\":15108,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n\\tfloat p = 0.8;\\n  \\tfloat phi = radians(floor(vertexId / 45.0)) * 4.0;\\n  \\tfloat theta = radians(mod(vertexId, 45.0)) * 4.0;\\n  \\tfloat x = p * sin(phi) * cos(theta);\\n  \\tfloat y = p * sin(phi) * sin(theta);\\n  \\tfloat z = p * cos(phi);\\n  \\n  \\tmat4 rotz = mat4(cos(time), -sin(time), 0, 0,\\n                    sin(time), cos(time), 0, 0,\\n                    0, 0, 1, 0,\\n                    0, 0, 0, 1);\\n  \\tmat4 rotx = mat4(1, 0, 0, 0,\\n                    0, cos(time), -sin(time), 0,\\n                    0, sin(time), cos(time), 0,\\n                    0, 0, 0, 1);\\n  \\tgl_Position = rotz * rotx * vec4(x, y, z, 1.0);\\n    gl_PointSize = 2.0;\\n  \\tv_color = vec4(0.949, 0.74, 0.2472, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-a3mjywi1rwuzrv96w-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "6t8FqmTSmy74fJ3Re"
+}

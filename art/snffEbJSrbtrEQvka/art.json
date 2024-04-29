@@ -1,0 +1,46 @@
+{
+  "_id": "snffEbJSrbtrEQvka",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1523406386860"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1523406386860"
+    }
+  },
+  "origId": "dPsnyuwF6HxdEJMAd",
+  "name": "test for K Machine frag 2",
+  "notes": "http://glslsandbox.com/e#38484.0",
+  "rank": {
+    "$numberDouble": "1.1864968627566512"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/user-158087960/studiomix-douzirec-06-2007-flac\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//#ifdef  GL_ES\\n//precision  mediump float;\\n//#endif \\n\\n//#extension  GL_OES_standard_derivatives : enable\\n\\n//uniform  float time;\\n//uniform  vec2 mouse;\\n//uniform  vec2 vertexResolution;\\n\\nvec3 mod289(vec3 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }\\nvec2 mod289(vec2 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }\\nvec3 permute(vec3 x) { return mod289(((x*34.0)+1.0)*x); }\\n\\nfloat snoise(vec2 v) {\\n    const vec4 C = vec4(0.211324865405187,  // (3.0-sqrt(3.0))/6.0\\n                        0.366025403784439,  // 0.5*(sqrt(3.0)-1.0)\\n                        -0.577350269189626,  // -1.0 + 2.0 * C.x\\n                        0.024390243902439); // 1.0 / 41.0\\n    vec2 i  = floor(v + dot(v, C.yy) );\\n    vec2 x0 = v -   i + dot(i, C.xx);\\n    vec2 i1;\\n    i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);\\n    vec4 x12 = x0.xyxy + C.xxzz;\\n    x12.xy -= i1;\\n    i = mod289(i); // Avoid truncation effects in permutation\\n    vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 ))\\n        + i.x + vec3(0.0, i1.x, 1.0 ));\\n\\n    vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy), dot(x12.zw,x12.zw)), 0.0);\\n    m = m*m ;\\n    m = m*m ;\\n    vec3 x = 2.0 * fract(p * C.www) - 1.0;\\n    vec3 h = abs(x) - 0.5;\\n    vec3 ox = floor(x + 0.5);\\n    vec3 a0 = x - ox;\\n    m *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );\\n    vec3 g;\\n    g.x  = a0.x  * x0.x  + h.x  * x0.y;\\n    g.yz = a0.yz * x12.xz + h.yz * x12.yw;\\n    return 130.0 * dot(m, g);\\n}\\n\\nvoid main() {float finalDesiredPointSize = 3.;\\nfloat maxFinalSquareSideSize = floor(sqrt(vertexCount));\\nfloat finalMaxVertexCount = maxFinalSquareSideSize*maxFinalSquareSideSize;\\nfloat maxVerticesPerLine = floor(maxFinalSquareSideSize  *resolution.x/resolution.y);\\nvec2 vertexResolution = vec2(maxVerticesPerLine, floor(finalMaxVertexCount/maxVerticesPerLine));\\nfloat finalVertexCount = vertexResolution.x*vertexResolution.y;\\nfloat finalVertexId = mod(vertexId,finalVertexCount);\\nfloat x = mod(finalVertexId, vertexResolution.x);\\nfloat y = floor(finalVertexId / vertexResolution.x);\\nvec2 simFragCoord = vec2(x,y);//simfragCoord will replace the gl_FragCoord of fragment shader\\nfloat u_i = (x /vertexResolution.x);\\nfloat v_i = (y /vertexResolution.y);\\nfloat sizeFactor = finalDesiredPointSize*vertexResolution.x/resolution.x;\\nfloat ux = sizeFactor*(u_i - 0.5);\\nfloat vy = sizeFactor*(v_i - 0.5);\\ngl_PointSize = finalDesiredPointSize;\\ngl_Position = vec4(ux, vy, 0., 1.);\\nvec2 surfacePosition = vec2(ux,vy);\\n\\n    vec2 st = simFragCoord.xy/vertexResolution.xy;\\n    st.x *= vertexResolution.x/vertexResolution.y;\\n    vec3 color = vec3(0.0);\\n    vec2 pos = vec2(st*3.);\\n\\n    float DF = 0.0;\\n\\n    // Add a random position\\n    float a = 0.0;\\n    vec2 vel = vec2(time*.1);\\n    DF += snoise(pos+vel)*.25+.25;\\n\\n    // Add a random position\\n    a = snoise(pos*vec2(cos(time*0.15),sin(time*0.1))*0.1)*3.1415;\\n    vel = vec2(cos(a),sin(a));\\n    DF += snoise(pos+vel)*.5+.5;\\n\\n    color = vec3( smoothstep(.7,.75,fract(DF)) );\\n\\n    v_color = vec4(1.0-color,1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-8yms5dy2ad8oznpj9-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "14"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ypywMiixLzBFrLKTz"
+}

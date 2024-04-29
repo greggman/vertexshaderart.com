@@ -1,0 +1,47 @@
+{
+  "_id": "PsHuyZzqaS6pheL2D",
+  "owner": {
+    "_id": "LCQpnTmbc4TFAS9gH",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1702790772790"
+      }
+    },
+    "profile": {
+      "first_name": "Tapos",
+      "last_name": "Datta",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLcSqwSc82VQduMzLtVzzfGNr9fy1Y-vHBpYEpqyKQiDA=s96-c"
+    },
+    "username": "tapos"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1703240180323"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1703240180323"
+    }
+  },
+  "origId": "AndijhSm4Fuox73p9",
+  "name": "vibrations",
+  "notes": "by lizell",
+  "rank": {
+    "$numberDouble": "1.7543523260642098"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "tapos",
+  "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLcSqwSc82VQduMzLtVzzfGNr9fy1Y-vHBpYEpqyKQiDA=s96-c",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/user-961665354/yt5scom-bondhu-kala-chanponkoj-roy-jk-shanto-bangla-new-dance-video-2021-320-kbps\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.10980392156862745,0.07450980392156863,0.1450980392156863,1],\"shader\":\"// chrillo\\n\\n#define PI 3.14159\\n\\nfloat hash( float n ) { return fract(sin(n)*753.5453123); }\\n\\nvoid main () {\\n  float i = hash(vertexId);\\n  float f = hash(i);\\n  float snd = texture2D(sound, vec2(f, i)).a * cos(i);\\n  snd = pow(snd, 2.);\\n  \\n  float ang = vertexId / 1000.;\\n  float perspective = .65 / sin(0.785398);\\n  float t = time * (f - .5);\\n  float x = i * sin(ang + t) * 1.1;\\n  float y = i * cos(ang + t) * 0.7;\\n  y +=  .1 * snd * (1. - y);\\n  y *= perspective;\\n  \\n  float vis = snd / (y + 1.1);\\n  \\n  gl_Position = vec4(x, y, 0., 1.);\\n  gl_PointSize = 5. * vis;\\n  \\n  v_color = vec4(\\n    snd * .7 * (5. - f),\\n    snd * .8 * cos(f * PI),\\n    snd * 2. * sin(f * PI/2.),\\n    vis);\\n}\"}",
+  "screenshotURL": "data/images/images-85im1du6dl5fe3pyo-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Mk3JQxp7AcrMcgTRv"
+}

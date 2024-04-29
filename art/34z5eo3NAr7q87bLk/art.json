@@ -1,0 +1,45 @@
+{
+  "_id": "34z5eo3NAr7q87bLk",
+  "owner": {
+    "_id": "mZ9LpdRJZpAj6KYaZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1543915151302"
+      }
+    },
+    "username": "mol",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/fe5b47f4d74c95c9b38908469761a86d?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1543916750725"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1543916750725"
+    }
+  },
+  "origId": null,
+  "name": "simple",
+  "notes": "set to points",
+  "rank": {
+    "$numberDouble": "1.292307074069896"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "mol",
+  "avatarUrl": "https://secure.gravatar.com/avatar/fe5b47f4d74c95c9b38908469761a86d?default=retro&size=200",
+  "settings": "{\"num\":32,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {  \\n  gl_PointSize = 5.0;\\n  \\n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\\n  \\n  gl_Position.x = sin(time + vertexId / 32.0) / 2.0;\\n  gl_Position.y = cos(time + vertexId / 32.0) / 2.0;\\n  gl_Position.z = 0.0;\\n  gl_Position[3] = 1.0;\\n}\"}",
+  "screenshotURL": "data/images/images-qew6lhpxsxjdo6frg-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "40"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "9YMdh5ENAjMRkMKdv"
+}

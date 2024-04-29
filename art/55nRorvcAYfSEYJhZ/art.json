@@ -1,0 +1,46 @@
+{
+  "_id": "55nRorvcAYfSEYJhZ",
+  "owner": {
+    "_id": "a3PnYPa8MGo9QSALX",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667032560256"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/JarredTheCoder?s=200"
+    },
+    "username": "jarredthecoder"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669282304482"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1669282304482"
+    }
+  },
+  "origId": null,
+  "name": "magicsparkle",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.4854487942306758"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "jarredthecoder",
+  "avatarUrl": "https://avatars.githubusercontent.com/JarredTheCoder?s=200",
+  "settings": "{\"num\":100000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,0.6,1,1],\"shader\":\"#define PI radians(180.5)\\n#define NUM_SEGMENTS 4.50\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0) + 5.0\\n#define STEP 15.6\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float snd = texture2D(sound, vec2(fract(count / 128.0), fract(count / 20000.0))).a;\\n  float offset = count * 0.02;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = 0.2 * pow(snd, 5.0);\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  count * 0.0;\\n  float innerRadius = count * 0.001;\\n  float oC = cos(orbitAngle / count + 5.5 + time * 0.4 + count * 0.1) * innerRadius;\\n  float oS = sin(orbitAngle / count +  time + count * 5.1) * innerRadius;\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\\n\\n  float hue = (time * 0.01 + count * 1.001);\\n  v_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-ec19nxkvgvj12vj8n-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "48"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "iNdTA43mPLSGkwmF9"
+}

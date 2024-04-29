@@ -1,0 +1,36 @@
+{
+  "_id": "XsyLRu9hP28JhAank",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1589785282562"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1589785282562"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1427386114967637"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n//KDrawmode=GL_TRIANGLES \\n\\n#define KP0 2.0 //KParameter0 0.>>10.\\n#define KP1 3.0//Kparameter1 0.>>5.\\n#define KP2 2.0//KParameter2 0.>>5.\\n#define KP3 0.0//KParameter3 0.>>0.5\\n#define KP4 2.0//KParameter4 0.>>2.0\\n\\n#define PI radians(180.)\\n#define SIZE 90.0\\n#define NUM_CUBES (SIZE*SIZE*SIZE)\\n#define NUM_TRIANGLES (NUM_CUBES*6)\\n#define NUM_VERTICES (NUM_TRIANGLES*6)\\n#define STEP 80.0\\n\\n#define rot(A) mat2(cos(A),-sin(A),sin(A),cos(A))\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(12.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n//https://www.shadertoy.com/view/4ttGDH\\nvec3 camPath(float t){\\n  \\n    //return vec3(0, 0, t); // Straight path.\\n    //return vec3(-sin(t/2.), sin(t/2.)*.5 + 1.57, t); // Windy path.\\n    \\n    //float s = sin(t/24.)*cos(t/12.);\\n    //return vec3(s*12., 0., t);\\n    \\n    float a = -sin(t * 0.011);\\n    float b = cos(t * 0.014);\\n    return vec3(a*4. -b*1.5, b*1.7 + a*2.5, t);\\n    \\n}\\n\\n//https://www.shadertoy.com/view/4ttGDH\\nfloat map(vec3 p){\\n \\n    p.xy /= camPath(p.z).xy; // Perturb the object around the camera path.\\n    \\n    p *= 0.4;\\n     \\n\\tp = cos(p*.315*1.25 + sin(p.zxy*.875*1.25)); // 3D sinusoidal mutation.\\n    \\n    \\n    float n = length(p); // Spherize. The result is some mutated, spherical blob-like shapes.\\n\\n    // It's an easy field to create, but not so great to hone in one. The \\\"1.4\\\" fudge factor\\n    // is there to get a little extra distance... Obtained by trial and error.\\n    return (n - 1.025)*1.33;\\n    \\n}\\n\\n\\nvoid main() {\\n  \\n  float speed = 10.0;\\n  \\n  vec3 wpos = vec3(0);\\n  \\n  vec3 pos = camPath(time*speed)*sin(-1.5*mouse.x);\\n  \\n  vec3 lookat = camPath(time*speed+2.0);\\n  vec3 forward = normalize(lookat-pos);\\n  vec3 left = normalize(cross(vec3(camPath(time*speed+1.0).xy,0),forward));\\n  vec3 up = cross(forward,left);\\n  \\n  float id = vertexId;\\n  \\n  float numcube = floor(id/18.0);\\n  float numquad = floor(id/6.0);\\n  float quadid = 3.0-abs(id-numquad*6.0-3.0);\\n  float nori = mod(numquad,3.0);\\n  //quadid = quadid ^ diri;\\n  vec2 quad = vec2(mod(quadid,2.0),mod(floor(quadid*0.5),2.0));\\n  \\n  \\n  vec3 mask;\\n  if (nori < 0.5) {\\n    mask = vec3(1,0,0);\\n  } else if (nori < 1.5) {\\n    mask = vec3(0,1,0);\\n  } else {\\n    mask = vec3(0,0,1);\\n  }\\n  \\n  float size = floor(pow(vertexCount/23.0,1.0/3.0)*mouse.y)*2.;\\n  \\n  vec3 blockpos = vec3(\\n    mod(floor(numcube),size),\\n    mod(floor(numcube/size),size),\\n        floor(numcube/size/size))-vec2(floor(size*0.5),0).xxy+floor(pos);\\n  \\n  bool a = map(blockpos) > 0.0;\\n  bool b = map(blockpos+mask) > 0.0;\\n  \\n  float diri;\\n  \\n  if (a == b) {\\n    gl_Position = vec4(0,0,0,1);\\n    return;\\n  } else {\\n    \\n    float diri = 1.0;\\n    if (b) {\\n      diri = -diri;\\n      quad.xy = quad.yx;\\n    }\\n    \\n    vec3 nor = mask*(diri*2.0-1.0);\\n\\n    wpos += mask.zxy*quad.x;\\n    wpos += mask.yzx*quad.y;\\n\\twpos += mask;\\n    wpos += blockpos;\\n\\n    wpos -= 0.5;\\n\\n    //wpos += vec3(data.xyz);\\n    //wpos += float(gl_VertexID/6);\\n    //wpos += u_centerPosition;\\n\\n\\n\\n    vec3 p = wpos-pos;//vec3(sin(id+time),cos(id+time),id);\\n    \\n    p = vec3(-dot(p,left),dot(p,up),dot(p,forward));\\n    \\n    p.x *= resolution.y/resolution.x;\\n\\n    gl_Position = vec4(p.xy, p.z*p.z*0.01, p.z);\\n\\n\\n    float hue = (id * 1.001);\\n    v_color = vec4(nor*0.5+0.5, 1);\\n  }\\n}\"}",
+  "screenshotURL": "data/images/images-da96k3zyasin0n5tw-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "80"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "GbEFurfRcyjP9HjWS"
+}

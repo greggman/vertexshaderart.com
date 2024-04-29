@@ -1,0 +1,36 @@
+{
+  "_id": "EZmjdzfcpwjp7MSFM",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1642023829904"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1642023829904"
+    }
+  },
+  "origId": "fLedbHFSXD9E4aMSv",
+  "name": "Oh my word",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.966252876268398"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":4617,\"mode\":\"TRI_STRIP\",\"sound\":\"mic\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.17647058823529413,0.25098039215686274,0.3215686274509804,1],\"shader\":\"\\n\\n#define PI radians(180.)\\n#define NUM_SEGMENTS 1.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.3\\nvoid main() {\\n    float T = cos( time*mod(floor(vertexId / 2.0) * -mod(vertexId, 2.0) * STEP, NUM_SEGMENTS));\\n\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(time * 0.01) + 5.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.00014, 1.0);\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  pow(count * 0.025, .9);\\n  float innerRadius = pow(count * 0.0005, .2);\\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius*mouse.y;\\n  float oS = sin(orbitAngle + count * 0.01) * innerRadius*mouse.x;\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC + c+oS,\\n      oS + s+c);\\n  gl_Position = vec4(xy * aspect * 0.90161, .1+sin(time), 1);\\n\\n  float b = 1.2 - pow(sin(count * 0.4+T) * 1.3 + 0.7, 1.8);\\n  b = 0.0;mix(0.3, 0.7, b);\\n  v_color = vec4(c, b, sin(T*.1)+c*b, 0.6);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-njkwyn6cyahgjgqk5-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "35"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "fR4sXTYkEnbdJrh7d"
+}

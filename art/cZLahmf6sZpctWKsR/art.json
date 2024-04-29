@@ -1,0 +1,47 @@
+{
+  "_id": "cZLahmf6sZpctWKsR",
+  "owner": {
+    "_id": "Yppm9G5kCnn4TX6MS",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1605217631309"
+      }
+    },
+    "profile": {
+      "first_name": "Eugene",
+      "last_name": "Chen",
+      "avatarUrl": "https://lh4.googleusercontent.com/-1W0Zx2V2YBo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuck7HOEHYTKOuOYfO3JNASLLHC1T0A/s96-c/photo.jpg"
+    },
+    "username": "eugene"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1605219572498"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1605219572498"
+    }
+  },
+  "origId": "6d4uyMnEKnip4oyLR",
+  "name": "tutorial-1-1 grid adjusts with resolution",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9012615341782657"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "eugene",
+  "avatarUrl": "https://lh4.googleusercontent.com/-1W0Zx2V2YBo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuck7HOEHYTKOuOYfO3JNASLLHC1T0A/s96-c/photo.jpg",
+  "settings": "{\"num\":4031,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.06666666666666667,0.25882352941176473,1],\"shader\":\"void main() {\\n\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-k79umvkc3s6yw6xvi-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ME6SYBnmoA7j7Jz6Y"
+}

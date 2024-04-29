@@ -1,0 +1,47 @@
+{
+  "_id": "mc9ScBATcEnpry3q2",
+  "owner": {
+    "_id": "q57ybqisptNvWBAxF",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1527181873171"
+      }
+    },
+    "profile": {
+      "first_name": "Daniel",
+      "last_name": "Doubleday",
+      "avatarUrl": "https://lh3.googleusercontent.com/-qXZbQEgaXn0/AAAAAAAAAAI/AAAAAAAAA6k/Q8oMgqryECw/photo.jpg"
+    },
+    "username": "daniel"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1527181897722"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1527184592952"
+    }
+  },
+  "origId": "BQuWCvhCBBif7Zzmh",
+  "name": "slowmess",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.4485652569808474"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "daniel",
+  "avatarUrl": "https://lh3.googleusercontent.com/-qXZbQEgaXn0/AAAAAAAAAAI/AAAAAAAAA6k/Q8oMgqryECw/photo.jpg",
+  "settings": "{\"num\":10000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/doubleday/milk-run\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() \\n{\\n\\n  float ux = floor(vertexId / 6.0) + mod(vertexId, 2.0);\\n  float vy = mod(floor(vertexId / 2.0) + floor (vertexId / 3.0), 3.0);\\n  \\n  float angle = ux / 50. * radians(180.0) * 2.0;\\n  float radius = vy + 1.0;\\n  \\n  float x = radius * cos(0.2 * sin(0.015 * time) * angle);\\n  float y = radius * sin(0.2 * sin(0.01 * time) * angle);\\n  \\n  \\n  vec2 xy = vec2(x,y);\\n  float snd = texture2D(sound, 0.5 * xy).a;\\n  gl_Position= vec4(snd * xy * 0.2,0, 0.1 * sin(time) + 0.5);\\n  v_color = vec4((sin(0.5 * time)), (sin(time) + 0.5), (sin(cos(0.2 * time)) + 2.) / 2., 1);\\n}\"}",
+  "screenshotURL": "data/images/images-7i4cmaoy4icia2ibl-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "203"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "So9CtcDdddHdZ5N8Q"
+}

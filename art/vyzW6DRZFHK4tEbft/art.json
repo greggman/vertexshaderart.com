@@ -1,0 +1,47 @@
+{
+  "_id": "vyzW6DRZFHK4tEbft",
+  "owner": {
+    "_id": "Fb4jaWH5nhdXuAG2E",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494693086089"
+      }
+    },
+    "profile": {
+      "name": "",
+      "avatarUrl": "https://i1.sndcdn.com/avatars-000201943208-mgxm4x-large.jpg",
+      "info": "Welcome!!!!"
+    },
+    "username": "lambmeow"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1496284924981"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1496284993783"
+    }
+  },
+  "origId": null,
+  "name": "kill me pls ",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0015532495296733"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "lambmeow",
+  "avatarUrl": "https://i1.sndcdn.com/avatars-000201943208-mgxm4x-large.jpg",
+  "settings": "{\"num\":94,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 4.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nfloat rand(float p){\\n  \\treturn fract(sin(p*10000./time));\\n}\\n\\nfloat noise(vec2 p)\\n{\\n  return rand((p.x + p.y) * 1000.00);\\n}\\n\\nvoid main() {\\n  vec2 uv = vec2(tan(time+ vertexId + time),tan(time + vertexId));\\n  gl_Position = vec4(uv,0,1);\\n  gl_PointSize = 100.;\\n  v_color = vec4(1);\\n  v_color.a*= noise(uv *time); \\n  vec3 gle = vec3(rand(vertexId),rand(sin(time)),rand(uv.x));\\n  v_color.rgb *= gle;\\n}\"}",
+  "screenshotURL": "data/images/images-60doqjdxd6io12tco-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "55"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "AjGt32cxLJx8cHQxP"
+}

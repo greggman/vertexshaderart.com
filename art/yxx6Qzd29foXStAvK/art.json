@@ -1,0 +1,46 @@
+{
+  "_id": "yxx6Qzd29foXStAvK",
+  "owner": {
+    "_id": "T3rKtS2pgF26zGC8N",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493502686692"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/samthrasher?s=200"
+    },
+    "username": "samthrasher"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1493615394623"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1493787593709"
+    }
+  },
+  "origId": "2cL3kfaKBExkWc5Le",
+  "name": "sphere",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0430661879889052"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "samthrasher",
+  "avatarUrl": "https://avatars.githubusercontent.com/samthrasher?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"LINE_STRIP\",\"sound\":\"https://soundcloud.com/cultbabies/wait\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define GAMMA 0.454545\\n\\n\\nfloat soundIntensity(float frq){\\n\\treturn texture2D(sound, vec2(frq, 0)).a;\\n}\\n\\nfloat meanIntensity(){\\n  \\tconst float samples = 0.;\\n \\tfloat intensity;\\n    for(float i = 0.; i < samples; i+=1./samples){\\n    \\tintensity += soundIntensity(i);\\n    }\\n\\treturn intensity/samples;\\n}\\n\\nfloat maxIntensity(){\\n  \\tconst float samples = 50.;\\n \\tfloat intensity;\\n    for(float i = 0.; i < samples; i+=1./samples){\\n    \\tintensity = max(intensity, soundIntensity(i));\\n    }\\n\\treturn intensity;\\n}\\n\\n\\nvec3 getVertexColor(){\\n    float phase = mod(time / 2.0, 1.0);\\n\\tfloat vertexRatio = vertexId/vertexCount;\\n \\tfloat r = 0.5 * mod(0.24321 * vertexRatio + phase, 1.0);\\n\\tfloat g = 0.5 * mod(0.13433 * vertexRatio + phase, 1.0);\\n    float b = 0.5 * mod(0.09001 * vertexRatio + phase, 1.0);\\n    return vec3(r, g, b);\\n}\\n\\n\\nvoid main(){\\n  \\tfloat aspect = resolution.x / resolution.y;\\n    float n_y = floor(sqrt(vertexCount));\\n    float n_phi = n_y;\\n    float rad = 0.6;\\n\\tfloat i_y = floor(vertexId/n_y);\\n  \\tfloat i_phi = floor(vertexId - i_y);\\n    float theta = -PI * (-1.0 + 2.0 * i_y / (n_y - 1.0));\\n    float phi = 2.0 * PI * (-1.0 + 2.0 * i_phi / (n_phi - 1.0));\\n    \\n    float phase = mod(time + 0.01*i_phi, 2.0 * PI);\\n    \\n    phi = mod(phi + phase, 2.0 * PI);\\n  \\tfloat y = cos(theta);\\n    float x = sin(theta) * cos(phi);\\n    float z = sin(theta) * sin(phi); \\n  \\n  \\n  \\tfloat vertexRatio = vertexId/vertexCount;\\n    float vertexRadians = vertexRatio * PI * 2.;\\n  \\t\\n    //float x = cos(vertexRadians);\\n    //float y = sin(vertexRadians);\\n    //float z = vertexRatio;\\n\\n  \\n    vec4 position = vec4(\\n      x,\\n      y * aspect,\\n      z,\\n\\t  1.0\\n    );\\n  \\n  \\n    gl_Position = vec4(\\n      x,\\n      y * aspect,\\n      z,\\n      1./soundIntensity(cos(theta)*cos(phi))\\n    );\\n    \\n  \\tv_color = vec4(getVertexColor(), 0.5);\\n  \\n  \\tfloat frequencyScale = 6.;\\n  \\t//gl_PointSize = pow(soundIntensity(0.075*pow(vertexRatio+0.5,frequencyScale))+1.1, 7.);\\n    gl_PointSize = 8.0;\\n}\"}",
+  "screenshotURL": "data/images/images-op7jaflfesgfojan4-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "11"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "MNmwAJ6QJrDr6mkwd"
+}

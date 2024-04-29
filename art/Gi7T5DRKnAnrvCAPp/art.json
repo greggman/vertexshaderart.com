@@ -1,0 +1,36 @@
+{
+  "_id": "Gi7T5DRKnAnrvCAPp",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1494422152151"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1494422152151"
+    }
+  },
+  "origId": "SFmNpx7c5RxJxfEnq",
+  "name": "lesson1",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3552830158192357"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main () {\\n  gl_Position = vec4(0,0,0,1);\\n  gl_PointSize = 10.0;\\n  \\n\\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-ox37r3fjrn3k07549-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "60"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "wCHASHva6oaFpzcQK"
+}

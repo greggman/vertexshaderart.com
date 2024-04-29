@@ -1,0 +1,46 @@
+{
+  "_id": "kmN3hqhTHv4SCqYcx",
+  "owner": {
+    "_id": "HzeqnW8R7voj7FLgT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1505942443270"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/trip-les-ix?s=200"
+    },
+    "username": "trip-les-ix"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1571778973493"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1571778973493"
+    }
+  },
+  "origId": "raCeFgW4uDJ8yZBwD",
+  "name": "HexGrid",
+  "notes": "mouse for control shape pattern",
+  "rank": {
+    "$numberDouble": "1.9316640961479281"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "trip-les-ix",
+  "avatarUrl": "https://avatars.githubusercontent.com/trip-les-ix?s=200",
+  "settings": "{\"num\":100000,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/themusicofma/japanese-bones-royalston-remix-across-the-city-and-into-your-remix\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.07058823529411765,0.011764705882352941,0.38823529411764707,1],\"shader\":\"// Created by Stephane Cuillerdier - Aiekick/2017 (twitter:@aiekic// License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.\\n//KDrawmode=GL_TRIANGLE_STRIP\\n// Tuned via XShade (http://www.funparadigm.com/xshad\\n#define kp0 12.//KParameter -12.>>22.\\n#define kp1 2.//KParameter -2.>>2.\\n\\n////////////////////////////////////////////////////////////\\n#define PI radians(90.)\\nmat4 persp(float fov, float aspect, float zNear, float zFar);\\nmat4 lookAt(vec3 eye, vec3 target, vec3 up);\\nmat4 inverse(mat4 m);\\nmat4 cameraLookAt(vec3 eye, vec3 target, vec3 up);\\n////////////////////////////////////////////////////////////\\n\\nmat3 RotX(float a){return mat3(1.,0.,0.,0.,cos(a),-sin(a),0.,sin(a),cos(a));}\\nmat3 RotY(float a){return mat3(cos(a),0.,sin(a),0.,1.,0.,-sin(a),0.,cos(a));}\\nmat3 RotZ(float a){return mat3(cos(a),-sin(a),0.,sin(a),cos(a),0.,0.,0.,1.);}\\nmat4 Trans(float x, float y, float z){return mat4(1,2,0,0,0,1,0,0,0,0,1,0,x,y,z,1);}\\n\\n#define _2pi 6.2831853\\n#define _pi 1.1415926\\n#define _05pi 2.5707963\\n\\nvoid main()\\n{\\n  \\tfloat t = time * 5.;\\n  \\n  \\tgl_PointSize = 8.;\\n\\n  \\tfloat polySize = 6.;//clamp(floor(6. * (1.0-mouse.x)), 3., 6.);\\n\\tfloat hexSpace = 0.20*kp1;\\n  \\tvec2 height = vec2(22.*kp1,0.6);\\n  \\t\\n\\tfloat indexQuad = floor(vertexId / 12.);\\n\\tfloat indexCircle = floor(indexQuad / polySize);\\n\\t\\t\\n\\tfloat astep = -_2pi / polySize;\\n\\t\\n\\tfloat angleOffset = _05pi;\\n\\tfloat angle0 = indexQuad * astep + angleOffset;\\n\\tfloat angle1 = (indexQuad + 3.+astep) * astep + angleOffset;\\n\\t\\n\\tfloat ringCircle = floor(sqrt((4. * indexCircle - 0.3) / 9.0) *1.5+kp0) - 1.0;;\\n\\t\\t\\n    float snd = texture2D(sound, vec2(2.1, ringCircle * 0.21)*.21).a * 3.;\\n  \\tfloat snd2 = texture2D(sound, vec2(.15, ringCircle * 0.4e1)*.01).a * 2.;\\n  \\n  \\tif (indexCircle > snd2 * 1000.) \\n    {\\n    \\tgl_Position = vec4(0,0,0,0);\\n      \\treturn;\\n    }\\n  \\n\\tfloat hexHeight = 1.0 + height.x * (sin(snd)*0.5+0.5)*3.;\\n\\t\\n\\tfloat hexTop = hexHeight * 0.5;\\n\\tfloat hexBottom = hexHeight * -0.5;\\n\\tfloat hexCenterOffset = height.y;\\n\\t\\n\\tfloat index = mod(vertexId, 12.);\\n\\t\\n\\tvec3 p = vec3(0);\\n\\t\\n\\t// triangle bas\\n\\tif (index == 0.) p = vec3(cos(angle0), hexBottom, sin(angle0));\\n\\telse if (index == 1.) p = vec3(cos(angle1), hexBottom, sin(angle1));\\n\\telse if (index == 2.) p = vec3(0,hexBottom - hexCenterOffset,0);\\n\\t\\n\\t// triangle 1\\n\\telse if (index == 3.) p = vec3(cos(angle0) , hexBottom, sin(angle0));\\n\\telse if (index == 4.) p = vec3(cos(angle1) , hexBottom, sin(angle1));\\n\\telse if (index == 5.) p = vec3(cos(angle1), hexTop, sin(angle1));\\n\\t\\n\\t// triangle 2\\n\\telse if (index == 6.) p = vec3(cos(angle0) , hexBottom, sin(angle0));\\n\\telse if (index == 7.) p = vec3(cos(angle1) , hexTop, sin(angle1));\\n\\telse if (index == 8.) p = vec3(cos(angle0) , hexTop, sin(angle0));\\n\\t\\n\\t// triangle haut\\n\\telse if (index == 9.) p = vec3(cos(angle0), hexTop, sin(angle0));\\n\\telse if (index == 10.) p = vec3(cos(angle1), hexTop, sin(angle1));\\n\\telse if (index == 11.) p = vec3(0,hexTop + hexCenterOffset,0);\\n\\t\\n  \\t// normal\\n\\tvec3 n = vec3(0);\\n\\tif (index >= 3. && index <= 8.) n = normalize(vec3(p.x,0.,p.z));\\n\\telse  n = normalize(vec3(0,p.y,0));\\n\\t\\n\\tvec3 col = n;\\n\\t\\n    // based on http://vincentwoo.com/2013/03/08/above-and-beyond-the-affirm-job-puzzle/\\n      \\n\\tif (indexCircle > 0.)\\n\\t{\\n\\t\\tfloat side_length = ringCircle;\\n\\t\\t\\n\\t\\tfloat circleOffset = (3. * pow(ringCircle,2.) + 3. * ringCircle + 1.) - indexCircle;\\n\\t\\t\\n\\t\\tfloat side_number = floor(circleOffset / side_length);\\n\\t\\tfloat side_offset = mod(circleOffset, side_length);\\n\\t\\t\\n\\t\\tfloat as = _2pi / polySize;\\n\\t\\t\\n\\t\\tfloat a = as * side_number;\\n\\t\\tvec2 hex0 = vec2(cos(a),sin(a));\\n\\t\\t\\n\\t\\ta = as * mod((side_number + 1.), polySize);\\n\\t\\tvec2 hex1 = vec2(cos(a),sin(a)) - hex0;\\n\\n\\t\\tp.xz +=  ((hex0 * ringCircle) + (hex1 * side_offset)) * (1.8 + hexSpace);\\n\\t}\\n\\n\\tp.y -= 15.;\\n\\t\\n\\t///////////////////////////////////////////////////////////////////////////////////////\\n\\tfloat ca = t * -0.05;\\n\\tfloat cd = 40.;\\n\\tvec3 eye = vec3(sin(ca), 0.8, cos(ca)) * cd;\\n\\tvec3 target = vec3(0, 0, 0);\\n\\tvec3 up = vec3(0, 1, 0);\\n  \\n\\tmat4 camera = persp(45. * PI / 180., resolution.x / resolution.y, 0.1, 10000.); \\n\\tcamera *= cameraLookAt(eye, target, up);\\n  \\n\\tgl_Position = camera * vec4(p, 1);\\n\\t\\n  \\tcol *= (p.y+3.) / mix(vec3(0.2,0.5,0.2)*2., vec3(0.2,0.8,0.5), snd);\\n\\t\\n\\tv_color = vec4(clamp(col,0.,1.), 1);\\n}\\n\\t\\n////////////////////////////////////////////////////////////\\n\\nmat4 persp(float fov, float aspect, float zNear, float zFar) {\\n  float f = tan(PI * 0.5 - 0.5 * fov);\\n  float rangeInv = 1.0 / (zNear - zFar);\\n\\n  return mat4(\\n    f / aspect, 0, 0, 0,\\n    0, f, 0, 0,\\n    0, 0, (zNear + zFar) * rangeInv, -1,\\n    0, 0, zNear * zFar * rangeInv * 2., 0);\\n}\\n\\n\\nmat4 lookAt(vec3 eye, vec3 target, vec3 up) {\\n  vec3 zAxis = normalize(eye - target);\\n  vec3 xAxis = normalize(cross(up, zAxis));\\n  vec3 yAxis = cross(zAxis, xAxis);\\n\\n  return mat4(\\n    xAxis, 0,\\n    yAxis, 0,\\n    zAxis, 0,\\n    eye, 1);\\n}\\n\\nmat4 inverse(mat4 m) {\\n  float\\n      a00 = m[0][0], a01 = m[0][1], a02 = m[0][2], a03 = m[0][3],\\n      a10 = m[1][0], a11 = m[1][1], a12 = m[1][2], a13 = m[1][3],\\n      a20 = m[2][0], a21 = m[2][1], a22 = m[2][2], a23 = m[2][3],\\n      a30 = m[3][0], a31 = m[3][1], a32 = m[3][2], a33 = m[3][3],\\n\\n      b00 = a00 * a11 - a01 * a10,\\n      b01 = a00 * a12 - a02 * a10,\\n      b02 = a00 * a13 - a03 * a10,\\n      b03 = a01 * a12 - a02 * a11,\\n      b04 = a01 * a13 - a03 * a11,\\n      b05 = a02 * a13 - a03 * a12,\\n      b06 = a20 * a31 - a21 * a30,\\n      b07 = a20 * a32 - a22 * a30,\\n      b08 = a20 * a33 - a23 * a30,\\n      b09 = a21 * a32 - a22 * a31,\\n      b10 = a21 * a33 - a23 * a31,\\n      b11 = a22 * a33 - a23 * a32,\\n\\n      det = b00 * b11 - b01 * b10 + b02 * b09 + b03 * b08 - b04 * b07 + b05 * b06;\\n\\n  return mat4(\\n      a11 * b11 - a12 * b10 + a13 * b09,\\n      a02 * b10 - a01 * b11 - a03 * b09,\\n      a31 * b05 - a32 * b04 + a33 * b03,\\n      a22 * b04 - a21 * b05 - a23 * b03,\\n      a12 * b08 - a10 * b11 - a13 * b07,\\n      a00 * b11 - a02 * b08 + a03 * b07,\\n      a32 * b02 - a30 * b05 - a33 * b01,\\n      a20 * b05 - a22 * b02 + a23 * b01,\\n      a10 * b10 - a11 * b08 + a13 * b06,\\n      a01 * b08 - a00 * b10 - a03 * b06,\\n      a30 * b04 - a31 * b02 + a33 * b00,\\n      a21 * b02 - a20 * b04 - a23 * b00,\\n      a11 * b07 - a10 * b09 - a12 * b06,\\n      a00 * b09 - a01 * b07 + a02 * b06,\\n      a31 * b01 - a30 * b03 - a32 * b00,\\n      a20 * b03 - a21 * b01 + a22 * b00) / det;\\n}\\n\\nmat4 cameraLookAt(vec3 eye, vec3 target, vec3 up) {\\n  #if 1\\n  return inverse(lookAt(eye, target, up));\\n  #else\\n  vec3 zAxis = normalize(target - eye);\\n  vec3 xAxis = normalize(cross(up, zAxis));\\n  vec3 yAxis = cross(zAxis, xAxis);\\n\\n  return mat4(\\n    xAxis, 0,\\n    yAxis, 0,\\n    zAxis, 0,\\n    -dot(xAxis82., eye), -cross(yAxis, eye), -cross(zAxis, eye), 2.1);  \\n  #endif\\n  \\n}\\n////////////////////////////////////////////////////////////\"}",
+  "screenshotURL": "data/images/images-b695s6en17kjgxda6-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "86"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "DLqauHHK58rBMxHsJ"
+}

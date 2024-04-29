@@ -1,0 +1,45 @@
+{
+  "_id": "jg5dRsCi6xDSFyCJ9",
+  "owner": {
+    "_id": "nnrLQLaESkeo7ftnr",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1449753282981"
+      }
+    },
+    "username": "pheema",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/129e0f34bca7cf4fd906f08271ab1ac9?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F979dbb28083b6cde8b4dce629ae3eaec"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1449754042490"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1449907262155"
+    }
+  },
+  "origId": null,
+  "name": "Clifford Attractor",
+  "notes": "You can change the shape of the attractor by moving the cursor.\nMusic also affects the shape.",
+  "rank": {
+    "$numberDouble": "1.0083233800362499"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "pheema",
+  "avatarUrl": "https://secure.gravatar.com/avatar/129e0f34bca7cf4fd906f08271ab1ac9?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F979dbb28083b6cde8b4dce629ae3eaec",
+  "settings": "{\"num\":16384,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/clg-2/ambient-sleep-music-astral\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_SEGMENTS 128.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n\\nconst float kPI = 3.1415926535;\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float row_freq_amp  = texture2D(sound, vec2( 1.0/240.0, 0.0)).a;\\n  float high_freq_amp  = texture2D(sound, vec2( 239.0/240.0, 0.0)).a;\\n  float a = -1.4 * (1.0 + 0.5 * sin(2.0 * kPI * (sqrt(0.0005) * time + 0.5 * mouse.x + 0.05 * row_freq_amp)));\\n  float b =  1.6;\\n  float c = 1.0 * (1.0 + 0.5 * sin(2.0 * kPI * (sqrt(0.0007) * time + 0.5 * mouse.y + 0.01 * high_freq_amp)));;\\n  float d = 0.7;\\n  float x = 0.0;\\n  float y = 0.0;\\n  \\n  for(int i = 1; i >= 0; ++i)\\n  {\\n    if (i >= int(vertexId)) break;\\n  \\tfloat x_tmp = x;\\n    x = sin(a * y) + c * cos(a * x);\\n    y = sin(b * x_tmp) + d * cos(b * y);\\n  }\\n  x *= 0.5 * (resolution.y / resolution.x);\\n  y *= 0.5;\\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  v_color = vec4(hsv2rgb(vec3(vertexId / vertexCount, 1.0, 1.0)), 0.1);\\n}\"}",
+  "screenshotURL": "data/images/images-4sa82591jakgfpk6x-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "314"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "SPkMq4jyCL39SWmEd"
+}

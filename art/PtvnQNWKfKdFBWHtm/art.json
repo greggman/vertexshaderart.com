@@ -1,0 +1,48 @@
+{
+  "_id": "PtvnQNWKfKdFBWHtm",
+  "owner": {
+    "_id": "aQGBaB28tNPpoJahx",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1523273254098"
+      }
+    },
+    "profile": {
+      "first_name": "Brendon",
+      "last_name": "Conradie",
+      "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
+      "info": "Wannabe graphics programmer working in the mobile gaming industry"
+    },
+    "username": "brendon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1528976791917"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1528976791917"
+    }
+  },
+  "origId": null,
+  "name": "Static Square Vibes",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5733103331448712"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "brendon",
+  "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
+  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n\\n\\nvoid main() {\\n  float maxPoints = 10.0;\\n  float currentCircle = mod(vertexId, maxPoints) * 0.1;\\n  float norm = vertexId / vertexCount;\\n  float theta = norm * 6.28;\\n  float speed = norm * 10.0;\\n  \\n  float vx = cos(theta * time * time) * currentCircle;\\n  float vy = sin(theta * time) * currentCircle;\\n  \\n  float x = 0.0;\\n  float y = 0.0;\\n  \\n  x += vx;\\n  y += vy;\\n  \\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  gl_PointSize = norm * 2.0;\\n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-v4kwzxcfw97asec9e-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "L6L2RrEKTt9pQCY5n"
+}

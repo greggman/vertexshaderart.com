@@ -1,0 +1,46 @@
+{
+  "_id": "M3TQnRJ4QA4c5vpBc",
+  "owner": {
+    "_id": "cGitjsPbKTLpgcwNJ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1520745365976"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/monguri?s=200"
+    },
+    "username": "monguri"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1520747519603"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1520749971523"
+    }
+  },
+  "origId": null,
+  "name": "quad test",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0803909668687972"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "monguri",
+  "avatarUrl": "https://avatars.githubusercontent.com/monguri?s=200",
+  "settings": "{\"num\":4,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"vec2 getPosition(vec2 resolution, float index)\\n{\\n\\tfloat signX = ((index < 2.0) ? -1.0 : 1.0);\\n\\tfloat signY = ((index == 0.0 || index == 3.0) ? -1.0 : 1.0);\\n\\treturn vec2(\\n\\t\\tresolution.x * 0.25 * signX * 0.001,\\n\\t\\tresolution.x * 0.25 * signY * 0.001\\n\\t);\\n}\\n  \\nvoid main() {\\n\\tgl_Position = vec4(getPosition(resolution, vertexId).xy, 0, 1);\\n\\tv_color = vec4(1, 1, 1, 1);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-j0ouh0mux015s1cot-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "166"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "QXWWZnTQ4j5Paryf7"
+}

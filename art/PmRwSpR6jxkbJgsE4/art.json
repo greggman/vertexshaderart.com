@@ -1,0 +1,44 @@
+{
+  "_id": "PmRwSpR6jxkbJgsE4",
+  "owner": {
+    "_id": "aRcuym3jqDR3e796n",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1446288834244"
+      }
+    },
+    "profile": {
+      "name": "Clément Duquesne",
+      "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
+    },
+    "username": "spotline"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1447264518163"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1447264518163"
+    }
+  },
+  "origId": "87jiR2yJj3v4JHQGX",
+  "name": "modern_fireplace",
+  "private": false,
+  "username": "spotline",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/spotline/resting-at-the-mainframes-inn-ft-hirundo\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define K 1.0594630943592952645618\\n\\nvec4 hueRamp(vec4 col)\\n{\\n  vec4 blu = vec4(0.1,0.05,0.1,1.0);\\n  vec4 red = vec4(0.5,0.1,0.1,1.0);\\n  vec4 result = mix(blu,red,col.a*60.0-0.1);\\n  return result;\\n}\\n\\nvoid main() \\n{\\n  float W = 400.0;\\n  float H = 250.0;\\n  float u = 0.0;\\n  float v = 0.0;\\n  u = mod(vertexId/W,1.0);\\n  v = floor(vertexId/W)/H;\\n  float uScaled = pow(2.0,u*0.17)-1.0;\\n  float vScaled = pow(abs(v-0.5)*1.0,1.3);\\n  \\n  v_color = vec4(pow(texture2D(sound,vec2(uScaled,vScaled)).a,8.0));\\n  v_color = hueRamp(v_color);\\n  \\n  float x = v*-2.0 + 1.0;\\n  float y;\\n  y = u*2.0 - 0.8  + 0.5*pow(x,2.0);\\n  gl_PointSize = 12.0;\\n  gl_Position = vec4(x,y,0,1);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-nbty2jodhfck9lmdx-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "718"
+  },
+  "likes": {
+    "$numberInt": "5"
+  },
+  "revisionId": "RLrjXYtWYNYE5v9pC",
+  "rank": {
+    "$numberDouble": "10.70371438598631"
+  },
+  "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
+}

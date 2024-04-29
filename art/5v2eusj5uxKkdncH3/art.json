@@ -1,0 +1,47 @@
+{
+  "_id": "5v2eusj5uxKkdncH3",
+  "owner": {
+    "_id": "R9EHNouGunG3qn6Ze",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1574786267418"
+      }
+    },
+    "profile": {
+      "first_name": "Manicacci",
+      "last_name": "François-Marie",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mDyfFoqitxTWo-qZKhCHoB-NGUHXoLZQXHkfafGQA"
+    },
+    "username": "manicacci"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1574786273036"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1574786273036"
+    }
+  },
+  "origId": null,
+  "name": "learning",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6374902319563915"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "manicacci",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mDyfFoqitxTWo-qZKhCHoB-NGUHXoLZQXHkfafGQA",
+  "settings": "{\"num\":5000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#ifndef GL_ES\\nprecision mediump float;\\n#endif\\n\\nvoid main() {\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-iap57hz9j570r2k0e-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "nJ4W2R6cBT2uAYX4y"
+}

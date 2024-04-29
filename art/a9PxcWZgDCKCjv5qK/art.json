@@ -1,0 +1,46 @@
+{
+  "_id": "a9PxcWZgDCKCjv5qK",
+  "owner": {
+    "_id": "MEn2bK8navo8QQHYf",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684321859878"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/JongHyeon-Lee-Digipen?s=200"
+    },
+    "username": "jonghyeon-lee-digipen"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684322954383"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684322954383"
+    }
+  },
+  "origId": null,
+  "name": "Making a Grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.4799598003589154"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "jonghyeon-lee-digipen",
+  "avatarUrl": "https://avatars.githubusercontent.com/JongHyeon-Lee-Digipen?s=200",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"//Name: JongHyeon Lee\\n//Assignment: Making a Grid\\n//Course: CS250\\n//Term: Spring 2023\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-13mmf9wpnk8x7jrqp-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "30"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "2uhkwAE8fHDKCzqnb"
+}

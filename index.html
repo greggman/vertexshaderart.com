@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<title>vertexshaderart</title>
+<style>
+  :root {
+    color-scheme: dark;
+  }
+  html, body {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+  }
+  #banner {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  input {
+    width: 100%;
+    background-color: #222;
+    border: none;
+  }
+  #toc {
+    margin: 0 auto;
+    display: inline-block;
+    width: fit-content;
+  }
+  #toc>div {
+    display: inline-block;
+    width: 400px;
+    padding: 5px;
+  }
+  .thumbnail {
+    width: 400px;
+    height: 240px;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .meta a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+</style>
+<script defer type="module" src="src/js/browser.js"></script>
+  </head>
+  <body>
+    <div id="banner"><div>vertexshaderart.com</div><a href="https://github.com/greggman/vertexshadeart.com">github</a></div>
+    <div id="search"><input type="text" placeholder="?"></div>
+    <div id="toc"></div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "_id": "eLAMSS8iwH7ip3sS6",
+  "owner": {
+    "_id": "yumJxCTi3otBwEFh4",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1618264688331"
+      }
+    },
+    "username": "chriscamplin",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/5798c9f697b3fea48de32ade2ba3e54c?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1619965535529"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1619970565654"
+    }
+  },
+  "origId": null,
+  "name": "Montara",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5582646465341958"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "chriscamplin",
+  "avatarUrl": "https://secure.gravatar.com/avatar/5798c9f697b3fea48de32ade2ba3e54c?default=retro&size=200",
+  "settings": "{\"num\":61555,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/7t2names/the-power-tareq-remix\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_SEGMENTS 28.0\\n#define NUM_POINTS (NUM_SEGMENTS * 4.0)\\n#define PI 3.14159265359\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nmat2 rotate2D(float _a) {\\n\\treturn mat2(cos(_a), sin(_a), -sin(_a), cos(_a));\\n}\\n\\nmat4 rotX(float angle) {\\n\\n    float s = sin( angle );\\n    float c = cos( angle );\\n\\n    return mat4(\\n      1, 0, 0, 0,\\n      0, c, s, 0,\\n      0,-s, c, 0,\\n      0, 0, 0, 1);\\n}\\n\\nmat4 rotY( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\n\\nvoid main() {\\n  float numLinesDown = floor(vertexCount / NUM_POINTS);\\n  // produces 0,1, 1,2, 2,3, ...\\n  float point = floor(mod(vertexId, NUM_POINTS) / 2.0) + mod(vertexId, 2.0);\\n  // line count\\n  float count = floor(vertexId / NUM_POINTS);\\n\\n  float u = point / NUM_SEGMENTS;  // 0 <-> 1 across line\\n  float v = count / numLinesDown;  // 0 <-> 1 by line\\n  float invV = 1.0 - v;\\n  float s = sin(time * 0.25/2.0)/2.0 +0.25;\\n  // Only use the left most 1/4th of the sound texture\\n  // because there's no action on the right\\n  float historyX = u * 0.25;\\n  // Match each line to a specific row in the sound texture\\n  float historyV = (v * numLinesDown + 0.5) / soundRes.y;\\n  float snd = texture2D(sound, vec2(historyX, historyV)).a;\\n  float x = u * fract(time / PI * 0.25) - 1.0 * snd;\\n  float y = v * fract(time / PI * 0.25) - 1.0 * snd * s;\\n  float xOff = sin(PI * count + x * 0.35) * 2.0;\\n  float yOff = cos(PI * count + y * 0.005) * 6.0;\\n  vec2 xy = vec2(\\n      x * mix(yOff, s * snd, invV),\\n      y + mod(snd * 2.0, 5.0 * xOff) * 1.0) / (v + xOff);\\n  gl_PointSize = snd * 20. - xOff - yOff; \\n  gl_PointSize *= 20.0 / numLinesDown *snd; \\n  gl_PointSize *= resolution.x / 30. * xOff; \\n  xy -= vec2(0.5);\\n  xy *= rotate2D(snd * PI * 2.0);\\n  xy += vec2(0.5);\\n  //xy.normalize();\\n  gl_Position = vec4(xy, xOff , yOff);\\n  xy -= vec2(0.5);\\n  //xy *= rotate2D(-snd * -PI * -2.0);\\n  xy += vec2(0.5);\\n  float hue = snd;\\n  float sat = invV;\\n  float val = invV;\\n  vec4 color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n  //color *= rotY(PI * snd * 2.);\\n  v_color = mix(color, background, v * v);\\n}\"}",
+  "screenshotURL": "data/images/images-eftxxh3r2qrv46yb1-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "61"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Fn6ty655n9ne2EsYa"
+}

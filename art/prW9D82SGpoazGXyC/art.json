@@ -1,0 +1,36 @@
+{
+  "_id": "prW9D82SGpoazGXyC",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1694082641022"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1694082641022"
+    }
+  },
+  "origId": null,
+  "name": "BouncingRuler",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7409782175683735"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/david-wurden/popcorn-dreams?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n\\n  vec2 xy = vec2(0.0,0.0);\\n\\n\\n  if (vertexId < 2.0) {\\n  \\txy = vec2(vertexId - 0.5,0.0);\\n  } else {\\n    xy = vec2(vertexId/100.0 - 0.5, mod(vertexId, 2.0) - 0.5 );\\n\\n    float s = texture2D(sound, (xy+ vec2(0.5,0.5))*0.2).a;\\n    xy.y +=s;\\n\\n  }\\n  \\n  \\n  \\n  gl_Position = vec4(xy * 0.5, 0, 1);\\n\\n  v_color = vec4(1.0,1.0,1.0,1.0)\\n}\"}",
+  "screenshotURL": "data/images/images-mekiw39krlj07ju1k-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "48"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "49rZskGsSoKWRn3ed"
+}

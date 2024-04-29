@@ -1,0 +1,45 @@
+{
+  "_id": "S69GThF6s72FaScEz",
+  "owner": {
+    "_id": "kxWiXJRdSz5aEp6wK",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1687622868608"
+      }
+    },
+    "username": "sherrysmcguire",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/e564d0b2c878b6e32f2020459dc1c7b6?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1687641281615"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1687641281615"
+    }
+  },
+  "origId": null,
+  "name": "tut01_grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8288977469861973"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "sherrysmcguire",
+  "avatarUrl": "https://secure.gravatar.com/avatar/e564d0b2c878b6e32f2020459dc1c7b6?default=retro&size=200",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n\\t  \\n  gl_Position = vec4(0, 0, 0, 1);\\n  gl_PointSize = 10.0;\\n  v_color = vec4(1, 0, 0, 1);\\n  \\n  \\n  \\n}\"}",
+  "screenshotURL": "data/images/images-afd0f4udclu71n3zk-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "6wCp84EAXHsYMYTFB"
+}

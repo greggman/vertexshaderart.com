@@ -1,0 +1,44 @@
+{
+  "_id": "aigbErpiobPHWcME4",
+  "owner": {
+    "_id": "aRcuym3jqDR3e796n",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1446288834244"
+      }
+    },
+    "profile": {
+      "name": "Clément Duquesne",
+      "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
+    },
+    "username": "spotline"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1447277713581"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1447279834557"
+    }
+  },
+  "origId": "87jiR2yJj3v4JHQGX",
+  "name": "landscape",
+  "private": true,
+  "username": "spotline",
+  "settings": "{\"num\":10095,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/spotline/residual-light\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.00784313725490196,0.09019607843137255,1],\"shader\":\"void main() \\n{\\n  float quadId = floor(vertexId/6.0);\\n  float quadRole = floor(mod(vertexId,6.0));\\n  float unit = 1.0/vertexCount/6.0;\\n  \\n  float quadIdRoleBonus = 0.0;\\n  \\n  if(quadRole == 0.0)\\n  {\\n  }\\n  else if (quadRole == 1.0)\\n  {\\n  }\\n  else if (quadRole == 2.0)\\n  {\\n    quadIdRoleBonus = 1.0;\\n  }\\n    else if (quadRole == 3.0)\\n  {\\n  }\\n    else if (quadRole == 4.0)\\n  {\\n    quadIdRoleBonus = 1.0;\\n  }\\n    else if (quadRole == 5.0)\\n  {\\n    quadIdRoleBonus = 1.0;\\n  }\\n  \\n  float u = (quadId+quadIdRoleBonus)/(vertexCount/6.0);\\n  float v = 2.0*pow(texture2D(sound,vec2(u*0.05,0.0)).a,6.0);\\n  \\n  float x = u * 2.0 - 1.0;\\n  float y = v * 1.0 - 0.5;\\n  gl_PointSize = 5.0;\\n  gl_Position = vec4(x,y,0,1);\\n  float lum = floor(v *10.0 + 0.5)/5.0;\\n  v_color = vec4(1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-vzvxu577fslk62tms-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "zPwC8jXfjfpssXv6G",
+  "rank": {
+    "$numberDouble": "1.9968671161522416"
+  },
+  "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
+}

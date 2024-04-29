@@ -1,0 +1,45 @@
+{
+  "_id": "aDjRo3j6NPWb6isz6",
+  "owner": {
+    "_id": "iFSyTSHmeekk4Ga75",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1683697855014"
+      }
+    },
+    "username": "minkicho",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/d60bba6d40dad392ba0244fbcca8d579?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684304186739"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684304186739"
+    }
+  },
+  "origId": null,
+  "name": "Exercise Making A Grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0176899304948581"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "minkicho",
+  "avatarUrl": "https://secure.gravatar.com/avatar/d60bba6d40dad392ba0244fbcca8d579?default=retro&size=200",
+  "settings": "{\"num\":16384,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Minki Cho\\n// Exercise Making A Grid\\n// CS250 Spring 2022\\n\\nvoid main(){\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount /down);\\n  float x = mod(vertexId ,across);\\n  float y = floor(vertexId/across);\\n  \\n  float u= x /(across-1.);\\n  float v= y/(across-1.);\\n  \\n  float ux = u* 2. -1.;\\n  float vy = v* 2.-1.;\\n  \\n  gl_Position = vec4(ux,vy,0,1);\\n  gl_PointSize = 10.0;\\n  \\n  gl_PointSize *= 20. /across;\\n  gl_PointSize *= resolution.x /600.;\\n  \\n  \\n  v_color = vec4(1,0,0,1);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-um3y19xdyza2v2n5q-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "mikzNwTxohS3q7pge"
+}

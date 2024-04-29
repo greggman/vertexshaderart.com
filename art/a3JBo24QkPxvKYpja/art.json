@@ -1,0 +1,46 @@
+{
+  "_id": "a3JBo24QkPxvKYpja",
+  "owner": {
+    "_id": "a3PnYPa8MGo9QSALX",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667032560256"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/JarredTheCoder?s=200"
+    },
+    "username": "jarredthecoder"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669434220197"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1669434220197"
+    }
+  },
+  "origId": null,
+  "name": "yellolong",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8312064622203064"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "jarredthecoder",
+  "avatarUrl": "https://avatars.githubusercontent.com/JarredTheCoder?s=200",
+  "settings": "{\"num\":61995,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n  float vc = vertexCount / 11.;\\n  \\n  float x = mod(vertexId, vc);\\n  float y = floor(vertexId / vc);\\n  \\n  float u = x / vc;\\n  float v = y /  vc;\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = y * 2. - 1.;\\n  \\n  float snd = texture2D(sound, vec2(ux, vy)).a;\\n  \\n  gl_PointSize = 50.0;\\n  gl_Position = vec4(ux,vy-snd,0.5,1);\\n  v_color = vec4(10,5,0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-43d7yf6za24synjei-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "62"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "FnSX32hoB56bkMKes"
+}

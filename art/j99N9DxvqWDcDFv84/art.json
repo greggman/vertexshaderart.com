@@ -1,0 +1,45 @@
+{
+  "_id": "j99N9DxvqWDcDFv84",
+  "owner": {
+    "_id": "dGy5QaokhfRCbYaGw",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1659646292396"
+      }
+    },
+    "username": "der",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/3edd222097c4b36118a8d5f5ab65ddb6?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1659754785453"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1659836892047"
+    }
+  },
+  "origId": null,
+  "name": "Audio reactive spiral",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0106886497985808"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "der",
+  "avatarUrl": "https://secure.gravatar.com/avatar/3edd222097c4b36118a8d5f5ab65ddb6?default=retro&size=200",
+  "settings": "{\"num\":79575,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/the-hypnotic-645693290/relentless?in=the-hypnotic-645693290/sets/the-hypnotic-vol-2\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//From VertexShaderArt Boilerplate Library: https://www.vertexshaderart.com/art/qjkP6BDvEFyD6CfZC\\nmat4 uniformScale(float s) {\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, 1);\\n}\\n\\nvoid main() {\\n  float angle = vertexId / 1000.0;\\n  float radius = vertexId / 80000.0;\\n\\n  float drums = texture2D(sound, vec2(0.55, 0.0)).a / 3.0 + 1.0;\\n\\n  float aspect = resolution.y / resolution.x;\\n\\n  gl_Position = uniformScale(drums) * vec4(cos(angle) * radius * aspect, sin(angle) * radius, 0.0, 1.0);\\n\\n  float snd = texture2D(sound, vec2(0.55, vertexId / vertexCount)).a;\\n\\n  float pump = 1.0 + step(0.1, snd);\\n\\n  gl_PointSize = 1.0 + pump * mix(0.0, 10.0, snd);\\n\\n  v_color = vec4(mix(0.2, 1.0, sin(time / 2.0) * 0.5 + 0.5), 0.7, 1.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-nee0gifh0v66fw051-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "15"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "aEdoawsgCi4PMitjc"
+}

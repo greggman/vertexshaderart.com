@@ -1,0 +1,36 @@
+{
+  "_id": "EbKX65r26sjm5sY7t",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551479888435"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551479888435"
+    }
+  },
+  "origId": "DAbuH7yJ5d3GwDGhw",
+  "name": "the tangled webs I weave",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9645981265508488"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"// hash functions\\n\\n\\n\\nvoid main() {\\n  float width = 10.0;\\n  \\n  float x = mod(vertexId, width) * 0.05;\\n  float y = vertexId * 0.05;\\n  \\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 20.0;\\n}\\n\"}",
+  "screenshotURL": "data/images/images-xani5rh2cgjij2zqt-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "39"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "2BCjWcknKhPyRikok"
+}

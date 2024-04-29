@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+    <meta property="og:title" content="vertexshaderart.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://vertexshaderart.com/static/resources/images/vertexshaderart.png" />
+    <meta property="og:description" content="vertexshaderart.com" />
+    <meta property="og:url" content="http://vertexshaderart.com" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@greggman">
+    <meta name="twitter:creator" content="@greggman">
+    <meta name="twitter:domain" content="vertexshaderart.com">
+    <meta name="twitter:title" content="vertexshaderart.com">
+    <meta name="twitter:url" content="http://vertexshaderart.com">
+    <meta name="twitter:description" content="vertexshaderart.com">
+    <meta name="twitter:image:src" content="http://vertexshaderart.com/static/resources/images/vertexshaderart.png">
+
+    <title>vertexshaderart.com</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="/static/resources/images/vertexshaderart-icon.png" rel="shortcut icon" type="image/png">
+  </head>
+  <body>
+    <div id="art">
+      <canvas id="c"></canvas>
+    </div>
+    <div id="screenshot"></div>
+    <div id="uicontainer">
+      <div id="ui">
+        <div id="vsa">
+          <a target="_blank" href="/">vertexshaderart.com</a>
+          <button class="play"></button>
+          <button class="fullscreen tooltip-bottom" data-tooltip="fullscreen"><img src="/static/resources/images/fullscreen.svg"/></button>
+        </div>
+        <div id="toolbar">
+          <button id="uimode">UI</button>
+          <ul class="dropdownmenu uimodedropdown">
+            <li><a id="ui-off" href="#"><img src="/static/resources/images/ui-off.svg"/></a></li>
+            <li><a id="ui-one" href="#"><img src="/static/resources/images/ui-one.svg"/></a></li>
+            <li><a id="ui-2v"  href="#"><img src="/static/resources/images/ui-2v.svg"/></a></li>
+            <li><a id="ui-ea"  href="#"><img src="/static/resources/images/ui-ea.svg"/></a></li>
+            <li><a id="ui-ae"  href="#"><img src="/static/resources/images/ui-ae.svg"/></a></li>
+          </ul>
+          <button id="time" class="tooltip-bottom" data-tooltip="reset time">T</button>
+          <button id="stop" class="icon tooltip-bottom" data-tooltip="stop render"><img class="stop-icon" src="/static/resources/images/stop.svg" /><img class="go-icon" src="/static/resources/images/go.svg" style="display:none;"/></button>
+          <button style="display: none;" id="new" class="tooltip-bottom" data-tooltip="new">+</button>
+          <button style="display: none;" id="save">save</button>
+          <select id="mode">
+            <option>POINTS</option>
+            <option>LINE_STRIP</option>
+            <option>LINE_LOOP</option>
+            <option>LINES</option>
+            <option>TRI_STRIP</option>
+            <option>TRI_FAN</option>
+            <option>TRIANGLES</option>
+          </select>
+          <select id="size">
+            <option>NATIVE</option>
+            <option>CSS</option>
+          </select>
+          <input type="range" id="numRange" value="10000" min="1" max="100000" />
+          <input type="number" id="num" value="10000" min="1" max="100000" />
+          <input type="color" id="background" value="#4488CC" />
+          <input type="text" id="sound" value="sound" inputmode="verbatim" autocapitalize="none" />
+          <button class="play"></button>
+          <button style="display: none;" class="icon playlock tooltip-bottom" data-tooltip="lock music"><img src="/static/resources/images/unlock.svg"/></button>
+          <a href="/" id="gallery">gallery</a>
+          <button id="help">help</button>
+        </div>
+        <div id="centerWrap">
+          <div id="centerArea">
+            <div id="centerSize">
+              <div id="editorWrap">
+                <div id="editor"></div>
+              </div>
+              <div style="display: none;" id="commentWrap">
+                <div id="commentarea">
+                  <!--template=meta--><pre></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="bottom">
+          <!--template=userinfo--><pre></pre>
+          <div id="soundInfo">
+            <a target="_blank" id="soundcloud"><img src="https://developers.soundcloud.com/assets/logo_white-af5006050dd9cba09b0c48be04feac57.png" /></a>
+            <a target="_blank" class="shrink" id="bandLink"></a>
+            <div id="soundTime" class="shrink"><a target="_blank" id="soundLink"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="start" class="fulldialog" style="display: none;">
+      <div>
+        <img src="/static/resources/images/start.svg" />
+        <div id="badaudio" style="display: none;">
+          NOTE: This browser can not process streamed audio so it will
+          play some random music. Please use a destkop browser to experience the
+          original music.
+        </div>
+      </div>
+    </div>
+    <div id="loading" class="fulldialog" style="display: none;">
+    </div>
+    <div id="saving" class="fulldialog" style="display: none;">
+      <h1>saving</h1>
+    </div>
+    <div id="helpDialog" class="fulldialog" style="display: none;">
+      <pre>
+==================[ vertexshaderart.com ]====================
+Visualizers:
+-------------------------------------------------------------
+<button id="showsoundtexture">sound texture</button> <button id="showwave">wave</button>
+
+UI
+-------------------------------------------------------------
+[T]        : Resets the time to 0
+[+]        : Makes a new art piece
+[<img class="onechar" src="/static/resources/images/stop.svg" />]        : Stop Rendering
+[save]     : Saves the current art (Ctrl-S / Cmd-S)
+[mode]     : POINTS, LINES, LINE_STRIP, LINE_LOOP, etc...
+[NATIVE]   : Lines are native size (1 pixel) or CSS size
+           : On HD-DPI display CSS will generate thicker lines
+[sound]    : A soundcloud URL for music/playlist.
+           : The URL must have permission to embedded/stream
+           : Blank = off, mic = mic, feedback = mic + speaker
+[lock]     : Prevent music changing when switching art
+[yourname] : Shows your creations (or sign in).
+[name]     : Shows all revisions of current art
+[username] : Shows all user's creations
+[&hearts;]        : &ldquo;Like&rdquo; current art
+
+Inputs
+-------------------------------------------------------------
+vertexId    : float     : number of the vertex 0, 1, 2
+vertexCount : float     : total number of vertices
+resolution  : vec2      : resolution of the art
+mouse       : vec2      : mouse position normalized (-1 to 1)
+touch       : sampler2D : touch history 32x240 (4sec @60fps)
+            :           : x = x, y = y, z = pressure, w = time
+            :           : column 0 is mouse or first finger.
+            :           : column 1 is second finger ...
+time        : float     : time in seconds
+volume      : sampler2D : volume for music 1x240 alpha only
+sound       : sampler2D : data from the music Nx240, alpha only
+            :           : 240 rows of history (4secs @60fps)
+floatSound  : sampler2D : data from the music Nx240, alpha only
+            :           : 240 rows of history (4secs @60fps)
+            :           : <a href="http://webaudio.github.io/web-audio-api/#widl-AnalyserNode-getFloatFrequencyData-void-Float32Array-array">see spec</a> for difference between
+            :           : getFloatFrequencyData and
+            :           : getByteFrenquencyData.
+soundRes    : vec2      : resolution of sound
+background  : vec4      : background color
+
+Outputs:
+-------------------------------------------------------------
+gl_Position : vec4    : standard GLSL vertex shader output
+v_color     : vec4    : color to output from fragment shader
+
+BLEND is enabled, function is ONE,ONE_MINUS_SRC_ALPHA,
+DEPTH_TEST is enabled.
+
+<span style="white-space: normal;">
+  <a target="_blank" href="https://www.youtube.com/channel/UC6IqL5vkMJpqBG_bFDjsaxw">Lessons</a>
+  <a target="_blank" href="https://github.com/greggman/vertexshaderart#tips">Tips</a>
+  <a target="_blank" href="http://github.com/greggman/vertexshaderart/issues">Bug?</a>
+  <a target="_blank" href="http://github.com/greggman/vertexshaderart/issues">Suggestion?</a>
+  <a target="_blank" href="http://github.com/greggman/vertexshaderart">Code?</a>
+  <a target="_blank" href="http://twitter.com/greggman">Contact?</a>
+  <a target="_blank" href="https://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html">GLSL?</a>
+</span>
+</pre>
+    </div>
+  <div id="nogl" class="fulldialog" style="display: none;">
+    <pre>
+==================[ vertexshaderart.com ]====================
+
+  WebGL does not seem to be working.
+
+  Maybe you need to restart your browser
+  or <a href="http:\\get.webgl.org">get a new one</a>?
+
+    </pre>
+  </div>
+  </body>
+  <script data-main="js/start.js" src="3rdparty/require.js"></script>
+</html>

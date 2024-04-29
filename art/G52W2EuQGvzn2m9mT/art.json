@@ -1,0 +1,36 @@
+{
+  "_id": "G52W2EuQGvzn2m9mT",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1512610334358"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1512610334358"
+    }
+  },
+  "origId": "BxXCFpZxu7eFdhiyP",
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5641891731687818"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":281,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float id = vertexId;\\n  \\n  float ux = floor(id / 6.) + mod(id, 2.);\\n  \\n  float vy = mod(floor(id / 2.) + floor(id / 3.), 2.);\\n  \\n  float angle = ux * radians(180.0) / (vertexCount * sin(time) * 0.005);\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  \\n  float radius = vy;\\n  \\n  float a = resolution.x / resolution.y;\\n  \\n  float x = c * radius / a;\\n  float y = s * radius;\\n  \\n  vec2 xy = vec2(x,y);\\n  gl_Position = vec4(xy* .5, 0, 1);\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-mpgjex459hp0jz7id-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "105"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "siyzJrfAxipo2Tgsy"
+}

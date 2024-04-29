@@ -1,0 +1,46 @@
+{
+  "_id": "PHxPuJWQiqm9gamRN",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1523540089614"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1523540089614"
+    }
+  },
+  "origId": "x5Y9YCA8iKiCLHzS6",
+  "name": "torus",
+  "notes": "http://glslsandbox.com/e#38484.0",
+  "rank": {
+    "$numberDouble": "1.3626194071046271"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/user-158087960/studiomix-douzirec-06-2007-flac\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Created by K Machine from http://glslsandbox.com/e#46234.0\\nvec2 surfacePosition;\\nvec4 simFragCoord;\\nvec2 vertexResolution = resolution;\\n#ifdef GL_ES\\n//precision  mediump float;\\n#endif\\n\\n//uniform  float time;\\n//uniform  vec2 mouse;\\n//uniform  vec2 vertexResolution;\\n\\nvoid main()\\n{float finalDesiredPointSize = 3.;\\nfloat maxFinalSquareSideSize = floor(sqrt(vertexCount));\\nfloat finalMaxVertexCount = maxFinalSquareSideSize*maxFinalSquareSideSize;\\nfloat maxVerticesPerLine = floor(maxFinalSquareSideSize  *resolution.x/resolution.y);\\nvertexResolution = vec2(maxVerticesPerLine, floor(finalMaxVertexCount/maxVerticesPerLine));\\nfloat finalVertexCount = vertexResolution.x*vertexResolution.y;\\nfloat finalVertexId = mod(vertexId,finalVertexCount);\\nfloat x = mod(finalVertexId, vertexResolution.x);\\nfloat y = floor(finalVertexId / vertexResolution.x);\\nsimFragCoord = vec4(x,y,1.,1.);//simfragCoord will replace the gl_FragCoord of fragment shader\\nfloat u_i = (x /vertexResolution.x);\\nfloat v_i = (y /vertexResolution.y);\\nfloat sizeFactor = finalDesiredPointSize*vertexResolution.x/resolution.x;\\nfloat ux = sizeFactor*(u_i - 0.5);\\nfloat vy = sizeFactor*(v_i - 0.5);\\ngl_PointSize = finalDesiredPointSize;\\ngl_Position = vec4(ux, vy, 0., 1.);\\nsurfacePosition = vec2(ux,vy);\\n\\n    vec2 r = vertexResolution,\\n    o = simFragCoord.xy - r/2.;\\n    o = vec2(length(o) / r.y - .3, atan(o.y,o.x));    \\n    vec4 s = .1*cos(1.6*vec4(0,1,2,3) + time + o.y + sin(o.x) * sin(mouse.x * time / 1. + 5.4)*2.),\\n    e = s.yzwx, \\n    f = min(o.x-s,e-o.x);\\n    v_color = dot(clamp(f*r.y,0.,1.), 40.*(s-e)) * (s-.1) - f;\\n}\"}",
+  "screenshotURL": "data/images/images-xnr29rnwb5wv8a2zg-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "4D7Wfz8W8CrvsE99j"
+}

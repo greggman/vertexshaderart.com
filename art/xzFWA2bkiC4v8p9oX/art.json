@@ -1,0 +1,46 @@
+{
+  "_id": "xzFWA2bkiC4v8p9oX",
+  "owner": {
+    "_id": "9FyGSKFd6DqeASjpd",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1672677407736"
+      }
+    },
+    "profile": {
+      "name": "Jose A. Álvarez",
+      "avatarUrl": "https://avatars.githubusercontent.com/iguacel?s=200"
+    },
+    "username": "iguacel"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672677938661"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1672677938661"
+    }
+  },
+  "origId": null,
+  "name": "Point",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2690247944043316"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "iguacel",
+  "avatarUrl": "https://avatars.githubusercontent.com/iguacel?s=200",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.043137254901960784,0.0784313725490196,0.1568627450980392,1],\"shader\":\"void main() {\\n  gl_Position = vec4(0, 0, 0, 1);\\n  gl_PointSize = 10.0;\\n  v_color = vec4(0,1,0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-g8vnu8gx6whue078i-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Bx6eWugPGFwfGf5Go"
+}

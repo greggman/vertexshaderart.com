@@ -1,0 +1,46 @@
+{
+  "_id": "yX9SGHv6RPPqcsXvh",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1465551370730"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1591536203001"
+    }
+  },
+  "origId": "FNFsfgYT3ysjSme2P",
+  "name": "discus",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "10.150313415217722"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "gman",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "settings": "{\"num\":100000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/cuttinheadzmusic/stuff-in-the-trunk-the-martinez-brothers-remix\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/*\\n                                                                                                                     \\n                         ,--.                          ,--.                ,--.                               ,--.   \\n,--.  ,--.,---. ,--.--.,-'  '-. ,---. ,--.  ,--. ,---. |  ,---.  ,--,--. ,-|  | ,---. ,--.--. ,--,--.,--.--.,-'  '-. \\n \\\\  `'  /| .-. :|  .--''-.  .-'| .-. : \\\\  `'  / (  .-' |  .-.  |' ,-.  |' .-. || .-. :|  .--'' ,-.  ||  .--''-.  .-' \\n  \\\\    / \\\\   --.|  |     |  |  \\\\   --. /  /.  \\\\ .-'  `)|  | |  |\\\\ '-'  |\\\\ `-' |\\\\   --.|  |   \\\\ '-'  ||  |     |  |   \\n   `--'   `----'`--'     `--'   `----''--'  '--'`----' `--' `--' `--`--' `---'  `----'`--'    `--`--'`--'     `--'   \\n\\n*/\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n#define PI radians(180.)\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nmat4 rotY( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\n\\nmat4 rotZ( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c,-s, 0, 0, \\n      s, c, 0, 0,\\n      0, 0, 1, 0,\\n      0, 0, 0, 1); \\n}\\n\\nmat4 trans(vec3 trans) {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    trans, 1);\\n}\\n\\nmat4 ident() {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 scale(vec3 s) {\\n  return mat4(\\n    s[0], 0, 0, 0,\\n    0, s[1], 0, 0,\\n    0, 0, s[2], 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 uniformScale(float s) {\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, 1);\\n}\\n\\n// hash function from https://www.shadertoy.com/view/4djSRW\\nfloat hash(float p) {\\n\\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\\n\\treturn fract(p2.x * p2.y * 95.4337);\\n}\\n\\nfloat m1p1(float v) {\\n  return v * 2. - 1.;\\n}\\n\\nfloat p1m1(float v) {\\n  return v * 0.5 + 0.5;\\n}\\n\\nfloat inv(float v) {\\n  return 1. - v;\\n}\\n\\n#define NUM_EDGE_POINTS_PER_CIRCLE 48.\\n#define NUM_POINTS_PER_CIRCLE (NUM_EDGE_POINTS_PER_CIRCLE * 6.) \\n#define NUM_CIRCLES_PER_GROUP 2.\\nvoid getCirclePoint(const float id, const float inner, const float start, const float end, out vec3 pos) {\\n  float outId = id - floor(id / 3.) * 2. - 1.;   // 0 1 2 3 4 5 6 7 8 .. 0 1 2, 1 2 3, 2 3 4\\n  float ux = floor(id / 6.) + mod(id, 2.);\\n  float vy = mod(floor(id / 2.) + floor(id / 3.), 2.); // change that 3. for cool fx\\n  float u = ux / NUM_EDGE_POINTS_PER_CIRCLE;\\n  float v = mix(inner, 1., vy);\\n  float a = mix(start, end, u) * PI * 2. + PI * 0.0;\\n  float s = sin(a);\\n  float c = cos(a);\\n  float x = c * v;\\n  float y = s * v;\\n  float z = 0.;\\n  pos = vec3(x, y, z);  \\n}\\n\\nfloat goop(float t) {\\n  return sin(t) + sin(t * 0.27) + sin(t * 0.13) + sin(t * 0.73);\\n}\\n\\nfloat easeInOutSine(float t) {\\n  return (-0.5 * (cos(PI * t) - 1.));\\n}\\n\\nfloat mixer(float t, float timeOff, float duration) {\\n  t = mod(t, duration * 2.0);\\n  t = t - timeOff;\\n  if (t > duration) {\\n    t = duration + 1. - t;\\n  }\\n  return easeInOutSine(clamp(t, 0., 1.));\\n}\\n\\nvoid main() {\\n  float circleId = floor(vertexId / NUM_POINTS_PER_CIRCLE);\\n  float groupId = floor(circleId / NUM_CIRCLES_PER_GROUP);\\n  float pointId = mod(vertexId, NUM_POINTS_PER_CIRCLE);\\n  float sliceId = mod(floor(vertexId / 6.), 2.);\\n  float side = mix(-1., 1., step(0.5, mod(circleId, 2.)));\\n  float numCircles = floor(vertexCount / NUM_POINTS_PER_CIRCLE);\\n  float numGroups = floor(numCircles / NUM_CIRCLES_PER_GROUP); \\n  float cu = circleId / numCircles;\\n  float gv = groupId / numGroups;\\n  float cgId = mod(circleId, NUM_CIRCLES_PER_GROUP);\\n  float cgv = cgId / NUM_CIRCLES_PER_GROUP;\\n  float ncgv = 1. - cgv;\\n  \\n  \\n  float tm = time - cgv * 0.2;\\n  float su = hash(groupId);\\n  float snd = texture2D(sound, vec2(mix(0.01, 0.14, su), gv * 0.05)).a;\\n  \\n  //snd = pow(snd, mix(2., 0.5, su));\\n  \\n  \\n  vec3 pos;\\n  float inner = mix(0.0, 1. - pow(snd, 4.), cgId);\\n  float start = 0.;//fract(hash(sideId * 0.33) + sin(time * 0.1 + sideId) * 1.1);\\n  float end   = 1.; //start + hash(sideId + 1.);\\n  getCirclePoint(pointId, inner, start, end, pos); \\n  pos.z = cgv;\\n  \\n//  float historyX = mix(0.01, 0.14, u);\\n//  snd = pow(snd, mix(2., 0.5, u));\\n  \\n  \\n\\n  // ----\\n  float gDown = floor(sqrt(numGroups));\\n  float gAcross = floor(numGroups / gDown);\\n  vec3 offset0 = vec3(\\n    mod(groupId, gAcross) - (gAcross - 1.) / 2.,\\n    floor(groupId / gAcross) - (gDown - 1.) / 2.,\\n    0) * 0.2;\\n  \\n  // ----\\n  float ang = gv * 10.0;\\n  vec3 offset1 = vec3(cos(ang), sin(ang), 0) * gv * 0.5;\\n\\n  // ----\\n  vec3 offset2 = (vec3(hash(groupId), hash(groupId * 0.37), 0) * 2. - 1.) * 0.8;\\n  \\n  // ----\\n  ang = gv * 20.0;\\n  float rad = floor(groupId / pow(2., gv + 3.));\\n  vec3 offset3 = vec3(cos(ang), sin(ang), 0) * mix(0.3, 0.7, rad);\\n  \\n  // 0-6  \\n  float m = 0.;tm; //mod(tm, 4. * 3.);\\n  float mix01 = mixer(m, 0., 3.);\\n  float mix23 = mixer(m, 0., 3.);\\n  float mix0123 = mixer(m, 0., 6.);\\n  vec3 offset = \\n     mix(\\n       mix(offset0, offset1, mix01),\\n       mix(offset2, offset3, mix23),\\n       mix0123);\\n    \\n//  vec3 offset = vec3(hash(groupId) * 0.8, m1p1(hash(groupId * 0.37)), cgv);\\n//  offset.x += m1p1(pow(snd, 5.0) + goop(groupId + time * 0.) * 0.1);\\n//  offset.y += goop(groupId + time * 0.) * 0.1;\\n  vec3 aspect = vec3(1, resolution.x / resolution.y, 1);\\n  \\n  mat4 mat = ident(); \\n  mat *= scale(aspect);\\n  mat *= trans(vec3(0.25,0,0));\\n  mat *= rotZ(-time * 0.5);\\n  mat *= trans(offset);\\n  float sp = pow(snd, 5.0);\\n  \\n  mat *= uniformScale(mix(sp, 1. - sp, cgId) * 0.1 + sliceId * 0.0);\\n  gl_Position = vec4((mat * vec4(pos, 1)).xyz, 1);\\n  gl_PointSize = 4.;\\n\\n  float hue = tm * 0.0 + mix(0., 20.2, hash(groupId * 0.23));\\n  float sat = 1. - pow(snd, 5.);\\n  float val = step(0.8, snd);//ncgv;//1.;//mix(0.0, 0.0, fract(circleId * 0.79)) + sliceId * .65;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n  v_color.rgb *= v_color.a;\\n}\"}",
+  "screenshotURL": "data/images/images-fjx0vwok3a8qb4msd-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "854"
+  },
+  "likes": {
+    "$numberInt": "7"
+  },
+  "revisionId": "PpmDnACgQ2iTGXync"
+}

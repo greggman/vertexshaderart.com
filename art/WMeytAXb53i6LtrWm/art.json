@@ -1,0 +1,46 @@
+{
+  "_id": "WMeytAXb53i6LtrWm",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1467482639021"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1468296456717"
+    }
+  },
+  "origId": null,
+  "name": "woozy",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "10.051147328720198"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "gman",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "settings": "{\"num\":6000,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/robotandproud/401-circuit\",\"lineSize\":\"CSS\",\"backgroundColor\":[0.01568627450980392,0.2,1,1],\"shader\":\"/*\\n\\n                     \\n___  _____________   \\n\\\\  \\\\/ /  ___/\\\\__  \\\\  \\n \\\\   /\\\\___ \\\\  / __ \\\\_\\n  \\\\_//____  >(____  /\\n          \\\\/      \\\\/ \\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n*/\\n\\n#define PI radians(180.0)\\n\\nvoid main() {\\n  float pointsPerLine = 30.;\\n  float lineId = floor(vertexId / pointsPerLine);\\n  float numLines = floor(vertexCount / pointsPerLine);\\n\\n  float lineV = lineId / numLines;\\n  float angle = lineV * PI * 2.;\\n  \\n  float pointId = mod(vertexId, pointsPerLine);\\n  float pointV = pointId / (pointsPerLine - 1.);\\n  \\n  float id = floor(pointId / 2.) + mod(pointId, 2.);\\n  float idV = id / (pointsPerLine / 2. - 1.);\\n  \\n  float snd = texture2D(sound, vec2(abs(lineV - 0.5) * 0.15, pointV * 0.5)).a;\\n  \\n  float odd = mod(id, 2.);\\n  angle += sin(time + idV * 21.) * odd * 0.2 + time * 0.1 + snd * 0.;\\n//  angle += odd * 0.2;\\n  \\n//  float radius = pow(idV + 1., 2.) - 3.0;\\n  float radius = pow(idV, 2.) + sin(time + lineV * PI * 2. * 8.) * odd * idV * 0.1;\\n  float c = cos(angle) * radius;\\n  float s = sin(angle) * radius;\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y) * 1.1;\\n  vec2 xy = vec2(c, s);\\n  gl_Position = vec4(xy * aspect, 0, 1);\\n\\n  float p = 1. - pow(snd, 5.);\\n  float pump = step(0.9, snd);\\n  v_color = vec4(0, p, p, idV) + pump * vec4(0,10,10,0);\\n  v_color.rgb *= v_color.a;\\n}\"}",
+  "screenshotURL": "data/images/images-ro2r5d7ydpdn4wpyz-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "558"
+  },
+  "likes": {
+    "$numberInt": "9"
+  },
+  "revisionId": "5zxi5XEFJ6KrfhxPj"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "Soip5jkRuE4MTLibC",
+  "owner": {
+    "_id": "NAvHKNuxDSsKeTzss",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1652854231365"
+      }
+    },
+    "username": "jaewoo.choi",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/d216764c49a53ce2f15ebd1c1d4a9c7f?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1653479467882"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1653481603834"
+    }
+  },
+  "origId": null,
+  "name": "Audio Reactive Art",
+  "notes": "Extra",
+  "rank": {
+    "$numberDouble": "1.0331128562773977"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "jaewoo.choi",
+  "avatarUrl": "https://secure.gravatar.com/avatar/d216764c49a53ce2f15ebd1c1d4a9c7f?default=retro&size=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/leagueoflegends/rise-ft-the-glitch-mob-mako-1\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name: Jaewoo.choi\\n//Assignment Name: Exercise - Vertexshaderart : Audio Reactive Art\\n//Course Name: CS250\\n//Term&Year: 2022&Spring\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n#define PI radians(180.0)\\n\\nvoid main() {\\n  float down = sqrt(vertexCount);\\n  float across = floor(vertexCount / down);\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float su = abs(u - 0.5) * 2.;\\n  float sv = abs(v - 0.5) * 2.;\\n  \\n  float au = abs(atan(su, sv)) / (0.8*PI);\\n  float av = length(vec2(su, sv)* 0.9);\\n  \\n  float snd = texture2D(sound, vec2(au * 0.05, av * .25)).a;\\n\\n  float xoff = cos(time)*0.2;//sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time)*0.2;//sin(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.8;\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time + x * y * .02) * 5.;  \\n  gl_PointSize = pow(snd + 0.2, 9.0) * 20.0 + soff;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 500.0;\\n  gl_PointSize += soff / 8.0;\\n  \\n  float pump = step(0.8, snd);\\n  \\n  float hue = u * .1 + snd * 0.7 + time * .1; //sin(time + v * 20.) * .05;\\n  float sat = mix(0.5, 1., pump);\\n  float val = mix(.1, pow(snd + 0.2, 4.0), pump);\\n  v_color = vec4(hsv2rgb(vec3(hue-0.5, sat, val)*0.6), 1);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-i65nyvxvdm5ou8olu-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "7zfiHuziWcJH9viYH"
+}

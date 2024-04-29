@@ -1,0 +1,47 @@
+{
+  "_id": "hJ9T5D48jyNh2Ziaf",
+  "owner": {
+    "_id": "FvEwbS5QFWQ9xq7KT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1583423411467"
+      }
+    },
+    "profile": {
+      "first_name": "Andris",
+      "last_name": "Lūsis",
+      "avatarUrl": "https://lh5.googleusercontent.com/-NGcfEagpVJU/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nBr6ANtWGgvfguJmVugmcp6_jd6hw/photo.jpg"
+    },
+    "username": "andris"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1583560654009"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1583618184531"
+    }
+  },
+  "origId": "Yn396rtWBPwEkd3fo",
+  "name": "box",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "10.457724310442364"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "andris",
+  "avatarUrl": "https://lh5.googleusercontent.com/-NGcfEagpVJU/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nBr6ANtWGgvfguJmVugmcp6_jd6hw/photo.jpg",
+  "settings": "{\"num\":23285,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"float h(float p) { return fract(fract(p*5.3983)*fract(p*.4427)*95.4337); }\\nvec2 r(vec2 p,float a) { return vec2(-1,1)*p.yx*sin(a)+p.xy*cos(a); }\\nvoid main() { float t=time, o=resolution.x/resolution.y, s=vertexId+t;\\n vec3 b=abs((fract(vec3(.25,.5,.125)*t)-.5)*2.), u=1.-step(.5,b)*2.,\\n  a=(pow(vec3(2.),(40.*b-20.)*u)*u-u+1.)*.5,p=vec3(h(s),h(s*.731),h(s*1.319))*2.-1.,\\n  d=1.-step(vec3(1,2,3),vec3(h(s*0.911)*3.)), v=d-vec3(0,d.xy);\\n p=mix(step(0.,p)*2.-1.,p,mix(1.-v,v,a.y));\\n p*=mix(1./length(p),1.,dot(a,p)*a.z-sin(t*.2)*2.*(a.x+.5));\\n p.xy=r(p.xy,t*.2+a.x*.2);p.xz=r(p.xz,t*.3+a.y);\\n v_color=vec4(a*.8+.2,1.); gl_Position=vec4(p.x,p.y*o,p.z,p.z+5.); gl_PointSize=2.;}\"}",
+  "screenshotURL": "data/images/images-n0w85h2g0ej3r9amv-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "696"
+  },
+  "likes": {
+    "$numberInt": "2"
+  },
+  "revisionId": "e7BuJYJmguXBbnhZH"
+}

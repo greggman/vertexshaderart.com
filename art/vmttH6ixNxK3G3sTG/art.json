@@ -1,0 +1,36 @@
+{
+  "_id": "vmttH6ixNxK3G3sTG",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680910326832"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1680910326832"
+    }
+  },
+  "origId": "7YtDi4LTcGHk4Rv7A",
+  "name": "juliaworld",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2433017524089345"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.5725490196078431,0.2549019607843137,0.7450980392156863,1],\"shader\":\"//time vertexId gl_Position v_color resolution\\n\\n#define width 256.0\\n#define height 384.0\\n\\nfloat plasma(vec2 pos, float w, float h)\\n{\\n  float c = 0.0;\\n  c = sin(sin(pos.x) + sin(1.4 * pos.y) + sin(3.0 * pos.x + pos.y + 3.0 * time) + sin(pos.x + sin(pos.y + 2.0 * time))) + (sin(pos.x * pos.y - 3.0 * time) * 0.5 + 0.25);\\n  float newRe = 1.5 * (pos.x - w / 2.0) / (0.5 * w);\\n  float newIm = (pos.y - h / 2.0) / (0.5 * h);\\n  float oldRe;\\n  float oldIm;\\n  float j = 0.0;\\n  for(int i = 0; i < 128; i++)\\n        {\\n            j+=1.0;\\n            oldRe = newRe;\\n            oldIm = newIm;\\n            newRe = oldRe * oldRe - oldIm * oldIm + 0.4;\\n            newIm = 2.0 * oldRe * oldIm + sin(time/1.0);\\n            if((newRe * newRe + newIm * newIm) > 4.0) break;\\n        }\\n  return j/64.0;\\n}\\n\\nvoid main() {\\n  float ratio = resolution.x / resolution.y;\\n  float w = width;\\n  float h = height / ratio;\\n\\n  float vId = float(vertexId);\\n  float px = (mod(vId, w) - w / 2.0) / (w / 2.0);\\n  float py = (floor(vId / w) - h / 2.0) / (h / 2.0);\\n  \\n  gl_Position = vec4(px, py, 0, 1);\\n  gl_PointSize = 8.0;\\n\\n  float c = plasma(vec2(px+0.5, py+0.5)*100.0,px+w/2.0,py+h/2.0);\\n  v_color = vec4(c, 4.0 * c, 1.0 * c, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-so5wax3s8iqnb8gru-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "75"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "iyHTADE8uqPuXhktP"
+}

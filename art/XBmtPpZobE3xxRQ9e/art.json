@@ -1,0 +1,46 @@
+{
+  "_id": "XBmtPpZobE3xxRQ9e",
+  "owner": {
+    "_id": "buw2QswjyuzF5R3Z7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1643991359601"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/orange4glace?s=200"
+    },
+    "username": "orange4glace"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1644671059304"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1644671115654"
+    }
+  },
+  "origId": null,
+  "name": "teardrop",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8477050853875046"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "orange4glace",
+  "avatarUrl": "https://avatars.githubusercontent.com/orange4glace?s=200",
+  "settings": "{\"num\":16384,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\nvoid main() {\\n  float t = vertexId / vertexCount * PI * 2.;\\n  float t2 = vertexId / vertexCount * PI * 4.;\\n  float m = mod(time, 4.) / 2.;\\n  float y = cos(t);\\n  float x= sin(t) * pow(sin(0.5 * t), m);\\n  \\n  gl_Position = vec4(x / resolution.x * 800., y / resolution.y * 800., 0, 1.0);\\n  v_color = vec4(1, 1, 1, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-c3y7uuu31nci2b9ox-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ziRYrwjWfuNix49hw"
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "E35W32ThAopNcnH4G",
+  "owner": {
+    "_id": "duB92T9xbZx8r3NZJ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1517960579116"
+      }
+    },
+    "profile": {
+      "first_name": "Luis",
+      "last_name": "Riv",
+      "avatarUrl": "https://graph.facebook.com/10208687216256743/picture?type=large"
+    },
+    "username": "luis"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1518223999718"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1518223999718"
+    }
+  },
+  "origId": null,
+  "name": "esfera",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.887718506368704"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "luis",
+  "avatarUrl": "https://graph.facebook.com/10208687216256743/picture?type=large",
+  "settings": "{\"num\":69773,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 4.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\n\\n\\nvoid main() {\\n  \\n  \\n  float angle = radians(mod(vertexId,180.0));\\n  float fi  = radians(floor(vertexId / 180.0));\\n  \\n  float radius = 1.0;\\n  \\n  float x = radius * sin(angle) * cos(fi);\\n  float y = radius * sin(angle) * sin(fi);\\n  float z = radius * cos(angle);\\n  \\n  mat4 rotX = mat4(1.0);\\n  rotX[1][1] = cos(time);\\n  rotX[2][1] = -sin(time);\\n  rotX[1][2] = sin(time);\\n  rotX[2][2] = cos(time);\\n  \\n  \\n  vec3 xy = vec3(x, y,z);\\n  \\n  gl_Position = rotX * vec4(xy * 0.5, 1.0);\\n  gl_PointSize = 1.0;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-qhu7ykrr4kopcmm9j-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "MfbBpoKHiqXyHF8qT"
+}

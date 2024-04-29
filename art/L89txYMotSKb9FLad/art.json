@@ -1,0 +1,46 @@
+{
+  "_id": "L89txYMotSKb9FLad",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1496679037909"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1496679037909"
+    }
+  },
+  "origId": "e6LP3FE5P3qePgJk6",
+  "name": "circle jerk",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.474245645572059"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/richtowns/elastic-drums-preset-abc\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main () {\\n  float v = vertexId;\\n  //float sndFactor = texture2D(sound, vec2(;\\n  float off = .1;\\n  float scale = 5.; //0.001 * vertexCount / vertexId;\\n  float grid =   floor(vertexCount / 1000.);\\n  float sndF = texture2D(sound, vec2(mod(v, 1.), 0)).a;\\n\\n  \\n  float y = sin(v + time / (sndF * 20000.)) * (1. - sndF * 5.);\\n  float x = cos(v + time / (sndF * 18000.) ) * (1. - sndF * 7.);\\n  \\n  float ux = x / scale - off;\\n  float uy = y / scale - off;\\n  \\n  gl_Position  =vec4(ux, uy, 0, 1);\\n  gl_PointSize = 1. + sndF * 10. ;// grid;\\n  v_color = vec4(sin(sndF), sin(v), sin(time), 1);\\n \\n}\"}",
+  "screenshotURL": "data/images/images-i0lkrxb0w7nqnn3cl-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "THbssm8iwwPh5AhkZ"
+}

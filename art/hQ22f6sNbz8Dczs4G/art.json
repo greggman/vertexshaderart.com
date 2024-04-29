@@ -1,0 +1,47 @@
+{
+  "_id": "hQ22f6sNbz8Dczs4G",
+  "owner": {
+    "_id": "m6NzvnPPTaAroy2Ma",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1652623511870"
+      }
+    },
+    "profile": {
+      "name": "junsujang-digipen",
+      "avatarUrl": "https://avatars.githubusercontent.com/junsujang-digipen?s=200",
+      "info": "Study?"
+    },
+    "username": "junsujang-digipen"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1652623872012"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1652623872012"
+    }
+  },
+  "origId": null,
+  "name": "Making A Grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0261212788331344"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "junsujang-digipen",
+  "avatarUrl": "https://avatars.githubusercontent.com/junsujang-digipen?s=200",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.33725490196078434,0.2823529411764706,0.2823529411764706,1],\"shader\":\"// Junsu Jang\\n// Exercise Making A Grid\\n// CS250 \\n// Spring/2022\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId/across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0., 1.);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20./across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  \\n  v_color = vec4(1,0,0,1);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-ye4hhqykknkgh4wis-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "16"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "5GmFvsyudHg2QDekd"
+}

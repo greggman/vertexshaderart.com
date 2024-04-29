@@ -1,0 +1,48 @@
+{
+  "_id": "4vag7ndH4zPYNfMML",
+  "owner": {
+    "_id": "aQGBaB28tNPpoJahx",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1523273254098"
+      }
+    },
+    "profile": {
+      "first_name": "Brendon",
+      "last_name": "Conradie",
+      "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
+      "info": "Wannabe graphics programmer working in the mobile gaming industry"
+    },
+    "username": "brendon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1523299826567"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1523299826567"
+    }
+  },
+  "origId": "SJ68p365upswGjcG9",
+  "name": "Animated Cross Hatching",
+  "notes": "First vertex shader",
+  "rank": {
+    "$numberDouble": "1.3742045133991598"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "brendon",
+  "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/aeon-audio-studio/vitalism-gradus-full-production\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n  float n = vertexId / vertexCount;\\n  vec4 snd = texture2D(sound, vec2(0.0, 0.0)); \\n  float angle = n * 6.28;\\n  \\n  float avx = 0.5;\\n  float axy = 0.5;\\n  \\n  float dx = cos(angle * time * avx) * vertexId / 1000.0;\\n  float dy = sin(angle * time * axy) * vertexId / 1000.0;\\n  \\n  gl_Position = vec4(dx, dy, 0.0, 1);\\n  gl_PointSize = vertexId / 50.0;\\n  v_color = vec4(snd.a * snd.b, snd.b * snd.b, n, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-u3qblcalfprz1x8uf-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "4ygNT6GfA2Nk2HsjN"
+}

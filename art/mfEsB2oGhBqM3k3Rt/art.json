@@ -1,0 +1,44 @@
+{
+  "_id": "mfEsB2oGhBqM3k3Rt",
+  "owner": {
+    "_id": "duxi6M5TiGWZ5CeBh",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445820506349"
+      }
+    },
+    "profile": {
+      "name": "Visa-Valtteri Pimiä",
+      "avatarUrl": "https://avatars.githubusercontent.com/visy?s=200",
+      "info": "```sh\nDemo maker and coder from Helsinki, Finland.\nWorking on any interesting platforms.\nThis is where we make vertex shader stuff.\n```"
+    },
+    "username": "visy"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1446241245576"
+    }
+  },
+  "origId": null,
+  "name": "the connectedness of all",
+  "username": "visy",
+  "settings": "{\"num\":3753,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/valmet-children/valmet-children-aegon-1\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI 3.14159\\n#define STEP 1.0\\n//#define FIT_VERTICAL\\n\\nvoid main() {\\n\\n  float localTime = time + 20.0;\\n float NUM_SEGMENTS = 0.1+localTime*0.00000001-texture2D(sound,vec2(vertexId*0.001,vertexId*0.001)).a*0.0001;\\n float NUM_POINTS = (NUM_SEGMENTS * 1.0);\\n\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(time * 0.01) + 5.0;\\n  \\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.00014, 1.0);\\n  float c = cos(angle + localTime) * radius;\\n  float s = sin(angle + localTime) * radius;\\n  float orbitAngle =  pow(count * 0.025, 0.8);\\n  float innerRadius = pow(count * 0.0005, 1.2);\\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\\n\\n  #ifdef FIT_VERTICAL\\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\\n  #else\\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  #endif\\n\\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n  gl_Position = vec4(xy * aspect, 0,0.99999);\\n\\n  \\n  //float b = mix(0.0, 0.7, step(0.5, mod(count + localTime * 1.0, 6.0) / 2.0));\\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 10.0);\\n  b = 0.0;mix(0.0, 0.7, b);\\n  v_color = vec4(b, b, b, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-c0twy3q6tdy1vgd6t-thumbnail.jpg",
+  "views": {
+    "$numberInt": "144"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "f5T69RNynQrznXkdB",
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1446241934435"
+    }
+  },
+  "hasSound": true,
+  "rank": {
+    "$numberDouble": "1.5645500782227892"
+  },
+  "avatarUrl": "https://avatars.githubusercontent.com/visy?s=200"
+}

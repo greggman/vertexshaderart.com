@@ -1,0 +1,36 @@
+{
+  "_id": "FfHLpZyMW5rXY9aD5",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1561458831176"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1561458831176"
+    }
+  },
+  "origId": "TFMzciLhhyBhYRKW5",
+  "name": "준석",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0380735940633803"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n float move = vertexId*3.0;\\n  \\n  float x= mouse.x ;\\n  float y=mouse.y;\\n  \\n  gl_Position = vec4(sin(move)+x,cos(move)+y, 0, 1);\\n \\n  gl_PointSize = 30.0;\\n  \\n  float red=sin(time);\\n  float blue=cos(time);\\n  float green=tan(time);\\n  \\n  v_color=vec4(red,green,blue,1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-svb6wws9kqpmimcvc-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "64"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "rZveH7Z4ACy6cuMPE"
+}

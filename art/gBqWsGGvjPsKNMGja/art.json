@@ -1,0 +1,45 @@
+{
+  "_id": "gBqWsGGvjPsKNMGja",
+  "owner": {
+    "_id": "gtmTwjfybNBxLCYrM",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554726116747"
+      }
+    },
+    "username": "pgan",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/b786c3cea88eff238ced38e7ee896997?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554745867355"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554745867355"
+    }
+  },
+  "origId": "XzeZ7nA6eLt5GmJfj",
+  "name": "cubes1",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5953317401587395"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "pgan",
+  "avatarUrl": "https://secure.gravatar.com/avatar/b786c3cea88eff238ced38e7ee896997?default=retro&size=200",
+  "settings": "{\"num\":14400,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//#define CUBES_PER_ROW 20.0\\n#define CUBES_PER_ROW 20.0\\n//#define CUBE_SPACING 0.05\\n#define CUBE_SPACING 0.075\\n\\nfloat rotr3(float x, float n) {\\n  return floor(x / pow(2.0, n)) + mod(x * pow(2.0, 3.0 - n), 8.0);\\n}\\n\\nfloat mod2(float x) {\\n  return mod(floor(x), 2.0);\\n}\\n\\nvec3 cubePos(float x) {\\n  return vec3(mod2(x), mod2(x / 2.0), mod2(x / 4.0));\\n}\\n\\nvoid main() {\\n  float near = -1.0;\\n  float far = 0.99;\\n  \\n  float aspectRatio = resolution.y / resolution.x;\\n  \\n  float cubeIdx = floor(vertexId / 36.0);\\n  float faceIdx = mod(floor(vertexId / 6.0), 6.0);\\n  float faceDiv3 = floor(faceIdx / 3.0);\\n  float faceMod3 = mod(faceIdx, 3.0);\\n  float quadIdx = mod(vertexId, 6.0);\\n  float baseIdx = faceIdx * 6.0;\\n  float vertIdx = abs(faceDiv3 == 0.0 ? quadIdx - 2.0 : 3.0 - quadIdx);\\n  \\n  vec3 pos = cubePos(mod(rotr3(vertIdx, 2.0 - faceMod3) + pow(2.0, faceMod3) * faceDiv3, 8.0));\\n  pos -= 0.5;\\n  pos *= 0.02;\\n  \\n  float ct = time + mod(cubeIdx, CUBES_PER_ROW);\\n  float ct1 = time + floor(cubeIdx / CUBES_PER_ROW);\\n  \\n  float s = sin(ct*0.37), c = cos(ct*0.37);\\n  float s1 = sin(ct1), c1 = cos(ct1);\\n  \\n  mat4 rot = mat4(vec4(c, s, 0.0, 0.0), \\n                  vec4(-s, c, 0.0, 0.0), \\n                  vec4(0.0, 0.0, 1.0, 0.0), \\n                  vec4(0.0, 0.0, 0.0, 1.0));\\n  \\n  mat4 rot2 = mat4(vec4(c1, 0.0, s1, 0.0), \\n                   vec4(0.0, 1.0, 0.0, 0.0), \\n                   vec4(-s1, 0.0, c1, 0.0), \\n                   vec4(0.0, 0.0, 0.0, 1.0));\\n  \\n  gl_Position = vec4(pos, 1.0) * rot * rot2;\\n  // gl_Position = vec4(pos, 1.0) * rot2;\\n\\n  // gl_Position.x += (mod(cubeIdx, CUBES_PER_ROW) - CUBES_PER_ROW/2.0) * (1.0/CUBES_PER_ROW);\\n  // gl_Position.y += (floor(cubeIdx / CUBES_PER_ROW) - CUBES_PER_ROW/2.0) * (1.0/CUBES_PER_ROW);\\n  gl_Position.x += (mod(cubeIdx, CUBES_PER_ROW) - CUBES_PER_ROW/2.0) * (CUBE_SPACING);\\n  gl_Position.y += (floor(cubeIdx / CUBES_PER_ROW) - CUBES_PER_ROW/2.0) * (CUBE_SPACING);\\n  \\n  gl_Position.y /= aspectRatio;\\n  float zDist = gl_Position.z - near;\\n  gl_Position.w = zDist;\\n\\n  v_color = vec4(mod2(faceIdx + 1.0), mod2((faceIdx + 1.0) / 2.0), mod2((faceIdx + 1.0) / 4.0), 1.0);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-o54j3rsd4jrr5e2wb-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "vDAgPvSiiFcN6mGsF"
+}

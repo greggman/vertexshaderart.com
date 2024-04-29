@@ -1,0 +1,36 @@
+{
+  "_id": "yJStxdpLgCWHmBA7n",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634513703686"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1634513703686"
+    }
+  },
+  "origId": "bWGzwX6udGM4uM7ra",
+  "name": "second test",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9933711227603192"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":1360,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\" void main() {\\n  \\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  // float pointSize = 5.;\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId /across);\\n  \\n  float u = x/(across-1.);\\n  float v = y/(across-1.);\\n  \\n  float yoff = sin(time + x * 0.1);\\n  float xoff = sin(time + y * 0.1);\\n\\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n //  float vy = v * 2. - 1.;\\n   \\n  gl_Position = vec4(ux,vy,0,1);\\n  gl_PointSize = 10.;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1,0,0,1);\\n \\n}\"}",
+  "screenshotURL": "data/images/images-l3yqem4dorrunlng2-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "29"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "cgNDuaPZgcQ8Bbw7F"
+}

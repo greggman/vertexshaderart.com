@@ -1,0 +1,36 @@
+{
+  "_id": "fLedbHFSXD9E4aMSv",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1641908838779"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1641908838779"
+    }
+  },
+  "origId": null,
+  "name": "Oh my",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.420948798089222"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":20000,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.3\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(time * 0.01) + 5.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.00014, 1.0);\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  pow(count * 0.025, .9);\\n  float innerRadius = pow(count * 0.0005, .2);\\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\\n\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC + c+oS,\\n      oS + s+c);\\n  gl_Position = vec4(xy * aspect * 0.5, 0, 1);\\n\\n  float b = 1.2 - pow(sin(count * 0.4) * 0.0 + 0.7, 1.8);\\n  b = 0.0;mix(0.3, 0.7, b);\\n  v_color = vec4(c, b, c, 0.6);\\n}\"}",
+  "screenshotURL": "data/images/images-gu78a1hdbkc8e989z-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "76"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ZzWK7B6Q3Xy3mZf8d"
+}

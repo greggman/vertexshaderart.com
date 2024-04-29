@@ -1,0 +1,46 @@
+{
+  "_id": "imESwJiuP9QDzXiWF",
+  "owner": {
+    "_id": "LEW3vxEn3hdy3R6gD",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1586825254093"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/soporus?s=200"
+    },
+    "username": "soporus"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1586825436197"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1587022864945"
+    }
+  },
+  "origId": null,
+  "name": "tut01",
+  "notes": "read sections of texture frequencies?",
+  "rank": {
+    "$numberDouble": "1.989985375734894"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "soporus",
+  "avatarUrl": "https://avatars.githubusercontent.com/soporus?s=200",
+  "settings": "{\"num\":10000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/bikeallmolten/tet-seq\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.0)\\nvec3 hsv2rgb(vec3 c){\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nmat2 rotate2d(float _angle){\\n    return mat2(cos(_angle),-sin(_angle),\\n                sin(_angle),cos(_angle));\\n}\\n\\nmat2 scaler(vec2 _scale){\\n    return mat2(_scale.x,0.0,\\n                0.0,_scale.y);\\n}\\n\\nvec2 getCirclePoint(float id, float numCircleSegments){  \\n  float ux = floor(id /6.0) + mod(id, 2.0);\\n  //odd and even vertexes\\n  float vy = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\\n  \\n  float angle = ux/numCircleSegments * PI * 2.0;\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  float radius = vy + 1.0;\\n  \\n  float x = c * radius;\\n  float y = s * radius;\\n  \\n  return vec2(x, y);\\n  \\n}\\n\\nvoid main() {\\n  float numCircleSegments = 5.0;\\n  vec2 circleXY = getCirclePoint(vertexId, numCircleSegments);\\n  \\n  float numPointsPerCircle = numCircleSegments * 6.0;\\n  float circleId = floor(vertexId / numPointsPerCircle);\\n  float numCircles = floor(vertexCount / numPointsPerCircle);\\n  \\n  \\n  float down = floor(sqrt(numCircles));\\n  float across = floor(numCircles/down);\\n  \\n  float x = mod(circleId, across);\\n  float y = floor(circleId/ across);\\n  \\n  float u = x / (across-1.0);\\n  float v = y / (across-1.0);\\n\\n  float xoff = sin(time + y * 0.2) * 0.025;\\n  float yoff = cos(time + x * 0.3) * 0.025;\\n  \\n  float ux = u * 2.0 -1.0 + xoff;\\n  float vy = v * 2.0 -1.0 + yoff;\\n  \\n  float su = abs(u - 0.5) * 2.0;\\n  float sv = abs(v - 0.5) * 2.0;\\n  \\n  float au = abs(atan(su, sv)) / PI;\\n  float av = length(vec2(su, sv));\\n  \\n  float snd = texture2D(sound, vec2(au * 0.05, av * 0.25)).a;\\n  \\n  float aspect = resolution.x / resolution.y;\\n  float scale = pow(snd + 0.2, 3.0);\\n  vec2 xy = circleXY * 0.05 *scale + vec2(ux, vy);\\n  \\n  xy *= rotate2d(sin(time*0.1)*PI);\\n  xy *= scaler(vec2(1.33333));\\n  gl_Position = vec4(xy,0,1) * vec4(1, aspect, 1, 1);\\n  \\n  \\n  float pump = step(0.75, snd);\\n  float hue = u*0.1*snd+0.5;\\n  float sat = step(0.666,snd);\\n  float val = mix(snd*0.25+0.125,snd,pump);\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-4kh4h34volmbxz5uz-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "39"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "wNEgLQYgArj9FJY8h"
+}

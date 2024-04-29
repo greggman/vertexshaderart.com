@@ -1,0 +1,47 @@
+{
+  "_id": "Mdfu3bDECkPeKcnKH",
+  "owner": {
+    "_id": "duWhpYJ2oQ4jvBvEN",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1543839089079"
+      }
+    },
+    "profile": {
+      "first_name": "Ivan",
+      "last_name": "Martynov",
+      "avatarUrl": "https://lh6.googleusercontent.com/-DfySwQJhPmU/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-gqZceMeW-XdcpSRy_BvwsdgkoQIQ/mo/photo.jpg"
+    },
+    "username": "ivan"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1543842182757"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1543842265399"
+    }
+  },
+  "origId": "97zwjZPbGFqPWiYZy",
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9304309456947115"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "ivan",
+  "avatarUrl": "https://lh6.googleusercontent.com/-DfySwQJhPmU/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-gqZceMeW-XdcpSRy_BvwsdgkoQIQ/mo/photo.jpg",
+  "settings": "{\"num\":3,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.19215686274509805,0.35294117647058826,0.6,1],\"shader\":\"void main() {\\n  gl_PointSize = 3.0;\\n  \\n  vec2 xy = vec2(-0.5, 0);\\n  \\n  if (vertexId == 1.0)\\n    xy = vec2(0, 0.5);\\n  else if (vertexId == 2.0)\\n    xy = vec2(0.5, 0);\\n  \\n  xy += vec2(0, sin(time));\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  \\n  v_color = vec4(0.65, 0.8, 0.4, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-e3d8ag654na2gh90l-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "AeCe5tET9SXKaTq7j"
+}

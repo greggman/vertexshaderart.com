@@ -1,0 +1,36 @@
+{
+  "_id": "CtXSFrywWri4egF7m",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1699048585647"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1699048585647"
+    }
+  },
+  "origId": null,
+  "name": "Bubble Universe",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3339020063852938"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Bubble Universe GLSL implementation\\n// Original is here: https://stardot.org.uk/forums/viewtopic.php?t=25833\\n\\nvoid main() {\\n\\n  const int n=500;\\n  const float r=6.283185307179586/235.;\\n\\tfloat x=0., y=0., u=0.,v=0., t=0., sz=200.;\\n  int i = int(vertexId)/n;\\n  float fj = 0.;\\n    for (int j = 0; j < n; j++) {\\n    u=sin(float(i)+v)+sin(r*float(i)+x);\\n    v=cos(float(i)+v)+cos(r*float(i)+x);\\n    x=u+time*.01;\\n      fj = float(j);\\n      if (j+i*n == int(vertexId)) {\\n        break;\\n      }\\n  }\\n      v_color = vec4(vertexId/vertexCount, fj/float(n),0.4,1.);\\n        gl_PointSize = 1.3;\\n      gl_Position = vec4(u*.5*min(1.,resolution.y/resolution.x),v*.5*min(1.,resolution.x/resolution.y),0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-ihujydzql8jnmlny2-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "54"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "bKR3xXw3X4xqnS4Zz"
+}

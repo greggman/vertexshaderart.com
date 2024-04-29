@@ -1,0 +1,36 @@
+{
+  "_id": "rAzqz9fhRarpgzdC2",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1597530975970"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1597530975970"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.686629014790782"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvoid main() {\\n  gl_Position = vec4(0,0,0,1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-on7wa45l7howaanl6-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "54"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "PLS8bJwHSYBooQx3q"
+}

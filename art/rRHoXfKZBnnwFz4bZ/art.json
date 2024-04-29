@@ -1,0 +1,46 @@
+{
+  "_id": "rRHoXfKZBnnwFz4bZ",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1494953258069"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1494953258069"
+    }
+  },
+  "origId": "gZgDK3bN2z7xtma6A",
+  "name": "begin struggle 3",
+  "notes": "Yes!",
+  "rank": {
+    "$numberDouble": "1.8174709593306275"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.6274509803921569,1],\"shader\":\"void main() {\\n  \\n  float density = 10.;\\n  \\n  float xoff = -1.;\\n    \\n  float yoff = -1.;\\n  \\n  float ux = 0.2;\\n  \\n  float uy = 0.2;\\n  \\n  float x = mod(vertexId , density);\\n  \\n  float y = mod(floor(vertexId / density), density);\\n  \\n  float step = mod(vertexId, density * density);\\n  \\n  float psize = mod(step, 3.) * 3. * (sin(time) + 1.);\\n  \\n  \\n  gl_Position = vec4(x * ux + xoff, y * uy + yoff, 0, 1);\\n  \\n   \\n  gl_PointSize = psize;\\n\\n  v_color = vec4(y * 100.,x * 100., time, 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-apti4og1951tg8v07-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ZdPg8RCTjvW9yqKPx"
+}

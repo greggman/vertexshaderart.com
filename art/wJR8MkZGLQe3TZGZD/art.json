@@ -1,0 +1,36 @@
+{
+  "_id": "wJR8MkZGLQe3TZGZD",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1541248651140"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1541248651140"
+    }
+  },
+  "origId": null,
+  "name": "BlockyMusicJumpingUpDown",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8755323137156525"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":6255,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/montagerock/cult-of-follow-leave-it-all-behind\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 4.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  vec4 soundPoint = texture2D(sound, vec2(fract(count / 128.0), fract(count / 20000.0)));\\n  float snd = soundPoint.a;\\n\\n  float c = sin(count)*1.1 - point * 0.01;\\n  float s = -0.4 + (snd * 0.8) - point * 0.01 * cos(count) * 0.1;\\n  \\n  vec2 size = vec2(resolution.x, resolution.y);\\n  vec2 xy = vec2(c, s);\\n  gl_Position = vec4(xy, 0, 1);\\n\\n  float hue = (time * 0.01 + count * 1.001);\\n  //v_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);\\n  v_color = (soundPoint.r < 0.1) \\n    ? vec4(0)\\n    : vec4(soundPoint.r * 0.7, soundPoint.g * 0.4 + 0.6, soundPoint.b * 0.8, 1);\\n  float pointSize = (count > 20.0) ? 10.0 : 30.0;\\n  gl_PointSize = soundPoint.r * (soundPoint.a + 0.2) * pointSize - 1.0;\\n}\"}",
+  "screenshotURL": "data/images/images-zru4mzt8800b6ygij-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "10"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "tcB8MaujBwA4ijQ9f"
+}

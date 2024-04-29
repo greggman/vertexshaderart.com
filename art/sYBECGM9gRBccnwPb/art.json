@@ -1,0 +1,36 @@
+{
+  "_id": "sYBECGM9gRBccnwPb",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1532765295139"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1532765295139"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9132488437359507"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":1,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.6235294117647059,0.6235294117647059,0.6235294117647059,1],\"shader\":\"void main()\\n{\\n\\tgl_PointSize = 10.0;\\n  \\n  \\tvec2 xy = vec2(vertexId / 3.0, vertexId / 3.0);\\n  \\n  \\tgl_Position = vec4(xy, 0.0, 1.0);\\n  \\tv_color = vec4(0.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-rcrkuggsqkoe1a5gt-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "94"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ooQyStSS4QZgW3tzE"
+}

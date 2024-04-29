@@ -1,0 +1,47 @@
+{
+  "_id": "Er8p4bB3vqTs4694p",
+  "owner": {
+    "_id": "5dwZhvoRvNg82C2S6",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1552092873922"
+      }
+    },
+    "profile": {
+      "first_name": "Ian",
+      "last_name": "Neumann Sánchez",
+      "avatarUrl": "https://lh5.googleusercontent.com/-kwFohQ1qZfc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reGM-mK9emfJ0BML17FZaOd7UGoXg/mo/photo.jpg"
+    },
+    "username": "ian"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1552093852140"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1552123803715"
+    }
+  },
+  "origId": null,
+  "name": "circle grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0765841680836061"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "ian",
+  "avatarUrl": "https://lh5.googleusercontent.com/-kwFohQ1qZfc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reGM-mK9emfJ0BML17FZaOd7UGoXg/mo/photo.jpg",
+  "settings": "{\"num\":2437,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define INNER_RADIUS 0.3\\n#define OUTER_RADIUS 0.3\\n#define SEGMENT_COUNT 20.0\\n\\nvec2 getPosition(float id){\\n  float width = 10.0;\\n  \\n  float x = mod(id , width);\\n  float y = floor(id / width);\\n  \\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.1;\\n  float yOffset = cos(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float vy = v * 2.0 - 1.0 + yOffset;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.2;\\n  \\n  return xy;\\n}\\n\\nvoid main(){\\n  \\n// vec2 origin = vec2(vertexId/ (SEGMENT_COUNT * 3.0), mod(vertexId, SEGMENT_COUNT * 3.0));\\n  \\n  vec2 origin = getPosition(floor(vertexId/ 42.0));\\n  \\n  float x = floor(mod(vertexId, 42.0) / 2.0);\\n  float y = mod(vertexId + 1.0, 2.0);\\n  \\n  float angle = x / SEGMENT_COUNT * radians(360.0);\\n  float radius = INNER_RADIUS + y * OUTER_RADIUS;\\n  \\n  float u = radius * cos(angle);\\n  float v = radius * sin(-angle);\\n  \\n  vec2 xy = vec2(u, v) * 0.1;\\n  xy += origin;\\n\\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  gl_PointSize = 20.0;\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  \\n  \\n  // gl_Position = vec4(origin, 0.0, 1.0);\\n  // gl_PointSize = 20.0;\\n  // v_color = vec4(1.);\\n}\\n\\n\\n\\n/* void main()\\n{\\n  float width = 10.0f;\\n  \\n  float x = mod(gl_VertexID, width);\\n  float y = floor(gl_VertexID / width);\\n  \\n  float u = x / (width - 1.0f);\\n  float v = y / (width - 1.0f);\\n  \\n  float xOffset = cos(time + y * 0.2f) * 0.1f;\\n  float yOffset = cos(time + x * 0.3f) * 0.2f;\\n  \\n  float ux = u * 2.0f - 1.0f + xOffset;\\n  float vy = v * 2.0f - 1.0f + yOffset;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.2f;\\n  \\n  gl_Position = vec4(xy, 0.0f, 1.0f);\\n  gl_PointSize = 20.0f;\\n  //v_color = vec4(0.0f, 0.0f, 0.0f, 1.0f);\\n}\\n*/\"}",
+  "screenshotURL": "data/images/images-c3j0x56tqgdsftbqc-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "GXNNoauS9qMk7X8Y5"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "QukF3gwmKw5pDHhaD",
+  "owner": {
+    "_id": "e3XLwKm4hhhk62Zxo",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1558975720096"
+      }
+    },
+    "username": "jonnynewo",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/2ee3fa32fc5fe43ece0455f4e45b5c3b?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1558985261532"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1558985261532"
+    }
+  },
+  "origId": null,
+  "name": "Tutorial 2 - Motion",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5759332583492265"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "jonnynewo",
+  "avatarUrl": "https://secure.gravatar.com/avatar/2ee3fa32fc5fe43ece0455f4e45b5c3b?default=retro&size=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n  \\tfloat down = floor(sqrt(vertexCount)); // est grid\\n  \\tfloat across = floor(vertexCount / down); // more grid\\n    \\n  \\tfloat x = mod(vertexId, across); // red dot boi\\n  \\tfloat y = floor(vertexId / across); // twin\\n\\n  \\n  \\tfloat u = x / (across -1.); \\n  \\tfloat v = y / (across -1.);\\n \\n  \\tfloat xoff = sin(time + y * 0.2) * 0.1;\\n  \\tfloat yoff = sin(time + x * 0.3) * 0.1;\\n  \\n  \\tfloat ux = u * 2. - 1. + xoff;\\n  \\tfloat vy = v * 2. - 1. + yoff;\\n  \\n  \\tvec2 xy = vec2(ux, vy) * 1.5;\\n  \\n  \\tgl_Position = vec4(xy, 0, 1);\\n  \\n  \\tfloat soff = sin(time + x * y * 0.02) * 5.;\\n  \\n  \\tgl_PointSize = 10.0 + soff;  \\n  \\tgl_PointSize *= 20. / across; \\n  \\tgl_PointSize *= resolution.x / 600.;\\n  \\n  \\tv_color = vec4(1, 0, 0, 1);   // refers to R, G, B, alpha\\n  \\n}\\n\"}",
+  "screenshotURL": "data/images/images-e3d528o7635fd5ci8-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Mgcyj2snuvXutZeSr"
+}

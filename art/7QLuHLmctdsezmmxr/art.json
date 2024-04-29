@@ -1,0 +1,46 @@
+{
+  "_id": "7QLuHLmctdsezmmxr",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1541026147780"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1541214192168"
+    }
+  },
+  "origId": "4h35MHPA2dwXFTJHy",
+  "name": "Simple dot tutorial/Exercice",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8351401128041591"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":1,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"////////////////////////////////////////////////////////////\\n//Super Simple dot example\\n//Very simple vertex shader initiation with comments (work in progress)\\n////////////////////////////////////////////////////////////\\n\\n//Vertices number (top menu) is on \\\"1\\\" means we are drawing only one vertice/dot (maximum would be 100000 on vertexshaderart.com)\\n//Render mode (top menu) is on \\\"POINTS\\\" means we are interpreting consecutive vertices as simple points.\\n//All lines starting with \\\"//\\\" are only here for comments and do not affect the final shader program\\n\\nvoid main(){ \\n\\n  //1. SETTING THE DOT SIZE: \\n  //Exercise : try to change the value 15.0 to 30.0 and see the size of the point changes\\n\\n  gl_PointSize = 15.0;\\n\\n\\n  //2. SETTING THE DOT POSITION : vec4(horizontal position, vertical position, depth position, 1.);\\n  //Note: values range from -1. to 1. : for first component -1. would be top left of the screen and 1. would be top right of the screen.\\n\\n  //Exercise : Try to change the FIRST 0. in vec4(0., 0., -1., 1.) to vec4(0.5, 0., -1., 1.) and see the position of the point changes HORIZONTALLY\\n  //Exercise : Try to change the SECOND 0. in vec4(0., 0., -1., 1.) to vec4(0., 0.5, -1., 1.) and see the position of the point changes VERTICALLY\\n\\n  gl_Position = vec4(0., 0., 0., 1.);  \\n\\n\\n  //3. SETTING THE DOT COLOR : \\n  //Each number in the vec4() below is for vec4(red, green, blue, alpha) hence, vec4(1., 1., 1., 1.0) is for white color\\n  //Note: values range from 0. to 1. \\n\\n  //Exercise : try to change  vec4(1., 1., 1., 1.0) to vec4(1., 0., 0., 1.0) and see the point is now red\\n  //Exercise : try to change  vec4(1., 1., 1., 1.0) to vec4(0., 1., 0., 1.0) and see the point is now green\\n  //Exercise : try to change  vec4(1., 1., 1., 1.0) to vec4(0., 0., 1., 1.0) and see the point is now blue\\n  \\n  v_color = vec4(1., 1., 1., 1.);\\n}\"}",
+  "screenshotURL": "data/images/images-k27bazx3rp2qmxpyl-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "11"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "8gFC3Je2wuqWhJKNj"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "bpX9tBkNhHiF6nHk8",
+  "owner": {
+    "_id": "fJsd989asQpLSTgC3",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1687709824959"
+      }
+    },
+    "username": "mv10",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/ae371690b3859dd1515ccf3e9ddc2ec8?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1687710770852"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1687807918232"
+    }
+  },
+  "origId": null,
+  "name": "sound basics 1",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5383459000860231"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "mv10",
+  "avatarUrl": "https://secure.gravatar.com/avatar/ae371690b3859dd1515ccf3e9ddc2ec8?default=retro&size=200",
+  "settings": "{\"num\":15000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n// use about 15000 points\\n\\n// white = sound texture\\n// green = volume texture\\n\\n// very long playlist:\\n// https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\\n\\nvoid main () {\\n  \\n  // normalize the ID; 0.0 to 1.0 across the range of input IDs\\n  float norm = (vertexId / vertexCount);\\n  \\n  // expand x position to cover entire display area\\n  // we're shifting norm 0.0 to 1.0 to cover display -1.0 to +1.0\\n  // mathematically identical: norm * 2.0 - 1.0\\n  float x = (norm - 0.5) * 2.0;\\n  \\n  // sample the texture history data (0.0 to 1.0 via norm)\\n  // this will be the point's y-pos with offsets to separate them\\n  // note the first array index is frequency; x=0.0 is all bass-driven\\n  float ySnd = (texture2D(sound,  vec2(0.0, norm)).a - 0.3);\\n  float yVol = (texture2D(volume, vec2(0.0, norm)).a - 0.7);\\n\\n  // even/odd IDs alternate between textures and colors\\n  // it would be more readable and flexible to do this with arrays\\n  // but WebGL can't handle variable array indexing (yeah WTF?)\\n  // https://stackoverflow.com/a/30648046/152997\\n  float a = mod(vertexId, 2.0);\\n  float b = step(a, 0.0);\\n\\n  // one y is multiplied by 1, the other is multiplied by 0\\n  float y = (ySnd * a) + (yVol * b);\\n  \\n  // same for colors, while = sound tex, green = volume tex\\n  vec3 color = (vec3(1.0) * a) + (vec3(0.0, 1.0, 0.0) * b);\\n\\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  v_color = vec4(color, 1.0);\\n\\n  // fat points easier to see at hi-res full-screen\\n  gl_PointSize = 5.0;\\n\\n}\"}",
+  "screenshotURL": "data/images/images-ef7ogza1aqocla6p6-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "98"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "wzcwfsyZnqY8TWy8d"
+}

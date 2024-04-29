@@ -1,0 +1,46 @@
+{
+  "_id": "9Sr9XKEznvoJprDjG",
+  "owner": {
+    "_id": "CL56fLeJWNjv8p9hc",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1501331424273"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/ray7551?s=200"
+    },
+    "username": "ray7551"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1501331541652"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1501521156320"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8738345289146414"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "ray7551",
+  "avatarUrl": "https://avatars.githubusercontent.com/ray7551?s=200",
+  "settings": "{\"num\":289,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float gridWidth = floor((vertexCount - floor(sqrt(vertexCount))) / floor(sqrt(vertexCount)));\\n  \\n  gl_PointSize = 10.;\\n  gl_PointSize *= 20. / gridWidth;\\n  // gl_PointSize *= resolution.x / 400.;\\n  vec2 realPointSize = vec2(gl_PointSize) / resolution;\\n  \\n  vec2 p = vec2(\\n    mod(vertexId, gridWidth),\\n    floor(vertexId / gridWidth)\\n  );\\n  // p = (p / (gridWidth - 1.) ) * 2. - vec2(1., 1.)\\n  //  + vec2(gl_PointSize / resolution / 2.);\\n  p = (p) / (gridWidth - 1.) * 2.\\n    - vec2(1., 1.);// + realPointSize;\\n  \\n  gl_Position = vec4(p, 0., 1.);\\n  \\n  \\n  v_color = vec4(1. * sin(time), 1., 0.8 * cos(time), 1.);\\n}\"}",
+  "screenshotURL": "data/images/images-aafyiixjpik60ezs9-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "11"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "jKZjfo9E4YA5HFMd3"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "BEskWFZM826YNBJAN",
+  "owner": {
+    "_id": "a3PnYPa8MGo9QSALX",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667032560256"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/JarredTheCoder?s=200"
+    },
+    "username": "jarredthecoder"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668219725824"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1668219725824"
+    }
+  },
+  "origId": null,
+  "name": "red bars",
+  "notes": "It is from 404 not found",
+  "rank": {
+    "$numberDouble": "1.8263729173142147"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "jarredthecoder",
+  "avatarUrl": "https://avatars.githubusercontent.com/JarredTheCoder?s=200",
+  "settings": "{\"num\":1440,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,1,0,1],\"shader\":\"// -----[ shader missing! ] -----\\n\\n#define NUM 15.0\\n#define NUMP 2.1\\nvoid main() {\\n  gl_PointSize = 64.0;\\n  float col = mod(vertexId, NUM + 1.0);\\n  float row = mod(floor(vertexId / NUMP), NUMP + 1.0); \\n  float x = col / NUM * 2.0 - 1.0;\\n  float y = row / NUM * 2.0 - 1.0;\\n  gl_Position = vec4(x, y, 0, 1);\\n  v_color = vec4(fract(time + col / NUM + sin(row) / NUMP), 0, 0, 6);\\n}\"}",
+  "screenshotURL": "data/images/images-8kk1q0vbaljeoqim3-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "35"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "6CXGPBncBYXNTArYm"
+}

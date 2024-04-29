@@ -1,0 +1,36 @@
+{
+  "_id": "KpCz9hjoFif9i3TvM",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551485955930"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551485955930"
+    }
+  },
+  "origId": "NPJKuYxHxpNRWHnid",
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.863594476727102"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":16,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId + 1.0, 2.0);\\n  \\n  float n = 30.0;\\n  float angle = (x/n)*2.0*radians(360.0);\\n  float circleWidth = 0.5;\\n  float radio = 1.0 + y*1.0;\\n  \\n  float xOffset = radio*cos(angle);\\n  float yOffset = radio*sin(angle);\\n  vec2 xy = vec2(xOffset, yOffset) * 0.1;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 1.0;\\n  \\n  // E2\\n  /*\\n  float x = floor(vertexId / 2.0);\\n  float y = mod(vertexId + 1.0, 2.0);\\n  \\n  vec2 xy = vec2(x, y) * 0.1;\\n  \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 1.0;\\n  */\\n  \\n  // E1\\n  /*float width = 20.0;\\n  \\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.1;\\n  float yOffset = sin(time + x * 0.3) * 0.1;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float uy = v * 2.0 - 1.0 + yOffset;\\n    \\n  vec2 xy = vec2(ux, uy) * 1.2;\\n    \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 10.0;*/\\n}\\n\\n\\n\"}",
+  "screenshotURL": "data/images/images-6kxyt3je0wd3g468z-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "62"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "RWmh2aQBEovdR2kE5"
+}

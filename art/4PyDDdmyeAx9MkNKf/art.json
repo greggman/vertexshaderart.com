@@ -1,0 +1,46 @@
+{
+  "_id": "4PyDDdmyeAx9MkNKf",
+  "owner": {
+    "_id": "dgqw29fjufNnKhsLi",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493343830960"
+      }
+    },
+    "profile": {
+      "name": "Noah Witherspoon",
+      "avatarUrl": "https://lh6.googleusercontent.com/-hKeVEDw-dKI/AAAAAAAAAAI/AAAAAAAAAEI/Y7P2dQVbzrs/photo.jpg"
+    },
+    "username": "noah"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1493343843624"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1493343843624"
+    }
+  },
+  "origId": null,
+  "name": "inside out",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6588962719797697"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "noah",
+  "avatarUrl": "https://lh6.googleusercontent.com/-hKeVEDw-dKI/AAAAAAAAAAI/AAAAAAAAAEI/Y7P2dQVbzrs/photo.jpg",
+  "settings": "{\"num\":540,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"CSS\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159\\n#define TWO_PI 6.28319\\n#define SIDES 12.0\\n\\nvoid main() {\\n  float polygonPointIndex = mod(vertexId, SIDES + 1.0);\\n  float polygonIndex = (vertexId - polygonPointIndex) / SIDES;\\n  const float angleIncrement = TWO_PI / SIDES;\\n  float angleOffset = polygonIndex * (-PI + 0.2 * sin(time * 0.5));\\n  vec2 direction = vec2(cos(polygonPointIndex * angleIncrement + angleOffset), sin(polygonPointIndex * angleIncrement + angleOffset));\\n  float radius = 1.0 / pow(1.1 + 0.2 * cos(time * 0.41 + 0.4), polygonIndex);\\n\\n  // uniforms: time, mouse, resolution, vertexCount\\n  // attributes: vertexId\\n  float aspect = resolution.x / resolution.y;\\n  vec2 coord = direction * radius;\\n  gl_Position = vec4(coord.x / aspect, coord.y, 0, 1);\\n\\n  v_color = vec4(1, 1, 1, 1);\\n  gl_PointSize = 2.0;\\n}\"}",
+  "screenshotURL": "data/images/images-n35b0rp1bgsaetcyo-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "RJgb9pxqjD2H4uEnW"
+}

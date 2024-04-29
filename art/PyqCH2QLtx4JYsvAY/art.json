@@ -1,0 +1,46 @@
+{
+  "_id": "PyqCH2QLtx4JYsvAY",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1495005471663"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1495005584626"
+    }
+  },
+  "origId": "ZvcLBFp3AkteTsGku",
+  "name": "Grid IV",
+  "notes": "Yes!",
+  "rank": {
+    "$numberDouble": "1.0807983458843822"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.6274509803921569,1],\"shader\":\"void main() {\\n  \\n  float density = 50.;\\n  \\n  float xoff = -0.5 * sin(vertexId);\\n    \\n  float yoff = -0.5 * sin(time*vertexId);\\n  \\n  float ux = 0.01;\\n  \\n  float uy = 0.01;\\n  \\n  float x = mod(vertexId , density);\\n  \\n  float y = mod(floor(vertexId / density), density);\\n  \\n  \\n  gl_Position = vec4(x * ux + xoff, y * uy + yoff, 0, 1);\\n\\n   \\n  gl_PointSize = 10.*(sin(time*vertexId/1000.)+ 1.); //mod(vertexId, density * density) / 5.;\\n\\n  v_color = vec4(1, 0, 0, 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-xe70xdftg2thbr6cj-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "JwsiH59uEaMne6Fz9"
+}

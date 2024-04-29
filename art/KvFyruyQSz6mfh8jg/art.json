@@ -1,0 +1,46 @@
+{
+  "_id": "KvFyruyQSz6mfh8jg",
+  "owner": {
+    "_id": "QyFr9WoPZHnnBeKat",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1540408032900"
+      }
+    },
+    "profile": {
+      "first_name": "dertrackererpro",
+      "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg"
+    },
+    "username": "dertrackererpro"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1540822253451"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1540822253451"
+    }
+  },
+  "origId": null,
+  "name": "Wifi Symbol ;)",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0496134075417645"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "dertrackererpro",
+  "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg",
+  "settings": "{\"num\":3677,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"mat2 Rotate2D(float x) {\\n  float a=sin(x), b=cos(x);\\n  return mat2(b, -a, a, b);\\n}\\n\\nvoid main () {\\n  vec3 pos = vec3(vertexId/vertexCount, 0.0, 0.0);\\n  pos.xy*= Rotate2D(sin(time+vertexId*0.1));\\n  pos.xy*= Rotate2D(3.14159/2.0);\\n  pos.y -= 0.3;\\n  vec3 clr = vec3(pos.x-0.2, pos.y-1.0, -pos.x)+0.5;\\n  \\n  gl_PointSize = 6.0; /* if points avaible */\\n  gl_Position = vec4(pos.xy, pos.z, 1.0);\\n  v_color = vec4(clr, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-xvsfguth18jdiw431-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "91"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "KwQ9H4itbshSxgiHQ"
+}

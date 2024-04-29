@@ -1,0 +1,47 @@
+{
+  "_id": "KGsjT9edDDoFLsK2a",
+  "owner": {
+    "_id": "Fb4jaWH5nhdXuAG2E",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494693086089"
+      }
+    },
+    "profile": {
+      "name": "",
+      "avatarUrl": "https://i1.sndcdn.com/avatars-000201943208-mgxm4x-large.jpg",
+      "info": "Welcome!!!!"
+    },
+    "username": "lambmeow"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1494708209799"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1494708209799"
+    }
+  },
+  "origId": "5gKRQuwx63MAdRePc",
+  "name": "CircleColor",
+  "notes": "Pretty Cool, Right?",
+  "rank": {
+    "$numberDouble": "1.9245633151504848"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "lambmeow",
+  "avatarUrl": "https://i1.sndcdn.com/avatars-000201943208-mgxm4x-large.jpg",
+  "settings": "{\"num\":74675,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/soulkai/sunset-killer\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/* Lambmeow */ \\n\\n#define PI radians(180.)\\n\\nvec2 GetCirclePoint(float id, float NumCircleSegments) {\\n  \\n  \\n   float ux= floor(id/6.) + mod(id,2.);\\n  float vy = mod(floor(id/2.)+ floor(id/3.), 2.);\\n  \\n  float angle  =ux/NumCircleSegments * PI * 2. ;\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  \\n  float radius = vy +1.;\\n  \\n \\n  \\n  float x = c  * radius ; \\n  float y = s * radius;\\n  \\n  return vec2(x,y);\\n  \\n \\n}\\n\\n\\nvec3 hsv2rgb(vec3 c) {\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main(){\\n  float numCircleSeg = 20.;\\n  vec2 cir = GetCirclePoint(vertexId,numCircleSeg);\\n  float numPointsPerCircle = numCircleSeg * 6.;\\n  float circleId = floor(vertexId/numPointsPerCircle);\\n  float numCircles = floor(vertexCount/numPointsPerCircle);\\n  \\n  \\n  float down = floor(sqrt(numCircles));\\n  float across = floor(numCircles/down);\\n  \\n  float x = mod(circleId,across);\\n  float y = floor(circleId/across);\\n  \\n  float u = x/(across-1.);\\n  float v = y/(across- 1.);\\n  \\n  float xoff = sin(time + y *.2);\\n  float yoff = sin(time +x *.2);\\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  vec2 xy = cir * 0.1 + vec2(ux,vy) * texture2D(sound,vec2(u,v)).a;\\n  \\n  gl_Position = vec4(xy,0,1);\\n  \\n  float snd = texture2D(sound, vec2(u,v/4.)).a;\\n  \\n  float soff = sin(time +x * y ) * .5 ;\\n  \\n  gl_PointSize = 15. + soff;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x/ 600.;\\n  float h = (u +cos(time * -v))* sin(time * .3) + snd;\\n  float s = 1.;\\n  float val = v+.8;\\n  v_color = vec4(hsv2rgb(vec3(h,s,val)),1);\\n}\"}",
+  "screenshotURL": "data/images/images-aa7pzjncwwadg3s9r-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "6"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "gmx3WXnaRKCaDrgez"
+}

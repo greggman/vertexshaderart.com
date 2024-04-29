@@ -1,0 +1,47 @@
+{
+  "_id": "P5mpP2Tb9XkwhuTK7",
+  "owner": {
+    "_id": "74DGefcaFXNz9a4tp",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1714139701715"
+      }
+    },
+    "profile": {
+      "first_name": "Salvatore",
+      "last_name": "Spoto",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKio7TORJMn8A7RkX3-sf6UDKi8ACBRf3ulZjs1E6B-yDqExhFe=s96-c"
+    },
+    "username": "salvatore"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1714149284457"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1714152248882"
+    }
+  },
+  "origId": null,
+  "name": "First Shader",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9475582157223494"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "salvatore",
+  "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKio7TORJMn8A7RkX3-sf6UDKi8ACBRf3ulZjs1E6B-yDqExhFe=s96-c",
+  "settings": "{\"num\":961,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/maslyastar/capsule-world-of-fantasy\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"\\nvoid main()\\n{\\n  \\n  \\t// Use the floor to get an integer. Due vertexId is integer, the vertices x coord will be aligned.\\n\\tfloat RowLen = floor(sqrt(vertexCount));   \\n \\n    // [x, y] position\\n  \\tfloat x = mod(vertexId, RowLen);\\n  \\tfloat y = floor(vertexId / RowLen);\\n  \\n    // Eg. if RowLen is 10., x goes to 0 to 9, due the mod operation\\n    // and y too due to the division and floor, this cause the last x and y points to be drawn before the screen border\\n    // and the grid seems not uniform.\\n    // So scale the coordinate dividing them by 9, (RowLen-1), instead of dividing by 10,\\n    // to optain the starting and the end points on the screen border.\\n  \\t\\n    // [u,v] = [0,1]x[0,1]\\n    float u = x / (RowLen - 1.);\\n    float v = y / (RowLen - 1.);\\n \\n    // Add animation\\n  \\tfloat xoff = 0.;//sin(time + y * 0.2) * 0.1;\\n  \\tfloat yoff = 0.;//sin(time + x * 0.2) * 0.2;\\n    \\n    // [U,V] = [-1,1]x[-1,1]\\n  \\tfloat U = 2. * u - 1. + xoff;\\n  \\tfloat V = 2. * v - 1. + yoff;\\n  \\n    // Scale coordinates\\n    vec2 UV = vec2(U,V) * 0.6;\\n  \\t\\n\\tgl_Position = vec4(UV, 0, 1);\\n  \\t\\n  \\t\\n  \\tfloat PointSizeScale = sin(time + x * y * 0.02) * 5.;\\n  \\t\\n  \\t// More point on screen -> smaller point size\\n  \\tgl_PointSize = 15. + PointSizeScale;\\n  \\tgl_PointSize *= 5. / RowLen;\\n  \\tgl_PointSize *= resolution.x / 600.;\\n  \\n  \\t\\n\\n    // Change color\\n  \\tv_color = vec4(1,0,0, 1);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-zbek0adj6e0yuaz9k-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "MuhvPeqhm2Q5SCSij"
+}

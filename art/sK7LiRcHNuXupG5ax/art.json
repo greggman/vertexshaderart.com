@@ -1,0 +1,36 @@
+{
+  "_id": "sK7LiRcHNuXupG5ax",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1642066690738"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1642066690738"
+    }
+  },
+  "origId": "W6AZjsv3rqioGwCLa",
+  "name": "Oh my word",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.341660474986999"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":6127,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/kuroko-basket-94353325/classical-music-drill-type-beat-compilation-part-1-ft-mozart-beethoven-bach?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.27058823529411763,0.050980392156862744,0.34901960784313724,1],\"shader\":\"\\n\\n#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 1.0)\\n#define STEP 1.93\\nvoid main() {\\n    float T = cos( time*mod(floor(vertexId / 2.0) * -mod(vertexId, 2.0) * STEP, NUM_SEGMENTS));\\nfloat snd = texture2D(sound,vec2(0.,1.)).a;\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(time * .6- mouse.y) + 11.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.0014, 1.0);\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  pow(count * 0.0025, .9);\\n  float innerRadius = pow(count * 0.0005, .2);\\n  float oC = cos(orbitAngle + count * 0.003) * innerRadius*mouse.y*sin(time);\\n  float oS = sin(orbitAngle + count * 0.01) * innerRadius-mouse.x+sin(time);\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC -1.+ c+oS,\\n      oS + s+c);\\n  gl_Position = vec4(xy * aspect * .60161, sin(time), 1);\\n\\n  float b = 0.2 *sin(time-1.)/ pow(sin(count *1.4+T) * 1.3 + 0.17, 1.8);\\n  b = 0.20;mix(-.3, mouse.x/0.9/T, b)/-T;\\n  v_color = vec4(c, c, cos(T*5./b)+b/c-b, .489);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-34zoofwmawlxo2ax2-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "81"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "8XjJCv7aS6kJSqQHX"
+}

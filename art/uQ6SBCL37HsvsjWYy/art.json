@@ -1,0 +1,36 @@
+{
+  "_id": "uQ6SBCL37HsvsjWYy",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1639585711620"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1639585711620"
+    }
+  },
+  "origId": null,
+  "name": "wonk",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0720164000243493"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":400,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n\\n  float count = floor(vertexId / NUM_POINTS);\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(((sin(vertexId * time)*8.0) / resolution.x) * count, ((cos(vertexId * time)*4.0) / resolution.y) * count);\\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\\n\\n  float hue = (time * 0.01 + (count/10.0) * 1.001);\\n  v_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-itzj8smlszzcok3c5-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "33"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "vdrtBLYzwxGa9HLmr"
+}

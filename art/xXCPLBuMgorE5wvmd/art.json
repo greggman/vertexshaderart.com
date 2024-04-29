@@ -1,0 +1,36 @@
+{
+  "_id": "xXCPLBuMgorE5wvmd",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554116738652"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554116738652"
+    }
+  },
+  "origId": "nL6YpkW8YvGKNEKtj",
+  "name": "point cloud vs spheres",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8017885975564498"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":3,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/mogueheart/contact-part-2\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.1607843137254902,0.24705882352941178,0.8117647058823529,1],\"shader\":\"void main()\\n{\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-4ps12krs1czt0fkku-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "72"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "fBPk6u8MGNaCsZR9H"
+}

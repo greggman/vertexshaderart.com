@@ -1,0 +1,47 @@
+{
+  "_id": "xsSZN6pMk7iANGyTE",
+  "owner": {
+    "_id": "vkPwAHM8PnAebFPxW",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1501857924166"
+      }
+    },
+    "profile": {
+      "name": "Macro Machines",
+      "avatarUrl": "https://lh3.googleusercontent.com/-hZKcNaW8AT0/AAAAAAAAAAI/AAAAAAAAEGM/geaXegN2s9U/photo.jpg",
+      "info": "axiom-crux.net macromachines.net"
+    },
+    "username": "macro"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1501978082735"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1501978082735"
+    }
+  },
+  "origId": "Ekz3YzPYcEQyhT2z7",
+  "name": "math errors",
+  "notes": "Removed floor() and everything is on an angle",
+  "rank": {
+    "$numberDouble": "1.9530579571834692"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "macro",
+  "avatarUrl": "https://lh3.googleusercontent.com/-hZKcNaW8AT0/AAAAAAAAAAI/AAAAAAAAEGM/geaXegN2s9U/photo.jpg",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.25098039215686274,1],\"shader\":\"void main() {\\n  float aspect = resolution.x / resolution.y;\\n  float across = (sqrt(vertexCount) * aspect);\\n  float down = (vertexCount / across);\\n  float x = mod(vertexId, across);\\n  float y = (vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (down - 1.);\\n\\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  float pointScale = min(\\n    20. / across * resolution.x / 600.0,\\n    20. / down * resolution.y / 600.0);\\n  \\n  gl_Position = vec4(vec2(ux, vy) * .75, 0, 1);\\n  gl_PointSize = 15.0;\\n  gl_PointSize *= pointScale;\\n\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-thsxs95ewyyaxfipf-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "33"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "NwaDFmJAuoZugv99k"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "huHtobGCf37pyxqDW",
+  "owner": {
+    "_id": "S2ngnFxkfLcZGbwhH",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1497589544799"
+      }
+    },
+    "username": "leodars",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/4cb6f7468a7063cf9d0e6efeaa134438?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F4b7261fd1e30fe7006e6eb1c0300c662"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1497590617938"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1497591027913"
+    }
+  },
+  "origId": null,
+  "name": "FirstArt",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8591593472371721"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "leodars",
+  "avatarUrl": "https://secure.gravatar.com/avatar/4cb6f7468a7063cf9d0e6efeaa134438?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F4b7261fd1e30fe7006e6eb1c0300c662",
+  "settings": "{\"num\":20792,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff =  sin(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.3;\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time * 1.2 + x * y * 0.02) * 5.;\\n  \\n  gl_PointSize = 15.0 + soff;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  float hue = u * .2 + sin(time + v * 20.) * .08;\\n  float sat  = 1.;\\n  float val  = sin(time +1.4 + v * u * 20.0) * .5 + 1.;\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-9atowj5b205kphd6c-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "aGPWsqqSaJaHKKJRa"
+}

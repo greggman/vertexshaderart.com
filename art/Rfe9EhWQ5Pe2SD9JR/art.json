@@ -1,0 +1,47 @@
+{
+  "_id": "Rfe9EhWQ5Pe2SD9JR",
+  "owner": {
+    "_id": "5BgXouYqC6RdG72mD",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1517615797080"
+      }
+    },
+    "profile": {
+      "first_name": "JC",
+      "last_name": "Anaya",
+      "avatarUrl": "https://lh6.googleusercontent.com/-wxkmpL8A-s0/AAAAAAAAAAI/AAAAAAAAAFg/cZuqYtkpOCI/photo.jpg"
+    },
+    "username": "jc"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1517973837241"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1517973837241"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6277981636024124"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "jc",
+  "avatarUrl": "https://lh6.googleusercontent.com/-wxkmpL8A-s0/AAAAAAAAAAI/AAAAAAAAAFg/cZuqYtkpOCI/photo.jpg",
+  "settings": "{\"num\":16384,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.7803921568627451,0.7843137254901961,0.803921568627451,1],\"shader\":\"void circle()\\n{\\n  float xC = floor(vertexId / 6.0) + mod(vertexId, 2.0);\\n  float yC = mod(floor(vertexId / 2.0) + floor(vertexId / 3.0), 2.0);\\n  \\n  float angle = xC / 20.0 * radians(180.0) * 2.0;\\n  float radius = yC + 1.0;\\n  \\n  float xPC = radius * cos(angle);\\n  float yPC = radius * sin(angle);\\n  \\n  vec2 xyPC = vec2(xPC,yPC);\\n  \\n  gl_Position = vec4(xyPC * 0.1, 0.0, 1.0);\\n}\\n\\nvoid main()\\n{\\n    \\n  float width = floor(sqrt(vertexCount));\\n  \\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  \\n  float u = x / (width);\\n  float v = y / (width);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.0;\\n  \\n  gl_Position = vec4 (xy, 0.0, 1.0);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 32.0 / width;\\n  \\n  v_color= vec4(0.0, 1.0, 0.0, 1.0);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-08lgdtpg3jlma0m5l-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "StELqGdxPvJNdaqo9"
+}

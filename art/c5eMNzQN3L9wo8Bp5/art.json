@@ -1,0 +1,46 @@
+{
+  "_id": "c5eMNzQN3L9wo8Bp5",
+  "owner": {
+    "_id": "mDiE85wue3FMQCMXk",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1546121397447"
+      }
+    },
+    "profile": {
+      "first_name": "The Tuesday Night Machines",
+      "avatarUrl": "https://lh4.googleusercontent.com/-FV8gxf8fOhA/AAAAAAAAAAI/AAAAAAAAAAs/OCNDvQKt4Fo/photo.jpg"
+    },
+    "username": "thetuesday night machines"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1546165831327"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1546165889280"
+    }
+  },
+  "origId": null,
+  "name": "Init",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.180831656000534"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "thetuesday night machines",
+  "avatarUrl": "https://lh4.googleusercontent.com/-FV8gxf8fOhA/AAAAAAAAAAI/AAAAAAAAAAs/OCNDvQKt4Fo/photo.jpg",
+  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n\\n  float x = vertexId;\\n  float y = vertexId;\\n  \\n  gl_Position = vec4(x, y, 0., 1.);\\n  gl_PointSize = 10.;\\n\\n  v_color = vec4(1., 0., 0., 1.);\\n}\"}",
+  "screenshotURL": "data/images/images-xdcrroj3kebozh27d-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "62"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "vNrJEAjXB5MbMeaes"
+}

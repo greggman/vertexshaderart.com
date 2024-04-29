@@ -1,0 +1,46 @@
+{
+  "_id": "WRmESL9HBySX6ujn5",
+  "owner": {
+    "_id": "kyXXJQqbYswFwztCg",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1706581934300"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/jieunko?s=200"
+    },
+    "username": "jieunko"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1706601432468"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1706601432468"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7912456112223447"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "jieunko",
+  "avatarUrl": "https://avatars.githubusercontent.com/jieunko?s=200",
+  "settings": "{\"num\":1265,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n\\t\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x/ (across - 1.);\\n  float v = y/ (across - 1.);\\n  \\n  float xoff = 0.0; //sin(time+y * 0.4) * 0.1;\\n  float yoff = 0.0; //cos(time+x * 0.4) * 0.1;\\n  float soff = 0.0; //sin(time + x * y*0.02) * 5.0;\\n  \\n  float ux = u * 2.0 - 1.0 + xoff;\\n  float vy = v * 2.0 - 1.0 + yoff;\\n  \\n    \\n  gl_Position  = vec4(ux, vy, 0, 1);\\n  gl_PointSize = 5.0 + soff;\\n  v_color = vec4(0.0, u, v, 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-86xo6rgk5recmjaqh-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "h2fYejvfzDCzftoCh"
+}

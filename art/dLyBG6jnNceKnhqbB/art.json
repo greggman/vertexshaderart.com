@@ -1,0 +1,45 @@
+{
+  "_id": "dLyBG6jnNceKnhqbB",
+  "owner": {
+    "_id": "PaTtiG9fc6wWxh69k",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1501018355084"
+      }
+    },
+    "username": "sylistine",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/3a93b17a430d08943deebdfb93d4cef3?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1501294812465"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1501294812465"
+    }
+  },
+  "origId": null,
+  "name": "camera transform vs vertex position logic exercise",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5839672906807365"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "sylistine",
+  "avatarUrl": "https://secure.gravatar.com/avatar/3a93b17a430d08943deebdfb93d4cef3?default=retro&size=200",
+  "settings": "{\"num\":20000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.4980392156862745,0.4980392156862745,0.4980392156862745,1],\"shader\":\"#define PI radians(180.)\\n#define TAU (2. * PI)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nmat4 rotZ() {\\n  float s = sin(time);\\n  float c = cos(time);\\n  return mat4(\\n    c, -s, 0, 0,\\n    s, c, 0, 0,\\n    0, 0, 1, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 rotY() {\\n  float val = time * 20.;\\n  float s = sin(radians(val));\\n  float c = cos(radians(val));\\n  return mat4(\\n    c, 0, -s, 0,\\n    0, 1, 0, 0,\\n    s, 0, c, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 cameraFrustum = mat4(\\n  1, 0, 0, 0,\\n  0, resolution.x / resolution.y, 0, 0,\\n  0, 0, 1, -1,\\n  0, 0, 0, 1);\\n\\nvoid main() {\\n  mat4 cameraTransform = mat4(\\n    1, 0, 0, 0,\\n  \\t0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    0, 0, 0, 1);\\n  cameraTransform = rotY() * cameraTransform;\\n  \\n  float triId = floor(vertexId / 3.);\\n  float triIdx = mod(vertexId, 3.);\\n  \\n  vec4 triCenter = vec4(triId * 2., 0, 0, 1);\\n  vec4 triPos = rotZ() * vec4(sin(triIdx * radians(120.)), cos(triIdx * radians(120.)), 0, 1);\\n  vec4 vPos = triCenter + triPos;\\n  \\n  gl_Position = (cameraFrustum * cameraTransform * vPos);\\n  v_color = vec4(mod(vertexId, 3.), mod(vertexId + 1., 3.), mod(vertexId + 2., 3.), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-p72wbrg8qs8znhvzt-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "cFgeuos8pRRchyc4M"
+}

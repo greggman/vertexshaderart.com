@@ -1,0 +1,47 @@
+{
+  "_id": "gBa8KAJTb6MqbNzBK",
+  "owner": {
+    "_id": "vkPwAHM8PnAebFPxW",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1501857924166"
+      }
+    },
+    "profile": {
+      "name": "Macro Machines",
+      "avatarUrl": "https://lh3.googleusercontent.com/-hZKcNaW8AT0/AAAAAAAAAAI/AAAAAAAAEGM/geaXegN2s9U/photo.jpg",
+      "info": "axiom-crux.net macromachines.net"
+    },
+    "username": "macro"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1522431693493"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1522431693493"
+    }
+  },
+  "origId": null,
+  "name": "yGlitchPointNumber",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6029529548226416"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "macro",
+  "avatarUrl": "https://lh3.googleusercontent.com/-hZKcNaW8AT0/AAAAAAAAAAI/AAAAAAAAEGM/geaXegN2s9U/photo.jpg",
+  "settings": "{\"num\":807,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){\\n  float w = sqrt(vertexCount);\\n  float h = 10.;\\n  float x = mod(vertexId, w);\\n  float y = floor(vertexId/h);\\n  float u = x/(w-1.);\\n  float v = y/(h-1.);\\n  float ux = u*2.-1.;\\n  float vy = v*2.-1.;\\n  gl_Position = vec4(ux,vy,0.,1.);\\n  gl_PointSize = 10.;\\n  v_color = vec4(1.);\\n}\\n\\n/*\\nvoid main(){\\n  float w = sqrt(vertexCount);\\n  float h = 10.;\\n  float x = mod(vertexId, w);\\n  float y = floor(vertexId/h);\\n  float u = x/(w-1.);\\n  float v = y/(h-1.);\\n  float ux = u*2.-1.;\\n  float vy = v*2.-1.;\\n  gl_Position = vec4(ux,vy,0.,1.);\\n  gl_PointSize = 10.;\\n  v_color = vec4(1.);\\n}\\n*/\"}",
+  "screenshotURL": "data/images/images-93ihkkp2cq0johsc9-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "kScsrJi8kR4AThvBe"
+}

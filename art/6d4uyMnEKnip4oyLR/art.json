@@ -1,0 +1,47 @@
+{
+  "_id": "6d4uyMnEKnip4oyLR",
+  "owner": {
+    "_id": "Yppm9G5kCnn4TX6MS",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1605217631309"
+      }
+    },
+    "profile": {
+      "first_name": "Eugene",
+      "last_name": "Chen",
+      "avatarUrl": "https://lh4.googleusercontent.com/-1W0Zx2V2YBo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuck7HOEHYTKOuOYfO3JNASLLHC1T0A/s96-c/photo.jpg"
+    },
+    "username": "eugene"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1605218789392"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1605219329769"
+    }
+  },
+  "origId": null,
+  "name": "tutorial-1-0 initial grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0250435289751159"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "eugene",
+  "avatarUrl": "https://lh4.googleusercontent.com/-1W0Zx2V2YBo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuck7HOEHYTKOuOYfO3JNASLLHC1T0A/s96-c/photo.jpg",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.06666666666666667,0.25882352941176473,1],\"shader\":\"void main() {\\n\\n  float across = 31.;\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  gl_PointSize = 10.0;\\n  v_color = vec4(1, 0, 0, 1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-kojbfpi2e4kkm5mfu-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "aRHkxyPwoRu3pe8JG"
+}

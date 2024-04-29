@@ -1,0 +1,47 @@
+{
+  "_id": "w5XY5hp6r86GpTyLE",
+  "owner": {
+    "_id": "ZS4MdCA33fb76CwsE",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554054895392"
+      }
+    },
+    "profile": {
+      "first_name": "윤수",
+      "last_name": "권",
+      "avatarUrl": "https://lh5.googleusercontent.com/-uoLq7WqJDyE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rePSz3yuG_mKNfPWq5PvUl80AL7Hw/mo/photo.jpg"
+    },
+    "username": "윤수"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554177518810"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554177518810"
+    }
+  },
+  "origId": "qCsikb8WubwZjoq9G",
+  "name": "yoonsoo.kwon",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.4026973041201878"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "윤수",
+  "avatarUrl": "https://lh5.googleusercontent.com/-uoLq7WqJDyE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rePSz3yuG_mKNfPWq5PvUl80AL7Hw/mo/photo.jpg",
+  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"/*------------------------------------------------------------------------\\nAuthor\\t\\t\\t\\t\\t : yoonsoo.kwon \\nAssignment Name/Number  : Shader/3 (Extra Credit)\\nCourse Name\\t\\t\\t\\t: CS230\\nTerm\\t\\t\\t\\t\\t: Spring 2019\\n------------------------------------------------------------------------*/\\n\\nvoid main()\\n{\\n  float value = vertexId/10.;\\n  \\n  gl_Position = vec4(mouse.x*value  , mouse.y*value , 0,1);\\n  gl_PointSize = abs(sin(time+value))*50.;\\n  \\n  v_color = vec4(sin(time), cos(time), tan(time), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-7w2chea2az5wzn4zb-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "186"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "RXatmvjdet3Enjioa"
+}

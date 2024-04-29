@@ -1,0 +1,45 @@
+{
+  "_id": "MWD3RYNPkSTxNBnw5",
+  "owner": {
+    "_id": "QkYtQwKSkrERD78qN",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1528706141366"
+      }
+    },
+    "username": "bigmike",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/f6c53f1e06b699fc6a147bcaeef73923?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1528706453439"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1528706453439"
+    }
+  },
+  "origId": null,
+  "name": "Spiralis",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8294790676566244"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "bigmike",
+  "avatarUrl": "https://secure.gravatar.com/avatar/f6c53f1e06b699fc6a147bcaeef73923?default=retro&size=200",
+  "settings": "{\"num\":26667,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 3.835)\\n#define STEP 1.0\\n\\nvoid main() {\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(time * 0.01) + 5.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.00014, 1.0);\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  pow(count * 0.025, 0.8);\\n  float innerRadius = pow(count * 0.0005, 1.2);\\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\\n\\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 4.0)\\n    ;\\n  b = 0.0;mix(0.0, 0.7, b);\\n  v_color = vec4(b, b, b, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-ag2a6arvji65ixhau-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "301"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "uHPrGiX4xxm6H8PHg"
+}

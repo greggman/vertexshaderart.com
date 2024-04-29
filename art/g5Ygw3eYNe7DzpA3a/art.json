@@ -1,0 +1,36 @@
+{
+  "_id": "g5Ygw3eYNe7DzpA3a",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1585498803324"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1585498803324"
+    }
+  },
+  "origId": null,
+  "name": "grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.804069872125185"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":1,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.15294117647058825,0.12941176470588237,0.43529411764705883,1],\"shader\":\"void main() {\\n  float down= floor(sqrt(vertexCount));\\n  float across = floor(vertexCount/down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId /across);\\n  float u = x/(across-1.);\\n  float v = y/(across-1.);\\n  \\n  \\n  \\n  gl_Position = vec4(2.*u-1.,2.*v-1.,0,1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize*=20./across;\\n  gl_PointSize*=resolution.x/600.;\\n  \\n  v_color = vec4(1,0,0,1)\\n\\n}  \"}",
+  "screenshotURL": "data/images/images-2tnc3kn4efn9m8b2d-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "65"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "4uhLjQwHYo4pGmmsR"
+}

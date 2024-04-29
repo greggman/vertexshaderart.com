@@ -1,0 +1,47 @@
+{
+  "_id": "dMZsJyyPW2EgjrH4P",
+  "owner": {
+    "_id": "s7HjFWhhQTWKGaPrB",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554168718684"
+      }
+    },
+    "profile": {
+      "first_name": "철짜",
+      "last_name": "이",
+      "avatarUrl": "https://lh5.googleusercontent.com/-Ms9fjf33Cc0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reZGVnMGsJP55FG1NwfwQX9im-L6Q/mo/photo.jpg"
+    },
+    "username": "철짜"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554181654220"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554193048982"
+    }
+  },
+  "origId": "jmoBvZevCB2QeEtAN",
+  "name": "chulseung.lee",
+  "notes": "this is shader assignment extra",
+  "rank": {
+    "$numberDouble": "1.9789958303057629"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "철짜",
+  "avatarUrl": "https://lh5.googleusercontent.com/-Ms9fjf33Cc0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reZGVnMGsJP55FG1NwfwQX9im-L6Q/mo/photo.jpg",
+  "settings": "{\"num\":950,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.48627450980392156,0.48627450980392156,0.48627450980392156,1],\"shader\":\"/*------------------------------------------------------------------------\\nAuthor\\t\\t\\t\\t\\t = chulseung.lee\\nAssignment Name/Number  = Shader/3 (Extra Credit)\\nCourse Name\\t\\t\\t\\t= CS230\\nTerm\\t\\t\\t\\t\\t= Spring 2019\\n------------------------------------------------------------------------*/\\n#define PI 3.1415926\\n\\nvoid main()\\n{\\n  float radian = vertexId / (vertexCount) * 3.0 * PI;\\n  radian *= 3.0;\\n  \\n  gl_Position = vec4( cos(radian * mouse.x), sin(radian * mouse.y), 0, 1);\\n \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= abs(mouse.x)+abs(mouse.y);\\n  \\n  v_color = vec4(sin(time*100.0), tan(time*5.0), cos(time*5.0), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-h7lwkokzpmjeb0e9c-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "291"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ezFHFqT2a3cZdYJDh"
+}

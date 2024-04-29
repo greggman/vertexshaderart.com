@@ -1,0 +1,36 @@
+{
+  "_id": "wt7dgJfnc9ut9a8tk",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1524355193825"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1524355193825"
+    }
+  },
+  "origId": null,
+  "name": "mousebal",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5295280205148203"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main() {\\n  float v=vertexId/30.0;\\n  int num=int(mouse.x*10.0+10.0);\\n  int den=int(exp(mouse.y*3.0+3.0));\\n  float frac=1.0-float(num)/float(den);\\n  vec2 xy=vec2(sin(v),cos(v)*sin(v*frac))/2.0;\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  gl_Position = vec4(xy * aspect, 0, 1);\\n  v_color = vec4(0,0,0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-fd3u5k3lbarswitfj-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "472"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "5yxwbxSFYwQNhPdaY"
+}

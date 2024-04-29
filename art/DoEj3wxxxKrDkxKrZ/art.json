@@ -1,0 +1,48 @@
+{
+  "_id": "DoEj3wxxxKrDkxKrZ",
+  "owner": {
+    "_id": "aQGBaB28tNPpoJahx",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1523273254098"
+      }
+    },
+    "profile": {
+      "first_name": "Brendon",
+      "last_name": "Conradie",
+      "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
+      "info": "Wannabe graphics programmer working in the mobile gaming industry"
+    },
+    "username": "brendon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1525113056052"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1525113368770"
+    }
+  },
+  "origId": null,
+  "name": "2D Circle",
+  "notes": "Simple 2D Circle Example with min radius. Move ouse to expand the circle",
+  "rank": {
+    "$numberDouble": "1.8872590186645744"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "brendon",
+  "avatarUrl": "https://lh6.googleusercontent.com/-gsD8A6mNaf8/AAAAAAAAAAI/AAAAAAAAA8Q/XILS5Uddduw/photo.jpg",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {  \\n  float vertNorm = vertexId / vertexCount;\\n\\n  float theta = vertNorm * 6.28;\\n  float amplitude = max(mouse.x, 0.25);\\n  float posX = cos(theta) * amplitude;\\n  float posY = sin(theta) * amplitude;\\n  \\n  gl_Position = vec4(posX, posY, 0.0, 1.0);\\n  gl_PointSize = 5.0;\\n  v_color = vec4(1.0, 1.0, 1.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-hpkdxil7xdl4zbeah-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "xcnv4oBzgtNYWRENi"
+}

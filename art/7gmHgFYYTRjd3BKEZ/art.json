@@ -1,0 +1,46 @@
+{
+  "_id": "7gmHgFYYTRjd3BKEZ",
+  "owner": {
+    "_id": "YDyuD4vNo4w3C4uPF",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1496440328492"
+      }
+    },
+    "profile": {
+      "name": "Viktor Sehr",
+      "avatarUrl": "https://lh4.googleusercontent.com/-agHxneCMuTE/AAAAAAAAAAI/AAAAAAAAINA/hVIl1amY4To/photo.jpg"
+    },
+    "username": "viktor"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1496440811884"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1496441458059"
+    }
+  },
+  "origId": null,
+  "name": "rot_test",
+  "notes": "test",
+  "rank": {
+    "$numberDouble": "1.7044607474566749"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "viktor",
+  "avatarUrl": "https://lh4.googleusercontent.com/-agHxneCMuTE/AAAAAAAAAAI/AAAAAAAAINA/hVIl1amY4To/photo.jpg",
+  "settings": "{\"num\":16384,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n\\nstruct Ori {\\n  vec3 a_;\\n  vec3 b_;\\n};\\n\\n\\n\\nvoid main() {\\n  \\tint idx = int(vertexId);\\n \\tvec3 rpos;\\n \\tvec3 rcol = vec3(1,0,0);\\n  \\n    Ori src = Ori(vec3(0,0,1), vec3(0,1,0));\\n  \\tOri dst = Ori(normalize(vec3(0,0,1)), normalize(vec3(1,1,0)));\\n  \\n  \\n    if(idx == 1) { rpos = src.a_; }\\n    if(idx == 3) { rpos = src.b_; }\\n  \\n    if(idx >= 4) rcol = vec3(0,1,0);\\n    if(idx == 5) { rpos = dst.a_; }\\n    if(idx == 7) { rpos = dst.b_; }\\n  \\n \\tgl_Position = vec4(rpos, 1);\\n  \\tv_color = vec4(rcol, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-d5g0qe24xlbk9lw1k-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "bSvpMgSPPT5iNGNpm"
+}

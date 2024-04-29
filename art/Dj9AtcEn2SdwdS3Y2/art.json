@@ -1,0 +1,46 @@
+{
+  "_id": "Dj9AtcEn2SdwdS3Y2",
+  "owner": {
+    "_id": "pgKWPgR9Cfeze4JZf",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684327971226"
+      }
+    },
+    "profile": {
+      "name": "seoseulbin",
+      "avatarUrl": "https://avatars.githubusercontent.com/seoseulbin?s=200"
+    },
+    "username": "seoseulbin"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684328113435"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684328352906"
+    }
+  },
+  "origId": null,
+  "name": "Making A Grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0973554952029785"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "seoseulbin",
+  "avatarUrl": "https://avatars.githubusercontent.com/seoseulbin?s=200",
+  "settings": "{\"num\":189,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Seulbin Seo\\n// Exercise Making A Grid\\n// CS250 Spring 2022\\n\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4 (1, 0, 0, 1);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-u4f6bryeahsjxmulb-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "11"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "smTodpmb8SidPCoMh"
+}

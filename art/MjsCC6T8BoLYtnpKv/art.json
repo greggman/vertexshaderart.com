@@ -1,0 +1,46 @@
+{
+  "_id": "MjsCC6T8BoLYtnpKv",
+  "owner": {
+    "_id": "oCanjNxeHcQ7gDPmW",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1505499213122"
+      }
+    },
+    "profile": {
+      "name": "Zug Zwang",
+      "avatarUrl": "https://lh3.googleusercontent.com/-ic9UqwOeGYY/AAAAAAAAAAI/AAAAAAAAABU/vJK2D-kzm0k/photo.jpg"
+    },
+    "username": "zug"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1517480471310"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1517480471310"
+    }
+  },
+  "origId": "4MXkkkQvDcbZT2bmy",
+  "name": "119hb matrix rain",
+  "notes": "119 bytes",
+  "rank": {
+    "$numberDouble": "1.1423346444182312"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "zug",
+  "avatarUrl": "https://lh3.googleusercontent.com/-ic9UqwOeGYY/AAAAAAAAAAI/AAAAAAAAABU/vJK2D-kzm0k/photo.jpg",
+  "settings": "{\"num\":2242,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){gl_Position=vec4(vertexId/vertexCount*7.461-6.,cos(mod(vertexId/time,3.)-vertexId+time),0,1);v_color=vec4(0,1,0,1)}\"}",
+  "screenshotURL": "data/images/images-uijlp4766agb6m5pa-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "9YexCPkMWC3zyMj3X"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "BxXCFpZxu7eFdhiyP",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1512610172932"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1512610172932"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.4733981426242826"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":449,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float id = vertexId;\\n  \\n  float ux = floor(id / 6.) + mod(id, 2.);\\n  \\n  float vy = mod(floor(id / 2.) + floor(id / 3.), 2.);\\n  \\n  float angle = ux * radians(180.0) / (vertexCount * 0.00333333);\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  \\n  float radius = vy;\\n  \\n  float a = resolution.x / resolution.y;\\n  \\n  float x = c * radius / a;\\n  float y = s * radius;\\n  \\n  vec2 xy = vec2(x,y);\\n  gl_Position = vec4(xy* .5, 0, 1);\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-ygc8kkhpgl24ivilu-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "89"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "nAJEyTeGR3Xmt4vad"
+}

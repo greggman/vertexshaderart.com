@@ -1,0 +1,36 @@
+{
+  "_id": "G44HeacsoBQDo4MFC",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1476361456912"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1476361456912"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.52810064565402"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.25098039215686274,1],\"shader\":\"void main(){\\n  float across = 10.;\\n  \\n  float x = mod(vertexId , across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / across;\\n  float v = y / across;\\n  \\n   gl_Position = vec4(u,v,0,1);\\n  gl_PointSize = 10.0;\\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-weyl6r771b2keqi5z-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "37"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "uQBuMJABjCZpBnDWZ"
+}

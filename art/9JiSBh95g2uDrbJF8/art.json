@@ -1,0 +1,36 @@
+{
+  "_id": "9JiSBh95g2uDrbJF8",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1520619513066"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1520619513066"
+    }
+  },
+  "origId": null,
+  "name": "Hello, GLSL!",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0605675315045875"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":5000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main()\\n{\\n  gl_Position = vec4(0.0, 0.0, 0.0, 0.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-w23o9pd6e8esszawt-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "63"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "eJQXDTAXDS8cLrTj6"
+}

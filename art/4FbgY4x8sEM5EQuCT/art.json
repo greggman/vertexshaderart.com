@@ -1,0 +1,47 @@
+{
+  "_id": "4FbgY4x8sEM5EQuCT",
+  "owner": {
+    "_id": "zPMA6iBcvoLvJAnag",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1635001458520"
+      }
+    },
+    "profile": {
+      "first_name": "The",
+      "last_name": "Dark",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/AATXAJz8gvj8XWPF_GE6AyStvhxPjTLFoFJM_J9Mxm95=s96-c"
+    },
+    "username": "the"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635179449976"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1635179449976"
+    }
+  },
+  "origId": null,
+  "name": "the_spiral",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6541301776682058"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "the",
+  "avatarUrl": "https://lh3.googleusercontent.com/a/AATXAJz8gvj8XWPF_GE6AyStvhxPjTLFoFJM_J9Mxm95=s96-c",
+  "settings": "{\"num\":1234,\"mode\":\"TRI_FAN\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define NUM_SEGMENTS 128.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\nconst float TWOPI = radians(360.);\\nfloat aspect = resolution.x / resolution.y;\\n\\nvec3 hsv2rgb(vec3 hsvValue) {\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(hsvValue.xxx + K.xyz) * 6.0 - K.www);\\n  return hsvValue.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), hsvValue.y);\\n}\\n\\nfloat circle1() {\\n\\tfloat x = vertexId - 1.;\\n\\tx *= TWOPI;\\n\\tx /= vertexCount / 5. - 1.;\\n\\treturn x;\\n}\\nfloat circle2() {\\n  float edgeRate = 10.;\\n  float edgesCount = vertexCount * edgeRate;\\n\\t// return (1. - 0.1 * vertexId / edgesCount) * sin(time + vertexId); // muita giro!\\n\\t//return (1. - 0.1 * vertexId / edgesCount); // lollipop\\n\\t// return (1. - 0.1 * vertexId / edgesCount) * (cos(time) + 3.) / 4.; // pulsing lollipop\\n\\t// return (1. - 0.1 * vertexId / edgesCount) * (cos(time + vertexId) + 3.) / 4.; // flor ?\\n\\t// return (1. - 0.1 * vertexId / edgesCount) - (cos(time + vertexId) + 3.) / 30.; // hypnotic\\n\\t// return (1. - vertexId / vertexCount) - (cos(time + vertexId)) / (vertexId + 1.) / vertexCount / 30.;\\n\\treturn (1. - edgeRate * vertexId / edgesCount) - (cos(time + vertexId)) / (vertexId + 1.) / edgesCount / 30.;\\n\\t// return (7./8.);\\n}\\n\\nvoid main() {\\n\\tint index = int(floor(time));\\n\\tfloat ratio = fract(time);\\n  \\n\\n\\tfloat m = step(0.5, float(vertexId)); // vertexId[0] = (0, 0)\\n\\t//m *= (1. - step(floor(time) + 2., float(vertexId))); // clock effect\\n\\n\\tfloat c1 = circle1();\\n\\tfloat c2 = circle2();\\n  \\n  float divider = 1./vertexCount;\\n\\n\\tvec2 pos = vec2(sin(c1 / divider) / aspect * c2, cos(c1 / divider) * c2);\\n\\n\\tgl_Position = vec4(m * pos, -vertexId / 10000., 1);\\n\\n\\tv_color = m * vec4(hsv2rgb(vec3(float(vertexId) / float(vertexCount), 1., 1.)), 1.) + (1. - m) * vec4(.0);\\n}\"}",
+  "screenshotURL": "data/images/images-e2swxl2b1wtdv707d-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "kkWgvAdJEkXxuTShX"
+}

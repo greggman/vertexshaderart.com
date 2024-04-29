@@ -1,0 +1,36 @@
+{
+  "_id": "ko66wgrdNeNbx9WDz",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669348882170"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1669348882170"
+    }
+  },
+  "origId": null,
+  "name": "ropepull",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1919708870266652"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":31941,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/takugotbeats/night-17?in=helennpham/sets/lofi-hip-hop&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,0.9176470588235294,0,1],\"shader\":\"#define NUM 1.\\n\\nvoid main() {\\n  float down = floor(sqrt(vertexCount));\\n  float a = mod(vertexCount, down);\\n  float cad = a + down / NUM;\\n  \\n  float x = mod(vertexId, NUM);\\n  float y = floor(vertexId / NUM);\\n  \\n  float u = x * NUM / cad;\\n  float v = y * NUM / cad;\\n  \\n  float ux = u * 5.0 / cad;\\n  float vy = v * 2.0 / cad;\\n  \\n  float snd = pow(texture2D(sound, vec2(ux * 0.01, vy * 0.01)).a, 4.);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  gl_Position = vec4(x / cad + snd, y / cad, 4.9, 5);\\n  \\n  v_color = vec4(1, 2, 4, 5);\\n}\"}",
+  "screenshotURL": "data/images/images-nxrc35d6f0s6kkgxa-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "73"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "4d6k7cdpPePfkRuBo"
+}

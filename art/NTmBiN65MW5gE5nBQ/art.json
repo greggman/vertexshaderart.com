@@ -1,0 +1,45 @@
+{
+  "_id": "NTmBiN65MW5gE5nBQ",
+  "owner": {
+    "_id": "fAjz2DYFaqKPFtNjB",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1537183953122"
+      }
+    },
+    "username": "yonatan",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/c7fabc219ab011fe8a1bd0590bcbcbd5?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1537183968779"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1537208462744"
+    }
+  },
+  "origId": null,
+  "name": "flower",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "10.756019433513629"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "yonatan",
+  "avatarUrl": "https://secure.gravatar.com/avatar/c7fabc219ab011fe8a1bd0590bcbcbd5?default=retro&size=200",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// 2D version at https://www.dwitter.net/d/9544:\\n// for(i=w=c.width=500;(i*=.9998)>w/2;x.fillRect(w/2+S(i+t)*q,j*300-C(i+t)*q,9,9))j=1-i/w,q=(2+S(i*5)**3)*j**4*w,x.fillStyle=R(a=j*600,a*2,a/2)\\n\\n#define PI radians(180.)\\n\\nvec2 rot(vec2 p, float a) {\\n  float s = sin(a);\\n  float c = cos(a);\\n  return vec2(p.x * s + p.y * c, p.y * s - p.x * c);\\n}\\n\\nvoid main() {\\n  float v = sqrt(vertexId / vertexCount);\\n  float t = v + 1.5;\\n  float i = mod(t, 1.0) * 1000.0;\\n  float s = sin(i * 6.0);\\n  float q = (2.0 + s * s * s) * pow(t, 5.5) / 2000.0;\\n\\n  vec2 aspect = vec2(1.0, resolution.x / resolution.y);\\n  vec3 p = vec3(\\n    sin(i) * q,\\n    cos(i) * q,\\n    (1.0-sqrt(v))\\n  );\\n\\n  p = vec3(rot(p.xy, time), p.z);\\n  p = vec3(p.x, rot(p.zy, 3.5+cos(time)/3.));\\n  p.xy *= aspect;\\n  p.y += .3;\\n  gl_Position = vec4(p, 1);\\n\\n  float a = min(255.0, pow(t, 2.6) * 25.0) / 255.0;\\n  v_color = vec4(a, a * 1.5, t * t * 15.0 / 255.0, 1.0);\\n  gl_PointSize = 3.0;\\n}\\n\"}",
+  "screenshotURL": "data/images/images-07om8jwk9kc6qd3b5-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "646"
+  },
+  "likes": {
+    "$numberInt": "5"
+  },
+  "revisionId": "Q6N9idRDjhssyXNnx"
+}

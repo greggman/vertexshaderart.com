@@ -1,0 +1,45 @@
+{
+  "_id": "yYj8r42nj2y6GRBEi",
+  "owner": {
+    "_id": "PaTtiG9fc6wWxh69k",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1501018355084"
+      }
+    },
+    "username": "sylistine",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/3a93b17a430d08943deebdfb93d4cef3?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1600665188097"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1600665188097"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1233627037199934"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "sylistine",
+  "avatarUrl": "https://secure.gravatar.com/avatar/3a93b17a430d08943deebdfb93d4cef3?default=retro&size=200",
+  "settings": "{\"num\":13786,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/aivisura/love-like-you\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define TAU radians(360.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\nvec3 hsv2rgb(vec3 c)\\n{\\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvec3 hsv2rgb(float h, float s, float v) {\\n  return hsv2rgb(vec3(h, s, v));\\n}\\n\\nmat4 rotX( float angle) {\\n  float s = sin( angle );\\n  float c = cos( angle );\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, c, -s, 0,\\n    0, s, c, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 rotY( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\n\\nmat4 rotZ( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c,-s, 0, 0, \\n      s, c, 0, 0,\\n      0, 0, 1, 0,\\n      0, 0, 0, 1); \\n}\\n\\nmat4 trans(vec3 trans) {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    trans, 1);\\n}\\n\\nmat4 ident() {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 scale(vec3 s) {\\n  return mat4(\\n    s[0], 0, 0, 0,\\n    0, s[1], 0, 0,\\n    0, 0, s[2], 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 uniformScale(float s) {\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, 1);\\n}\\n\\n\\nmat4 persp(float fov, float aspect, float zNear, float zFar) {\\n  float f = tan(PI * 0.5 - fov * 0.5);\\n  float rangeInv = 1.0 / (zNear - zFar);\\n\\n  return mat4(\\n    f / aspect, 0, 0, 0,\\n    0, f, 0, 0,\\n    0, 0, (zNear + zFar) * rangeInv, -1,\\n    0, 0, zNear * zFar * rangeInv * 2., 0);\\n}\\n\\nvoid main() {\\n  float unitPentagonSideLength = sqrt(pow(cos(TAU/5.)-1., 2.)+pow(sin(TAU/5.), 2.));\\n  \\n  float vertsInIco = 20. * 3.;\\n  \\n  float icoId = floor(vertexId / vertsInIco);\\n  float icoVertexId = mod(vertexId, vertsInIco);\\n  \\n  float triId = floor(icoVertexId / 3.);\\n  float triVertexId = mod(vertexId, 3.);\\n  float halfPi = PI * 0.5;\\n  float triRads = triVertexId * 0.3333 * PI * 2. + halfPi;\\n  float bottom = mod(triId, 2.);\\n  float top = 1. - bottom;\\n  float pairId = floor(triId / 2.);\\n  triRads += bottom * PI;\\n  vec4 pos = vec4(cos(triRads)/sqrt(3.), sin(triRads)/sqrt(3.), -1., 1.);\\n  pos.y += 0.15 - 0.3 * top;\\n  //pos *= rotX(PI/12. - PI/6. * (1. - bottom));\\n  pos *= rotY(PI/5. * triId + time);\\n  //pos.y += 1./sqrt(3.) - bottom / sqrt(3.);\\n  float width = 16.;\\n  pos.x += mod(icoId, width) * 4.;\\n  pos.y += floor(icoId / width) * 3.;\\n  \\n  /*\\n  float rowId = floor(pairId / 5.);\\n  float rowPos = mod(pairId, 5.);\\n  pos.x += rowPos - rowId * 0.5;\\n  pos.y -= rowId * sqrt(3.)/2.;\\n  */\\n  \\n  vec3 cameraPos = vec3(-32., -14., sin(time)-5.);\\n  mat4 cameraTransform = trans(cameraPos);\\n  \\n  \\n  mat4 P = persp(PI/2., resolution.x / resolution.y, 0.1, 100.);\\n  gl_Position = P * cameraTransform * pos;\\n  v_color = vec4(hsv2rgb(pos.x/5., 1., 1.), 1.);\\n  gl_PointSize = 10.;\\n}\"}",
+  "screenshotURL": "data/images/images-i3rdltjk23xbme9dy-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "jnJiAq5hiwPRYKyv9"
+}

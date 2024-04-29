@@ -1,0 +1,45 @@
+{
+  "_id": "aFBig76hWcPDu5Kf5",
+  "owner": {
+    "_id": "fAjz2DYFaqKPFtNjB",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1537183953122"
+      }
+    },
+    "username": "yonatan",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/c7fabc219ab011fe8a1bd0590bcbcbd5?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1537741567716"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1537741567716"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8080435270957458"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "yonatan",
+  "avatarUrl": "https://secure.gravatar.com/avatar/c7fabc219ab011fe8a1bd0590bcbcbd5?default=retro&size=200",
+  "settings": "{\"num\":46656,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/* https://www.dwitter.net/d/10041\\nc.width|=f=(u,v,a,s,i)=>{for(i=6;s>29?i--:x.fillRect(u,v,9,9);f(u+S(b=i+i/21-a)*(q=s+s*S(b*6)**99),v+C(b)*q,b*2,s/2));}\\nf(960,540,t/200,600)\\n*/\\n\\n#define PI radians(180.)\\n#define TAU radians(360.)\\n// vertexCount is not a constant?\\n#define VCNT pow(6.0,3.0)\\n\\nvec3 hsv2rgb(vec3 c) { // This one came with the default shader...\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  const int levels = 6; // 6**6 = 46656 (points)\\n  vec2 aspect = vec2(resolution.y / resolution.x, 1.0);\\n  vec2 p = vec2(0);\\n  float a = 0.0;\\n  float angle = time / 400.0, mag, idMod, i = vertexId;\\n  float h = 0.0;\\n  float scale = 1.0;\\n  for(int level = 0; level < levels; level++) {\\n    a = angle * 2.0;\\n    idMod = mod(i, 6.0);\\n    // f(u+S(b=i+i/21-a)*(q=s+s*S(b*6)**99),v+C(b)*q,b*2,s/2));}\\n    angle = idMod * TAU / 6.0 + float(levels - level) + a;\\n    mag = 1.0 + pow(abs(sin(angle * 6.0)), 99.0);\\n    p = p / 2.0 + vec2(sin(angle), cos(angle)) * mag;\\n    h = h / 6.0 + idMod;\\n    i = (i - idMod) / 6.0;\\n  }\\n  gl_Position = vec4(aspect * p / 2.0, 0, 1);\\n  v_color = vec4(hsv2rgb(vec3(mod(h, PI), .75, .5)), 1.0);\\n  gl_PointSize = 2.0;\\n}\"}",
+  "screenshotURL": "data/images/images-zchd1rzdfm8xv4221-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "QHSFT2sqmcJEgGWX9"
+}

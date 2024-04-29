@@ -1,0 +1,595 @@
+@import url("../3rdparty/codemirror/lib/codemirror.css");
+@import url("../3rdparty/codemirror/theme/blackboard.css");
+@import url("../3rdparty/codemirror/addon/scroll/simplescrollbars.css");
+@import url("../3rdparty/tooltip.css");
+@import url("../3rdparty/notifier.css");
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: monospace;
+  color: white;
+  background-color: #000;
+}
+#art {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row;
+  -webkit-flex-flow: row;
+}
+.artleft {
+}
+.artright {
+  justify-content: flex-end !important;
+  -webkit-justify-content: flex-end !important;
+}
+.editleft {
+}
+.editright {
+  flex-direction: row-reverse !important;
+  -webkit-justify-content: row-reverse !important;
+}
+canvas {
+  width: 100%;
+  height: 100%;
+}
+.dropdownmenu {
+    list-style: none;
+    background-color: rgba(0,0,0,0.9);
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    width: 10em;
+    border: 1px solid #444;
+    border-radius: 0.5em;
+    position: absolute;
+    z-index: 5;
+}
+.dropdownmenu li {
+    width: 100%;
+}
+.dropdownmenu a {
+    padding: 0.25em;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    color: white !important;
+    text-decoration: none;
+}
+.dropdownmenu a:hover {
+    background-color: #444;
+}
+.dropdownmenu img {
+    display: inline-block;
+    width: 2em;
+    vertical-align: middle;
+    padding-right: 0.5em;
+}
+.dropdowntrigger {
+    border: 1px solid #444;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-left: 0.25em;
+    font-size: small;
+}
+.dropdowntrigger img {
+    display: inline-block;
+    width: 2em;
+    vertical-align: middle;
+    padding-right: 0.5em;
+}
+.dropdowntrigger:after {
+    content: " \25BC";
+    color: #444;
+}
+#toolbar .dropdownmenu {
+    width: 2em;
+}
+
+#uicontainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: none;
+}
+#ui {
+  width: 100%;
+  height: 100%;
+
+  text-shadow: rgba( 0, 0, 0, 1 ) 1px 1px 1px;
+  background-color: rgba(0,0,0,0);
+  border-radius: 0.5em;
+}
+#helpDialog a {
+  text-decoration: none;
+  color: #F44;
+  background-color: #444;
+}
+#ui, .fulldialog {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column;
+  -webkit-flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -webkit-align-content: center;
+  -webkit-align-items: center;
+}
+#ui:hover {
+
+}
+#size {
+    display: none;
+}
+#vsa {
+  width: 100%;
+  display: none;
+}
+#vsa>button {
+    width: 2em;
+    height: 2.35em;
+    padding: 0 !important;
+}
+#vsa>button>img {
+    vertical-align: middle;
+}
+#toolbar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row;
+  -webkit-flex-flow: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -webkit-align-content: center;
+  -webkit-align-items: center;
+}
+#toolbar .uimodedropdown {
+  left: 0.5em;
+  top: 2em;
+}
+#numRange {
+  flex: 1 0 auto;
+  -webkit-appearance: none;
+  height: 2.4em;
+  background-color: rgba(0,0,0,0.7);
+}
+#numRange::-webkit-slider-runnable-track,
+#numRange::-moz-range-track,
+#numRange::-ms-track {
+  background: #444;
+  cursor: pointer;
+}
+#numRange::-webkit-slider-slider-thumb,
+#numRange::-moz-range-thumb,
+#numRange::-ms-thumb {
+  background: #888;
+  cursor: pointer;
+}
+
+
+button {
+    cursor: pointer;
+}
+button:focus {
+    outline: 0
+}
+
+#toolbar>div,
+select,
+input,
+#toolbar>button,
+#toolbar>a,
+#soundInfo>a,
+#soundInfo div,
+#soundInfo>button,
+#helpDialog button,
+#userInfo>div,
+#userInfo>a,
+#vsa>a,
+#vsa>button {
+  background-color: rgba(0,0,0,0.7);
+  border: 1px solid #444;
+  margin: 0.25em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: white;
+  user-select: none;
+  font-family: monospace;
+  font-size: small;
+  line-height: 100%;
+}
+#toolbar>button:disabled,
+#toolbar>input:disabled {
+  border: 1px solid #000;
+  color: #333;
+}
+#toolbar>a, #vsa>a {
+  display: inline-block;
+  text-decoration: none;
+}
+#bottom {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+}
+#userInfo {
+  white-space: nowrap;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  align-items: center;
+  -webkit-align-items: center;
+  overflow: hidden;
+}
+#userInfo>a {
+  text-decoration: none;
+}
+#soundInfo {
+  overflow: hidden;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.icon {
+    padding: 0 !important;
+}
+.icon>img {
+    width: 2.15em;
+    padding: 0.25em;
+    margin: 0;
+    vertical-align: middle;
+}
+.shrink {
+    flex: 0 1 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#soundInfo a {
+  vertical-align: bottom;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  color: white;
+}
+#soundcloud {
+  padding: 0.25em !important;
+}
+#soundcloud>img {
+  height: 1.45em;
+}
+
+#centerWrap {
+  width: 100%;
+  flex: 1 0 auto;
+  position: relative;
+  height: 0;
+}
+
+#centerArea {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#centerSize {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row;
+  -webkit-flex-flow: row;
+
+  align-content: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -webkit-align-items: center;
+}
+#commentWrap {
+  flex: 1 0 50%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#commentarea {
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  border: 1px solid rgba(0,0,0,0);
+  margin: 0.25em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  line-height: 1;
+}
+
+#editorWrap {
+  flex: 1 0 50%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#editor {
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  border: 1px solid rgba(0,0,0,0);
+  margin: 0.25em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  transition: background 0.25s linear, border-color 0.25s linear;
+  line-height: 1;
+}
+
+#centerSize:hover #editor,
+#centerSize:hover #commentarea {
+  border-color: 1px solid #444;
+  background-color: rgba(0,0,0,0.7);
+}
+.fulldialog {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  /*
+  background: radial-gradient(ellipse at center, rgba(0,0,0,1) 27%,rgba(0,0,0,0.22) 100%);
+  */
+}
+.fulldialog > * {
+  padding: 1em;
+  background-color: rgba(0,0,0,0.8);
+  border: 1px solid #666;
+  border-radius: 0.5em;
+}
+#screenshot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/static/resources/images/loading.svg) no-repeat center center fixed;
+  background-size: cover;
+}
+#start {
+  background-color: rgba(0,0,0,0.0);
+}
+#start>div {
+  text-align: center;
+}
+#start>div>div {
+  text-align: left;
+  color: red;
+  font-weight: bold;
+}
+#start img {
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+}
+#start:after {
+ box-shadow: inset 0 0 10em rgba(0,0,0,0.9);
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 12;
+ content: "";
+}
+#helpDialog>pre {
+  flex: 0 1 auto;
+  max-width: 90%;
+  overflow: scroll;
+}
+#helpDialog .onechar {
+  width: 1ch;
+  margin: 0;
+  vertical-align: middle;
+}
+input[type="range"] {
+}
+input[type="text"] {
+}
+input[type="number"] {
+  text-align: center;
+}
+input[type="color"] {
+  width: 3em;
+  height: 2.5em;
+  padding: 0.125em;
+}
+.errorLine {
+  background-color: rgba(255,0,0,0.5);
+}
+.CodeMirror {
+  background-color: transparent;
+  height: 100%;
+  font-weight: bold;
+}
+.CodeMirror-gutter-filler,
+.CodeMirror-gutters {
+  background-color: inherit;
+}
+.CodeMirror-selected { background: rgba(0,128,255,0.5); }
+.CodeMirror-focused .CodeMirror-selected { background: rgba(128,128,255,0.8); }
+
+.CodeMirror-overlayscroll-horizontal div,
+.CodeMirror-overlayscroll-vertical div {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+}
+.CodeMirror-overlayscroll-horizontal {
+  height: 8px;
+}
+.CodeMirror-overlayscroll-vertical {
+  width: 8px;
+}
+.CodeMirror-scrollbar-filler {
+  background: transparent;
+}
+#centerSize:hover .CodeMirror-overlayscroll-horizontal div,
+#centerSize:hover .CodeMirror-overlayscroll-vertical div {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #222;
+}
+
+
+
+#uicontainer.iframe {
+    padding: 10px;
+}
+.iframe #vsa {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    -webkit-flex-flow: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
+    -webkit-align-content: center;
+    -webkit-align-items: center;
+}
+.iframe #toolbar,
+.iframe #editorWrap,
+.iframe #commentWrap,
+.iframe .share {
+    display: none;
+}
+.iframe #ui {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.iframe .currentuser,
+.iframe .nouser {
+    display: none;
+}
+.iframe #toolbar>div,
+.iframe #toolbar>button,
+.iframe #toolbar>a,
+.iframe #soundInfo>a,
+.iframe #soundInfo>button,
+.iframe #soundInfo>div,
+.iframe #userInfo>div,
+.iframe #userInfo>a,
+.iframe #userInfo>button,
+.iframe .sharing .button,
+.iframe #vsa>a,
+.iframe #vsa>button {
+   font-size: xx-small;
+}
+
+@media (max-width : 1060px) {
+
+    #toolbar>div,
+    #toolbar>button,
+    #toolbar>a,
+    #soundInfo>a,
+    #soundInfo>button,
+    #soundInfo>div,
+    #userInfo>div,
+    #userInfo>a,
+    #userInfo>button,
+    .sharing .button,
+    #vsa>a,
+    #vsa>button,
+    #ui select,
+    #ui input {
+       font-size: xx-small !important;
+    }
+
+}
+
+@media (max-width : 840px) {
+    #ui #numRange {
+        display: none;
+    }
+}
+
+@media (max-width : 840px) {
+    #ui #numRange {
+        display: none;
+    }
+}
+
+@media (max-width : 716px) {
+    #uicontainer {
+      padding: 10px;
+    }
+    #ui #help {
+        display: none;
+    }
+}
+
+@media (max-width : 650px) {
+    #ui #gallery {
+        display: none;
+    }
+}
+
+@media (max-width : 600px) {
+    #ui #time, #ui #stop {
+        display: none;
+    }
+}
+
+@media (max-width : 555px) {
+    #ui #new {
+        display: none;
+    }
+}
+
+@media (max-width : 540px) {
+    #ui #sound {
+        width: 9em;
+    }
+}
+
+@media (max-width : 500px) {
+   #toolbar, #editorWrap, #commentWrap, #bottom {
+       display: none;
+   }
+}
+
+
+

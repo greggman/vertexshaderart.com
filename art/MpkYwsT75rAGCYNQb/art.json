@@ -1,0 +1,47 @@
+{
+  "_id": "MpkYwsT75rAGCYNQb",
+  "owner": {
+    "_id": "jmwufknCzoYqxA8Bh",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1460395981078"
+      }
+    },
+    "profile": {
+      "first_name": "Richel",
+      "last_name": "Halal",
+      "avatarUrl": "https://graph.facebook.com/1269313776429568/picture?type=large"
+    },
+    "username": "richel"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1460402353722"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1460496346819"
+    }
+  },
+  "origId": "PKKSn3hisqqifLpXX",
+  "name": "poo-brain <3 dub",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9797005918630712"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richel",
+  "avatarUrl": "https://graph.facebook.com/1269313776429568/picture?type=large",
+  "settings": "{\"num\":3894,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/industrialpope/pferdloss\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.0196078431372549,0,0.058823529411764705,1],\"shader\":\"float map(float s, float a1, float a2, float b1, float b2)\\n{\\n    return b1 + (s-a1)*(b2-b1)/(a2-a1);\\n}\\n\\nfloat rand(vec2 co)\\n{\\n    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\\n}\\n\\nvoid main() \\n{\\n  vec2 coords;\\n  \\tcoords.x = mod(vertexId, 30.0);\\n  \\tcoords.y = floor(vertexId / 30.0);\\n  \\n  \\t\\n  \\n  //flag\\n  if(vertexId < 600.0)\\n  {\\n    float u = 1.0 / 30.0 * coords.x;\\n  \\tfloat v = 1.0 / 20.0 * coords.y;\\n    \\n  \\tfloat historyX = abs(map(u, 0.0, 1.0, -.5, 1.0) * .7);\\n  \\tfloat historyV = (v *coords.y +  0.5) / soundRes.y;\\n  \\n  \\tfloat snd = pow(texture2D(sound, vec2(historyX, historyV)).a, 1.6);\\n\\n \\tfloat sinDingX = sin(time + coords.x * 0.2) * 0.01;\\n   \\tfloat posX = -0.35 + ((0.7 / 30.0) * coords.x);\\n  \\tposX += sinDingX;\\n  \\n  \\tfloat sinDingY = sin(time + coords.x * 0.2) * 0.1;\\n  \\tfloat posY = -0.35 + (.7 / 20.0) * coords.y * (1.0 + sinDingY * 1.4);\\n  \\tposY += sinDingY;\\n  \\n  \\tfloat posZ = 0.8;\\n  \\n  \\tgl_Position = vec4(posX, posY, posZ, 1);\\n\\n  \\tif(coords.x > 8. && coords.x < 12. ||\\n     coords.y > 8. && coords.y < 12. )\\n  \\t{\\n    \\tv_color = vec4(1.0, 1.0, 1.0, 1);\\n  \\t}\\n  \\telse\\n  \\t{\\n    \\tv_color = vec4(1.0, 0.0, 0.0, 1);\\n  \\t}\\n \\n  \\tv_color.rgb *= map(sinDingX, -0.01, 0.01, 0.3, 1.0);\\n  \\n  \\tgl_PointSize = snd * 20.0;\\n  }\\n  // starfield\\n  else if(vertexId < 800.0)\\n  {\\n    float speed = 0.5;\\n    \\n    vec2 startPos = vec2(rand(vec2(vertexId + 12345., vertexId + 4312.)), rand(vec2(vertexId, vertexId)));\\n    \\n    float posX = -1.0 + startPos.x * 2.;\\n    posX *= 0.1;\\n    if(posX > 0.)\\n    {\\n       posX += startPos.x * time * speed;\\n       posX = mod(posX, 1.0);\\n    }\\n    else\\n    {\\n      posX -= startPos.x * time;\\n      posX = mod(posX, -1.0);\\n    }\\n    \\n    float posY = -1.0 + startPos.y * 2.;\\n    posY *= 0.1;\\n    if(posY > 0.)\\n    {\\n       posY += startPos.y * time * speed;\\n       posY = mod(posY, 1.0);\\n    }\\n    else\\n    {\\n      posY -= startPos.y * time;\\n      posY = mod(posY, -1.0);\\n    }\\n    \\n    float posZ = .8;\\n    \\n    gl_Position = vec4(posX, posY, posZ, 1.0);\\n    \\n    float d = sqrt( gl_Position.x * gl_Position.x + gl_Position.y * gl_Position.y);\\n    \\n    d = map(d, 0.0, 1.0, 0.0, 2.0);\\n    if(d < 1.0)\\n    {\\n      posZ = 1.0;\\n    }\\n    else\\n    {\\n      posZ = 0.8;\\n    }\\n    \\n    \\n\\n    \\n    gl_Position = vec4(posX, posY, posZ, 1.0);\\n    gl_PointSize = pow(d, 2.0);\\n    \\n    v_color = vec4(1.0, 1.0, 1.0, 1.0);\\n  }\\n}\"}",
+  "screenshotURL": "data/images/images-fkdm8q88oy6jux60w-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "24"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "wuncYs6tT2wW5sBEd"
+}

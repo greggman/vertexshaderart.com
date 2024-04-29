@@ -1,0 +1,46 @@
+{
+  "_id": "DS8Yfx4noREuQ6YKi",
+  "owner": {
+    "_id": "ppYg9yMRSssfA5Fed",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684322328046"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/ChaerinPark?s=200"
+    },
+    "username": "chaerinpark"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684324612144"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684324612144"
+    }
+  },
+  "origId": null,
+  "name": "Making A Grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1545329077073123"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "chaerinpark",
+  "avatarUrl": "https://avatars.githubusercontent.com/ChaerinPark?s=200",
+  "settings": "{\"num\":6879,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name : Chaerin Park\\n//Assignment : Exercise - Vertexshaderart : Making a Grid\\n//Course : CS250\\n//Spring 2023\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n  \\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-4fyf6w4vo3vkw062y-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "30"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "f7hTgGR52RctutdB4"
+}

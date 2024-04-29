@@ -1,0 +1,46 @@
+{
+  "_id": "FMuoFaTjjywnD7fJm",
+  "owner": {
+    "_id": "exrQAEG45B5Exhhan",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684329330454"
+      }
+    },
+    "profile": {
+      "name": "Minsu Kim",
+      "avatarUrl": "https://avatars.githubusercontent.com/minsu-kim-digipen?s=200"
+    },
+    "username": "minsu-kim-digipen"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684410565960"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684410734477"
+    }
+  },
+  "origId": null,
+  "name": "Making A Grid Variation",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.702380558558993"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "minsu-kim-digipen",
+  "avatarUrl": "https://avatars.githubusercontent.com/minsu-kim-digipen?s=200",
+  "settings": "{\"num\":16384,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Name : Minsu Kim\\n// Assignment : Exercise - Vertexshaderart : Making a Grid \\n// Course : CS250\\n// Spring 2023\\n\\nvoid main()\\n{ \\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n \\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n  \\n  \\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20. / across;\\n  \\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(cos(time / 2.), cos(time / 5.), cos(time / 10.), 1);\\n}\\n\"}",
+  "screenshotURL": "data/images/images-xgqb9sloo2a81wcd3-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "7"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "95HMvebMDesMXPEDB"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "WuRAKg77S8gD366A8",
+  "owner": {
+    "_id": "YjHcknEt6QQipuQr3",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551481228108"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/polacienta?s=200"
+    },
+    "username": "polacienta"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551487082770"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551487082770"
+    }
+  },
+  "origId": null,
+  "name": "circulo",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.489064873839887"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "polacienta",
+  "avatarUrl": "https://avatars.githubusercontent.com/polacienta?s=200",
+  "settings": "{\"num\":42,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  float width=20.0;\\n  float total =20.0;\\n  \\n  //x= r cos\\n  //y= r*sin\\n  // a= x/total*2pi\\n  //radio =  cuadrado\\n  \\n  float y=mod(vertexId+1.0,2.0);\\n  float x=floor(vertexId/2.0);\\n  \\n  float angle= (x/total)*radians(360.0);\\n  float radio= 2.0+y;\\n  \\n  float ux=radio*cos(angle);\\n  float uy= radio*sin(angle);\\n  \\n //float u= x/(width-1.0);\\n  //float v= y/(width-1.0);\\n  \\n  //float xOffset= cos(time+y)*0.1;\\n  //float yOffset= sin(time+x*0.1);\\n  \\n  //float ux=u*2.0-1.0+xOffset;\\n  //float uy= v*2.0-1.0+yOffset;\\n  \\n  vec2 xy= vec2(ux,uy)*0.1;\\n  \\n  \\n  gl_Position= vec4(xy,0.0,1.0);\\n  v_color=vec4 (1.0,0.0,1.0,1.0);\\n  gl_PointSize=10.0;\\n}\"}",
+  "screenshotURL": "data/images/images-1nycxnqka0p0kno13-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "dAra8vurD7wahE6Du"
+}

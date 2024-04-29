@@ -1,0 +1,36 @@
+{
+  "_id": "i2MzwYgwq9p5mJ42Q",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1544475740223"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1544475740223"
+    }
+  },
+  "origId": "rpsbSKo8heXFgATpg",
+  "name": "color chain",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2835982194658397"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":8196,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {  \\n  gl_PointSize = 5.0;\\n  \\n  v_color = vec4(\\n    abs(sin(vertexId * 0.1 - time * 8.0)),\\n    abs(sin(vertexId * 0.1 - time * 8.0 + 2.09)),\\n    abs(sin(vertexId * 0.1 - time * 8.0 + 4.18879020479)),\\n    1.0);\\n  \\n  gl_Position.x = sin(time * 2.0 - vertexId / 2.0) * vertexId / 64.0 / 64.0;\\n  gl_Position.y = cos(time * 2.0 - vertexId / 2.0) * vertexId / 64.0 / 64.0;\\n  gl_Position.z = 0.0;\\n  gl_Position[3] = 1.0;\\n}\"}",
+  "screenshotURL": "data/images/images-v4151htp019pzzqtb-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "77"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "BrPcAHF5w5wP6pQMo"
+}

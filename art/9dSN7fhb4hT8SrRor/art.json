@@ -1,0 +1,47 @@
+{
+  "_id": "9dSN7fhb4hT8SrRor",
+  "owner": {
+    "_id": "qnFPHncNr53Ab9vhQ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1670883004076"
+      }
+    },
+    "profile": {
+      "first_name": "Rolf",
+      "last_name": "Fleckenstein",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/AEdFTp77n-4HSiD1U4oeq3eAYwguAOrnvGzhzULeLrdH=s96-c"
+    },
+    "username": "rolf"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670958245211"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1671041767726"
+    }
+  },
+  "origId": null,
+  "name": "first exp",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.716777102359255"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "rolf",
+  "avatarUrl": "https://lh3.googleusercontent.com/a/AEdFTp77n-4HSiD1U4oeq3eAYwguAOrnvGzhzULeLrdH=s96-c",
+  "settings": "{\"num\":4000,\"mode\":\"TRI_FAN\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define tau 6.28318530718\\n#define res resolution\\n#define rot( x ) mat2( cos( x*tau ), -sin( x*tau ), sin( x*tau ), cos( x*tau ) )\\n#define pos gl_Position.xy\\n#define pSize gl_PointSize\\n#define id ( vertexId - vertexCount/2. )\\n#define cnt vertexCount\\n#define nsin( x ) ( sin( x )*.5 + .5 )\\n#define flip( x ) ( 1. - ( x ) ) \\n#define inv( x ) ( 1. / ( x ) )\\n\\nvec3 c = vec3( 0. );\\n\\nvec3 hsv2rgb(vec3 c)\\n{\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main()\\n{\\n    gl_Position.xyzw = vec4( 0., 0., 0., 1. );\\n  \\n    pos = vec2( 0., 0. );  \\n    float yoff = step( mod( vertexId, 2. ), 0.0 );\\n    float x = cnt;\\n    pos.x = 2.*( id + 0.5 )/( cnt/4.0 );\\n    \\n    float w = nsin( 2.*time + 4.*pos.x ); \\n    pSize = 64. * w;\\n    pos.y = yoff*.5+.5*nsin( 2.*time + 32.*pos.x*.2*sin( time/2. )*2. );  \\n        c = hsv2rgb( vec3( w/2., 1., 1. ) );\\n    pos += mouse;  \\n  \\n    v_color = vec4( c, 1. );\\n}\"}",
+  "screenshotURL": "data/images/images-dtnnkjtvslzvs5dgn-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "mXemLyMQCGs89qM6s"
+}

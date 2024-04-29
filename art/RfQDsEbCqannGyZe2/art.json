@@ -1,0 +1,36 @@
+{
+  "_id": "RfQDsEbCqannGyZe2",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1522220568090"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1522220568090"
+    }
+  },
+  "origId": "do5csPmmsrqctxz3p",
+  "name": "BigSwingingSnake",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5095058204273535"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":100000,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/liquidheasy/neuron\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.141594\\n//#define FIT_VERTICAL\\n\\nvec3 computeVert(float angle, float H) {\\n  float STEP = time*0.7;\\n  float R = (cos(H * 2.6 + STEP * 2.5 + sin(STEP * 14.3 + H * 3.0) * (cos(STEP * 0.6) + 0.6)) * 0.2 + 0.9) * (cos(STEP * 0.5 + H * 1.4) * 0.3 + 0.9);\\n  R *= sin((H + 4.0) * 0.375);\\n  \\n  float Q = cos(STEP * 0.54 + H * 0.7);\\n  float dX = cos(H * 1.4) * Q * 1.5;\\n  float dY = sin(H * 0.75) * Q * 0.4;\\n  float dZ = sin(H * 0.5) * Q * 0.15;\\n  return vec3(cos(angle) * R, H, sin(angle) * R) + vec3(dX, dY, dZ);\\n}\\n\\nvec3 computeNorm(float angle, float H) {\\n  float dA = 0.01;\\n  float dH = 0.01;\\n  vec3 A = computeVert(angle, H);\\n  vec3 B = computeVert(angle + dA, H);\\n  vec3 C = computeVert(angle, H + dH);\\n  return normalize(-cross((B-A)/dA,(C-A)/dH));\\n}\\n\\nvoid main() {\\n  int NUM_ROT =76;\\n  float dH = 0.05;\\n  \\n  float STEP = time*0.7;\\n  \\n  int base = int(vertexId) /5;\\n  int level = int(base) / NUM_ROT;\\n  int idx = int(mod(vertexId,8.0*sin(time*min(mouse.x+1.5,3.))));\\n  vec3 xyz = vec3(0,0,0);\\n  vec3 N = normalize(vec3(1,0,0));\\n  \\n  float dA = 2.0 * PI / float(NUM_ROT);\\n\\n  float H = float(level) * dH - 4.0;\\n  float angle = float(base) * dA;\\n  \\n  if (idx == 0) {\\n  \\txyz = computeVert(angle, H);\\n  \\tN = computeNorm(angle, H);\\n  }\\n  if (idx == 1) {\\n  \\txyz = computeVert(angle + dA, H);\\n  \\tN = computeNorm(angle + dA, H);\\n  }\\n  if (idx == 2) {\\n  \\txyz = computeVert(angle + dA, H + dH);\\n  \\tN = computeNorm(angle + dA, H + dH);\\n  }\\n  \\n  if (idx == 3) {\\n  \\txyz = computeVert(angle + dA, H + dH);\\n  \\tN = computeNorm(angle + dA, H + dH);\\n  }\\n  if (idx == 4) {\\n  \\txyz = computeVert(angle, H + dH);\\n  \\tN = computeNorm(angle, H + dH);\\n  }\\n  if (idx == 5) {\\n  \\txyz = computeVert(angle, H);\\n  \\tN = computeNorm(angle, H);\\n  }\\n  \\n  \\n  #ifdef FIT_VERTICAL\\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\\n  #else\\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  #endif\\n  \\n  float Cs = cos(STEP);\\n  float Si = sin(STEP);\\n  mat3 rot = mat3(vec3(Cs,0,Si), vec3(0,1,0), vec3(-Si,0,Cs));\\n  mat3 rot2 = mat3(vec3(0,1,0), vec3(Cs,0,Si), vec3(-Si,0,Cs));\\n  xyz *= 0.3;\\n  //xyz *= rot;\\n  //N *= rot;\\n  gl_Position = vec4(xyz.xy * aspect / (3.0 + xyz.z), xyz.z, 1);\\n  \\n  vec3 light = normalize(vec3(1,1,-1));\\n  vec3 V = vec3(0,0,1);\\n  float A = 0.8 + cos(xyz.y * 0.6 + STEP);\\n  float D = 0.6 * clamp(dot(N, light), 0.0, 1.0);\\n  float S = 1.6 * pow(clamp(dot(light, reflect(V,N)),0.0,1.0), 5.0);\\n  vec3 A_col = vec3(1,1,1) * N * rot2;\\n  vec3 D_col = vec3(1,1,1) * N;\\n  vec3 S_col = vec3(1,1,1);\\n  vec3 LUM = A * A_col + D * D_col +S * S_col;\\n  v_color = vec4(LUM, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-iflh54mfysjelrwja-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "68"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "d76j7msBb4o8Xn8jR"
+}

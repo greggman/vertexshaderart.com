@@ -1,0 +1,46 @@
+{
+  "_id": "ztNkTPfLtNiNcSG3h",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1523446974114"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1523446974114"
+    }
+  },
+  "origId": "dPkbvz9nuwNJRn9oB",
+  "name": "another test 3",
+  "notes": "http://glslsandbox.com/e#38484.0",
+  "rank": {
+    "$numberDouble": "1.025181974693067"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/user-158087960/studiomix-douzirec-06-2007-flac\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Created by K Machine from http://glslsandbox.com/e#46102.0\\nvec2 vertexResolution = resolution;\\n//#ifdef  GL_ES\\n//precision  mediump float;\\n//#endif \\n\\n//uniform  float time;\\n//uniform  vec2 vertexResolution;\\n\\nvoid main(void)\\n{float finalDesiredPointSize = 3.;\\nfloat maxFinalSquareSideSize = floor(sqrt(vertexCount));\\nfloat finalMaxVertexCount = maxFinalSquareSideSize*maxFinalSquareSideSize;\\nfloat maxVerticesPerLine = floor(maxFinalSquareSideSize  *resolution.x/resolution.y);\\nvertexResolution = vec2(maxVerticesPerLine, floor(finalMaxVertexCount/maxVerticesPerLine));\\nfloat finalVertexCount = vertexResolution.x*vertexResolution.y;\\nfloat finalVertexId = mod(vertexId,finalVertexCount);\\nfloat x = mod(finalVertexId, vertexResolution.x);\\nfloat y = floor(finalVertexId / vertexResolution.x);\\nvec2 simFragCoord = vec2(x,y);//simfragCoord will replace the gl_FragCoord of fragment shader\\nfloat u_i = (x /vertexResolution.x);\\nfloat v_i = (y /vertexResolution.y);\\nfloat sizeFactor = finalDesiredPointSize*vertexResolution.x/resolution.x;\\nfloat ux = sizeFactor*(u_i - 0.5);\\nfloat vy = sizeFactor*(v_i - 0.5);\\ngl_PointSize = finalDesiredPointSize;\\ngl_Position = vec4(ux, vy, 0., 1.);\\nvec2 surfacePosition = vec2(ux,vy);\\n\\n    vec2 uv = simFragCoord.xy / vertexResolution.xy;\\n    //uv.x *= vertexResolution.x/vertexResolution.y;\\n    float dist = 0.;\\n    uv.x = -2.+4.*uv.x;\\n    uv.y = -1.+2.*uv.y;\\n    // comment the next line to see the fully zoomed out view\\n    uv *=pow(.1,4.+cos(.1*time));\\n    uv.x += .275015;//;\\n    uv.y += .0060445;//\\n    //uv /= 5.;\\n    //vec4 col =vec4(1.);\\n    vec2 z = vec2(0.0);\\n    \\n    int trap=0;\\n    for(int i = 0; i < 400; i++){\\n        if(dot(z,z)>4.){trap = i;break;}\\n        dist = min( 1e20, dot(z,z))+cos(float(i)*12.+3.*time);\\n        z = mat2(z,-z.y,z.x)*z + uv;\\n    }\\n    dist = sqrt(dist);\\n\\tfloat orb = sqrt(float(trap))/64.;\\n    v_color=vec4(0.,log(dist)*sqrt(dist)-orb-orb,log(dist)*sqrt(dist-abs(sin(time))),1.);\\n    //if(orb == 0.){v_color = vec4(0.);}\\n    //v_color = (orb!=0. ? 1.-orb*vec4(9.,5.,3.,0.):vec4(0.));\\n}\"}",
+  "screenshotURL": "data/images/images-rvdrntxpy838e23i2-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "8"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "xaQ24A4mzNpGiYKDc"
+}

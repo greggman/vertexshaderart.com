@@ -1,0 +1,46 @@
+{
+  "_id": "WWDNZ5h4zR4H9dqPn",
+  "owner": {
+    "_id": "bQer2D4p22YiaAkFt",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684301218251"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/minjae-yu?s=200"
+    },
+    "username": "minjae-yu"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684314619853"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684314761596"
+    }
+  },
+  "origId": null,
+  "name": "Motion",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5711609604907355"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "minjae-yu",
+  "avatarUrl": "https://avatars.githubusercontent.com/minjae-yu?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.03137254901960784,0.24705882352941178,0.5294117647058824,1],\"shader\":\"//Name : MINJAE YU\\n//Assignment : Motion\\n//Course : CS250\\n//Term : Spring 2023\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float xoff = sin(time + y * 0.2) * 0.5;\\n  float yoff = sin(time + x * 0.2);\\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.3;\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time + x * y * 0.02) * cos(time) * 10.;\\n  \\n  gl_PointSize = 10.0 + soff;\\n  gl_PointSize *= 20. / across;\\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(sin(time), 0,cos(time), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-s261xcsh36qdgv4ac-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "tJe57MKWKEnEw7tZq"
+}

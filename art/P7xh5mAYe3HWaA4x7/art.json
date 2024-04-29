@@ -1,0 +1,47 @@
+{
+  "_id": "P7xh5mAYe3HWaA4x7",
+  "owner": {
+    "_id": "HZivjER3Aq2kr3v5G",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554045905011"
+      }
+    },
+    "profile": {
+      "first_name": "상민",
+      "last_name": "김",
+      "avatarUrl": "https://lh5.googleusercontent.com/-FBZLbE_y4_Q/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reklXxy3FykkwCC2DQh9jjtzFC4fg/mo/photo.jpg"
+    },
+    "username": "상민"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554108866812"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554108866812"
+    }
+  },
+  "origId": "HpoPwexZeHvSos9jB",
+  "name": "tutorial",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8371789515245835"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "상민",
+  "avatarUrl": "https://lh5.googleusercontent.com/-FBZLbE_y4_Q/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reklXxy3FykkwCC2DQh9jjtzFC4fg/mo/photo.jpg",
+  "settings": "{\"num\":950,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.48627450980392156,0.48627450980392156,0.48627450980392156,1],\"shader\":\"void main()\\n{\\n  // gl_Position = vec4(ux, vy, 0, 1);\\n  gl_Position = vec4(sin(mouse.x), sin(mouse.y), 0, 1);\\n  \\n  \\n  \\n  gl_PointSize = abs(sin(time)) * 150.;\\n  \\n\\n  v_color = vec4(1, 1, 1, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-5jtjobjtuipzlwm67-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "8upg7frTNznkb8oXG"
+}

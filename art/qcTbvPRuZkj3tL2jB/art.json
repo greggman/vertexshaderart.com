@@ -1,0 +1,46 @@
+{
+  "_id": "qcTbvPRuZkj3tL2jB",
+  "owner": {
+    "_id": "CL56fLeJWNjv8p9hc",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1501331424273"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/ray7551?s=200"
+    },
+    "username": "ray7551"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1502257912854"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1502257912854"
+    }
+  },
+  "origId": null,
+  "name": "grid2",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1874238926760905"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "ray7551",
+  "avatarUrl": "https://avatars.githubusercontent.com/ray7551?s=200",
+  "settings": "{\"num\":839,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"precision highp float;\\nvoid main() {\\n  float xCount = ceil(sqrt(vertexCount * resolution.x / resolution.y));\\n  float gridWidth = resolution.x / xCount;\\n  float gridHeight = resolution.y / (xCount * resolution.y / resolution.x);\\n  \\n  gl_PointSize = 10.;\\n  gl_PointSize *= 100. / xCount; // if xCount > 100 then make pointSize smaller\\n  \\n  vec2 p = vec2(\\n    mod(vertexId, xCount) * gridWidth,\\n    floor(vertexId / xCount) * gridHeight\\n  );\\n  \\n  gl_Position = vec4(\\n    (p / resolution * 2. - vec2(1.)),\\n    0., 1.\\n  );  \\n  v_color = vec4(vec3(1., 1., 1.0), 1.); // for debugging grid\\n \\n  \\n}\"}",
+  "screenshotURL": "data/images/images-5gzp3hvwftvrhbwdx-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "prhCgCCZ6g9WiX9th"
+}

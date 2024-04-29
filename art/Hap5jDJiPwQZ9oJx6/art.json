@@ -1,0 +1,47 @@
+{
+  "_id": "Hap5jDJiPwQZ9oJx6",
+  "owner": {
+    "_id": "ftuGm8iHDG6Qsq5hC",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1687680322526"
+      }
+    },
+    "profile": {
+      "first_name": "Eren",
+      "last_name": "Ozde",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/AAcHTteGyNZj5qjNhZ1PS7gklhngFJPOEGJ1ziUo1luJtIbl8o7k=s96-c"
+    },
+    "username": "eren"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1687691326508"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1687691326508"
+    }
+  },
+  "origId": null,
+  "name": "Motion-1",
+  "notes": "My First Motion Art",
+  "rank": {
+    "$numberDouble": "1.8111338634143221"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "eren",
+  "avatarUrl": "https://lh3.googleusercontent.com/a/AAcHTteGyNZj5qjNhZ1PS7gklhngFJPOEGJ1ziUo1luJtIbl8o7k=s96-c",
+  "settings": "{\"num\":6532,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main(){\\n  \\n  float down = floor(sqrt(vertexCount));\\n\\n  float zort = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, zort);\\n  \\n  float y = floor(vertexId / zort);\\n  \\n  float u = x / (zort - 1.); \\n  float v = y / (zort - 1.);\\n  \\n  float xoff = sin(time + y * 0.1) * 0.2;\\n  float yoff = sin(time + x * 0.1) * 0.2;\\n \\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 0.5;\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time + x * y * 0.001) * 5.;\\n  \\n  gl_PointSize = 4.0 + soff;\\n  \\n  gl_PointSize *= 20. / zort;\\n  \\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n\\n\\n} \\n\\t\"}",
+  "screenshotURL": "data/images/images-gf2p7e048xlcan3ah-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "36"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "eFKiXC6TZBa27Nzvn"
+}

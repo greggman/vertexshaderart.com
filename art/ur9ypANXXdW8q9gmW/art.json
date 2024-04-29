@@ -1,0 +1,36 @@
+{
+  "_id": "ur9ypANXXdW8q9gmW",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551479168664"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551479168664"
+    }
+  },
+  "origId": "RYzSiASv8yuq6xWHJ",
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9612714788468357"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":1,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 20.0;\\n}\"}",
+  "screenshotURL": "data/images/images-zghf35sd877zzpowh-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "67"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "7Wp9Contdbc5y3xG5"
+}

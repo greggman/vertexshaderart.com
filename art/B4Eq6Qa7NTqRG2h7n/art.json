@@ -1,0 +1,36 @@
+{
+  "_id": "B4Eq6Qa7NTqRG2h7n",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551479612714"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551479612714"
+    }
+  },
+  "origId": "nA8PWiYuAPACxMYNa",
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8250807423923194"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":1,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  gl_Position = vec4(vertexId, 0.0, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 20.0;\\n}\\n\\n\\n\"}",
+  "screenshotURL": "data/images/images-hylujrosugfnm5il1-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "84"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "9eTeoLRbS58RuvYD5"
+}

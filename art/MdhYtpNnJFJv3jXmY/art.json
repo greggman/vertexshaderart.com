@@ -1,0 +1,46 @@
+{
+  "_id": "MdhYtpNnJFJv3jXmY",
+  "owner": {
+    "_id": "JEvFNjk8EJBsCLjrR",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551481583617"
+      }
+    },
+    "profile": {
+      "first_name": "danyalillo",
+      "avatarUrl": "https://lh5.googleusercontent.com/-AubKP6RsE4s/AAAAAAAAAAI/AAAAAAAAABI/DdOK5vvzKn0/photo.jpg"
+    },
+    "username": "danyalillo"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551482159295"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551482299560"
+    }
+  },
+  "origId": "ZADtvSryHzDYzCtp9",
+  "name": "tirangulos seguidos",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8275087533124457"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "danyalillo",
+  "avatarUrl": "https://lh5.googleusercontent.com/-AubKP6RsE4s/AAAAAAAAAAI/AAAAAAAAABI/DdOK5vvzKn0/photo.jpg",
+  "settings": "{\"num\":10,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main()\\n{\\n  //float width = 10.0;\\n  \\n  float x = floor(vertexId / 3.0);\\n  float y = floor(vertexId / 3.0);\\n  \\n  if(mod(vertexId, 2.0) == 0.0){\\n    x = (floor(vertexId / 2.0)) / 3.0;\\n    y = floor( 1.0 / 3.0);\\n  }\\n  else\\n  {\\n    x = (floor((vertexId - 1.0) / 2.0)) / 3.0;\\n    y = floor( 1.0 / 3.0);\\n  }\\n  \\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 10.0;\\n  \\n  /*float width = 20.0;\\n  \\n  float x = mod(vertexId, width);\\n  float y = floor(vertexId / width);\\n  \\n  float u = x / (width - 1.0);\\n  float v = y / (width - 1.0);\\n  \\n  float xOffset = cos(time + y * 0.2) * 0.1;\\n  float yOffset = sin(time + x * 0.3) * 0.1;\\n  \\n  float ux = u * 2.0 - 1.0 + xOffset;\\n  float uy = v * 2.0 - 1.0 + yOffset;\\n    \\n  vec2 xy = vec2(ux, uy) * 1.2;\\n    \\n  gl_Position = vec4(xy, 0.0, 1.0);\\n  v_color = vec4(1.0, 0.0, 0.0, 1.0);\\n  gl_PointSize = 10.0;*/\\n}\\n\\n\\n\"}",
+  "screenshotURL": "data/images/images-u5xh5jviptvumhdy3-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "s7DXXcMZdr7txK4y9"
+}

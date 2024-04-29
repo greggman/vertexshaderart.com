@@ -1,0 +1,47 @@
+{
+  "_id": "Q9DLLK5ZfccWG9Shv",
+  "owner": {
+    "_id": "FvEwbS5QFWQ9xq7KT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1583423411467"
+      }
+    },
+    "profile": {
+      "first_name": "Andris",
+      "last_name": "Lūsis",
+      "avatarUrl": "https://lh5.googleusercontent.com/-NGcfEagpVJU/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nBr6ANtWGgvfguJmVugmcp6_jd6hw/photo.jpg"
+    },
+    "username": "andris"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1583426478726"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1583429316315"
+    }
+  },
+  "origId": "Bt5C5fTXArXh3hvqh",
+  "name": "circles",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0496695163220493"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "andris",
+  "avatarUrl": "https://lh5.googleusercontent.com/-NGcfEagpVJU/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nBr6ANtWGgvfguJmVugmcp6_jd6hw/photo.jpg",
+  "settings": "{\"num\":35646,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define P 180.\\n#define I 5.\\n#define L (P*I*I)\\nfloat expo(float t) { return t*(t*(4.*t - 6.) + 3.); }\\n\\nvec2 circle(float eid, float start, float arclen, float N) {\\n    float angle = start + (mod(floor(eid/2.)+floor(mod(eid,2.)), N*2.)/N*2.*arclen);\\n  \\treturn vec2(cos(angle*PI*2.),sin(angle*PI*2.));\\n}\\n\\nvoid main() {\\n\\tfloat \\tlv = mod(vertexId,L), l = floor(vertexId/L),\\n\\t\\t\\ti = floor(lv / P), iv = mod(lv,P), e = mod(i,2.);\\n\\tvec2 pos = vec2( mod(i,I)-2.2, floor(i/I)-2. )*vec2(.4,.39), xy;\\n\\tif (l == 1.) {\\n\\t\\txy = pos+circle(iv,0.,1.,P) * (0.2 + e*0.04);\\n    \\tv_color = vec4(vec3(.5)*floor(mod(iv,4.)/2.),1);  \\n\\t} else if (l == 0.) {\\n    \\tfloat a = mod((time + i*6.)*.2*(1.+e)+.3*e+.8,1.), s = mod(a,.25);\\n    \\ta = expo(s/.25)*.25 + a - s;\\n    \\txy = pos+circle(iv,a,.25,P) * (.2 + e*.04);\\n    \\tv_color = vec4(0.,0.2+clamp(e*cos(7.*a-.5),0.,1.) + clamp((1.-e)*sin(7.*a+0.25),0.,1.),0,.5);  \\n  \\t} else if (l <=3.) {\\n      float scale = (l-2.)*0.03;\\n      xy = pos+circle(mod(iv,P-1.),.75,0.5,P)*vec2(.03+scale,.03+scale*.6)+vec2(scale*-.4-.05,-0.09);\\n        v_color = vec4(1,1,1,1);  \\n  \\t} else if (l <= 5.) {\\n   //   float lx = 0.;//(l-4.);\\n   //   float part =floor(iv/P*2.);\\n   //   xy = vec2(lx*0.03*-.4+.05,lx*-0.01-0.09) + pos+circle(P-iv+1.,mix(0.2,0.27,part),mix(0.53,0.46,part),P/2.)*vec2(1.,1.-part*2.)*0.05+vec2(0,part*-.1);\\n   //   xy = pos+circle(mod(iv,P-1.),.75,0.5)*vec2(.03+scale,.03+scale*.6)+vec2(scale*-.4+.05,-0.09);\\n        v_color = vec4(1,1,1,1);  \\n  \\t}\\n\\tgl_Position = vec4(xy * vec2(1, resolution.x / resolution.y)*0.9, 0, 1);\\n}\\n\\n\"}",
+  "screenshotURL": "data/images/images-kbxq6b5frcee7gefy-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "11"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "jwjt3TXwpnWDTm8Ty"
+}

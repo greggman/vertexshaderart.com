@@ -1,0 +1,45 @@
+{
+  "_id": "7GNBiei7nte4HfQN2",
+  "owner": {
+    "_id": "JQffMFChzRKaZkEjd",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1598151823940"
+      }
+    },
+    "username": "langtoner",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/dceb35cad80ced6f55f55cf8d2fd8971?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1598153676425"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1598153676425"
+    }
+  },
+  "origId": null,
+  "name": "Tutorial-2",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3509335357674506"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "langtoner",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dceb35cad80ced6f55f55cf8d2fd8971?default=retro&size=200",
+  "settings": "{\"num\":10,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n float x = vertexId /20.;\\ngl_Position = vec4(x,0,0,1);\\ngl_PointSize = 10.0;\\n  \\n  \\n  v_color = vec4(1,0,0,1);\\n}\"}",
+  "screenshotURL": "data/images/images-1rg5m93rrrb3umzj5-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "LP3hTsin9WvQtE7AJ"
+}

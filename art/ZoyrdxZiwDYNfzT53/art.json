@@ -1,0 +1,47 @@
+{
+  "_id": "ZoyrdxZiwDYNfzT53",
+  "owner": {
+    "_id": "zb8mvzZdopDTzghEH",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1529745843000"
+      }
+    },
+    "profile": {
+      "first_name": "Shtrompel",
+      "last_name": "Boombbomchaka",
+      "avatarUrl": "https://lh4.googleusercontent.com/-zzOobLO0ab8/AAAAAAAAAAI/AAAAAAAAANE/T3yiwRxnSlA/photo.jpg"
+    },
+    "username": "shtrompel"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1529745957278"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1530280224688"
+    }
+  },
+  "origId": null,
+  "name": "ASD",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3282960883656822"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "shtrompel",
+  "avatarUrl": "https://lh4.googleusercontent.com/-zzOobLO0ab8/AAAAAAAAAAI/AAAAAAAAANE/T3yiwRxnSlA/photo.jpg",
+  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/lefaguette/extreme-meme-mashup\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\n\\n\\nvoid main() {\\n  float across = 50.;\\n  float x, y, dist;\\n  vec2 pos, a, b;\\n  \\n  //Calculate Position\\n  x = mod(vertexId, across);\\n  y = floor(vertexId / across);\\n  \\n  pos.x = x / across;\\n  pos.y = y / across;\\n  \\n  pos.x = pos.x * 2. - 1.;\\n  pos.y = pos.y * 2. - 1.;\\n  \\n  \\n  //Calculate distance from mouse\\n  dist = sqrt(pow(pos.x - mouse.x, 2.) + pow(pos.y - mouse.y, 2.));\\n  dist /= 1.25;\\n  dist = max(dist, 0.2);\\n  \\n  //Dividing position by distance\\n  pos /= dist;\\n  \\n  \\n  //Apply position\\n  gl_Position = vec4(pos.x, pos.y, 0, 1);\\n  \\n  \\n  \\n  gl_PointSize = 7.0;\\n  \\n  //float r, g, b;\\n  float r = (sin(time * 2.0 + PI / 2.75) + 1.) / 2.;\\n  float g = (cos(time * 1.5 + PI / 1.5) + 1.) / 2.;\\n  //b = (sin(time * 1.8 + PI / 2.0) + 1.) / 2.;\\n  \\n  v_color = vec4(r, g, 0, 1);\\n}\\n//\"}",
+  "screenshotURL": "data/images/images-hmkp2nfr8bly8vwei-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "9"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "vZ2TtrWTTQypseMkK"
+}

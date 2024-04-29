@@ -1,0 +1,46 @@
+{
+  "_id": "MTJf2S5uhN4Z4Fswj",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1496861625447"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1496863070281"
+    }
+  },
+  "origId": "8rEyCeYdp5FF6AwKL",
+  "name": "Ksteamers",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2757400680922433"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":3860,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/richtowns/abc-trance-king-arturia-ms2k\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Kstreamer\\n\\n//KDrawmode=GL_POINTS\\n\\n//KVerticesNumber=3860\\n\\n// **** K Parameters **********\\n// **** parameter 0 is General Scale/Zoom\\n#define parameter0 1.0//KParameter0 1.0>>100.0\\n// **** parameter 1 is Sound Sensitivity\\n#define parameter1 5.0//KParameter1 1.0>>2.0\\n// **** parameter 2 is x offset mod\\n#define parameter2 0.3//KParameter2 1.0>>2.0\\n// **** parameter 3 is y offset mod\\n#define parameter3 0.3//KParameter3 1.0>>2.0\\n// **** parameter 4 is x mod factor\\n#define parameter4 100.0//KParameter4 10.0>>100.0\\n// **** parameter 5 is y mod factor\\n#define parameter5 100.0//KParameter5 10.0>>100.0\\n// **** parameter 6 is thumb tune\\n#define parameter6 2.0//KParameter6 1.0>>4.0\\n// **** parameter 6 is sound tune\\n#define parameter7 2.0//KParameter7 1.0>>4.0\\n\\nvoid main () {\\n  float v = vertexId;\\n  \\n  float grid =  floor(vertexCount / (1000.0 * (1.0 + sin(time/30.0))));\\n  float scale = parameter0 * 1.0 / (grid * grid);  \\n  \\n  float xsound = 0.2 * parameter7; //range of values in sound \\n  float ysound = floor((v*240.0) / vertexCount) / 240.0; \\n  \\n  float sndFactor = texture2D(sound, vec2(xsound , ysound)).a;\\n  float sndFactorBass = texture2D(sound, vec2(0.1 * parameter6, 0.0)).a;\\n  \\n  float x = sin(sin(time/11.0)* v/100.0); //comod(v, grid); \\n  float y = cos(sin(time/10.0)* v/100.0); //mod(floor(v / grid), grid);\\n  \\n  float xoff = parameter2 / 2.0;\\n  float yoff = parameter3 / 2.0 + 0.1 * parameter1 * sndFactor;\\n  \\n  float xmod = (1.0 - (parameter4 * v / (vertexCount * 100.0)));\\n  xmod *= 10.0 * parameter1 * sndFactorBass;\\n  xmod *= sin(time/100.0);\\n  float ymod = (1.0 - (parameter5 * v / (vertexCount * 100.0)));\\n  ymod *= 10.0 * parameter1 * sndFactorBass;\\n  ymod *= sin(time/130.0);\\n  \\n  float ux = (x * xmod * scale - xoff);\\n  float uy = (y * ymod * scale - yoff);\\n  \\n  gl_Position  = vec4(ux, uy, 0, 1);\\n  gl_PointSize = parameter1 * sndFactorBass * 40.0 * (vertexCount/(10.0*v+vertexCount));\\n\\n  v_color = vec4(sin(sndFactor/2.0), v/vertexCount, v/vertexCount, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-l6hpflu5dw7c2saqb-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "hrTqYoDAwFP4aP4Fk"
+}

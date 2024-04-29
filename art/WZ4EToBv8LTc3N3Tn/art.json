@@ -1,0 +1,46 @@
+{
+  "_id": "WZ4EToBv8LTc3N3Tn",
+  "owner": {
+    "_id": "dAjowjxtKCPWETu9X",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1454951904461"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/atomim?s=200"
+    },
+    "username": "atomim"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1454951999858"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1454954234289"
+    }
+  },
+  "origId": null,
+  "name": "husleri",
+  "notes": "remember to reset time!",
+  "rank": {
+    "$numberDouble": "1.2342607865195925"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "atomim",
+  "avatarUrl": "https://avatars.githubusercontent.com/atomim?s=200",
+  "settings": "{\"num\":4311,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n\\nvec3 getPosition(float t){\\n  float p_time=time*1.+97.;\\n  float t2=t*20.;\\n  t2+=0.01*sin(p_time)+(p_time-110.)*3.;//speed\\n  float dist=20.+sin(t2*1.3)*5.;\\n  return vec3(sin(t2+(1.-t)*2.+sin(t2*2.)*0.6)*dist,0.,cos(t2+(1.-t)*2.+sin(t2*2.)*0.7)*dist)*(1.2-t*t)*1.2//around\\n          + vec3(0.,t2*2.+cos(t2)*15.+cos(t2*3.5)*5.,0.)-vec3(0.,(1.-t*t*t)*10.,0.)//forward\\n          + vec3(sin(t2*2.3),sin(t2*1.32)+(t+1.)*(t-1.)*2.,sin(t2*3.6754))*(1.-t)*15.//tail movement\\n    \\n\\t;\\n}\\n\\n\\nvec3 getDiff(float t){\\n\\treturn getPosition(t)-getPosition(t+0.21);\\n}\\n\\nvoid main() {\\n  float point = vertexId;\\n  float pos = float(vertexId+mod(vertexId,2.)) / vertexCount;\\n  float side = mod(vertexId,2.);\\n  \\n  vec3 nor=vec3(0.);\\n  for(int i=0;i<15;i++){\\n    vec3 tmp=normalize(cross(normalize(getDiff(pos+0.1  *float(i))),normalize(getDiff(pos+0.1*(float(i)+1.)))));\\n    if(!(tmp!=tmp))nor+=tmp;\\n  }\\n  \\n  vec3 pos2=getPosition(pos)+normalize(nor)*side*3.;\\n\\t\\n\\n  \\n  vec3 xyz=pos2*0.02;\\n  \\n  gl_Position = vec4(xyz * 0.5, 1);\\n\\n  v_color = min(vec4(2.),vec4(xyz.x,xyz.y,2,1))/max(0.,(-xyz.z*5.+5.));\\n}\"}",
+  "screenshotURL": "data/images/images-dds4ppnhrsidjttxp-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "214"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ACyBA9zu5YcaaceHj"
+}

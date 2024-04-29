@@ -1,0 +1,43 @@
+{
+  "_id": "QH3gSYw84QKSqtGr2",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1445803428544"
+    }
+  },
+  "origId": null,
+  "name": "lint",
+  "username": "gman",
+  "settings": "{\"num\":3343,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.6274509803921569,0.984313725490196,0.44313725490196076,1],\"shader\":\"#define PI 3.14159\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n//#define FIT_VERTICAL\\n\\nvoid main() {\\n  float localTime = time * 0.01 + 20.0;\\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(vertexId / NUM_POINTS);\\n  float offset = count * sin(localTime * 0.01) + 5.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.014, 1.0);\\n  float c = cos(angle + localTime) * radius;\\n  float s = sin(angle + localTime) * radius;\\n  float orbitAngle =  pow(count * 0.0025, 0.8);\\n  float innerRadius = pow(count * 0.00005, 1.2);\\n  float oC = cos(orbitAngle + count * 0.00001) * innerRadius;\\n  float oS = sin(orbitAngle + count * 0.00001) * innerRadius;\\n\\n  #ifdef FIT_VERTICAL\\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\\n  #else\\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  #endif\\n\\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\\n\\n  //float b = mix(0.0, 0.7, step(0.5, mod(count + localTime * 1.0, 6.0) / 2.0));\\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 10.0);\\n  b = 0.0;mix(0.0, 0.7, b);\\n  v_color = vec4(b, b, b, 1);\\n}\"}",
+  "screenshotDataId": "2e36dARvwMEZykDCX",
+  "views": {
+    "$numberInt": "472"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "RmigdRRH5kQYzyziw",
+  "screenshotURL": "data/images/images-2e36dARvwMEZykDCX-thumbnail.png",
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1445803428546"
+    }
+  },
+  "rank": {
+    "$numberDouble": "1.8624305616316212"
+  },
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+}

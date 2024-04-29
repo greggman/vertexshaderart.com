@@ -1,0 +1,45 @@
+{
+  "_id": "cMqY3Hixco2WwFZo6",
+  "owner": {
+    "_id": "ck9o8akC3voRsXXny",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1549374729066"
+      }
+    },
+    "username": "kcha",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/393683f94ba2c18293b67ab3d3eb6f10?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551283204610"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551283281226"
+    }
+  },
+  "origId": null,
+  "name": "whirl",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.637562074418206"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "kcha",
+  "avatarUrl": "https://secure.gravatar.com/avatar/393683f94ba2c18293b67ab3d3eb6f10?default=retro&size=200",
+  "settings": "{\"num\":150,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159265\\n\\n\\nvoid main() {\\n  float r_speed = 0.75;\\n  \\n  // 0-100 => 0.0-1.0\\n  float f_vertexId = vertexId / (vertexCount - 1.);\\n  // 0.0-1.0 => 0.0-0.8\\n  float radius = f_vertexId * 0.8;\\n  \\n  // 0-99 => 0.0-1.0 => 0.0-2PI\\n  float radian = vertexId / (vertexCount - 1.) * 2. * PI;\\n  radian *= 3.0;\\n  \\n  float x = cos(-radian + time * r_speed) * radius;\\n  float y = sin(-radian + time * r_speed) * radius;\\n  vec2 xy = vec2(x, y);\\n  gl_PointSize = 10.;\\n  gl_Position = vec4(xy, 0., 1.);\\n  v_color = vec4(1., x / 0.8, y / 0.8, 1.);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-dopf3pk1pczd3avl5-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "111"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "sfwTzZgwDWJeLcKdj"
+}

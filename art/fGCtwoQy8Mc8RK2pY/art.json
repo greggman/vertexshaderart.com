@@ -1,0 +1,45 @@
+{
+  "_id": "fGCtwoQy8Mc8RK2pY",
+  "owner": {
+    "_id": "6LYHhwj5wMwA9HvPG",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1535280458435"
+      }
+    },
+    "username": "aaron1924",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/401c5d5fc2a9202f44ee18595001dbac?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1535281716982"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1535281716982"
+    }
+  },
+  "origId": null,
+  "name": "Swimming Cube",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7920182688680046"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "aaron1924",
+  "avatarUrl": "https://secure.gravatar.com/avatar/401c5d5fc2a9202f44ee18595001dbac?default=retro&size=200",
+  "settings": "{\"num\":25000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define TAU 6.28318530718\\n\\nfloat box(vec3 p)\\n{\\n  p = abs(p);\\n  return max(p.x, max(p.y, p.z));\\n}\\n\\nmat2 rot(float a)\\n{\\n  float s=sin(a), c=cos(a);\\n  return mat2(c,s,-s,c);\\n}\\n\\n\\n\\nvec3 cube(float id, float count)\\n{ \\n  id += time;\\n  vec3 m = vec3(0.73287, 0.91706, 0.29328);\\n  vec3 p = fract(m * id) - 0.5;\\n  p /= box(p);\\n  \\n  p.xz *= rot(time);\\n  p.yz *= rot(0.5 * time);\\n  \\n  return 0.3 * p;\\n}\\n\\nvec3 scanline(float id, float count)\\n{\\n  float segs = 8.;\\n  float a = 0.5 * TAU * fract(floor(segs * id/count) / segs + 0.1 * time);\\n  float b = TAU * id/count * segs - time;\\n  \\n  vec3 p = vec3(sin(a) * cos(b), cos(a), sin(a) * sin(b));\\n  \\n  float off = fract(time+1.2345*vertexId);\\n  p.xy *= 1.0 + sin(a) * off;\\n  \\n  return p;\\n}\\n\\nvec3 ambient(float id, float count)\\n{\\n  float w = sqrt(count);\\n  vec2 u = vec2(mod(id, w), floor(id / w)) / w;\\n  \\n  u.y = fract(u.y - 0.1 * time);\\n  u = 12. * (u - 0.5);\\n  \\n  vec3 p = vec3(u, 0.1 * cos(8. * u.x) + 0.1 * cos(3. * u.y));\\n  \\n  /*vec3 p = fract(8. * fract(vec3(67.502, 36.565, 66.536) * id) + id/count);\\n  p.y -= 0.1 * time;\\n  p = 8. * (fract(p) - 0.5);*/\\n  \\n  return p;\\n}\\n\\n\\n\\nvoid main() {\\n  vec3 p = vec3(0);\\n  \\n  float count = vertexCount / 3.;\\n  \\n  if(3.*vertexId < vertexCount)p = scanline(vertexId, count);\\n  else if(3.*vertexId < 2. * vertexCount) p = cube(vertexId - count, count);\\n  else p = ambient(vertexId - 2. * count, count);\\n  \\n  p.z += 2.;\\n  \\n  vec2 uv = p.xy / p.z;\\n  uv.x *= resolution.y / resolution.x;\\n  \\n  gl_PointSize = 4. / p.z;\\n  gl_Position = vec4(uv, 0, 1);\\n  \\n  v_color = vec4(1);\\n}\"}",
+  "screenshotURL": "data/images/images-3zpmb6d2a6g198ctx-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "mTe2AMiBJE6tZ3QMD"
+}

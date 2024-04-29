@@ -1,0 +1,46 @@
+{
+  "_id": "Hv927AXio5i8HPs2J",
+  "owner": {
+    "_id": "kwFj6rd42YAeFEAQQ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1551479264537"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/AlexisRubio96?s=200"
+    },
+    "username": "alexisrubio96"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1551481178139"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1551481178139"
+    }
+  },
+  "origId": null,
+  "name": "1rstVertex",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2353058572159095"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "alexisrubio96",
+  "avatarUrl": "https://avatars.githubusercontent.com/AlexisRubio96?s=200",
+  "settings": "{\"num\":400,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/chibi-tech/lolitazia-season\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"void main(){\\n  \\tfloat width = 20.0;\\n  \\n  \\tfloat x = mod(vertexId, width);\\n\\tfloat y = floor(vertexId / width);\\n  \\t\\n  \\tfloat u = x / (width - 1.0);\\n  \\tfloat v = y / (width - 1.0);\\n  \\n  \\tfloat xOffset = cos(time + y *0.2) * 0.1;\\n  \\tfloat yOffset = sin(time + x * 0.3) * 0.1;\\n  \\n  \\tfloat ux = u *2.0 -1.0 + xOffset;\\n  \\tfloat vy = v *2.0 -1.0 + yOffset;\\n  \\n  \\tvec2 xy = vec2(ux, vy) * 1.2;\\n  \\n\\tgl_Position = vec4(xy,0.0,1.0);\\t\\t//Posición final de un vertice\\n  \\tv_color = vec4(1.0,0.0,0.0,1.0);\\n  \\tgl_PointSize = 10.0;\\n\\n}\"}",
+  "screenshotURL": "data/images/images-708qvrtsykncwa5ku-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "zkQJtsWwmzdheZ3Le"
+}

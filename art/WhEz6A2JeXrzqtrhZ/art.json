@@ -1,0 +1,46 @@
+{
+  "_id": "WhEz6A2JeXrzqtrhZ",
+  "owner": {
+    "_id": "Jx77jdaDpkcxC4oFJ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1596977619651"
+      }
+    },
+    "profile": {
+      "name": "colin3dmax",
+      "avatarUrl": "https://avatars.githubusercontent.com/colin3dmax?s=200"
+    },
+    "username": "colin3dmax"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1596977660648"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1596977660648"
+    }
+  },
+  "origId": "eN9F6DmmRZpCrr3v4",
+  "name": "my_demo",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.5411883344147277"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "colin3dmax",
+  "avatarUrl": "https://avatars.githubusercontent.com/colin3dmax?s=200",
+  "settings": "{\"num\":9732,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.01568627450980392,0.01568627450980392,0.047058823529411764,1],\"shader\":\"void main(){\\n  \\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor(vertexCount / down);\\n  \\n  \\tfloat x = mod(vertexId , across);\\n  \\tfloat y = floor(vertexId / across);\\n  \\n  \\tfloat u = x / (across - 1.);\\n  \\tfloat v = y / (across - 1.);\\n  \\n  \\n  \\tfloat ux = u * 2. - 1.;\\n  \\tfloat vy = v * 2. - 1.;\\n  \\n\\tgl_Position = vec4(ux, vy, 0.0, 1.0);\\n  \\n  \\n  \\tgl_PointSize = 10.0;\\n  \\tgl_PointSize *= 20./across;\\n\\t  \\n  \\tv_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-aaiqticnwvpz7avem-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "2cDhheCGTwkonJkF8"
+}

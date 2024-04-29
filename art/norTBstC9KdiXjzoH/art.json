@@ -1,0 +1,47 @@
+{
+  "_id": "norTBstC9KdiXjzoH",
+  "owner": {
+    "_id": "gXvyYHFBWuxMkETEu",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1541434740235"
+      }
+    },
+    "profile": {
+      "first_name": "Ayrton",
+      "last_name": "Silva Bená",
+      "avatarUrl": "https://lh3.googleusercontent.com/-kJnxzWp-q0E/AAAAAAAAAAI/AAAAAAAABhA/oo6N_UGj_Yg/photo.jpg"
+    },
+    "username": "ayrton"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1541434832478"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1541434832478"
+    }
+  },
+  "origId": "Qh7WiD2iwnCrdfCXy",
+  "name": "150bpm",
+  "notes": "jezz",
+  "rank": {
+    "$numberDouble": "1.3246950165212545"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "ayrton",
+  "avatarUrl": "https://lh3.googleusercontent.com/-kJnxzWp-q0E/AAAAAAAAAAI/AAAAAAAABhA/oo6N_UGj_Yg/photo.jpg",
+  "settings": "{\"num\":80946,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/fpdotrem/dona-maria-ontem-eu-transei-com-sua-filha-2018-150-bpm\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\nmat4 scale(float s)\\n{\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0, 1);\\n}\\n\\nvoid main() {\\n  float segmentsPerCircle = 24.;\\n  float vertsPerSegment = 6.;\\n  \\n  // set base vert pos\\n  float bx = mod(vertexId, 2.) + floor(vertexId / 6.);\\n  float by = mod(floor(vertexId / 2.) + floor(vertexId / 3.), 2.);\\n  float angle = mod(bx, segmentsPerCircle) / segmentsPerCircle *  2. * PI;\\n  \\n  // offset circles\\n  float circleCount = vertexCount / segmentsPerCircle * vertsPerSegment;\\n  float circlesPerRow = 33.;\\n  float circlesPerColumn = floor(circleCount / circlesPerRow);\\n  float circleId = floor(vertexId / (segmentsPerCircle * vertsPerSegment));\\n  float cx = mod(circleId, circlesPerRow) * 2.;\\n  float cy = floor(circleId / circlesPerRow) * 2.;\\n  \\n  vec2 soundTexCoords = vec2(0, 0);\\n  float sx = cx - circlesPerRow;\\n  soundTexCoords.x = abs(sx) / (abs(sx) + cy) * 0.215;\\n  soundTexCoords.y = ((abs(sx) + cy) - 1.) / (circlesPerRow + circlesPerColumn) * 0.25;\\n  float r = texture2D(sound, soundTexCoords).a;\\n  r = r * 1.3;\\n  r = pow(r, 4.);\\n  float radius = by * r;\\n  float x = cos(angle) * radius;\\n  float y = sin(angle) * radius;\\n  \\n  gl_Position = vec4(x, y, -r / 2., 1);\\n  gl_Position += vec4(cx, cy, 0, 0);\\n  gl_Position += vec4(-16., -8, 0, 0) * 2.;\\n  \\n  // scale\\n  gl_Position *= scale(1. / 16.);\\n  \\n  // fix aspect\\n  vec4 aspect = vec4(resolution.y / resolution.x, 1, 1, 1);\\n  gl_Position *= aspect;\\n  \\n  v_color = vec4(r - 0.2, 1, 1, 0);\\n}\"}",
+  "screenshotURL": "data/images/images-aipfix3jd5kt5kkiv-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "4"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "vGSFb54eaXhp2oE5j"
+}

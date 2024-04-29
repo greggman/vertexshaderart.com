@@ -1,0 +1,45 @@
+{
+  "_id": "5btpWTSD8Kwb767eh",
+  "owner": {
+    "_id": "zvYTT7qNPZP7HY9ud",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1623844888254"
+      }
+    },
+    "username": "plasticrainbow",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/6a162c0fed03619171f63772ec1198d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1623851122044"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1623851841139"
+    }
+  },
+  "origId": "NKCTpuxGSTTQAXHYw",
+  "name": "Lesson5_Circles",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6105992777904161"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "plasticrainbow",
+  "avatarUrl": "https://secure.gravatar.com/avatar/6a162c0fed03619171f63772ec1198d1?default=retro&size=200",
+  "settings": "{\"num\":40000,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.25098039215686274,1],\"shader\":\"vec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\n#define PI radians(180.0)\\n\\nvec2 getCirclePoint(float id, float numCircleSegments) {  \\n  float ux = floor(id / 6.) + mod(id, 2.);\\n  float vy = mod(floor(id / 2.) + floor(id / 3.), 2.);\\n  \\n  float angle = ux / numCircleSegments * PI * 2.;\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  \\n  float radius = vy + 1.;\\n  \\n  float x = c * radius;\\n  float y = s * radius;\\n  \\n  return vec2(x, y);\\n  \\n}\\n\\n\\nvoid main() {\\n  float numCircleSegments = 20.;\\n  vec2 circleXY = getCirclePoint(vertexId,\\n                                 numCircleSegments);\\n  \\n  float numPointsPerCircle = numCircleSegments * 6.;\\n  float circleID = floor(vertexId / numPointsPerCircle);\\n  float numCircles = floor(vertexCount / numPointsPerCircle);\\n  \\n  float down = floor(sqrt(numCircles));\\n  float across = floor(numCircles / down);\\n  \\n  float x = mod(circleID , across);\\n  float y = floor(circleID / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n  \\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time * 1.1 + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  float aspect = resolution.x / resolution.y;\\n  vec2 xy = circleXY * 0.1 + vec2(ux, vy) * 1.5;\\n  \\n  gl_Position = vec4(xy, 0, 1) * vec4(1., aspect, 1., 1.);\\n  \\n  float soff = sin(time * 1.2 + x * y * 0.02) * 5.;\\n  \\n  float hue = u * .1 + sin(time * 1.3 + v * 20.) * 0.05;\\n  float sat = 1.;\\n  float val = sin(time * 1.4 + v * u * 20.) * .5 + .5;\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n   \\n}\"}",
+  "screenshotURL": "data/images/images-icw649jayc5s2zky9-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Yq8jzeKmBKQhZiEia"
+}

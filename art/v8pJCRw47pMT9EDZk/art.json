@@ -1,0 +1,42 @@
+{
+  "_id": "v8pJCRw47pMT9EDZk",
+  "owner": {
+    "_id": "6Tn4bHkb7GdfNJ8Py",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1446192596260"
+      }
+    },
+    "username": "baldand",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/3834dfa4c14d99a1fb7a44ae6b36e196?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1446411596361"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1446411596361"
+    }
+  },
+  "origId": null,
+  "name": "Rainbow Grid",
+  "private": true,
+  "username": "baldand",
+  "settings": "{\"num\":10000,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.5058823529411764,0.4588235294117647,0.4588235294117647,1],\"shader\":\"void main() {\\n  vec3 pos = vec3(sin(vertexId*(.1+.1*sin(time*.001))+time*.01),cos(vertexId*(.1+.1*sin(time*.0011))+time*.01),1.1);\\n  gl_Position = vec4(pos.xy,1.0/pos.z,pos.z);\\n  v_color = vec4(sin(vertexId+time),cos(vertexId+time),sin(vertexId*1.1+time),1.);\\n}\"}",
+  "screenshotURL": "data/images/images-yrmt3uastjimfjnlx-thumbnail.jpg",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "jXgnJAu2q8Pv5iK82",
+  "rank": {
+    "$numberDouble": "1.7012353701183422"
+  },
+  "avatarUrl": "https://secure.gravatar.com/avatar/3834dfa4c14d99a1fb7a44ae6b36e196?default=retro&size=200"
+}

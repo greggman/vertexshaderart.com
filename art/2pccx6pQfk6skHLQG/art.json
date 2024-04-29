@@ -1,0 +1,36 @@
+{
+  "_id": "2pccx6pQfk6skHLQG",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1533038728181"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1533038728181"
+    }
+  },
+  "origId": "M3TQnRJ4QA4c5vpBc",
+  "name": "quad test",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3381060662842628"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":6,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  if (vertexId == 0.0) {\\n   \\tgl_Position = vec4(-0.05, -0.3, 0, 1);  \\n  }\\n  else if (vertexId == 1.0) {\\n  \\tgl_Position = vec4(0.25, 0.3, 0, 1);    \\n  }\\n  else if (vertexId == 2.0) {\\n  \\tgl_Position = vec4(0.0125, -0.3, 0, 1);    \\n  }\\n  \\n  else if (vertexId == 3.0) {\\n  \\tgl_Position = vec4(-0.05, 0.3, 0, 1);    \\n  }\\n  else if (vertexId == 4.0) {\\n  \\tgl_Position = vec4(0.25, 0.3, 0, 1);    \\n  }\\n  else if (vertexId == 5.0) {\\n  \\tgl_Position = vec4(-0.05, -0.3, 0, 1);    \\n  }\\n  \\n  if (vertexId == 1.0 || vertexId == 2.0 || vertexId == 4.0) {   \\n  \\tv_color = vec4(1, 1, 1, 1);\\n  }\\n  else {\\n    v_color = vec4(1, 0, 0, 1);\\n  }\\n  \\n  \\n  \\n}\\n\"}",
+  "screenshotURL": "data/images/images-40ivsbfnej7f891u6-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "71"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Ds2kuKwdJWMdit4Y9"
+}

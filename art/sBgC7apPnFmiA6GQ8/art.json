@@ -1,0 +1,46 @@
+{
+  "_id": "sBgC7apPnFmiA6GQ8",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1504057546820"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1504058374267"
+    }
+  },
+  "origId": "E3bguY87geHgSFKBW",
+  "name": "wav",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1541476812773643"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":15000,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[1,1,1,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 2.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 1.0\\n\\n\\n//KDrawmode=GL_TRIANGLES\\n//KVerticesNumber=40000\\n//KBackGroundColor=vec3(0.,0.,0.);\\n\\n//for the K Machine\\n#define parameter0 0.//KParameter0 0.>>30.\\n#define parameter1 1.1//KParameter1 0.>>1.\\n#define parameter2 0.1//KParameter2 0.>>1.\\n#define parameter3 0.5//KParameter3 0.>>0.5\\n#define parameter4 0.//KParameter4 0.>>1.\\n#define parameter5 0.//KParameter5 0.>>1.\\n#define parameter6 0.//KParameter6 0.>>1.\\n\\nmat4 rotZ( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c,-s, 0, 0, \\n      s, c, 0, 0,\\n      0, 0, 1, 0,\\n      0, 0, 0, 1); \\n}\\n\\nvoid main() {\\n  \\n  float symCount = 6.;\\n  float shapeVertexCount = vertexCount/symCount;\\n  \\n  float fVertexId = mod(vertexId,shapeVertexCount);\\n  \\n  float point = mod(floor(fVertexId / 2.0) + mod(fVertexId, 2.0) * STEP, NUM_SEGMENTS);\\n  float count = floor(fVertexId / NUM_POINTS);\\n  float offset = count * sin(time * 0.001) + 5.0;\\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\\n  float radius = pow(count * 0.00014, 1.0);\\n  float c = cos(angle + time) * radius;\\n  float s = sin(angle + time) * radius;\\n  float orbitAngle =  pow(count * 0.025, 0.8);\\n  float innerRadius = pow(count * 0.0005, 1.2);\\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  \\n  vec2 xy = vec2(\\n      oC + c,\\n      oS + s);\\n  \\n  float shapeId = floor(vertexId/shapeVertexCount);\\n  \\n  gl_Position = vec4(xy * aspect, 0, 1);\\n\\n  //rotation for the shape\\n  \\n  mat4 rotz = rotZ(2.*PI/symCount);\\n  gl_Position.x += shapeId/symCount*2.5 - 1.;\\n  \\n \\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 10.0);\\n  b = 0.0;mix(0.0, 0.7, b);\\n  v_color = vec4(0, b, b, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-du7dpk8rydqkoo9cj-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "9"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "bTZ4BgTdfWd9Ar9rh"
+}

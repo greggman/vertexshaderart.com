@@ -1,0 +1,46 @@
+{
+  "_id": "xuuAHAN2frEuP9Tt8",
+  "owner": {
+    "_id": "LWdsrL3Rt7K7GFLDc",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1507983640950"
+      }
+    },
+    "profile": {
+      "name": "Leeland Morgan",
+      "avatarUrl": "https://lh6.googleusercontent.com/-qXvI68G6vJA/AAAAAAAAAAI/AAAAAAAABXE/f-2nfTklzoo/photo.jpg"
+    },
+    "username": "leeland"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1507983751154"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1507983751154"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.726086772012207"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "leeland",
+  "avatarUrl": "https://lh6.googleusercontent.com/-qXvI68G6vJA/AAAAAAAAAAI/AAAAAAAABXE/f-2nfTklzoo/photo.jpg",
+  "settings": "{\"num\":4372,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 21.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-dfdq5vsaorl4p5ypq-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "doA48aWrXKpttFdd3"
+}

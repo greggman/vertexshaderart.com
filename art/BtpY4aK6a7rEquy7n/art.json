@@ -1,0 +1,46 @@
+{
+  "_id": "BtpY4aK6a7rEquy7n",
+  "owner": {
+    "_id": "YMZyxbNq3cKGXyTyT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1508992260667"
+      }
+    },
+    "profile": {
+      "name": "Martin Palko",
+      "avatarUrl": "https://avatars.githubusercontent.com/MartinPalko?s=200"
+    },
+    "username": "martinpalko"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1509121941112"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1509122012511"
+    }
+  },
+  "origId": "fs6GHW2crknZmzoWy",
+  "name": "Rain_old",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.912268917759401"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "martinpalko",
+  "avatarUrl": "https://avatars.githubusercontent.com/MartinPalko?s=200",
+  "settings": "{\"num\":4677,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/cosmomedia/thunderstorm-sounds-of-nature\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Defines to compile the HLSL code with GLSL\\n#define float4 vec4\\n#define float3 vec3\\n#define float2 vec2\\n#define float4x4 mat4\\n#define float3x3 mat3\\n#define mul(x, y) y * x\\n#define lerp mix\\n#define static\\n#define saturate(x) clamp(x, 0.0, 1.0)\\n\\nfloat Rand(float2 seed)\\n{\\n    return fract(sin(dot(seed.xy ,float2(12.9898,78.233))) * 43758.5453);\\n}\\n\\nstruct RainParams\\n{\\n    float minSpeed;\\n\\tfloat maxSpeed;\\n    float groundHeight;\\n    float fallDistance;\\n    float2 minBounds;\\n    float2 maxBounds;\\n    float2 windDirectionAndStrength;\\n};\\n\\nstruct Raindrop\\n{\\n    float size;\\n    float3 position;\\n    float3 velocity;\\n};\\n\\nfloat Wrap(float value, float minimum, float maximum, out float offset)\\n{\\n    float maxMinusMin = maximum - minimum;\\n    float valueMinusMin = value - minimum;\\n    offset = floor(valueMinusMin / maxMinusMin);\\n    return minimum + mod(valueMinusMin, maxMinusMin);\\n}\\n\\nfloat Wrap(float value, float minimum, float maximum)\\n{\\n    float dummy;\\n    return Wrap(value, minimum, maximum, dummy);\\n}\\n\\nRaindrop GenerateRaindrop(RainParams params, float time, float seed)\\n{\\n  \\tfloat3 boundsSize;\\n  \\tboundsSize.xy = params.maxBounds - params.minBounds;\\n  \\tboundsSize.z = params.fallDistance;\\n  \\n  \\tfloat seed2 = 0.0;\\n  \\n    float3 initialOffset = boundsSize * float3(Rand(float2(seed, seed2++)), Rand(float2(seed, seed2++)), Rand(float2(seed, seed2++)));\\n    \\n    float3 velocity = float3(0.0, 0, -1.0) * lerp(params.minSpeed, params.maxSpeed, Rand(float2(seed, seed2++)));\\n    \\n    velocity.xy += params.windDirectionAndStrength;\\n    \\n    Raindrop drop;\\n    drop.size = 0.002;\\n    drop.position = initialOffset + (velocity * time);\\n    \\n    float wrapOffset;\\n    drop.position.z = Wrap(drop.position.z, params.groundHeight, params.groundHeight + params.fallDistance, wrapOffset);\\n    \\n\\tdrop.position.x += Rand(float2(wrapOffset, 0.0)) * (params.maxBounds.x - params.minBounds.x);\\n    drop.position.x = Wrap(drop.position.x, params.minBounds.x, params.maxBounds.x);\\n    drop.position.y += Rand(float2(wrapOffset, 1.0)) * (params.maxBounds.y - params.minBounds.y);\\n    drop.position.y = Wrap(drop.position.y, params.minBounds.y, params.maxBounds.y);\\n    \\n    drop.velocity = velocity;\\n    \\n    return drop;\\n}\\n\\n#define TRIANGLES_PER_DROP 2.0\\nvoid RenderRaindrop(Raindrop drop, RainParams params, float triangle, float triVert, out float4 outPos, out float4 outColor)\\n{\\n  // Super brute-force. Lets do something nicer later.  \\n  outPos.yz = float2(0.0, 0.0);\\n  \\n  float alpha = 0.4;\\n  \\n  if (triangle == 0.0)\\n  {\\n    if (triVert == 0.0)\\n    {\\n      outPos.xy = float2(-1.0, 0.0);\\n    }\\n    else if (triVert == 1.0)\\n    {\\n      outPos.xy = float2(1.0, 0.0);\\n    }\\n    else\\n    {\\n       outPos.xy = float2(0.0, -1.0);\\n    }\\n  }\\n  else // triange == 1\\n  {\\n    if (triVert == 0.0)\\n    {\\n      outPos.xy = float2(-1.0, 0.0);\\n    }\\n    else if (triVert == 1.0)\\n    {\\n      outPos.xy = float2(1.0, 0.0);\\n    }\\n    else\\n    {\\n      alpha = 0.;\\n      outPos.xy = float2(0.0, 150.0);\\n    }\\n  }\\n  \\n  outPos.xyz *= drop.size;\\n  \\n  outColor = float4(0.8, 0.9, 1.0, alpha);\\n  outColor.rgb *= alpha;\\n  \\n  // Drop is currently in local space. Translate to world space\\n  outPos.xyz *= drop.position.y;\\n  \\n  outPos.xyz += drop.position.xzy * drop.position.y;  \\n}\\n\\nfloat GetThunderBrightness(float2 uv)\\n{\\n  float2 lookupCoord = float2(0.0005, 0.0 + uv.x);\\n  float sample = texture2D(sound, lookupCoord).a;\\n  return pow(saturate((sample - 0.5) * 2.0), 6.0) * 5.0;\\n  \\n}\\n\\n#define BACKGROUND_QUADS_X 20.0\\n#define BACKGROUND_QUADS_Y 20.0\\n#define TRIANGLES_FOR_BACKGROUND BACKGROUND_QUADS_X * BACKGROUND_QUADS_X * 2.0\\nvoid RenderBackground(float triangle, float triVert, out float4 outPos, out float4 outColor)\\n{\\n  float quad = floor(triangle / 2.0);\\n  float2 quadCoord = float2(\\n    (mod(quad, BACKGROUND_QUADS_X) + 1.0) / BACKGROUND_QUADS_X,\\n    (floor(quad / BACKGROUND_QUADS_X) + 1.0) / BACKGROUND_QUADS_Y\\n  );\\n  \\n  float2 quadSize = float2(1.0 / BACKGROUND_QUADS_X, 1.0 / BACKGROUND_QUADS_Y);\\n  \\n  outPos.zw = float2(0.0, 1.0);\\n  \\n  \\n  if (floor(mod(triangle, 2.0)) == 0.0)\\n  {\\n    if (triVert == 0.0)\\n      outPos.xy = float2(0.0, 0.0);\\n    else if (triVert == 1.0)\\n      outPos.xy = float2(1.0, 0.0);\\n    else\\n      outPos.xy = float2(1.0, 1.0);\\n  }\\n  else\\n  {\\n    if (triVert == 0.0)\\n      outPos.xy = float2(0.0, 0.0);\\n    else if (triVert == 1.0)\\n      outPos.xy = float2(0.0, 1.0);\\n    else\\n      outPos.xy = float2(1.0, 1.0);\\n  }\\n  \\n  float2 uv = outPos.xy * quadSize - quadCoord;\\n  outPos.xy = uv * 2.0 + 1.0;\\n  \\n  outColor.a = 0.0;\\n  float thunder = GetThunderBrightness(uv);\\n  outColor.rgb = float3(thunder, thunder, thunder);\\n  \\n}\\n\\n\\nvoid main()\\n{  \\n  float triangleId = floor(vertexId / 3.0);\\n  float vertIndex = floor(mod(vertexId, 3.0));\\n  \\n  float backgroundTriangleStart = vertexCount / 3.0 - TRIANGLES_FOR_BACKGROUND;\\n  \\n  if (triangleId >= backgroundTriangleStart)\\n  {\\n    RenderBackground(triangleId - backgroundTriangleStart, vertIndex, gl_Position, v_color);\\n  }\\n  else\\n  {\\n    float dropId = floor(triangleId / TRIANGLES_PER_DROP);\\n    \\n    RainParams params;\\n    params.minSpeed = 8.1;\\n    params.maxSpeed = 10.1;\\n    params.groundHeight = -2.0;\\n    params.fallDistance = 4.0;\\n    params.minBounds = float2(-2.0, 0.3);\\n    params.maxBounds = float2(2.0, 1.0);\\n    params.windDirectionAndStrength = float2(0.0, 0.0);\\n    \\n    Raindrop drop = GenerateRaindrop(params, time, dropId);\\n    \\n    \\n    gl_Position = float4(0.0, 0.0, 0.0, 1.0);\\n    v_color = float4(1.0, 1.0, 1.0, 1.0);\\n    \\n    RenderRaindrop(drop, params, triangleId, vertIndex, gl_Position, v_color);\\n  }\\n}\"}",
+  "screenshotURL": "data/images/images-co8m1t5s7llqelahe-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "T9xY9CiQFS78849vg"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "sgg5X7iFw5d2SLzwX",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1687830435016"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1687830435016"
+    }
+  },
+  "origId": "yMrRxwDvaoSaokXzo",
+  "name": "sound,floatSound,volumn",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2504193696763086"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "gman",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// very long playlist:\\n// https://soundcloud.com/owen-fullerton-1/sets/dj-icey-dj-baby-anne-move\\n\\n// lolengine.net/blog/2013/07/27/rgb-to-hsv-in-glsl\\nvec3 hsv2rgb(vec3 c)\\n{\\n    c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main () {\\n  \\n  float freq = vertexId / vertexCount;\\n  float s = texture2D(sound,  vec2(freq, 0.0)).a - 0.5;\\n  float v = texture2D(volume, vec2(0, 0.0)).a - 0.5;\\n  float f = texture2D(floatSound, vec2(freq, 0.0)).a * 0.01 + 0.5;\\n  \\n  float id = mod(vertexId, 3.0);\\n  float y0 = mix(s, v, step(0.5, id));\\n  float y  = mix(y0, f, step(1.5, id));\\n  \\n  float x = freq * 2.0 - 1.0;\\n  \\n  vec3 hsv = vec3(vertexId / 3.0, 1.0, 1.0);\\n  gl_Position = vec4(x, y, 0.0, 1.0);\\n  v_color = vec4(hsv2rgb(hsv), 1.0);\\n\\n  gl_PointSize = 5.0;\\n\\n}\"}",
+  "screenshotURL": "data/images/images-8yl1wdtntsatb0vqo-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "TLdTsKtnmRHyQvQhn"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "SGm2qQjwmg7NGb4my",
+  "owner": {
+    "_id": "Pexi77zfde4iNKmrT",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1493741221077"
+      }
+    },
+    "profile": {
+      "name": "Kolargon Generative",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg"
+    },
+    "username": "kolargon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1515930701282"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1515930989706"
+    }
+  },
+  "origId": "WBgJQrq6H2sZ2gzyb",
+  "name": "simple 1 point grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.921606887517088"
+  },
+  "private": true,
+  "unlisted": false,
+  "username": "kolargon",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tiKYx1U71-Q/AAAAAAAAAAI/AAAAAAAAAGg/b-eEUsFpspc/photo.jpg",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0.1450980392156863,0.30980392156862746,1],\"shader\":\"void main ()\\n{\\n  //\\n  float maxFinalSquareSideSize = floor(sqrt(vertexCount));\\n  float finalMaxVertexCount = maxFinalSquareSideSize*maxFinalSquareSideSize;\\n  \\n  //first the number of elements in a line\\n  float across = floor(maxFinalSquareSideSize*resolution.x/resolution.y);\\n  \\n  //we want to keep the resolution >> across/down must be the same as resolution.x/resolution.y\\n  //across = across*resolution.x/resolution.y;\\n  \\n  //then the number of possible lines with the given vertexCount\\n  float down = floor(finalMaxVertexCount / across);\\n  \\n  //we can now calculate the final number of elements\\n  float finalVertexCount = across*down;\\n  \\n  //and the consequent finalVertexId\\n  float finalVertexId = mod(vertexId,finalVertexCount);\\n  \\n  //Now we calculate the position of the elements based on their finalVertexId\\n  float x = mod(finalVertexId, across);\\n  float y = floor(finalVertexId / across);\\n  \\n  float u = (x /across)  * (across/resolution.x);// (across - 1.0);\\n  float v = (y /down)  * (across/resolution.x);// (down - 1.0);\\n  \\n  float ux = u - (across/resolution.x/2.);//(u * 2.0 - 1.0)  * (across/resolution.x);\\n  float vy = v - (across/resolution.x/2.);//(v  * 2.0 - 1.0) * (across/resolution.x);\\n  \\n\\n  gl_Position = vec4(ux, vy, 0, 1);\\n  \\n  \\n  gl_PointSize = 1.;\\n  \\n  //////////\\n\\n\\n\\n  /////////\\n \\n  \\n  v_color = vec4(1, 1, 1, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-8ypdxj7vyzem83nv4-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "u9bMWJAA6ovvcZfNL"
+}

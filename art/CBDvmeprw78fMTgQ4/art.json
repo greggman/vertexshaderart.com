@@ -1,0 +1,36 @@
+{
+  "_id": "CBDvmeprw78fMTgQ4",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1533039463185"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1533039463185"
+    }
+  },
+  "origId": null,
+  "name": "Quad",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9016762157811282"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":6,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  \\n  int vertID = int(vertexId);\\n  \\n  float left = -0.025;\\n  float rightTop = 0.5;\\n  float rightBottom = 0.0125;\\n  \\n  //Triangle 0\\n  if (vertID == 0) {\\n   \\tgl_Position = vec4(left, -0.3, 0, 1);  \\n    v_color = vec4(1, 1, 1, 1);\\n  }\\n  else if (vertID == 1) {\\n  \\tgl_Position = vec4(rightTop, 0.3, 0, 1);    \\n    v_color = vec4(1, 1, 1, 1);\\n  }\\n  else if (vertID == 2) {\\n  \\tgl_Position = vec4(rightBottom, -0.3, 0, 1);    \\n    v_color = vec4(1, 1, 1, 1);\\n  }\\n  \\n  //Triangle 1\\n  else if (vertID == 3) {\\n  \\tgl_Position = vec4(left, 0.3, 0, 1);  \\n    v_color = vec4(1, 0, 0, 1);\\n  }\\n  else if (vertID == 4) {\\n  \\tgl_Position = vec4(rightTop, 0.3, 0, 1);    \\n    v_color = vec4(1, 0, 0, 1);\\n  }\\n  else if (vertID == 5) {\\n  \\tgl_Position = vec4(left, -0.3, 0, 1);    \\n    v_color = vec4(1, 0, 0, 1);\\n  }\\n  \\n  \\n  \\n  \\n  \\n  \\n  if (vertID == 1 || vertID == 2 || vertID == 4) {   \\n  \\tv_color = vec4(1, 1, 1, 1);\\n  }\\n  else {\\n    v_color = vec4(1, 0, 0, 1);\\n  }\\n  \\n  \\n  \\n}\\n\"}",
+  "screenshotURL": "data/images/images-tzcb4aj7f66su6pfm-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "51"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "fLPWH3r2t8ck9FNW2"
+}

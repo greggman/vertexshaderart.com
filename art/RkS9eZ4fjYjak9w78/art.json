@@ -1,0 +1,36 @@
+{
+  "_id": "RkS9eZ4fjYjak9w78",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1563439871331"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1563439871331"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9463261136080208"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":20000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n    #define PI radians(180.)\\n    #define TAU 6.283185307179586\\n\\n    float lerp(float a, float b, float amt)\\n    {\\n      return a + (b-a)*amt;\\n    }\\n\\n    float func(float t)\\n    {\\n      return t/pow(t,t);\\n    }\\n\\n    void main()\\n    {\\n      float ph = vertexId/vertexCount;\\n      float angle = ph *TAU*20.;\\n      float w = lerp(.2, 3.0, vertexId/ vertexCount);\\n      vec2 pos = vec2(\\n        cos(angle+ ph*5.)* w, \\n        sin(angle +sin(PI/2.+time*0.1)*5.) *w\\n      );\\n\\n      vec2 aspect = vec2(1., resolution.x/resolution.y);\\n      pos *= pow((mouse.x+1.)/2.,0.2);\\n      //pos *= (mouse.y+1.)/2.;\\n      gl_Position = vec4(pos * aspect * 1., 0.,1.);\\n\\n      vec3 col = vec3(\\n        0.5,\\n        sin(ph*PI +time * 0.13),\\n        sin(ph*PI +time * 0.17)\\n      );\\n      col = abs(col);\\n\\n      float ps = func(ph*6.);\\n      gl_PointSize = pow(ps,0.4) * 10.;\\n      v_color = vec4(col, 1.);\\n    }\"}",
+  "screenshotURL": "data/images/images-cfufti5go80600sye-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "112"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "TjKjXhMu7tB5SMtZK"
+}

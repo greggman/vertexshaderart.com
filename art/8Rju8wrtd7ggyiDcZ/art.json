@@ -1,0 +1,46 @@
+{
+  "_id": "8Rju8wrtd7ggyiDcZ",
+  "owner": {
+    "_id": "ton59f9P8EyXxMoto",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684322503530"
+      }
+    },
+    "profile": {
+      "name": "Myunghyun Kim",
+      "avatarUrl": "https://avatars.githubusercontent.com/MyunghyunKim0227?s=200"
+    },
+    "username": "myunghyunkim0227"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684492708553"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684492708553"
+    }
+  },
+  "origId": "cjw2sg8cHvsk78JBF",
+  "name": "Colors_myunghyun.kim",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7169495946650704"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "myunghyunkim0227",
+  "avatarUrl": "https://avatars.githubusercontent.com/MyunghyunKim0227?s=200",
+  "settings": "{\"num\":4000,\"mode\":\"LINES\",\"sound\":\"https://on.soundcloud.com/kXX5i\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"//Name: Myunghyun Kim\\n//Assignment: Exercise - Vertexshaderart : Colors\\n//Course: CS250\\n//Term: Spring 2023\\n\\nvec3 hsv2rgb(vec3 c)\\n{\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {\\n  float down = sqrt(vertexCount);\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n\\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time + x * 0.3) * 0.2;\\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  vec2 xy = vec2(ux, vy) * 1.3;\\n  \\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time + x * y * .02) * 5.;  \\n  \\n  gl_PointSize = 15.0 + soff;\\n  gl_PointSize *= 20.0 / across;\\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  float hue = u * 0.1 + sin(time * 5. + v) * 0.05;\\n  float sat = 3.;\\n  float val = sin(time * v * u * 20.0) * 1.;\\n  \\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-ajq9g703tzef7ndnv-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Gh4qt23caj8ZKk4ke"
+}

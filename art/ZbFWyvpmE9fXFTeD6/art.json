@@ -1,0 +1,46 @@
+{
+  "_id": "ZbFWyvpmE9fXFTeD6",
+  "owner": {
+    "_id": "6pkRP7HRXpy6Kg4NC",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1466932151517"
+      }
+    },
+    "profile": {
+      "name": "Vincent Schüßler",
+      "avatarUrl": "https://avatars.githubusercontent.com/vincent23?s=200"
+    },
+    "username": "vincent23"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1466934530481"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1466980819990"
+    }
+  },
+  "origId": null,
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.461138744182114"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "vincent23",
+  "avatarUrl": "https://avatars.githubusercontent.com/vincent23?s=200",
+  "settings": "{\"num\":33162,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/bensley/tiptoe\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.4196078431372549,0.3411764705882353,0.49411764705882355,1],\"shader\":\"float vdc(int n, float base)\\n{\\n\\tfloat vdc = 0.;\\n\\tfloat denom = 1.;\\n    // valid for n < 131072 (base 2)\\n\\tfor (int i = 0; i < 17; i++)\\n\\t{\\n\\t\\tdenom *= base;\\n\\t\\tvdc += mod(float(n), base) / denom;\\n\\t\\tn /= int(base);\\n\\t}\\n\\treturn vdc;\\n}\\n\\nvec2 hammersley2d(int i, int N) {\\n\\treturn vec2(float(i)/float(N), vdc(i, 2.));\\n}\\n\\nvec3 hammersley3d(int i, int N) {\\n\\treturn vec3(float(i)/float(N), vdc(i, 2.), vdc(i, 3.));\\n}\\n\\nfloat cheapHash(ivec2 c) {\\n\\tint x = int(0x3504f333)*c.x*c.x + c.y;\\n\\tint y = int(0xf1bbcdcb)*c.y*c.y + c.x;\\n\\treturn float(x*y)*(2.0/8589934592.0)+0.5;\\n}\\n\\nfloat waterNoise(vec2 p) {\\n\\tivec2 index = ivec2(floor(p));\\n\\tvec2 d = smoothstep(0., 1., fract(p));\\n\\tfloat result = 0.;\\n\\tfloat v00 = cheapHash(index);\\n\\tfloat v01 = cheapHash(index + ivec2(0, 1));\\n\\tfloat v10 = cheapHash(index + ivec2(1, 0));\\n\\tfloat v11 = cheapHash(index + ivec2(1, 1));\\n\\treturn mix(mix(v00, v10, d.x), mix(v01, v11, d.x), d.y) * 2. - 1.;\\n}\\n\\nfloat f2Sphere(vec2 p, float r) {\\n\\treturn length(p) - r;\\n}\\n\\nfloat fSphere(vec3 p, float r) {\\n\\treturn length(p) - r;\\n}\\n\\nvoid pTrans(inout float p, float d) {\\n  p -= d;\\n}\\n\\nvoid pTrans(inout vec2 p, vec2 d) {\\n\\tp -= d;\\n}\\n\\nvoid pTrans(inout vec3 p, vec3 d) {\\n\\tp -= d;\\n}\\n\\nvoid pRot(inout vec2 p, float a) {\\n\\tp = cos(a)*p + sin(a)*vec2(p.y, -p.x);\\n}\\n\\nfloat fTorus(vec3 p, float smallRadius, float largeRadius) {\\n\\treturn length(vec2(length(p.xz) - largeRadius, p.y)) - smallRadius;\\n}\\n\\n\\nfloat vmax(vec3 v) {\\n\\treturn max(max(v.x, v.y), v.z);\\n}\\n\\nfloat fBox(vec3 p, vec3 b) {\\n\\tvec3 d = abs(p) - b;\\n\\treturn length(max(d, vec3(0))) + vmax(min(d, vec3(0)));\\n}\\n\\nfloat sgn(float x) {\\n\\treturn (x<0.)?-1.:1.;\\n}\\n\\nvec2 sgn(vec2 v) {\\n\\treturn vec2(sgn(v.x), sgn(v.y));\\n}\\n\\nfloat pMirror (inout float p, float dist) {\\n\\tfloat s = sgn(p);\\n\\tp = abs(p)-dist;\\n\\treturn s;\\n}\\n\\n// Repeat in two dimensions\\nvec2 pMod2(inout vec2 p, vec2 size) {\\n\\tvec2 c = floor((p + size*0.5)/size);\\n\\tp = mod(p + size*0.5,size) - size*0.5;\\n\\treturn c;\\n}\\n\\nfloat PI = acos(-1.);\\n\\n// Repeat around the origin by a fixed angle.\\n// For easier use, num of repetitions is use to specify the angle.\\nfloat pModPolar(inout vec2 p, float repetitions) {\\n\\tfloat angle = 2.*PI/repetitions;\\n\\tfloat a = atan(p.y, p.x) + angle/2.;\\n\\tfloat r = length(p);\\n\\tfloat c = floor(a/angle);\\n\\ta = mod(a,angle) - angle/2.;\\n\\tp = vec2(cos(a), sin(a))*r;\\n\\t// For an odd number of repetitions, fix cell index of the cell in -x direction\\n\\t// (cell index would be e.g. -5 and 5 in the two halves of the cell):\\n\\tif (abs(c) >= (repetitions/2.)) c = abs(c);\\n\\treturn c;\\n}\\n\\n\\nfloat bps = 178. / 60.;\\n\\nfloat Tau = 2. * PI;\\n\\n\\nfloat f2Plane(vec2 p, vec2 n) {\\n\\t// n must be normalized\\n\\treturn dot(p, n);\\n}\\n\\nvec2 unitVector(float phi) {\\n\\treturn vec2(cos(phi), sin(phi));\\n}\\n\\nfloat f2PlaneAngle(vec2 p, float phi) {\\n\\treturn f2Plane(p, unitVector(phi));\\n}\\n\\nfloat max3(float a, float b, float c) {\\n\\treturn max(max(a, b), c);\\n}\\n\\n// r is the radius from the origin to the vertices\\nfloat f2Pentaprism(vec2 p, float r) {\\n\\tfloat phi1 = radians(108. / 2.);\\n\\tfloat phi2 = radians(-18.);\\n\\tfloat offset = r * cos(Tau / 5. / 2.);\\n\\n\\tvec2 q = vec2(abs(p.x), p.y);\\n\\tfloat side1 = f2PlaneAngle(q, phi1);\\n\\tfloat side2 = -p.y;\\n\\tfloat side3 = f2PlaneAngle(q, phi2);\\n\\n\\tfloat pentagon = max3(side1, side2, side3) - offset;\\n\\n\\treturn pentagon;\\n}\\n\\nfloat f2Supershape(vec2 p, float a, float b, float m, float n1, float n2, float n3) {\\n\\tfloat phi = atan(p.y, p.x);\\n\\tfloat d = length(p);\\n\\n\\tfloat m4 = m / 4.;\\n\\n\\tfloat c = cos(m4 * phi);\\n\\tfloat s = sin(m4 * phi);\\n\\n\\tfloat ca = c / a;\\n\\tfloat sb = s / b;\\n\\n\\tfloat gc = ca < 0. ? -1. : 1.;\\n\\tfloat gs = sb < 0. ? -1. : 1.;\\n\\n\\tfloat absc = ca * gc;\\n\\tfloat abss = sb * gs;\\n\\n\\tfloat ab2 = pow(absc, n2);\\n\\tfloat ab3 = pow(abss, n3);\\n\\n\\t//float ab21 = pow(absc, n2 - 1.);\\n\\t//float ab31 = pow(abss, n3 - 1.);\\n\\tfloat ab21 = ab2 / absc;\\n\\tfloat ab31 = ab3 / abss;\\n\\n\\tfloat rw = ab2 + ab3;\\n\\tfloat r = pow(rw, -1./n1);\\n\\n\\tfloat k = -n2 * ab21 * gc / a * s;\\n\\tfloat l =  n3 * ab31 * gs / b * c;\\n\\n\\t//float drpre = m4 / n1 * pow(rw, -1./n1 - 1.);\\n\\tfloat drpre = m4 / n1 * r / rw;\\n\\tfloat dr2 = drpre * drpre * (k * k + 2. * k * l + l * l);\\n\\n\\tfloat f = (d - r) / sqrt(1. + dr2);\\n\\treturn f;\\n}\\n\\nfloat fTorusWeird(vec3 p, float scale) {\\n  float rBig = scale;\\n  float n1 = 1.;\\n  float n2 = (sin(time * Tau * bps / 16.) * .5 + .5)  * .7 + .3;\\n  float n3 = (cos(time * Tau * bps / 32.) * .5 + .5) * .8 + .2;\\n  vec2 q = vec2(f2Supershape(p.xz, rBig, rBig, 7., n1, n2, n3), p.y);\\n  return f2Sphere(q, scale * .4);\\n}\\n\\nfloat f(vec3 p, out int material) {\\n  vec3 p_box = p;\\n  pRot(p_box.xy, time * 0.91);\\n  pRot(p_box.yz, time * 0.93);\\n  pRot(p_box.xz, time * 0.95);\\n  float f_box = fTorusWeird(p_box, .2);\\n  \\n  pRot(p.xy, .7);\\n  pRot(p.xz, time * 2. * PI * bps / 8.);\\n  pModPolar(p.xz, 8.);\\n  pTrans(p.x, .7);\\n  pRot(p.xz, PI* 2. * 3. * p.y);\\n  pTrans(p.x, .01);\\n  float f_cylinders = f2Sphere(p.xz, .1);\\n  \\n  if (f_box < f_cylinders) {\\n    material = 0;\\n  \\treturn f_box;\\n  } else {\\n    material = 1;\\n    return f_cylinders;\\n  }\\n}\\n\\nvec3 sdfNormal(vec3 p, float e) {\\n\\tvec3 s[6];\\n\\ts[0] = vec3(e,0,0);\\n\\ts[1] = vec3(0,e,0);\\n\\ts[2] = vec3(0,0,e);\\n\\ts[3] = vec3(-e,0,0);\\n\\ts[4] = vec3(0,-e,0);\\n\\ts[5] = vec3(0,0,-e);\\n\\tfloat d[6];\\n    int m;\\n\\tfor(int i = 0; i < 6; i++) {\\n\\t\\td[i] = f(p + s[i], m);\\n\\t}\\n\\treturn normalize(vec3(d[0] - d[3], d[1] - d[4], d[2] - d[5]));\\n}\\n\\nvoid main() {\\n  float phi = vertexId * 6.28 * time;\\n  vec3 p = hammersley3d(int(vertexId), int(vertexCount));\\n  p.xy = p.xy * 2. - 1.;\\n  \\n  float freq = .08;\\n  float foo = texture2D(sound, vec2(freq, .0)).r;\\n  foo *= texture2D(sound, vec2(freq, .1)).r;\\n  foo *= texture2D(sound, vec2(freq, .2)).r;\\n  int material;\\n  for (int i = 0; i < 3; i++) {\\n\\tvec3 direction = -sdfNormal(p, .01);\\n    float d = f(p, material);\\n    p += d * direction * (1. - foo);\\n  }\\n  \\n  p.xy *= .9;\\n  p.y *= resolution.x / resolution.y;\\n  gl_PointSize = 10. + 3. * sin(vertexId + time * bps * 2. * PI * .25);\\n  gl_PointSize *= .4;\\n  gl_Position = vec4(p, 1);\\n  \\n  vec3 normal = sdfNormal(p, .01);\\n  vec3 lightDir = vec3(0., 0., 1.);\\n   \\n  float x = smoothstep(.0, .3, abs(f(p, material)));\\n  x = (1. - (1. - smoothstep(-.5, 1., x)));\\n  \\n\\n  vec3 color = mix(vec3(186, 186, 232) / 255., vec3(231, 231, 184) / 255. ,x);\\n  if (material == 0) {\\n    gl_PointSize *= 3.;\\n    color = vec3(1, 0, 0);\\n  }\\n  color *= .4;\\n  v_color = vec4(color, .05);\\n}\"}",
+  "screenshotURL": "data/images/images-bxhtcgyra7ayb6eg5-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "23"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "ETtoHEfLnDnpZzGYj"
+}

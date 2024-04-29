@@ -1,0 +1,47 @@
+{
+  "_id": "2XgSDRuhBYPBvZ9QX",
+  "owner": {
+    "_id": "oDiFfpugmQGT9byPG",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1554180444177"
+      }
+    },
+    "profile": {
+      "first_name": "지수",
+      "last_name": "김",
+      "avatarUrl": "https://lh3.googleusercontent.com/-tFabpELU8Ek/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rckoLg-TbHvNc6bC2X3qGKF3IrwXQ/mo/photo.jpg"
+    },
+    "username": "지수"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1554193654607"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1554193890199"
+    }
+  },
+  "origId": "jjpd8XtJ5nJAcmyLh",
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6223936688994132"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "지수",
+  "avatarUrl": "https://lh3.googleusercontent.com/-tFabpELU8Ek/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rckoLg-TbHvNc6bC2X3qGKF3IrwXQ/mo/photo.jpg",
+  "settings": "{\"num\":100,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.25098039215686274,0,0.5019607843137255,1],\"shader\":\"void main()\\n{  \\n  float across = 10.0;\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n                            \\n  float u = x / (across-1.0);\\n  float v = y / (across-1.0);\\n  \\n  float ux = u *2.0 - 1.0;\\n  float vy = v *2.0 - 1.0;\\n  \\n  gl_Position = vec4(ux, vy, 0.0, 1.0);\\n  \\n  v_color = vec4(mouse.x, mouse.y, 0.0, 1.0);\\n  \\n  gl_PointSize = abs(cos(time)*100.0);\\n}\\n\\n\\n\"}",
+  "screenshotURL": "data/images/images-regy1suzhml3tveou-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "GggT2CAfQWgcwRZ4e"
+}

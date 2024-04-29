@@ -1,0 +1,44 @@
+{
+  "_id": "fKPK987qvE5gGHcWS",
+  "owner": {
+    "_id": "3DSy7eEi5KvLcXcRt",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1446790094253"
+      }
+    },
+    "profile": {
+      "first_name": "Jason",
+      "last_name": "Holt",
+      "avatarUrl": "https://lh6.googleusercontent.com/-vde-XOBlwgQ/AAAAAAAAAAI/AAAAAAABvaw/lwoPQQotTj8/photo.jpg"
+    },
+    "username": "jason2"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1446790101440"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1446790995662"
+    }
+  },
+  "origId": "W9WTPxA9AXtFxZRqq",
+  "name": "sines",
+  "private": false,
+  "username": "jason2",
+  "settings": "{\"num\":46119,\"mode\":\"TRI_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159\\n\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvoid main() {  \\n  float traces = 6.0;\\n  float trace = mod(vertexId, traces);\\n  float x = -1.0 + 2.0 * vertexId / vertexCount;\\n  \\n  float speed = 1.0 * time;\\n  float amp = x * 0.7 * (sin(time) + (1.0 + trace) / traces);\\n  float y = amp * sin(speed + PI * x);\\n  \\n  gl_Position = vec4(x, y, 0, 1);\\n  float c = trace / traces;\\n  v_color = vec4(hsv2rgb(vec3(x, 0.5, 1)), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-oq24k4gtm5vocgxag-thumbnail.jpg",
+  "views": {
+    "$numberInt": "312"
+  },
+  "likes": {
+    "$numberInt": "3"
+  },
+  "revisionId": "hpJJH3kFqiibQTm8w",
+  "rank": {
+    "$numberDouble": "10.075321255733321"
+  },
+  "avatarUrl": "https://lh6.googleusercontent.com/-vde-XOBlwgQ/AAAAAAAAAAI/AAAAAAABvaw/lwoPQQotTj8/photo.jpg"
+}

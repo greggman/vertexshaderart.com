@@ -1,0 +1,46 @@
+{
+  "_id": "oiHNm3fKqWoxXW5yJ",
+  "owner": {
+    "_id": "oCanjNxeHcQ7gDPmW",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1505499213122"
+      }
+    },
+    "profile": {
+      "name": "Zug Zwang",
+      "avatarUrl": "https://lh3.googleusercontent.com/-ic9UqwOeGYY/AAAAAAAAAAI/AAAAAAAAABU/vJK2D-kzm0k/photo.jpg"
+    },
+    "username": "zug"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1571703598799"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1571703598799"
+    }
+  },
+  "origId": "Tv6txjYWJaTTTbyRp",
+  "name": "French Lorenz Attractor work",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.6154942476715022"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "zug",
+  "avatarUrl": "https://lh3.googleusercontent.com/-ic9UqwOeGYY/AAAAAAAAAAI/AAAAAAAAABU/vJK2D-kzm0k/photo.jpg",
+  "settings": "{\"num\":9373,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/a-boogie-wit-da-hoodie/drowning-feat-kodak-black-1\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n// Created by Stephane Cuillerdier - Aiekick/2018 (twitter:@aiekick)\\n// License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.\\n// Tuned via XShade (http://www.funparadigm.com/xshade/)\\n\\n////////////////////////////////////////////////////////////\\n#define PI radians(180.)\\nmat4 persp(float fov, float aspect, float zNear, float zFar);\\nmat4 lookAt(vec3 eye, vec3 target, vec3 up);\\nmat4 inverse(mat4 m);\\nmat4 cameraLookAt(vec3 eye, vec3 target, vec3 up);\\n////////////////////////////////////////////////////////////\\n\\nmat3 RotX(float a){return mat3(1.,0.,0.,0.,cos(a),-sin(a),0.,sin(a),cos(a));}\\nmat3 RotY(float a){return mat3(cos(a),0.,sin(a),0.,1.,0.,-sin(a),0.,cos(a));}\\nmat3 RotZ(float a){return mat3(cos(a),-sin(a),0.,sin(a),cos(a),0.,0.,0.,1.);}\\nmat4 Trans(float x, float y, float z){return mat4(1,0,0,0,0,1,0,0,0,0,1,0,x,y,z,1);}\\n\\n// https://en.wikipedia.org/wiki/Lorenz_system\\n\\n// exponential smooth min (k = 32);\\n// http://www.iquilezles.org/www/articles/smin/smin.htm\\nvec3 sminExp( vec3 a, vec3 b, vec3 k )\\n{\\n    vec3 res = exp( -k*a ) + exp( -k*b );\\n    return -log( res )/k;\\n}\\n\\nvoid main()\\n{\\n\\tfloat sigma = 10.;\\n\\tfloat rho = 28.;\\n\\tfloat beta = 2.66;\\n\\tfloat speed = 0.00570;\\n  \\tfloat transitionStrength = 1.5;\\n  \\tvec3 colKernel0 = vec3(1,0,1);\\n  \\tvec3 colKernel1 = vec3(0,0 ,0);\\n  \\tvec3 colTransition = vec3(1,1,1);\\n\\tconst float maxIterations = 30000.;\\n  \\n\\tvec3 new = vec3(0);\\n\\tvec3 last = vec3(0);\\n\\t\\n\\tgl_Position = vec4(0);\\n\\tv_color = vec4(0,1,0,0);\\n\\t\\n\\tfloat vtId = vertexId;\\n\\t\\n\\tfor (float i=0.; i < maxIterations; i++)\\n\\t{\\n      \\tif (i > vtId) break;\\n\\t\\tlast = new;\\n\\t\\tnew.x = sigma * (last.y - last.x);\\n\\t\\tnew.y = rho * last.x - last.y - last.x * last.z ;\\n\\t\\tnew.z = last.x * last.y - beta * last.z;\\n\\t\\tnew = new * speed + speed;\\n\\t\\tnew += last;\\n\\t}\\n\\t\\n  \\t// eachs two points, same points, for avoid path interruptions in LINES mode\\n\\tif (mod(vertexId, 2.) < 1.);\\n\\t{\\n\\t\\tnew = last;\\n\\t\\tvtId++;\\n\\t}\\n\\t\\n\\t// kernel 0\\n\\tvec3 k0 = vec3(0);\\n\\tk0.x = -sqrt(beta * (rho - 1.));\\n\\tk0.y = -sqrt(beta * (rho - 1.));\\n\\tk0.z = rho - 1.;\\n\\tfloat dk0 = length(new-k0);\\n\\t\\t\\t\\n\\t// kernel 1\\n\\tvec3 k1 = vec3(0);\\n\\tk1.x = sqrt(beta * (rho - mouse.x));\\n\\tk1.y = sqrt(beta * (rho - 1.));\\n\\tk1.z = rho - 1.;\\n\\tfloat dk1 = length(new-k1);\\n\\t\\n\\tfloat dk = sminExp(vec3(dk0), vec3(dk1), vec3(0.01)).x;\\n\\t\\n\\tvec3 center = (k0 + k1) * 0.5;\\n\\tfloat diam = length(k0-center);\\n\\t\\n\\tfloat rk0 = dk0/(dk1*transitionStrength);;\\n\\tfloat rk1 = dk1/(dk0*transitionStrength);\\n\\t\\n  \\tfloat sk0 = -30. * texture2D(sound, vec2(0.0, (1.-rk0)*0.2)).x*1.5;\\n\\tfloat sk1 = 30. * texture2D(sound, vec2(0.1, (1.-rk1)*0.2)).y*1.5;\\n\\t\\n\\t\\n\\tvec3 pathk0 = vec3(sk0 * rk0, 0., 0.);;\\n\\tvec3 pathk1 = vec3(sk1 * rk1, 0., 0.);\\n\\tvec3 path = sminExp(pathk0, pathk1, vec3(0.012));\\n\\n\\tnew = new.xzy;\\n\\n\\tif (dk0 < dk1)\\n\\t{\\n\\t\\tv_color.rgb = mix(colKernel0,colTransition, vec3(rk0));\\n\\t}\\n\\telse\\n\\t{\\n\\t\\tv_color.rgb = mix(colKernel1,colTransition, vec3(rk1));\\n\\t}\\n\\t\\n\\t///////////////////////////////////////////////////////////////////////////////////////\\n\\tfloat ca = 0.5 - mouse.x * 0.5;\\n\\tfloat ce = -1.5+mouse.y * 3.;\\n\\tfloat cd = 80.0;\\n\\tvec3 eye = vec3(cos(ca), sin(ce), sin(ca)) * cd; \\n\\tvec3 target = vec3(0, 0, 0);\\n\\tvec3 up = vec3(0, 1, 0);\\n  \\n\\tmat4 camera = persp(45. * PI / 180., resolution.x / resolution.y, 0.1, 10000.); \\n\\tcamera *= cameraLookAt(eye, target, up);\\n\\tcamera *= Trans(76.,47.,66.);\\n\\tgl_Position = camera * vec4(new + path,1);\\n}\\n\\n////////////////////////////////////////////////////////////\\n\\nmat4 persp(float fov, float aspect, float zNear, float zFar) {\\n\\tfloat f = tan(PI * 0.5 - 0.5 * fov);\\n\\tfloat rangeInv = 1.0 / (zNear - zFar);\\n\\n\\treturn mat4(\\n\\t\\tf / aspect, 0, 0, 0,\\n\\t\\t0, f, 0, 0,\\n\\t\\t0, 0, (zNear + zFar) * rangeInv,\\n-1.,\\t\\t0, 0, zNear * zFar * rangeInv * 2., 0);\\n}\\n\\n\\nmat4 lookAt(vec3 eye, vec3 target, vec3 up) {\\n\\tvec3 zAxis = normalize(eye - target);\\n\\tvec3 xAxis = normalize(cross(up, zAxis));\\n\\tvec3 yAxis = cross(zAxis, xAxis);\\n\\n\\treturn mat4(\\n\\t\\txAxis, 0,\\n\\t\\tyAxis, 0,\\n\\t\\tzAxis, 0,\\n\\t\\teye, 1);\\n}\\n\\nmat4 inverse(mat4 m) {\\n\\tfloat\\n\\t\\ta00 = m[0][0], a01 = m[0][1], a02 = m[0][2], a03 = m[0][3],\\n\\t\\ta10 = m[1][0], a11 = m[1][1], a12 = m[1][2], a13 = m[1][3],\\n\\t\\ta20 = m[2][0], a21 = m[2][1], a22 = m[2][2], a23 = m[2][3],\\n\\t\\ta30 = m[3][0], a31 = m[3][1], a32 = m[3][2], a33 = m[3][3],\\n\\n\\t\\tb00 = a00 * a11 - a01 * a10,\\n\\t\\tb01 = a00 * a12 - a02 * a10,\\n\\t\\tb02 = a00 * a13 - a03 * a10,\\n\\t\\tb03 = a01 * a12 - a02 * a11,\\n\\t\\tb04 = a01 * a13 - a03 * a11,\\n\\t\\tb05 = a02 * a13 - a03 * a12,\\n\\t\\tb06 = a20 * a31 - a21 * a30,\\n\\t\\tb07 = a20 * a32 - a22 * a30,\\n\\t\\tb08 = a20 * a33 - a23 * a30,\\n\\t\\tb09 = a21 * a32 - a22 * a31,\\n\\t\\tb10 = a21 * a33 - a23 * a31,\\n\\t\\tb11 = a22 * a33 - a23 * a32,\\n\\n\\t\\tdet = b00 * b11 - b01 * b10 + b02 * b09 + b03 * b08 - b04 * b07 + b05 * b06;\\n\\n\\treturn mat4(\\n\\t\\ta11 * b11 - a12 * b10 + a13 * b09,\\n\\t\\ta02 * b10 - a01 * b11 - a03 * b09,\\n\\t\\ta31 * b05 - a32 * b04 + a33 * b03,\\n\\t\\ta22 * b04 - a21 * b05 - a23 * b03,\\n\\t\\ta12 * b08 - a10 * b11 - a13 * b07,\\n\\t\\ta00 * b11 - a02 * b08 + a03 * b07,\\n\\t\\ta32 * b02 - a30 * b05 - a33 * b01,\\n\\t\\ta20 * b05 - a22 * b02 + a23 * b01,\\n\\t\\ta10 * b10 - a11 * b08 + a13 * b06,\\n\\t\\ta01 * b08 - a00 * b10 - a03 * b06,\\n\\t\\ta30 * b04 - a31 * b02 + a33 * b00,\\n\\t\\ta21 * b02 - a20 * b04 - a23 * b00,\\n\\t\\ta11 * b07 - a10 * b09 - a12 * b06,\\n\\t\\ta00 * b09 - a01 * b07 + a02 * b06,\\n\\t\\ta31 * b01 - a30 * b03 - a32 * b00,\\n\\t\\ta20 * b03 - a21 * b01 + a22 * b03) *-dot(det*-det,2.-mouse.y);\\n}\\n\\nmat4 cameraLookAt(vec3 eye, vec3 target, vec3 up) {\\n#if 1\\n\\treturn inverse(lookAt(eye, target, up));\\n#else\\n\\tvec3 zAxis = normalize(target - eye);\\n\\tvec3 xAxis = normalize(cross(up, zAxis));\\n\\tvec3 yAxis = cross(zAxis, xAxis);\\n\\n\\treturn mat4(\\n\\t\\txAxis, 0,\\n\\t\\tyAxis, 0,\\n\\t\\tzAxis, 0,\\n\\t\\t-dot(xAxis, eye), -dot(yAxis, eye), -dot(zAxis, eye), 0.945);  \\n#endif\\n  \\n\\t}\"}",
+  "screenshotURL": "data/images/images-cek3e40f8h9cxkznt-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "178"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "kJuwWZ7XGTSiXnsiY"
+}

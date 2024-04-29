@@ -1,0 +1,44 @@
+{
+  "_id": "yz73Hm3Fq5SyrZppP",
+  "owner": {
+    "_id": "F5if23dnvCEmcMssC",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1446316652572"
+      }
+    },
+    "profile": {
+      "first_name": "Mark",
+      "last_name": "Pattle",
+      "avatarUrl": "https://lh3.googleusercontent.com/-Lca4UGau1OU/AAAAAAAAAAI/AAAAAAAAAI4/dSttspxaINs/photo.jpg"
+    },
+    "username": "mark"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1446324667514"
+    }
+  },
+  "origId": null,
+  "name": "rings 2",
+  "username": "mark",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/user9196240/bt-flaming-june-reuben-halsey-chillout-mix\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI 3.14159\\n\\nfloat hash( float n ) { return fract(sin(n)*753.5453123); }\\n               \\nvoid main () {\\n  float x, y, z;\\n  \\n  float i = hash(vertexId);\\n    \\n  if (mod(vertexId, 2.) > 0.) {\\n    // RIPPLES\\n    float snd = texture2D(sound, vec2(.7, i)).a;\\n    \\n    float rad = .6 * i;\\n    rad += (snd / rad) * .01;\\n    float move = (time * .2) + .2 * snd;\\n    \\n    float ang = vertexId / (PI * 2.) + move;\\n    ang *= sin(PI * .5 - rad * PI);\\n    \\n    x = rad * cos(ang);\\n    y = rad * sin(ang) * .7;\\n    \\n    v_color = vec4(sin(i * PI), cos(i * PI), i, 1.);\\n    gl_Position = vec4(x, y, z, 1.);\\n  } else {\\n    // RING\\n    \\n    z = .1;\\n    float snd = texture2D(sound, vec2(hash(i), 0.)).a;\\n    float rad = .6 + .2 * snd;\\n    \\n    x = rad * sin(.7 * time + i * PI * 2.);\\n    y = rad * cos(time + i * PI * 2.);\\n    \\n    v_color = vec4(sin(2. * i * PI), cos(2. * i * PI), .5, 1.);\\n    gl_Position = vec4(x, y, z, 1.);\\n  }\\n}\"}",
+  "screenshotURL": "data/images/images-2uja5t1v2hdxj03qf-thumbnail.jpg",
+  "views": {
+    "$numberInt": "178"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "gagKPAykWX7JYFbpR",
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1446338970128"
+    }
+  },
+  "hasSound": true,
+  "rank": {
+    "$numberDouble": "1.210754293449279"
+  },
+  "avatarUrl": "https://lh3.googleusercontent.com/-Lca4UGau1OU/AAAAAAAAAAI/AAAAAAAAAI4/dSttspxaINs/photo.jpg"
+}

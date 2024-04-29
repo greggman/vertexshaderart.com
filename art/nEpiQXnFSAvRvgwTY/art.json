@@ -1,0 +1,47 @@
+{
+  "_id": "nEpiQXnFSAvRvgwTY",
+  "owner": {
+    "_id": "Bs4vwFBoeN6Lx3is5",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1528672219472"
+      }
+    },
+    "profile": {
+      "name": "Justin Shrake",
+      "avatarUrl": "https://avatars.githubusercontent.com/jshrake?s=200",
+      "info": "Contact me @ https://twitter.com/j2rgb"
+    },
+    "username": "jshrake"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1636465752571"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1636907846679"
+    }
+  },
+  "origId": null,
+  "name": "hexagon tile strings",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "10.123759239443016"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "jshrake",
+  "avatarUrl": "https://avatars.githubusercontent.com/jshrake?s=200",
+  "settings": "{\"num\":100000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Hexagon Tile Strings by Justin Shrake (https://twitter.com/j2rgb)\\n// CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/\\n\\n// Submission for https://twitter.com/sableRaph #WCCChallenge\\n// Topic: non-rectangular tiles\\n// https://www.twitch.tv/sableraph\\n\\n\\n#ifndef TAU\\n#define TAU 6.28318530718\\n#endif\\n#ifndef PI\\n#define PI 3.14159265359\\n#endif\\n\\n\\n// Raskolnikov (https://math.stackexchange.com/users/3567/raskolnikov), Is there\\n// an equation to describe regular polygons?, URL (version: 2016-06-18):\\n// https://math.stackexchange.com/q/41954 https://math.stackexchange.com/a/41954\\n// Licensed under CC BY-SA 3.0\\nfloat mmod(float x, float m) { return mod(mod(x, m) + m, m); }\\nvec2 parametric_ngon(float n, float theta) {\\n  theta = mod(TAU * theta, TAU);\\n  float r = cos(PI / n) / cos(mmod(theta, 2.0 * PI / n) - PI / n);\\n  float x = r * cos(theta);\\n  float y = r * sin(theta);\\n  return vec2(x, y);\\n}\\n\\nvec4 grid2(float id, float w, float h) {\\n  float ux = w == 1.0 ? 0.0 : mod(id, w);\\n  float uy = h == 1.0 ? 0.0 : mod(floor(id / w), h);\\n  float x = w == 1.0 ? 0.0 : 2.0 * ux / (w - 1.0) - 1.0;\\n  float y = h == 1.0 ? 0.0 : 2.0 * uy / (h - 1.0) - 1.0;\\n  return vec4(x, y, ux, uy);\\n}\\n\\nmat2 rot2(float t) {\\n  float ct = cos(t);\\n  float st = sin(t);\\n  return mat2(ct, -st, st, ct);\\n}\\n\\n\\nvoid main() {\\n  // Loop timings\\n  float loop_len = 4.0;\\n  float time_off = 0.0;\\n  float loop_pct = mod(time + time_off, loop_len) / (loop_len - 1.0);\\n  // The size of the hexagon tile grid\\n  float gridw = 20.;\\n  float gridh = 20.;\\n  // The number of particles per hexagon\\n  float particles_per_tile = 250.0;\\n  // The particle index\\n  float i = vertexId;\\n  // The particle perctange\\n  float pct = i / (vertexCount - 1.0);\\n\\n  // The hexagon index\\n  float tile_i = floor(i / particles_per_tile);\\n  // The total number of hexagons\\n  float tile_count = gridw * gridh;\\n\\n  // The particle index wrt the hexagon\\n  float tile_pi = mod(i, particles_per_tile);\\n  // The particle percentage wrt the hexagon\\n  float tile_ppct = tile_pi / particles_per_tile;\\n\\n  \\n  float row = floor(tile_i/gridw);\\n  float col = mod(tile_i, gridw);\\n  float eo = mod(row, 2.0);\\n  \\n  float ar = resolution.y < resolution.x ? resolution.x/resolution.y : resolution.y/resolution.x;\\n\\n\\n  // Hexagon tile size\\n  float size = 1.0/(gridw - 1.0);\\n  // padding between hexagons, 1.0 for no padding\\n  float padding = 1.2;\\n  // hexagon math courtesy of https://www.redblobgames.com/grids/hexagons/\\n  vec2 grid_scale = padding*vec2(1.0*sqrt(3.0)*size, 1.5*ar*size);\\n  vec2 tile_scale = vec2(size, size*ar);\\n  // The center of the hexagon\\n  vec2 tile_center = grid_scale*(grid2(tile_i, gridw, gridh).zw - 0.5*vec2(gridw, gridh));\\n\\n  // Calculate the position of each particle in the tile\\n  float ngon = 6.0;\\n  float swirl = 0.5;\\n  // The animation interpolates a point in the hexagon to another point in the hexagon\\n  vec2 tile_a = parametric_ngon(ngon, tile_ppct);\\n  vec2 tile_b = parametric_ngon(ngon, tile_ppct + swirl);\\n  // Animation delay outwards w/ some magic numbers for taste\\n  float anim_delay = mix(0.0, 0.6, length(tile_center + 0.0001)/(0.93*sqrt(2.0))) + mix(0.0, 0.2, tile_ppct);\\n  float anim_len = 0.2;\\n  float m = smoothstep(0.0 + anim_delay, 0.0 + anim_delay + anim_len, loop_pct);\\n  vec2 tile = mix(tile_a, tile_b, m);\\n  tile = rot2(0.25*TAU)*tile;\\n  tile *= tile_scale;\\n  tile.x += 1.0 * eo * tile_scale.x;\\n  tile.y += 1.0*size;\\n  \\n  // Outputs\\n  gl_Position.xy = tile_center + tile;\\n  gl_Position.zw = vec2(0.0, 1.0);\\n  gl_PointSize = 3.0;\\n  v_color = vec4(1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-zbuhh9hpbmomg0wok-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "573"
+  },
+  "likes": {
+    "$numberInt": "6"
+  },
+  "revisionId": "ZhzTBLg4BASHRwLzo"
+}

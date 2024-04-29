@@ -1,0 +1,46 @@
+{
+  "_id": "TFXxrMbQQXNqtcTE8",
+  "owner": {
+    "_id": "cZNAKnfHAY6mZAn2h",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1598366337757"
+      }
+    },
+    "username": "morimea",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/8ff4b4cacdf52d8d31a020cd244c5269?default=retro&size=200",
+      "info": "https://www.shadertoy.com/user/morimea"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1616855567439"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1616863966356"
+    }
+  },
+  "origId": null,
+  "name": "test pos",
+  "notes": "test",
+  "rank": {
+    "$numberDouble": "1.17956789915485"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "morimea",
+  "avatarUrl": "https://secure.gravatar.com/avatar/8ff4b4cacdf52d8d31a020cd244c5269?default=retro&size=200",
+  "settings": "{\"num\":100,\"mode\":\"TRIANGLES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"  \\n// test shader\\n\\n#define xpoints\\n\\n#define NUM 30.0\\n  void main() {\\n    \\n    // points\\n    \\n    #ifdef points\\n    gl_PointSize = 64.0;\\n    float col = mod(vertexId, NUM + 1.0);\\n    float row = mod(floor(vertexId / NUM), NUM + 1.0); \\n    float x = col / NUM * 2.0 - 1.0;\\n    float y = row / NUM * 2.0 - 1.0;\\n    gl_Position = vec4(x, y, 0, 1);\\n    v_color = vec4(fract( (col) / NUM)*100., ( mod(col , 2.)), 0, 1);\\n    if(vertexId==50.)v_color.rgb=vec3(1.,0.,1.);\\n    if(vertexId==10.)v_color.rgb=vec3(0.,1.,1.);\\n    if(vertexId==vertexCount-1.)v_color.rgb=vec3(.25,.25,1.);\\n    #else\\n    \\n    //trianlges\\n    gl_PointSize = 14.0;\\n    float vertexId_triangle=floor(vertexId/3.);\\n    float tri_vtx=mod(vertexId,3.);\\n    float col = mod(vertexId_triangle, NUM + 1.0);\\n    float row = mod(floor(vertexId_triangle / NUM), NUM + 1.0); \\n    float x = col / NUM * 2.0 - 1.0;\\n    float y = row / NUM * 2.0 - 1.0;\\n    float a=0.;\\n    if(tri_vtx==1.)a=1.;\\n    if(tri_vtx==2.)a=0.;\\n    x+=(a)*.1;\\n    y+=(1.-tri_vtx)*.1;\\n    gl_Position = vec4(x, y, 0, 1);\\n    v_color = vec4(fract( (col) / NUM)*100., ( mod(col , 2.)), 0, 1);\\n    if(vertexId_triangle==0.)v_color.rgb=vec3(1.,1.,1.);\\n    if(vertexId_triangle==20.)v_color.rgb=vec3(1.,0.,1.);\\n    if(vertexId_triangle==10.)v_color.rgb=vec3(0.,1.,1.);\\n    if(vertexId_triangle==floor(vertexCount/3.)-1.)v_color.rgb=vec3(.25,.25,1.);\\n    #endif\\n    \\n  }\"}",
+  "screenshotURL": "data/images/images-chkqwx7w9mwtg4lbd-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "41"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "cXEeMRshmc4DnbJSL"
+}

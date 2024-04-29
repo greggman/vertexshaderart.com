@@ -1,0 +1,47 @@
+{
+  "_id": "DaM7frg7uQNDe7mK2",
+  "owner": {
+    "_id": "9mSJ94a3jLQYEtpma",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1574356902539"
+      }
+    },
+    "profile": {
+      "first_name": "Nathan",
+      "last_name": "Gutierrez",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD1UTwiIjcHi479UROSg1X6rOGjkm4OniwszUsteg"
+    },
+    "username": "nathan2"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1574462952423"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1574463362533"
+    }
+  },
+  "origId": null,
+  "name": "Music Stars",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.355418056688473"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "nathan2",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AAuE7mD1UTwiIjcHi479UROSg1X6rOGjkm4OniwszUsteg",
+  "settings": "{\"num\":39751,\"mode\":\"TRIANGLES\",\"sound\":\"https://soundcloud.com/psyches-shroud/currents-demo\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.047058823529411764,0.08235294117647059,0.09019607843137255,1],\"shader\":\"#define PI radians(180.0)\\n\\n/** Returns a random value between [0, 1) */\\nfloat rand(float val) {\\n\\treturn fract(sin(val)*10000.0);\\n}\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nvec2 getSquarePoint(float id) {  \\n  float x = mod(id, 2.0) + floor(id / 6.0);\\n  float y = mod(floor(id / 2.0) + floor(id / 3.0), 2.0);\\n  \\n  return vec2(x, y);\\n}\\n\\nvec2 getCirclePoint(float id, float numSegments) {  \\n  // Each square is made of 2 triangles, 6 points\\n  vec2 uv = getSquarePoint(id);\\n\\n  // Calculate angle and radial values\\n  float angle = uv.x / numSegments * 2.0 * PI;\\n  float c = cos(angle);\\n  float s = sin(angle);\\n  \\n  // Translate back to x y\\n  float radius = uv.y;\\n  float x = c * radius;\\n  float y = s * radius;\\n  \\n  return vec2(x, y);\\n}\\n\\nvoid main() {\\n  // Segments to form a circle\\n  float numSegments = 8.0;\\n  \\n  // How many points in a  circle\\n  float numPointsPerCircle = numSegments * 6.0;\\n  \\n  // How many circles\\n  float numCircles = floor(vertexCount / numPointsPerCircle) - 1.0;\\n  \\n  // Which circle\\n  float circleId = floor(vertexId / numPointsPerCircle);\\n  \\n  float sizeScaler = rand(rand(circleId));\\n  \\n  // Sound intensity \\n  float snd = texture2D(sound, vec2(mix(0.0, 0.5, sizeScaler), 0.0)).a;\\n  \\n  // Size of circle\\n  float size = mix(0.001, 0.01, snd); // mix(0.001, 0.005, sizeScaler);\\n  \\n  float aspect = resolution.x / resolution.y;\\n    \\n  // Now get our vertex point in its circle\\n  vec2 xy = getCirclePoint(vertexId, numSegments) * size;\\n  xy = vec2(xy.x / aspect, xy.y);\\n  \\n  // We'll use slowed down time\\n  float scaledTime = time * 0.1;\\n  \\n  float xMotion = sin(scaledTime + PI*rand(rand(circleId*32.0)*rand(circleId)))*0.1;\\n  float yMotion = cos(scaledTime + PI*rand(rand(circleId*52.02)*rand(circleId - 53.0)))*0.1;\\n  float xOff = rand(circleId) * 2.0 - 1.0 + xMotion;\\n  float yOff = rand(circleId + 4.0) * 2.0 - 1.0 + yMotion;\\n      \\n  gl_Position = vec4(xy.x + xOff, xy.y + yOff, 0.0, 1);\\n  \\n  // Circle color\\n  float hue = 0.6;\\n  float sat = 0.2;\\n  float val = mix(0.5, 1.0, snd);\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 0.0);\\n  \\n}\"}",
+  "screenshotURL": "data/images/images-mk2wlucfv1tpygtzm-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "6"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "3NeKubyEpLyEMTwcn"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "XdrvWYBfFbiFtfmNL",
+  "owner": {
+    "_id": "exrQAEG45B5Exhhan",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1684329330454"
+      }
+    },
+    "profile": {
+      "name": "Minsu Kim",
+      "avatarUrl": "https://avatars.githubusercontent.com/minsu-kim-digipen?s=200"
+    },
+    "username": "minsu-kim-digipen"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684411009643"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1684411248914"
+    }
+  },
+  "origId": null,
+  "name": "Motion",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8992106672381486"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "minsu-kim-digipen",
+  "avatarUrl": "https://avatars.githubusercontent.com/minsu-kim-digipen?s=200",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// Name : Minsu Kim\\n// Assignment : Exercise - Vertexshaderart : Motion\\n// Course : CS250\\n// Spring 2023\\n\\nvoid main()\\n{\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);\\n  \\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  \\n  \\n  float u = x / (across - 1.);\\n  float v = y / (across - 1.);\\n \\n  float xoff = sin(time + y * 0.2) * 0.1;\\n  float yoff = sin(time + x * 0.3) * 0.2;\\n   \\n  \\n  \\n  float ux = u * 2. - 1. + xoff;\\n  float vy = v * 2. - 1. + yoff;\\n  \\n  \\n  vec2 xy = vec2(ux, vy) * 1.3;\\n  \\n  \\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  float soff = sin(time + x * y * 0.02) * 5.;\\n  \\n  gl_PointSize = 15.0 + soff;\\n  gl_PointSize *= 20. / across;\\n  \\n  gl_PointSize *= resolution.x / 600.;\\n  \\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-4n1at5gk9bbp8u6kg-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "6"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "Ekmyxa8cuLhYp5oga"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "s8eghqEX2KWmXy2BZ",
+  "owner": {
+    "_id": "CwvvvtJL5Ykqzxv4N",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1557600049871"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/jorenvo?s=200"
+    },
+    "username": "jorenvo"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1557727696658"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1557727696658"
+    }
+  },
+  "origId": "TGAHpg3tJBt7nTsRy",
+  "name": "Stewie",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.9839647807185838"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "jorenvo",
+  "avatarUrl": "https://avatars.githubusercontent.com/jorenvo?s=200",
+  "settings": "{\"num\":2585,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/rattpack-radio/logic-stewie-griffin\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// from https://www.laurivan.com/rgb-to-hsv-to-rgb-for-shaders/\\nvec3 hsv2rgb(vec3 c)\\n{\\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nfloat norm_sin(float x) {\\n \\treturn (sin(x) + 1.) / 2.;\\n}\\n\\nvoid main() {\\n  float size = floor(sqrt(vertexCount));\\n  vec2 c = vec2(mod(vertexId, size),\\n                floor(vertexId / size));\\n  \\n  float xoff = sin(time + c.y * 0.3) * .1;\\n  float yoff = sin(time + c.x * 0.2) * .1;\\n  \\n  const int amt_samples = 8;\\n  float avg_volume = 0.;\\n  for(int i = 0; i < amt_samples; i++) { \\n  \\tavg_volume += texture2D(volume, vec2(i, 0)).a; \\n  }\\n  avg_volume /= float(amt_samples);\\n  \\n  float m = 100.;\\n  float soff = pow(avg_volume * m, 4.) / pow(m, 4.) * 42.;//avg_volume * 42.;\\n\\n  vec3 color = vec3(norm_sin(time + c.x / .1 + c.y / .1), 1, 1);\\n  \\n  // divide by the maximum to normalize to [0, 1]\\n  float normalizer_x = size - 1.0;\\n  float normalizer_y = floor((vertexCount - 1.0) / size);\\n  c /= vec2(normalizer_x, normalizer_y);\\n \\n  // go from [0,1] -> [0,2]\\n  c *= 2.0;\\n  \\n  // go from [0,2] -> [-1, 1]\\n  c -= 1.0;\\n  \\n  c += vec2(xoff, yoff);\\n  \\n  c *= 1.2;\\n  \\n  gl_Position = vec4(c, 0, 1);\\n  \\n  float point_size_scale = 16.0 / size;\\n  gl_PointSize = 2. + soff;\\n  gl_PointSize *= point_size_scale;\\n  v_color = vec4(hsv2rgb(color), 1);\\n}\"}",
+  "screenshotURL": "data/images/images-am5gl9h4hy5y9t81t-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "7"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "53qejBeeYRNmYHbq4"
+}

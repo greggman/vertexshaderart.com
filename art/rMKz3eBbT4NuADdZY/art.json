@@ -1,0 +1,47 @@
+{
+  "_id": "rMKz3eBbT4NuADdZY",
+  "owner": {
+    "_id": "zb8mvzZdopDTzghEH",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1529745843000"
+      }
+    },
+    "profile": {
+      "first_name": "Shtrompel",
+      "last_name": "Boombbomchaka",
+      "avatarUrl": "https://lh4.googleusercontent.com/-zzOobLO0ab8/AAAAAAAAAAI/AAAAAAAAANE/T3yiwRxnSlA/photo.jpg"
+    },
+    "username": "shtrompel"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1530284139225"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1530284139225"
+    }
+  },
+  "origId": null,
+  "name": "PseudoRandomParticles",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.1946535718379936"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "shtrompel",
+  "avatarUrl": "https://lh4.googleusercontent.com/-zzOobLO0ab8/AAAAAAAAAAI/AAAAAAAAANE/T3yiwRxnSlA/photo.jpg",
+  "settings": "{\"num\":4000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n\\n\\n// Pseudo-random number generator\\n// Taken from \\\"The Book Of Shader\\\"\\n// https://thebookofshaders.com/10/\\nfloat random(vec2 st) {\\n  return fract(sin(dot(st.xy,vec2(120.9898,708.233) * 43758.5453123)));\\n}\\n\\nvoid main() {\\n  //Generate random x and y position\\n  float x_Pos = random(vec2(vertexId / vertexCount, 0));\\n  x_Pos = 4.0 * (x_Pos - 0.5);\\n  float y_Pos = random(vec2(vertexId / vertexCount, 1));\\n  y_Pos = 4.0 * (y_Pos - 0.5);\\n  \\n  //Create circular movement with the sin and cos functions theme\\n  x_Pos += sin(time / 4. + vertexId / vertexCount);\\n  y_Pos += cos(time * 1.25 + vertexId / vertexCount);\\n  \\n  \\n  vec2 position = vec2(x_Pos, y_Pos);\\n  \\n  //Some mouse interactivity\\n  position += position * distance(mouse, position) * 2.0 * step(distance(mouse, position), 0.6);\\n  \\n  //Apply position\\n  gl_Position = vec4(position, 0, 1);\\n  \\n  gl_PointSize = 10.0;\\n  \\n  \\n  //Generate random color\\n  float r = random(vec2(vertexId / vertexCount, 2)) / 4.;\\n  float g = random(vec2(vertexId / vertexCount, 3)) / 4.;\\n  float b = random(vec2(vertexId / vertexCount, 4)) / 4.;\\n  \\n  //Create smooth color transitioning with the sin function\\n  r += sin(time / 1.4 + 1.12) / 4.0 * 3.0;\\n  g += sin(time / 0.9 + 0.25) / 4.0 * 3.0;\\n  b += sin(time / 1.2 + 1.62) / 4.0 * 3.0;\\n  \\n  //Apply color\\n  v_color = vec4(r, g, b, 0.25);\\n}\"}",
+  "screenshotURL": "data/images/images-jzyzpjjyy5qz9j5im-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "150"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "NMju3XfzoSroZq4jC"
+}

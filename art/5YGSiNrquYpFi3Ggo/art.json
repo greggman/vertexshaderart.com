@@ -1,0 +1,47 @@
+{
+  "_id": "5YGSiNrquYpFi3Ggo",
+  "owner": {
+    "_id": "Fb4jaWH5nhdXuAG2E",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494693086089"
+      }
+    },
+    "profile": {
+      "name": "",
+      "avatarUrl": "https://i1.sndcdn.com/avatars-000201943208-mgxm4x-large.jpg",
+      "info": "Welcome!!!!"
+    },
+    "username": "lambmeow"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1496286112655"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1496453504106"
+    }
+  },
+  "origId": "LucsLY5k9d68aLNgv",
+  "name": "life is lil' better now thx",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0195068424892502"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "lambmeow",
+  "avatarUrl": "https://i1.sndcdn.com/avatars-000201943208-mgxm4x-large.jpg",
+  "settings": "{\"num\":94,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/albertryan/never-around\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define NUM_SEGMENTS 4.0\\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\\n#define STEP 5.0\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nfloat rand(float p){\\n  \\treturn fract(sin(p*10000./time));\\n}\\n\\nfloat noise(vec2 p)\\n{\\n  return rand((p.x + p.y) * 1000.00);\\n}\\n\\nvoid main() {\\n   float samp = texture2D(sound,vec2(0.34,0.)).r + texture2D(sound,vec2(0.0,0.)).r;\\n  samp /=2.;\\n  vec2 uv = vec2(sin(time+ vertexId + time),tan(time + vertexId ));\\n  uv *= samp + .5;\\n  gl_Position = vec4(uv,0,1);\\n  gl_PointSize = 100.;\\n \\n  \\n  v_color = vec4(1);\\n  v_color.a*= noise(uv *time); \\n  vec3 gdlw = vec3(texture2D(sound, vec2(0.05,0.)).r * sin(time + vertexId) ,texture2D(sound,vec2(50.*0.005,0.)).r *cos(time * vertexId) , (sin(vertexId - time)));\\n  v_color.rgb *= gdlw;\\n  }\"}",
+  "screenshotURL": "data/images/images-hfixdl9m7ivz07ekt-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "142"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "DtFXtY4DDRN2WY8TX"
+}

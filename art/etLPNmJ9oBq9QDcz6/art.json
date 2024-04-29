@@ -1,0 +1,47 @@
+{
+  "_id": "etLPNmJ9oBq9QDcz6",
+  "owner": {
+    "_id": "yQ7JGWzLLZgnCmzdc",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1544373266259"
+      }
+    },
+    "profile": {
+      "first_name": "codework10101",
+      "last_name": ".",
+      "avatarUrl": "https://lh6.googleusercontent.com/-PQyKHxpBwIo/AAAAAAAAAAI/AAAAAAAAARk/HWB3OGMyzZE/photo.jpg"
+    },
+    "username": "codework10101"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1544373611343"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1544375746669"
+    }
+  },
+  "origId": null,
+  "name": "testPoint",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.0711011409081883"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "codework10101",
+  "avatarUrl": "https://lh6.googleusercontent.com/-PQyKHxpBwIo/AAAAAAAAAAI/AAAAAAAAARk/HWB3OGMyzZE/photo.jpg",
+  "settings": "{\"num\":1000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/yeonkkot/sets/s08\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.25098039215686274,0.5019607843137255,0.5019607843137255,1],\"shader\":\"void main() \\n{\\n  \\n  float down   = floor( sqrt( vertexCount ) );\\n  float across = floor( vertexCount / down );\\n  \\n  float index  = vertexId;\\n  float x = mod(index, across);\\n  float y = floor(index/across);\\n  \\n  float u = x / (across - 1.0);\\n  float v = y / (across - 1.0);\\n  \\n  float ux = u * 2.0 - 1.0;\\n  float vy = v * 2.0 - 1.0;\\n  \\n  gl_Position  = vec4(ux, vy, 0.0, 1.0);\\n  \\n  gl_PointSize = 10.0;\\n  gl_PointSize *= 20.0 / across;\\n  \\n  gl_PointSize *= resolution.x / 600.0;\\n  \\n  \\n  v_color      = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-h6cvlmd77fk9nygf7-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "3"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "tycfAvRqJKCdomL7Y"
+}

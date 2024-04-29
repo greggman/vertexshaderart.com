@@ -1,0 +1,45 @@
+{
+  "_id": "6zJfYSooxERRtZtbe",
+  "owner": {
+    "_id": "6LYHhwj5wMwA9HvPG",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1535280458435"
+      }
+    },
+    "username": "aaron1924",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/401c5d5fc2a9202f44ee18595001dbac?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1535281188852"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1535281393869"
+    }
+  },
+  "origId": null,
+  "name": "Loopy",
+  "notes": "My first ever vertex shader :D",
+  "rank": {
+    "$numberDouble": "10.291758525656432"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "aaron1924",
+  "avatarUrl": "https://secure.gravatar.com/avatar/401c5d5fc2a9202f44ee18595001dbac?default=retro&size=200",
+  "settings": "{\"num\":1024,\"mode\":\"LINES\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define TAU 6.28318530718\\n\\nmat2 rot(float a)\\n{\\n  float s=sin(a), c=cos(a);\\n  return mat2(c,s,-s,c);\\n}\\n\\nvoid main() {\\n  float a = 4. * TAU * vertexId / vertexCount;\\n  \\n  float r = 3.25;\\n  vec2 off = vec2(0.5 * sin(r*a) + 1., cos(r*a));\\n  vec3 p = vec3(sin(a), 1, cos(a)) * off.xyx;\\n  \\n  p.xz *= rot(time);\\n  p.yz *= rot(0.8);\\n  \\n  gl_Position = vec4(p/(p.z+3.), 1);\\n  v_color = vec4(1./(p.z+2.));\\n}\"}",
+  "screenshotURL": "data/images/images-0cu058nnfe8khv773-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "360"
+  },
+  "likes": {
+    "$numberInt": "3"
+  },
+  "revisionId": "i9F6tbJTBpB4eravb"
+}

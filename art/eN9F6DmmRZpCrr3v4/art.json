@@ -1,0 +1,36 @@
+{
+  "_id": "eN9F6DmmRZpCrr3v4",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1596977602459"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1596977602459"
+    }
+  },
+  "origId": null,
+  "name": "my_demo",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.2687809852405776"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":834,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.01568627450980392,0.01568627450980392,0.047058823529411764,1],\"shader\":\"void main(){\\n  \\tfloat down = floor(sqrt(vertexCount));\\n  \\tfloat across = floor(vertexCount / down);\\n  \\n  \\tfloat x = mod(vertexId , across);\\n  \\tfloat y = floor(vertexId / across);\\n  \\n  \\tfloat u = x / (across - 1.);\\n  \\tfloat v = y / (across - 1.);\\n  \\n  \\n  \\tfloat ux = u * 2. - 1.;\\n  \\tfloat vy = v * 2. - 1.;\\n  \\n\\tgl_Position = vec4(1.0, 1.0, 0.0, 1.0);\\n  \\n  \\n  \\tgl_PointSize = 10.0;\\n  \\tgl_PointSize *= 20./across;\\n\\t  \\n  \\tv_color = vec4(1.0, 0.0, 0.0, 1.0);\\n}\"}",
+  "screenshotURL": "data/images/images-un9u5t0lu637ljqdb-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "70"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "95dM8PgiHJyQTuMAg"
+}

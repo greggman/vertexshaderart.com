@@ -1,0 +1,45 @@
+{
+  "_id": "gszWKmYHHf8HxkXiS",
+  "owner": {
+    "_id": "MqPTcXoEuGA34rGui",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1497270876730"
+      }
+    },
+    "username": "zugzwang404",
+    "profile": {
+      "avatarUrl": "https://secure.gravatar.com/avatar/fec4f7164a172e58419d6bff6d7368b3?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1503465723698"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1503465723698"
+    }
+  },
+  "origId": "JFtfBxTELcg25TGwJ",
+  "name": "crystal irisz (1)",
+  "notes": "2017-07-13: replaced music",
+  "rank": {
+    "$numberDouble": "1.72294375273958"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "zugzwang404",
+  "avatarUrl": "https://secure.gravatar.com/avatar/fec4f7164a172e58419d6bff6d7368b3?default=retro&size=200",
+  "settings": "{\"num\":100000,\"mode\":\"TRI_STRIP\",\"sound\":\"https://soundcloud.com/sevdaliza/that-other-girl-1\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/*\\n                                                                                                                     \\n. . .-. .-. .-. .-. .  . .-. . . .-. .-. .-. .-. .-. .-. .-. \\n| | |-  |(   |  |-   )(  `-. |-| |-| |  )|-  |(  |-| |(   |  \\n`.' `-' ' '  '  `-' '  ` `-' ' ` ` ' `-' `-' ' ' ` ' ' '  '  \\n                                                             \\n\\n\\n*/\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n#define PI radians(180.)\\n\\nvec3 hsv2rgb(vec3 c) {\\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\\n  vec3 p = abs(fract(c.xxx + K.xyz) * 8.0 - K.www);\\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\\n}\\n\\nmat4 rotY( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c, 0,-s, 0,\\n      0, 1, 0, 0,\\n      s, 0, c, 0,\\n      0, 0, 0, 1);  \\n}\\n\\n\\nmat4 rotZ( float angle ) {\\n    float s = sin( angle );\\n    float c = cos( angle );\\n  \\t\\n    return mat4( \\n      c,-s, 0, 0, \\n      s, c, 0, 0,\\n      0, 0, 1, 0,\\n      0, 0, 0, 1); \\n}\\n\\nmat4 trans(vec3 trans) {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    trans, 1);\\n}\\n\\nmat4 ident() {\\n  return mat4(\\n    1, 0, 0, 0,\\n    0, 1, 0, 0,\\n    0, 0, 1, 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 scale(vec3 s) {\\n  return mat4(\\n    s[0], 0, 0, 0,\\n    0, s[1], 0, 0,\\n    0, 0, s[2], 0,\\n    0, 0, 0, 1);\\n}\\n\\nmat4 uniformScale(float s) {\\n  return mat4(\\n    s, 0, 0, 0,\\n    0, s, 0, 0,\\n    0, 0, s, 0,\\n    0, 0, 0.1, 1);\\n}\\n\\n// hash function from https://www.shadertoy.com/view/4djSRW\\nfloat hash(float p) {\\n\\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\\n\\treturn fract(p2.x * p2.y * 95.4337);\\n}\\n\\nfloat m1p1(float v) {\\n  return v * 2. - 1.;\\n}\\n\\nfloat p1m1(float v) {\\n  return v * 0.5 + 0.5;\\n}\\n\\nfloat inv(float v) {\\n  return 1. - v;\\n}\\n\\n#define NUM_EDGE_POINTS_PER_CIRCLE 48.\\n#define NUM_SUBDIVISIONS_PER_CIRCLE 16.\\n#define NUM_POINTS_PER_DIVISION (NUM_EDGE_POINTS_PER_CIRCLE * 6.)\\n#define NUM_POINTS_PER_CIRCLE (NUM_SUBDIVISIONS_PER_CIRCLE * NUM_POINTS_PER_DIVISION) \\nvoid getCirclePoint(const float id, const float inner, const float start, const float end, out vec3 pos, out vec2 uv) {\\n  float edgeId = mod(id, NUM_POINTS_PER_DIVISION);\\n  float ux = floor(edgeId / 6.) + mod(edgeId, 2.);\\n  float vy = mod(floor(id / 2.) + floor(id / 3.), 2.); // change that 3. for cool fx\\n  float sub = floor(id / NUM_POINTS_PER_DIVISION);\\n  float subV = sub / (NUM_SUBDIVISIONS_PER_CIRCLE - 1.);\\n  float level = subV + vy / (NUM_SUBDIVISIONS_PER_CIRCLE - 1.);\\n  float u = ux / NUM_EDGE_POINTS_PER_CIRCLE;\\n  float v = mix(inner, 1., level);\\n  float a = mix(start, end, u) * PI * 2. + PI * 0.1;\\n  float s = sin(a);\\n  float c = cos(a);\\n  float x = c * v;\\n  float y = s * v;\\n  float z = 0.;\\n  pos = vec3(x, y, z);  \\n  uv  = vec2(u, level);\\n}\\n\\nfloat goop(float t) {\\n  return sin(t) + sin(t * 13.27) + tan(t * 1.13+mouse.x) + cos(t* 1.73);\\n}\\n\\nvoid main() {\\n  float circleId = floor(vertexId / NUM_POINTS_PER_CIRCLE);\\n  float pointId = mod(vertexId, NUM_POINTS_PER_CIRCLE);\\n//  float sideId = floor(circleId / 2.);\\n//  float side = mix(-1., 1., step(0.5, mod(circleId, 2.)));\\n  float numCircles = floor(vertexCount / NUM_POINTS_PER_CIRCLE);\\n  float cu = circleId / numCircles;\\n  vec3 pos;\\n  float inner = mix(0.3, 0.0, p1m1(sin(goop(circleId) + time * 3.1)));\\n  float start = fract(hash(circleId * 1.33) + sin(time * 0.83 + circleId) * 1.1);\\n  float end   = start + 1.;//start + hash(sideId + 1.);\\n  vec2 uv;\\n  getCirclePoint(pointId, inner, start, end, pos, uv); \\n  \\n  float snd = texture2D(sound, vec2((cu + abs(uv.x * 2.8 / 2.)) * 0.05, uv.y * 2.4)).a;\\n  \\n  vec3 offset = vec3(m1p1(hash(circleId)) * 0.5, m1p1(hash(circleId * 1.37)), -m1p1(circleId / numCircles));\\n  offset.x += goop(circleId + time * 0.203) * 0.4;\\n  offset.y += goop(circleId + time * 0.13) * 0.31-mouse.y;\\n  vec3 aspect = vec3(1, resolution.x / resolution.y, 1);\\n  \\n  mat4 mat = ident(); \\n  mat *= scale(aspect);\\n  mat *= trans(offset);\\n  mat *= uniformScale(mix(0.1, 0.4, hash(circleId)));\\n  gl_Position = vec4((mat * vec4(pos, 1)).xyz, 1.2);\\n  gl_PointSize = sin(5. *snd);\\n\\n  float hue = mix(0.5-snd, 0.6+snd, fract(circleId * 2.79));\\n  float sat = 2.9 / circleId;\\n  float val = 1.;\\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), (1. - uv.y) * pow(snd + 0.1, 5.));\\n  v_color = vec4(v_color.rgb * v_color.a, v_color.a);\\n}\"}",
+  "screenshotURL": "data/images/images-j3coer4mz1tt8e39y-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "216"
+  },
+  "likes": {
+    "$numberInt": "1"
+  },
+  "revisionId": "5xgmaBmnHpah9waCv"
+}

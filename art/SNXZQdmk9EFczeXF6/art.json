@@ -1,0 +1,47 @@
+{
+  "_id": "SNXZQdmk9EFczeXF6",
+  "owner": {
+    "_id": "yWTy8yJSBHTtH3nwH",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1590662739186"
+      }
+    },
+    "profile": {
+      "first_name": "Davide",
+      "last_name": "De Marco",
+      "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14Gi490kG9D7UEVvtNX8rZBCH1G4jKhV72cfZuabwxg"
+    },
+    "username": "davide"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1590662776680"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1590666541646"
+    }
+  },
+  "origId": null,
+  "name": "Grid",
+  "notes": "First project",
+  "rank": {
+    "$numberDouble": "1.6044720053652584"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "davide",
+  "avatarUrl": "https://lh3.googleusercontent.com/a-/AOh14Gi490kG9D7UEVvtNX8rZBCH1G4jKhV72cfZuabwxg",
+  "settings": "{\"num\":7063,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\n\\n\\nvoid main() {\\n\\n\\n  float across = floor(sqrt(vertexCount));\\n  float down =  floor(vertexCount/ across);\\n  float x = mod(vertexId,across);\\n  float y = floor(vertexId/across);\\n  \\n  float x1 = x/(across - 1.);\\n  float y1 = y/(across - 1.);\\n  \\n  float x2 = x1 * 2. -1.;\\n  float y2 = y1 * 2. -1.;\\n  \\n  float xSineOff = sin(time + y*0.2)*0.1 ;\\n  float ySineOff = sin(time + x*0.3)*0.1 ;\\n  \\n  float x3 = x2 + xSineOff;\\n  float y3 = y2 + ySineOff;\\n  vec2 xy = vec2(x3,y3) * 0.5;\\n  \\n  gl_Position = vec4(xy ,0,sin(time)*0.5+0.7);\\n\\n  \\n  float soff = sin(time);\\n  \\n  float verticalSize = resolution.y/down +soff;\\n  float horizontalSize = resolution.x/across +soff;\\n  \\n  \\n  \\n  if(verticalSize<horizontalSize){\\n    gl_PointSize = verticalSize/2.;\\n  }else{\\n  \\tgl_PointSize = resolution.x/across/2.;  \\n  }\\n  \\n  v_color = vec4(1,0,0,1);\\n\\n}\"}",
+  "screenshotURL": "data/images/images-egxne5su20hw6whmk-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "51"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "mjreCxwtFWxw7NZ24"
+}

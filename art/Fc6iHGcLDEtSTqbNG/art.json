@@ -1,0 +1,46 @@
+{
+  "_id": "Fc6iHGcLDEtSTqbNG",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1468376540034"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1469215860402"
+    }
+  },
+  "origId": "YXfLo5Yw55muQ7MZn",
+  "name": "tm-grid",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "10.178503391706514"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "gman",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "settings": "{\"num\":44009,\"mode\":\"LINES\",\"sound\":\"https://soundcloud.com/graham-panter/synthahol\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"/* \\n\\n⬆ click [UI] and pick [⚪] then move the [🖱] mouse\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n*/\\n\\n\\n#define PI radians(180.0)\\n\\nvoid main() {\\n  float numQuads = floor(vertexCount / 4.);\\n  float quadId = floor(vertexId / 4.);\\n  float down = floor(sqrt(numQuads));\\n  float across = floor(numQuads / down);\\n  \\n  float gx = mod(quadId, across);\\n  float gy = floor(quadId / across);\\n  \\n  float vId = mod(vertexId, 4.);\\n  \\n  float x = gx + mod(vId, 2.) - step(3., vId);\\n  float y = gy + step(3., vId);\\n\\n  vec2 aspect = vec2(1, resolution.x / resolution.y);\\n  vec2 xy = vec2(x, y) / vec2(across, down) * 2. - 1.;\\n  \\n  vec2 sp = xy  * 1.1;\\n  \\n  const int count = 60;\\n  for (int i = 0; i < count; ++i) {\\n    float iv = 1. - float(i) / float(count - 1);\\n    float hist = (float(i) + 0.5) / soundRes.y;\\n    vec2 m = texture2D(touch, vec2(0, hist)).xy;\\n    vec2 dm = m - sp;\\n    float dist = length(dm);\\n    float effect = mix(1., 0., clamp(dist * 5., 0., 1.));\\n    sp = sp - dm * pow(abs(effect), 2.5) * 1. * pow(iv, 2.);\\n  }\\n    \\n  float ang = fract(time * 0.1 + abs(atan(sp.x, sp.y) / PI));\\n  float rad = length(sp);\\n  float snd = texture2D(sound, vec2(mix(0.001, 0.030, ang), rad * 0.2)).a;\\n  \\n  sp += pow(snd, 5.) * 0.025;\\n  \\n  \\n  gl_Position = vec4(sp, 0, 1);\\n  \\n  float pump = step(mix(1., 0.8, ang), snd);\\n\\n  v_color = vec4(vec3(mix(0.1, 1., pow(snd, 5.))), 1);\\n  \\n  v_color = mix(v_color, vec4(1,0,0,1), pump);\\n}\"}",
+  "screenshotURL": "data/images/images-5z38orofsfbe7vap7-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "337"
+  },
+  "likes": {
+    "$numberInt": "7"
+  },
+  "revisionId": "tobqiWdkqSZnoZSgm"
+}

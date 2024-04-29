@@ -1,0 +1,46 @@
+{
+  "_id": "BsMpnBk6kQ8wK8mvy",
+  "owner": {
+    "_id": "CwvvvtJL5Ykqzxv4N",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1557600049871"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/jorenvo?s=200"
+    },
+    "username": "jorenvo"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1557720109806"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1558304388439"
+    }
+  },
+  "origId": null,
+  "name": "Bodzin",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.8871084875902566"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "jorenvo",
+  "avatarUrl": "https://avatars.githubusercontent.com/jorenvo?s=200",
+  "settings": "{\"num\":65536,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/sappheirosmusic/dawn\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main() {\\n  float size = floor(sqrt(vertexCount));\\n  \\n  vec2 c = vec2(mod(vertexId, size),\\n                floor(vertexId / size));\\n  \\n  // float loginess = 1.02;\\n  float ampl_sample_x = c.x;\\n  // ampl_sample_x = pow(loginess, ampl_sample_x) / pow(loginess, size);\\n  \\n  // divide by the maximum to normalize to [0, 1]\\n  float normalizer_x = size - 1.0;\\n  float normalizer_y = floor((vertexCount - 1.0) / size);\\n  c /= vec2(normalizer_x, normalizer_y);\\n  \\n  // no ampl past this\\n  const float FREQUENCY_NORMALIZE = .75;\\n  float sound_x = pow(c.x, 3.) * FREQUENCY_NORMALIZE;  \\n  float ampl = texture2D(sound, vec2(sound_x, c.y)).a;\\n  vec3 color = vec3(ampl, 0, 0);\\n  \\n  // wide percussion\\n  /*\\n  const float WIDE_SAMPLES = 32.;\\n  float amplitude = 0.;\\n  for (float i = 0.; i < WIDE_SAMPLES; i++) {\\n    amplitude += texture2D(sound,\\n                           vec2((i / WIDE_SAMPLES) * FREQUENCY_NORMALIZE, c.y)).a;\\n  }\\n  amplitude /= WIDE_SAMPLES;\\n\\n  if (amplitude > .4) {\\n    color = vec3(0, 0, ampl); \\n  } else\\n  */\\n  if (ampl > .8) { // trigger\\n    const float TOTAL_S = 4.;\\n    const float HISTORIC_SAMPLES = 10.;\\n    const float HISTORIC_SAMPLE_TIME_S = .1;\\n    float sample_interval =\\n      TOTAL_S / HISTORIC_SAMPLE_TIME_S / HISTORIC_SAMPLES;\\n\\n    float historic_ampl = 0.;\\n    for (float i = 1.; i <= HISTORIC_SAMPLES; i++) {\\n      historic_ampl += texture2D(sound,\\n                                 vec2(sound_x,\\n                                      c.y + i * sample_interval)).a;\\n    }\\n\\n    historic_ampl /= HISTORIC_SAMPLES;\\n\\n    // continuation\\n    if (historic_ampl > .3) {\\n      color = vec3(ampl, ampl, 0); \\n    }\\n  }\\n    \\n  // go from [0,1] -> [0,2]\\n  c *= 2.0;\\n  \\n  // go from [0,2] -> [-1, 1]\\n  c -= 1.0;\\n  \\n  gl_Position = vec4(c, 0, 1.);\\n  gl_PointSize = 10.;\\n  \\n  v_color = vec4(color, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-xtukeedavwtk3jsa0-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "5"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "M9Z2JRkkxqwvpNzEp"
+}

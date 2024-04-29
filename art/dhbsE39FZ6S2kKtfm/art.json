@@ -1,0 +1,36 @@
+{
+  "_id": "dhbsE39FZ6S2kKtfm",
+  "owner": {
+    "username": "anon"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1569754149032"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1569754149032"
+    }
+  },
+  "origId": "7YSTw2WwEmcGS4hYz",
+  "name": "unnamed",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.3345355263584997"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "-anon-",
+  "avatarUrl": "",
+  "settings": "{\"num\":4030,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"\\nvoid main() {\\n\\n  float down = floor(sqrt(vertexCount));\\n  float across = floor(vertexCount / down);;\\n  float x = mod(vertexId, across);\\n  float y = floor(vertexId / across);\\n  float u = x / across;\\n  float v = y / across;\\n  float ux = u * 2. - 1.;\\n  float vy = v * 2. - 1.;\\n\\n  gl_Position = vec4(ux, vy, 0, 1);\\n\\n  gl_PointSize = (20. / across) * (resolution.x / across);\\n \\n  v_color = vec4(0, .5, .8, 1); // mod(time, .9)\\n}\"}",
+  "screenshotURL": "data/images/images-mdr2boxphzmzjeg87-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "1"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "c3DDja7DkZnupfrKF"
+}

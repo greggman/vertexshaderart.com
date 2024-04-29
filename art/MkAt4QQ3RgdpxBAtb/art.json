@@ -1,0 +1,46 @@
+{
+  "_id": "MkAt4QQ3RgdpxBAtb",
+  "owner": {
+    "_id": "Aw3ZBjbzi7sLBthGm",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1528851803464"
+      }
+    },
+    "profile": {
+      "name": "Aardbei",
+      "avatarUrl": "https://avatars.githubusercontent.com/MegaLoler?s=200"
+    },
+    "username": "megaloler"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1528906501186"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1529000608519"
+    }
+  },
+  "origId": null,
+  "name": "fuzzies",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "10.079039585945633"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "megaloler",
+  "avatarUrl": "https://avatars.githubusercontent.com/MegaLoler?s=200",
+  "settings": "{\"num\":85351,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/kayfaraday/naiadess-botb-ohb-no-3768\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"#define PI radians(180.)\\n#define TAU radians(360.)\\n\\nfloat rand(float n) {\\n  return fract(sin(n) * 1473.5453123 + cos(n*0.9635) * 647.473261);\\n}\\n\\nvec2 rect(float i) {\\n  float a = i * 4.;\\n  float s = floor(a);\\n  float si = mod(a, 1.) * 2. - 1.;\\n  vec2 side;\\n  if(s == 0.)      side = vec2(si, -1.);\\n  else if(s == 1.) side = vec2(1., si);\\n  else if(s == 2.) side = vec2(-si, 1.);\\n  else if(s == 3.) side = vec2(-1., -si);\\n  return side;\\n}\\n\\nvec2 diamond(float i) {\\n  float a = i * 4.;\\n  float s = floor(a);\\n  float si = mod(a, 1.);\\n  float comsi = 1.0 - si;\\n  vec2 side;\\n  if(s == 0.)      side = vec2(si, comsi);\\n  else if(s == 1.) side = vec2(-comsi, si);\\n  else if(s == 2.) side = vec2(-si, -comsi);\\n  else if(s == 3.) side = vec2(comsi, -si);\\n  return side;\\n}\\n\\nvec2 circle(float i) {\\n  return vec2(cos(i * TAU), sin(i * TAU));\\n}\\n\\nvoid main() {\\n  float shapeCount = 3.;\\n  float i = vertexId / vertexCount * shapeCount;\\n  int shapeId = int(floor(i));\\n  float shape_i = fract(i);\\n  vec2 pos;\\n  \\n  float seed = vertexId + time;\\n  float u_noise = rand(seed);\\n  float v_noise = rand(seed+1.);\\n  float snd = texture2D(sound, vec2(shape_i / 1.33, shape_i)).a;\\n  float noiseAmp = (cos(time) / 2. + 0.5) * 0.8;\\n  float curve = pow(log(v_noise), sin(time)+1.);\\n  float noiseLevel = curve * snd;\\n  vec2 fudge = circle(u_noise) * noiseLevel * noiseAmp;\\n  \\n  float col = mix(1., 0.8, noiseLevel);\\n  float col2 = mix(0.9, 0.5, log(noiseLevel));\\n  \\n  if(shapeId == 0) {\\n    pos = circle(shape_i) * 0.5;\\n    v_color = vec4(col, col2, col2 / 2., 0);\\n  } else if (shapeId == 1) {\\n    pos = rect(shape_i) * 0.5;\\n    v_color = vec4(col2 / 2., col, col2, 0);\\n  } else if (shapeId == 2) {\\n    pos = diamond(shape_i) * 0.25;\\n    v_color = vec4(col2, col, col2 / 2., 0);\\n  }\\n  gl_PointSize = 1.;\\n  float aspect = resolution.y / resolution.x;\\n  mat4 perspective = mat4(aspect, 0., 0., 0.,\\n                          0., 1., 0., 0.,\\n                          0., 0., 1., 0.,\\n                          0., 0., 0., 1.);\\n  gl_Position = perspective * vec4(fudge + pos, noiseLevel, 1.);\\n}\"}",
+  "screenshotURL": "data/images/images-p4jgj50t04pzggs4z-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "853"
+  },
+  "likes": {
+    "$numberInt": "2"
+  },
+  "revisionId": "rrtuM7KehCvsjn5s4"
+}

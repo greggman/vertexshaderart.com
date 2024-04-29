@@ -1,0 +1,46 @@
+{
+  "_id": "2zrDmPHr7XSL9Smeh",
+  "owner": {
+    "_id": "B7Kfai5f9h3MxwJcP",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1445777397953"
+      }
+    },
+    "username": "gman",
+    "profile": {
+      "info": "&nbsp;&nbsp;contact: [@greggman](http://twitter.com/greggman), [github](http://github.com/greggman), [blog](http://greggman.com)\nnew stuff: [webgl](http://webglfundamentals.com), [twgl](http://twgljs.org), [threejsfundamentals](https://threejsfundamentals.org)\nold stuff: [chrome](http://chromium.org), [locoroco](https://www.youtube.com/watch?v=pFKpyScxv0k), [CTR](https://www.youtube.com/watch?v=3O8FK5d67cM), [Zombie Revenge](https://www.youtube.com/watch?v=Xw8yNik8Q-A), [and others...](http://games.greggman.com/game/games_o_the_greggman/)\n\nSome stuff you might want to look at\n\n*   [A uniform grid based on `vertexCount` and the window dimensions](https://www.vertexshaderart.com/art/NPohkmBgKdTBhML8P)\n*   [Tons of matrix functions](https://www.vertexshaderart.com/art/nr3EiyXWLMpwoouHt)\n\nNote: All the shaders I've posted are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1568769748187"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1568769840343"
+    }
+  },
+  "origId": null,
+  "name": "noise with time",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.7815843260975863"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "gman",
+  "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
+  "settings": "{\"num\":5000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// hash function from https://www.shadertoy.com/view/4djSRW\\nfloat noise(float p) {\\n\\tvec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));\\n    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));\\n\\treturn fract(p2.x * p2.y * 95.4337);\\n}\\n\\n\\nvoid main() {\\n  float u = vertexId / vertexCount;\\n  vec2 xy = vec2(\\n    noise(u + time),\\n    noise(u * 0.6223)) * 2.0 - 1.0;\\n  gl_Position = vec4(xy, 0, 1);\\n  \\n  gl_PointSize = 2.0;\\n  v_color = vec4(1);\\n}\"}",
+  "screenshotURL": "data/images/images-9bkn8e21bzhrh2lsx-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "SzRucxgqq3EJcabuz"
+}

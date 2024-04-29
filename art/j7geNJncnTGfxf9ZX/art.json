@@ -1,0 +1,46 @@
+{
+  "_id": "j7geNJncnTGfxf9ZX",
+  "owner": {
+    "_id": "QyFr9WoPZHnnBeKat",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1540408032900"
+      }
+    },
+    "profile": {
+      "first_name": "dertrackererpro",
+      "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg"
+    },
+    "username": "dertrackererpro"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1541187752601"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1541187752601"
+    }
+  },
+  "origId": null,
+  "name": "Lines",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.857492530869413"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "dertrackererpro",
+  "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg",
+  "settings": "{\"num\":800,\"mode\":\"LINE_STRIP\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"void main () {\\n  vec3 pos = vec3(tan(vertexId), tan(time+vertexId), 0.0);\\n  \\n  gl_PointSize = 15.0;\\n  gl_Position = vec4(pos, 1.0);\\n  v_color = vec4(pos.x, pos.y, -pos.x, 1.0)+0.3;\\n}\"}",
+  "screenshotURL": "data/images/images-3p9f3xi3zwufkvvpc-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "171"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "eZGuCXN3ooW6SbtwT"
+}

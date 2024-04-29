@@ -1,0 +1,46 @@
+{
+  "_id": "QRwggT8zdiZbYuaXv",
+  "owner": {
+    "_id": "N6iR49Ne9Naw9PNDZ",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1494865701670"
+      }
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200"
+    },
+    "username": "richtowns"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1494976485126"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1494976817248"
+    }
+  },
+  "origId": "BXfAoqsFbSNtWvJaQ",
+  "name": " Gridding III",
+  "notes": "Hmmm!",
+  "rank": {
+    "$numberDouble": "1.8298666012838"
+  },
+  "private": false,
+  "unlisted": true,
+  "username": "richtowns",
+  "avatarUrl": "https://avatars.githubusercontent.com/richtowns?s=200",
+  "settings": "{\"num\":10000,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0.6274509803921569,1],\"shader\":\"// Taking control - the  moving grid\\n\\nvoid main() {\\n  float scale = 2.;\\n  float modi = 0.5 * (sin(time)+1.);\\n  float lfo1 = (sin(time * 1.1) + 1.) / 2.;\\n  float lfo2 = (cos(time * 1.5) + 1.) / 2.;\\n  float grid = floor(modi * 10.) + 10.;\\n  float xoff = -0.5 * scale;\\n  float yoff = -0.5 * scale;\\n  float x = mod(vertexId , grid);\\n  float y = mod(floor(vertexId / grid), grid);\\n  float ux = x * lfo1 * scale / grid + xoff * lfo2;\\n  float uy = y * scale * lfo2 / grid + yoff * lfo1;\\n  gl_Position = vec4(ux, uy, 0, 1);\\n  gl_PointSize = 100./grid;\\n  v_color = vec4(1, 0, 0, 1);\\n}\"}",
+  "screenshotURL": "data/images/images-4ckys6bh5171a27t0-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "wFr3z4WTtJnbnNnfG"
+}

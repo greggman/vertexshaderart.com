@@ -1,0 +1,44 @@
+{
+  "_id": "TGGLggjxQgLPEFHWx",
+  "owner": {
+    "_id": "yXJ6WCMQCSanfJTWk",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1447692554526"
+      }
+    },
+    "username": "dzozef",
+    "profile": {
+      "info": "tinkerer",
+      "avatarUrl": "https://secure.gravatar.com/avatar/d6b044e92a377cd617762af9a488719d?default=retro&size=200"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1448279176305"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1448365771420"
+    }
+  },
+  "origId": null,
+  "name": "heightfield plotter",
+  "rank": {
+    "$numberDouble": "10.372636880530486"
+  },
+  "private": false,
+  "username": "dzozef",
+  "settings": "{\"num\":16384,\"mode\":\"POINTS\",\"sound\":\"\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0,0,0,1],\"shader\":\"// classic retro effect\\n// rotate and scale by moving mouse\\n// \\n// pixel shader version: https://www.shadertoy.com/view/lt2SWc\\n// (a little slower)\\n//\\n// update:\\n//  enlarged points for better visibility\\n//\\n\\n\\n#define POINTSIZE 2.0\\nfloat SCALE = 2.0 * (mouse.y+1.0);\\nfloat SIZE = floor( sqrt( vertexCount ) );\\nfloat TSCALE = 0.2 * 4096./vertexCount;\\nfloat MSCALE = 0.12 * 64.0/SIZE;\\n\\nvec3 rotateY( vec3 p, float a )\\n{\\n    float sa = sin(a);\\n    float ca = cos(a);\\n    vec3 r;\\n    r.x = ca*p.x + sa*p.z;\\n    r.y = p.y;\\n    r.z = -sa*p.x + ca*p.z;\\n    return r;\\n}\\n\\n// terrain function from mars shader by reider\\n// https://www.shadertoy.com/view/XdsGWH\\nconst mat2 mr = mat2 (0.84147,  0.54030,\\n\\t\\t\\t\\t\\t  0.54030, -0.84147 );\\nfloat hash( in float n )\\n{\\n\\treturn fract(sin(n)*43758.5453);\\n}\\nfloat noise(in vec2 x)\\n{\\n\\tvec2 p = floor(x);\\n\\tvec2 f = fract(x);\\n\\t\\t\\n\\tf = f*f*(3.0-2.0*f);\\t\\n\\tfloat n = p.x + p.y*57.0;\\n\\t\\n\\tfloat res = mix(mix( hash(n+  0.0), hash(n+  1.0),f.x),\\n\\t\\t\\t\\t\\tmix( hash(n+ 57.0), hash(n+ 58.0),f.x),f.y);\\n\\treturn res;\\n}\\nfloat fbm( in vec2 p )\\n{\\n\\tfloat f;\\n\\tf  =      0.5000*noise( p ); p = mr*p*2.02;\\n\\tf +=      0.2500*noise( p ); p = mr*p*2.33;\\n\\tf +=      0.1250*noise( p ); p = mr*p*2.01;\\n\\tf +=      0.0625*noise( p ); p = mr*p*5.21;\\n\\t\\n\\treturn f/(0.9375)*smoothstep( 260., 768., p.y ); // flat at beginning\\n}\\n\\nvec3 GetPoint( float vertexid )\\n{\\n  float SPACING = 16.0 / SIZE;\\n  float x = mod( vertexid, SIZE );\\n  if (x==SIZE-1.) // last in 'line'\\n  {\\n  \\t//x = SIZE-2.; // equals previous\\n  }\\n  float y = floor( vertexid / SIZE );\\n  if (mod(y,2.)>0.0)\\n  {\\n    // odd - change direction\\n    x = SIZE - 1. - x;\\n  }\\n  vec2 trans = vec2( time * 16., time * 23.0 ) * MSCALE;\\n  return vec3( (-SIZE/2.0 + x) * SPACING, fbm( vec2( x, y ) * TSCALE + trans ) * SCALE, (-SIZE/2.0 + y) * SPACING );\\n}\\n\\nvoid main()\\n{\\n  if (mod(SIZE,2.)>0.) SIZE += 1.; // need even number of points on side\\n  vec3 p = GetPoint( vertexId );\\n  float fov = 1.1;\\n  p = rotateY( p, -mouse.x*2.0 );\\n  float origz = p.z;\\n  p += vec3( 0.0, -5.0, 15.0 );\\n  gl_Position = vec4( p.xy*fov, 1.0/(p.z-0.0), p.z );   \\n  gl_PointSize = POINTSIZE;\\n  v_color = vec4(max( 0.0, 1.0 - p.z/24. ) );\\n}\"}",
+  "screenshotURL": "data/images/images-196eqbwwif1xb8f6r-thumbnail.jpg",
+  "hasSound": "",
+  "views": {
+    "$numberInt": "2079"
+  },
+  "likes": {
+    "$numberInt": "13"
+  },
+  "revisionId": "5mGww4MYANm3buTTS",
+  "avatarUrl": "https://secure.gravatar.com/avatar/d6b044e92a377cd617762af9a488719d?default=retro&size=200"
+}

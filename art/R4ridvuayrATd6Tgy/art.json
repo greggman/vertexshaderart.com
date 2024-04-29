@@ -1,0 +1,46 @@
+{
+  "_id": "R4ridvuayrATd6Tgy",
+  "owner": {
+    "_id": "QyFr9WoPZHnnBeKat",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1540408032900"
+      }
+    },
+    "profile": {
+      "first_name": "dertrackererpro",
+      "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg"
+    },
+    "username": "dertrackererpro"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1540721139387"
+    }
+  },
+  "modifiedAt": {
+    "$date": {
+      "$numberLong": "1540721139387"
+    }
+  },
+  "origId": null,
+  "name": "\"The Circle\"",
+  "notes": "",
+  "rank": {
+    "$numberDouble": "1.694580143162285"
+  },
+  "private": false,
+  "unlisted": false,
+  "username": "dertrackererpro",
+  "avatarUrl": "https://lh4.googleusercontent.com/-tzGrZLlkoQI/AAAAAAAAAAI/AAAAAAAAAWA/IcJA81i4FOw/photo.jpg",
+  "settings": "{\"num\":3000,\"mode\":\"POINTS\",\"sound\":\"https://soundcloud.com/caseandpoint/case-point-upgrade-free-download\",\"lineSize\":\"NATIVE\",\"backgroundColor\":[0.17647058823529413,0.17647058823529413,0.17647058823529413,1],\"shader\":\"mat2 Rotate2D (float x) {\\n  float a = sin(x), b = cos(x);\\n  return mat2(b, -a, a, b);\\n}\\n\\nvoid main () {\\n  vec2 pos = vec2(vertexId/vertexCount, abs(sin(time)))*0.8 * Rotate2D(vertexId+time*10.0);\\n  gl_PointSize = 15.0;\\n  gl_Position = vec4(pos, 0.0, 1.0);\\n  v_color = vec4(pos.x, pos.y, -pos.x, 1.0) + 0.5;\\n}\"}",
+  "screenshotURL": "data/images/images-vq5ysgwkfi9qlp64i-thumbnail.jpg",
+  "hasSound": true,
+  "views": {
+    "$numberInt": "168"
+  },
+  "likes": {
+    "$numberInt": "0"
+  },
+  "revisionId": "qcyTzwFMfvGHJWQgX"
+}
