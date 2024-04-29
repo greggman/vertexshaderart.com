@@ -112,6 +112,11 @@ define([
     return array[Math.random() * array.length | 0];
   }
 
+  function getId() {
+    const url = new URL(window.location.href);
+    return `${url.pathname}${url.search}`;
+  }
+
   function ProgramManager(gl) {
     var _handlers = {};
     var _programInfo;
@@ -922,7 +927,7 @@ define([
       if (!misc.deepCompare(settings, g.origSettings)) {
         g.restoreCleared = true;  // just in case
         storage.setItem(s.restoreKey, JSON.stringify({
-          pathname: window.location.pathname,
+          pathname: getId(),
           settings: settings,
         }));
       }
@@ -1543,7 +1548,7 @@ define([
       if (restoreStr) {
         try {
           var restore = JSON.parse(restoreStr);
-          if (restore.pathname === window.location.pathname) {
+          if (restore.pathname === getId()) {
             if (restore.settings.shader) {
               settings = restore.settings;
             }
