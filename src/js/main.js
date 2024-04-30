@@ -68,7 +68,7 @@ define([
 
   "use strict";
 
-
+  const compressor = new LZMA( 'lzma_worker.js' );
 
   // There's really no good way to tell which browsers fail.
   // Right now Safari doesn't expose AudioContext (it's still webkitAudioContext)
@@ -79,6 +79,8 @@ define([
   var $ = document.querySelector.bind(document);
   var gl;
   var m4 = twgl.m4;
+  const { base64 } = misc;
+  let s_firstCompile = true;
   var q = misc.parseUrlQuery();
   var s = {
     screenshotCanvas: document.createElement("canvas"),
@@ -1264,6 +1266,21 @@ define([
       settings.shader = e.userData;
       setShaderSuccessStatus(true);
       clearLineErrors();
+      if (s_firstCompile) {
+        s_firstCompile = false;
+        return;
+      }
+      const art = {
+        settings,
+      };
+      const data = JSON.stringify(art);
+      compressor.compress(data, 1, function(bytes) {
+        const hex = base64.encode(bytes);
+        const params = new URLSearchParams({
+          s: hex
+        });
+        parent.history.replaceState({}, '', `/src/#${params.toString()}`);
+      });
     });
     s.programManager.on('failure', function(errors) {
       setShaderSuccessStatus(false);
@@ -2183,6 +2200,22 @@ define([
           userInfoElem.appendChild(elem);
         }
 
+      } catch {
+        settings = s.sets.default;
+      }
+    }
+
+    if (window.location.hash.includes("s=")) {
+      try {
+        const p = new URLSearchParams(window.location.hash.substring(1));
+        const bytes = base64.decode(p.get('s'));
+        await new Promise((resolve, reject) => {
+          compressor.decompress(bytes, function(text) {
+            const art = JSON.parse(text);
+            settings = art.settings;
+            resolve();
+         }, () => {}, reject);
+        });
       } catch {
         settings = s.sets.default;
       }

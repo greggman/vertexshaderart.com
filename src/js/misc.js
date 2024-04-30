@@ -534,10 +534,18 @@ define(function() {
     return a === b;
   }
 
+  const base64 = {
+    decode: s => Uint8Array.from(atob(s), c => c.charCodeAt(0)),
+    encode: b => btoa(String.fromCharCode(...new Uint8Array(b))),
+    decodeToString: s => new TextDecoder().decode(base64.decode(s)),
+    encodeString: s => base64.encode(new TextEncoder().encode(s)),
+  };
+
   return {
     applyObject: applyObject,
     applyUrlSettings: applyUrlSettings,
     applyListeners: applyListeners,
+    base64,
     clamp: clamp,
     clampPlusMinus: clampPlusMinus,
     copyProperties: copyProperties,
