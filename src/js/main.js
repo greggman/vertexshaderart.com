@@ -551,9 +551,9 @@ define([
 
       s.sets = {
         default: {
-          num: 10000,
-          mode: "LINES",
-          sound: "",
+          num: 100000,
+          mode: "POINTS",
+          sound: "random",
           lineSize: "NATIVE",
           backgroundColor: [0, 0, 0, 1],
           shader: getShader("vs").trim(),
@@ -1266,21 +1266,7 @@ define([
       settings.shader = e.userData;
       setShaderSuccessStatus(true);
       clearLineErrors();
-      if (s_firstCompile) {
-        s_firstCompile = false;
-        return;
-      }
-      const art = {
-        settings,
-      };
-      const data = JSON.stringify(art);
-      compressor.compress(data, 1, function(bytes) {
-        const hex = base64.encode(bytes);
-        const params = new URLSearchParams({
-          s: hex
-        });
-        parent.history.replaceState({}, '', `/src/#${params.toString()}`);
-      });
+      updateURL();
     });
     s.programManager.on('failure', function(errors) {
       setShaderSuccessStatus(false);
@@ -1407,6 +1393,37 @@ define([
       },
     };
 
+    let s_updatingURL = false;
+    let s_urlNeedsUpdate = false;
+    function updateURL() {
+      if (s_firstCompile) {
+        s_firstCompile = false;
+        return;
+      }
+      if (s_updatingURL) {
+        s_urlNeedsUpdate = true;
+        return;
+      }
+      s_updatingURL = true;
+      const art = {
+        settings,
+      };
+      
+      const data = JSON.stringify(art);
+      compressor.compress(data, 1, function(bytes) {
+        const hex = base64.encode(bytes);
+        const params = new URLSearchParams({
+          s: hex
+        });
+        parent.history.replaceState({}, '', `/src/#${params.toString()}`);
+        s_updatingURL = false;
+        if (s_urlNeedsUpdate) {
+          s_urlNeedsUpdate = false;
+          updateURL();
+        }
+      });
+    }
+
     function setUIMode(mode, animate) {
       mode = mode || '#ui-2v';
       uiModes[mode](animate);
@@ -1439,6 +1456,7 @@ define([
 
     function updateBackgroundColor(e) {
       settings.backgroundColor = cssParse.parseCSSColor(e.target.value, true);
+      updateURL();
     }
     var colorElem = $("#background");
     on(colorElem, 'change', updateBackgroundColor);
@@ -1451,6 +1469,7 @@ define([
       var num = clamp(1, g.maxCount, parseInt(e.target.value)) | 0;
       numRangeElem.value = num;
       settings.num = num;
+      updateURL();
     }
     on(numElem, 'change', handleNumEdit);
     on(numElem, 'input', handleNumEdit);
@@ -1459,17 +1478,20 @@ define([
       var num = parseInt(e.target.value);
       numElem.value = num;
       settings.num = num;
+      updateURL();
     });
 
     var modeElem = $("#mode");
     on(modeElem, 'change', function(e) {
       settings.mode = e.target.value.toUpperCase();
       g.mode = validModes[settings.mode];
+      updateURL();
     });
 
     var sizeElem = $("#size");
     on(sizeElem, 'change', function(e) {
       settings.lineSize = e.target.value.toUpperCase();
+      updateURL();
     });
 
     var timeElem = $("#time");

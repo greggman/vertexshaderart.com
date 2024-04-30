@@ -52,10 +52,7 @@ varying vec4 v_color;
   `,
   // ===========================================================
   "vs": `
-#define PI radians(180.)
-#define NUM_SEGMENTS 21.0
-#define NUM_POINTS (NUM_SEGMENTS * 2.0)
-#define STEP 5.0
+#define PI radians(180.0)
 
 vec3 hsv2rgb(vec3 c) {
   c = vec3(c.x, clamp(c.yz, 0.0, 1.0));
@@ -65,25 +62,25 @@ vec3 hsv2rgb(vec3 c) {
 }
 
 void main() {
-  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);
-  float count = floor(vertexId / NUM_POINTS);
-  float offset = count * 0.02;
-  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;
-  float radius = 0.2;
-  float c = cos(angle + time) * radius;
-  float s = sin(angle + time) * radius;
-  float orbitAngle = count * 0.01;
-  float oC = cos(orbitAngle + time * count * 0.01) * sin(orbitAngle);
-  float oS = sin(orbitAngle + time * count * 0.01) * sin(orbitAngle);
+  float across = floor(sqrt(vertexCount));
+  float down = floor(vertexCount / across);
+  
+  float x = mod(vertexId, across);
+  float y = floor(vertexId / across);
+  
+  float u = x / across;
+  float v = y / across;
+  
+  vec2 xy = vec2(u * 2.0 - 1.0, v * 2.0 - 1.0);
+  gl_Position = vec4(xy, 0, 1);
+  gl_PointSize = max(0.1, resolution.x / across);
+  
+  float f = atan(xy.x, xy.y);
+  float h = length(xy);
+  float s = texture2D(sound, vec2(abs(f / PI) * 0.5, h * 0.25)).a;
 
-  vec2 aspect = vec2(1, resolution.x / resolution.y);
-  vec2 xy = vec2(
-      oC + c,
-      oS + s);
-  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);
-
-  float hue = (time * 0.01 + count * 1.001);
-  v_color = vec4(hsv2rgb(vec3(hue, 1, 1)), 1);
+  float hue = (time * 0.01 + abs(f) * 0.04);
+  v_color = vec4(hsv2rgb(vec3(hue, 1, pow(s, 2.))), 1);
 }
   `,
   // ===========================================================
