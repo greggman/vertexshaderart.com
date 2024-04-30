@@ -17,22 +17,43 @@
   }
   #banner {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-size: x-large;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  #banner>div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  #banner a {
+    border: 1px solid #888;
+    padding: 0.25em;
+    border-radius: 0.25em;
+    font-size: medium;
+  }
+  #search {
+    display: flex;
   }
   a {
     text-decoration: none;
     color: white;
   }
   input {
+    flex: 1 1 auto;
     width: 100%;
     background-color: #222;
     border: none;
+    padding: 0.25em;
   }
   #toc {
     margin: 0 auto;
-    display: inline-block;
-    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the items in the container */
+    width: 100%; /* Set to the desired width or keep it fluid */
   }
   #toc>div {
     display: inline-block;
@@ -63,8 +84,9 @@
       <div>
         <div>vertexshaderart.com</div>
       </div>
-      <div>
+      <div id="links">
         <a href="src">new</a>
+        <a target="_blank" href="https://www.youtube.com/channel/UC6IqL5vkMJpqBG_bFDjsaxw">lessons</a>
         <a href="https://github.com/greggman/vertexshadeart.com">github</a>
       </div>
     </div>

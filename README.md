@@ -1,5 +1,9 @@
 # vertexshaderart.com is in transition to a static site
 
+## Saving
+
+To save your work. Bookmark the URL or copy it to your blog/instagram/gist etc...
+
 ## Music Tracks
 
 Options: 
