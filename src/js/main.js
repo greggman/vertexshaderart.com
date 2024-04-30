@@ -443,7 +443,6 @@ define([
     var soundTime = $("#soundTime");
     var soundLinkElem = $("#soundLink");
     var soundLinkNode = misc.createTextNode(soundLinkElem);
-    var soundcloudElem = $("#soundcloud");
     var bandLinkElem = $("#bandLink");
     var bandLinkNode = misc.createTextNode(bandLinkElem);
     var soundTimeElem = $("#soundTime");
@@ -998,14 +997,15 @@ define([
       if (isMic(src)) {
         s.streamSource.setSource(src);
       } else {
-        s.sc.getRealStreamURL(src, function(err, url) {
-          if (err) {
-            console.log(err);
-            return;
-          }
-          console.log('headurl:', url);
-          s.streamSource.setSource(url);
-        });
+        //s.sc.getRealStreamURL(src, function(err, url) {
+        //  if (err) {
+        //    console.log(err);
+        //    return;
+        //  }
+        //  console.log('headurl:', url);
+        //  s.streamSource.setSource(url);
+        //});
+        s.streamSource.setSource(src);
       }
     }
 
@@ -1053,12 +1053,13 @@ define([
     function setSoundLink(options) {
       options = options || {};
       options.user = options.user || {};
-      setLinkOrHide(soundLinkElem, options.permalink_url);
-      setLinkOrHide(bandLinkElem, options.user.permalink_url);
-      setLinkOrHide(soundcloudElem, options.permalink_url);
-      setLinkOrHide(soundTimeElem, options.permalink_url);
-      soundLinkNode.nodeValue = options.title || "";
-      bandLinkNode.nodeValue = options.user.username || "";
+      const trackLink = options.infoUrl || options.permalink_url || options.url;
+      setLinkOrHide(soundLinkElem, trackLink);
+      setLinkOrHide(bandLinkElem, options.url || options.user.permalink_url);
+      //setLinkOrHide(soundcloudElem, trackLink);
+      setLinkOrHide(soundTimeElem, trackLink);
+      soundLinkNode.nodeValue = options.name || options.title || "";
+      bandLinkNode.nodeValue = options.author || options.user.username || "";
       if (s.cm) {
         s.cm.refresh();
       }
@@ -1082,7 +1083,7 @@ define([
         setSoundLink();
         s.gainNode.gain.value = track === 'feedback' ? 1 : 0;
       } else {
-        var src = track.stream_url;// + '?client_id=' + g.soundCloudClientId;
+        var src = track.stream_url || track.trackUrl;// + '?client_id=' + g.soundCloudClientId;
         setSoundSource(src);
         setSoundLink(track);
         s.gainNode.gain.value = 1;
@@ -1108,7 +1109,13 @@ define([
         s.trackNdx = 0;
         s.playlist = [url];
         playNextTrack();
-      } else {
+      } else if (url.includes('soundcloud') || url === 'random') {
+        getRandomMusic().then(track => {
+          s.playlist = [track];
+          s.trackNdx = 0;
+          playNextTrack();
+        });
+        /*
         fetch(`/resolve?${new URLSearchParams({format: 'json', url})}`)
           .then(res => res.json())
           .then(result => {
@@ -1130,6 +1137,11 @@ define([
             console.error("bad url:", url, err);
             setSoundSuccessState(false, "not a valid soundcloud url? " + (err.message ? err.message : ""));
           });
+        */
+      } else {
+        s.playList = [track];
+        s.trackNdx = 0;
+        playNextTrack();
       }
     }
 

@@ -94,7 +94,6 @@
           <div id="userInfo"></div>
           <pre></pre>
           <div id="soundInfo">
-            <a target="_blank" id="soundcloud"><img src="https://developers.soundcloud.com/assets/logo_white-af5006050dd9cba09b0c48be04feac57.png" /></a>
             <a target="_blank" class="shrink" id="bandLink"></a>
             <div id="soundTime" class="shrink"><a target="_blank" id="soundLink"></a></div>
           </div>
@@ -194,5 +193,9 @@ DEPTH_TEST is enabled.
     </pre>
   </div>
   </body>
-  <script data-main="js/start.js" src="3rdparty/require.js"></script>
+  <script type="module">
+    import getRandomMusic from 'https://greggman.github.io/music-lists/get-random-music.js';
+    window.getRandomMusic = getRandomMusic;
+  </script>
+  <script defer data-main="js/start.js" src="3rdparty/require.js"></script>
 </html>
