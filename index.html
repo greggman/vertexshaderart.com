@@ -10,6 +10,12 @@
   :root {
     color-scheme: dark;
   }
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
   html, body {
     background-color: #000;
     color: #fff;
@@ -49,19 +55,21 @@
     padding: 0.25em;
   }
   #toc {
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Centers the items in the container */
     width: 100%; /* Set to the desired width or keep it fluid */
+    max-width: 100%;
   }
   #toc>div {
     display: inline-block;
     width: 400px;
+    max-width: 100%;
     padding: 5px;
   }
   .thumbnail {
     width: 400px;
+    max-width: 100%;
     height: 240px;
     display: block;
     background-size: cover;
