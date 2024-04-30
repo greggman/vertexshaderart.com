@@ -1,19 +1,29 @@
 # vertexshaderart.com is in transition to a static site
 
-Soundcloud changed their API and I can't be bothered to fix this code.
-Tools are out of date etc and it's just too much work for a site that
-gets almost no traffic and that I, myself, rarely use.
+## Music Tracks
 
-Using Soundcloud has always been problematic. They've changed their API
-more than once causing a bunch of work. Artists delete their accounts, or
-delete songs, or change permissions
-and then the visualizations here are left non-working.
+Options: 
 
-So, I took the server offline. It ran for ~9 years.
+* `random`
 
-I'm working on putting up the data. Unfortunately, without soundcloud,
-most of the visualizations will do nothing. I will look into putting in
-some random music and/or provide options to use other sources of music.
+  chooses a random track
 
-I will also probably try to make new stuff url based so it's entirely a
-static website.
+* `<some-url-to>.mp3`
+
+  The mp3 file must have the correct permissions to stream. Ideally you'd pick public domain or CC0 track and add it to
+  [this repo](https://github.com/greggman/music-lists.git).
+
+* `<some-url.to>.json`
+
+  A json file in the following format
+
+  ```js
+  {
+    name?: string,    // name of track, if not provided it will be the base name of the url
+    author?: string,  // name of author/artist/band
+    url?: string,     // url for author's page
+    infoUrl?: string, // url for info about the track 
+    trackUrl?: string, // url for .mp3 file. if not provided assumes the path
+                       // is the same as the .json file just with .mp3 instead
+  }
+  ```

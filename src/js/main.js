@@ -1110,6 +1110,9 @@ define([
         s.playlist = [url];
         playNextTrack();
       } else if (url.includes('soundcloud') || url === 'random') {
+        if (url.includes('soundcloud')) {
+          setSoundSuccessState(false, "soundcloud not supported. using random track");
+        }
         getRandomMusic().then(track => {
           s.playlist = [track];
           s.trackNdx = 0;
@@ -1138,10 +1141,41 @@ define([
             setSoundSuccessState(false, "not a valid soundcloud url? " + (err.message ? err.message : ""));
           });
         */
-      } else {
-        s.playList = [track];
-        s.trackNdx = 0;
-        playNextTrack();
+      } else if (url.endsWith('.mp3')) {
+        fetch(`${url.substring(0, url.length -4)}.json`)
+          .then(async res => {
+            if (res.ok) {
+              const track = await res.json();
+              track.trackUrl = url;
+              track.name = track.name || url.substring(url.lastIndexOf('/') + 1).replace(/\.mp3$/, ''),
+              s.playlist = [track];
+              s.trackNdx = 0;
+              playNextTrack();
+            } else {
+              throw new Error()
+            }
+          })
+          .catch(e => {
+            s.playlist = [
+              {
+                trackUrl: url,
+                name: url.substring(url.lastIndexOf('/') + 1).replace(/\.mp3$/, ''),
+              },
+            ];
+            s.trackNdx = 0;
+            playNextTrack();
+         });
+      } else if (url.endsWith('.json')) {
+        fetch(url)
+          .then(async res => {
+            if (res.ok) {
+              const track = await res.json();
+              track.name = track.name || url.substring(url.lastIndexOf('/') + 1).replace(/\.json$/, ''),
+              s.playlist = [track];
+              s.trackNdx = 0;
+              playNextTrack();
+            }
+          });
       }
     }
 
