@@ -447,6 +447,8 @@ define([
     var soundLinkNode = misc.createTextNode(soundLinkElem);
     var bandLinkElem = $("#bandLink");
     var bandLinkNode = misc.createTextNode(bandLinkElem);
+    var licenseElem = $("#license");
+    var licenseNode = misc.createTextNode(licenseElem);
     var soundTimeElem = $("#soundTime");
     var lockElem = $("#toolbar .playlock");
     var lockElemImg = $("#toolbar .playlock img");
@@ -1058,10 +1060,12 @@ define([
       const trackLink = options.infoUrl || options.permalink_url || options.url;
       setLinkOrHide(soundLinkElem, trackLink);
       setLinkOrHide(bandLinkElem, options.url || options.user.permalink_url);
+      setLinkOrHide(licenseElem, options.licenseUrl);
       //setLinkOrHide(soundcloudElem, trackLink);
       setLinkOrHide(soundTimeElem, trackLink);
       soundLinkNode.nodeValue = options.name || options.title || "";
       bandLinkNode.nodeValue = options.author || options.user.username || "";
+      licenseNode.nodeValue = options.license || "";
       if (s.cm) {
         s.cm.refresh();
       }
