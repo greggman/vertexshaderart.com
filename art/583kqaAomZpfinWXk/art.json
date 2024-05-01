@@ -3,7 +3,7 @@
   "owner": {
     "_id": "u9A54Fr2xqnfssRpa",
     "createdAt": {
-      "$date": "1684324202773"
+      "$date": 1684324202773
     },
     "username": "seongryul.park",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684334697139"
+    "$date": 1684334697139
   },
   "modifiedAt": {
-    "$date": "1684334697139"
+    "$date": 1684334697139
   },
   "origId": "AMJYWSdCtDDTehM3C",
   "name": "Making A Grid - tweaks",
   "notes": "",
-  "rank": "1.3510084940964013",
+  "rank": 1.3510084940964013,
   "private": false,
   "unlisted": true,
   "username": "seongryul.park",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-rwtmggc73xjfv30hd-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "EN2zSMNCiRQmFJZYE"
 }

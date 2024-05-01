@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1570868046033"
+    "$date": 1570868046033
   },
   "modifiedAt": {
-    "$date": "1570868046033"
+    "$date": 1570868046033
   },
   "origId": "M922vaDbAxvAZALbx",
   "name": "mag",
   "notes": "",
-  "rank": "1.462871372658102",
+  "rank": 1.462871372658102,
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-bnga4x1sewsrwabbl-thumbnail.jpg",
   "hasSound": true,
-  "views": "88",
-  "likes": "0",
+  "views": 88,
+  "likes": 0,
   "revisionId": "4aNNxA6EaLPc95Jin"
 }

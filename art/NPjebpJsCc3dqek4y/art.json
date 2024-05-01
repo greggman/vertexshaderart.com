@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": "1501857924166"
+      "$date": 1501857924166
     },
     "profile": {
       "name": "Macro Machines",
@@ -13,15 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": "1510362622161"
+    "$date": 1510362622161
   },
   "modifiedAt": {
-    "$date": "1510362622161"
+    "$date": 1510362622161
   },
   "origId": "K2eiDz74g3k842g37",
   "name": "Triangular Voronoi rmx",
   "notes": "",
-  "rank": "1.9014436189201327",
+  "rank": 1.9014436189201327,
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-t0koj4c55bekap93z-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "TdEQkvHdXY3q4CLGB"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "G2ngfuFSv93PkHfwT",
     "createdAt": {
-      "$date": "1535538259897"
+      "$date": 1535538259897
     },
     "profile": {
       "first_name": "Piotr",
@@ -13,15 +13,15 @@
     "username": "piotr"
   },
   "createdAt": {
-    "$date": "1535538421468"
+    "$date": 1535538421468
   },
   "modifiedAt": {
-    "$date": "1535538421468"
+    "$date": 1535538421468
   },
   "origId": null,
   "name": "bonus",
   "notes": "",
-  "rank": "1.532590534009723",
+  "rank": 1.532590534009723,
   "private": false,
   "unlisted": true,
   "username": "piotr",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-kwl9b8a3dnxwi0boc-thumbnail.jpg",
   "hasSound": true,
-  "views": "18",
-  "likes": "0",
+  "views": 18,
+  "likes": 0,
   "revisionId": "SsKgDEZc7dY2RQ2JN"
 }

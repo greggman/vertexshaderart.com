@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HBPA5fBLqSQaSdvHS",
     "createdAt": {
-      "$date": "1493456527434"
+      "$date": 1493456527434
     },
     "username": "chemlo",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1493784797269"
+    "$date": 1493784797269
   },
   "modifiedAt": {
-    "$date": "1493784797269"
+    "$date": 1493784797269
   },
   "origId": null,
   "name": "Lonely Rolling Star",
   "notes": "",
-  "rank": "1.2427105450166882",
+  "rank": 1.2427105450166882,
   "private": false,
   "unlisted": false,
   "username": "chemlo",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-v2qlmxxm74lsgizsz-thumbnail.jpg",
   "hasSound": true,
-  "views": "169",
-  "likes": "0",
+  "views": 169,
+  "likes": 0,
   "revisionId": "hGRefsjZkJnqPXxHe"
 }

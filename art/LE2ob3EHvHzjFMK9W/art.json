@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": "1501857924166"
+      "$date": 1501857924166
     },
     "profile": {
       "name": "Macro Machines",
@@ -13,15 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": "1510548251837"
+    "$date": 1510548251837
   },
   "modifiedAt": {
-    "$date": "1510548251837"
+    "$date": 1510548251837
   },
   "origId": "w39M6FR7PCQctz5bN",
   "name": "sockwaves fork",
   "notes": "",
-  "rank": "1.5634103331142704",
+  "rank": 1.5634103331142704,
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-x05oo8sx1u5v0tmuc-thumbnail.jpg",
   "hasSound": true,
-  "views": "27",
-  "likes": "0",
+  "views": 27,
+  "likes": 0,
   "revisionId": "seDwEHTczszRNYNhA"
 }

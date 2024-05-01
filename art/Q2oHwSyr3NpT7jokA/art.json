@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zhnFY3Bj9GSContic",
     "createdAt": {
-      "$date": "1652873162359"
+      "$date": 1652873162359
     },
     "username": "daehyeon.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652884760741"
+    "$date": 1652884760741
   },
   "modifiedAt": {
-    "$date": "1652884760741"
+    "$date": 1652884760741
   },
   "origId": null,
   "name": "Making a Grid Variation",
   "notes": "",
-  "rank": "1.5852056909239078",
+  "rank": 1.5852056909239078,
   "private": false,
   "unlisted": true,
   "username": "daehyeon.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-3qk4qpigbz0rd8y04-thumbnail.jpg",
   "hasSound": "",
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "nrnHkkTWYGP9MLE4n"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1551479122586"
+    "$date": 1551479122586
   },
   "modifiedAt": {
-    "$date": "1551479122586"
+    "$date": 1551479122586
   },
   "origId": "dN7ijsBkvACZ3Nv8B",
   "name": "the tangled webs I weave",
   "notes": "",
-  "rank": "1.0330552239838493",
+  "rank": 1.0330552239838493,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-nftqfsshw18rawtkl-thumbnail.jpg",
   "hasSound": "",
-  "views": "43",
-  "likes": "0",
+  "views": 43,
+  "likes": 0,
   "revisionId": "gfWvxENdJRnBGPnLQ"
 }

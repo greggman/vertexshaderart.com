@@ -3,7 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": "1667032560256"
+      "$date": 1667032560256
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": "1668219725824"
+    "$date": 1668219725824
   },
   "modifiedAt": {
-    "$date": "1668219725824"
+    "$date": 1668219725824
   },
   "origId": null,
   "name": "red bars",
   "notes": "It is from 404 not found",
-  "rank": "1.8263729173142147",
+  "rank": 1.8263729173142147,
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-8kk1q0vbaljeoqim3-thumbnail.jpg",
   "hasSound": "",
-  "views": "35",
-  "likes": "0",
+  "views": 35,
+  "likes": 0,
   "revisionId": "6CXGPBncBYXNTArYm"
 }

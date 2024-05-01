@@ -3,7 +3,7 @@
   "owner": {
     "_id": "SsQEyYiHtYmWmhGiz",
     "createdAt": {
-      "$date": "1640254386795"
+      "$date": 1640254386795
     },
     "username": "leon",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1640257980828"
+    "$date": 1640257980828
   },
   "modifiedAt": {
-    "$date": "1640258011271"
+    "$date": 1640258011271
   },
   "origId": null,
   "name": "triangle tunnel",
   "notes": "",
-  "rank": "1.2932588741682647",
+  "rank": 1.2932588741682647,
   "private": false,
   "unlisted": true,
   "username": "leon",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ansonix1pnrfdgif8-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "Wzpz9gDwszi9eLDfW"
 }

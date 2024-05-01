@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1673123446413"
+    "$date": 1673123446413
   },
   "modifiedAt": {
-    "$date": "1673123446413"
+    "$date": 1673123446413
   },
   "origId": null,
   "name": "vector field demonstration",
   "notes": "",
-  "rank": "1.363426765821161",
+  "rank": 1.363426765821161,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-s282s8olr9u4abgtn-thumbnail.jpg",
   "hasSound": true,
-  "views": "60",
-  "likes": "0",
+  "views": 60,
+  "likes": 0,
   "revisionId": "L7ddp5TkAmd27ECYD"
 }

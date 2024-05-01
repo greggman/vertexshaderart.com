@@ -3,7 +3,7 @@
   "owner": {
     "_id": "u3AyZpoGZ399Yn2dm",
     "createdAt": {
-      "$date": "1551481226929"
+      "$date": 1551481226929
     },
     "profile": {
       "first_name": "Isaín",
@@ -13,15 +13,15 @@
     "username": "isaín"
   },
   "createdAt": {
-    "$date": "1551482454133"
+    "$date": 1551482454133
   },
   "modifiedAt": {
-    "$date": "1551482454133"
+    "$date": 1551482454133
   },
   "origId": "ocZSLuzxqD2QALRCq",
   "name": "Quads",
   "notes": "",
-  "rank": "1.8308022457165316",
+  "rank": 1.8308022457165316,
   "private": false,
   "unlisted": true,
   "username": "isaín",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-45o9q12z5ppgsxi6b-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "cFGBQSnciFdrvJi5b"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8YazjgbR8FtHJgYgR",
     "createdAt": {
-      "$date": "1689266555980"
+      "$date": 1689266555980
     },
     "username": "ersh",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1689303550229"
+    "$date": 1689303550229
   },
   "modifiedAt": {
-    "$date": "1689303550229"
+    "$date": 1689303550229
   },
   "origId": "kAANx8FwJoSeR9B4c",
   "name": "filters test",
   "notes": "",
-  "rank": "1.6207757737111737",
+  "rank": 1.6207757737111737,
   "private": false,
   "unlisted": true,
   "username": "ersh",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-3gci3fvyqvi64wcw7-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "CFtvMfHuYnAqrYhFN"
 }

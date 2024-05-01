@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8zztH8K59zQaKjuQX",
     "createdAt": {
-      "$date": "1677359387406"
+      "$date": 1677359387406
     },
     "profile": {
       "first_name": "James",
@@ -13,15 +13,15 @@
     "username": "james2"
   },
   "createdAt": {
-    "$date": "1682099995916"
+    "$date": 1682099995916
   },
   "modifiedAt": {
-    "$date": "1682099995916"
+    "$date": 1682099995916
   },
   "origId": null,
   "name": "PulseSphere",
   "notes": "",
-  "rank": "1.4449472458542183",
+  "rank": 1.4449472458542183,
   "private": false,
   "unlisted": true,
   "username": "james2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-z22555c71wz618mva-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "qGLodCeaDPSECpDYu"
 }

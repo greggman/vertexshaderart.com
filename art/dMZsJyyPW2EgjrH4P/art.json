@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s7HjFWhhQTWKGaPrB",
     "createdAt": {
-      "$date": "1554168718684"
+      "$date": 1554168718684
     },
     "profile": {
       "first_name": "철짜",
@@ -13,15 +13,15 @@
     "username": "철짜"
   },
   "createdAt": {
-    "$date": "1554181654220"
+    "$date": 1554181654220
   },
   "modifiedAt": {
-    "$date": "1554193048982"
+    "$date": 1554193048982
   },
   "origId": "jmoBvZevCB2QeEtAN",
   "name": "chulseung.lee",
   "notes": "this is shader assignment extra",
-  "rank": "1.9789958303057629",
+  "rank": 1.9789958303057629,
   "private": false,
   "unlisted": false,
   "username": "철짜",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-h7lwkokzpmjeb0e9c-thumbnail.jpg",
   "hasSound": "",
-  "views": "291",
-  "likes": "0",
+  "views": 291,
+  "likes": 0,
   "revisionId": "ezFHFqT2a3cZdYJDh"
 }

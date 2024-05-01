@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zPMA6iBcvoLvJAnag",
     "createdAt": {
-      "$date": "1635001458520"
+      "$date": 1635001458520
     },
     "profile": {
       "first_name": "The",
@@ -13,15 +13,15 @@
     "username": "the"
   },
   "createdAt": {
-    "$date": "1635179449976"
+    "$date": 1635179449976
   },
   "modifiedAt": {
-    "$date": "1635179449976"
+    "$date": 1635179449976
   },
   "origId": null,
   "name": "the_spiral",
   "notes": "",
-  "rank": "1.6541301776682058",
+  "rank": 1.6541301776682058,
   "private": false,
   "unlisted": true,
   "username": "the",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-e2swxl2b1wtdv707d-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "kkWgvAdJEkXxuTShX"
 }

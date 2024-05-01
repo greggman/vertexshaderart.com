@@ -3,7 +3,7 @@
   "owner": {
     "_id": "iY5sNRPwxCE42tkY6",
     "createdAt": {
-      "$date": "1685522828967"
+      "$date": 1685522828967
     },
     "username": "juseungyang",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1685539795590"
+    "$date": 1685539795590
   },
   "modifiedAt": {
-    "$date": "1685539795590"
+    "$date": 1685539795590
   },
   "origId": "SbtAs2XinPEhh4y92",
   "name": "lesson-04-motion",
   "notes": "",
-  "rank": "1.7090583108215474",
+  "rank": 1.7090583108215474,
   "private": false,
   "unlisted": true,
   "username": "juseungyang",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-0wo88dy6zn4b5igi3-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "ZZJ5FHf9tLaif9p6E"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Fb4jaWH5nhdXuAG2E",
     "createdAt": {
-      "$date": "1494693086089"
+      "$date": 1494693086089
     },
     "profile": {
       "name": "",
@@ -13,15 +13,15 @@
     "username": "lambmeow"
   },
   "createdAt": {
-    "$date": "1496286112655"
+    "$date": 1496286112655
   },
   "modifiedAt": {
-    "$date": "1496453504106"
+    "$date": 1496453504106
   },
   "origId": "LucsLY5k9d68aLNgv",
   "name": "life is lil' better now thx",
   "notes": "",
-  "rank": "1.0195068424892502",
+  "rank": 1.0195068424892502,
   "private": false,
   "unlisted": false,
   "username": "lambmeow",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-hfixdl9m7ivz07ekt-thumbnail.jpg",
   "hasSound": true,
-  "views": "142",
-  "likes": "0",
+  "views": 142,
+  "likes": 0,
   "revisionId": "DtFXtY4DDRN2WY8TX"
 }

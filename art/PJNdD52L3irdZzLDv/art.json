@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yXuqqi9M94aFRE6tK",
     "createdAt": {
-      "$date": "1608273876692"
+      "$date": 1608273876692
     },
     "username": "ltms",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1608273901146"
+    "$date": 1608273901146
   },
   "modifiedAt": {
-    "$date": "1608273901146"
+    "$date": 1608273901146
   },
   "origId": null,
   "name": "test",
   "notes": "",
-  "rank": "1.266179810268411",
+  "rank": 1.266179810268411,
   "private": false,
   "unlisted": true,
   "username": "ltms",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-348v7b4dqrzqwvkey-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "o6eZLdjyjkShGCYvT"
 }

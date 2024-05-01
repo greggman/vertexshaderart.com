@@ -3,7 +3,7 @@
   "owner": {
     "_id": "86G9wKCBCB6K7CFm9",
     "createdAt": {
-      "$date": "1576673635141"
+      "$date": 1576673635141
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "sairu312"
   },
   "createdAt": {
-    "$date": "1576673874005"
+    "$date": 1576673874005
   },
   "modifiedAt": {
-    "$date": "1576674688468"
+    "$date": 1576674688468
   },
   "origId": null,
   "name": "Test",
   "notes": "",
-  "rank": "1.7597856208859235",
+  "rank": 1.7597856208859235,
   "private": false,
   "unlisted": true,
   "username": "sairu312",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-rd83nf4vwr2d6ctw0-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "9uqNj76qJG5EA7Hom"
 }

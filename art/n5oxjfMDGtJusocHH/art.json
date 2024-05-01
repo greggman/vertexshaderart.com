@@ -3,7 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": "1501018355084"
+      "$date": 1501018355084
     },
     "username": "sylistine",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1501890230761"
+    "$date": 1501890230761
   },
   "modifiedAt": {
-    "$date": "1501890230761"
+    "$date": 1501890230761
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.908777233091433",
+  "rank": 1.908777233091433,
   "private": false,
   "unlisted": true,
   "username": "sylistine",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-qljwrmsm5u37u127y-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "S9nCngFYP39B8uqTk"
 }

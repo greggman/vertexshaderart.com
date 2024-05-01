@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1565835851295"
+    "$date": 1565835851295
   },
   "modifiedAt": {
-    "$date": "1565835851295"
+    "$date": 1565835851295
   },
   "origId": "6329mueSGExenMjbN",
   "name": "dotp",
   "notes": "",
-  "rank": "1.7574785737174428",
+  "rank": 1.7574785737174428,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-tvgoxbp3ecqk83ml4-thumbnail.jpg",
   "hasSound": true,
-  "views": "93",
-  "likes": "0",
+  "views": 93,
+  "likes": 0,
   "revisionId": "KbWr46DipWZiNqKqe"
 }

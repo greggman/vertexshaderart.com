@@ -3,7 +3,7 @@
   "owner": {
     "_id": "duWhpYJ2oQ4jvBvEN",
     "createdAt": {
-      "$date": "1543839089079"
+      "$date": 1543839089079
     },
     "profile": {
       "first_name": "Ivan",
@@ -13,15 +13,15 @@
     "username": "ivan"
   },
   "createdAt": {
-    "$date": "1543842182757"
+    "$date": 1543842182757
   },
   "modifiedAt": {
-    "$date": "1543842265399"
+    "$date": 1543842265399
   },
   "origId": "97zwjZPbGFqPWiYZy",
   "name": "unnamed",
   "notes": "",
-  "rank": "1.9304309456947115",
+  "rank": 1.9304309456947115,
   "private": false,
   "unlisted": true,
   "username": "ivan",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-e3d8ag654na2gh90l-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "AeCe5tET9SXKaTq7j"
 }

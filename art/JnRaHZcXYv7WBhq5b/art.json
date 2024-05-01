@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,10 +12,10 @@
     }
   },
   "createdAt": {
-    "$date": "1447309159819"
+    "$date": 1447309159819
   },
   "modifiedAt": {
-    "$date": "1447309159819"
+    "$date": 1447309159819
   },
   "origId": null,
   "name": "pulse",
@@ -36,9 +36,9 @@
   },
   "screenshotURL": "data/images/images-wa0a1s6901sy21cud-thumbnail.jpg",
   "hasSound": "",
-  "views": "581",
-  "likes": "7",
+  "views": 581,
+  "likes": 7,
   "revisionId": "HscG5z29syWZKjSDB",
-  "rank": "10.50841474736835",
+  "rank": 10.50841474736835,
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "95683ZgBuRkukjtj7",
     "createdAt": {
-      "$date": "1589922178477"
+      "$date": 1589922178477
     },
     "profile": {
       "first_name": "Markus",
@@ -13,15 +13,15 @@
     "username": "markus"
   },
   "createdAt": {
-    "$date": "1605596191956"
+    "$date": 1605596191956
   },
   "modifiedAt": {
-    "$date": "1605596697718"
+    "$date": 1605596697718
   },
   "origId": "cjTYyd8z2yEWqYFeg",
   "name": "Lines Explained",
   "notes": "",
-  "rank": "1.1676375267081522",
+  "rank": 1.1676375267081522,
   "private": false,
   "unlisted": true,
   "username": "markus",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-6iwrp5d002ewr0ba1-thumbnail.jpg",
   "hasSound": true,
-  "views": "19",
-  "likes": "0",
+  "views": 19,
+  "likes": 0,
   "revisionId": "MTsiMh75BHeYwmEiE"
 }

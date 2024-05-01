@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1495028534932"
+    "$date": 1495028534932
   },
   "modifiedAt": {
-    "$date": "1495766399315"
+    "$date": 1495766399315
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "penguin thoughts",
   "notes": "",
-  "rank": "10.65938249024882",
+  "rank": 10.65938249024882,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-c0cnzc68g5xb9rpmr-thumbnail.jpg",
   "hasSound": true,
-  "views": "558",
-  "likes": "9",
+  "views": 558,
+  "likes": 9,
   "revisionId": "T5aTCn9QZjGQnABjF"
 }

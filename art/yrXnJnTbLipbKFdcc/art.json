@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": "1553152938197"
+      "$date": 1553152938197
     },
     "username": "janalex",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553243266458"
+    "$date": 1553243266458
   },
   "modifiedAt": {
-    "$date": "1553243266458"
+    "$date": 1553243266458
   },
   "origId": "wAHW2jvdnk46gwycK",
   "name": "1903-GridColoredRows",
   "notes": "",
-  "rank": "1.3287114552303878",
+  "rank": 1.3287114552303878,
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ciynm6rng3kb5xq6c-thumbnail.jpg",
   "hasSound": "",
-  "views": "57",
-  "likes": "0",
+  "views": 57,
+  "likes": 0,
   "revisionId": "Ng6kdX39ehwqytLQJ"
 }

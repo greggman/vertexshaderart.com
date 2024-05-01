@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1577034449672"
+    "$date": 1577034449672
   },
   "modifiedAt": {
-    "$date": "1577034867876"
+    "$date": 1577034867876
   },
   "origId": "57DGNjDnDYwrBWXqD",
   "name": "kurb",
   "notes": "",
-  "rank": "10.056193189153738",
+  "rank": 10.056193189153738,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-bflvw9rcplt4dkghu-thumbnail.jpg",
   "hasSound": true,
-  "views": "726",
-  "likes": "9",
+  "views": 726,
+  "likes": 9,
   "revisionId": "7CrAzechrmps5qSzv"
 }

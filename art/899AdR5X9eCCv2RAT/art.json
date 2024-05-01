@@ -3,7 +3,7 @@
   "owner": {
     "_id": "DwENpeGK75hmdzFsS",
     "createdAt": {
-      "$date": "1569860206569"
+      "$date": 1569860206569
     },
     "profile": {
       "name": "mtoutside",
@@ -12,15 +12,15 @@
     "username": "mtoutside"
   },
   "createdAt": {
-    "$date": "1570431881027"
+    "$date": 1570431881027
   },
   "modifiedAt": {
-    "$date": "1570676222596"
+    "$date": 1570676222596
   },
   "origId": "eQxQuMzXiCEc7rMYz",
   "name": "lessons",
   "notes": "",
-  "rank": "1.1544774559381301",
+  "rank": 1.1544774559381301,
   "private": false,
   "unlisted": true,
   "username": "mtoutside",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-cqmuhjvc3egnop6hw-thumbnail.jpg",
   "hasSound": true,
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "vAyNfhays7GpQ53Zb"
 }

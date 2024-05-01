@@ -3,7 +3,7 @@
   "owner": {
     "_id": "9mSJ94a3jLQYEtpma",
     "createdAt": {
-      "$date": "1574356902539"
+      "$date": 1574356902539
     },
     "profile": {
       "first_name": "Nathan",
@@ -13,15 +13,15 @@
     "username": "nathan2"
   },
   "createdAt": {
-    "$date": "1574455156182"
+    "$date": 1574455156182
   },
   "modifiedAt": {
-    "$date": "1574455156182"
+    "$date": 1574455156182
   },
   "origId": "ZTEp3znDaGd9mFj4J",
   "name": "Tube of Dots",
   "notes": "",
-  "rank": "1.1601987251451487",
+  "rank": 1.1601987251451487,
   "private": false,
   "unlisted": true,
   "username": "nathan2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-c2u169kc65p3ubza8-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "kwWNuaoFS6Xm8ERk9"
 }

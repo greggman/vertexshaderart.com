@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8m7zpX5vFCAmve3uC",
     "createdAt": {
-      "$date": "1677940460002"
+      "$date": 1677940460002
     },
     "username": "rojun",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1677958687666"
+    "$date": 1677958687666
   },
   "modifiedAt": {
-    "$date": "1677958687666"
+    "$date": 1677958687666
   },
   "origId": null,
   "name": "sonic",
   "notes": "",
-  "rank": "1.2350822680088647",
+  "rank": 1.2350822680088647,
   "private": false,
   "unlisted": true,
   "username": "rojun",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-b42c2z4mxg99hh044-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "rD6uzDwANobqxXoLB"
 }

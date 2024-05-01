@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1550397617925"
+    "$date": 1550397617925
   },
   "modifiedAt": {
-    "$date": "1550657363827"
+    "$date": 1550657363827
   },
   "origId": "6329mueSGExenMjbN",
   "name": "iblot",
   "notes": "",
-  "rank": "10.250851847769148",
+  "rank": 10.250851847769148,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-kqun6djr5u11njmpm-thumbnail.jpg",
   "hasSound": true,
-  "views": "223",
-  "likes": "7",
+  "views": 223,
+  "likes": 7,
   "revisionId": "63os3CMsR9mXKRxKg"
 }

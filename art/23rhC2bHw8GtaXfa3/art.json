@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8zztH8K59zQaKjuQX",
     "createdAt": {
-      "$date": "1677359387406"
+      "$date": 1677359387406
     },
     "profile": {
       "first_name": "James",
@@ -13,15 +13,15 @@
     "username": "james2"
   },
   "createdAt": {
-    "$date": "1677785484409"
+    "$date": 1677785484409
   },
   "modifiedAt": {
-    "$date": "1677785484409"
+    "$date": 1677785484409
   },
   "origId": null,
   "name": "Amoeba 1",
   "notes": "The Amoeba",
-  "rank": "1.7558558945872287",
+  "rank": 1.7558558945872287,
   "private": false,
   "unlisted": true,
   "username": "james2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-hv1jz5edj50qxtz7o-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "GHTGeuTJ9t3kqf4FA"
 }

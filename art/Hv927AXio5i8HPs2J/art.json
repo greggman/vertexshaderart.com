@@ -3,7 +3,7 @@
   "owner": {
     "_id": "kwFj6rd42YAeFEAQQ",
     "createdAt": {
-      "$date": "1551479264537"
+      "$date": 1551479264537
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "alexisrubio96"
   },
   "createdAt": {
-    "$date": "1551481178139"
+    "$date": 1551481178139
   },
   "modifiedAt": {
-    "$date": "1551481178139"
+    "$date": 1551481178139
   },
   "origId": null,
   "name": "1rstVertex",
   "notes": "",
-  "rank": "1.2353058572159095",
+  "rank": 1.2353058572159095,
   "private": false,
   "unlisted": true,
   "username": "alexisrubio96",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-708qvrtsykncwa5ku-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "zkQJtsWwmzdheZ3Le"
 }

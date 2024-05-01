@@ -3,7 +3,7 @@
   "owner": {
     "_id": "CwvvvtJL5Ykqzxv4N",
     "createdAt": {
-      "$date": "1557600049871"
+      "$date": 1557600049871
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jorenvo"
   },
   "createdAt": {
-    "$date": "1557600224396"
+    "$date": 1557600224396
   },
   "modifiedAt": {
-    "$date": "1557725666116"
+    "$date": 1557725666116
   },
   "origId": null,
   "name": "Play",
   "notes": "",
-  "rank": "1.5137031444716542",
+  "rank": 1.5137031444716542,
   "private": false,
   "unlisted": true,
   "username": "jorenvo",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-mffzvs4kneuf2w9u0-thumbnail.jpg",
   "hasSound": "",
-  "views": "12",
-  "likes": "0",
+  "views": 12,
+  "likes": 0,
   "revisionId": "zMSthdEsXmGxbfana"
 }

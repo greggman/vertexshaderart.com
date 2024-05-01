@@ -3,7 +3,7 @@
   "owner": {
     "_id": "bQer2D4p22YiaAkFt",
     "createdAt": {
-      "$date": "1684301218251"
+      "$date": 1684301218251
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "minjae-yu"
   },
   "createdAt": {
-    "$date": "1684315400484"
+    "$date": 1684315400484
   },
   "modifiedAt": {
-    "$date": "1684315532942"
+    "$date": 1684315532942
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": "1.5890977190433337",
+  "rank": 1.5890977190433337,
   "private": false,
   "unlisted": true,
   "username": "minjae-yu",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-86jd12ybyvue0pmss-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "CPs2pskRBdw5m8YnM"
 }

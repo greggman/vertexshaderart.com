@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1620675248251"
+    "$date": 1620675248251
   },
   "modifiedAt": {
-    "$date": "1620675248251"
+    "$date": 1620675248251
   },
   "origId": "6xw95t7YcinWhp8Ra",
   "name": "sound tutorial 2",
   "notes": "",
-  "rank": "1.2931027809386388",
+  "rank": 1.2931027809386388,
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-i8zmax80yl0ji8k4b-thumbnail.jpg",
   "hasSound": true,
-  "views": "47",
-  "likes": "0",
+  "views": 47,
+  "likes": 0,
   "revisionId": "Dnf2mrCvT72MNCvAp"
 }

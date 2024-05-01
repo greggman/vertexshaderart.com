@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zhnFY3Bj9GSContic",
     "createdAt": {
-      "$date": "1652873162359"
+      "$date": 1652873162359
     },
     "username": "daehyeon.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1654094544046"
+    "$date": 1654094544046
   },
   "modifiedAt": {
-    "$date": "1654165083347"
+    "$date": 1654165083347
   },
   "origId": "BkqeZ9ZW84C5tPdoJ",
   "name": "Circles from Triangles new",
   "notes": "",
-  "rank": "1.8066908735892289",
+  "rank": 1.8066908735892289,
   "private": false,
   "unlisted": true,
   "username": "daehyeon.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-n2hiopd5pf2otlnt4-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "bq9eSmRs6D5ARm4Av"
 }

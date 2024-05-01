@@ -3,7 +3,7 @@
   "owner": {
     "_id": "we8EQkA9drPxGjXJe",
     "createdAt": {
-      "$date": "1634527131008"
+      "$date": 1634527131008
     },
     "profile": {
       "first_name": "dumpster",
@@ -13,15 +13,15 @@
     "username": "dumpster"
   },
   "createdAt": {
-    "$date": "1634579513388"
+    "$date": 1634579513388
   },
   "modifiedAt": {
-    "$date": "1634593128404"
+    "$date": 1634593128404
   },
   "origId": null,
   "name": "triangles - tutorial 5",
   "notes": "",
-  "rank": "1.2598002806485225",
+  "rank": 1.2598002806485225,
   "private": false,
   "unlisted": true,
   "username": "dumpster",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-dc9hcsvj9ngotx6f7-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "oRyBWSYy6gwQHnbzX"
 }

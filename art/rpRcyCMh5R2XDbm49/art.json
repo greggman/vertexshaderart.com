@@ -3,7 +3,7 @@
   "owner": {
     "_id": "cZNAKnfHAY6mZAn2h",
     "createdAt": {
-      "$date": "1598366337757"
+      "$date": 1598366337757
     },
     "username": "morimea",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1616536594181"
+    "$date": 1616536594181
   },
   "modifiedAt": {
-    "$date": "1616537874893"
+    "$date": 1616537874893
   },
   "origId": null,
   "name": "CSG voxels vertex",
   "notes": "CSG template",
-  "rank": "1.3461836902402706",
+  "rank": 1.3461836902402706,
   "private": false,
   "unlisted": true,
   "username": "morimea",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-h8yoih8lvio846bad-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "37i6g4xAvMJ4s25N6"
 }

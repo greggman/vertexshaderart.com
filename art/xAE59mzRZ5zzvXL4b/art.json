@@ -3,7 +3,7 @@
   "owner": {
     "_id": "nQnQpp32etiRZLwkq",
     "createdAt": {
-      "$date": "1553895484469"
+      "$date": 1553895484469
     },
     "profile": {
       "name": "David Sarma",
@@ -12,15 +12,15 @@
     "username": "ds604"
   },
   "createdAt": {
-    "$date": "1553895805041"
+    "$date": 1553895805041
   },
   "modifiedAt": {
-    "$date": "1553895805041"
+    "$date": 1553895805041
   },
   "origId": null,
   "name": "grid",
   "notes": "",
-  "rank": "1.1464011648653416",
+  "rank": 1.1464011648653416,
   "private": false,
   "unlisted": true,
   "username": "ds604",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-wvn4at11o92e8eet4-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "neJubgQJe85ZnWZMZ"
 }

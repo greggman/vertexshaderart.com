@@ -3,7 +3,7 @@
   "owner": {
     "_id": "SgjMKqPjMtNu8emwC",
     "createdAt": {
-      "$date": "1491226739572"
+      "$date": 1491226739572
     },
     "profile": {
       "name": "Antoine “NuSan” Zanuttini",
@@ -12,15 +12,15 @@
     "username": "antoine"
   },
   "createdAt": {
-    "$date": "1491226764896"
+    "$date": 1491226764896
   },
   "modifiedAt": {
-    "$date": "1491229975643"
+    "$date": 1491229975643
   },
   "origId": null,
   "name": "Hyperbolic grid",
   "notes": "",
-  "rank": "1.460179152286292",
+  "rank": 1.460179152286292,
   "private": false,
   "unlisted": true,
   "username": "antoine",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-13nb2u24chetl8cd1-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "dkG38cbok2stANEZw"
 }

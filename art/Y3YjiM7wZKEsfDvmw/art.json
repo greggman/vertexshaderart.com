@@ -3,7 +3,7 @@
   "owner": {
     "_id": "JkHPzJxpfnvDEnJHf",
     "createdAt": {
-      "$date": "1684306385138"
+      "$date": 1684306385138
     },
     "username": "geumbi.yeo",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684486527241"
+    "$date": 1684486527241
   },
   "modifiedAt": {
-    "$date": "1684486830976"
+    "$date": 1684486830976
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": "1.210469539848386",
+  "rank": 1.210469539848386,
   "private": false,
   "unlisted": true,
   "username": "geumbi.yeo",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-92qdjchj8firh6z0b-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "NpkKpYfSqhScYQBHE"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1520032966245"
+    "$date": 1520032966245
   },
   "modifiedAt": {
-    "$date": "1520032966245"
+    "$date": 1520032966245
   },
   "origId": "T3rPrhgzehKeaqZc6",
   "name": "dyson",
   "notes": "",
-  "rank": "1.8572270591767994",
+  "rank": 1.8572270591767994,
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-r085px7tuaiu2qqp4-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "CPqxkhtF4tnx6EbWG"
 }

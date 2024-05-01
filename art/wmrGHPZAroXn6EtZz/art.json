@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,7 +12,7 @@
     }
   },
   "createdAt": {
-    "$date": "1445777751888"
+    "$date": 1445777751888
   },
   "origId": null,
   "name": "prickley",
@@ -31,13 +31,13 @@
     "shader": "#define PI 3.14159\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n//#define FIT_VERTICAL\n\nvoid main() {\n  float localTime = time + 20.0;\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\n  float count = floor(vertexId / NUM_POINTS);\n  float offset = count * sin(time * 0.01) + 5.0;\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\n  float radius = pow(count * 0.00014, 1.0);\n  float c = cos(angle + localTime) * radius;\n  float s = sin(angle + localTime) * radius;\n  float orbitAngle =  pow(count * 0.025, 0.8);\n  float innerRadius = pow(count * 0.0005, 1.2);\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\n\n  #ifdef FIT_VERTICAL\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\n  #else\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\n  #endif\n\n  vec2 xy = vec2(\n      oC + c,\n      oS + s);\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\n\n  //float b = mix(0.0, 0.7, step(0.5, mod(count + localTime * 1.0, 6.0) / 2.0));\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 10.0);\n  b = 0.0;mix(0.0, 0.7, b);\n  v_color = vec4(b, b, b, 1);\n}"
   },
   "screenshotDataId": "TNJTEJo42ATm7SLyG",
-  "views": "451",
-  "likes": "2",
+  "views": 451,
+  "likes": 2,
   "revisionId": "CJFEvkWiwgSqrXATZ",
   "screenshotURL": "data/images/images-TNJTEJo42ATm7SLyG-thumbnail.png",
   "modifiedAt": {
-    "$date": "1445777751890"
+    "$date": 1445777751890
   },
-  "rank": "10.39845893185841",
+  "rank": 10.39845893185841,
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

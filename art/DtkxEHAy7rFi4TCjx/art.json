@@ -3,7 +3,7 @@
   "owner": {
     "_id": "33GYvgRj3LP6Xt7T6",
     "createdAt": {
-      "$date": "1652800663941"
+      "$date": 1652800663941
     },
     "username": "hyosang_jung",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1654001046358"
+    "$date": 1654001046358
   },
   "modifiedAt": {
-    "$date": "1654001046358"
+    "$date": 1654001046358
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": "1.6880759911959866",
+  "rank": 1.6880759911959866,
   "private": false,
   "unlisted": true,
   "username": "hyosang_jung",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ntq3pca9pmoetxeer-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "eweF8AL9gtGprzBC7"
 }

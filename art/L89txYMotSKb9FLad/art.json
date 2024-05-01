@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1496679037909"
+    "$date": 1496679037909
   },
   "modifiedAt": {
-    "$date": "1496679037909"
+    "$date": 1496679037909
   },
   "origId": "e6LP3FE5P3qePgJk6",
   "name": "circle jerk",
   "notes": "",
-  "rank": "1.474245645572059",
+  "rank": 1.474245645572059,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-i0lkrxb0w7nqnn3cl-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "THbssm8iwwPh5AhkZ"
 }

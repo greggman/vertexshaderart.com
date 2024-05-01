@@ -3,7 +3,7 @@
   "owner": {
     "_id": "NHZzD8e27B7poHpfx",
     "createdAt": {
-      "$date": "1445941822749"
+      "$date": 1445941822749
     },
     "profile": {
       "name": "Paul Malin",
@@ -12,10 +12,10 @@
     "username": "P_Malin"
   },
   "createdAt": {
-    "$date": "1447598532295"
+    "$date": 1447598532295
   },
   "modifiedAt": {
-    "$date": "1448203037761"
+    "$date": 1448203037761
   },
   "origId": null,
   "name": "Garden Fireworks",
@@ -36,9 +36,9 @@
   },
   "screenshotURL": "data/images/images-e5i54ral7oq73t97q-thumbnail.jpg",
   "hasSound": "",
-  "views": "3580",
-  "likes": "15",
+  "views": 3580,
+  "likes": 15,
   "revisionId": "W6FrKzneQJkmZtJwj",
-  "rank": "10.699371204363981",
+  "rank": 10.699371204363981,
   "avatarUrl": "https://pbs.twimg.com/profile_images/2157402471/Profile_200x200.png"
 }

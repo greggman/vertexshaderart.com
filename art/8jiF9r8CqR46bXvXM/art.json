@@ -3,7 +3,7 @@
   "owner": {
     "_id": "FdF3Ffp5KMucnmivz",
     "createdAt": {
-      "$date": "1554193926255"
+      "$date": 1554193926255
     },
     "profile": {
       "first_name": "도영",
@@ -13,15 +13,15 @@
     "username": "도영"
   },
   "createdAt": {
-    "$date": "1554199133048"
+    "$date": 1554199133048
   },
   "modifiedAt": {
-    "$date": "1554199133048"
+    "$date": 1554199133048
   },
   "origId": null,
   "name": "Cs230",
   "notes": "moving with music\n& change color with mouse\nposition",
-  "rank": "1.6796519384426096",
+  "rank": 1.6796519384426096,
   "private": false,
   "unlisted": true,
   "username": "도영",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-fviyv80ibkbu9gvbn-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "LhfrRoj5kEeTZdawW"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "RMhdQhPbrnDH4xXJ8",
     "createdAt": {
-      "$date": "1684321868058"
+      "$date": 1684321868058
     },
     "username": "minseok.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684391305627"
+    "$date": 1684391305627
   },
   "modifiedAt": {
-    "$date": "1684392029759"
+    "$date": 1684392029759
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": "1.6251965911615565",
+  "rank": 1.6251965911615565,
   "private": false,
   "unlisted": true,
   "username": "minseok.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-34zpevz6kvdqcqkjz-thumbnail.jpg",
   "hasSound": "",
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "zKsAn4FmJxkWSn3eK"
 }

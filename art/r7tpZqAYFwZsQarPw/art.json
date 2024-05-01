@@ -3,7 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": "1450381162182"
+      "$date": 1450381162182
     },
     "username": "aiekick",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1488310859625"
+    "$date": 1488310859625
   },
   "modifiedAt": {
-    "$date": "1496501662922"
+    "$date": 1496501662922
   },
   "origId": null,
   "name": "Mesh Reprojection",
   "notes": "",
-  "rank": "1.4855300045731124",
+  "rank": 1.4855300045731124,
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-bx45df8qlkhztfhrk-thumbnail.jpg",
   "hasSound": "",
-  "views": "606",
-  "likes": "1",
+  "views": 606,
+  "likes": 1,
   "revisionId": "pNxQCvojtT3kBMeqM"
 }

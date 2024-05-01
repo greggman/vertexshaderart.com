@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1536517222523"
+    "$date": 1536517222523
   },
   "modifiedAt": {
-    "$date": "1536517222523"
+    "$date": 1536517222523
   },
   "origId": null,
   "name": "Triangles",
   "notes": "",
-  "rank": "1.8774855813091311",
+  "rank": 1.8774855813091311,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-tkvdkjui9l6ilbml3-thumbnail.jpg",
   "hasSound": "",
-  "views": "49",
-  "likes": "0",
+  "views": 49,
+  "likes": 0,
   "revisionId": "YAjtWT5LZgfwcf7uc"
 }

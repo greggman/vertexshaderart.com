@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1508333027794"
+    "$date": 1508333027794
   },
   "modifiedAt": {
-    "$date": "1508333027794"
+    "$date": 1508333027794
   },
   "origId": "mNBny7JXpBGwQnMwG",
   "name": "pulsedn",
   "notes": "",
-  "rank": "1.0445460860398859",
+  "rank": 1.0445460860398859,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-lu4cqfir5vfxpbycp-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "LPcqYAmCmh2ugvPoc"
 }

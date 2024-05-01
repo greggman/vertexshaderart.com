@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s7uajwjtjeouLcAYT",
     "createdAt": {
-      "$date": "1656593092517"
+      "$date": 1656593092517
     },
     "profile": {
       "name": "Jared",
@@ -13,15 +13,15 @@
     "username": "molotovbliss"
   },
   "createdAt": {
-    "$date": "1658383080322"
+    "$date": 1658383080322
   },
   "modifiedAt": {
-    "$date": "1658387628452"
+    "$date": 1658387628452
   },
   "origId": "6Yx2A7TQ6NnyHhFPQ",
   "name": "texas by keyboarders",
   "notes": "",
-  "rank": "1.528213090526498",
+  "rank": 1.528213090526498,
   "private": false,
   "unlisted": false,
   "username": "molotovbliss",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-33q069wty019i4jip-thumbnail.jpg",
   "hasSound": "",
-  "views": "85",
-  "likes": "0",
+  "views": 85,
+  "likes": 0,
   "revisionId": "ZfCc7GbSBjtpXqy7o"
 }

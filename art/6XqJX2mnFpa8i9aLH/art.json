@@ -3,7 +3,7 @@
   "owner": {
     "_id": "rubytPzrDFdaRJ9Z8",
     "createdAt": {
-      "$date": "1567130116915"
+      "$date": 1567130116915
     },
     "profile": {
       "name": "Adam Tolley",
@@ -12,15 +12,15 @@
     "username": "refactorized"
   },
   "createdAt": {
-    "$date": "1567132989286"
+    "$date": 1567132989286
   },
   "modifiedAt": {
-    "$date": "1567138966644"
+    "$date": 1567138966644
   },
   "origId": null,
   "name": "cioycle",
   "notes": "",
-  "rank": "1.8932345264774784",
+  "rank": 1.8932345264774784,
   "private": false,
   "unlisted": true,
   "username": "refactorized",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-qnik4bc3ubzvij8m0-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "DDz4tsn5Lo4KPhiTs"
 }

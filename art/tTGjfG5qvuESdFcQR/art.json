@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1696552269448"
+    "$date": 1696552269448
   },
   "modifiedAt": {
-    "$date": "1696552269448"
+    "$date": 1696552269448
   },
   "origId": null,
   "name": "color charge",
   "notes": "",
-  "rank": "1.2520617888211782",
+  "rank": 1.2520617888211782,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-cwexgm561wag3gefb-thumbnail.jpg",
   "hasSound": "",
-  "views": "21",
-  "likes": "0",
+  "views": 21,
+  "likes": 0,
   "revisionId": "GuPC6E6oe2jqDPqTa"
 }

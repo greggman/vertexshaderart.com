@@ -3,7 +3,7 @@
   "owner": {
     "_id": "e52fMA4ovMTmiaNu7",
     "createdAt": {
-      "$date": "1551478750543"
+      "$date": 1551478750543
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "gerrygoo"
   },
   "createdAt": {
-    "$date": "1551483966237"
+    "$date": 1551483966237
   },
   "modifiedAt": {
-    "$date": "1551483966237"
+    "$date": 1551483966237
   },
   "origId": "jjpd8XtJ5nJAcmyLh",
   "name": "circle",
   "notes": "",
-  "rank": "1.1592780641338862",
+  "rank": 1.1592780641338862,
   "private": false,
   "unlisted": true,
   "username": "gerrygoo",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-efqndcbwqe2d590e3-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "B4TMHWowXf9uhwBby"
 }

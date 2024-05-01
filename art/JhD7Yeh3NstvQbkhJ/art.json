@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MEn2bK8navo8QQHYf",
     "createdAt": {
-      "$date": "1684321859878"
+      "$date": 1684321859878
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jonghyeon-lee-digipen"
   },
   "createdAt": {
-    "$date": "1684324777883"
+    "$date": 1684324777883
   },
   "modifiedAt": {
-    "$date": "1684324777883"
+    "$date": 1684324777883
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": "1.0952986902322375",
+  "rank": 1.0952986902322375,
   "private": false,
   "unlisted": false,
   "username": "jonghyeon-lee-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-saxcpw39a4cogiu9h-thumbnail.jpg",
   "hasSound": "",
-  "views": "43",
-  "likes": "0",
+  "views": 43,
+  "likes": 0,
   "revisionId": "jJd9nCne7pop4PaAW"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1499439241007"
+    "$date": 1499439241007
   },
   "modifiedAt": {
-    "$date": "1499743185238"
+    "$date": 1499743185238
   },
   "origId": "JRyewraYLfP9taa98",
   "name": "dotto-chouhoukei",
   "notes": "",
-  "rank": "10.748233881117207",
+  "rank": 10.748233881117207,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-bkgwqcyapt1aop426-thumbnail.jpg",
   "hasSound": true,
-  "views": "1398",
-  "likes": "11",
+  "views": 1398,
+  "likes": 11,
   "revisionId": "qRsQkY9R9zMTgAdsN"
 }

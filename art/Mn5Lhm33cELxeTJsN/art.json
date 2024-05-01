@@ -3,7 +3,7 @@
   "owner": {
     "_id": "buw2QswjyuzF5R3Z7",
     "createdAt": {
-      "$date": "1643991359601"
+      "$date": 1643991359601
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "orange4glace"
   },
   "createdAt": {
-    "$date": "1643991446311"
+    "$date": 1643991446311
   },
   "modifiedAt": {
-    "$date": "1643993711872"
+    "$date": 1643993711872
   },
   "origId": null,
   "name": "Spiral",
   "notes": "",
-  "rank": "1.7771652157298223",
+  "rank": 1.7771652157298223,
   "private": false,
   "unlisted": true,
   "username": "orange4glace",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-v1a96252rukhs1g23-thumbnail.jpg",
   "hasSound": "",
-  "views": "13",
-  "likes": "0",
+  "views": 13,
+  "likes": 0,
   "revisionId": "77gmo5FKHY8nv9buM"
 }

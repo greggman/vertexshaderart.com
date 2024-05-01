@@ -3,7 +3,7 @@
   "owner": {
     "_id": "e52fMA4ovMTmiaNu7",
     "createdAt": {
-      "$date": "1551478750543"
+      "$date": 1551478750543
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "gerrygoo"
   },
   "createdAt": {
-    "$date": "1554512862974"
+    "$date": 1554512862974
   },
   "modifiedAt": {
-    "$date": "1554853192946"
+    "$date": 1554853192946
   },
   "origId": "xyMYnHS29GDusyzJp",
   "name": "snow",
   "notes": "",
-  "rank": "1.6971833132685403",
+  "rank": 1.6971833132685403,
   "private": false,
   "unlisted": true,
   "username": "gerrygoo",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-e33hloz13jcbwvkwn-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "miYtzZSE3wryq6D3F"
 }

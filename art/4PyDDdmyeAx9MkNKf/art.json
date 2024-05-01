@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dgqw29fjufNnKhsLi",
     "createdAt": {
-      "$date": "1493343830960"
+      "$date": 1493343830960
     },
     "profile": {
       "name": "Noah Witherspoon",
@@ -12,15 +12,15 @@
     "username": "noah"
   },
   "createdAt": {
-    "$date": "1493343843624"
+    "$date": 1493343843624
   },
   "modifiedAt": {
-    "$date": "1493343843624"
+    "$date": 1493343843624
   },
   "origId": null,
   "name": "inside out",
   "notes": "",
-  "rank": "1.6588962719797697",
+  "rank": 1.6588962719797697,
   "private": false,
   "unlisted": true,
   "username": "noah",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-n35b0rp1bgsaetcyo-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "RJgb9pxqjD2H4uEnW"
 }

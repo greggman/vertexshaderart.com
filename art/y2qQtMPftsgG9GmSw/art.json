@@ -3,7 +3,7 @@
   "owner": {
     "_id": "FvEwbS5QFWQ9xq7KT",
     "createdAt": {
-      "$date": "1583423411467"
+      "$date": 1583423411467
     },
     "profile": {
       "first_name": "Andris",
@@ -13,15 +13,15 @@
     "username": "andris"
   },
   "createdAt": {
-    "$date": "1643508044166"
+    "$date": 1643508044166
   },
   "modifiedAt": {
-    "$date": "1643508044166"
+    "$date": 1643508044166
   },
   "origId": null,
   "name": "dct zigzag",
   "notes": "",
-  "rank": "1.3175003905473957",
+  "rank": 1.3175003905473957,
   "private": false,
   "unlisted": true,
   "username": "andris",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-br69rn0woj3okh6sk-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "FJqnhyQRFhd5GwNXu"
 }

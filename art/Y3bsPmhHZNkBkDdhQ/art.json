@@ -3,7 +3,7 @@
   "owner": {
     "_id": "XZ9fGNm72T7MyEqAy",
     "createdAt": {
-      "$date": "1612890971955"
+      "$date": 1612890971955
     },
     "username": "oneshade",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1612891074673"
+    "$date": 1612891074673
   },
   "modifiedAt": {
-    "$date": "1612891343604"
+    "$date": 1612891343604
   },
   "origId": null,
   "name": "Hello Cube",
   "notes": "First shader here.",
-  "rank": "1.830536683865969",
+  "rank": 1.830536683865969,
   "private": false,
   "unlisted": false,
   "username": "oneshade",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-79ikv67atb29a7z4m-thumbnail.jpg",
   "hasSound": "",
-  "views": "362",
-  "likes": "1",
+  "views": 362,
+  "likes": 1,
   "revisionId": "u7pA3X7kxRWx3mtNY"
 }

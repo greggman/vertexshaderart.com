@@ -3,7 +3,7 @@
   "owner": {
     "_id": "uTGy5zuBGdDuQX6tr",
     "createdAt": {
-      "$date": "1554179033633"
+      "$date": 1554179033633
     },
     "profile": {
       "first_name": "의진",
@@ -13,15 +13,15 @@
     "username": "의진"
   },
   "createdAt": {
-    "$date": "1554196523821"
+    "$date": 1554196523821
   },
   "modifiedAt": {
-    "$date": "1554196523821"
+    "$date": 1554196523821
   },
   "origId": null,
   "name": "uijin.lee",
   "notes": "",
-  "rank": "1.6014589391175678",
+  "rank": 1.6014589391175678,
   "private": false,
   "unlisted": false,
   "username": "의진",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-j396wc846nwx3xipg-thumbnail.jpg",
   "hasSound": "",
-  "views": "109",
-  "likes": "0",
+  "views": 109,
+  "likes": 0,
   "revisionId": "H95cya2wQ3W2pCHGN"
 }

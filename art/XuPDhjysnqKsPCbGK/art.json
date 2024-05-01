@@ -3,7 +3,7 @@
   "owner": {
     "_id": "m6NzvnPPTaAroy2Ma",
     "createdAt": {
-      "$date": "1652623511870"
+      "$date": 1652623511870
     },
     "profile": {
       "name": "junsujang-digipen",
@@ -13,15 +13,15 @@
     "username": "junsujang-digipen"
   },
   "createdAt": {
-    "$date": "1653396499950"
+    "$date": 1653396499950
   },
   "modifiedAt": {
-    "$date": "1653396499950"
+    "$date": 1653396499950
   },
   "origId": null,
   "name": "NotFinished",
   "notes": "",
-  "rank": "1.9719314902219902",
+  "rank": 1.9719314902219902,
   "private": false,
   "unlisted": true,
   "username": "junsujang-digipen",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-atr4yhag7r26codwj-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "LTrHqnAwLDz8xwSi2"
 }

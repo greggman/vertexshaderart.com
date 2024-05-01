@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sP483FJXn7SuTsbAt",
     "createdAt": {
-      "$date": "1472559237427"
+      "$date": 1472559237427
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "evilprofesseur"
   },
   "createdAt": {
-    "$date": "1472807609813"
+    "$date": 1472807609813
   },
   "modifiedAt": {
-    "$date": "1472807609813"
+    "$date": 1472807609813
   },
   "origId": "GRmubu72jMXJivdL4",
   "name": "grid attempt",
   "notes": "",
-  "rank": "1.7270344286523491",
+  "rank": 1.7270344286523491,
   "private": false,
   "unlisted": true,
   "username": "evilprofesseur",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-ql00txi9pr81ny1h2-thumbnail.jpg",
   "hasSound": true,
-  "views": "12",
-  "likes": "0",
+  "views": 12,
+  "likes": 0,
   "revisionId": "vCwsEn73X6Nqy6A7d"
 }

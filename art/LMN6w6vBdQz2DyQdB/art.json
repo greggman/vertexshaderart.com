@@ -3,7 +3,7 @@
   "owner": {
     "_id": "JkHPzJxpfnvDEnJHf",
     "createdAt": {
-      "$date": "1684306385138"
+      "$date": 1684306385138
     },
     "username": "geumbi.yeo",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684325107256"
+    "$date": 1684325107256
   },
   "modifiedAt": {
-    "$date": "1684325315435"
+    "$date": 1684325315435
   },
   "origId": null,
   "name": "Making a Grid - Geumbi Yeo ",
   "notes": "",
-  "rank": "1.369478970755321",
+  "rank": 1.369478970755321,
   "private": false,
   "unlisted": true,
   "username": "geumbi.yeo",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-mj0wfyvefpol3jcq8-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "2Ry3zbQnL5aDsCBZi"
 }

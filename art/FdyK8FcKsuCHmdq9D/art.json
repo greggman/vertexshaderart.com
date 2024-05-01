@@ -3,7 +3,7 @@
   "owner": {
     "_id": "YjHcknEt6QQipuQr3",
     "createdAt": {
-      "$date": "1551481228108"
+      "$date": 1551481228108
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "polacienta"
   },
   "createdAt": {
-    "$date": "1551481254096"
+    "$date": 1551481254096
   },
   "modifiedAt": {
-    "$date": "1551481254096"
+    "$date": 1551481254096
   },
   "origId": null,
   "name": "onda",
   "notes": "",
-  "rank": "1.5935168613817565",
+  "rank": 1.5935168613817565,
   "private": false,
   "unlisted": true,
   "username": "polacienta",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-m5v5o64uj8ka8ot6q-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "6o7M5duF6iYqu7cPe"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "9FyGSKFd6DqeASjpd",
     "createdAt": {
-      "$date": "1672677407736"
+      "$date": 1672677407736
     },
     "profile": {
       "name": "Jose A. Álvarez",
@@ -12,15 +12,15 @@
     "username": "iguacel"
   },
   "createdAt": {
-    "$date": "1672680549146"
+    "$date": 1672680549146
   },
   "modifiedAt": {
-    "$date": "1672695952675"
+    "$date": 1672695952675
   },
   "origId": null,
   "name": "Grid",
   "notes": "",
-  "rank": "1.0895830062967606",
+  "rank": 1.0895830062967606,
   "private": false,
   "unlisted": true,
   "username": "iguacel",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-vzwdy476bl07rcfwi-thumbnail.jpg",
   "hasSound": true,
-  "views": "10",
-  "likes": "0",
+  "views": 10,
+  "likes": 0,
   "revisionId": "eJqndiTi5qA8Syk74"
 }

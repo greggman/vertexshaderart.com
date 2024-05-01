@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1508156776795"
+    "$date": 1508156776795
   },
   "modifiedAt": {
-    "$date": "1508156776795"
+    "$date": 1508156776795
   },
   "origId": "T3o69kd5wMtWNCj5k",
   "name": "LED Display",
   "notes": "A tribute to La La Land.\nA music visualization demo.\nInspired by fragment shader http://glslsandbox.com/e#41758.0",
-  "rank": "1.0452520938397134",
+  "rank": 1.0452520938397134,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-rg2jbhzif2hqgs4zm-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "xeCoziWPEwQEZKyWL"
 }

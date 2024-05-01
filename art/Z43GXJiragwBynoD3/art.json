@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": "1501857924166"
+      "$date": 1501857924166
     },
     "profile": {
       "name": "Macro Machines",
@@ -13,15 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": "1510640078428"
+    "$date": 1510640078428
   },
   "modifiedAt": {
-    "$date": "1510640078428"
+    "$date": 1510640078428
   },
   "origId": "T3o69kd5wMtWNCj5k",
   "name": "LED Display remix",
   "notes": "A tribute to La La Land.\nA music visualization demo.\nInspired by fragment shader http://glslsandbox.com/e#41758.0",
-  "rank": "1.0779857659562277",
+  "rank": 1.0779857659562277,
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-fs4znso8neoao271e-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "DYfyX2Av33WzGwb2x"
 }

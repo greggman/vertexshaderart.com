@@ -3,7 +3,7 @@
   "owner": {
     "_id": "65jxhpzuS83g7Y4dT",
     "createdAt": {
-      "$date": "1466511627538"
+      "$date": 1466511627538
     },
     "profile": {
       "first_name": "Renya",
@@ -13,15 +13,15 @@
     "username": "renya"
   },
   "createdAt": {
-    "$date": "1471786503166"
+    "$date": 1471786503166
   },
   "modifiedAt": {
-    "$date": "1471786503166"
+    "$date": 1471786503166
   },
   "origId": null,
   "name": "musicBox",
   "notes": "firstCharenge",
-  "rank": "10.643779372645582",
+  "rank": 10.643779372645582,
   "private": false,
   "unlisted": false,
   "username": "renya",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-1nwtq8kn51dfqqkuc-thumbnail.jpg",
   "hasSound": true,
-  "views": "502",
-  "likes": "2",
+  "views": 502,
+  "likes": 2,
   "revisionId": "HjdxNAPdKmdXvQwfB"
 }

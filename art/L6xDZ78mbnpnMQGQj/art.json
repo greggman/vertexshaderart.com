@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": "1575718900497"
+      "$date": 1575718900497
     },
     "username": "evan_chen",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1578542289768"
+    "$date": 1578542289768
   },
   "modifiedAt": {
-    "$date": "1578542765439"
+    "$date": 1578542765439
   },
   "origId": "pggHYRd53sWWpFR39",
   "name": "adv_Sphere",
   "notes": "",
-  "rank": "1.3616427343935142",
+  "rank": 1.3616427343935142,
   "private": false,
   "unlisted": false,
   "username": "evan_chen",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-4wnxoqfogmuozeav9-thumbnail.jpg",
   "hasSound": true,
-  "views": "202",
-  "likes": "0",
+  "views": 202,
+  "likes": 0,
   "revisionId": "Azvo6ssE9aDTDs2Tf"
 }

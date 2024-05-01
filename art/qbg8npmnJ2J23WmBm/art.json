@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1474175962816"
+    "$date": 1474175962816
   },
   "modifiedAt": {
-    "$date": "1478945434725"
+    "$date": 1478945434725
   },
   "origId": null,
   "name": "sparkly",
   "notes": "",
-  "rank": "1.8575923184902365",
+  "rank": 1.8575923184902365,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-iswtyoap99b0ag4o5-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "iNGne6nQ4PFCQbZGi"
 }

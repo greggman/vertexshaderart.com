@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8YazjgbR8FtHJgYgR",
     "createdAt": {
-      "$date": "1689266555980"
+      "$date": 1689266555980
     },
     "username": "ersh",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1689309642804"
+    "$date": 1689309642804
   },
   "modifiedAt": {
-    "$date": "1689309642804"
+    "$date": 1689309642804
   },
   "origId": "jETzmmycobJrRvXH9",
   "name": "SphereDistribution",
   "notes": "",
-  "rank": "1.058562914004288",
+  "rank": 1.058562914004288,
   "private": false,
   "unlisted": true,
   "username": "ersh",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-sgree9tktys6mcf21-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "4pYEZmNKZu94fQNmH"
 }

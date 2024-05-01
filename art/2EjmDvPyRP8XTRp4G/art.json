@@ -3,7 +3,7 @@
   "owner": {
     "_id": "F5H8bRPnrGa3XNp95",
     "createdAt": {
-      "$date": "1652946063947"
+      "$date": 1652946063947
     },
     "profile": {
       "name": "Geonhwi Sim",
@@ -12,15 +12,15 @@
     "username": "geonhwisim-digipen"
   },
   "createdAt": {
-    "$date": "1652947190544"
+    "$date": 1652947190544
   },
   "modifiedAt": {
-    "$date": "1652947190544"
+    "$date": 1652947190544
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": "1.4574249167483353",
+  "rank": 1.4574249167483353,
   "private": false,
   "unlisted": true,
   "username": "geonhwisim-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3r7x1uu6utmb7400o-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "qEhi9Gq5amLwQPmA6"
 }

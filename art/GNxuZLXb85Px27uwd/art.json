@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1543719727937"
+    "$date": 1543719727937
   },
   "modifiedAt": {
-    "$date": "1543719727937"
+    "$date": 1543719727937
   },
   "origId": "RnwjSt42YXLcGjsgT",
   "name": "morp-micversion",
   "notes": "",
-  "rank": "1.1681601079771093",
+  "rank": 1.1681601079771093,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-7fenhlws2lpn50fyf-thumbnail.jpg",
   "hasSound": true,
-  "views": "42",
-  "likes": "0",
+  "views": 42,
+  "likes": 0,
   "revisionId": "NifoTWCNeFH2wFCfx"
 }

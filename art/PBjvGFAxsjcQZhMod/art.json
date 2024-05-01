@@ -3,7 +3,7 @@
   "owner": {
     "_id": "F5H8bRPnrGa3XNp95",
     "createdAt": {
-      "$date": "1652946063947"
+      "$date": 1652946063947
     },
     "profile": {
       "name": "Geonhwi Sim",
@@ -12,15 +12,15 @@
     "username": "geonhwisim-digipen"
   },
   "createdAt": {
-    "$date": "1654099355296"
+    "$date": 1654099355296
   },
   "modifiedAt": {
-    "$date": "1654099355296"
+    "$date": 1654099355296
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": "1.114889660452013",
+  "rank": 1.114889660452013,
   "private": false,
   "unlisted": true,
   "username": "geonhwisim-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-y6o2pdp6cnt1cegbm-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "NuPw6tBeegSwJReDs"
 }

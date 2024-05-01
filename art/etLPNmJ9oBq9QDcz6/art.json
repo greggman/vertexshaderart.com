@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yQ7JGWzLLZgnCmzdc",
     "createdAt": {
-      "$date": "1544373266259"
+      "$date": 1544373266259
     },
     "profile": {
       "first_name": "codework10101",
@@ -13,15 +13,15 @@
     "username": "codework10101"
   },
   "createdAt": {
-    "$date": "1544373611343"
+    "$date": 1544373611343
   },
   "modifiedAt": {
-    "$date": "1544375746669"
+    "$date": 1544375746669
   },
   "origId": null,
   "name": "testPoint",
   "notes": "",
-  "rank": "1.0711011409081883",
+  "rank": 1.0711011409081883,
   "private": false,
   "unlisted": true,
   "username": "codework10101",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-h6cvlmd77fk9nygf7-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "tycfAvRqJKCdomL7Y"
 }

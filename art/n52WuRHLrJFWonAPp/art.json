@@ -3,7 +3,7 @@
   "owner": {
     "_id": "F5if23dnvCEmcMssC",
     "createdAt": {
-      "$date": "1446316652572"
+      "$date": 1446316652572
     },
     "profile": {
       "first_name": "Mark",
@@ -13,15 +13,15 @@
     "username": "mark"
   },
   "createdAt": {
-    "$date": "1454016644920"
+    "$date": 1454016644920
   },
   "modifiedAt": {
-    "$date": "1454016644920"
+    "$date": 1454016644920
   },
   "origId": null,
   "name": "rain",
   "notes": "",
-  "rank": "1.090569148987196",
+  "rank": 1.090569148987196,
   "private": false,
   "unlisted": true,
   "username": "mark",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-actdexf2ej4ggy30m-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "tD8L2y9r4XBSy8fRz"
 }

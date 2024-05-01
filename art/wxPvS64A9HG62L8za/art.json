@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1619987334849"
+    "$date": 1619987334849
   },
   "modifiedAt": {
-    "$date": "1619987657849"
+    "$date": 1619987657849
   },
   "origId": "eLAMSS8iwH7ip3sS6",
   "name": "Pixel Waves",
   "notes": "",
-  "rank": "1.7281376948276899",
+  "rank": 1.7281376948276899,
   "private": false,
   "unlisted": false,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-fp7o5ypxf3ibqk8mj-thumbnail.jpg",
   "hasSound": true,
-  "views": "71",
-  "likes": "0",
+  "views": 71,
+  "likes": 0,
   "revisionId": "6JmpLqmFv3vtsrjmE"
 }

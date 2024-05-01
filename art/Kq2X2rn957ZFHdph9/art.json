@@ -3,7 +3,7 @@
   "owner": {
     "_id": "EXqwLpAZaavbaKq4c",
     "createdAt": {
-      "$date": "1625680149537"
+      "$date": 1625680149537
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "soumakdev"
   },
   "createdAt": {
-    "$date": "1625681930753"
+    "$date": 1625681930753
   },
   "modifiedAt": {
-    "$date": "1625681930753"
+    "$date": 1625681930753
   },
   "origId": null,
   "name": "grid",
   "notes": "",
-  "rank": "1.0327578026036501",
+  "rank": 1.0327578026036501,
   "private": false,
   "unlisted": true,
   "username": "soumakdev",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-qquzu2r3ux4zol3ey-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "ERjLJEyqDbAAfRSj5"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "FvEwbS5QFWQ9xq7KT",
     "createdAt": {
-      "$date": "1583423411467"
+      "$date": 1583423411467
     },
     "profile": {
       "first_name": "Andris",
@@ -13,15 +13,15 @@
     "username": "andris"
   },
   "createdAt": {
-    "$date": "1583467610087"
+    "$date": 1583467610087
   },
   "modifiedAt": {
-    "$date": "1583470898659"
+    "$date": 1583470898659
   },
   "origId": "PponkZdtktgJHhipC",
   "name": "smaller sbd",
   "notes": "",
-  "rank": "10.368321247947446",
+  "rank": 10.368321247947446,
   "private": false,
   "unlisted": false,
   "username": "andris",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-tpn6igvq9nkm2dsi2-thumbnail.jpg",
   "hasSound": true,
-  "views": "451",
-  "likes": "3",
+  "views": 451,
+  "likes": 3,
   "revisionId": "gEbaeBij5t5XZGM98"
 }

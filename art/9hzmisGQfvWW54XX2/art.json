@@ -3,7 +3,7 @@
   "owner": {
     "_id": "jFsYmxkBNAJNvJFDm",
     "createdAt": {
-      "$date": "1684263955851"
+      "$date": 1684263955851
     },
     "username": "hyojoonkim0020",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684736898779"
+    "$date": 1684736898779
   },
   "modifiedAt": {
-    "$date": "1684759916192"
+    "$date": 1684759916192
   },
   "origId": null,
   "name": "Audio Reactive Art",
   "notes": "",
-  "rank": "1.624512365628708",
+  "rank": 1.624512365628708,
   "private": false,
   "unlisted": true,
   "username": "hyojoonkim0020",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-n4wr837x158qtpns6-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "HSDgRs62jXkHNy3Pt"
 }

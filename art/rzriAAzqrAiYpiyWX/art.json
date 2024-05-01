@@ -3,7 +3,7 @@
   "owner": {
     "_id": "m6NzvnPPTaAroy2Ma",
     "createdAt": {
-      "$date": "1652623511870"
+      "$date": 1652623511870
     },
     "profile": {
       "name": "junsujang-digipen",
@@ -13,15 +13,15 @@
     "username": "junsujang-digipen"
   },
   "createdAt": {
-    "$date": "1654084474437"
+    "$date": 1654084474437
   },
   "modifiedAt": {
-    "$date": "1654085638975"
+    "$date": 1654085638975
   },
   "origId": "k5izvwNxYrHYx6WBr",
   "name": "Circles from Triangles extra",
   "notes": "",
-  "rank": "1.8497694528766981",
+  "rank": 1.8497694528766981,
   "private": false,
   "unlisted": true,
   "username": "junsujang-digipen",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-pul7q4h4trzttl9ht-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "m3YqZdXkquYxEZscE"
 }

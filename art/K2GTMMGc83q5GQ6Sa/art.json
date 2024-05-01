@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": "1501857924166"
+      "$date": 1501857924166
     },
     "profile": {
       "name": "Macro Machines",
@@ -13,15 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": "1600427150670"
+    "$date": 1600427150670
   },
   "modifiedAt": {
-    "$date": "1600427150670"
+    "$date": 1600427150670
   },
   "origId": "Xr7T9xN4h3JyWhJ4M",
   "name": "glass of colors",
   "notes": "",
-  "rank": "1.1053128990486727",
+  "rank": 1.1053128990486727,
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-zpi16uz8syqpir3d8-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "RNBzPEivdeknyoeM3"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1626776959057"
+    "$date": 1626776959057
   },
   "modifiedAt": {
-    "$date": "1626776959057"
+    "$date": 1626776959057
   },
   "origId": "oX5wEFKffEhvZmeJT",
   "name": "3D Point Cloud Scene",
   "notes": "",
-  "rank": "1.119921655869002",
+  "rank": 1.119921655869002,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-vq06qn55we3h7mh6i-thumbnail.jpg",
   "hasSound": "",
-  "views": "97",
-  "likes": "0",
+  "views": 97,
+  "likes": 0,
   "revisionId": "gjd7uEDRRvkgsFfxW"
 }

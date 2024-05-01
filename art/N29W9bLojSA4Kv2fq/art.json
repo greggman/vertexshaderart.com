@@ -3,7 +3,7 @@
   "owner": {
     "_id": "A3xozQT3WGZPL6x35",
     "createdAt": {
-      "$date": "1684330244428"
+      "$date": 1684330244428
     },
     "username": "sangjin.lee",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1685543686331"
+    "$date": 1685543686331
   },
   "modifiedAt": {
-    "$date": "1685543686331"
+    "$date": 1685543686331
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": "1.9909404625162472",
+  "rank": 1.9909404625162472,
   "private": false,
   "unlisted": true,
   "username": "sangjin.lee",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-2w73tzfx3v9668bnl-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "72C6RL8f2fbfonNiX"
 }

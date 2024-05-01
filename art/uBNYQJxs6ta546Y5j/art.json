@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1524834723669"
+    "$date": 1524834723669
   },
   "modifiedAt": {
-    "$date": "1524834723669"
+    "$date": 1524834723669
   },
   "origId": "P788bkYrZh4KcFHgQ",
   "name": "My programing class",
   "notes": "",
-  "rank": "1.607908544123221",
+  "rank": 1.607908544123221,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-vcpwm7spg7fbpz5om-thumbnail.jpg",
   "hasSound": "",
-  "views": "60",
-  "likes": "0",
+  "views": 60,
+  "likes": 0,
   "revisionId": "42QdqdKtwYWk5dggq"
 }

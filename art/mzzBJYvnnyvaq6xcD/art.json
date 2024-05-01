@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": "1553152938197"
+      "$date": 1553152938197
     },
     "username": "janalex",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553244548123"
+    "$date": 1553244548123
   },
   "modifiedAt": {
-    "$date": "1553244548123"
+    "$date": 1553244548123
   },
   "origId": "kJKq7oy8zBvieKhsE",
   "name": "1903-GridWavesAsync",
   "notes": "",
-  "rank": "1.5587271039984574",
+  "rank": 1.5587271039984574,
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-gtxhoo1885m3mk2eu-thumbnail.jpg",
   "hasSound": "",
-  "views": "66",
-  "likes": "0",
+  "views": 66,
+  "likes": 0,
   "revisionId": "exssdqASHdaYbs8zm"
 }

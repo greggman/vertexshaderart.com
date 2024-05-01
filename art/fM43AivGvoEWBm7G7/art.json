@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ZRyZDbZZaBWh7P43A",
     "createdAt": {
-      "$date": "1679393512197"
+      "$date": 1679393512197
     },
     "profile": {
       "name": "Moonjong Shin",
@@ -12,15 +12,15 @@
     "username": "moon-jong"
   },
   "createdAt": {
-    "$date": "1679925724817"
+    "$date": 1679925724817
   },
   "modifiedAt": {
-    "$date": "1679926073672"
+    "$date": 1679926073672
   },
   "origId": "wP4tHTACwohNdomhd",
   "name": "grid_with_sound",
   "notes": "main",
-  "rank": "1.4243624264426507",
+  "rank": 1.4243624264426507,
   "private": false,
   "unlisted": true,
   "username": "moon-jong",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-jd6enm4gjd4tg8jp4-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "mXfgFaYQ7HgjWGzaa"
 }

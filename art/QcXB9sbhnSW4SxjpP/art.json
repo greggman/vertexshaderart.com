@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1508055902250"
+    "$date": 1508055902250
   },
   "modifiedAt": {
-    "$date": "1508055902250"
+    "$date": 1508055902250
   },
   "origId": "q4fMv7cFv8FYfDYw9",
   "name": "Pump Woofer",
   "notes": "",
-  "rank": "1.247787755598019",
+  "rank": 1.247787755598019,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-f8p70kvbtpadqb78a-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "smEK6cFfcJPnXNJ4v"
 }

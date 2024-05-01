@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": "1684322328046"
+      "$date": 1684322328046
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": "1685512296926"
+    "$date": 1685512296926
   },
   "modifiedAt": {
-    "$date": "1685512533762"
+    "$date": 1685512533762
   },
   "origId": null,
   "name": "Circles from Triangles_Own variation",
   "notes": "",
-  "rank": "1.3852704260402253",
+  "rank": 1.3852704260402253,
   "private": false,
   "unlisted": true,
   "username": "chaerinpark",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-l8jnsq2iq43go4fa7-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "faWv8nMNn9mX9SDNk"
 }

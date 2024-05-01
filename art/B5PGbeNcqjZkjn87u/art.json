@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1485519755930"
+    "$date": 1485519755930
   },
   "modifiedAt": {
-    "$date": "1532109996947"
+    "$date": 1532109996947
   },
   "origId": "Q4dpCbhvWMYfDz5Nb",
   "name": "insidez",
   "notes": "",
-  "rank": "10.867067151961328",
+  "rank": 10.867067151961328,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-hmoh27wp6816c98av-thumbnail.jpg",
   "hasSound": true,
-  "views": "959",
-  "likes": "7",
+  "views": 959,
+  "likes": 7,
   "revisionId": "T3XKqc4QsW3ge523k"
 }

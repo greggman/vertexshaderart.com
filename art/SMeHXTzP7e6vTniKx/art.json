@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,14 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": "1448911418857"
+    "$date": 1448911418857
   },
   "modifiedAt": {
-    "$date": "1552156778862"
+    "$date": 1552156778862
   },
   "origId": "RJ4Tjj3PSsq4kvDcc",
   "name": "escnyc",
-  "rank": "10.717620675267272",
+  "rank": 10.717620675267272,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-9z3gelu9q8eyqrgb4-thumbnail.jpg",
   "hasSound": true,
-  "views": "1205",
-  "likes": "11",
+  "views": 1205,
+  "likes": 11,
   "revisionId": "GoShDdmrTepS7Ajpi",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
   "notes": "Needs lots of camera work but hey, fake hidden line removal 😁"

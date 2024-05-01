@@ -4,14 +4,14 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1448317677812"
+    "$date": 1448317677812
   },
   "modifiedAt": {
-    "$date": "1448317677812"
+    "$date": 1448317677812
   },
   "origId": "iPiDjpBYDPGFTGp8Y",
   "name": "residualfill",
-  "rank": "1.1786603292281301",
+  "rank": 1.1786603292281301,
   "private": false,
   "username": "-anon-",
   "settings": {
@@ -29,7 +29,7 @@
   },
   "screenshotURL": "data/images/images-j4dujddvhfkve6gva-thumbnail.jpg",
   "hasSound": true,
-  "views": "95",
-  "likes": "0",
+  "views": 95,
+  "likes": 0,
   "revisionId": "6Dk55F6jZMCnbYKG4"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Q5T8njsEaGYsK34dZ",
     "createdAt": {
-      "$date": "1448898157107"
+      "$date": 1448898157107
     },
     "profile": {
       "name": null,
@@ -12,14 +12,14 @@
     "username": "8bitrick"
   },
   "createdAt": {
-    "$date": "1449289303183"
+    "$date": 1449289303183
   },
   "modifiedAt": {
-    "$date": "1449289303183"
+    "$date": 1449289303183
   },
   "origId": "RM7eRS2ZAytCwuqj5",
   "name": "FailedFountains",
-  "rank": "1.4181516518566313",
+  "rank": 1.4181516518566313,
   "private": false,
   "unlisted": true,
   "username": "8bitrick",
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-j97pqeyxnn1cmlf5u-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "BytvM8RipAcR6yx6f",
   "avatarUrl": "https://avatars.githubusercontent.com/8BitRick?s=200"
 }

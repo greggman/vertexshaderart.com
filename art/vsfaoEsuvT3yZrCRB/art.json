@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1612795378172"
+    "$date": 1612795378172
   },
   "modifiedAt": {
-    "$date": "1612795715707"
+    "$date": 1612795715707
   },
   "origId": null,
   "name": "spectrum?",
   "notes": "",
-  "rank": "1.4304884898857817",
+  "rank": 1.4304884898857817,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-5i98d2degr23c0d5x-thumbnail.jpg",
   "hasSound": true,
-  "views": "74",
-  "likes": "0",
+  "views": 74,
+  "likes": 0,
   "revisionId": "9Kj2pPSEtaKNKTNx9"
 }

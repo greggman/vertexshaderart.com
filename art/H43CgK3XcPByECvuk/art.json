@@ -3,7 +3,7 @@
   "owner": {
     "_id": "95683ZgBuRkukjtj7",
     "createdAt": {
-      "$date": "1589922178477"
+      "$date": 1589922178477
     },
     "profile": {
       "first_name": "Markus",
@@ -13,15 +13,15 @@
     "username": "markus"
   },
   "createdAt": {
-    "$date": "1599646288953"
+    "$date": 1599646288953
   },
   "modifiedAt": {
-    "$date": "1599646288953"
+    "$date": 1599646288953
   },
   "origId": "Qh7WiD2iwnCrdfCXy",
   "name": "Shrill",
   "notes": "Bust a move.",
-  "rank": "1.0526582003578657",
+  "rank": 1.0526582003578657,
   "private": false,
   "unlisted": true,
   "username": "markus",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-hp84sufzjvogtcn18-thumbnail.jpg",
   "hasSound": true,
-  "views": "20",
-  "likes": "0",
+  "views": 20,
+  "likes": 0,
   "revisionId": "reJFsFtuLukuTwfeh"
 }

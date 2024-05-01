@@ -3,7 +3,7 @@
   "owner": {
     "_id": "imKH8hHM6p6ZTmGEi",
     "createdAt": {
-      "$date": "1448575381674"
+      "$date": 1448575381674
     },
     "username": "sap",
     "profile": {
@@ -11,14 +11,14 @@
     }
   },
   "createdAt": {
-    "$date": "1448575532536"
+    "$date": 1448575532536
   },
   "modifiedAt": {
-    "$date": "1448575532536"
+    "$date": 1448575532536
   },
   "origId": null,
   "name": "spiral",
-  "rank": "1.897704889650796",
+  "rank": 1.897704889650796,
   "private": false,
   "username": "sap",
   "settings": {
@@ -36,8 +36,8 @@
   },
   "screenshotURL": "data/images/images-1264nzzay2lndrqku-thumbnail.jpg",
   "hasSound": "",
-  "views": "153",
-  "likes": "1",
+  "views": 153,
+  "likes": 1,
   "revisionId": "yqZP4tkbQd3werNEh",
   "avatarUrl": "https://secure.gravatar.com/avatar/bd1ffaa5c21bfd6fb5a36cfbb45b8fa6?default=retro&size=200"
 }

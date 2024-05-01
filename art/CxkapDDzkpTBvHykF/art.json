@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Aw3ZBjbzi7sLBthGm",
     "createdAt": {
-      "$date": "1528851803464"
+      "$date": 1528851803464
     },
     "profile": {
       "name": "Aardbei",
@@ -12,15 +12,15 @@
     "username": "megaloler"
   },
   "createdAt": {
-    "$date": "1528904643703"
+    "$date": 1528904643703
   },
   "modifiedAt": {
-    "$date": "1528904643703"
+    "$date": 1528904643703
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.6141675586715813",
+  "rank": 1.6141675586715813,
   "private": false,
   "unlisted": true,
   "username": "megaloler",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-cl80fkkazvusepcc4-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "BPQEfxbjmW2XfSHoE"
 }

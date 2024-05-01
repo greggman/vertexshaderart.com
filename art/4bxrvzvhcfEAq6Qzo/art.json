@@ -3,7 +3,7 @@
   "owner": {
     "_id": "LCQpnTmbc4TFAS9gH",
     "createdAt": {
-      "$date": "1702790772790"
+      "$date": 1702790772790
     },
     "profile": {
       "first_name": "Tapos",
@@ -13,15 +13,15 @@
     "username": "tapos"
   },
   "createdAt": {
-    "$date": "1704895436252"
+    "$date": 1704895436252
   },
   "modifiedAt": {
-    "$date": "1704904017898"
+    "$date": 1704904017898
   },
   "origId": "CJyTYWu2F352dNTrn",
   "name": "hrt",
   "notes": "",
-  "rank": "1.142214948869757",
+  "rank": 1.142214948869757,
   "private": false,
   "unlisted": true,
   "username": "tapos",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-iby3m8s70vtn6rg4s-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "Xmi7pyLMxBPmpJTP6"
 }

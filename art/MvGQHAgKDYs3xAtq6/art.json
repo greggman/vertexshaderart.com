@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1620677483534"
+    "$date": 1620677483534
   },
   "modifiedAt": {
-    "$date": "1621009475332"
+    "$date": 1621009475332
   },
   "origId": "BM7xSvMgutERFmdBd",
   "name": "Circles From Triangles",
   "notes": "",
-  "rank": "1.6548195164218238",
+  "rank": 1.6548195164218238,
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-d4j5q1hggbxa6gbzy-thumbnail.jpg",
   "hasSound": true,
-  "views": "50",
-  "likes": "0",
+  "views": 50,
+  "likes": 0,
   "revisionId": "3J2jxWrAxHs7rnAcc"
 }

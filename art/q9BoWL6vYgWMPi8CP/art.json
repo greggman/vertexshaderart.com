@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gCKgzQzioC4gDMxq9",
     "createdAt": {
-      "$date": "1496305181205"
+      "$date": 1496305181205
     },
     "profile": {
       "name": "Paul Gutierrez",
@@ -13,15 +13,15 @@
     "username": "PLU Collective"
   },
   "createdAt": {
-    "$date": "1496316151517"
+    "$date": 1496316151517
   },
   "modifiedAt": {
-    "$date": "1496319704729"
+    "$date": 1496319704729
   },
   "origId": "c8gpxWQCgY845YBbg",
   "name": "Lesson04",
   "notes": "Lesson Four tutorial code.",
-  "rank": "1.6303973474504954",
+  "rank": 1.6303973474504954,
   "private": false,
   "unlisted": true,
   "username": "PLU Collective",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-1fwcpq5j6mgyuwqzo-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "9eDvikQ2ACRgKu5yz"
 }

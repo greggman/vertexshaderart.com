@@ -3,7 +3,7 @@
   "owner": {
     "_id": "xdTDDTRPhwPrWYuEQ",
     "createdAt": {
-      "$date": "1551488110621"
+      "$date": 1551488110621
     },
     "username": "jonaced",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1551488124791"
+    "$date": 1551488124791
   },
   "modifiedAt": {
-    "$date": "1551488124791"
+    "$date": 1551488124791
   },
   "origId": null,
   "name": "Circulo",
   "notes": "",
-  "rank": "1.6963839151900022",
+  "rank": 1.6963839151900022,
   "private": false,
   "unlisted": true,
   "username": "jonaced",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-48umvzhu16i3pnh1t-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "3ep755gpzLsz4AcuN"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HBPA5fBLqSQaSdvHS",
     "createdAt": {
-      "$date": "1493456527434"
+      "$date": 1493456527434
     },
     "username": "chemlo",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1493851187233"
+    "$date": 1493851187233
   },
   "modifiedAt": {
-    "$date": "1493851187233"
+    "$date": 1493851187233
   },
   "origId": null,
   "name": "test",
   "notes": "",
-  "rank": "1.2050678594240574",
+  "rank": 1.2050678594240574,
   "private": false,
   "unlisted": true,
   "username": "chemlo",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-4rlgpo9b58z2994kn-thumbnail.jpg",
   "hasSound": "",
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "N6qnTr9hqkpyR7Sd7"
 }

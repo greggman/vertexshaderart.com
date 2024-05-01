@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Hpso6YZ43TNmDTfSn",
     "createdAt": {
-      "$date": "1608473852720"
+      "$date": 1608473852720
     },
     "profile": {
       "first_name": "Sendi",
@@ -13,15 +13,15 @@
     "username": "sendi"
   },
   "createdAt": {
-    "$date": "1619210686504"
+    "$date": 1619210686504
   },
   "modifiedAt": {
-    "$date": "1619210686504"
+    "$date": 1619210686504
   },
   "origId": "9K6tGbtzRXNPPboM5",
   "name": "flwr",
   "notes": "",
-  "rank": "1.9156159197374876",
+  "rank": 1.9156159197374876,
   "private": false,
   "unlisted": true,
   "username": "sendi",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-rq9og4cvamf3wpdao-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "Sh3oszSmTvpcdK2hP"
 }

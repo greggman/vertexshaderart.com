@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1568547009230"
+    "$date": 1568547009230
   },
   "modifiedAt": {
-    "$date": "1568547009230"
+    "$date": 1568547009230
   },
   "origId": "Piyv2py4bQL283mTB",
   "name": "<better colours> Sphere + Cube Distribution",
   "notes": "",
-  "rank": "10.727167572579228",
+  "rank": 10.727167572579228,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-t5oietkd48e36kkdn-thumbnail.jpg",
   "hasSound": "",
-  "views": "385",
-  "likes": "3",
+  "views": 385,
+  "likes": 3,
   "revisionId": "iYKPJTTtCCTu3Bv6L"
 }

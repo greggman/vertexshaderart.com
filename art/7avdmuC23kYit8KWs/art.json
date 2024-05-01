@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1641122214757"
+    "$date": 1641122214757
   },
   "modifiedAt": {
-    "$date": "1641122214757"
+    "$date": 1641122214757
   },
   "origId": "WzeZofWAP8mZ2aNBz",
   "name": "WAVE",
   "notes": "",
-  "rank": "1.474470927604572",
+  "rank": 1.474470927604572,
   "private": false,
   "unlisted": false,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-r91ci666qv30l3sgz-thumbnail.jpg",
   "hasSound": "",
-  "views": "202",
-  "likes": "0",
+  "views": 202,
+  "likes": 0,
   "revisionId": "crLGse3WuPutPZQK8"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": "1493741221077"
+      "$date": 1493741221077
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -12,15 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": "1516146778583"
+    "$date": 1516146778583
   },
   "modifiedAt": {
-    "$date": "1594508873600"
+    "$date": 1594508873600
   },
   "origId": "f5etc59cCAN5qsa9G",
   "name": "fractal blue",
   "notes": "",
-  "rank": "10.99481500064002",
+  "rank": 10.99481500064002,
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-m8hvz5l4uzqyfvm1e-thumbnail.jpg",
   "hasSound": true,
-  "views": "476",
-  "likes": "2",
+  "views": 476,
+  "likes": 2,
   "revisionId": "5ADwx5arMETg9GHaA"
 }

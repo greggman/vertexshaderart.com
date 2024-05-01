@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": "1684322328046"
+      "$date": 1684322328046
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": "1684325118975"
+    "$date": 1684325118975
   },
   "modifiedAt": {
-    "$date": "1684325337549"
+    "$date": 1684325337549
   },
   "origId": null,
   "name": "Making A Grid_Own variation",
   "notes": "",
-  "rank": "1.7966855093518315",
+  "rank": 1.7966855093518315,
   "private": false,
   "unlisted": false,
   "username": "chaerinpark",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3nsin53boylhavckc-thumbnail.jpg",
   "hasSound": true,
-  "views": "51",
-  "likes": "0",
+  "views": 51,
+  "likes": 0,
   "revisionId": "SnTHcMERiK98bZy9S"
 }

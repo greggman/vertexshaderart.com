@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1669347151963"
+    "$date": 1669347151963
   },
   "modifiedAt": {
-    "$date": "1669347151963"
+    "$date": 1669347151963
   },
   "origId": null,
   "name": "gridpop",
   "notes": "",
-  "rank": "1.3590700396757611",
+  "rank": 1.3590700396757611,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-t4hn0ycil9ufaiq9s-thumbnail.jpg",
   "hasSound": true,
-  "views": "61",
-  "likes": "0",
+  "views": 61,
+  "likes": 0,
   "revisionId": "9CL5Q5gn2tgcuEMdm"
 }

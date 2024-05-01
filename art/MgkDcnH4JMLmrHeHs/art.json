@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1452007227898"
+    "$date": 1452007227898
   },
   "modifiedAt": {
-    "$date": "1452007227898"
+    "$date": 1452007227898
   },
   "origId": "dY6antnsT68htYfWz",
   "name": "rip",
   "notes": "",
-  "rank": "1.2214415032574304",
+  "rank": 1.2214415032574304,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3r19kv32cyt9qgm7u-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "tgx4MtN4LbmXYCZnQ"
 }

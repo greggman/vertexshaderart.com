@@ -3,7 +3,7 @@
   "owner": {
     "_id": "qKPpzdr6wbcudsddm",
     "createdAt": {
-      "$date": "1552696746395"
+      "$date": 1552696746395
     },
     "profile": {
       "name": "Alejandro Cámara",
@@ -12,15 +12,15 @@
     "username": "alejandrocamara"
   },
   "createdAt": {
-    "$date": "1552696880627"
+    "$date": 1552696880627
   },
   "modifiedAt": {
-    "$date": "1553140228309"
+    "$date": 1553140228309
   },
   "origId": null,
   "name": "Circle",
   "notes": "",
-  "rank": "1.5867536322441866",
+  "rank": 1.5867536322441866,
   "private": false,
   "unlisted": true,
   "username": "alejandrocamara",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-qs5kp7e8vpddtd9p3-thumbnail.jpg",
   "hasSound": "",
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "WremSRqQmbLrzKto4"
 }

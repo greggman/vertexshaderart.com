@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1608293207123"
+    "$date": 1608293207123
   },
   "modifiedAt": {
-    "$date": "1689918277740"
+    "$date": 1689918277740
   },
   "origId": "hffRc9FH8TMNKECkJ",
   "name": "blades",
   "notes": "",
-  "rank": "10.079667642560953",
+  "rank": 10.079667642560953,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-0s97jm0zph1gew89f-thumbnail.jpg",
   "hasSound": true,
-  "views": "537",
-  "likes": "3",
+  "views": 537,
+  "likes": 3,
   "revisionId": "dhDe8FJk9p8dF6HT8"
 }

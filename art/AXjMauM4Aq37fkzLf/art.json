@@ -3,7 +3,7 @@
   "owner": {
     "_id": "pFtCXpp8o7qaPQv3F",
     "createdAt": {
-      "$date": "1493839555330"
+      "$date": 1493839555330
     },
     "profile": {
       "name": "Attila Török",
@@ -12,15 +12,15 @@
     "username": "attila"
   },
   "createdAt": {
-    "$date": "1493840515638"
+    "$date": 1493840515638
   },
   "modifiedAt": {
-    "$date": "1493889303785"
+    "$date": 1493889303785
   },
   "origId": null,
   "name": "spinor",
   "notes": "",
-  "rank": "1.3929855930993473",
+  "rank": 1.3929855930993473,
   "private": false,
   "unlisted": true,
   "username": "attila",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-dk6k6p544c74c44vi-thumbnail.jpg",
   "hasSound": "",
-  "views": "12",
-  "likes": "0",
+  "views": 12,
+  "likes": 0,
   "revisionId": "iWnr7EfnX7s2Pax2E"
 }

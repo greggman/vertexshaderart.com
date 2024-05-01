@@ -3,7 +3,7 @@
   "owner": {
     "_id": "koEkdd6JkWyMHMivK",
     "createdAt": {
-      "$date": "1505188172159"
+      "$date": 1505188172159
     },
     "username": "jairhumberto",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1505418400349"
+    "$date": 1505418400349
   },
   "modifiedAt": {
-    "$date": "1505418678024"
+    "$date": 1505418678024
   },
   "origId": "PorioQ3ztpHifDuAx",
   "name": "Pump Woofer",
   "notes": "",
-  "rank": "1.5058251628009696",
+  "rank": 1.5058251628009696,
   "private": false,
   "unlisted": false,
   "username": "jairhumberto",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-yw0yop1xfz5njax2r-thumbnail.jpg",
   "hasSound": true,
-  "views": "385",
-  "likes": "1",
+  "views": 385,
+  "likes": 1,
   "revisionId": "yiJfjEi6t2bxThDmB"
 }

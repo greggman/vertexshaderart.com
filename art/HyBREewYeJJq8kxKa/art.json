@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s7uajwjtjeouLcAYT",
     "createdAt": {
-      "$date": "1656593092517"
+      "$date": 1656593092517
     },
     "profile": {
       "name": "Jared",
@@ -13,15 +13,15 @@
     "username": "molotovbliss"
   },
   "createdAt": {
-    "$date": "1658409514219"
+    "$date": 1658409514219
   },
   "modifiedAt": {
-    "$date": "1658414320921"
+    "$date": 1658414320921
   },
   "origId": "B3fTWQihXfD9t8Q8r",
   "name": "snd-scope ",
   "notes": "",
-  "rank": "1.565795908514425",
+  "rank": 1.565795908514425,
   "private": false,
   "unlisted": false,
   "username": "molotovbliss",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-4fhsfm0dxsyw1npml-thumbnail.jpg",
   "hasSound": true,
-  "views": "73",
-  "likes": "0",
+  "views": 73,
+  "likes": 0,
   "revisionId": "RebcWbeHfhofEmY3N"
 }

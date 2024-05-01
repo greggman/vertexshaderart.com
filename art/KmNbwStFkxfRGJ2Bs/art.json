@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1512788182251"
+    "$date": 1512788182251
   },
   "modifiedAt": {
-    "$date": "1512788182251"
+    "$date": 1512788182251
   },
   "origId": "MegMNJwR7hpTYFf2G",
   "name": "K reptile void 2",
   "notes": "",
-  "rank": "10.277481028743114",
+  "rank": 10.277481028743114,
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-hvgqy0t44i8h3o9gr-thumbnail.jpg",
   "hasSound": true,
-  "views": "167",
-  "likes": "2",
+  "views": 167,
+  "likes": 2,
   "revisionId": "bnwAygwMYDqRtZTic"
 }

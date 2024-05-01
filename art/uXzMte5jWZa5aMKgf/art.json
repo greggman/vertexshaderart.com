@@ -3,7 +3,7 @@
   "owner": {
     "_id": "m6NzvnPPTaAroy2Ma",
     "createdAt": {
-      "$date": "1652623511870"
+      "$date": 1652623511870
     },
     "profile": {
       "name": "junsujang-digipen",
@@ -13,15 +13,15 @@
     "username": "junsujang-digipen"
   },
   "createdAt": {
-    "$date": "1652627643925"
+    "$date": 1652627643925
   },
   "modifiedAt": {
-    "$date": "1652627643925"
+    "$date": 1652627643925
   },
   "origId": null,
   "name": "Motion - extra",
   "notes": "",
-  "rank": "1.0254592081200324",
+  "rank": 1.0254592081200324,
   "private": false,
   "unlisted": true,
   "username": "junsujang-digipen",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-gv39rs2wopz7uhjut-thumbnail.jpg",
   "hasSound": "",
-  "views": "9",
-  "likes": "0",
+  "views": 9,
+  "likes": 0,
   "revisionId": "X7LS9xdKdo7NDLKQZ"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "iFSyTSHmeekk4Ga75",
     "createdAt": {
-      "$date": "1683697855014"
+      "$date": 1683697855014
     },
     "username": "minkicho",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684379826144"
+    "$date": 1684379826144
   },
   "modifiedAt": {
-    "$date": "1684379826144"
+    "$date": 1684379826144
   },
   "origId": null,
   "name": "Colors",
   "notes": "",
-  "rank": "1.3347086466419458",
+  "rank": 1.3347086466419458,
   "private": false,
   "unlisted": true,
   "username": "minkicho",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-v057ml7c4o1n59k55-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "2DwZWHbyz3W3RKcTW"
 }

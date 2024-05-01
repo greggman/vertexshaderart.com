@@ -3,7 +3,7 @@
   "owner": {
     "_id": "GsGemnD2x9QaMRX9g",
     "createdAt": {
-      "$date": "1619196586677"
+      "$date": 1619196586677
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "hugo-w"
   },
   "createdAt": {
-    "$date": "1619539818400"
+    "$date": 1619539818400
   },
   "modifiedAt": {
-    "$date": "1619539818400"
+    "$date": 1619539818400
   },
   "origId": null,
   "name": "SomeSOundTracking",
   "notes": "",
-  "rank": "1.7211458692916073",
+  "rank": 1.7211458692916073,
   "private": false,
   "unlisted": true,
   "username": "hugo-w",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-35d6dzsosl1wle0bj-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "nXWKovzAsFD4YWCms"
 }

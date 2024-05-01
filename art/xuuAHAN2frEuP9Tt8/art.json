@@ -3,7 +3,7 @@
   "owner": {
     "_id": "LWdsrL3Rt7K7GFLDc",
     "createdAt": {
-      "$date": "1507983640950"
+      "$date": 1507983640950
     },
     "profile": {
       "name": "Leeland Morgan",
@@ -12,15 +12,15 @@
     "username": "leeland"
   },
   "createdAt": {
-    "$date": "1507983751154"
+    "$date": 1507983751154
   },
   "modifiedAt": {
-    "$date": "1507983751154"
+    "$date": 1507983751154
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.726086772012207",
+  "rank": 1.726086772012207,
   "private": false,
   "unlisted": true,
   "username": "leeland",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-dfdq5vsaorl4p5ypq-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "doA48aWrXKpttFdd3"
 }

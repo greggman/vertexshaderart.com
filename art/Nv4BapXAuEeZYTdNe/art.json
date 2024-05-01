@@ -3,7 +3,7 @@
   "owner": {
     "_id": "iisssmptqoCKgZqaQ",
     "createdAt": {
-      "$date": "1652854948747"
+      "$date": 1652854948747
     },
     "profile": {
       "name": "taeju.Kwon",
@@ -12,15 +12,15 @@
     "username": "taejukwon-digipen"
   },
   "createdAt": {
-    "$date": "1653482890661"
+    "$date": 1653482890661
   },
   "modifiedAt": {
-    "$date": "1653482890661"
+    "$date": 1653482890661
   },
   "origId": null,
   "name": "audio reactive art",
   "notes": "variation",
-  "rank": "1.6883216577144196",
+  "rank": 1.6883216577144196,
   "private": false,
   "unlisted": true,
   "username": "taejukwon-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-lyfg8qo1cza6em05t-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "8g2kxRTHwsRWkaSMM"
 }

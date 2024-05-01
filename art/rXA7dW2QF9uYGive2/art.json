@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Qepb28Zb8T4S4FH9e",
     "createdAt": {
-      "$date": "1651354813104"
+      "$date": 1651354813104
     },
     "username": "argonblue",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1651354874048"
+    "$date": 1651354874048
   },
   "modifiedAt": {
-    "$date": "1651459289417"
+    "$date": 1651459289417
   },
   "origId": null,
   "name": "trochoids",
   "notes": "spinning breathing trochoids",
-  "rank": "1.447953621373387",
+  "rank": 1.447953621373387,
   "private": false,
   "unlisted": false,
   "username": "argonblue",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-nuewkledrnmenfsgg-thumbnail.jpg",
   "hasSound": "",
-  "views": "285",
-  "likes": "1",
+  "views": 285,
+  "likes": 1,
   "revisionId": "qYGcQWtPDkwsyWZsv"
 }

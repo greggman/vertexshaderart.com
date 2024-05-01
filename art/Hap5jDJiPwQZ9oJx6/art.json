@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ftuGm8iHDG6Qsq5hC",
     "createdAt": {
-      "$date": "1687680322526"
+      "$date": 1687680322526
     },
     "profile": {
       "first_name": "Eren",
@@ -13,15 +13,15 @@
     "username": "eren"
   },
   "createdAt": {
-    "$date": "1687691326508"
+    "$date": 1687691326508
   },
   "modifiedAt": {
-    "$date": "1687691326508"
+    "$date": 1687691326508
   },
   "origId": null,
   "name": "Motion-1",
   "notes": "My First Motion Art",
-  "rank": "1.8111338634143221",
+  "rank": 1.8111338634143221,
   "private": false,
   "unlisted": false,
   "username": "eren",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-gf2p7e048xlcan3ah-thumbnail.jpg",
   "hasSound": "",
-  "views": "36",
-  "likes": "1",
+  "views": 36,
+  "likes": 1,
   "revisionId": "eFKiXC6TZBa27Nzvn"
 }

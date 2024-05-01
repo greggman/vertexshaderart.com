@@ -3,7 +3,7 @@
   "owner": {
     "_id": "T2kiqcyrWpNY4YuE7",
     "createdAt": {
-      "$date": "1704921597360"
+      "$date": 1704921597360
     },
     "profile": {
       "name": "Simon Taeter",
@@ -12,15 +12,15 @@
     "username": "staeter"
   },
   "createdAt": {
-    "$date": "1705259211399"
+    "$date": 1705259211399
   },
   "modifiedAt": {
-    "$date": "1705259211399"
+    "$date": 1705259211399
   },
   "origId": "puvZxbRgEiG2MK4Rp",
   "name": "test model",
   "notes": "",
-  "rank": "1.6603344083368772",
+  "rank": 1.6603344083368772,
   "private": false,
   "unlisted": true,
   "username": "staeter",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-xoxz5ygjpco8ie76z-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "ayQkhg4ZCArAnXNYP"
 }

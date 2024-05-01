@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1687830435016"
+    "$date": 1687830435016
   },
   "modifiedAt": {
-    "$date": "1687830435016"
+    "$date": 1687830435016
   },
   "origId": "yMrRxwDvaoSaokXzo",
   "name": "sound,floatSound,volumn",
   "notes": "",
-  "rank": "1.2504193696763086",
+  "rank": 1.2504193696763086,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-8yl1wdtntsatb0vqo-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "TLdTsKtnmRHyQvQhn"
 }

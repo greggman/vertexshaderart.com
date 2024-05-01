@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1604401422565"
+    "$date": 1604401422565
   },
   "modifiedAt": {
-    "$date": "1604401422565"
+    "$date": 1604401422565
   },
   "origId": "eYuBQN69mTZCKaGdB",
   "name": "barret blockz ",
   "notes": "",
-  "rank": "1.9727978696847073",
+  "rank": 1.9727978696847073,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-4ucsh9d2402ttbrbf-thumbnail.jpg",
   "hasSound": true,
-  "views": "86",
-  "likes": "0",
+  "views": 86,
+  "likes": 0,
   "revisionId": "bntLBQfkuTPaGrtMu"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aRcuym3jqDR3e796n",
     "createdAt": {
-      "$date": "1446288834244"
+      "$date": 1446288834244
     },
     "profile": {
       "name": "Clément Duquesne",
@@ -12,10 +12,10 @@
     "username": "spotline"
   },
   "createdAt": {
-    "$date": "1447020608465"
+    "$date": 1447020608465
   },
   "modifiedAt": {
-    "$date": "1447022821129"
+    "$date": 1447022821129
   },
   "origId": "cdqm4FpNvFdtD7We7",
   "name": "residualfill",
@@ -36,9 +36,9 @@
   },
   "screenshotURL": "data/images/images-fz2lm2mbb8jipbv2g-thumbnail.jpg",
   "hasSound": true,
-  "views": "224",
-  "likes": "1",
+  "views": 224,
+  "likes": 1,
   "revisionId": "Z5c3XiWhe3mtH2nNK",
-  "rank": "1.5253919359736872",
+  "rank": 1.5253919359736872,
   "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
 }

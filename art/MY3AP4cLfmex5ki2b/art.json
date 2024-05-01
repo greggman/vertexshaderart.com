@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1598711334183"
+    "$date": 1598711334183
   },
   "modifiedAt": {
-    "$date": "1600519205493"
+    "$date": 1600519205493
   },
   "origId": "57DGNjDnDYwrBWXqD",
   "name": "eggsample",
   "notes": "",
-  "rank": "1.1571784793544553",
+  "rank": 1.1571784793544553,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-egfuq7qaauvg1h4tr-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "2cytE9b5HDimWX8B6"
 }

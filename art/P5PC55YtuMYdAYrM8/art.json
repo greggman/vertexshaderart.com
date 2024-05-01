@@ -3,7 +3,7 @@
   "owner": {
     "_id": "SNHTADKX2cCtRukEZ",
     "createdAt": {
-      "$date": "1554178887760"
+      "$date": 1554178887760
     },
     "profile": {
       "first_name": "wnstjr",
@@ -13,15 +13,15 @@
     "username": "wnstjr"
   },
   "createdAt": {
-    "$date": "1554179437871"
+    "$date": 1554179437871
   },
   "modifiedAt": {
-    "$date": "1554197239230"
+    "$date": 1554197239230
   },
   "origId": null,
   "name": "준석",
   "notes": "",
-  "rank": "1.800834186643862",
+  "rank": 1.800834186643862,
   "private": false,
   "unlisted": false,
   "username": "wnstjr",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-30e4etsehjli4yf9c-thumbnail.jpg",
   "hasSound": "",
-  "views": "184",
-  "likes": "0",
+  "views": 184,
+  "likes": 0,
   "revisionId": "7tKb9DbjpCkkteCsq"
 }

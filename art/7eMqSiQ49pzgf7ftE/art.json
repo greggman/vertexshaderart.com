@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1508001720479"
+    "$date": 1508001720479
   },
   "modifiedAt": {
-    "$date": "1508001720479"
+    "$date": 1508001720479
   },
   "origId": "YbA3f6xnjbmXzkwHx",
   "name": "Kringu",
   "notes": "",
-  "rank": "1.9047469928482799",
+  "rank": 1.9047469928482799,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-vwnaoos5ms2b3p01u-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "f6uomYJjbTYA4kW8T"
 }

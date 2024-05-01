@@ -3,7 +3,7 @@
   "owner": {
     "_id": "4FyZdAiKGxroxAzHY",
     "createdAt": {
-      "$date": "1551481183440"
+      "$date": 1551481183440
     },
     "profile": {
       "first_name": "Julio",
@@ -13,15 +13,15 @@
     "username": "julio"
   },
   "createdAt": {
-    "$date": "1551490687950"
+    "$date": 1551490687950
   },
   "modifiedAt": {
-    "$date": "1551490687950"
+    "$date": 1551490687950
   },
   "origId": "tiY4qnEQ7wBnY5XdH",
   "name": "Circulo",
   "notes": "Primera",
-  "rank": "1.6505534903138857",
+  "rank": 1.6505534903138857,
   "private": false,
   "unlisted": true,
   "username": "julio",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-e02qh3tkicqy8pyia-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "qj8pBwhPED8WAXn2z"
 }

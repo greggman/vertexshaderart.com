@@ -3,7 +3,7 @@
   "owner": {
     "_id": "cZNAKnfHAY6mZAn2h",
     "createdAt": {
-      "$date": "1598366337757"
+      "$date": 1598366337757
     },
     "username": "morimea",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1615908564541"
+    "$date": 1615908564541
   },
   "modifiedAt": {
-    "$date": "1616193476841"
+    "$date": 1616193476841
   },
   "origId": null,
   "name": "sphere df sphere",
   "notes": "sphere difference sphere approximation",
-  "rank": "1.246965383251837",
+  "rank": 1.246965383251837,
   "private": false,
   "unlisted": true,
   "username": "morimea",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-ip6tbvgojtbqp91jt-thumbnail.jpg",
   "hasSound": "",
-  "views": "19",
-  "likes": "0",
+  "views": 19,
+  "likes": 0,
   "revisionId": "mZXMqiCocfonBkBqF"
 }

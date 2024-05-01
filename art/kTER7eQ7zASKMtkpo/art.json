@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1485763057738"
+    "$date": 1485763057738
   },
   "modifiedAt": {
-    "$date": "1485763057738"
+    "$date": 1485763057738
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "shu1",
   "notes": "",
-  "rank": "1.923460575848831",
+  "rank": 1.923460575848831,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-qq13ef31pslbk4ebh-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "mZdgjSDHtmqgfNy2n"
 }

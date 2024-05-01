@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8zztH8K59zQaKjuQX",
     "createdAt": {
-      "$date": "1677359387406"
+      "$date": 1677359387406
     },
     "profile": {
       "first_name": "James",
@@ -13,15 +13,15 @@
     "username": "james2"
   },
   "createdAt": {
-    "$date": "1677801529595"
+    "$date": 1677801529595
   },
   "modifiedAt": {
-    "$date": "1677801529595"
+    "$date": 1677801529595
   },
   "origId": "948aadGavoEeSXCac",
   "name": "Amoeba V3",
   "notes": "Amoeba V3",
-  "rank": "1.647726837942896",
+  "rank": 1.647726837942896,
   "private": false,
   "unlisted": true,
   "username": "james2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-4h8e3jfje75pbeyxs-thumbnail.jpg",
   "hasSound": true,
-  "views": "10",
-  "likes": "0",
+  "views": 10,
+  "likes": 0,
   "revisionId": "YuT85Mq9LyYiseHK2"
 }

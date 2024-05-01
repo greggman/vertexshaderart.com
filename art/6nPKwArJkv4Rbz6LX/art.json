@@ -3,7 +3,7 @@
   "owner": {
     "_id": "CxvWHiJsRS28MeMHF",
     "createdAt": {
-      "$date": "1632425500099"
+      "$date": 1632425500099
     },
     "username": "feathj",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1632427305963"
+    "$date": 1632427305963
   },
   "modifiedAt": {
-    "$date": "1632428353721"
+    "$date": 1632428353721
   },
   "origId": null,
   "name": "music",
   "notes": "",
-  "rank": "1.9564172673524751",
+  "rank": 1.9564172673524751,
   "private": false,
   "unlisted": true,
   "username": "feathj",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-1jjw7crgw6fdi4tl9-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "tuBAF4SSpr7X7toqg"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1498931289942"
+    "$date": 1498931289942
   },
   "modifiedAt": {
-    "$date": "1498931289942"
+    "$date": 1498931289942
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.2737682065463187",
+  "rank": 1.2737682065463187,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-h32085hdcxi6iwcef-thumbnail.jpg",
   "hasSound": true,
-  "views": "72",
-  "likes": "0",
+  "views": 72,
+  "likes": 0,
   "revisionId": "YTcfz6EvsyMMc2v8j"
 }

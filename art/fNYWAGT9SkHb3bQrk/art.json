@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1610788825823"
+    "$date": 1610788825823
   },
   "modifiedAt": {
-    "$date": "1610788825823"
+    "$date": 1610788825823
   },
   "origId": "mmoaXfjg9s32v5Cpw",
   "name": "hypercubermod",
   "notes": "",
-  "rank": "1.5801028386181812",
+  "rank": 1.5801028386181812,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-xyxzilawzfc16xh2w-thumbnail.jpg",
   "hasSound": "",
-  "views": "92",
-  "likes": "0",
+  "views": 92,
+  "likes": 0,
   "revisionId": "YpbRZdGzz4wrmPYg6"
 }

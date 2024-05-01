@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1585503613150"
+    "$date": 1585503613150
   },
   "modifiedAt": {
-    "$date": "1585503613150"
+    "$date": 1585503613150
   },
   "origId": "L6xDZ78mbnpnMQGQj",
   "name": "adv_Sphere",
   "notes": "",
-  "rank": "1.1154688288613837",
+  "rank": 1.1154688288613837,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-hs0mc10gayrazpxni-thumbnail.jpg",
   "hasSound": true,
-  "views": "78",
-  "likes": "0",
+  "views": 78,
+  "likes": 0,
   "revisionId": "SiJB3x7bdYSA7LDCh"
 }

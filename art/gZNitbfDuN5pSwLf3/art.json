@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1465414973057"
+    "$date": 1465414973057
   },
   "modifiedAt": {
-    "$date": "1465459911874"
+    "$date": 1465459911874
   },
   "origId": "FPFBuCexgLQpriEoS",
   "name": "glyphs",
   "notes": "",
-  "rank": "1.8157984440309025",
+  "rank": 1.8157984440309025,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-tubz2x6f92hn416mc-thumbnail.jpg",
   "hasSound": true,
-  "views": "187",
-  "likes": "1",
+  "views": 187,
+  "likes": 1,
   "revisionId": "PwFMp6MHzGPRQ9sJS"
 }

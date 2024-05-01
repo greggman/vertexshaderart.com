@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1485259387108"
+    "$date": 1485259387108
   },
   "modifiedAt": {
-    "$date": "1485259387108"
+    "$date": 1485259387108
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "morp",
   "notes": "",
-  "rank": "10.66401645938793",
+  "rank": 10.66401645938793,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-uq2uvm3kk9szhih5j-thumbnail.jpg",
   "hasSound": true,
-  "views": "145",
-  "likes": "6",
+  "views": 145,
+  "likes": 6,
   "revisionId": "KNkctuazLbsCGqcnA"
 }

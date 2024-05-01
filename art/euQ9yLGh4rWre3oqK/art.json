@@ -3,7 +3,7 @@
   "owner": {
     "_id": "hZAFCdJeT5hB9wK8t",
     "createdAt": {
-      "$date": "1684925702058"
+      "$date": 1684925702058
     },
     "profile": {
       "first_name": "Good",
@@ -13,15 +13,15 @@
     "username": "good"
   },
   "createdAt": {
-    "$date": "1684928742678"
+    "$date": 1684928742678
   },
   "modifiedAt": {
-    "$date": "1684929397779"
+    "$date": 1684929397779
   },
   "origId": "iZwjTQ6SHPHX7EjSE",
   "name": "lesson-03-color",
   "notes": "",
-  "rank": "1.286946388451202",
+  "rank": 1.286946388451202,
   "private": false,
   "unlisted": true,
   "username": "good",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-61u0me3y90srjguux-thumbnail.jpg",
   "hasSound": "",
-  "views": "25",
-  "likes": "1",
+  "views": 25,
+  "likes": 1,
   "revisionId": "LHoFv5S4JYAq7Pv5A"
 }

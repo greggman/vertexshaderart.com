@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1499894692765"
+    "$date": 1499894692765
   },
   "modifiedAt": {
-    "$date": "1499894692765"
+    "$date": 1499894692765
   },
   "origId": null,
   "name": "VM in GPU",
   "notes": "",
-  "rank": "1.960911683810676",
+  "rank": 1.960911683810676,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-1yecq3mjrnnzlw2e2-thumbnail.jpg",
   "hasSound": "",
-  "views": "99",
-  "likes": "1",
+  "views": 99,
+  "likes": 1,
   "revisionId": "6nf83YAwu53kChNWH"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1713074381581"
+    "$date": 1713074381581
   },
   "modifiedAt": {
-    "$date": "1713074381581"
+    "$date": 1713074381581
   },
   "origId": null,
   "name": "uhhhh",
   "notes": "",
-  "rank": "1.3085667897325532",
+  "rank": 1.3085667897325532,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-otechd48mxfewps2n-thumbnail.jpg",
   "hasSound": true,
-  "views": "14",
-  "likes": "0",
+  "views": 14,
+  "likes": 0,
   "revisionId": "xHuD7BTR9YnHnRhu4"
 }

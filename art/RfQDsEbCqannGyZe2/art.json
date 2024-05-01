@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1522220568090"
+    "$date": 1522220568090
   },
   "modifiedAt": {
-    "$date": "1522220568090"
+    "$date": 1522220568090
   },
   "origId": "do5csPmmsrqctxz3p",
   "name": "BigSwingingSnake",
   "notes": "",
-  "rank": "1.5095058204273535",
+  "rank": 1.5095058204273535,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-iflh54mfysjelrwja-thumbnail.jpg",
   "hasSound": true,
-  "views": "68",
-  "likes": "0",
+  "views": 68,
+  "likes": 0,
   "revisionId": "d76j7msBb4o8Xn8jR"
 }

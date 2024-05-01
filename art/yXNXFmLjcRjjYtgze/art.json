@@ -4,10 +4,10 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1447491000134"
+    "$date": 1447491000134
   },
   "modifiedAt": {
-    "$date": "1447491000134"
+    "$date": 1447491000134
   },
   "origId": "cz2CWm8MobiaqYc46",
   "name": "residualfillattack",
@@ -28,8 +28,8 @@
   },
   "screenshotURL": "data/images/images-6b02jz4hsi46kwu3q-thumbnail.jpg",
   "hasSound": true,
-  "views": "66",
-  "likes": "0",
+  "views": 66,
+  "likes": 0,
   "revisionId": "HjMPZgTDpYBtuhYrb",
-  "rank": "1.8865823424068242"
+  "rank": 1.8865823424068242
 }

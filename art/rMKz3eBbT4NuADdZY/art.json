@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zb8mvzZdopDTzghEH",
     "createdAt": {
-      "$date": "1529745843000"
+      "$date": 1529745843000
     },
     "profile": {
       "first_name": "Shtrompel",
@@ -13,15 +13,15 @@
     "username": "shtrompel"
   },
   "createdAt": {
-    "$date": "1530284139225"
+    "$date": 1530284139225
   },
   "modifiedAt": {
-    "$date": "1530284139225"
+    "$date": 1530284139225
   },
   "origId": null,
   "name": "PseudoRandomParticles",
   "notes": "",
-  "rank": "1.1946535718379936",
+  "rank": 1.1946535718379936,
   "private": false,
   "unlisted": false,
   "username": "shtrompel",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-jzyzpjjyy5qz9j5im-thumbnail.jpg",
   "hasSound": "",
-  "views": "150",
-  "likes": "0",
+  "views": 150,
+  "likes": 0,
   "revisionId": "NMju3XfzoSroZq4jC"
 }

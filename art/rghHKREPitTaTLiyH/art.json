@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1642024013721"
+    "$date": 1642024013721
   },
   "modifiedAt": {
-    "$date": "1642024013721"
+    "$date": 1642024013721
   },
   "origId": "EZmjdzfcpwjp7MSFM",
   "name": "Oh my word",
   "notes": "",
-  "rank": "1.203068133286161",
+  "rank": 1.203068133286161,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-1b6nxvxr6g7tjaqux-thumbnail.jpg",
   "hasSound": true,
-  "views": "64",
-  "likes": "0",
+  "views": 64,
+  "likes": 0,
   "revisionId": "dZQbCSnMMbCmnorWv"
 }

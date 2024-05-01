@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": "1493741221077"
+      "$date": 1493741221077
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -12,15 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": "1499104426528"
+    "$date": 1499104426528
   },
   "modifiedAt": {
-    "$date": "1499104426528"
+    "$date": 1499104426528
   },
   "origId": "uPwKetxzwcL2PFZd6",
   "name": "thumpy forest - quick test",
   "notes": "",
-  "rank": "1.0441256846338465",
+  "rank": 1.0441256846338465,
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-mm9ouz23izd7d93sl-thumbnail.jpg",
   "hasSound": true,
-  "views": "132",
-  "likes": "0",
+  "views": 132,
+  "likes": 0,
   "revisionId": "WmFTsB5djXcrNdfuj"
 }

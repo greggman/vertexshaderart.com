@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yQmghLi2PdXR5TLMw",
     "createdAt": {
-      "$date": "1690312649014"
+      "$date": 1690312649014
     },
     "profile": {
       "name": "Minwook Park",
@@ -12,15 +12,15 @@
     "username": "wooknick"
   },
   "createdAt": {
-    "$date": "1690312813162"
+    "$date": 1690312813162
   },
   "modifiedAt": {
-    "$date": "1690312813162"
+    "$date": 1690312813162
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.6647093701941726",
+  "rank": 1.6647093701941726,
   "private": false,
   "unlisted": true,
   "username": "wooknick",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-r212odmwyt84rz3cq-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "3XXpGPwzH7gJzi9Cn"
 }

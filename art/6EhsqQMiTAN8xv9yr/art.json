@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1490180943383"
+    "$date": 1490180943383
   },
   "modifiedAt": {
-    "$date": "1490180943383"
+    "$date": 1490180943383
   },
   "origId": "rZcr6zk3jJKzwJ2mD",
   "name": "sin-plotter",
   "notes": "",
-  "rank": "1.0934097863346357",
+  "rank": 1.0934097863346357,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-9fmpvfxmbrdgrznt6-thumbnail.jpg",
   "hasSound": true,
-  "views": "76",
-  "likes": "0",
+  "views": 76,
+  "likes": 0,
   "revisionId": "p4u69JBuvKRiTG2uP"
 }

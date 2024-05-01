@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": "1497270876730"
+      "$date": 1497270876730
     },
     "username": "zugzwang404",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1498055733496"
+    "$date": 1498055733496
   },
   "modifiedAt": {
-    "$date": "1498055733496"
+    "$date": 1498055733496
   },
   "origId": "qXiLEbW6jk6fh9rJj",
   "name": "bounder2 far",
   "notes": "",
-  "rank": "1.9181946204959657",
+  "rank": 1.9181946204959657,
   "private": false,
   "unlisted": true,
   "username": "zugzwang404",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-h217x89h2825f41y3-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "vnmT86CmARk8y2XPQ"
 }

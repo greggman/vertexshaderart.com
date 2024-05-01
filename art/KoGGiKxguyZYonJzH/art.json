@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ae4gC3FWQR5veXTKq",
     "createdAt": {
-      "$date": "1684210422037"
+      "$date": 1684210422037
     },
     "username": "w.chae",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684211053676"
+    "$date": 1684211053676
   },
   "modifiedAt": {
-    "$date": "1684211053676"
+    "$date": 1684211053676
   },
   "origId": null,
   "name": "Breathing Grid",
   "notes": "Exercise : Making A Grid\nCS250 Spring 2023",
-  "rank": "1.819821457686605",
+  "rank": 1.819821457686605,
   "private": false,
   "unlisted": true,
   "username": "w.chae",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-465o0gyaacj7yqh76-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "j6wy2zjTrkESWmuFQ"
 }

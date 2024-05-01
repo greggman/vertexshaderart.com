@@ -3,7 +3,7 @@
   "owner": {
     "_id": "pgKWPgR9Cfeze4JZf",
     "createdAt": {
-      "$date": "1684327971226"
+      "$date": 1684327971226
     },
     "profile": {
       "name": "seoseulbin",
@@ -12,15 +12,15 @@
     "username": "seoseulbin"
   },
   "createdAt": {
-    "$date": "1684396760013"
+    "$date": 1684396760013
   },
   "modifiedAt": {
-    "$date": "1684397163781"
+    "$date": 1684397163781
   },
   "origId": null,
   "name": "Motion with different motion pattern",
   "notes": "",
-  "rank": "1.846872055254276",
+  "rank": 1.846872055254276,
   "private": false,
   "unlisted": true,
   "username": "seoseulbin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-t58l812jeag04npi1-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "n33JSjSKcPyoJivrF"
 }

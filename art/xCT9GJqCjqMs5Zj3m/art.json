@@ -3,7 +3,7 @@
   "owner": {
     "_id": "5vj4on2zFGjvFpoeq",
     "createdAt": {
-      "$date": "1556923932187"
+      "$date": 1556923932187
     },
     "username": "tjak",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1556949245704"
+    "$date": 1556949245704
   },
   "modifiedAt": {
-    "$date": "1557006069610"
+    "$date": 1557006069610
   },
   "origId": null,
   "name": "circle",
   "notes": "",
-  "rank": "1.210382930547331",
+  "rank": 1.210382930547331,
   "private": false,
   "unlisted": true,
   "username": "tjak",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-vvi9acz2ifc9fg3h5-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "pkLBah3CqNo4qzwpT"
 }

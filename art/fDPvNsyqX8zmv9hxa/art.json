@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1496676932899"
+    "$date": 1496676932899
   },
   "modifiedAt": {
-    "$date": "1496677094726"
+    "$date": 1496677094726
   },
   "origId": "A6iuFb7Tmao4i5avw",
   "name": "spiralNoise",
   "notes": "",
-  "rank": "1.1116336338404351",
+  "rank": 1.1116336338404351,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-enlcwaqznapc9xhb8-thumbnail.jpg",
   "hasSound": true,
-  "views": "75",
-  "likes": "0",
+  "views": 75,
+  "likes": 0,
   "revisionId": "QTxxiLdDJ5uohXPRp"
 }

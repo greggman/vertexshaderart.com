@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aRcuym3jqDR3e796n",
     "createdAt": {
-      "$date": "1446288834244"
+      "$date": 1446288834244
     },
     "profile": {
       "name": "Clément Duquesne",
@@ -12,10 +12,10 @@
     "username": "spotline"
   },
   "createdAt": {
-    "$date": "1447113052187"
+    "$date": 1447113052187
   },
   "modifiedAt": {
-    "$date": "1447113052187"
+    "$date": 1447113052187
   },
   "origId": "iPiDjpBYDPGFTGp8Y",
   "name": "residualfillattack",
@@ -36,9 +36,9 @@
   },
   "screenshotURL": "data/images/images-c1cot7l4qyo0zrntr-thumbnail.jpg",
   "hasSound": true,
-  "views": "365",
-  "likes": "4",
+  "views": 365,
+  "likes": 4,
   "revisionId": "bTZGs67sH6DugvCjD",
-  "rank": "10.50271965629378",
+  "rank": 10.50271965629378,
   "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
 }

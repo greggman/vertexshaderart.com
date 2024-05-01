@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1507991803152"
+    "$date": 1507991803152
   },
   "modifiedAt": {
-    "$date": "1507991803152"
+    "$date": 1507991803152
   },
   "origId": "5YGSiNrquYpFi3Ggo",
   "name": "life is lil' better now thx",
   "notes": "",
-  "rank": "1.3782764251647057",
+  "rank": 1.3782764251647057,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-d9ckseu4mmgxfnce0-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "hDCxy5F5zGN4dyeap"
 }

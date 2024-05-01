@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1577996484790"
+    "$date": 1577996484790
   },
   "modifiedAt": {
-    "$date": "1577996484790"
+    "$date": 1577996484790
   },
   "origId": "BtkrDbo3o9cSAoXeW",
   "name": "stranded",
   "notes": "",
-  "rank": "1.1979423151176614",
+  "rank": 1.1979423151176614,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-sgreoau9jthpzdty2-thumbnail.jpg",
   "hasSound": true,
-  "views": "128",
-  "likes": "0",
+  "views": 128,
+  "likes": 0,
   "revisionId": "qpMdFX7N3wJYqZp5j"
 }

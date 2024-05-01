@@ -3,7 +3,7 @@
   "owner": {
     "_id": "pNRhszAEASfy6B3Xs",
     "createdAt": {
-      "$date": "1453130559425"
+      "$date": 1453130559425
     },
     "username": "gaz",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1458951994831"
+    "$date": 1458951994831
   },
   "modifiedAt": {
-    "$date": "1459146366446"
+    "$date": 1459146366446
   },
   "origId": "FvWzPMiZrdqtgEJHY",
   "name": "クラゲ",
   "notes": "",
-  "rank": "1.099853875373098",
+  "rank": 1.099853875373098,
   "private": false,
   "unlisted": false,
   "username": "gaz",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-yrushczem24ny5sni-thumbnail.jpg",
   "hasSound": "",
-  "views": "248",
-  "likes": "0",
+  "views": 248,
+  "likes": 0,
   "revisionId": "wr8PEF8PHGX6A8Pes"
 }

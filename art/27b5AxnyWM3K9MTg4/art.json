@@ -3,7 +3,7 @@
   "owner": {
     "_id": "T2kiqcyrWpNY4YuE7",
     "createdAt": {
-      "$date": "1704921597360"
+      "$date": 1704921597360
     },
     "profile": {
       "name": "Simon Taeter",
@@ -12,15 +12,15 @@
     "username": "staeter"
   },
   "createdAt": {
-    "$date": "1705067124557"
+    "$date": 1705067124557
   },
   "modifiedAt": {
-    "$date": "1705067124557"
+    "$date": 1705067124557
   },
   "origId": "Yg2urWWiE8sAJEo8W",
   "name": "nice patern",
   "notes": "",
-  "rank": "1.8691488028728167",
+  "rank": 1.8691488028728167,
   "private": false,
   "unlisted": true,
   "username": "staeter",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-a99xg0spxd1tgjcc3-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "xLwzTcfWmPS2rbmfN"
 }

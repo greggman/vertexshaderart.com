@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1482252697193"
+    "$date": 1482252697193
   },
   "modifiedAt": {
-    "$date": "1482252697193"
+    "$date": 1482252697193
   },
   "origId": null,
   "name": "SurfaceNet Metaball",
   "notes": "",
-  "rank": "10.738209142322725",
+  "rank": 10.738209142322725,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-290zfqwqwzy8ecig6-thumbnail.jpg",
   "hasSound": "",
-  "views": "768",
-  "likes": "3",
+  "views": 768,
+  "likes": 3,
   "revisionId": "3vraw9ESWCopjk4f2"
 }

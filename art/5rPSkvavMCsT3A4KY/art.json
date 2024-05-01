@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Gyn4vE9wtszDPta57",
     "createdAt": {
-      "$date": "1554190536287"
+      "$date": 1554190536287
     },
     "profile": {
       "first_name": "정학",
@@ -13,15 +13,15 @@
     "username": "정학"
   },
   "createdAt": {
-    "$date": "1554208672201"
+    "$date": 1554208672201
   },
   "modifiedAt": {
-    "$date": "1554208672201"
+    "$date": 1554208672201
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.1570100509722774",
+  "rank": 1.1570100509722774,
   "private": false,
   "unlisted": true,
   "username": "정학",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-qtgtr2eeoi2ejcmyh-thumbnail.jpg",
   "hasSound": true,
-  "views": "75",
-  "likes": "0",
+  "views": 75,
+  "likes": 0,
   "revisionId": "xnjmhkBfte9K8gHAL"
 }

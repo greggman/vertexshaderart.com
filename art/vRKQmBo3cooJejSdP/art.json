@@ -3,7 +3,7 @@
   "owner": {
     "_id": "bQer2D4p22YiaAkFt",
     "createdAt": {
-      "$date": "1684301218251"
+      "$date": 1684301218251
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "minjae-yu"
   },
   "createdAt": {
-    "$date": "1684814920148"
+    "$date": 1684814920148
   },
   "modifiedAt": {
-    "$date": "1684821751817"
+    "$date": 1684821751817
   },
   "origId": null,
   "name": "Audio Reactive",
   "notes": "",
-  "rank": "1.1911297997903378",
+  "rank": 1.1911297997903378,
   "private": false,
   "unlisted": true,
   "username": "minjae-yu",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-eehf04nwx1si1ttfh-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "KbBKwgZxSZXf5giWn"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gXvyYHFBWuxMkETEu",
     "createdAt": {
-      "$date": "1541434740235"
+      "$date": 1541434740235
     },
     "profile": {
       "first_name": "Ayrton",
@@ -13,15 +13,15 @@
     "username": "ayrton"
   },
   "createdAt": {
-    "$date": "1541434832478"
+    "$date": 1541434832478
   },
   "modifiedAt": {
-    "$date": "1541434832478"
+    "$date": 1541434832478
   },
   "origId": "Qh7WiD2iwnCrdfCXy",
   "name": "150bpm",
   "notes": "jezz",
-  "rank": "1.3246950165212545",
+  "rank": 1.3246950165212545,
   "private": false,
   "unlisted": true,
   "username": "ayrton",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-aipfix3jd5kt5kkiv-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "vGSFb54eaXhp2oE5j"
 }

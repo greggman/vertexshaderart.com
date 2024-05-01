@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1496861625447"
+    "$date": 1496861625447
   },
   "modifiedAt": {
-    "$date": "1496863070281"
+    "$date": 1496863070281
   },
   "origId": "8rEyCeYdp5FF6AwKL",
   "name": "Ksteamers",
   "notes": "",
-  "rank": "1.2757400680922433",
+  "rank": 1.2757400680922433,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-l6hpflu5dw7c2saqb-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "hrTqYoDAwFP4aP4Fk"
 }

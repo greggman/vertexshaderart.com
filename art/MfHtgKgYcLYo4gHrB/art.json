@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dJQkkRdctf5KySGfX",
     "createdAt": {
-      "$date": "1507259821848"
+      "$date": 1507259821848
     },
     "username": "jimhanks",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1507262381642"
+    "$date": 1507262381642
   },
   "modifiedAt": {
-    "$date": "1507262381642"
+    "$date": 1507262381642
   },
   "origId": "bcenao9Loe5Xc2Y7T",
   "name": "skyribbons",
   "notes": "",
-  "rank": "1.1183726291913618",
+  "rank": 1.1183726291913618,
   "private": false,
   "unlisted": true,
   "username": "jimhanks",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-le9jph5y2mi3w3yvt-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "arfEApqAjzEDhvCEE"
 }

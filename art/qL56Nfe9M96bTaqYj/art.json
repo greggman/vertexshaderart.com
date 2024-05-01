@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1508660448522"
+    "$date": 1508660448522
   },
   "modifiedAt": {
-    "$date": "1508660448522"
+    "$date": 1508660448522
   },
   "origId": "Hsmfxt55QrbZxDm4d",
   "name": "perc2xxx",
   "notes": "",
-  "rank": "10.645396794536547",
+  "rank": 10.645396794536547,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-ulv24gc01elrggl6p-thumbnail.jpg",
   "hasSound": true,
-  "views": "219",
-  "likes": "2",
+  "views": 219,
+  "likes": 2,
   "revisionId": "kNMSTSi7qstuMKFx5"
 }

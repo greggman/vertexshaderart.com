@@ -3,7 +3,7 @@
   "owner": {
     "_id": "A3xozQT3WGZPL6x35",
     "createdAt": {
-      "$date": "1684330244428"
+      "$date": 1684330244428
     },
     "username": "sangjin.lee",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684331724708"
+    "$date": 1684331724708
   },
   "modifiedAt": {
-    "$date": "1684331724708"
+    "$date": 1684331724708
   },
   "origId": "QQPfLKd8XLAt6wWQi",
   "name": "make grid",
   "notes": "",
-  "rank": "1.6672370122551097",
+  "rank": 1.6672370122551097,
   "private": false,
   "unlisted": true,
   "username": "sangjin.lee",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-mckm7effb8vd74fcs-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "5pnCWrSMDX8HPfKMW"
 }

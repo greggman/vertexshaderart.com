@@ -3,7 +3,7 @@
   "owner": {
     "_id": "kFy4FdSykoxKiLWNu",
     "createdAt": {
-      "$date": "1641637791041"
+      "$date": 1641637791041
     },
     "profile": {
       "name": "Grégoire Ciles",
@@ -12,15 +12,15 @@
     "username": "gregoireciles"
   },
   "createdAt": {
-    "$date": "1641639152114"
+    "$date": 1641639152114
   },
   "modifiedAt": {
-    "$date": "1641639152114"
+    "$date": 1641639152114
   },
   "origId": null,
   "name": "03 - Grid Motion & Color",
   "notes": "",
-  "rank": "1.65039664982305",
+  "rank": 1.65039664982305,
   "private": false,
   "unlisted": true,
   "username": "gregoireciles",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-g0e3bvvmadrgskrat-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "YbNXAPnbb8fY3KvCy"
 }

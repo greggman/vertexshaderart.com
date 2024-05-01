@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1508002321189"
+    "$date": 1508002321189
   },
   "modifiedAt": {
-    "$date": "1508002321189"
+    "$date": 1508002321189
   },
   "origId": "nL6YpkW8YvGKNEKtj",
   "name": "point cloud vs spheres",
   "notes": "",
-  "rank": "1.9161005051650728",
+  "rank": 1.9161005051650728,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-08vn41lpndi0opfyw-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "NPfHWJfJPggSb7ErR"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": "1497270876730"
+      "$date": 1497270876730
     },
     "username": "zugzwang404",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1498389578601"
+    "$date": 1498389578601
   },
   "modifiedAt": {
-    "$date": "1498389578601"
+    "$date": 1498389578601
   },
   "origId": "X4p3ogDk8g7e5CvmA",
   "name": "papipupepo for k machhine2",
   "notes": "",
-  "rank": "10.549645366728091",
+  "rank": 10.549645366728091,
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-2wbrxd7jhbg25dqkz-thumbnail.jpg",
   "hasSound": true,
-  "views": "219",
-  "likes": "2",
+  "views": 219,
+  "likes": 2,
   "revisionId": "LvmX32mNwxJ83Ms34"
 }

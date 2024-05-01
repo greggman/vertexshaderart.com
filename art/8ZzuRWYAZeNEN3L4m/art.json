@@ -3,7 +3,7 @@
   "owner": {
     "_id": "XzEZ5CLEQKEX99G6T",
     "createdAt": {
-      "$date": "1486735077160"
+      "$date": 1486735077160
     },
     "profile": {
       "name": "Hamad Al Ali",
@@ -12,15 +12,15 @@
     "username": "hamad"
   },
   "createdAt": {
-    "$date": "1486820270355"
+    "$date": 1486820270355
   },
   "modifiedAt": {
-    "$date": "1486820404330"
+    "$date": 1486820404330
   },
   "origId": null,
   "name": "Lesson 1.0",
   "notes": "",
-  "rank": "1.5006694029212875",
+  "rank": 1.5006694029212875,
   "private": false,
   "unlisted": true,
   "username": "hamad",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-7r9ebwhehh18sl4l0-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "R3j8ndvienYa8fMLe"
 }

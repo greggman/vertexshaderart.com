@@ -3,7 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": "1450381162182"
+      "$date": 1450381162182
     },
     "username": "aiekick",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1450381248386"
+    "$date": 1450381248386
   },
   "modifiedAt": {
-    "$date": "1450381369990"
+    "$date": 1450381369990
   },
   "origId": null,
   "name": "Lines Experiment 1",
   "notes": "",
-  "rank": "1.6363112315228892",
+  "rank": 1.6363112315228892,
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-wxu1z6zji5saekvh7-thumbnail.jpg",
   "hasSound": true,
-  "views": "157",
-  "likes": "0",
+  "views": 157,
+  "likes": 0,
   "revisionId": "2QjXMH6aX8fE7iu95"
 }

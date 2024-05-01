@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1471877345059"
+    "$date": 1471877345059
   },
   "modifiedAt": {
-    "$date": "1471877345059"
+    "$date": 1471877345059
   },
   "origId": "2nczC2kx9JRxu64gA",
   "name": "use-the-mic",
   "notes": "",
-  "rank": "1.8354820396393097",
+  "rank": 1.8354820396393097,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-m2f6e9q8i6a2amt1k-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "rRXrmM5zhezek2XzX"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1571775863853"
+    "$date": 1571775863853
   },
   "modifiedAt": {
-    "$date": "1571775863853"
+    "$date": 1571775863853
   },
   "origId": "oG23xNxiPkfCLufzk",
   "name": "widr",
   "notes": "",
-  "rank": "1.332955362124062",
+  "rank": 1.332955362124062,
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-i9geqj908wsd9weld-thumbnail.jpg",
   "hasSound": true,
-  "views": "90",
-  "likes": "0",
+  "views": 90,
+  "likes": 0,
   "revisionId": "C2PZbgtewEonwhBMp"
 }

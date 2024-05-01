@@ -3,7 +3,7 @@
   "owner": {
     "_id": "nTRyF676q3L6AsYmq",
     "createdAt": {
-      "$date": "1652847165974"
+      "$date": 1652847165974
     },
     "profile": {
       "name": "Hyunjin-Kim",
@@ -12,15 +12,15 @@
     "username": "hyunjin-kim-dp"
   },
   "createdAt": {
-    "$date": "1652949808050"
+    "$date": 1652949808050
   },
   "modifiedAt": {
-    "$date": "1652959355275"
+    "$date": 1652959355275
   },
   "origId": "32DEaMDYx5JAqhWRY",
   "name": "Exercise - Color - Hyunjin Kim",
   "notes": "",
-  "rank": "1.5047517048737042",
+  "rank": 1.5047517048737042,
   "private": false,
   "unlisted": true,
   "username": "hyunjin-kim-dp",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-8zkf7nwm55gqsg54e-thumbnail.jpg",
   "hasSound": "",
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "NWaDNYPGabRnxYSzv"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "u9A54Fr2xqnfssRpa",
     "createdAt": {
-      "$date": "1684324202773"
+      "$date": 1684324202773
     },
     "username": "seongryul.park",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684507557447"
+    "$date": 1684507557447
   },
   "modifiedAt": {
-    "$date": "1684507892968"
+    "$date": 1684507892968
   },
   "origId": "Yd2HBe825wEYTar8Y",
   "name": "Colors",
   "notes": "",
-  "rank": "1.3380949621917986",
+  "rank": 1.3380949621917986,
   "private": false,
   "unlisted": true,
   "username": "seongryul.park",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-5u1e0t58qj54qky9m-thumbnail.jpg",
   "hasSound": true,
-  "views": "10",
-  "likes": "0",
+  "views": 10,
+  "likes": 0,
   "revisionId": "9Zvf2n3okYkucAkEv"
 }

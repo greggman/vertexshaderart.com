@@ -3,7 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": "1667032560256"
+      "$date": 1667032560256
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": "1669091650606"
+    "$date": 1669091650606
   },
   "modifiedAt": {
-    "$date": "1669091650606"
+    "$date": 1669091650606
   },
   "origId": null,
   "name": "diamondshine",
   "notes": "",
-  "rank": "1.7715382105240343",
+  "rank": 1.7715382105240343,
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-kq333heq8zn3tb5kh-thumbnail.jpg",
   "hasSound": true,
-  "views": "60",
-  "likes": "0",
+  "views": 60,
+  "likes": 0,
   "revisionId": "MEspFJhWC4gkY7aeu"
 }

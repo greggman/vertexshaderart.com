@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s7HjFWhhQTWKGaPrB",
     "createdAt": {
-      "$date": "1554168718684"
+      "$date": 1554168718684
     },
     "profile": {
       "first_name": "철짜",
@@ -13,15 +13,15 @@
     "username": "철짜"
   },
   "createdAt": {
-    "$date": "1554181253984"
+    "$date": 1554181253984
   },
   "modifiedAt": {
-    "$date": "1554181253984"
+    "$date": 1554181253984
   },
   "origId": null,
   "name": "JJEONDA",
   "notes": "",
-  "rank": "1.950638505281269",
+  "rank": 1.950638505281269,
   "private": false,
   "unlisted": true,
   "username": "철짜",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-6fzgwn9evvfhol9hv-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "ep3ntSZpZEejHvAB4"
 }

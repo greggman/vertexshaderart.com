@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ae4gC3FWQR5veXTKq",
     "createdAt": {
-      "$date": "1684210422037"
+      "$date": 1684210422037
     },
     "username": "w.chae",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1685427542379"
+    "$date": 1685427542379
   },
   "modifiedAt": {
-    "$date": "1685509911761"
+    "$date": 1685509911761
   },
   "origId": null,
   "name": "Circles from triangles",
   "notes": "Circles from triangles",
-  "rank": "1.8646654593525585",
+  "rank": 1.8646654593525585,
   "private": false,
   "unlisted": true,
   "username": "w.chae",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-fwryavh3o6605723t-thumbnail.jpg",
   "hasSound": true,
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "fdSMMSDy67HgBDbrg"
 }

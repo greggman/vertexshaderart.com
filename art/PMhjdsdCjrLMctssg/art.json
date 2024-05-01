@@ -3,7 +3,7 @@
   "owner": {
     "_id": "RMhdQhPbrnDH4xXJ8",
     "createdAt": {
-      "$date": "1684321868058"
+      "$date": 1684321868058
     },
     "username": "minseok.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684322699388"
+    "$date": 1684322699388
   },
   "modifiedAt": {
-    "$date": "1684322699388"
+    "$date": 1684322699388
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": "1.8187442586885243",
+  "rank": 1.8187442586885243,
   "private": false,
   "unlisted": true,
   "username": "minseok.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-r1y6prtdjizib41zv-thumbnail.jpg",
   "hasSound": "",
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "6x7aQnzcgBvYHd88C"
 }

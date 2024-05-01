@@ -3,7 +3,7 @@
   "owner": {
     "_id": "pNRhszAEASfy6B3Xs",
     "createdAt": {
-      "$date": "1453130559425"
+      "$date": 1453130559425
     },
     "username": "gaz",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1458810539228"
+    "$date": 1458810539228
   },
   "modifiedAt": {
-    "$date": "1458947554076"
+    "$date": 1458947554076
   },
   "origId": "DSH7PskktA2rGgZ6F",
   "name": "Particle",
   "notes": "",
-  "rank": "1.2028496263449713",
+  "rank": 1.2028496263449713,
   "private": false,
   "unlisted": false,
   "username": "gaz",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-iw5tw2hxsnowabvg7-thumbnail.jpg",
   "hasSound": "",
-  "views": "307",
-  "likes": "0",
+  "views": 307,
+  "likes": 0,
   "revisionId": "sAb27JrMufhdjS76A"
 }

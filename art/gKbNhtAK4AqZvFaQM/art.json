@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1672748463948"
+    "$date": 1672748463948
   },
   "modifiedAt": {
-    "$date": "1672748463948"
+    "$date": 1672748463948
   },
   "origId": "kiZueaqhT8s7yr7Tr",
   "name": "audio cubes",
   "notes": "code from tutorial on vertexshaders.com youtube channel.",
-  "rank": "1.2622984349021127",
+  "rank": 1.2622984349021127,
   "private": false,
   "unlisted": false,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-jlvq4qrowcpvrqioz-thumbnail.jpg",
   "hasSound": true,
-  "views": "67",
-  "likes": "0",
+  "views": 67,
+  "likes": 0,
   "revisionId": "eGkEX6s9EfdCokAdo"
 }

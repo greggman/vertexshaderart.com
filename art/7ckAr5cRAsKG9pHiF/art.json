@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gtmTwjfybNBxLCYrM",
     "createdAt": {
-      "$date": "1554726116747"
+      "$date": 1554726116747
     },
     "username": "pgan",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1554729732991"
+    "$date": 1554729732991
   },
   "modifiedAt": {
-    "$date": "1554729732991"
+    "$date": 1554729732991
   },
   "origId": "89PHWvc6bSoMDB4uq",
   "name": "grid0b",
   "notes": "",
-  "rank": "1.8689251580989519",
+  "rank": 1.8689251580989519,
   "private": false,
   "unlisted": true,
   "username": "pgan",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ggymf4qqxf7ro310l-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "FM3zT44BxkqwXCLoL"
 }

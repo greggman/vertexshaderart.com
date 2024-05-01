@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1516229450551"
+    "$date": 1516229450551
   },
   "modifiedAt": {
-    "$date": "1516229450551"
+    "$date": 1516229450551
   },
   "origId": "dk6ee6LN5fC4Dkybg",
   "name": "crystal irisz (1xxx)rwpoint",
   "notes": "",
-  "rank": "1.4982858884608383",
+  "rank": 1.4982858884608383,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-c022mpwshr8a65zpf-thumbnail.jpg",
   "hasSound": true,
-  "views": "79",
-  "likes": "0",
+  "views": 79,
+  "likes": 0,
   "revisionId": "S3CDGHwYq4AyTtKtu"
 }

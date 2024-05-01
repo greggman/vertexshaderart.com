@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1570789418144"
+    "$date": 1570789418144
   },
   "modifiedAt": {
-    "$date": "1689925800170"
+    "$date": 1689925800170
   },
   "origId": "N3hXFQfEHwQ9N3TkC",
   "name": "sdf-ish",
   "notes": "",
-  "rank": "10.227631380941888",
+  "rank": 10.227631380941888,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-lv949vucjio91xr9b-thumbnail.jpg",
   "hasSound": true,
-  "views": "1414",
-  "likes": "8",
+  "views": 1414,
+  "likes": 8,
   "revisionId": "PR8SgJFDr8yLg4kje"
 }

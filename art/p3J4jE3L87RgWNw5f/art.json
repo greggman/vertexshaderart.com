@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1590985742476"
+    "$date": 1590985742476
   },
   "modifiedAt": {
-    "$date": "1593355261439"
+    "$date": 1593355261439
   },
   "origId": "rABYouScqWKneNWRS",
   "name": "mostly harmless 4 Kmaachine WIP",
   "notes": "not tested",
-  "rank": "1.6033945000453667",
+  "rank": 1.6033945000453667,
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-5et9m0aa2yanjcxdc-thumbnail.jpg",
   "hasSound": true,
-  "views": "81",
-  "likes": "0",
+  "views": 81,
+  "likes": 0,
   "revisionId": "Mvcix4hr2huebBNqd"
 }

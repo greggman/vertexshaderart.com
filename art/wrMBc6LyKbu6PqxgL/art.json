@@ -3,7 +3,7 @@
   "owner": {
     "_id": "nTRyF676q3L6AsYmq",
     "createdAt": {
-      "$date": "1652847165974"
+      "$date": 1652847165974
     },
     "profile": {
       "name": "Hyunjin-Kim",
@@ -12,15 +12,15 @@
     "username": "hyunjin-kim-dp"
   },
   "createdAt": {
-    "$date": "1653459258178"
+    "$date": 1653459258178
   },
   "modifiedAt": {
-    "$date": "1653460021563"
+    "$date": 1653460021563
   },
   "origId": null,
   "name": "Exercise - Audio Reactive - hyunjin Kim",
   "notes": "",
-  "rank": "1.9734247499220472",
+  "rank": 1.9734247499220472,
   "private": false,
   "unlisted": true,
   "username": "hyunjin-kim-dp",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-rwj10l45dpo2ojncj-thumbnail.jpg",
   "hasSound": true,
-  "views": "9",
-  "likes": "0",
+  "views": 9,
+  "likes": 0,
   "revisionId": "rkkg3Q2NmPxQBywx2"
 }

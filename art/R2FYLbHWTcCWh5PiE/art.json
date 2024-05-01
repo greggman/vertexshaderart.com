@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1523511234768"
+    "$date": 1523511234768
   },
   "modifiedAt": {
-    "$date": "1523511234768"
+    "$date": 1523511234768
   },
   "origId": "79HqSrQH4meL63aAo",
   "name": "blorp",
   "notes": "",
-  "rank": "10.481400305665517",
+  "rank": 10.481400305665517,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-1rfxx5odugofg21pg-thumbnail.jpg",
   "hasSound": true,
-  "views": "1315",
-  "likes": "11",
+  "views": 1315,
+  "likes": 11,
   "revisionId": "8RSWkD747wiz86Z4X"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": "1553152938197"
+      "$date": 1553152938197
     },
     "username": "janalex",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553159308936"
+    "$date": 1553159308936
   },
   "modifiedAt": {
-    "$date": "1553159308936"
+    "$date": 1553159308936
   },
   "origId": "s4PDZP2QnF2WpRZqM",
   "name": "1903-GridBreathing",
   "notes": "",
-  "rank": "1.555900301681436",
+  "rank": 1.555900301681436,
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-zq8enawb0hnayhwvj-thumbnail.jpg",
   "hasSound": "",
-  "views": "20",
-  "likes": "0",
+  "views": 20,
+  "likes": 0,
   "revisionId": "LnbLd6ouQFyHmucvx"
 }

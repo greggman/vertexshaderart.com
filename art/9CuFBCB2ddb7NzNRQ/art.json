@@ -3,7 +3,7 @@
   "owner": {
     "_id": "3DdWGN3CvpXdvnPD4",
     "createdAt": {
-      "$date": "1642797844137"
+      "$date": 1642797844137
     },
     "profile": {
       "first_name": "vtastek",
@@ -12,15 +12,15 @@
     "username": "vtastek"
   },
   "createdAt": {
-    "$date": "1642797848795"
+    "$date": 1642797848795
   },
   "modifiedAt": {
-    "$date": "1642797848795"
+    "$date": 1642797848795
   },
   "origId": null,
   "name": "cccc",
   "notes": "",
-  "rank": "1.8088149510630196",
+  "rank": 1.8088149510630196,
   "private": false,
   "unlisted": true,
   "username": "vtastek",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-c4580x30auzhavrx6-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "WfzMi9ounDqKgjEqX"
 }

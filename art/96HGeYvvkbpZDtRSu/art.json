@@ -3,7 +3,7 @@
   "owner": {
     "_id": "95683ZgBuRkukjtj7",
     "createdAt": {
-      "$date": "1589922178477"
+      "$date": 1589922178477
     },
     "profile": {
       "first_name": "Markus",
@@ -13,15 +13,15 @@
     "username": "markus"
   },
   "createdAt": {
-    "$date": "1598910770243"
+    "$date": 1598910770243
   },
   "modifiedAt": {
-    "$date": "1598910770243"
+    "$date": 1598910770243
   },
   "origId": "JANswiNfyJnruo62E",
   "name": "miomio",
   "notes": "",
-  "rank": "1.9205170388590438",
+  "rank": 1.9205170388590438,
   "private": false,
   "unlisted": true,
   "username": "markus",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-8wi7qfhlmr0vlhwvl-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "scEJGsoLLpYikYPzc"
 }

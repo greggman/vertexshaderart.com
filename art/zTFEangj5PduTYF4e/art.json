@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gYyDpnHTrdJiiNi5M",
     "createdAt": {
-      "$date": "1578026327766"
+      "$date": 1578026327766
     },
     "profile": {
       "first_name": "ben",
@@ -13,15 +13,15 @@
     "username": "ben2"
   },
   "createdAt": {
-    "$date": "1578026782127"
+    "$date": 1578026782127
   },
   "modifiedAt": {
-    "$date": "1578101482887"
+    "$date": 1578101482887
   },
   "origId": null,
   "name": "block orchestra",
   "notes": "",
-  "rank": "1.1239330004813428",
+  "rank": 1.1239330004813428,
   "private": false,
   "unlisted": true,
   "username": "ben2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-r5sbnqd4l5gnfjql2-thumbnail.jpg",
   "hasSound": true,
-  "views": "18",
-  "likes": "0",
+  "views": 18,
+  "likes": 0,
   "revisionId": "saY9WXcnBS6CzRjZ9"
 }

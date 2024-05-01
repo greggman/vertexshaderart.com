@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1465663280230"
+    "$date": 1465663280230
   },
   "modifiedAt": {
-    "$date": "1465805307926"
+    "$date": 1465805307926
   },
   "origId": "yX9SGHv6RPPqcsXvh",
   "name": "hexit",
   "notes": "",
-  "rank": "1.0012441542648511",
+  "rank": 1.0012441542648511,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-qtgkigrawla1fyuu4-thumbnail.jpg",
   "hasSound": true,
-  "views": "310",
-  "likes": "1",
+  "views": 310,
+  "likes": 1,
   "revisionId": "JZyGMuzJg7PMfoSLj"
 }

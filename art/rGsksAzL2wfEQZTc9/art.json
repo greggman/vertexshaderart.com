@@ -3,7 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": "1501018355084"
+      "$date": 1501018355084
     },
     "username": "sylistine",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1601961470683"
+    "$date": 1601961470683
   },
   "modifiedAt": {
-    "$date": "1602054144777"
+    "$date": 1602054144777
   },
   "origId": null,
   "name": "Spiral",
   "notes": "undecided on what to do with music on this one, but it's a start",
-  "rank": "1.7009890661213252",
+  "rank": 1.7009890661213252,
   "private": false,
   "unlisted": false,
   "username": "sylistine",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-kyahbhq14imcddtpn-thumbnail.jpg",
   "hasSound": true,
-  "views": "192",
-  "likes": "0",
+  "views": 192,
+  "likes": 0,
   "revisionId": "gDSXRjizio9dWfNCW"
 }

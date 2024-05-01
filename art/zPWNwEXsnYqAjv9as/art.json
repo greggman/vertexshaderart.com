@@ -3,7 +3,7 @@
   "owner": {
     "_id": "frHwqfGRgMrLdBSxk",
     "createdAt": {
-      "$date": "1652848268471"
+      "$date": 1652848268471
     },
     "profile": {
       "name": "Sehoon Kim",
@@ -12,15 +12,15 @@
     "username": "sehoonkim-digipen"
   },
   "createdAt": {
-    "$date": "1652948758578"
+    "$date": 1652948758578
   },
   "modifiedAt": {
-    "$date": "1652948758578"
+    "$date": 1652948758578
   },
   "origId": null,
   "name": "Exercise - Vertexshaderart : Motion_",
   "notes": "Exercise - Vertexshaderart : Motion",
-  "rank": "1.0126497312996199",
+  "rank": 1.0126497312996199,
   "private": false,
   "unlisted": true,
   "username": "sehoonkim-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-sptq889z4hbc30ev1-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "f44uaRM8MjYo6Xfva"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": "1540408032900"
+      "$date": 1540408032900
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -12,15 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": "1540710954935"
+    "$date": 1540710954935
   },
   "modifiedAt": {
-    "$date": "1540710954935"
+    "$date": 1540710954935
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.3036337453459648",
+  "rank": 1.3036337453459648,
   "private": false,
   "unlisted": true,
   "username": "dertrackererpro",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3v2tartd20707roac-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "PNT776opRv5v5Ywys"
 }

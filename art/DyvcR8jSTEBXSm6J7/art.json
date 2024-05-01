@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": "1501857924166"
+      "$date": 1501857924166
     },
     "profile": {
       "name": "Macro Machines",
@@ -13,15 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": "1681884257825"
+    "$date": 1681884257825
   },
   "modifiedAt": {
-    "$date": "1681884257825"
+    "$date": 1681884257825
   },
   "origId": "4X6mJigNvjatDJv4q",
   "name": "RED HEXDROPS 2",
   "notes": "",
-  "rank": "1.6993268181333308",
+  "rank": 1.6993268181333308,
   "private": false,
   "unlisted": false,
   "username": "macro",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-dlp6o7b9nvq90f4me-thumbnail.jpg",
   "hasSound": true,
-  "views": "41",
-  "likes": "0",
+  "views": 41,
+  "likes": 0,
   "revisionId": "HpTDN85AYsYhDEMA7"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1667788082290"
+    "$date": 1667788082290
   },
   "modifiedAt": {
-    "$date": "1667788082290"
+    "$date": 1667788082290
   },
   "origId": "3eX8nyZYKzX3Xf9be",
   "name": "technoball K machinzed dev1 (GL_LINE_LOOP)",
   "notes": "",
-  "rank": "1.8869778624608837",
+  "rank": 1.8869778624608837,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-c348psbz7l0z9sg95-thumbnail.jpg",
   "hasSound": true,
-  "views": "75",
-  "likes": "0",
+  "views": 75,
+  "likes": 0,
   "revisionId": "M5THN4CmjC2qw6snK"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1642024813634"
+    "$date": 1642024813634
   },
   "modifiedAt": {
-    "$date": "1642073070493"
+    "$date": 1642073070493
   },
   "origId": "rghHKREPitTaTLiyH",
   "name": "Oh my word",
   "notes": "",
-  "rank": "1.632777081109505",
+  "rank": 1.632777081109505,
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-go3bn66wd32dq2ctc-thumbnail.jpg",
   "hasSound": true,
-  "views": "90",
-  "likes": "0",
+  "views": 90,
+  "likes": 0,
   "revisionId": "snGh7X5FGLbbj2XuJ"
 }

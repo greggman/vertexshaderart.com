@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1528819017360"
+    "$date": 1528819017360
   },
   "modifiedAt": {
-    "$date": "1528819017360"
+    "$date": 1528819017360
   },
   "origId": null,
   "name": "2d-plot-stuff",
   "notes": "",
-  "rank": "1.7016945724628143",
+  "rank": 1.7016945724628143,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-i0fdttshgateaqpaq-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "iCRcu5ELnqxJc4QrY"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "JEvFNjk8EJBsCLjrR",
     "createdAt": {
-      "$date": "1551481583617"
+      "$date": 1551481583617
     },
     "profile": {
       "first_name": "danyalillo",
@@ -12,15 +12,15 @@
     "username": "danyalillo"
   },
   "createdAt": {
-    "$date": "1551482159295"
+    "$date": 1551482159295
   },
   "modifiedAt": {
-    "$date": "1551482299560"
+    "$date": 1551482299560
   },
   "origId": "ZADtvSryHzDYzCtp9",
   "name": "tirangulos seguidos",
   "notes": "",
-  "rank": "1.8275087533124457",
+  "rank": 1.8275087533124457,
   "private": false,
   "unlisted": true,
   "username": "danyalillo",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-u5xh5jviptvumhdy3-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "s7DXXcMZdr7txK4y9"
 }

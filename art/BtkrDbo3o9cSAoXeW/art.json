@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Bs4vwFBoeN6Lx3is5",
     "createdAt": {
-      "$date": "1528672219472"
+      "$date": 1528672219472
     },
     "profile": {
       "name": "Justin Shrake",
@@ -13,15 +13,15 @@
     "username": "jshrake"
   },
   "createdAt": {
-    "$date": "1550159640832"
+    "$date": 1550159640832
   },
   "modifiedAt": {
-    "$date": "1550159640832"
+    "$date": 1550159640832
   },
   "origId": null,
   "name": "the tangled webs we weave",
   "notes": "",
-  "rank": "10.632310379170425",
+  "rank": 10.632310379170425,
   "private": false,
   "unlisted": false,
   "username": "jshrake",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-qleasf6nnaggwvev5-thumbnail.jpg",
   "hasSound": "",
-  "views": "1185",
-  "likes": "6",
+  "views": 1185,
+  "likes": 6,
   "revisionId": "HQev3j8f4zgkNztxf"
 }

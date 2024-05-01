@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1680860930351"
+    "$date": 1680860930351
   },
   "modifiedAt": {
-    "$date": "1680860930351"
+    "$date": 1680860930351
   },
   "origId": "tbsksogaFbe66Nn5Q",
   "name": "Colorful Circle",
   "notes": "",
-  "rank": "1.6398902412467624",
+  "rank": 1.6398902412467624,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-nx2k1jvqdmfkqwyam-thumbnail.jpg",
   "hasSound": true,
-  "views": "37",
-  "likes": "0",
+  "views": 37,
+  "likes": 0,
   "revisionId": "AmWhEDMYWHRjBfGk6"
 }

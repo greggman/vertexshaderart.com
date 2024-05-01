@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1539441233309"
+    "$date": 1539441233309
   },
   "modifiedAt": {
-    "$date": "1539441233309"
+    "$date": 1539441233309
   },
   "origId": "iuT7hG7CEXwYqShtA",
   "name": "omg drangonz 4Kmachine test",
   "notes": "",
-  "rank": "1.783084088750377",
+  "rank": 1.783084088750377,
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-qcles2nwa1lrn2r5s-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "RmWQ3Pm8SWqQ7YHAv"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1584571645179"
+    "$date": 1584571645179
   },
   "modifiedAt": {
-    "$date": "1584571645179"
+    "$date": 1584571645179
   },
   "origId": null,
   "name": "essai",
   "notes": "",
-  "rank": "1.784526210977046",
+  "rank": 1.784526210977046,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-ed4tiyto0y1w1ng9e-thumbnail.jpg",
   "hasSound": true,
-  "views": "83",
-  "likes": "0",
+  "views": 83,
+  "likes": 0,
   "revisionId": "joeXdFMswa39RwK4X"
 }

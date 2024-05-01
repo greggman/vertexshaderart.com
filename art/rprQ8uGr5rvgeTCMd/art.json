@@ -3,7 +3,7 @@
   "owner": {
     "_id": "i6CP4B7Taawo7aeSC",
     "createdAt": {
-      "$date": "1662538816859"
+      "$date": 1662538816859
     },
     "username": "rmccampbell7",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1662538832515"
+    "$date": 1662538832515
   },
   "modifiedAt": {
-    "$date": "1662539875305"
+    "$date": 1662539875305
   },
   "origId": null,
   "name": "Sphere",
   "notes": "",
-  "rank": "1.0130754009876566",
+  "rank": 1.0130754009876566,
   "private": false,
   "unlisted": true,
   "username": "rmccampbell7",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ev8tke6yqm35y9bo5-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "TQ4giyEBXZY9TTBAQ"
 }

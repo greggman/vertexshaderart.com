@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1499268156428"
+    "$date": 1499268156428
   },
   "modifiedAt": {
-    "$date": "1499268156428"
+    "$date": 1499268156428
   },
   "origId": null,
   "name": "epipepsi",
   "notes": "",
-  "rank": "1.1849535059297904",
+  "rank": 1.1849535059297904,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-2arlfwexed7lt7a1k-thumbnail.jpg",
   "hasSound": true,
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "ec8ih56Bxr6BLaRiC"
 }

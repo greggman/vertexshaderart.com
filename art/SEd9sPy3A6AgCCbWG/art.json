@@ -3,7 +3,7 @@
   "owner": {
     "_id": "RMhdQhPbrnDH4xXJ8",
     "createdAt": {
-      "$date": "1684321868058"
+      "$date": 1684321868058
     },
     "username": "minseok.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684392294637"
+    "$date": 1684392294637
   },
   "modifiedAt": {
-    "$date": "1684392294637"
+    "$date": 1684392294637
   },
   "origId": null,
   "name": "Motion_minseok_kim",
   "notes": "",
-  "rank": "1.0411230480629232",
+  "rank": 1.0411230480629232,
   "private": false,
   "unlisted": true,
   "username": "minseok.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-oym5zd6fnb788qsob-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "t4upxDd3BceGY93aT"
 }

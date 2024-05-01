@@ -3,7 +3,7 @@
   "owner": {
     "_id": "74DGefcaFXNz9a4tp",
     "createdAt": {
-      "$date": "1714139701715"
+      "$date": 1714139701715
     },
     "profile": {
       "first_name": "Salvatore",
@@ -13,15 +13,15 @@
     "username": "salvatore"
   },
   "createdAt": {
-    "$date": "1714205641861"
+    "$date": 1714205641861
   },
   "modifiedAt": {
-    "$date": "1714205641861"
+    "$date": 1714205641861
   },
   "origId": null,
   "name": "Cube",
   "notes": "",
-  "rank": "3.0113640495326894",
+  "rank": 3.0113640495326894,
   "private": false,
   "unlisted": true,
   "username": "salvatore",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-r6gwi3wy9x5apif9l-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "PYLWzvvXJyKGQnFCB"
 }

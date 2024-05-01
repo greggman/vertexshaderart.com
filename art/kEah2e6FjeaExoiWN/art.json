@@ -3,7 +3,7 @@
   "owner": {
     "_id": "m6NzvnPPTaAroy2Ma",
     "createdAt": {
-      "$date": "1652623511870"
+      "$date": 1652623511870
     },
     "profile": {
       "name": "junsujang-digipen",
@@ -13,15 +13,15 @@
     "username": "junsujang-digipen"
   },
   "createdAt": {
-    "$date": "1652764784355"
+    "$date": 1652764784355
   },
   "modifiedAt": {
-    "$date": "1652764784355"
+    "$date": 1652764784355
   },
   "origId": null,
   "name": "Colors in the deep sea",
   "notes": "",
-  "rank": "1.4574382920445401",
+  "rank": 1.4574382920445401,
   "private": false,
   "unlisted": true,
   "username": "junsujang-digipen",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-42ql98hyqqld567a6-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "TRYsupqKEcTB9LwcG"
 }

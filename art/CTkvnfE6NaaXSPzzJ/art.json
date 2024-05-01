@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1571779636127"
+    "$date": 1571779636127
   },
   "modifiedAt": {
-    "$date": "1571779636127"
+    "$date": 1571779636127
   },
   "origId": "kmN3hqhTHv4SCqYcx",
   "name": "HexGrid2",
   "notes": "mouse for control shape pattern",
-  "rank": "1.865977451658839",
+  "rank": 1.865977451658839,
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-odx2a9cagv1jtbkc0-thumbnail.jpg",
   "hasSound": true,
-  "views": "142",
-  "likes": "0",
+  "views": 142,
+  "likes": 0,
   "revisionId": "dLQhNAbqboP95bZFg"
 }

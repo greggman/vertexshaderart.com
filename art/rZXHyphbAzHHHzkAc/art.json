@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8YazjgbR8FtHJgYgR",
     "createdAt": {
-      "$date": "1689266555980"
+      "$date": 1689266555980
     },
     "username": "ersh",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1689307185308"
+    "$date": 1689307185308
   },
   "modifiedAt": {
-    "$date": "1689308259177"
+    "$date": 1689308259177
   },
   "origId": null,
   "name": "3d try",
   "notes": "",
-  "rank": "1.4560042386951366",
+  "rank": 1.4560042386951366,
   "private": false,
   "unlisted": true,
   "username": "ersh",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-80jhf3s1ev6vkv6qw-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "tBLncbZRCLxGgTm6W"
 }

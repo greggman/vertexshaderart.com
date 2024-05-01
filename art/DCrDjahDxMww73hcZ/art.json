@@ -3,7 +3,7 @@
   "owner": {
     "_id": "JcoDvB5odWzooW9Xu",
     "createdAt": {
-      "$date": "1640454644220"
+      "$date": 1640454644220
     },
     "profile": {
       "first_name": "Soumak",
@@ -13,15 +13,15 @@
     "username": "soumak"
   },
   "createdAt": {
-    "$date": "1640454775874"
+    "$date": 1640454775874
   },
   "modifiedAt": {
-    "$date": "1640454775874"
+    "$date": 1640454775874
   },
   "origId": null,
   "name": "Lesson 1",
   "notes": "",
-  "rank": "1.88966901465754",
+  "rank": 1.88966901465754,
   "private": false,
   "unlisted": true,
   "username": "soumak",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-jt9hfc0ycpjo740va-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "R65sxDGeZnRi7Wnsg"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": "1501018355084"
+      "$date": 1501018355084
     },
     "username": "sylistine",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1600668508426"
+    "$date": 1600668508426
   },
   "modifiedAt": {
-    "$date": "1600942479802"
+    "$date": 1600942479802
   },
   "origId": null,
   "name": "new-desu-dance",
   "notes": "Still in vogue to be dead.\n\nstole a bunch of boilerplate from gman",
-  "rank": "1.837571803538919",
+  "rank": 1.837571803538919,
   "private": false,
   "unlisted": false,
   "username": "sylistine",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-k210otrzy5415ev5i-thumbnail.jpg",
   "hasSound": true,
-  "views": "181",
-  "likes": "1",
+  "views": 181,
+  "likes": 1,
   "revisionId": "7zLn69JLAQLrjzHeA"
 }

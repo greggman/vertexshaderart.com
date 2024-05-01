@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": "1523273254098"
+      "$date": 1523273254098
     },
     "profile": {
       "first_name": "Brendon",
@@ -14,15 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": "1524505967775"
+    "$date": 1524505967775
   },
   "modifiedAt": {
-    "$date": "1524509044950"
+    "$date": 1524509044950
   },
   "origId": "jaG2f5XtrcpcNSePf",
   "name": "Wave like motion",
   "notes": "This stuff is super radical",
-  "rank": "1.5133841757306108",
+  "rank": 1.5133841757306108,
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -42,7 +42,7 @@
   },
   "screenshotURL": "data/images/images-fofkuy5cmrb8az76m-thumbnail.jpg",
   "hasSound": "",
-  "views": "11",
-  "likes": "0",
+  "views": 11,
+  "likes": 0,
   "revisionId": "SNrrBScauEiAYviHa"
 }

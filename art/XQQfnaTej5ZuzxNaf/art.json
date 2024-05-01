@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1499312011029"
+    "$date": 1499312011029
   },
   "modifiedAt": {
-    "$date": "1507625082001"
+    "$date": 1507625082001
   },
   "origId": "rvw679Z5He2rieYqy",
   "name": "dyson",
   "notes": "",
-  "rank": "10.280787961579097",
+  "rank": 10.280787961579097,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-45ab77rsq4obimrej-thumbnail.jpg",
   "hasSound": true,
-  "views": "1929",
-  "likes": "16",
+  "views": 1929,
+  "likes": 16,
   "revisionId": "tBTMJN5oAGSPjwSNT"
 }

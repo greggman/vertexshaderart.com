@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ZBHrEZGrgA6JBJGt7",
     "createdAt": {
-      "$date": "1463104654911"
+      "$date": 1463104654911
     },
     "username": "mipmap",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1463105327078"
+    "$date": 1463105327078
   },
   "modifiedAt": {
-    "$date": "1463105327078"
+    "$date": 1463105327078
   },
   "origId": "oNxBgiL2gw39fW6DS",
   "name": "msh jellyfish",
   "notes": "[Inspired by this](http://lightprocesses.tumblr.com/post/111678252500/horizon-coded-in-processing-10-frames-related) I somehow ended up here",
-  "rank": "1.4104118419371519",
+  "rank": 1.4104118419371519,
   "private": false,
   "unlisted": false,
   "username": "mipmap",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-mrb098ekplpzf5vmi-thumbnail.jpg",
   "hasSound": true,
-  "views": "128",
-  "likes": "0",
+  "views": 128,
+  "likes": 0,
   "revisionId": "QXh8pDStc4w7Pca7g"
 }

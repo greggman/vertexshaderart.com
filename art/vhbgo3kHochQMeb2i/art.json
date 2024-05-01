@@ -3,7 +3,7 @@
   "owner": {
     "_id": "qKPpzdr6wbcudsddm",
     "createdAt": {
-      "$date": "1552696746395"
+      "$date": 1552696746395
     },
     "profile": {
       "name": "Alejandro Cámara",
@@ -12,15 +12,15 @@
     "username": "alejandrocamara"
   },
   "createdAt": {
-    "$date": "1552970081941"
+    "$date": 1552970081941
   },
   "modifiedAt": {
-    "$date": "1553020918789"
+    "$date": 1553020918789
   },
   "origId": null,
   "name": "P04-Ej01",
   "notes": "",
-  "rank": "1.3557863458134083",
+  "rank": 1.3557863458134083,
   "private": false,
   "unlisted": true,
   "username": "alejandrocamara",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-s1qm4gmzq09mt4tvt-thumbnail.jpg",
   "hasSound": "",
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "FfsLt9dZD6AfHqvPZ"
 }

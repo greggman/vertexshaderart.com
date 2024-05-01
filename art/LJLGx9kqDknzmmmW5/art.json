@@ -3,7 +3,7 @@
   "owner": {
     "_id": "RMhdQhPbrnDH4xXJ8",
     "createdAt": {
-      "$date": "1684321868058"
+      "$date": 1684321868058
     },
     "username": "minseok.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684849940332"
+    "$date": 1684849940332
   },
   "modifiedAt": {
-    "$date": "1684849940332"
+    "$date": 1684849940332
   },
   "origId": null,
   "name": "Audio Reactive Art",
   "notes": "",
-  "rank": "1.281240226467666",
+  "rank": 1.281240226467666,
   "private": false,
   "unlisted": true,
   "username": "minseok.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-2mpfi817tahychowc-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "c6hgw226PDGnQGLe5"
 }

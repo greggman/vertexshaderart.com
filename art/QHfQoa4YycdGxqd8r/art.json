@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1477559121366"
+    "$date": 1477559121366
   },
   "modifiedAt": {
-    "$date": "1478717655122"
+    "$date": 1478717655122
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "post-its",
   "notes": "",
-  "rank": "10.46041331239242",
+  "rank": 10.46041331239242,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-i01msf2w0t87dqmat-thumbnail.jpg",
   "hasSound": true,
-  "views": "472",
-  "likes": "7",
+  "views": 472,
+  "likes": 7,
   "revisionId": "eQ23wnSzt4aAdmCXE"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1508995100985"
+    "$date": 1508995100985
   },
   "modifiedAt": {
-    "$date": "1508995100985"
+    "$date": 1508995100985
   },
   "origId": "mwvXDsken4yMnJbxW",
   "name": "666wired x2",
   "notes": "",
-  "rank": "1.5849160830169813",
+  "rank": 1.5849160830169813,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-635us2bt8hg7knjyx-thumbnail.jpg",
   "hasSound": true,
-  "views": "135",
-  "likes": "1",
+  "views": 135,
+  "likes": 1,
   "revisionId": "BBcB4in7rAY6dnj3A"
 }

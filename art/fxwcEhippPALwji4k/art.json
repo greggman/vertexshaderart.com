@@ -3,7 +3,7 @@
   "owner": {
     "_id": "9tfj9vemzSMedd72N",
     "createdAt": {
-      "$date": "1533789590227"
+      "$date": 1533789590227
     },
     "profile": {
       "first_name": "優斗",
@@ -13,15 +13,15 @@
     "username": "優斗"
   },
   "createdAt": {
-    "$date": "1534093939914"
+    "$date": 1534093939914
   },
   "modifiedAt": {
-    "$date": "1534093939914"
+    "$date": 1534093939914
   },
   "origId": "hhsdvkiJ32bCTcezv",
   "name": "lingeometry",
   "notes": "",
-  "rank": "1.259691865442021",
+  "rank": 1.259691865442021,
   "private": false,
   "unlisted": true,
   "username": "優斗",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-s39mnpzvehrw0b53p-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "8kEP4GLwf3onTsSJY"
 }

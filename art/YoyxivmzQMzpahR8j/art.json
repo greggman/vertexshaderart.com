@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1645618126969"
+    "$date": 1645618126969
   },
   "modifiedAt": {
-    "$date": "1645618126969"
+    "$date": 1645618126969
   },
   "origId": null,
   "name": "sea_urkin",
   "notes": "",
-  "rank": "1.6387389338531102",
+  "rank": 1.6387389338531102,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-n6a19w5liwxn91pib-thumbnail.jpg",
   "hasSound": "",
-  "views": "65",
-  "likes": "0",
+  "views": 65,
+  "likes": 0,
   "revisionId": "8oJzrT3iRXFxRB3tT"
 }

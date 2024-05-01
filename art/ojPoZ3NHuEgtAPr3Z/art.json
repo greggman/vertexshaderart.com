@@ -3,7 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": "1450381162182"
+      "$date": 1450381162182
     },
     "username": "aiekick",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1510247587359"
+    "$date": 1510247587359
   },
   "modifiedAt": {
-    "$date": "1675626740689"
+    "$date": 1675626740689
   },
   "origId": null,
   "name": "HexGrid",
   "notes": "mouse for control shape pattern",
-  "rank": "10.73990457946044",
+  "rank": 10.73990457946044,
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-174t4idwngdudj5ho-thumbnail.jpg",
   "hasSound": true,
-  "views": "883",
-  "likes": "4",
+  "views": 883,
+  "likes": 4,
   "revisionId": "y3hWB2B2wE547zAcq"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "YENNvdHH2hjjkQZyr",
     "createdAt": {
-      "$date": "1526166965786"
+      "$date": 1526166965786
     },
     "profile": {
       "name": "Rob Southgate",
@@ -12,15 +12,15 @@
     "username": "robsouthgate4"
   },
   "createdAt": {
-    "$date": "1526168917917"
+    "$date": 1526168917917
   },
   "modifiedAt": {
-    "$date": "1526168917917"
+    "$date": 1526168917917
   },
   "origId": "WXAP9xy4D98Qz6J8f",
   "name": "grid",
   "notes": "",
-  "rank": "1.4842107226351156",
+  "rank": 1.4842107226351156,
   "private": false,
   "unlisted": true,
   "username": "robsouthgate4",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-qryic8vculpgtppbz-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "2zBWFCfd2WJxKA6Xf"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "u4NtGnPbxt9dhGYLs",
     "createdAt": {
-      "$date": "1617861653143"
+      "$date": 1617861653143
     },
     "username": "blackle",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1617861662855"
+    "$date": 1617861662855
   },
   "modifiedAt": {
-    "$date": "1617864683523"
+    "$date": 1617864683523
   },
   "origId": null,
   "name": "cheese wheel",
   "notes": "first go at this stuff",
-  "rank": "10.47476435511673",
+  "rank": 10.47476435511673,
   "private": false,
   "unlisted": false,
   "username": "blackle",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-i425uicasg8nyron8-thumbnail.jpg",
   "hasSound": "",
-  "views": "615",
-  "likes": "2",
+  "views": 615,
+  "likes": 2,
   "revisionId": "KervAiXaPYkRyTi9T"
 }

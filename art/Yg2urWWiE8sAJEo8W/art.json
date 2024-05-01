@@ -3,7 +3,7 @@
   "owner": {
     "_id": "T2kiqcyrWpNY4YuE7",
     "createdAt": {
-      "$date": "1704921597360"
+      "$date": 1704921597360
     },
     "profile": {
       "name": "Simon Taeter",
@@ -12,15 +12,15 @@
     "username": "staeter"
   },
   "createdAt": {
-    "$date": "1705066436781"
+    "$date": 1705066436781
   },
   "modifiedAt": {
-    "$date": "1705066544175"
+    "$date": 1705066544175
   },
   "origId": "SWCEzMNTmvcDAxs3n",
   "name": "first mandelbrot",
   "notes": "",
-  "rank": "1.65659571785742",
+  "rank": 1.65659571785742,
   "private": false,
   "unlisted": true,
   "username": "staeter",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-meg2sgs3a6m1n2yqe-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "xnv9Ahvu4r3TwQGoc"
 }

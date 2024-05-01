@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": "1553152938197"
+      "$date": 1553152938197
     },
     "username": "janalex",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553245212406"
+    "$date": 1553245212406
   },
   "modifiedAt": {
-    "$date": "1553245212406"
+    "$date": 1553245212406
   },
   "origId": "mzzBJYvnnyvaq6xcD",
   "name": "1903-GridSound",
   "notes": "",
-  "rank": "1.446404607850624",
+  "rank": 1.446404607850624,
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-7vxgaxq2q9l94cdxq-thumbnail.jpg",
   "hasSound": true,
-  "views": "60",
-  "likes": "0",
+  "views": 60,
+  "likes": 0,
   "revisionId": "cme5LtNjYeJ8Nf2Kb"
 }

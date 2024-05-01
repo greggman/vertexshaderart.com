@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1541248651140"
+    "$date": 1541248651140
   },
   "modifiedAt": {
-    "$date": "1541248651140"
+    "$date": 1541248651140
   },
   "origId": null,
   "name": "BlockyMusicJumpingUpDown",
   "notes": "",
-  "rank": "1.8755323137156525",
+  "rank": 1.8755323137156525,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-zru4mzt8800b6ygij-thumbnail.jpg",
   "hasSound": true,
-  "views": "10",
-  "likes": "0",
+  "views": 10,
+  "likes": 0,
   "revisionId": "tcB8MaujBwA4ijQ9f"
 }

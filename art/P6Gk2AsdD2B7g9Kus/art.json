@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gcRCT9yQ5egNX7ZiN",
     "createdAt": {
-      "$date": "1594603813917"
+      "$date": 1594603813917
     },
     "username": "krankerapfel",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1594603818637"
+    "$date": 1594603818637
   },
   "modifiedAt": {
-    "$date": "1594603818637"
+    "$date": 1594603818637
   },
   "origId": null,
   "name": "first",
   "notes": "",
-  "rank": "1.8633904270003834",
+  "rank": 1.8633904270003834,
   "private": false,
   "unlisted": true,
   "username": "krankerapfel",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-r71artuclmtt2i279-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "fXy5KizEcAQjZFR7e"
 }

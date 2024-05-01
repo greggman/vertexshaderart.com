@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1518990414139"
+    "$date": 1518990414139
   },
   "modifiedAt": {
-    "$date": "1518990414139"
+    "$date": 1518990414139
   },
   "origId": "Wo2pq9yKds3mQYWaX",
   "name": "circlepower K FURR233x",
   "notes": "",
-  "rank": "1.3417521323487096",
+  "rank": 1.3417521323487096,
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-u1matgvqlff34c2pb-thumbnail.jpg",
   "hasSound": true,
-  "views": "135",
-  "likes": "0",
+  "views": 135,
+  "likes": 0,
   "revisionId": "Wb6i8fk8FeSQT7Tz6"
 }

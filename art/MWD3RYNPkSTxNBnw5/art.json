@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QkYtQwKSkrERD78qN",
     "createdAt": {
-      "$date": "1528706141366"
+      "$date": 1528706141366
     },
     "username": "bigmike",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1528706453439"
+    "$date": 1528706453439
   },
   "modifiedAt": {
-    "$date": "1528706453439"
+    "$date": 1528706453439
   },
   "origId": null,
   "name": "Spiralis",
   "notes": "",
-  "rank": "1.8294790676566244",
+  "rank": 1.8294790676566244,
   "private": false,
   "unlisted": false,
   "username": "bigmike",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ag2a6arvji65ixhau-thumbnail.jpg",
   "hasSound": "",
-  "views": "301",
-  "likes": "0",
+  "views": 301,
+  "likes": 0,
   "revisionId": "uHPrGiX4xxm6H8PHg"
 }

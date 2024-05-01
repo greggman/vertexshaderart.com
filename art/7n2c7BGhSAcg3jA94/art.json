@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zKhW8yzWLdnCyhsbF",
     "createdAt": {
-      "$date": "1630803554298"
+      "$date": 1630803554298
     },
     "profile": {
       "first_name": "YongSoo",
@@ -13,15 +13,15 @@
     "username": "yongsoo"
   },
   "createdAt": {
-    "$date": "1630818355951"
+    "$date": 1630818355951
   },
   "modifiedAt": {
-    "$date": "1631087850693"
+    "$date": 1631087850693
   },
   "origId": null,
   "name": "test",
   "notes": "",
-  "rank": "1.603579148679726",
+  "rank": 1.603579148679726,
   "private": false,
   "unlisted": true,
   "username": "yongsoo",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-3x4kh5u4dip9h08y6-thumbnail.jpg",
   "hasSound": "",
-  "views": "25",
-  "likes": "0",
+  "views": 25,
+  "likes": 0,
   "revisionId": "PrFJhmh6jXxuCXXqY"
 }

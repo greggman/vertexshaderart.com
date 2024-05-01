@@ -3,7 +3,7 @@
   "owner": {
     "_id": "cZNAKnfHAY6mZAn2h",
     "createdAt": {
-      "$date": "1598366337757"
+      "$date": 1598366337757
     },
     "username": "morimea",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1599349722701"
+    "$date": 1599349722701
   },
   "modifiedAt": {
-    "$date": "1599381002169"
+    "$date": 1599381002169
   },
   "origId": null,
   "name": "Functions rotation animation",
   "notes": "logic based on my own old demo https://youtu.be/405yudjksDA",
-  "rank": "1.4223532267597618",
+  "rank": 1.4223532267597618,
   "private": false,
   "unlisted": false,
   "username": "morimea",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-icfdnj1z1gcwact4x-thumbnail.jpg",
   "hasSound": "",
-  "views": "610",
-  "likes": "1",
+  "views": 610,
+  "likes": 1,
   "revisionId": "9B62K5e3B6dAswERa"
 }

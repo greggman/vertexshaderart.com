@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": "1540408032900"
+      "$date": 1540408032900
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -12,15 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": "1541187752601"
+    "$date": 1541187752601
   },
   "modifiedAt": {
-    "$date": "1541187752601"
+    "$date": 1541187752601
   },
   "origId": null,
   "name": "Lines",
   "notes": "",
-  "rank": "1.857492530869413",
+  "rank": 1.857492530869413,
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3p9f3xi3zwufkvvpc-thumbnail.jpg",
   "hasSound": "",
-  "views": "171",
-  "likes": "0",
+  "views": 171,
+  "likes": 0,
   "revisionId": "eZGuCXN3ooW6SbtwT"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "SG4MbZxYFi8cCsFwr",
     "createdAt": {
-      "$date": "1712832147485"
+      "$date": 1712832147485
     },
     "profile": {
       "first_name": "Masoud",
@@ -13,15 +13,15 @@
     "username": "masoud"
   },
   "createdAt": {
-    "$date": "1712833030346"
+    "$date": 1712833030346
   },
   "modifiedAt": {
-    "$date": "1712833030346"
+    "$date": 1712833030346
   },
   "origId": "ijffwwNcMKiZYCxge",
   "name": "zheball",
   "notes": "",
-  "rank": "1.145300064799041",
+  "rank": 1.145300064799041,
   "private": false,
   "unlisted": false,
   "username": "masoud",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-j1z04sh3qlgivmavm-thumbnail.jpg",
   "hasSound": true,
-  "views": "19",
-  "likes": "0",
+  "views": 19,
+  "likes": 0,
   "revisionId": "iNPp3wFTcNWSDBBSt"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Quw47FgGEXxpL2vcm",
     "createdAt": {
-      "$date": "1639430298074"
+      "$date": 1639430298074
     },
     "profile": {
       "first_name": "mohamed",
@@ -13,15 +13,15 @@
     "username": "mohamed"
   },
   "createdAt": {
-    "$date": "1639430408867"
+    "$date": 1639430408867
   },
   "modifiedAt": {
-    "$date": "1639431380123"
+    "$date": 1639431380123
   },
   "origId": null,
   "name": "First",
   "notes": "",
-  "rank": "1.3970162853634824",
+  "rank": 1.3970162853634824,
   "private": false,
   "unlisted": true,
   "username": "mohamed",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-wht771s9xo3e0r8hp-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "vD9zGwhAcEC59soAa"
 }

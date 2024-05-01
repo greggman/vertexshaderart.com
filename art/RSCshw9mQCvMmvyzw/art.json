@@ -3,7 +3,7 @@
   "owner": {
     "_id": "RMhdQhPbrnDH4xXJ8",
     "createdAt": {
-      "$date": "1684321868058"
+      "$date": 1684321868058
     },
     "username": "minseok.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684849869676"
+    "$date": 1684849869676
   },
   "modifiedAt": {
-    "$date": "1684850187642"
+    "$date": 1684850187642
   },
   "origId": null,
   "name": "Audio Reactive Art_minseok_kim",
   "notes": "",
-  "rank": "1.9852342540927088",
+  "rank": 1.9852342540927088,
   "private": false,
   "unlisted": true,
   "username": "minseok.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-clzk9aqyun5iclc0v-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "9YzhE9L5SjgMnwhfq"
 }

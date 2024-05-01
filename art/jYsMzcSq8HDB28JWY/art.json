@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s7uajwjtjeouLcAYT",
     "createdAt": {
-      "$date": "1656593092517"
+      "$date": 1656593092517
     },
     "profile": {
       "name": "Jared",
@@ -13,15 +13,15 @@
     "username": "molotovbliss"
   },
   "createdAt": {
-    "$date": "1658405310052"
+    "$date": 1658405310052
   },
   "modifiedAt": {
-    "$date": "1658414988153"
+    "$date": 1658414988153
   },
   "origId": "8TsxtdLjke5zy5qJu",
   "name": "inr2",
   "notes": "",
-  "rank": "1.812698385226963",
+  "rank": 1.812698385226963,
   "private": false,
   "unlisted": true,
   "username": "molotovbliss",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-0swbc9i5aimjoupj3-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "QQG5WJgFNJz4cHXMs"
 }

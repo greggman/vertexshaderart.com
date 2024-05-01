@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": "1497270876730"
+      "$date": 1497270876730
     },
     "username": "zugzwang404",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1503024260425"
+    "$date": 1503024260425
   },
   "modifiedAt": {
-    "$date": "1503024260425"
+    "$date": 1503024260425
   },
   "origId": "ZZj9dLPDqjWny5kJW",
   "name": "Rose Quartz",
   "notes": "",
-  "rank": "1.2173381078378216",
+  "rank": 1.2173381078378216,
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-l8b5lyp1yu629cgp4-thumbnail.jpg",
   "hasSound": true,
-  "views": "120",
-  "likes": "0",
+  "views": 120,
+  "likes": 0,
   "revisionId": "78yE6GHtuJEGRFvLA"
 }

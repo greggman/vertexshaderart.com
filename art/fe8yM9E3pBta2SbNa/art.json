@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1621015321915"
+    "$date": 1621015321915
   },
   "modifiedAt": {
-    "$date": "1621015321915"
+    "$date": 1621015321915
   },
   "origId": "S7g7iMY2BZtMTZzuG",
   "name": "Squares",
   "notes": "code from tutorial on vertexshaders.com youtube channel.",
-  "rank": "1.6765591149492083",
+  "rank": 1.6765591149492083,
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-nzvwjs1cgrg1ldb07-thumbnail.jpg",
   "hasSound": true,
-  "views": "30",
-  "likes": "0",
+  "views": 30,
+  "likes": 0,
   "revisionId": "MiEbfwMSHD2ZJZypP"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "q8xjy6pWAb7ZKRnD5",
     "createdAt": {
-      "$date": "1501694904445"
+      "$date": 1501694904445
     },
     "username": "playdo",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1501717655906"
+    "$date": 1501717655906
   },
   "modifiedAt": {
-    "$date": "1501717655906"
+    "$date": 1501717655906
   },
   "origId": null,
   "name": "tutorial1",
   "notes": "",
-  "rank": "1.7699822682489825",
+  "rank": 1.7699822682489825,
   "private": false,
   "unlisted": true,
   "username": "playdo",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-wdy76pizzte4e1pj7-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "CMgkht97q9FmcfYjE"
 }

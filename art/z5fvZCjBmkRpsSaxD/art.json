@@ -3,7 +3,7 @@
   "owner": {
     "_id": "33GYvgRj3LP6Xt7T6",
     "createdAt": {
-      "$date": "1652800663941"
+      "$date": 1652800663941
     },
     "username": "hyosang_jung",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1653479629312"
+    "$date": 1653479629312
   },
   "modifiedAt": {
-    "$date": "1653479629312"
+    "$date": 1653479629312
   },
   "origId": null,
   "name": "Audio Reactive Art",
   "notes": "",
-  "rank": "1.075533056420215",
+  "rank": 1.075533056420215,
   "private": false,
   "unlisted": true,
   "username": "hyosang_jung",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-1c3eerh7a9z8kx4pl-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "2kSTLCJiG5XafhXYX"
 }

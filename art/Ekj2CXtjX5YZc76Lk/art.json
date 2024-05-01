@@ -3,7 +3,7 @@
   "owner": {
     "_id": "F5if23dnvCEmcMssC",
     "createdAt": {
-      "$date": "1446316652572"
+      "$date": 1446316652572
     },
     "profile": {
       "first_name": "Mark",
@@ -13,10 +13,10 @@
     "username": "mark"
   },
   "createdAt": {
-    "$date": "1446395577089"
+    "$date": 1446395577089
   },
   "modifiedAt": {
-    "$date": "1446400031630"
+    "$date": 1446400031630
   },
   "origId": null,
   "name": "orb",
@@ -36,10 +36,10 @@
     "shader": "#define PI 3.14159\n\nvec3 project(vec3 p) { return vec3(p.xy/p.z, -p.z); }\n\nfloat rand(vec2 co){\n    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\n}\n\nvoid main () {\n  float i = rand(vec2(vertexId, 184.98));\n  float j = rand(vec2(vertexId, 274.14));\n  float f = rand(vec2(vertexId, 387.36));\n  \n  float snd = pow(texture2D(sound, vec2(.02+.5 * f, 0.)).a, 2.);\n  float asp = resolution.x / resolution.y;\n  \n  \n  float rad = .2 + .05 * snd;\n  float a1 = 2. * PI * i;\n  float a2 = 2. * PI * j + time * .05;\n  a2 -= mouse.x;\n  \n  float y = rad * sin(a1) + .05;\n  float xz_rad = rad * cos(a1);\n  float x = xz_rad * cos(a2) / asp;\n  float z = -.4 + xz_rad * sin(a2);\n  z += mouse.y * .1;\n\n  \n  float dist = abs(z) *.5;\n  \n  vec3 p = project(vec3(x, y, z));\n  gl_Position = vec4(p, 1.);\n  gl_PointSize = 8. * snd + 1. / dist;\n  v_color = vec4(\n    .2 * acos(f) / PI + .8 * snd,\n    .4 * snd * + .3 * asin(f) / PI,\n    .6 * snd + .2 * rand(vec2(i, j)),\n   \tsnd);\n}"
   },
   "screenshotURL": "data/images/images-2snl6a0p1dnl5uu96-thumbnail.jpg",
-  "views": "570",
-  "likes": "2",
+  "views": 570,
+  "likes": 2,
   "revisionId": "EaoRxvueuCWjo5f4w",
   "hasSound": true,
-  "rank": "10.140675930566463",
+  "rank": 10.140675930566463,
   "avatarUrl": "https://lh3.googleusercontent.com/-Lca4UGau1OU/AAAAAAAAAAI/AAAAAAAAAI4/dSttspxaINs/photo.jpg"
 }

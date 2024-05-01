@@ -3,7 +3,7 @@
   "owner": {
     "_id": "hdTxMjBK4MHeTKPB5",
     "createdAt": {
-      "$date": "1684314537707"
+      "$date": 1684314537707
     },
     "profile": {
       "first_name": "인간",
@@ -13,15 +13,15 @@
     "username": "인간"
   },
   "createdAt": {
-    "$date": "1684316349556"
+    "$date": 1684316349556
   },
   "modifiedAt": {
-    "$date": "1684316349556"
+    "$date": 1684316349556
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": "1.2283996537497117",
+  "rank": 1.2283996537497117,
   "private": false,
   "unlisted": true,
   "username": "인간",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-wgb5y512zk34e46zk-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "wBtk2aCBHepmZBQ4w"
 }

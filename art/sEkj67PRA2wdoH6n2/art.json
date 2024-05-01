@@ -3,7 +3,7 @@
   "owner": {
     "_id": "3uYSmiaherEi93AXB",
     "createdAt": {
-      "$date": "1596442158480"
+      "$date": 1596442158480
     },
     "profile": {
       "first_name": "Adrian",
@@ -13,15 +13,15 @@
     "username": "adrian"
   },
   "createdAt": {
-    "$date": "1596443691119"
+    "$date": 1596443691119
   },
   "modifiedAt": {
-    "$date": "1596443691119"
+    "$date": 1596443691119
   },
   "origId": null,
   "name": "Grid",
   "notes": "https://www.youtube.com/watch?v=mOEbXQWtP3M",
-  "rank": "1.7208251350979302",
+  "rank": 1.7208251350979302,
   "private": false,
   "unlisted": true,
   "username": "adrian",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-bsd7pb131qhbcoa5z-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "SiC2ygiS3mv8uB8Su"
 }

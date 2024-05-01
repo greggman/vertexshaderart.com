@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,7 +12,7 @@
     }
   },
   "createdAt": {
-    "$date": "1445863358973"
+    "$date": 1445863358973
   },
   "origId": "LTuqGKGJGc3bHxGij",
   "name": "starts",
@@ -31,14 +31,14 @@
     "shader": "#define PI 3.14159\n// triangles per thing we want to draw\n#define NUM_TRIANGLES 2.0  \n// points pre thing\n#define NUM_POINTS (NUM_TRIANGLES * 3.0)\n#define STEP 2.0\n//#define FIT_VERTICAL\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  gl_PointSize = 30.0;\n  float localTime = time;\n  // pointId: 0, 1, 2, for each point in thing\n  float pointId = mod(vertexId, NUM_POINTS);\n  // each triangle 0,1,2,0,1,2 ...\n  float triPointId = mod(vertexId, 3.0);\n  // thingId: counts things\n  float thingId = floor(vertexId / NUM_POINTS);\n  // triId: 0, 1, .. for each triangle in thing\n  float triId = mod(floor(pointId / 3.0), NUM_TRIANGLES);\n  float angle = (triId * 0.5 + triPointId) * PI * 2.0 / 3.0;\n  \n  float baseAngle  =  pow(thingId * 0.9, 0.8) + thingId * 0.01;\n\n  float u = fract(thingId * 0.001) * 0.2 + 0.01;\n  float v = mod(thingId * 0.01, 0.25) * 0.05;\n  float snd = texture2D(sound, vec2(u, v)).a;\n\n  float radius = pow(thingId * 0.002, 1.00) * 0.1 + pow(snd, 4.0) * 0.2;\n  float c = cos(angle) * radius;\n  float s = sin(angle) * radius;  \n  \n\n  float orbitAngle =  baseAngle + snd * 0.0;\n  float innerRadius = pow(thingId * 0.0025, 1.2) + pow(snd, 4.0);\n  float oC = cos(orbitAngle + thingId * 0.01) * innerRadius;\n  float oS = sin(orbitAngle + thingId * 0.01) * innerRadius;\n\n  #ifdef FIT_VERTICAL\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\n  #else\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\n  #endif\n\n  vec2 xy = vec2(\n      oC + c,\n      oS + s);\n  gl_Position = vec4(xy * aspect + mouse * 0.1, 0, 1);\n  \n  float hue = (1.0 - fract(0.0 + thingId * 0.001 + sin(time) * 0.5)) * 0.2;\n  float sat = 1.0;\n  float val = 0.2 + pow(snd, 4.0);\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\n}"
   },
   "screenshotDataId": "r2Kppkg2XMnp7Lr43",
-  "views": "1601",
-  "likes": "7",
+  "views": 1601,
+  "likes": 7,
   "revisionId": "WgpfinPPwT4PPpark",
   "screenshotURL": "data/images/images-r2Kppkg2XMnp7Lr43-thumbnail.png",
   "modifiedAt": {
-    "$date": "1445863358979"
+    "$date": 1445863358979
   },
   "hasSound": true,
-  "rank": "10.705852667221318",
+  "rank": 10.705852667221318,
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

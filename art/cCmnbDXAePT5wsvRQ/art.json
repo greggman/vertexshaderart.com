@@ -3,7 +3,7 @@
   "owner": {
     "_id": "nRkH7WvwLTAduuBeD",
     "createdAt": {
-      "$date": "1597328870398"
+      "$date": 1597328870398
     },
     "username": "illus0r",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1626892102364"
+    "$date": 1626892102364
   },
   "modifiedAt": {
-    "$date": "1626892102364"
+    "$date": 1626892102364
   },
   "origId": null,
   "name": "The power of bugs",
   "notes": "",
-  "rank": "1.7309623953603241",
+  "rank": 1.7309623953603241,
   "private": false,
   "unlisted": true,
   "username": "illus0r",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-pcnxhpl34crladdqm-thumbnail.jpg",
   "hasSound": "",
-  "views": "20",
-  "likes": "0",
+  "views": 20,
+  "likes": 0,
   "revisionId": "eK3uQum8DKydxwZ3x"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": "1501857924166"
+      "$date": 1501857924166
     },
     "profile": {
       "name": "Macro Machines",
@@ -13,15 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": "1510363843048"
+    "$date": 1510363843048
   },
   "modifiedAt": {
-    "$date": "1510363843048"
+    "$date": 1510363843048
   },
   "origId": "nL6YpkW8YvGKNEKtj",
   "name": "point cloud vs spheres rmx",
   "notes": "",
-  "rank": "1.6050194396404556",
+  "rank": 1.6050194396404556,
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-zz43o9nv5pd05xrqy-thumbnail.jpg",
   "hasSound": true,
-  "views": "50",
-  "likes": "0",
+  "views": 50,
+  "likes": 0,
   "revisionId": "3j9XdPASACuRPCxgj"
 }

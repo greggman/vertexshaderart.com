@@ -3,7 +3,7 @@
   "owner": {
     "_id": "R33nNERe5G4dNutnC",
     "createdAt": {
-      "$date": "1552911672248"
+      "$date": 1552911672248
     },
     "profile": {
       "first_name": "Jko",
@@ -13,15 +13,15 @@
     "username": "jko"
   },
   "createdAt": {
-    "$date": "1552913242796"
+    "$date": 1552913242796
   },
   "modifiedAt": {
-    "$date": "1552919624751"
+    "$date": 1552919624751
   },
   "origId": null,
   "name": "POTATO",
   "notes": "aetaewt",
-  "rank": "1.807025411192747",
+  "rank": 1.807025411192747,
   "private": false,
   "unlisted": true,
   "username": "jko",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-tfph0da2u3778szz6-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "tcEeL2WnMRhBDD92w"
 }

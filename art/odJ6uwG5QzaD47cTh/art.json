@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1555602789999"
+    "$date": 1555602789999
   },
   "modifiedAt": {
-    "$date": "1555602789999"
+    "$date": 1555602789999
   },
   "origId": "ChgRzRLbrFD5wzfZk",
   "name": "galax-z",
   "notes": "",
-  "rank": "1.4777332432396362",
+  "rank": 1.4777332432396362,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-qcjupbo9jcyz3uacd-thumbnail.jpg",
   "hasSound": true,
-  "views": "189",
-  "likes": "0",
+  "views": 189,
+  "likes": 0,
   "revisionId": "uJuFFp9sk4Y4GLf9E"
 }

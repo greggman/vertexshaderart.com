@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1699315554530"
+    "$date": 1699315554530
   },
   "modifiedAt": {
-    "$date": "1699315554530"
+    "$date": 1699315554530
   },
   "origId": null,
   "name": "Gay",
   "notes": "",
-  "rank": "1.9023168961667485",
+  "rank": 1.9023168961667485,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-mlp35pmvw7ntyujx7-thumbnail.jpg",
   "hasSound": "",
-  "views": "32",
-  "likes": "0",
+  "views": 32,
+  "likes": 0,
   "revisionId": "F8ybk83MdXzye4d2M"
 }

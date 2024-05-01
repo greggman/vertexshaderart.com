@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,7 +12,7 @@
     }
   },
   "createdAt": {
-    "$date": "1445836248361"
+    "$date": 1445836248361
   },
   "origId": null,
   "name": "dots",
@@ -31,14 +31,14 @@
     "shader": "#define NUM_SEGMENTS 64.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n#define NUM_LINES_DOWN 32.0\n#define PI 3.14159\n\nvec3 hsv2rgb(vec3 c) {\n  c = vec3(c.x, clamp(c.yz, 0.0, 1.0));\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\n\nvoid main() {\n  // produces 0,1, 1,2, 2,3, ...\n  float point = floor(mod(vertexId, NUM_POINTS) / 2.0) + mod(vertexId, 2.0) * STEP;\n  // line count\n  float count = floor(vertexId / NUM_POINTS);\n\n  float u = point / NUM_SEGMENTS;    // 0 <-> 1 across line\n  float v = count / NUM_LINES_DOWN;  // 0 <-> 1 by line\n  float invV = 1.0 - v;\n\n  // Only use the left most 1/4th of the sound texture\n  // because there's no action on the right\n  float historyX = u * 0.25;\n  // Match each line to a specific row in the sound texture\n  float historyV = (v * NUM_LINES_DOWN + 0.5) / soundRes.y;\n  float snd = texture2D(sound, vec2(historyX, historyV)).a;\n  float sndPM = snd * 2.0 - 1.0;\n  \n  gl_PointSize = min(32.0, snd * 32.0) * invV;\n\n  float x = u * 2.0 - 1.0 + sndPM * 0.05;\n  float y = v * 2.0 - 1.0;;\n  vec2 xy = vec2(x, y);\n  gl_Position = vec4(xy, 0, 1);\n\n  float hue = u * 0.1 + time * 0.01;\n  float sat = invV;\n  float val = mix(snd * invV, 1.0, v);\n  v_color = vec4(hsv2rgb(vec3(hue, sat, val)), 1);\n}"
   },
   "screenshotDataId": "ssTFyFzXXEKdnCe9X",
-  "views": "400",
-  "likes": "0",
+  "views": 400,
+  "likes": 0,
   "revisionId": "FYrrPKDfsxDKF4PDe",
   "screenshotURL": "data/images/images-ssTFyFzXXEKdnCe9X-thumbnail.png",
   "modifiedAt": {
-    "$date": "1445836782712"
+    "$date": 1445836782712
   },
   "hasSound": true,
-  "rank": "1.0622734409886718",
+  "rank": 1.0622734409886718,
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"
 }

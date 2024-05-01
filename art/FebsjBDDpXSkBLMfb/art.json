@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1550869133408"
+    "$date": 1550869133408
   },
   "modifiedAt": {
-    "$date": "1565024614163"
+    "$date": 1565024614163
   },
   "origId": "ChgRzRLbrFD5wzfZk",
   "name": ".planet",
   "notes": "",
-  "rank": "10.942184061884717",
+  "rank": 10.942184061884717,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-rmijf94h13te9mqmv-thumbnail.jpg",
   "hasSound": true,
-  "views": "1058",
-  "likes": "8",
+  "views": 1058,
+  "likes": 8,
   "revisionId": "mCSCivX5KjtpfLmde"
 }

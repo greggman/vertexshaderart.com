@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1561458831176"
+    "$date": 1561458831176
   },
   "modifiedAt": {
-    "$date": "1561458831176"
+    "$date": 1561458831176
   },
   "origId": "TFMzciLhhyBhYRKW5",
   "name": "준석",
   "notes": "",
-  "rank": "1.0380735940633803",
+  "rank": 1.0380735940633803,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-svb6wws9kqpmimcvc-thumbnail.jpg",
   "hasSound": "",
-  "views": "64",
-  "likes": "0",
+  "views": 64,
+  "likes": 0,
   "revisionId": "rZveH7Z4ACy6cuMPE"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "mZ9LpdRJZpAj6KYaZ",
     "createdAt": {
-      "$date": "1543915151302"
+      "$date": 1543915151302
     },
     "username": "mol",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1543916750725"
+    "$date": 1543916750725
   },
   "modifiedAt": {
-    "$date": "1543916750725"
+    "$date": 1543916750725
   },
   "origId": null,
   "name": "simple",
   "notes": "set to points",
-  "rank": "1.292307074069896",
+  "rank": 1.292307074069896,
   "private": false,
   "unlisted": true,
   "username": "mol",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-qew6lhpxsxjdo6frg-thumbnail.jpg",
   "hasSound": true,
-  "views": "40",
-  "likes": "0",
+  "views": 40,
+  "likes": 0,
   "revisionId": "9YMdh5ENAjMRkMKdv"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1620061821696"
+    "$date": 1620061821696
   },
   "modifiedAt": {
-    "$date": "1620061821696"
+    "$date": 1620061821696
   },
   "origId": "WzeZofWAP8mZ2aNBz",
   "name": "sound tutorial",
   "notes": "",
-  "rank": "1.1094219178409834",
+  "rank": 1.1094219178409834,
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-nvw08d3vwif9gfmvw-thumbnail.jpg",
   "hasSound": true,
-  "views": "55",
-  "likes": "0",
+  "views": 55,
+  "likes": 0,
   "revisionId": "LrsQWbkThE3GM2PL8"
 }

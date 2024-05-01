@@ -3,7 +3,7 @@
   "owner": {
     "_id": "duxi6M5TiGWZ5CeBh",
     "createdAt": {
-      "$date": "1445820506349"
+      "$date": 1445820506349
     },
     "profile": {
       "name": "Visa-Valtteri Pimiä",
@@ -13,10 +13,10 @@
     "username": "visy"
   },
   "createdAt": {
-    "$date": "1447003788420"
+    "$date": 1447003788420
   },
   "modifiedAt": {
-    "$date": "1447003788420"
+    "$date": 1447003788420
   },
   "origId": "EtZAgACkH5HwhRTKb",
   "name": "never saw a rainbow",
@@ -36,10 +36,10 @@
     "shader": "#define PI 3.14159\n#define NUM_SEGMENTS 2.0\n#define NUM_POINTS (NUM_SEGMENTS * 2.0)\n#define STEP 1.0\n//#define FIT_VERTICAL\n\nvoid main() {\n  \n  float localTime = 0.01 + time*0.1;\n  float point = mod(floor(vertexId / 2.0) + mod(vertexId, 2.0) * STEP, NUM_SEGMENTS);\n  float count = floor(vertexId / NUM_POINTS);\n  float offset = count * sin(localTime * 0.01) + 5.0;\n  float angle = point * PI * 2.0 / NUM_SEGMENTS + offset;\n  float radius = pow(count * 0.00014, 1.0);\n  float c = cos(angle + localTime) * radius;\n  float s = sin(angle + localTime) * radius;\n  float orbitAngle =  pow(count * 0.025, 0.8);\n  float innerRadius = pow(count * 0.0005, 4.0-time*0.05);\n  float oC = cos(orbitAngle + count * 0.0001) * innerRadius;\n  float oS = sin(orbitAngle + count * 0.0001) * innerRadius;\n\n  #ifdef FIT_VERTICAL\n    vec2 aspect = vec2(resolution.y / resolution.x, 1);\n  #else\n    vec2 aspect = vec2(1, resolution.x / resolution.y);\n  #endif\n\n  vec2 xy = vec2(\n      oC + c,\n      oS + s);\n  gl_Position = vec4(xy * aspect  * time*0.01, 0, 1);\n\n  //float b = mix(0.0, 0.7, step(0.5, mod(count + localTime * 1.0, 6.0) / 2.0));\n  float b = 1.0 - pow(sin(count * 0.4) * 0.5 + 0.5, 10.0);\n  float cr = mix(0.0, 1.0, b+count*oC);\n  float cg = mix(0.0, 1.0, b+count*time*0.0000001);\n  float cb = mix(0.0, 1.0, b+count*oS);\n  \n  v_color = vec4(cr, cg, cb, 1);\n}"
   },
   "screenshotURL": "data/images/images-tefw6f0rlgew9ebpl-thumbnail.jpg",
-  "views": "435",
-  "likes": "2",
+  "views": 435,
+  "likes": 2,
   "revisionId": "njs7YdKqEDyAg2f7v",
   "hasSound": true,
-  "rank": "10.16922158092307",
+  "rank": 10.16922158092307,
   "avatarUrl": "https://avatars.githubusercontent.com/visy?s=200"
 }

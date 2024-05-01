@@ -3,7 +3,7 @@
   "owner": {
     "_id": "GsGemnD2x9QaMRX9g",
     "createdAt": {
-      "$date": "1619196586677"
+      "$date": 1619196586677
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "hugo-w"
   },
   "createdAt": {
-    "$date": "1619198718606"
+    "$date": 1619198718606
   },
   "modifiedAt": {
-    "$date": "1619525873749"
+    "$date": 1619525873749
   },
   "origId": null,
   "name": "gMan-Lessons",
   "notes": "Just following the lessons\nfrom Youtube.",
-  "rank": "1.6985619257037676",
+  "rank": 1.6985619257037676,
   "private": false,
   "unlisted": true,
   "username": "hugo-w",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-t22lr11684hu770i7-thumbnail.jpg",
   "hasSound": "",
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "n4mGbHHro8MR7vLWP"
 }

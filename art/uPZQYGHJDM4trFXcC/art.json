@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": "1553152938197"
+      "$date": 1553152938197
     },
     "username": "janalex",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553348336337"
+    "$date": 1553348336337
   },
   "modifiedAt": {
-    "$date": "1553348336337"
+    "$date": 1553348336337
   },
   "origId": "6PsFwfvW2tLtoeFiC",
   "name": "1903-GridRainbowMadness",
   "notes": "",
-  "rank": "1.0164335291855648",
+  "rank": 1.0164335291855648,
   "private": false,
   "unlisted": false,
   "username": "janalex",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-73g5vlgvpviyh8jcn-thumbnail.jpg",
   "hasSound": true,
-  "views": "349",
-  "likes": "1",
+  "views": 349,
+  "likes": 1,
   "revisionId": "W3qgXeza63NCqQAZG"
 }

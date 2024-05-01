@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dAjowjxtKCPWETu9X",
     "createdAt": {
-      "$date": "1454951904461"
+      "$date": 1454951904461
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "atomim"
   },
   "createdAt": {
-    "$date": "1454951999858"
+    "$date": 1454951999858
   },
   "modifiedAt": {
-    "$date": "1454954234289"
+    "$date": 1454954234289
   },
   "origId": null,
   "name": "husleri",
   "notes": "remember to reset time!",
-  "rank": "1.2342607865195925",
+  "rank": 1.2342607865195925,
   "private": false,
   "unlisted": false,
   "username": "atomim",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-dds4ppnhrsidjttxp-thumbnail.jpg",
   "hasSound": "",
-  "views": "214",
-  "likes": "0",
+  "views": 214,
+  "likes": 0,
   "revisionId": "ACyBA9zu5YcaaceHj"
 }

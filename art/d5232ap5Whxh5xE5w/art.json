@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": "1553152938197"
+      "$date": 1553152938197
     },
     "username": "janalex",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553509334658"
+    "$date": 1553509334658
   },
   "modifiedAt": {
-    "$date": "1553509334658"
+    "$date": 1553509334658
   },
   "origId": "C5XnDd3TxCtHq52Jv",
   "name": "1903-GridHypnoticMasses",
   "notes": "",
-  "rank": "1.4344631756145603",
+  "rank": 1.4344631756145603,
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-nzvtjnvgw8x4v3jyn-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "rZE6GyYLCAGzrSxXh"
 }

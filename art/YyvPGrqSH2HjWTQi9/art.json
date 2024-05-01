@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1554929540009"
+    "$date": 1554929540009
   },
   "modifiedAt": {
-    "$date": "1554929540009"
+    "$date": 1554929540009
   },
   "origId": null,
   "name": "Time table",
   "notes": "",
-  "rank": "1.0874785689010056",
+  "rank": 1.0874785689010056,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-x2sdy14m6sxv8jsok-thumbnail.jpg",
   "hasSound": true,
-  "views": "117",
-  "likes": "1",
+  "views": 117,
+  "likes": 1,
   "revisionId": "rnpsceJc7bwXrZJeB"
 }

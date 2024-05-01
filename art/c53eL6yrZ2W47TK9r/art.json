@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": "1540408032900"
+      "$date": 1540408032900
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -12,15 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": "1541014263161"
+    "$date": 1541014263161
   },
   "modifiedAt": {
-    "$date": "1541014263161"
+    "$date": 1541014263161
   },
   "origId": null,
   "name": "Animated Points",
   "notes": "",
-  "rank": "1.5117656592900346",
+  "rank": 1.5117656592900346,
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-y7dt8bhwiqgbpdcvr-thumbnail.jpg",
   "hasSound": true,
-  "views": "143",
-  "likes": "0",
+  "views": 143,
+  "likes": 0,
   "revisionId": "fDaaxZZAb4JRPBX3p"
 }

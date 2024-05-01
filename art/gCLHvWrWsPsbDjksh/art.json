@@ -3,7 +3,7 @@
   "owner": {
     "_id": "LA2p9fSSrZYuhdYNz",
     "createdAt": {
-      "$date": "1497993369279"
+      "$date": 1497993369279
     },
     "profile": {
       "name": "Sean Whalen",
@@ -12,15 +12,15 @@
     "username": "sean"
   },
   "createdAt": {
-    "$date": "1498439328779"
+    "$date": 1498439328779
   },
   "modifiedAt": {
-    "$date": "1498502233070"
+    "$date": 1498502233070
   },
   "origId": "NhWzyi4RTkjqEik5t",
   "name": "technokokoro",
   "notes": "",
-  "rank": "1.9568248479896286",
+  "rank": 1.9568248479896286,
   "private": false,
   "unlisted": true,
   "username": "sean",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-ma64oacrch02gmbod-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "pk2EFaZANJxTvM6pY"
 }

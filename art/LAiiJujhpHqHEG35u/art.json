@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yniyeZ866avHaE4Fa",
     "createdAt": {
-      "$date": "1551478335991"
+      "$date": 1551478335991
     },
     "username": "vanoog",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1551479004193"
+    "$date": 1551479004193
   },
   "modifiedAt": {
-    "$date": "1551481155004"
+    "$date": 1551481155004
   },
   "origId": null,
   "name": "testShader",
   "notes": "none",
-  "rank": "1.5387646012461242",
+  "rank": 1.5387646012461242,
   "private": false,
   "unlisted": true,
   "username": "vanoog",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-rjrv5rq7t6mzwqnbk-thumbnail.jpg",
   "hasSound": true,
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "hmDWibFk8PwNCLH3R"
 }

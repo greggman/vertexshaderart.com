@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1666745970455"
+    "$date": 1666745970455
   },
   "modifiedAt": {
-    "$date": "1666745970455"
+    "$date": 1666745970455
   },
   "origId": "79HqSrQH4meL63aAo",
   "name": "ball-otest",
   "notes": "",
-  "rank": "1.6500645276282977",
+  "rank": 1.6500645276282977,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-i9xq2a4msxc62rurp-thumbnail.jpg",
   "hasSound": true,
-  "views": "39",
-  "likes": "1",
+  "views": 39,
+  "likes": 1,
   "revisionId": "7rWh6TwDPp8HqeoJp"
 }

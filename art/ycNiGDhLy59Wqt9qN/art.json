@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1666078877510"
+    "$date": 1666078877510
   },
   "modifiedAt": {
-    "$date": "1666078877510"
+    "$date": 1666078877510
   },
   "origId": null,
   "name": "chamber lights",
   "notes": "",
-  "rank": "1.9684035475294832",
+  "rank": 1.9684035475294832,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-ug26wkfn5k2mmo07o-thumbnail.jpg",
   "hasSound": true,
-  "views": "67",
-  "likes": "0",
+  "views": 67,
+  "likes": 0,
   "revisionId": "SJks9RG88Ccf6a9t4"
 }

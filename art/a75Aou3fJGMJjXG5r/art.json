@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1543722047857"
+    "$date": 1543722047857
   },
   "modifiedAt": {
-    "$date": "1547639434605"
+    "$date": 1547639434605
   },
   "origId": "ZFSiQpx33DLDg9hmd",
   "name": "discinos",
   "notes": "",
-  "rank": "10.142415290146845",
+  "rank": 10.142415290146845,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-8j4khplgk7fip14s1-thumbnail.jpg",
   "hasSound": true,
-  "views": "668",
-  "likes": "7",
+  "views": 668,
+  "likes": 7,
   "revisionId": "6zRxkqETD7TZW5KeX"
 }

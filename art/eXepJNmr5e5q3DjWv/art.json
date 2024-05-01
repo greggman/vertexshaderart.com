@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,14 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": "1448632229478"
+    "$date": 1448632229478
   },
   "modifiedAt": {
-    "$date": "1466984289774"
+    "$date": 1466984289774
   },
   "origId": "RJ4Tjj3PSsq4kvDcc",
   "name": "cubit",
-  "rank": "1.6475375056051806",
+  "rank": 1.6475375056051806,
   "private": false,
   "username": "gman",
   "settings": {
@@ -37,8 +37,8 @@
   },
   "screenshotURL": "data/images/images-a9lcjlyadhcmlj9x3-thumbnail.jpg",
   "hasSound": true,
-  "views": "403",
-  "likes": "0",
+  "views": 403,
+  "likes": 0,
   "revisionId": "ZjRxKnSiRky3JqWsa",
   "unlisted": false,
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",

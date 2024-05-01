@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zhnFY3Bj9GSContic",
     "createdAt": {
-      "$date": "1652873162359"
+      "$date": 1652873162359
     },
     "username": "daehyeon.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1653477363157"
+    "$date": 1653477363157
   },
   "modifiedAt": {
-    "$date": "1653490149787"
+    "$date": 1653490149787
   },
   "origId": null,
   "name": "Audio Reactive",
   "notes": "",
-  "rank": "1.0276316302262136",
+  "rank": 1.0276316302262136,
   "private": false,
   "unlisted": true,
   "username": "daehyeon.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-dpa2ut9ciyfuaw07d-thumbnail.jpg",
   "hasSound": true,
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "kaRpj656FG94P3kj8"
 }

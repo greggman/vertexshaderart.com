@@ -3,7 +3,7 @@
   "owner": {
     "_id": "kwMWoNBMsEW7oc6Ew",
     "createdAt": {
-      "$date": "1501396458388"
+      "$date": 1501396458388
     },
     "username": "sndmtk",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1501396470105"
+    "$date": 1501396470105
   },
   "modifiedAt": {
-    "$date": "1501399099997"
+    "$date": 1501399099997
   },
   "origId": null,
   "name": "sample",
   "notes": "",
-  "rank": "1.984463562982024",
+  "rank": 1.984463562982024,
   "private": false,
   "unlisted": true,
   "username": "sndmtk",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-qzkv2xnrom6ndgtsu-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "cdeCjuD6C6NMZpbsK"
 }

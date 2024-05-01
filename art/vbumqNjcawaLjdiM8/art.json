@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gCKgzQzioC4gDMxq9",
     "createdAt": {
-      "$date": "1496305181205"
+      "$date": 1496305181205
     },
     "profile": {
       "name": "Paul Gutierrez",
@@ -13,15 +13,15 @@
     "username": "PLU Collective"
   },
   "createdAt": {
-    "$date": "1496319799046"
+    "$date": 1496319799046
   },
   "modifiedAt": {
-    "$date": "1496325529584"
+    "$date": 1496325529584
   },
   "origId": "q9BoWL6vYgWMPi8CP",
   "name": "Lesson05",
   "notes": "Lesson Five tutorial code.",
-  "rank": "1.9205309630546932",
+  "rank": 1.9205309630546932,
   "private": false,
   "unlisted": true,
   "username": "PLU Collective",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-v475hvb2oujw62ogz-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "cDXHihnkgLMPkykb5"
 }

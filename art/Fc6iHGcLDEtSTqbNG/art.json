@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1468376540034"
+    "$date": 1468376540034
   },
   "modifiedAt": {
-    "$date": "1469215860402"
+    "$date": 1469215860402
   },
   "origId": "YXfLo5Yw55muQ7MZn",
   "name": "tm-grid",
   "notes": "",
-  "rank": "10.178503391706514",
+  "rank": 10.178503391706514,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-5z38orofsfbe7vap7-thumbnail.jpg",
   "hasSound": true,
-  "views": "337",
-  "likes": "7",
+  "views": 337,
+  "likes": 7,
   "revisionId": "tobqiWdkqSZnoZSgm"
 }

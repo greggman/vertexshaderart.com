@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1511803132132"
+    "$date": 1511803132132
   },
   "modifiedAt": {
-    "$date": "1511843101531"
+    "$date": 1511843101531
   },
   "origId": "qjkP6BDvEFyD6CfZC",
   "name": "dot-line",
   "notes": "It's important to note that vertexshaderart shaders are **NOT** the recommended way\nto do things in WebGL!! Like Shadertoy they are rather a puzzle. Solving problems\nwith both hands tied behind your back.\n\nIf I was to do this in un-restricted WebGL I'd put the data in a texture (as vsa is now)\n\nI'd then call `gl.drawArrays` with `gl.POINTS` to draw just the dots and call it again with `gl.LINES` to just draw the lines OR if I wanted thick lines I might call it with `gl.TRIANGLES` for the lines as is happening here. I also would probably not do so much math in GLSL but then again with only 64 points it probably doesn't matter.",
-  "rank": "1.2027443665709359",
+  "rank": 1.2027443665709359,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-9pymiz6eysskllya2-thumbnail.jpg",
   "hasSound": true,
-  "views": "657",
-  "likes": "0",
+  "views": 657,
+  "likes": 0,
   "revisionId": "bRZZsXPekcXCGiHxp"
 }

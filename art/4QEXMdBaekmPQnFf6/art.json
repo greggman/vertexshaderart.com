@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": "1684322328046"
+      "$date": 1684322328046
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": "1685511783828"
+    "$date": 1685511783828
   },
   "modifiedAt": {
-    "$date": "1685511907763"
+    "$date": 1685511907763
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": "1.1608207900236012",
+  "rank": 1.1608207900236012,
   "private": false,
   "unlisted": true,
   "username": "chaerinpark",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-s4gc0lu4hr0c3siaq-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "rcgfipD7WjMj2BPnf"
 }

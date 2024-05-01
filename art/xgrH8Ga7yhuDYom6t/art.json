@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ou9ebWHeL3upMMoij",
     "createdAt": {
-      "$date": "1486394393430"
+      "$date": 1486394393430
     },
     "username": "athega",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1486746288617"
+    "$date": 1486746288617
   },
   "modifiedAt": {
-    "$date": "1486746288617"
+    "$date": 1486746288617
   },
   "origId": "Ghsjg9yjpwFdatBgX",
   "name": "flowerworm",
   "notes": "by johan",
-  "rank": "1.8470629292663396",
+  "rank": 1.8470629292663396,
   "private": false,
   "unlisted": false,
   "username": "athega",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-wxka8k2x30de5c2kx-thumbnail.jpg",
   "hasSound": true,
-  "views": "157",
-  "likes": "0",
+  "views": 157,
+  "likes": 0,
   "revisionId": "g5FYk3TKtk4frdni5"
 }

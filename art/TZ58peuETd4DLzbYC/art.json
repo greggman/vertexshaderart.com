@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1518199794084"
+    "$date": 1518199794084
   },
   "modifiedAt": {
-    "$date": "1518199794084"
+    "$date": 1518199794084
   },
   "origId": "BQuWCvhCBBif7Zzmh",
   "name": "circles",
   "notes": "",
-  "rank": "1.338501586565041",
+  "rank": 1.338501586565041,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-xsqe39n7zycs1psmt-thumbnail.jpg",
   "hasSound": "",
-  "views": "157",
-  "likes": "0",
+  "views": 157,
+  "likes": 0,
   "revisionId": "fyTdZP2FW98KaHpXp"
 }

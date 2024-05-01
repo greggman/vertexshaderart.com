@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": "1523273254098"
+      "$date": 1523273254098
     },
     "profile": {
       "first_name": "Brendon",
@@ -14,15 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": "1524505337363"
+    "$date": 1524505337363
   },
   "modifiedAt": {
-    "$date": "1524505337363"
+    "$date": 1524505337363
   },
   "origId": null,
   "name": "Vertex Shader Art Lesson 1",
   "notes": "This stuff is quite tough",
-  "rank": "1.2285072846755742",
+  "rank": 1.2285072846755742,
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -42,7 +42,7 @@
   },
   "screenshotURL": "data/images/images-279912njg6kxm0ey7-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "qPYvHj2RRmFSQP6ou"
 }

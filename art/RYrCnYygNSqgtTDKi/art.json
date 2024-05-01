@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1589065927191"
+    "$date": 1589065927191
   },
   "modifiedAt": {
-    "$date": "1589065927191"
+    "$date": 1589065927191
   },
   "origId": "N9ij5y2vHTpi6aDYM",
   "name": "tristrip",
   "notes": "",
-  "rank": "1.9845966606869896",
+  "rank": 1.9845966606869896,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-g3itdjhq4zurornkq-thumbnail.jpg",
   "hasSound": "",
-  "views": "75",
-  "likes": "0",
+  "views": 75,
+  "likes": 0,
   "revisionId": "YDrxnG3WrAz438rZB"
 }

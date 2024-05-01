@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zhcyc448mbXBSX3RY",
     "createdAt": {
-      "$date": "1652867755974"
+      "$date": 1652867755974
     },
     "username": "donga.choi",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652878922531"
+    "$date": 1652878922531
   },
   "modifiedAt": {
-    "$date": "1652879173627"
+    "$date": 1652879173627
   },
   "origId": null,
   "name": "making A Grid donga.choi",
   "notes": "",
-  "rank": "1.826219609062642",
+  "rank": 1.826219609062642,
   "private": false,
   "unlisted": true,
   "username": "donga.choi",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-8wjdikks5oxu2m9nr-thumbnail.jpg",
   "hasSound": "",
-  "views": "9",
-  "likes": "0",
+  "views": 9,
+  "likes": 0,
   "revisionId": "jJatXEszj8TFXoLJ5"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1565906419529"
+    "$date": 1565906419529
   },
   "modifiedAt": {
-    "$date": "1565906419529"
+    "$date": 1565906419529
   },
   "origId": "pi26Yd2oHdMNecbqi",
   "name": "omgregg KMachine WIP",
   "notes": "4 Kmachine WIP",
-  "rank": "1.6513486056522493",
+  "rank": 1.6513486056522493,
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-jl5qiela8p3x8xeq9-thumbnail.jpg",
   "hasSound": true,
-  "views": "141",
-  "likes": "1",
+  "views": 141,
+  "likes": 1,
   "revisionId": "Q5QdnocoNF2n5XTWC"
 }

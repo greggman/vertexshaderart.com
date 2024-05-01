@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": "1493741221077"
+      "$date": 1493741221077
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -12,15 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": "1551437824057"
+    "$date": 1551437824057
   },
   "modifiedAt": {
-    "$date": "1622505412631"
+    "$date": 1622505412631
   },
   "origId": "6SDZEZNF7qnXFxx5d",
   "name": "logistic",
   "notes": "",
-  "rank": "1.4565884085043876",
+  "rank": 1.4565884085043876,
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-0mbkcuckpr1nxiv4a-thumbnail.jpg",
   "hasSound": true,
-  "views": "203",
-  "likes": "1",
+  "views": 203,
+  "likes": 1,
   "revisionId": "RiYjhRcaP88F7woRD"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1511951697528"
+    "$date": 1511951697528
   },
   "modifiedAt": {
-    "$date": "1511951697528"
+    "$date": 1511951697528
   },
   "origId": "zGqZP2vWAf3ByWFKk",
   "name": "hello shader",
   "notes": "",
-  "rank": "1.5392866705602628",
+  "rank": 1.5392866705602628,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-lw649r8isy4sqa324-thumbnail.jpg",
   "hasSound": true,
-  "views": "86",
-  "likes": "1",
+  "views": 86,
+  "likes": 1,
   "revisionId": "zTQGj85TyrEpe7n8e"
 }

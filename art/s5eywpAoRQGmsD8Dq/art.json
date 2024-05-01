@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ftizELg7EWmj8LW7K",
     "createdAt": {
-      "$date": "1684040210652"
+      "$date": 1684040210652
     },
     "profile": {
       "name": "yejin shin",
@@ -12,15 +12,15 @@
     "username": "yejin-shin"
   },
   "createdAt": {
-    "$date": "1684410515157"
+    "$date": 1684410515157
   },
   "modifiedAt": {
-    "$date": "1684410515157"
+    "$date": 1684410515157
   },
   "origId": null,
   "name": "Vertexshaderart : Motion",
   "notes": "",
-  "rank": "1.12448380935139",
+  "rank": 1.12448380935139,
   "private": false,
   "unlisted": true,
   "username": "yejin-shin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-dtyeph272ulndv87z-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "ohN49hc45vaqq8ijY"
 }

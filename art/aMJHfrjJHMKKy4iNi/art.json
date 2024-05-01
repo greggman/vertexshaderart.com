@@ -3,7 +3,7 @@
   "owner": {
     "_id": "L777oTxckRqcna2Xo",
     "createdAt": {
-      "$date": "1447150700460"
+      "$date": 1447150700460
     },
     "username": "fizzer",
     "profile": {
@@ -11,14 +11,14 @@
     }
   },
   "createdAt": {
-    "$date": "1447757693856"
+    "$date": 1447757693856
   },
   "modifiedAt": {
-    "$date": "1447757719326"
+    "$date": 1447757719326
   },
   "origId": null,
   "name": "Glitter Spirals",
-  "rank": "10.26940154087254",
+  "rank": 10.26940154087254,
   "private": false,
   "username": "fizzer",
   "settings": {
@@ -36,8 +36,8 @@
   },
   "screenshotURL": "data/images/images-31qctr6ro2lmh4g2x-thumbnail.jpg",
   "hasSound": "",
-  "views": "1700",
-  "likes": "7",
+  "views": 1700,
+  "likes": 7,
   "revisionId": "vcwXhJMZWqKXYNmoq",
   "avatarUrl": "https://secure.gravatar.com/avatar/2c3dadd3c5ae632ac7e0405a9eff8109?default=retro&size=200&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F96d8ba478cd8a029f90e0382b4224a0e"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "KdxAYwifcjFtnrcSn",
     "createdAt": {
-      "$date": "1553094240252"
+      "$date": 1553094240252
     },
     "profile": {
       "first_name": "MONIMOY",
@@ -13,15 +13,15 @@
     "username": "monimoy"
   },
   "createdAt": {
-    "$date": "1553094269771"
+    "$date": 1553094269771
   },
   "modifiedAt": {
-    "$date": "1553094269771"
+    "$date": 1553094269771
   },
   "origId": "F4CnAXam3PniXCQjt",
   "name": "whirl",
   "notes": "",
-  "rank": "1.5525615303045568",
+  "rank": 1.5525615303045568,
   "private": false,
   "unlisted": true,
   "username": "monimoy",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-us66itju55qmb68bs-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "hysAXkHxCwyaTceQ8"
 }

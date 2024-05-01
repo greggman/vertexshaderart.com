@@ -3,7 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": "1450381162182"
+      "$date": 1450381162182
     },
     "username": "aiekick",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1519246793082"
+    "$date": 1519246793082
   },
   "modifiedAt": {
-    "$date": "1519246985013"
+    "$date": 1519246985013
   },
   "origId": "3QE3h3tQJqzMMqEZw",
   "name": "Twisted Torus",
   "notes": "Use mouse to control the shape",
-  "rank": "1.207352484507188",
+  "rank": 1.207352484507188,
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-yr524hzhakik4qllw-thumbnail.jpg",
   "hasSound": true,
-  "views": "270",
-  "likes": "0",
+  "views": 270,
+  "likes": 0,
   "revisionId": "EMjAv8akX42nfBn89"
 }

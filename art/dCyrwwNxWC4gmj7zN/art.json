@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1568768787456"
+    "$date": 1568768787456
   },
   "modifiedAt": {
-    "$date": "1568768787456"
+    "$date": 1568768787456
   },
   "origId": "BsrLb5e2Fujc6RvJf",
   "name": "Simple Fractal wip2",
   "notes": "",
-  "rank": "1.5665900660749177",
+  "rank": 1.5665900660749177,
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-lzcz7tctn124vvv6o-thumbnail.jpg",
   "hasSound": "",
-  "views": "150",
-  "likes": "0",
+  "views": 150,
+  "likes": 0,
   "revisionId": "o4yt52ecNMwwNmMuo"
 }

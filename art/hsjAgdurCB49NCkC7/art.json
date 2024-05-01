@@ -3,7 +3,7 @@
   "owner": {
     "_id": "pgKWPgR9Cfeze4JZf",
     "createdAt": {
-      "$date": "1684327971226"
+      "$date": 1684327971226
     },
     "profile": {
       "name": "seoseulbin",
@@ -12,15 +12,15 @@
     "username": "seoseulbin"
   },
   "createdAt": {
-    "$date": "1684505844152"
+    "$date": 1684505844152
   },
   "modifiedAt": {
-    "$date": "1684506352109"
+    "$date": 1684506352109
   },
   "origId": null,
   "name": "Color",
   "notes": "",
-  "rank": "1.4808342488894317",
+  "rank": 1.4808342488894317,
   "private": false,
   "unlisted": true,
   "username": "seoseulbin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-0ybjtzzbd9qjwrjsk-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "ZfA7WroNNTK6m5E37"
 }

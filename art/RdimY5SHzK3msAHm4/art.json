@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1570944578632"
+    "$date": 1570944578632
   },
   "modifiedAt": {
-    "$date": "1570944578632"
+    "$date": 1570944578632
   },
   "origId": "hdoyK6tHCoauDPZQL",
   "name": "mag",
   "notes": "",
-  "rank": "1.1587711171091235",
+  "rank": 1.1587711171091235,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-f694wuro4td9j0k6g-thumbnail.jpg",
   "hasSound": true,
-  "views": "62",
-  "likes": "0",
+  "views": 62,
+  "likes": 0,
   "revisionId": "oiJoH2cRh2CTYeqBT"
 }

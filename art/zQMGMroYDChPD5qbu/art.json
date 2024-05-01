@@ -3,7 +3,7 @@
   "owner": {
     "_id": "2X4iv76yo3TGFXLzD",
     "createdAt": {
-      "$date": "1493207163185"
+      "$date": 1493207163185
     },
     "profile": {
       "name": "Thomas Hooper",
@@ -12,15 +12,15 @@
     "username": "tdhooper"
   },
   "createdAt": {
-    "$date": "1493207227500"
+    "$date": 1493207227500
   },
   "modifiedAt": {
-    "$date": "1493207227500"
+    "$date": 1493207227500
   },
   "origId": null,
   "name": "raymarched cube",
   "notes": "Inspired by wblut's experiments with ray marching point clouds https://twitter.com/wblut/status/856959757588070401",
-  "rank": "10.194066341656232",
+  "rank": 10.194066341656232,
   "private": false,
   "unlisted": false,
   "username": "tdhooper",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-k8eljnva3nai95w1j-thumbnail.jpg",
   "hasSound": "",
-  "views": "694",
-  "likes": "3",
+  "views": 694,
+  "likes": 3,
   "revisionId": "5ZnJiaGEYJGXkSxpz"
 }

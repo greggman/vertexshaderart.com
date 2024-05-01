@@ -3,7 +3,7 @@
   "owner": {
     "_id": "u9A54Fr2xqnfssRpa",
     "createdAt": {
-      "$date": "1684324202773"
+      "$date": 1684324202773
     },
     "username": "seongryul.park",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684507641790"
+    "$date": 1684507641790
   },
   "modifiedAt": {
-    "$date": "1684507929827"
+    "$date": 1684507929827
   },
   "origId": "rbtQZi9Ks5R8zkRRF",
   "name": "Colors - tweaks",
   "notes": "",
-  "rank": "1.2204116578719144",
+  "rank": 1.2204116578719144,
   "private": false,
   "unlisted": true,
   "username": "seongryul.park",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-pgrtrrdinhfbxsg2d-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "gq5mWzAb2PJo5gMCz"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "74DGefcaFXNz9a4tp",
     "createdAt": {
-      "$date": "1714139701715"
+      "$date": 1714139701715
     },
     "profile": {
       "first_name": "Salvatore",
@@ -13,15 +13,15 @@
     "username": "salvatore"
   },
   "createdAt": {
-    "$date": "1714149284457"
+    "$date": 1714149284457
   },
   "modifiedAt": {
-    "$date": "1714152248882"
+    "$date": 1714152248882
   },
   "origId": null,
   "name": "First Shader",
   "notes": "",
-  "rank": "1.9475582157223494",
+  "rank": 1.9475582157223494,
   "private": false,
   "unlisted": true,
   "username": "salvatore",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-zbek0adj6e0yuaz9k-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "MuhvPeqhm2Q5SCSij"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1511019756757"
+    "$date": 1511019756757
   },
   "modifiedAt": {
-    "$date": "1511019756757"
+    "$date": 1511019756757
   },
   "origId": "aW3a59fZi6sxhTYBj",
   "name": "Triangular Voronoi",
   "notes": "",
-  "rank": "1.2515379844821515",
+  "rank": 1.2515379844821515,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-5mjsqkl8z4xhsajcx-thumbnail.jpg",
   "hasSound": true,
-  "views": "34",
-  "likes": "0",
+  "views": 34,
+  "likes": 0,
   "revisionId": "56T8LPnArNdpJ53Gg"
 }

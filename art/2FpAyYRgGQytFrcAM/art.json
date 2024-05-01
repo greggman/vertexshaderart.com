@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8YazjgbR8FtHJgYgR",
     "createdAt": {
-      "$date": "1689266555980"
+      "$date": 1689266555980
     },
     "username": "ersh",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1689316865040"
+    "$date": 1689316865040
   },
   "modifiedAt": {
-    "$date": "1689320547944"
+    "$date": 1689320547944
   },
   "origId": "jETzmmycobJrRvXH9",
   "name": "SphereDistribution lines",
   "notes": "",
-  "rank": "1.5945985293172453",
+  "rank": 1.5945985293172453,
   "private": false,
   "unlisted": false,
   "username": "ersh",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-rqz871idb95ap9wo9-thumbnail.jpg",
   "hasSound": "",
-  "views": "56",
-  "likes": "0",
+  "views": 56,
+  "likes": 0,
   "revisionId": "CMswHYPpcmMGS9Nhi"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1541764609351"
+    "$date": 1541764609351
   },
   "modifiedAt": {
-    "$date": "1541764609351"
+    "$date": 1541764609351
   },
   "origId": "A8Zc7NFQdTdeKQimv",
   "name": "pookymelon",
   "notes": "wip 4 kmachine",
-  "rank": "1.3474186068068488",
+  "rank": 1.3474186068068488,
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-9go3rjrx6gq5nwx3y-thumbnail.jpg",
   "hasSound": true,
-  "views": "245",
-  "likes": "0",
+  "views": 245,
+  "likes": 0,
   "revisionId": "N7wr5pLxe6wb6rhaq"
 }

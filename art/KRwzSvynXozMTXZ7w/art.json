@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gCKgzQzioC4gDMxq9",
     "createdAt": {
-      "$date": "1496305181205"
+      "$date": 1496305181205
     },
     "profile": {
       "name": "Paul Gutierrez",
@@ -13,15 +13,15 @@
     "username": "PLU Collective"
   },
   "createdAt": {
-    "$date": "1496344993814"
+    "$date": 1496344993814
   },
   "modifiedAt": {
-    "$date": "1496344993814"
+    "$date": 1496344993814
   },
   "origId": "vn7aCRpFmjs6n8XNG",
   "name": "DrPhil",
   "notes": "Use Dr. Phil song\nhttps://soundcloud.com/plu-collective/dr-phil",
-  "rank": "1.806149653185729",
+  "rank": 1.806149653185729,
   "private": false,
   "unlisted": true,
   "username": "PLU Collective",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-cu8fxcy7zho46ir4m-thumbnail.jpg",
   "hasSound": true,
-  "views": "13",
-  "likes": "0",
+  "views": 13,
+  "likes": 0,
   "revisionId": "jjBDnERXhtCwWPmC4"
 }

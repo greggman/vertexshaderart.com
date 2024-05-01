@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1555888417987"
+    "$date": 1555888417987
   },
   "modifiedAt": {
-    "$date": "1555888417987"
+    "$date": 1555888417987
   },
   "origId": "BnhvgAERQC5rcGRoZ",
   "name": "seascape",
   "notes": "",
-  "rank": "1.418817534345775",
+  "rank": 1.418817534345775,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-lzch6q7sevubdeu7l-thumbnail.jpg",
   "hasSound": "",
-  "views": "70",
-  "likes": "0",
+  "views": 70,
+  "likes": 0,
   "revisionId": "uhvBPhooEW823Kqph"
 }

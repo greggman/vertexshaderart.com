@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QbQ2gsZew9NYBL5Qp",
     "createdAt": {
-      "$date": "1540073755569"
+      "$date": 1540073755569
     },
     "profile": {
       "first_name": "Pöstpöp",
@@ -13,15 +13,15 @@
     "username": "pöstpöp"
   },
   "createdAt": {
-    "$date": "1540075759707"
+    "$date": 1540075759707
   },
   "modifiedAt": {
-    "$date": "1540075759707"
+    "$date": 1540075759707
   },
   "origId": "PponkZdtktgJHhipC",
   "name": "deliver01",
   "notes": "",
-  "rank": "1.5969563842736536",
+  "rank": 1.5969563842736536,
   "private": false,
   "unlisted": true,
   "username": "pöstpöp",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-63rpq4wx22w9aqfug-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "je5x7YCJ9AWzYoBwn"
 }

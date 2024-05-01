@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1688799961532"
+    "$date": 1688799961532
   },
   "modifiedAt": {
-    "$date": "1688799961532"
+    "$date": 1688799961532
   },
   "origId": "H65kA6jZ79o5qDjXG",
   "name": "Block Party shadows scaled",
   "notes": "",
-  "rank": "1.6742092912240902",
+  "rank": 1.6742092912240902,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-sqwmccwyqoewm6x8r-thumbnail.jpg",
   "hasSound": true,
-  "views": "58",
-  "likes": "0",
+  "views": 58,
+  "likes": 0,
   "revisionId": "aAvJ2MXnYHXy3tGic"
 }

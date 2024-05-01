@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1494954037970"
+    "$date": 1494954037970
   },
   "modifiedAt": {
-    "$date": "1494954037970"
+    "$date": 1494954037970
   },
   "origId": "rRHoXfKZBnnwFz4bZ",
   "name": "begin struggle 4",
   "notes": "Yes!",
-  "rank": "1.3320185495092711",
+  "rank": 1.3320185495092711,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-xyirzksacdbsc57zg-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "hr7dNpN5TADDj2FQB"
 }

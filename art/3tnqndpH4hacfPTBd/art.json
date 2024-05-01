@@ -3,7 +3,7 @@
   "owner": {
     "_id": "NAvHKNuxDSsKeTzss",
     "createdAt": {
-      "$date": "1652854231365"
+      "$date": 1652854231365
     },
     "username": "jaewoo.choi",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652859418496"
+    "$date": 1652859418496
   },
   "modifiedAt": {
-    "$date": "1652860129088"
+    "$date": 1652860129088
   },
   "origId": null,
   "name": "Making A Grid Extra",
   "notes": "Making A Grid_jaewoo.choi\nExtra",
-  "rank": "1.9651677179272864",
+  "rank": 1.9651677179272864,
   "private": false,
   "unlisted": true,
   "username": "jaewoo.choi",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-d9nxy2tnndobgaftg-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "Azrxq38s6fiuqdBC6"
 }

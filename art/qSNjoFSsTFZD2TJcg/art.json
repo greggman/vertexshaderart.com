@@ -3,7 +3,7 @@
   "owner": {
     "_id": "bj8YombFaBndJtCGh",
     "createdAt": {
-      "$date": "1502175661489"
+      "$date": 1502175661489
     },
     "profile": {
       "name": "Trevor Drury",
@@ -12,15 +12,15 @@
     "username": "trevor"
   },
   "createdAt": {
-    "$date": "1502345352707"
+    "$date": 1502345352707
   },
   "modifiedAt": {
-    "$date": "1518422571685"
+    "$date": 1518422571685
   },
   "origId": "p3XWczEaFrc4XJCKu",
   "name": "triangle test 2",
   "notes": "",
-  "rank": "1.803028053251236",
+  "rank": 1.803028053251236,
   "private": false,
   "unlisted": true,
   "username": "trevor",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-9ypis39ot97mfaohe-thumbnail.jpg",
   "hasSound": true,
-  "views": "17",
-  "likes": "0",
+  "views": 17,
+  "likes": 0,
   "revisionId": "FR94hSCXrHTfhXMfz"
 }

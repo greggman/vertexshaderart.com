@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yyfDj8PGn9r7DT7ZA",
     "createdAt": {
-      "$date": "1492808668114"
+      "$date": 1492808668114
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "clydepashley"
   },
   "createdAt": {
-    "$date": "1492808715355"
+    "$date": 1492808715355
   },
   "modifiedAt": {
-    "$date": "1492808715355"
+    "$date": 1492808715355
   },
   "origId": null,
   "name": "z%%z",
   "notes": "",
-  "rank": "1.7952844636447203",
+  "rank": 1.7952844636447203,
   "private": false,
   "unlisted": true,
   "username": "clydepashley",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-de3u8l7gh19tbiubs-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "feK5psWibYywZfRS3"
 }

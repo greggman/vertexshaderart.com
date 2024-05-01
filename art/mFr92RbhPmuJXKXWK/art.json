@@ -3,7 +3,7 @@
   "owner": {
     "_id": "XZ9fGNm72T7MyEqAy",
     "createdAt": {
-      "$date": "1612890971955"
+      "$date": 1612890971955
     },
     "username": "oneshade",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1616519502747"
+    "$date": 1616519502747
   },
   "modifiedAt": {
-    "$date": "1616519590812"
+    "$date": 1616519590812
   },
   "origId": null,
   "name": "Bilinear Patch",
   "notes": "First attempt at creating a grid of connected triangles.",
-  "rank": "1.9246464980553872",
+  "rank": 1.9246464980553872,
   "private": false,
   "unlisted": false,
   "username": "oneshade",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-cz9gbdzg0o72kd02f-thumbnail.jpg",
   "hasSound": "",
-  "views": "156",
-  "likes": "0",
+  "views": 156,
+  "likes": 0,
   "revisionId": "NdyuYaW6ehEMR33tr"
 }

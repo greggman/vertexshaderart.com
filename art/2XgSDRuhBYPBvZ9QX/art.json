@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oDiFfpugmQGT9byPG",
     "createdAt": {
-      "$date": "1554180444177"
+      "$date": 1554180444177
     },
     "profile": {
       "first_name": "지수",
@@ -13,15 +13,15 @@
     "username": "지수"
   },
   "createdAt": {
-    "$date": "1554193654607"
+    "$date": 1554193654607
   },
   "modifiedAt": {
-    "$date": "1554193890199"
+    "$date": 1554193890199
   },
   "origId": "jjpd8XtJ5nJAcmyLh",
   "name": "unnamed",
   "notes": "",
-  "rank": "1.6223936688994132",
+  "rank": 1.6223936688994132,
   "private": false,
   "unlisted": true,
   "username": "지수",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-regy1suzhml3tveou-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "GggT2CAfQWgcwRZ4e"
 }

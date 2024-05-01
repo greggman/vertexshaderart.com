@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zhcyc448mbXBSX3RY",
     "createdAt": {
-      "$date": "1652867755974"
+      "$date": 1652867755974
     },
     "username": "donga.choi",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652943780504"
+    "$date": 1652943780504
   },
   "modifiedAt": {
-    "$date": "1652943911850"
+    "$date": 1652943911850
   },
   "origId": null,
   "name": "Motion donga.choi",
   "notes": "",
-  "rank": "1.3873384151867267",
+  "rank": 1.3873384151867267,
   "private": false,
   "unlisted": true,
   "username": "donga.choi",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-21t50hwxte569nf71-thumbnail.jpg",
   "hasSound": true,
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "dxMwgG8zS8S7E72iS"
 }

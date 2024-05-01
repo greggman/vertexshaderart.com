@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1701543374934"
+    "$date": 1701543374934
   },
   "modifiedAt": {
-    "$date": "1701543374934"
+    "$date": 1701543374934
   },
   "origId": "Sx3Sk35wbBx2sGAxM",
   "name": "lnbx",
   "notes": "",
-  "rank": "1.9593577572552903",
+  "rank": 1.9593577572552903,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-ubaye26d23n6eky0h-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "bfWNaEEk4QRP2hrg3"
 }

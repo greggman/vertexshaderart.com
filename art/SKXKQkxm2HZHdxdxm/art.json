@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ML9sMhrDiffNmiXnR",
     "createdAt": {
-      "$date": "1508649811074"
+      "$date": 1508649811074
     },
     "profile": {
       "name": "Liam",
@@ -12,15 +12,15 @@
     "username": "liaminjapan"
   },
   "createdAt": {
-    "$date": "1508751000383"
+    "$date": 1508751000383
   },
   "modifiedAt": {
-    "$date": "1508752582999"
+    "$date": 1508752582999
   },
   "origId": "gunbdr7k6M6z5hL8B",
   "name": "hello-world-4",
   "notes": "Messing about",
-  "rank": "1.045288871639992",
+  "rank": 1.045288871639992,
   "private": false,
   "unlisted": true,
   "username": "liaminjapan",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-1y9thcd97jzjil61t-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "2oKKeWLt6oAS2tzX3"
 }

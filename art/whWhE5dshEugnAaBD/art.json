@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1683211141950"
+    "$date": 1683211141950
   },
   "modifiedAt": {
-    "$date": "1683211141950"
+    "$date": 1683211141950
   },
   "origId": "4rzpKJ43tFQEsLBkP",
   "name": "residuallinesJV",
   "notes": "",
-  "rank": "1.838244368516968",
+  "rank": 1.838244368516968,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-marber1fnt48zptmm-thumbnail.jpg",
   "hasSound": true,
-  "views": "47",
-  "likes": "0",
+  "views": 47,
+  "likes": 0,
   "revisionId": "guZ2PLhstzWE2EMAq"
 }

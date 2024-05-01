@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": "1497270876730"
+      "$date": 1497270876730
     },
     "username": "zugzwang404",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1498817947099"
+    "$date": 1498817947099
   },
   "modifiedAt": {
-    "$date": "1498818222586"
+    "$date": 1498818222586
   },
   "origId": "ixr3Pka4ChbtDzobh",
   "name": "Spiral-Spring dNCE1",
   "notes": "",
-  "rank": "1.5161280809852493",
+  "rank": 1.5161280809852493,
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-e0r0zx2gntwyqw0p2-thumbnail.jpg",
   "hasSound": "",
-  "views": "117",
-  "likes": "0",
+  "views": 117,
+  "likes": 0,
   "revisionId": "hKRRBhiX2uCAy9Kzp"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "A7f5Np8SECZR4hq7m",
     "createdAt": {
-      "$date": "1551480191741"
+      "$date": 1551480191741
     },
     "profile": {
       "name": "Guille Pérez Trueba",
@@ -12,15 +12,15 @@
     "username": "guilleperez"
   },
   "createdAt": {
-    "$date": "1551482552971"
+    "$date": 1551482552971
   },
   "modifiedAt": {
-    "$date": "1551486794841"
+    "$date": 1551486794841
   },
   "origId": null,
   "name": "ejercicio3",
   "notes": "",
-  "rank": "1.8250446430328893",
+  "rank": 1.8250446430328893,
   "private": false,
   "unlisted": true,
   "username": "guilleperez",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-ie8wy3m53r6l938qc-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "tjMioxygRdWjLXdrr"
 }

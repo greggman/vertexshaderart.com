@@ -3,7 +3,7 @@
   "owner": {
     "_id": "kcqvFctbfrb8oSHeQ",
     "createdAt": {
-      "$date": "1605316895276"
+      "$date": 1605316895276
     },
     "username": "daniel.shenkutie",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1605361294027"
+    "$date": 1605361294027
   },
   "modifiedAt": {
-    "$date": "1605361294027"
+    "$date": 1605361294027
   },
   "origId": "GDrWuySq3yExsoNqR",
   "name": "It's So In Vogue To Be Dead",
   "notes": "Bust a move.",
-  "rank": "1.0915694579334154",
+  "rank": 1.0915694579334154,
   "private": false,
   "unlisted": true,
   "username": "daniel.shenkutie",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-e4c3shvkhh697d2yi-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "9YmRAWwch2SYRoeFs"
 }

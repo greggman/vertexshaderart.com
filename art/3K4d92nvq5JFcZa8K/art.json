@@ -3,7 +3,7 @@
   "owner": {
     "_id": "EkDC3uCtmryBQmSjA",
     "createdAt": {
-      "$date": "1570109771845"
+      "$date": 1570109771845
     },
     "profile": {
       "name": "Marco",
@@ -12,15 +12,15 @@
     "username": "foxhunt"
   },
   "createdAt": {
-    "$date": "1570109787427"
+    "$date": 1570109787427
   },
   "modifiedAt": {
-    "$date": "1570110330115"
+    "$date": 1570110330115
   },
   "origId": null,
   "name": "sine",
   "notes": "",
-  "rank": "1.3395404497184988",
+  "rank": 1.3395404497184988,
   "private": false,
   "unlisted": true,
   "username": "foxhunt",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-eilnjhtsdinc3k5as-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "oT3NSzuDY5qNc8GWF"
 }

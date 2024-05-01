@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1494929711347"
+    "$date": 1494929711347
   },
   "modifiedAt": {
-    "$date": "1494929711347"
+    "$date": 1494929711347
   },
   "origId": "3rTF3aQTLfnSdwdcW",
   "name": "Mod Works here!",
   "notes": "Just stole anon's project because mod threw an error for me!",
-  "rank": "1.5720092113404371",
+  "rank": 1.5720092113404371,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-4w9ro44c5u8lnu5au-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "cELHhkZ2EXXxA5rtb"
 }

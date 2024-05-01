@@ -3,7 +3,7 @@
   "owner": {
     "_id": "duxi6M5TiGWZ5CeBh",
     "createdAt": {
-      "$date": "1445820506349"
+      "$date": 1445820506349
     },
     "profile": {
       "name": "Visa-Valtteri Pimiä",
@@ -13,14 +13,14 @@
     "username": "visy"
   },
   "createdAt": {
-    "$date": "1448210120885"
+    "$date": 1448210120885
   },
   "modifiedAt": {
-    "$date": "1448210885091"
+    "$date": 1448210885091
   },
   "origId": null,
   "name": "striped",
-  "rank": "1.7949319785719902",
+  "rank": 1.7949319785719902,
   "private": false,
   "username": "visy",
   "settings": {
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-84llo9xy97zkz6757-thumbnail.jpg",
   "hasSound": true,
-  "views": "87",
-  "likes": "0",
+  "views": 87,
+  "likes": 0,
   "revisionId": "F9uqxaQWwTycuH27t",
   "avatarUrl": "https://avatars.githubusercontent.com/visy?s=200"
 }

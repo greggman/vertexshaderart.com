@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": "1523273254098"
+      "$date": 1523273254098
     },
     "profile": {
       "first_name": "Brendon",
@@ -14,15 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": "1528976791917"
+    "$date": 1528976791917
   },
   "modifiedAt": {
-    "$date": "1528976791917"
+    "$date": 1528976791917
   },
   "origId": null,
   "name": "Static Square Vibes",
   "notes": "",
-  "rank": "1.5733103331448712",
+  "rank": 1.5733103331448712,
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -42,7 +42,7 @@
   },
   "screenshotURL": "data/images/images-v4kwzxcfw97asec9e-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "L6L2RrEKTt9pQCY5n"
 }

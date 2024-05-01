@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1494931026482"
+    "$date": 1494931026482
   },
   "modifiedAt": {
-    "$date": "1494931026482"
+    "$date": 1494931026482
   },
   "origId": "3rTF3aQTLfnSdwdcW",
   "name": "Grid Working",
   "notes": "",
-  "rank": "1.793918341672201",
+  "rank": 1.793918341672201,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-hs7t83xud833j0s4a-thumbnail.jpg",
   "hasSound": "",
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "e3JRN2vhnoJGRL6h6"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aXEMJFEtHmPhgv9zk",
     "createdAt": {
-      "$date": "1551479422359"
+      "$date": 1551479422359
     },
     "profile": {
       "first_name": "Mauricio",
@@ -13,15 +13,15 @@
     "username": "mauricio"
   },
   "createdAt": {
-    "$date": "1551481179170"
+    "$date": 1551481179170
   },
   "modifiedAt": {
-    "$date": "1551481179170"
+    "$date": 1551481179170
   },
   "origId": null,
   "name": "firstExercise",
   "notes": "",
-  "rank": "1.840148753922629",
+  "rank": 1.840148753922629,
   "private": false,
   "unlisted": true,
   "username": "mauricio",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-2g2qxotz3pql8c1ag-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "wZa9262dXiMCCwf8X"
 }

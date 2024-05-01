@@ -3,7 +3,7 @@
   "owner": {
     "_id": "uQKufMipuFAqaPENr",
     "createdAt": {
-      "$date": "1451053128147"
+      "$date": 1451053128147
     },
     "profile": {
       "name": "Vincent Scheib",
@@ -12,15 +12,15 @@
     "username": "vincent"
   },
   "createdAt": {
-    "$date": "1451340637158"
+    "$date": 1451340637158
   },
   "modifiedAt": {
-    "$date": "1451340637158"
+    "$date": 1451340637158
   },
   "origId": "y2BcbbWxcksEGQYhq",
   "name": "points,lines, and triangles. Its all pretty.",
   "notes": "Try points, lines, and triangles.",
-  "rank": "1.6186837299364552",
+  "rank": 1.6186837299364552,
   "private": false,
   "unlisted": false,
   "username": "vincent",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-s9rwyw46y33jk1p68-thumbnail.jpg",
   "hasSound": true,
-  "views": "122",
-  "likes": "0",
+  "views": 122,
+  "likes": 0,
   "revisionId": "HikKtgEz7BfLX7Mv6"
 }

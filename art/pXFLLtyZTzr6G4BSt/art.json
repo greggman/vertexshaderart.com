@@ -3,7 +3,7 @@
   "owner": {
     "_id": "9tfj9vemzSMedd72N",
     "createdAt": {
-      "$date": "1533789590227"
+      "$date": 1533789590227
     },
     "profile": {
       "first_name": "優斗",
@@ -13,15 +13,15 @@
     "username": "優斗"
   },
   "createdAt": {
-    "$date": "1533789630468"
+    "$date": 1533789630468
   },
   "modifiedAt": {
-    "$date": "1533789630468"
+    "$date": 1533789630468
   },
   "origId": "GxbSZ33B9swmxAmdT",
   "name": "mapped sea",
   "notes": "",
-  "rank": "10.844092666713923",
+  "rank": 10.844092666713923,
   "private": false,
   "unlisted": false,
   "username": "優斗",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-sdzr9m42nihvb188f-thumbnail.jpg",
   "hasSound": true,
-  "views": "577",
-  "likes": "5",
+  "views": 577,
+  "likes": 5,
   "revisionId": "oyyyE5sfQY4dQDHKa"
 }

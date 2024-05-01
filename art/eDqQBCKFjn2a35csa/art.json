@@ -3,7 +3,7 @@
   "owner": {
     "_id": "r5LZGMGGwYzncg5YC",
     "createdAt": {
-      "$date": "1625274707441"
+      "$date": 1625274707441
     },
     "profile": {
       "name": "Ilya",
@@ -12,15 +12,15 @@
     "username": "ilyadorosh"
   },
   "createdAt": {
-    "$date": "1625276308988"
+    "$date": 1625276308988
   },
   "modifiedAt": {
-    "$date": "1625279312989"
+    "$date": 1625279312989
   },
   "origId": null,
   "name": "weighted",
   "notes": "",
-  "rank": "1.0975671221931893",
+  "rank": 1.0975671221931893,
   "private": false,
   "unlisted": true,
   "username": "ilyadorosh",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-y4nabnsgbde7qw1v5-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "3Nm5XtTMLqq4xycPp"
 }

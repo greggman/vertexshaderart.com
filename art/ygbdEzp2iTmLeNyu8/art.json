@@ -3,7 +3,7 @@
   "owner": {
     "_id": "mZ9LpdRJZpAj6KYaZ",
     "createdAt": {
-      "$date": "1543915151302"
+      "$date": 1543915151302
     },
     "username": "mol",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1543915341237"
+    "$date": 1543915341237
   },
   "modifiedAt": {
-    "$date": "1543915341237"
+    "$date": 1543915341237
   },
   "origId": null,
   "name": "rectangles",
   "notes": "",
-  "rank": "1.4135236407308316",
+  "rank": 1.4135236407308316,
   "private": false,
   "unlisted": true,
   "username": "mol",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-lxees43v4vgcfh5sv-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "h2mmz6g7ghxhsgD6o"
 }

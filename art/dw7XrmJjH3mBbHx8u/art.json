@@ -4,14 +4,14 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1449397046673"
+    "$date": 1449397046673
   },
   "modifiedAt": {
-    "$date": "1449397046673"
+    "$date": 1449397046673
   },
   "origId": "ke5bF6hENE8zphaSp",
   "name": "-fork Mutated torus",
-  "rank": "1.2617539311495416",
+  "rank": 1.2617539311495416,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -30,7 +30,7 @@
   },
   "screenshotURL": "data/images/images-8tqol0os4vx1zx0pl-thumbnail.jpg",
   "hasSound": true,
-  "views": "119",
-  "likes": "0",
+  "views": 119,
+  "likes": 0,
   "revisionId": "9iXR4Nw77FnmPDyaF"
 }

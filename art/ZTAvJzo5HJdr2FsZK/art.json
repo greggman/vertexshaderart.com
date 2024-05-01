@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aRcuym3jqDR3e796n",
     "createdAt": {
-      "$date": "1446288834244"
+      "$date": 1446288834244
     },
     "profile": {
       "name": "Clément Duquesne",
@@ -12,10 +12,10 @@
     "username": "spotline"
   },
   "createdAt": {
-    "$date": "1447022075702"
+    "$date": 1447022075702
   },
   "modifiedAt": {
-    "$date": "1447022075702"
+    "$date": 1447022075702
   },
   "origId": "iPiDjpBYDPGFTGp8Y",
   "name": "residuallines",
@@ -36,9 +36,9 @@
   },
   "screenshotURL": "data/images/images-5kfqvydni4i5h9bhh-thumbnail.jpg",
   "hasSound": true,
-  "views": "455",
-  "likes": "4",
+  "views": 455,
+  "likes": 4,
   "revisionId": "uQWS93K6TGQy5kstC",
-  "rank": "10.409208139743688",
+  "rank": 10.409208139743688,
   "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
 }

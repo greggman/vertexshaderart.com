@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": "1540408032900"
+      "$date": 1540408032900
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -12,15 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": "1541270385383"
+    "$date": 1541270385383
   },
   "modifiedAt": {
-    "$date": "1541270385383"
+    "$date": 1541270385383
   },
   "origId": null,
   "name": "Rotating Points! *Again*",
   "notes": "",
-  "rank": "1.6471890283010868",
+  "rank": 1.6471890283010868,
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-httx5njufis10g6h6-thumbnail.jpg",
   "hasSound": true,
-  "views": "162",
-  "likes": "0",
+  "views": 162,
+  "likes": 0,
   "revisionId": "2eDBe4aAP4qmyaCzH"
 }

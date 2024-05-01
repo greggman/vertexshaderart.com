@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1590948506419"
+    "$date": 1590948506419
   },
   "modifiedAt": {
-    "$date": "1590948506419"
+    "$date": 1590948506419
   },
   "origId": "pezdXhrAjHoNYKCWE",
   "name": "tristrip",
   "notes": "",
-  "rank": "1.514053696644077",
+  "rank": 1.514053696644077,
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-hx84zvn5n79vijhha-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "4Bg4mHHkdB4rcmey9"
 }

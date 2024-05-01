@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aRcuym3jqDR3e796n",
     "createdAt": {
-      "$date": "1446288834244"
+      "$date": 1446288834244
     },
     "profile": {
       "name": "Clément Duquesne",
@@ -12,10 +12,10 @@
     "username": "spotline"
   },
   "createdAt": {
-    "$date": "1447254007594"
+    "$date": 1447254007594
   },
   "modifiedAt": {
-    "$date": "1447254007594"
+    "$date": 1447254007594
   },
   "origId": "9FnEPTtPhMxdktE4t",
   "name": "sleep",
@@ -36,9 +36,9 @@
   },
   "screenshotURL": "data/images/images-zoron4bjebo5tpvwo-thumbnail.jpg",
   "hasSound": true,
-  "views": "542",
-  "likes": "3",
+  "views": 542,
+  "likes": 3,
   "revisionId": "HRhipCemsEruKuAhQ",
-  "rank": "10.84985360321966",
+  "rank": 10.84985360321966,
   "avatarUrl": "https://i1.sndcdn.com/avatars-000016730527-scovfj-large.jpg"
 }

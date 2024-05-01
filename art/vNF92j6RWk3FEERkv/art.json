@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": "1553152938197"
+      "$date": 1553152938197
     },
     "username": "janalex",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553158587225"
+    "$date": 1553158587225
   },
   "modifiedAt": {
-    "$date": "1553158587225"
+    "$date": 1553158587225
   },
   "origId": "HsWepANHmBqbdwzSo",
   "name": "1903-GridGoingNuts",
   "notes": "",
-  "rank": "1.6146695784920009",
+  "rank": 1.6146695784920009,
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-tk7et6o86s4l30pn4-thumbnail.jpg",
   "hasSound": "",
-  "views": "51",
-  "likes": "0",
+  "views": 51,
+  "likes": 0,
   "revisionId": "Yjyvy6o6wPPXWfDPM"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1589783689103"
+    "$date": 1589783689103
   },
   "modifiedAt": {
-    "$date": "1589783689103"
+    "$date": 1589783689103
   },
   "origId": "T2fikhe7Y9nsT6rrx",
   "name": "voxels",
   "notes": "",
-  "rank": "1.033192917000967",
+  "rank": 1.033192917000967,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-xaqu6fg4bn96hfdkq-thumbnail.jpg",
   "hasSound": "",
-  "views": "33",
-  "likes": "0",
+  "views": 33,
+  "likes": 0,
   "revisionId": "vnaLQ6zs9HfNapGYh"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "duxi6M5TiGWZ5CeBh",
     "createdAt": {
-      "$date": "1445820506349"
+      "$date": 1445820506349
     },
     "profile": {
       "name": "Visa-Valtteri Pimiä",
@@ -13,14 +13,14 @@
     "username": "visy"
   },
   "createdAt": {
-    "$date": "1447706679557"
+    "$date": 1447706679557
   },
   "modifiedAt": {
-    "$date": "1447706679557"
+    "$date": 1447706679557
   },
   "origId": null,
   "name": "collage",
-  "rank": "1.7792497132464828",
+  "rank": 1.7792497132464828,
   "private": false,
   "username": "visy",
   "settings": {
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-0zn8qm26g2pg9xn5r-thumbnail.jpg",
   "hasSound": "",
-  "views": "143",
-  "likes": "0",
+  "views": 143,
+  "likes": 0,
   "revisionId": "dJ6fTw3fzbXwLf6hq",
   "avatarUrl": "https://avatars.githubusercontent.com/visy?s=200"
 }

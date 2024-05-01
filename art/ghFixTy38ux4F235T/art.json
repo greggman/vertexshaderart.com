@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gCKgzQzioC4gDMxq9",
     "createdAt": {
-      "$date": "1496305181205"
+      "$date": 1496305181205
     },
     "profile": {
       "name": "Paul Gutierrez",
@@ -13,15 +13,15 @@
     "username": "PLU Collective"
   },
   "createdAt": {
-    "$date": "1498721736923"
+    "$date": 1498721736923
   },
   "modifiedAt": {
-    "$date": "1498721736923"
+    "$date": 1498721736923
   },
   "origId": null,
   "name": "SpiralPrime",
   "notes": "Works with K-Machine app.",
-  "rank": "10.867956963614919",
+  "rank": 10.867956963614919,
   "private": false,
   "unlisted": false,
   "username": "PLU Collective",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-w3a32cyj0260lfz63-thumbnail.jpg",
   "hasSound": true,
-  "views": "234",
-  "likes": "3",
+  "views": 234,
+  "likes": 3,
   "revisionId": "RXoCZKsPkTD7bbhCv"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8tBLoFyzAi8N2JHZy",
     "createdAt": {
-      "$date": "1451476145201"
+      "$date": 1451476145201
     },
     "profile": {
       "name": "Visa-Valtteri Pimiä",
@@ -12,15 +12,15 @@
     "username": "visa-valtteri"
   },
   "createdAt": {
-    "$date": "1456602752950"
+    "$date": 1456602752950
   },
   "modifiedAt": {
-    "$date": "1456602752950"
+    "$date": 1456602752950
   },
   "origId": "9s4f49dwx4L8hbbD5",
   "name": "moduloi kanssani2",
   "notes": "",
-  "rank": "1.6103854918334468",
+  "rank": 1.6103854918334468,
   "private": false,
   "unlisted": true,
   "username": "visa-valtteri",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-hxgx17vj5p8opznao-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "4LmQFfAC8Qc9Wgu9n"
 }

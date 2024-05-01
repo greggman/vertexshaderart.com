@@ -3,7 +3,7 @@
   "owner": {
     "_id": "38uzcEgm5Fn8ZgX3u",
     "createdAt": {
-      "$date": "1588363657698"
+      "$date": 1588363657698
     },
     "username": "toneoperator",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1589214716085"
+    "$date": 1589214716085
   },
   "modifiedAt": {
-    "$date": "1589214716085"
+    "$date": 1589214716085
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.3368641157172996",
+  "rank": 1.3368641157172996,
   "private": false,
   "unlisted": true,
   "username": "toneoperator",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ap3mfj975nq5w1b8f-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "vgiEkNsFv5w6y2PSH"
 }

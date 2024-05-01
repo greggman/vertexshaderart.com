@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1485794210224"
+    "$date": 1485794210224
   },
   "modifiedAt": {
-    "$date": "1485794210224"
+    "$date": 1485794210224
   },
   "origId": "79HqSrQH4meL63aAo",
   "name": "cryb",
   "notes": "",
-  "rank": "10.735080990393369",
+  "rank": 10.735080990393369,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-4ojod4zswqcew90ls-thumbnail.jpg",
   "hasSound": true,
-  "views": "810",
-  "likes": "7",
+  "views": 810,
+  "likes": 7,
   "revisionId": "fxgWmTmqKESczfaPK"
 }

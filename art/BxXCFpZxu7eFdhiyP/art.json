@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1512610172932"
+    "$date": 1512610172932
   },
   "modifiedAt": {
-    "$date": "1512610172932"
+    "$date": 1512610172932
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.4733981426242826",
+  "rank": 1.4733981426242826,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-ygc8kkhpgl24ivilu-thumbnail.jpg",
   "hasSound": true,
-  "views": "89",
-  "likes": "0",
+  "views": 89,
+  "likes": 0,
   "revisionId": "nAJEyTeGR3Xmt4vad"
 }

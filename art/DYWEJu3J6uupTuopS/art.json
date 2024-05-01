@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s7uajwjtjeouLcAYT",
     "createdAt": {
-      "$date": "1656593092517"
+      "$date": 1656593092517
     },
     "profile": {
       "name": "Jared",
@@ -13,15 +13,15 @@
     "username": "molotovbliss"
   },
   "createdAt": {
-    "$date": "1658416426956"
+    "$date": 1658416426956
   },
   "modifiedAt": {
-    "$date": "1658417947978"
+    "$date": 1658417947978
   },
   "origId": "9wKMAeACxZ3WoJc2m",
   "name": "Spiral",
   "notes": "",
-  "rank": "1.8491320890934992",
+  "rank": 1.8491320890934992,
   "private": false,
   "unlisted": true,
   "username": "molotovbliss",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-tiy3dbps6w4p27mtx-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "H9GHQemdiPhj2APcY"
 }

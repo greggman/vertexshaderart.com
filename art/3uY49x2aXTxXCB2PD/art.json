@@ -3,7 +3,7 @@
   "owner": {
     "_id": "m6NzvnPPTaAroy2Ma",
     "createdAt": {
-      "$date": "1652623511870"
+      "$date": 1652623511870
     },
     "profile": {
       "name": "junsujang-digipen",
@@ -13,15 +13,15 @@
     "username": "junsujang-digipen"
   },
   "createdAt": {
-    "$date": "1653473650575"
+    "$date": 1653473650575
   },
   "modifiedAt": {
-    "$date": "1653473650575"
+    "$date": 1653473650575
   },
   "origId": "XuPDhjysnqKsPCbGK",
   "name": "Audio Reactive Art with New Motion",
   "notes": "",
-  "rank": "1.6417912918504718",
+  "rank": 1.6417912918504718,
   "private": false,
   "unlisted": true,
   "username": "junsujang-digipen",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-z4acz8003qyl5giod-thumbnail.jpg",
   "hasSound": true,
-  "views": "13",
-  "likes": "0",
+  "views": 13,
+  "likes": 0,
   "revisionId": "aEE3dtwrNTHY7guWX"
 }

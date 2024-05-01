@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1509102268237"
+    "$date": 1509102268237
   },
   "modifiedAt": {
-    "$date": "1509102268237"
+    "$date": 1509102268237
   },
   "origId": "q4sbfetgGafn5By2Z",
   "name": "trippy",
   "notes": "",
-  "rank": "1.0399792232728986",
+  "rank": 1.0399792232728986,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-hzsenv9pm5aucaqq8-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "Nz6sHRtdnYa8AbXf2"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "YpknDeNt3wXWyAhpm",
     "createdAt": {
-      "$date": "1597531127701"
+      "$date": 1597531127701
     },
     "username": "bene2002",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1597531141283"
+    "$date": 1597531141283
   },
   "modifiedAt": {
-    "$date": "1597532645032"
+    "$date": 1597532645032
   },
   "origId": "rAzqz9fhRarpgzdC2",
   "name": "Test1",
   "notes": "",
-  "rank": "1.822243554851134",
+  "rank": 1.822243554851134,
   "private": false,
   "unlisted": true,
   "username": "bene2002",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-9jc8imup47bxeo64u-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "o6Xpu5mCpLeguENjc"
 }

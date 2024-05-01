@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": "1501857924166"
+      "$date": 1501857924166
     },
     "profile": {
       "name": "Macro Machines",
@@ -13,15 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": "1600427199611"
+    "$date": 1600427199611
   },
   "modifiedAt": {
-    "$date": "1600427199611"
+    "$date": 1600427199611
   },
   "origId": "8eaHZkbv4GqCvTJJs",
   "name": "eswng",
   "notes": "",
-  "rank": "1.231762497715367",
+  "rank": 1.231762497715367,
   "private": false,
   "unlisted": true,
   "username": "macro",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-xtta21qjsf4zi2n5h-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "65mLWLbCTZ6zeewCk"
 }

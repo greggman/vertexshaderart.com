@@ -3,7 +3,7 @@
   "owner": {
     "_id": "39BPnoePCWss9YjYg",
     "createdAt": {
-      "$date": "1634920729203"
+      "$date": 1634920729203
     },
     "profile": {
       "first_name": "Zach",
@@ -13,15 +13,15 @@
     "username": "zach"
   },
   "createdAt": {
-    "$date": "1634920744666"
+    "$date": 1634920744666
   },
   "modifiedAt": {
-    "$date": "1635065602965"
+    "$date": 1635065602965
   },
   "origId": null,
   "name": "WIP",
   "notes": "GLSL Vertex Shader for first show",
-  "rank": "1.6824954290646779",
+  "rank": 1.6824954290646779,
   "private": false,
   "unlisted": true,
   "username": "zach",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-patj5a013yz61fk1n-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "5EeTfy3ne8hHdiez3"
 }

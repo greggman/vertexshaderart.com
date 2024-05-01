@@ -3,7 +3,7 @@
   "owner": {
     "_id": "CmDKfuGqb3n4wc5um",
     "createdAt": {
-      "$date": "1589106352417"
+      "$date": 1589106352417
     },
     "username": "abjeni",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1589106481903"
+    "$date": 1589106481903
   },
   "modifiedAt": {
-    "$date": "1589106481903"
+    "$date": 1589106481903
   },
   "origId": null,
   "name": "voxels",
   "notes": "voxels",
-  "rank": "1.6555370213611929",
+  "rank": 1.6555370213611929,
   "private": false,
   "unlisted": false,
   "username": "abjeni",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-omb48439vokffgmec-thumbnail.jpg",
   "hasSound": "",
-  "views": "169",
-  "likes": "1",
+  "views": 169,
+  "likes": 1,
   "revisionId": "63somzC2eGTdHPqnA"
 }

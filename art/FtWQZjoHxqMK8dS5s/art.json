@@ -3,7 +3,7 @@
   "owner": {
     "_id": "FsPX3C7EerrsJgMhi",
     "createdAt": {
-      "$date": "1638285005914"
+      "$date": 1638285005914
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "leithba"
   },
   "createdAt": {
-    "$date": "1638523574247"
+    "$date": 1638523574247
   },
   "modifiedAt": {
-    "$date": "1638559045435"
+    "$date": 1638559045435
   },
   "origId": null,
   "name": "sphere",
   "notes": "",
-  "rank": "1.2878331656884447",
+  "rank": 1.2878331656884447,
   "private": false,
   "unlisted": false,
   "username": "leithba",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-yd5t6llew6sj0q4ad-thumbnail.jpg",
   "hasSound": "",
-  "views": "168",
-  "likes": "1",
+  "views": 168,
+  "likes": 1,
   "revisionId": "nKG9D6BAkNGBfx8gC"
 }

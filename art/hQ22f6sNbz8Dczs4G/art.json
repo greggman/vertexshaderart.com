@@ -3,7 +3,7 @@
   "owner": {
     "_id": "m6NzvnPPTaAroy2Ma",
     "createdAt": {
-      "$date": "1652623511870"
+      "$date": 1652623511870
     },
     "profile": {
       "name": "junsujang-digipen",
@@ -13,15 +13,15 @@
     "username": "junsujang-digipen"
   },
   "createdAt": {
-    "$date": "1652623872012"
+    "$date": 1652623872012
   },
   "modifiedAt": {
-    "$date": "1652623872012"
+    "$date": 1652623872012
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": "1.0261212788331344",
+  "rank": 1.0261212788331344,
   "private": false,
   "unlisted": true,
   "username": "junsujang-digipen",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-ye4hhqykknkgh4wis-thumbnail.jpg",
   "hasSound": "",
-  "views": "16",
-  "likes": "0",
+  "views": 16,
+  "likes": 0,
   "revisionId": "5GmFvsyudHg2QDekd"
 }

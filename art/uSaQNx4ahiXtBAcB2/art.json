@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1579087370552"
+    "$date": 1579087370552
   },
   "modifiedAt": {
-    "$date": "1579087370552"
+    "$date": 1579087370552
   },
   "origId": "XxsoGmBRve3XhR5q3",
   "name": "cryb",
   "notes": "",
-  "rank": "1.9027840131817604",
+  "rank": 1.9027840131817604,
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-mcc50qrpgu06iswg3-thumbnail.jpg",
   "hasSound": true,
-  "views": "59",
-  "likes": "0",
+  "views": 59,
+  "likes": 0,
   "revisionId": "jvhdixkeF5qC5DGoz"
 }

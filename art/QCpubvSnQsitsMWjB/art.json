@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Q5T8njsEaGYsK34dZ",
     "createdAt": {
-      "$date": "1448898157107"
+      "$date": 1448898157107
     },
     "profile": {
       "name": null,
@@ -12,14 +12,14 @@
     "username": "8bitrick"
   },
   "createdAt": {
-    "$date": "1449287089778"
+    "$date": 1449287089778
   },
   "modifiedAt": {
-    "$date": "1449296715009"
+    "$date": 1449296715009
   },
   "origId": "C9maC3C6dCdyKmsuH",
   "name": "Sparks",
-  "rank": "1.1517457953716137",
+  "rank": 1.1517457953716137,
   "private": false,
   "unlisted": true,
   "username": "8bitrick",
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-yaymimp38ohxugkcp-thumbnail.jpg",
   "hasSound": true,
-  "views": "12",
-  "likes": "0",
+  "views": 12,
+  "likes": 0,
   "revisionId": "Pw4wZCbiGkBJqE8wJ",
   "avatarUrl": "https://avatars.githubusercontent.com/8BitRick?s=200"
 }

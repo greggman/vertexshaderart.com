@@ -3,7 +3,7 @@
   "owner": {
     "_id": "K7hvqvWiY8hFbeXdP",
     "createdAt": {
-      "$date": "1646379760964"
+      "$date": 1646379760964
     },
     "profile": {
       "first_name": "rudy",
@@ -13,15 +13,15 @@
     "username": "rudy2"
   },
   "createdAt": {
-    "$date": "1646381063457"
+    "$date": 1646381063457
   },
   "modifiedAt": {
-    "$date": "1646382407254"
+    "$date": 1646382407254
   },
   "origId": "KCTdZhosdnszWh5Co",
   "name": "Making A Grid with Colors",
   "notes": "",
-  "rank": "1.8676775878189156",
+  "rank": 1.8676775878189156,
   "private": false,
   "unlisted": true,
   "username": "rudy2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-whjiddwcq1iztyf03-thumbnail.jpg",
   "hasSound": "",
-  "views": "63",
-  "likes": "0",
+  "views": 63,
+  "likes": 0,
   "revisionId": "2TtgWNXrram7yfT4a"
 }

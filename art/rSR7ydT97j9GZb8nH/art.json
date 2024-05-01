@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1543836793098"
+    "$date": 1543836793098
   },
   "modifiedAt": {
-    "$date": "1543836793098"
+    "$date": 1543836793098
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.6332357909588455",
+  "rank": 1.6332357909588455,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-dwgp12nto4k49dp5i-thumbnail.jpg",
   "hasSound": true,
-  "views": "31",
-  "likes": "0",
+  "views": 31,
+  "likes": 0,
   "revisionId": "5yJPKAcnwBhWuQt36"
 }

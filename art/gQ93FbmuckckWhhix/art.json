@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zhnFY3Bj9GSContic",
     "createdAt": {
-      "$date": "1652873162359"
+      "$date": 1652873162359
     },
     "username": "daehyeon.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652873628837"
+    "$date": 1652873628837
   },
   "modifiedAt": {
-    "$date": "1652878675991"
+    "$date": 1652878675991
   },
   "origId": null,
   "name": "Making a grid",
   "notes": "",
-  "rank": "1.8881266610919851",
+  "rank": 1.8881266610919851,
   "private": false,
   "unlisted": true,
   "username": "daehyeon.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-l04mln0fydrvloicy-thumbnail.jpg",
   "hasSound": "",
-  "views": "10",
-  "likes": "0",
+  "views": 10,
+  "likes": 0,
   "revisionId": "MJgzrvhdKKnFogemr"
 }

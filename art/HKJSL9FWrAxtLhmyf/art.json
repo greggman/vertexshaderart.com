@@ -3,7 +3,7 @@
   "owner": {
     "_id": "FnSSHyPDYryK5QpAW",
     "createdAt": {
-      "$date": "1517960988603"
+      "$date": 1517960988603
     },
     "profile": {
       "first_name": "Ale",
@@ -13,15 +13,15 @@
     "username": "ale"
   },
   "createdAt": {
-    "$date": "1518223864345"
+    "$date": 1518223864345
   },
   "modifiedAt": {
-    "$date": "1518550433941"
+    "$date": 1518550433941
   },
   "origId": null,
   "name": "rot",
   "notes": "",
-  "rank": "1.3046863098984447",
+  "rank": 1.3046863098984447,
   "private": false,
   "unlisted": true,
   "username": "ale",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-kfitq52c4cmgi97x3-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "Z8tNfuZn7cFwEHno7"
 }

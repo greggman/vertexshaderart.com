@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": "1493741221077"
+      "$date": 1493741221077
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -12,15 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": "1551828039573"
+    "$date": 1551828039573
   },
   "modifiedAt": {
-    "$date": "1594506811310"
+    "$date": 1594506811310
   },
   "origId": "LHZYGPs7pPvxmLMbm",
   "name": "amoebia",
   "notes": "",
-  "rank": "10.272514377015483",
+  "rank": 10.272514377015483,
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-l9p0p51s8hnyxfrea-thumbnail.jpg",
   "hasSound": true,
-  "views": "450",
-  "likes": "2",
+  "views": 450,
+  "likes": 2,
   "revisionId": "MBN7w5rFhww6dfjBp"
 }

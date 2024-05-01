@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aGApaqB439oYBvo86",
     "createdAt": {
-      "$date": "1499871404427"
+      "$date": 1499871404427
     },
     "profile": {
       "name": "Ryota Takemoto",
@@ -12,15 +12,15 @@
     "username": "r21nomi"
   },
   "createdAt": {
-    "$date": "1529368660996"
+    "$date": 1529368660996
   },
   "modifiedAt": {
-    "$date": "1529584556229"
+    "$date": 1529584556229
   },
   "origId": null,
   "name": "Circle",
   "notes": "",
-  "rank": "10.054058526655435",
+  "rank": 10.054058526655435,
   "private": false,
   "unlisted": false,
   "username": "r21nomi",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-ri2grzcx1zd0v5qmy-thumbnail.jpg",
   "hasSound": true,
-  "views": "179",
-  "likes": "2",
+  "views": 179,
+  "likes": 2,
   "revisionId": "QhGCAzXSjfNbyD9oW"
 }

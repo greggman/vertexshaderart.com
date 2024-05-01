@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": "1540408032900"
+      "$date": 1540408032900
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -12,15 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": "1559853730995"
+    "$date": 1559853730995
   },
   "modifiedAt": {
-    "$date": "1559853730995"
+    "$date": 1559853730995
   },
   "origId": null,
   "name": "lines_dancing?",
   "notes": "",
-  "rank": "1.6024914185646506",
+  "rank": 1.6024914185646506,
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-mxnl0bmnx1xrs2fil-thumbnail.jpg",
   "hasSound": "",
-  "views": "215",
-  "likes": "1",
+  "views": 215,
+  "likes": 1,
   "revisionId": "gKgGNLNHsSmi5Mwp8"
 }

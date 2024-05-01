@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": "1684058245272"
+      "$date": 1684058245272
     },
     "username": "byungchan.park",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1685625078728"
+    "$date": 1685625078728
   },
   "modifiedAt": {
-    "$date": "1685625078728"
+    "$date": 1685625078728
   },
   "origId": null,
   "name": "xercise - Vertexshaderart : Circles from Triangles",
   "notes": "xercise - Vertexshaderart : Circles from Triangles",
-  "rank": "1.212011543146735",
+  "rank": 1.212011543146735,
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-vkrg6vpe4jmi03e6h-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "qugB2mxXwAbREr7up"
 }

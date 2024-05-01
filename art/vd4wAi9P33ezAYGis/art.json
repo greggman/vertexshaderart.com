@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1524969508745"
+    "$date": 1524969508745
   },
   "modifiedAt": {
-    "$date": "1524970940241"
+    "$date": 1524970940241
   },
   "origId": null,
   "name": "overdraw",
   "notes": "",
-  "rank": "1.6514670372027405",
+  "rank": 1.6514670372027405,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-05k5j8cqbq2u0qhx0-thumbnail.jpg",
   "hasSound": "",
-  "views": "12",
-  "likes": "0",
+  "views": 12,
+  "likes": 0,
   "revisionId": "hJ6uJgXdWa9MAN38z"
 }

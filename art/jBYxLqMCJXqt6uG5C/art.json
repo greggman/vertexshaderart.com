@@ -3,7 +3,7 @@
   "owner": {
     "_id": "RcxgZCyRSYWSzdHH8",
     "createdAt": {
-      "$date": "1544399496802"
+      "$date": 1544399496802
     },
     "profile": {
       "first_name": "Daff",
@@ -13,15 +13,15 @@
     "username": "daff"
   },
   "createdAt": {
-    "$date": "1544401121300"
+    "$date": 1544401121300
   },
   "modifiedAt": {
-    "$date": "1544405696756"
+    "$date": 1544405696756
   },
   "origId": "J3PNfiNPbPxziEh3A",
   "name": "Alert",
   "notes": "aka Re_gain",
-  "rank": "1.4445837193720155",
+  "rank": 1.4445837193720155,
   "private": false,
   "unlisted": true,
   "username": "daff",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-5pe2at72sedul9uc2-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "eDtJit9SuRK95gfah"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "jFsYmxkBNAJNvJFDm",
     "createdAt": {
-      "$date": "1684263955851"
+      "$date": 1684263955851
     },
     "username": "hyojoonkim0020",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684508108904"
+    "$date": 1684508108904
   },
   "modifiedAt": {
-    "$date": "1684508108904"
+    "$date": 1684508108904
   },
   "origId": "sh2fiodFgyJZRA5kn",
   "name": "Colors_ hyojoonKim",
   "notes": "",
-  "rank": "1.430238557624533",
+  "rank": 1.430238557624533,
   "private": false,
   "unlisted": true,
   "username": "hyojoonkim0020",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ezughjgcf4ojqic8g-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "tpWdeinuT5eyHJJbs"
 }

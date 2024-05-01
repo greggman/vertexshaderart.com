@@ -3,7 +3,7 @@
   "owner": {
     "_id": "A7f5Np8SECZR4hq7m",
     "createdAt": {
-      "$date": "1551480191741"
+      "$date": 1551480191741
     },
     "profile": {
       "name": "Guille Pérez Trueba",
@@ -12,15 +12,15 @@
     "username": "guilleperez"
   },
   "createdAt": {
-    "$date": "1551480308028"
+    "$date": 1551480308028
   },
   "modifiedAt": {
-    "$date": "1551481125855"
+    "$date": 1551481125855
   },
   "origId": "nrAECwQ8yDDyTrSit",
   "name": "petl",
   "notes": "",
-  "rank": "1.9840098380588147",
+  "rank": 1.9840098380588147,
   "private": false,
   "unlisted": true,
   "username": "guilleperez",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-jho3j3dzxbxj9i28v-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "dMMXEWEz6eG2kuwWt"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1501775778514"
+    "$date": 1501775778514
   },
   "modifiedAt": {
-    "$date": "1501775778514"
+    "$date": 1501775778514
   },
   "origId": null,
   "name": "tuto 1",
   "notes": "",
-  "rank": "1.862724691466808",
+  "rank": 1.862724691466808,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-d48640mgldk59utzh-thumbnail.jpg",
   "hasSound": "",
-  "views": "111",
-  "likes": "0",
+  "views": 111,
+  "likes": 0,
   "revisionId": "AoHz4Tx8sGmNFnZ32"
 }

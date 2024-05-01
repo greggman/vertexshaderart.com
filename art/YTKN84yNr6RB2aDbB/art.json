@@ -3,7 +3,7 @@
   "owner": {
     "_id": "2NqqLhzzo62uRSSnm",
     "createdAt": {
-      "$date": "1636961186133"
+      "$date": 1636961186133
     },
     "username": "muffin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1637002181316"
+    "$date": 1637002181316
   },
   "modifiedAt": {
-    "$date": "1637074886561"
+    "$date": 1637074886561
   },
   "origId": null,
   "name": "learn1",
   "notes": "",
-  "rank": "1.6225271132131023",
+  "rank": 1.6225271132131023,
   "private": false,
   "unlisted": false,
   "username": "muffin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-qq17maop7exb5hr97-thumbnail.jpg",
   "hasSound": "",
-  "views": "214",
-  "likes": "1",
+  "views": 214,
+  "likes": 1,
   "revisionId": "DNsN5RnmetkapF68P"
 }

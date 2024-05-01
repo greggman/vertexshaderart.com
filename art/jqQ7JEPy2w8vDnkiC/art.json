@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": "1684322328046"
+      "$date": 1684322328046
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": "1684929130507"
+    "$date": 1684929130507
   },
   "modifiedAt": {
-    "$date": "1684929130507"
+    "$date": 1684929130507
   },
   "origId": null,
   "name": "Audio Reactive",
   "notes": "",
-  "rank": "1.0947054662382907",
+  "rank": 1.0947054662382907,
   "private": false,
   "unlisted": true,
   "username": "chaerinpark",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-hl0yy2ub7sucim8rw-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "xX5FjPWgENwXwALof"
 }

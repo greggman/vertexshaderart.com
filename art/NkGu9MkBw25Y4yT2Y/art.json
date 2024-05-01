@@ -3,7 +3,7 @@
   "owner": {
     "_id": "96ZuW2KN9gsnSfGDQ",
     "createdAt": {
-      "$date": "1536676462835"
+      "$date": 1536676462835
     },
     "username": "teraspora",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1536795392021"
+    "$date": 1536795392021
   },
   "modifiedAt": {
-    "$date": "1536795392021"
+    "$date": 1536795392021
   },
   "origId": null,
   "name": "trigons-00.vert",
   "notes": "learning...",
-  "rank": "1.2499836043328572",
+  "rank": 1.2499836043328572,
   "private": false,
   "unlisted": true,
   "username": "teraspora",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-gn1x1hpja4a8a0hwz-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "JvSfQtNpXrms4qgfD"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "F82XqTc98c8PAB36c",
     "createdAt": {
-      "$date": "1601401201994"
+      "$date": 1601401201994
     },
     "username": "shortwavedave",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1601434014388"
+    "$date": 1601434014388
   },
   "modifiedAt": {
-    "$date": "1601434014388"
+    "$date": 1601434014388
   },
   "origId": "pL2zZjniYbicHizRf",
   "name": "coleco_1",
   "notes": "",
-  "rank": "1.0447252009637857",
+  "rank": 1.0447252009637857,
   "private": false,
   "unlisted": true,
   "username": "shortwavedave",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-1ei718clezmu2czk0-thumbnail.jpg",
   "hasSound": true,
-  "views": "36",
-  "likes": "0",
+  "views": 36,
+  "likes": 0,
   "revisionId": "RaRKYNxrfrqDJfTBd"
 }

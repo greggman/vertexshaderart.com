@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,14 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": "1449503552530"
+    "$date": 1449503552530
   },
   "modifiedAt": {
-    "$date": "1458844068314"
+    "$date": 1458844068314
   },
   "origId": "ScnXYT2B8gmr2trfw",
   "name": "dacning disco blob",
-  "rank": "10.390645525627223",
+  "rank": 10.390645525627223,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-898ktk0eltqxxxh5m-thumbnail.jpg",
   "hasSound": true,
-  "views": "256",
-  "likes": "7",
+  "views": 256,
+  "likes": 7,
   "revisionId": "2hNHJHaNMykGzp3nN",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
   "notes": ""

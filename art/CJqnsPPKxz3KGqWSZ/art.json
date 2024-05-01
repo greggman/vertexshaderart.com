@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1505980896714"
+    "$date": 1505980896714
   },
   "modifiedAt": {
-    "$date": "1505980896714"
+    "$date": 1505980896714
   },
   "origId": "7fkuNErcdiCoyDFPM",
   "name": "It's So In Vogue To Be Dead",
   "notes": "",
-  "rank": "1.7169452909275107",
+  "rank": 1.7169452909275107,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-gu6gyj2n68q7nwujc-thumbnail.jpg",
   "hasSound": true,
-  "views": "118",
-  "likes": "0",
+  "views": 118,
+  "likes": 0,
   "revisionId": "Yo8SoX4xaQ9xeRLN6"
 }

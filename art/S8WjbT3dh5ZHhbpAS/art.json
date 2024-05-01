@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1452088950942"
+    "$date": 1452088950942
   },
   "modifiedAt": {
-    "$date": "1591668393214"
+    "$date": 1591668393214
   },
   "origId": null,
   "name": "crepe",
   "notes": "",
-  "rank": "10.344389125513754",
+  "rank": 10.344389125513754,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-fkxv007a9ez2a235x-thumbnail.jpg",
   "hasSound": true,
-  "views": "1374",
-  "likes": "8",
+  "views": 1374,
+  "likes": 8,
   "revisionId": "JwAMhRiWGYXM7kryw"
 }

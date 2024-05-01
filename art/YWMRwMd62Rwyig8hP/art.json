@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": "1497270876730"
+      "$date": 1497270876730
     },
     "username": "zugzwang404",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1498555333849"
+    "$date": 1498555333849
   },
   "modifiedAt": {
-    "$date": "1498555333849"
+    "$date": 1498555333849
   },
   "origId": "ZqGJTgEXDTHA5rBjL",
   "name": "gmesher 4 K",
   "notes": "",
-  "rank": "1.9866927441935194",
+  "rank": 1.9866927441935194,
   "private": false,
   "unlisted": true,
   "username": "zugzwang404",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-y7jvzhbw75rcxzit5-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "feoiqWKg3iJWzcsMe"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1496205057294"
+    "$date": 1496205057294
   },
   "modifiedAt": {
-    "$date": "1496205893852"
+    "$date": 1496205893852
   },
   "origId": "KouaGmh83NF5FCHdM",
   "name": "bound",
   "notes": "",
-  "rank": "10.592973719907532",
+  "rank": 10.592973719907532,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-70gp5rwnnp6jd7bx7-thumbnail.jpg",
   "hasSound": true,
-  "views": "446",
-  "likes": "7",
+  "views": 446,
+  "likes": 7,
   "revisionId": "RfYAHWgeSih6BB4HQ"
 }

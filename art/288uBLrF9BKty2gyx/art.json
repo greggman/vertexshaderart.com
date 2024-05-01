@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": "1684058245272"
+      "$date": 1684058245272
     },
     "username": "byungchan.park",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684653144677"
+    "$date": 1684653144677
   },
   "modifiedAt": {
-    "$date": "1684730748614"
+    "$date": 1684730748614
   },
   "origId": null,
   "name": "Exercise - Vertexshaderart : Audio Reactive Art",
   "notes": "Exercise - Vertexshaderart : Audio Reactive Art",
-  "rank": "1.7274378829963526",
+  "rank": 1.7274378829963526,
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-blje0jjvx8pne65t6-thumbnail.jpg",
   "hasSound": true,
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "MWwifAW5nMu5nRKQG"
 }

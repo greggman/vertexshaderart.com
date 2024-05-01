@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1476090338287"
+    "$date": 1476090338287
   },
   "modifiedAt": {
-    "$date": "1476090338287"
+    "$date": 1476090338287
   },
   "origId": "K5xqhTGgRRGkJzitm",
   "name": "dacning disco blob",
   "notes": "",
-  "rank": "1.7982933723265493",
+  "rank": 1.7982933723265493,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-veuy0owcqvjz311vf-thumbnail.jpg",
   "hasSound": true,
-  "views": "188",
-  "likes": "0",
+  "views": 188,
+  "likes": 0,
   "revisionId": "gtZaemHL9MnRMH43E"
 }

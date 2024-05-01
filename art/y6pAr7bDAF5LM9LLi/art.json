@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1607793604504"
+    "$date": 1607793604504
   },
   "modifiedAt": {
-    "$date": "1607793604504"
+    "$date": 1607793604504
   },
   "origId": "RnwjSt42YXLcGjsgT",
   "name": "morp",
   "notes": "",
-  "rank": "1.971523559917448",
+  "rank": 1.971523559917448,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-x5zxbkah1frvooizs-thumbnail.jpg",
   "hasSound": true,
-  "views": "105",
-  "likes": "0",
+  "views": 105,
+  "likes": 0,
   "revisionId": "ppRXBPLN4DaLY9mo7"
 }

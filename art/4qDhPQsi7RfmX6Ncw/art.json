@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1683204668015"
+    "$date": 1683204668015
   },
   "modifiedAt": {
-    "$date": "1683204668015"
+    "$date": 1683204668015
   },
   "origId": "2pSYjC7BCpjghA8Hu",
   "name": "residuallines",
   "notes": "",
-  "rank": "1.787783745956526",
+  "rank": 1.787783745956526,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-mtwjoodj78egcka1r-thumbnail.jpg",
   "hasSound": true,
-  "views": "42",
-  "likes": "0",
+  "views": 42,
+  "likes": 0,
   "revisionId": "6vrAa3jJburPzNE4v"
 }

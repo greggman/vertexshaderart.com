@@ -3,7 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": "1450381162182"
+      "$date": 1450381162182
     },
     "username": "aiekick",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1530027655061"
+    "$date": 1530027655061
   },
   "modifiedAt": {
-    "$date": "1530027776259"
+    "$date": 1530027776259
   },
   "origId": null,
   "name": "Pics Danse",
   "notes": "",
-  "rank": "10.310446999188839",
+  "rank": 10.310446999188839,
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-4lq2zemdh1lxl19ve-thumbnail.jpg",
   "hasSound": "",
-  "views": "756",
-  "likes": "4",
+  "views": 756,
+  "likes": 4,
   "revisionId": "v7jCGhs9n3tS9XppF"
 }

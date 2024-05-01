@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Bs4vwFBoeN6Lx3is5",
     "createdAt": {
-      "$date": "1528672219472"
+      "$date": 1528672219472
     },
     "profile": {
       "name": "Justin Shrake",
@@ -13,15 +13,15 @@
     "username": "jshrake"
   },
   "createdAt": {
-    "$date": "1636465470472"
+    "$date": 1636465470472
   },
   "modifiedAt": {
-    "$date": "1636465470472"
+    "$date": 1636465470472
   },
   "origId": null,
   "name": "hexagon tile strings",
   "notes": "",
-  "rank": "1.1281837841910658",
+  "rank": 1.1281837841910658,
   "private": false,
   "unlisted": true,
   "username": "jshrake",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-yhmdeti00zvf5ywj4-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "vHCix3dHmYRmgowJP"
 }

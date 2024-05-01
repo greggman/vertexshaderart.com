@@ -4,14 +4,14 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1448967162200"
+    "$date": 1448967162200
   },
   "modifiedAt": {
-    "$date": "1448967162200"
+    "$date": 1448967162200
   },
   "origId": "nKzNvfJNE5DnDYssR",
   "name": "illu",
-  "rank": "1.1352954742910186",
+  "rank": 1.1352954742910186,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -30,7 +30,7 @@
   },
   "screenshotURL": "data/images/images-eob5epmw8n5hpi7dm-thumbnail.jpg",
   "hasSound": true,
-  "views": "105",
-  "likes": "0",
+  "views": 105,
+  "likes": 0,
   "revisionId": "KWS8t4cXKECpr5XfF"
 }

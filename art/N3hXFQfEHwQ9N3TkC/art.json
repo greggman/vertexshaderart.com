@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1570625176813"
+    "$date": 1570625176813
   },
   "modifiedAt": {
-    "$date": "1570625284005"
+    "$date": 1570625284005
   },
   "origId": "ZFSiQpx33DLDg9hmd",
   "name": "mag",
   "notes": "",
-  "rank": "10.658537481375546",
+  "rank": 10.658537481375546,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-nejd8r5o2tptxich8-thumbnail.jpg",
   "hasSound": true,
-  "views": "683",
-  "likes": "7",
+  "views": 683,
+  "likes": 7,
   "revisionId": "x3hjwFHuyyNdTMm5x"
 }

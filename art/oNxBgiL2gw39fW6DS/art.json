@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ZBHrEZGrgA6JBJGt7",
     "createdAt": {
-      "$date": "1463104654911"
+      "$date": 1463104654911
     },
     "username": "mipmap",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1463105112548"
+    "$date": 1463105112548
   },
   "modifiedAt": {
-    "$date": "1463105112548"
+    "$date": 1463105112548
   },
   "origId": "ZZ2MBTXKXSRzbure5",
   "name": "msh conveyor",
   "notes": "[Inspired by this](http://lightprocesses.tumblr.com/post/111678252500/horizon-coded-in-processing-10-frames-related) I somehow ended up here",
-  "rank": "1.6347064243477132",
+  "rank": 1.6347064243477132,
   "private": false,
   "unlisted": false,
   "username": "mipmap",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-8820rb4t44itmoalq-thumbnail.jpg",
   "hasSound": true,
-  "views": "130",
-  "likes": "1",
+  "views": 130,
+  "likes": 1,
   "revisionId": "L4TfFX2CHo5HZR47u"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1550248715719"
+    "$date": 1550248715719
   },
   "modifiedAt": {
-    "$date": "1550248715719"
+    "$date": 1550248715719
   },
   "origId": null,
   "name": "Circle of points",
   "notes": "",
-  "rank": "1.1536397110879117",
+  "rank": 1.1536397110879117,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-20zgeykxs42b09us7-thumbnail.jpg",
   "hasSound": "",
-  "views": "112",
-  "likes": "0",
+  "views": 112,
+  "likes": 0,
   "revisionId": "CErSftTWuriJ8YwqG"
 }

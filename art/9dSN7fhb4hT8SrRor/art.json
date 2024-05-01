@@ -3,7 +3,7 @@
   "owner": {
     "_id": "qnFPHncNr53Ab9vhQ",
     "createdAt": {
-      "$date": "1670883004076"
+      "$date": 1670883004076
     },
     "profile": {
       "first_name": "Rolf",
@@ -13,15 +13,15 @@
     "username": "rolf"
   },
   "createdAt": {
-    "$date": "1670958245211"
+    "$date": 1670958245211
   },
   "modifiedAt": {
-    "$date": "1671041767726"
+    "$date": 1671041767726
   },
   "origId": null,
   "name": "first exp",
   "notes": "",
-  "rank": "1.716777102359255",
+  "rank": 1.716777102359255,
   "private": false,
   "unlisted": true,
   "username": "rolf",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-dtnnkjtvslzvs5dgn-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "mXemLyMQCGs89qM6s"
 }

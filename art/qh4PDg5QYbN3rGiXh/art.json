@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ae4gC3FWQR5veXTKq",
     "createdAt": {
-      "$date": "1684210422037"
+      "$date": 1684210422037
     },
     "username": "w.chae",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684292715495"
+    "$date": 1684292715495
   },
   "modifiedAt": {
-    "$date": "1684292715495"
+    "$date": 1684292715495
   },
   "origId": null,
   "name": "Color",
   "notes": "Exercise Color\nCS250 Spring 2023",
-  "rank": "1.0497038915521038",
+  "rank": 1.0497038915521038,
   "private": false,
   "unlisted": true,
   "username": "w.chae",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-akofkcl9azfowa0i9-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "RRNgGPyyH8xH4jYwB"
 }

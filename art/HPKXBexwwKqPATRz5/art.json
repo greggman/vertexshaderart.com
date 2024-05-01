@@ -3,7 +3,7 @@
   "owner": {
     "_id": "RMhdQhPbrnDH4xXJ8",
     "createdAt": {
-      "$date": "1684321868058"
+      "$date": 1684321868058
     },
     "username": "minseok.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1685468392519"
+    "$date": 1685468392519
   },
   "modifiedAt": {
-    "$date": "1685468857826"
+    "$date": 1685468857826
   },
   "origId": null,
   "name": "Circles from Triangles_minseok_kim",
   "notes": "",
-  "rank": "1.8826185863950124",
+  "rank": 1.8826185863950124,
   "private": false,
   "unlisted": true,
   "username": "minseok.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-bd9mejk8czxj0do98-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "d3yDqZH8hBZmijN5X"
 }

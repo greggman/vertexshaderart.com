@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": "1684058245272"
+      "$date": 1684058245272
     },
     "username": "byungchan.park",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684314457411"
+    "$date": 1684314457411
   },
   "modifiedAt": {
-    "$date": "1684316022333"
+    "$date": 1684316022333
   },
   "origId": null,
   "name": "Exercise - Vertexshaderart : Making a Grid",
   "notes": "Exercise - Vertexshaderart : Making a Grid\n",
-  "rank": "1.7465144329436688",
+  "rank": 1.7465144329436688,
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-aht5cu3sqrn68oy0p-thumbnail.jpg",
   "hasSound": "",
-  "views": "9",
-  "likes": "0",
+  "views": 9,
+  "likes": 0,
   "revisionId": "c2PAp4LprxYYMTakw"
 }

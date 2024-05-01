@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vWQZQrMg9M6JE8pX9",
     "createdAt": {
-      "$date": "1575718900497"
+      "$date": 1575718900497
     },
     "username": "evan_chen",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1605587102908"
+    "$date": 1605587102908
   },
   "modifiedAt": {
-    "$date": "1605587428465"
+    "$date": 1605587428465
   },
   "origId": "7WmeTJSdWymq8FHDN",
   "name": "PixelSearching",
   "notes": "Testing PixelSearching\n-- Evan Chen \n\n",
-  "rank": "1.1175346781119009",
+  "rank": 1.1175346781119009,
   "private": false,
   "unlisted": true,
   "username": "evan_chen",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-w582zuw7q83l2ja67-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "ofEdFfAwG8TxpzY8q"
 }

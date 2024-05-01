@@ -3,7 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": "1667032560256"
+      "$date": 1667032560256
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": "1669808465935"
+    "$date": 1669808465935
   },
   "modifiedAt": {
-    "$date": "1669808465935"
+    "$date": 1669808465935
   },
   "origId": null,
   "name": "coolswirly",
   "notes": "",
-  "rank": "1.1115698705284462",
+  "rank": 1.1115698705284462,
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-qsh2hwhaurld8q092-thumbnail.jpg",
   "hasSound": "",
-  "views": "57",
-  "likes": "0",
+  "views": 57,
+  "likes": 0,
   "revisionId": "LJyrS6XxT2mxdSkB9"
 }

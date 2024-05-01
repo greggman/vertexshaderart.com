@@ -3,7 +3,7 @@
   "owner": {
     "_id": "vkPwAHM8PnAebFPxW",
     "createdAt": {
-      "$date": "1501857924166"
+      "$date": 1501857924166
     },
     "profile": {
       "name": "Macro Machines",
@@ -13,15 +13,15 @@
     "username": "macro"
   },
   "createdAt": {
-    "$date": "1681890748720"
+    "$date": 1681890748720
   },
   "modifiedAt": {
-    "$date": "1681926288776"
+    "$date": 1681926288776
   },
   "origId": "L4yzBqmc6NRwKXSrs",
   "name": "RED HEXDROPS 5",
   "notes": "",
-  "rank": "10.622389878516136",
+  "rank": 10.622389878516136,
   "private": false,
   "unlisted": false,
   "username": "macro",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-cqkw0b6xoe9tuf2by-thumbnail.jpg",
   "hasSound": true,
-  "views": "56",
-  "likes": "2",
+  "views": 56,
+  "likes": 2,
   "revisionId": "YR4sjunsJDThGYE8i"
 }

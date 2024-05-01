@@ -3,7 +3,7 @@
   "owner": {
     "_id": "iFSyTSHmeekk4Ga75",
     "createdAt": {
-      "$date": "1683697855014"
+      "$date": 1683697855014
     },
     "username": "minkicho",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684304186739"
+    "$date": 1684304186739
   },
   "modifiedAt": {
-    "$date": "1684304186739"
+    "$date": 1684304186739
   },
   "origId": null,
   "name": "Exercise Making A Grid",
   "notes": "",
-  "rank": "1.0176899304948581",
+  "rank": 1.0176899304948581,
   "private": false,
   "unlisted": true,
   "username": "minkicho",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-um3y19xdyza2v2n5q-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "mikzNwTxohS3q7pge"
 }

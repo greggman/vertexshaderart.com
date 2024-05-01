@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1623653541713"
+    "$date": 1623653541713
   },
   "modifiedAt": {
-    "$date": "1623653541713"
+    "$date": 1623653541713
   },
   "origId": "vBDBSAvnH4mCTZ4So",
   "name": "Pixel Stormx",
   "notes": "",
-  "rank": "1.3712746123061965",
+  "rank": 1.3712746123061965,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-ovlffevkxqotbpz1h-thumbnail.jpg",
   "hasSound": true,
-  "views": "112",
-  "likes": "1",
+  "views": 112,
+  "likes": 1,
   "revisionId": "M9jittByTCaFWbnjt"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1666008860245"
+    "$date": 1666008860245
   },
   "modifiedAt": {
-    "$date": "1666008860245"
+    "$date": 1666008860245
   },
   "origId": "HW98dGDbChYw2FjpS",
   "name": "feels like debris",
   "notes": "",
-  "rank": "1.5141873343163157",
+  "rank": 1.5141873343163157,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-gx46ouixvfo8q5lzs-thumbnail.jpg",
   "hasSound": "",
-  "views": "70",
-  "likes": "0",
+  "views": 70,
+  "likes": 0,
   "revisionId": "jw7Lxg8JZZf82HAMG"
 }

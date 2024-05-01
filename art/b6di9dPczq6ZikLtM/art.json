@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1529654556529"
+    "$date": 1529654556529
   },
   "modifiedAt": {
-    "$date": "1529654556529"
+    "$date": 1529654556529
   },
   "origId": "b2AspWSvDsXib8Kkc",
   "name": "Torus Bulb",
   "notes": "",
-  "rank": "1.5423828296303086",
+  "rank": 1.5423828296303086,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-cg2i9848v9l6ikhdm-thumbnail.jpg",
   "hasSound": true,
-  "views": "108",
-  "likes": "0",
+  "views": 108,
+  "likes": 0,
   "revisionId": "TWL5tzGukuqaNpKR3"
 }

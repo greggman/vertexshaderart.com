@@ -3,7 +3,7 @@
   "owner": {
     "_id": "GoQyZYs7FujajLiLx",
     "createdAt": {
-      "$date": "1485892064893"
+      "$date": 1485892064893
     },
     "username": "paul-jan",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1485981457799"
+    "$date": 1485981457799
   },
   "modifiedAt": {
-    "$date": "1485981648558"
+    "$date": 1485981648558
   },
   "origId": null,
   "name": "Pixel ... err vertex shader",
   "notes": "",
-  "rank": "1.8270630823950982",
+  "rank": 1.8270630823950982,
   "private": false,
   "unlisted": true,
   "username": "paul-jan",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-6e6qbscq2zj0o2kxp-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "WmBCWDgZg54LAAFrh"
 }

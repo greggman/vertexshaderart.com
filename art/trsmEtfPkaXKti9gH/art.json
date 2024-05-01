@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dGy5QaokhfRCbYaGw",
     "createdAt": {
-      "$date": "1659646292396"
+      "$date": 1659646292396
     },
     "username": "der",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1659650836575"
+    "$date": 1659650836575
   },
   "modifiedAt": {
-    "$date": "1659702996075"
+    "$date": 1659702996075
   },
   "origId": "KRpCEmbJ2GTTRtxsR",
   "name": "Spiral",
   "notes": "",
-  "rank": "1.61692520134355",
+  "rank": 1.61692520134355,
   "private": false,
   "unlisted": true,
   "username": "der",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ign6dm9bnsv1ygv8v-thumbnail.jpg",
   "hasSound": "",
-  "views": "12",
-  "likes": "0",
+  "views": 12,
+  "likes": 0,
   "revisionId": "z92qz6CeKMLjS8ZvZ"
 }

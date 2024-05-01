@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1502297262277"
+    "$date": 1502297262277
   },
   "modifiedAt": {
-    "$date": "1503084091096"
+    "$date": 1503084091096
   },
   "origId": "B8dK4DjfS4gxQ2D6x",
   "name": "friz",
   "notes": "",
-  "rank": "10.104674468934139",
+  "rank": 10.104674468934139,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-xlltf3zxucthecfhj-thumbnail.jpg",
   "hasSound": true,
-  "views": "329",
-  "likes": "6",
+  "views": 329,
+  "likes": 6,
   "revisionId": "rnCExtBE9mFaReHuM"
 }

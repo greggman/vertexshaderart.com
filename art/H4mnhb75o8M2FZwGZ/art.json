@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Ck8bhCDxi55cjKfoM",
     "createdAt": {
-      "$date": "1683603030942"
+      "$date": 1683603030942
     },
     "profile": {
       "name": "John Lynch",
@@ -12,15 +12,15 @@
     "username": "teraspora2"
   },
   "createdAt": {
-    "$date": "1683603552034"
+    "$date": 1683603552034
   },
   "modifiedAt": {
-    "$date": "1683603552034"
+    "$date": 1683603552034
   },
   "origId": null,
   "name": "unnamed",
   "notes": "copid & tweaked",
-  "rank": "1.6232795736394263",
+  "rank": 1.6232795736394263,
   "private": false,
   "unlisted": true,
   "username": "teraspora2",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-cu626z1zgrhlr6pbv-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "CtbwBcCHBAnirdfZT"
 }

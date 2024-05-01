@@ -3,7 +3,7 @@
   "owner": {
     "_id": "NAvHKNuxDSsKeTzss",
     "createdAt": {
-      "$date": "1652854231365"
+      "$date": 1652854231365
     },
     "username": "jaewoo.choi",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1653479467882"
+    "$date": 1653479467882
   },
   "modifiedAt": {
-    "$date": "1653481603834"
+    "$date": 1653481603834
   },
   "origId": null,
   "name": "Audio Reactive Art",
   "notes": "Extra",
-  "rank": "1.0331128562773977",
+  "rank": 1.0331128562773977,
   "private": false,
   "unlisted": true,
   "username": "jaewoo.choi",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-i65nyvxvdm5ou8olu-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "7zfiHuziWcJH9viYH"
 }

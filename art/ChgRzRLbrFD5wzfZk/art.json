@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1550864744792"
+    "$date": 1550864744792
   },
   "modifiedAt": {
-    "$date": "1550912582046"
+    "$date": 1550912582046
   },
   "origId": "pfa9757K3NJx6euhN",
   "name": "galax-z",
   "notes": "",
-  "rank": "10.179837600262541",
+  "rank": 10.179837600262541,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-qq1r2ih36yr4y9ik5-thumbnail.jpg",
   "hasSound": true,
-  "views": "1905",
-  "likes": "14",
+  "views": 1905,
+  "likes": 14,
   "revisionId": "HPC3PAo7W6EkgLuZb"
 }

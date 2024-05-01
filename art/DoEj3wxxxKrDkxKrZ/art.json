@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": "1523273254098"
+      "$date": 1523273254098
     },
     "profile": {
       "first_name": "Brendon",
@@ -14,15 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": "1525113056052"
+    "$date": 1525113056052
   },
   "modifiedAt": {
-    "$date": "1525113368770"
+    "$date": 1525113368770
   },
   "origId": null,
   "name": "2D Circle",
   "notes": "Simple 2D Circle Example with min radius. Move ouse to expand the circle",
-  "rank": "1.8872590186645744",
+  "rank": 1.8872590186645744,
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -42,7 +42,7 @@
   },
   "screenshotURL": "data/images/images-hpkdxil7xdl4zbeah-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "xcnv4oBzgtNYWRENi"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": "1540408032900"
+      "$date": 1540408032900
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -12,15 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": "1540721139387"
+    "$date": 1540721139387
   },
   "modifiedAt": {
-    "$date": "1540721139387"
+    "$date": 1540721139387
   },
   "origId": null,
   "name": "\"The Circle\"",
   "notes": "",
-  "rank": "1.694580143162285",
+  "rank": 1.694580143162285,
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-vq5ysgwkfi9qlp64i-thumbnail.jpg",
   "hasSound": true,
-  "views": "168",
-  "likes": "0",
+  "views": 168,
+  "likes": 0,
   "revisionId": "qcyTzwFMfvGHJWQgX"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "CJtPPYNFXinj2EC2b",
     "createdAt": {
-      "$date": "1652841467004"
+      "$date": 1652841467004
     },
     "username": "seongwon.jang",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652964257980"
+    "$date": 1652964257980
   },
   "modifiedAt": {
-    "$date": "1652964932961"
+    "$date": 1652964932961
   },
   "origId": "cqrpE8sDb6Md6djDh",
   "name": "Motion.seongwon.jang",
   "notes": "",
-  "rank": "1.2368067702379761",
+  "rank": 1.2368067702379761,
   "private": false,
   "unlisted": true,
   "username": "seongwon.jang",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-i8qcz427o7j88q5z3-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "9gqc9fpjB6RT2Zmwu"
 }

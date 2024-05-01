@@ -3,7 +3,7 @@
   "owner": {
     "_id": "jK9QGEnE3PX9X597y",
     "createdAt": {
-      "$date": "1486733536214"
+      "$date": 1486733536214
     },
     "profile": {
       "name": "Mats Ygfors",
@@ -12,15 +12,15 @@
     "username": "mats"
   },
   "createdAt": {
-    "$date": "1486734148124"
+    "$date": 1486734148124
   },
   "modifiedAt": {
-    "$date": "1486734148124"
+    "$date": 1486734148124
   },
   "origId": null,
   "name": "test1",
   "notes": "",
-  "rank": "1.1820698030822712",
+  "rank": 1.1820698030822712,
   "private": false,
   "unlisted": true,
   "username": "mats",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3z038y6hm8i58nzze-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "tkgbQsALQZHdwoAti"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1553094077785"
+    "$date": 1553094077785
   },
   "modifiedAt": {
-    "$date": "1553094077785"
+    "$date": 1553094077785
   },
   "origId": "cMqY3Hixco2WwFZo6",
   "name": "whirl",
   "notes": "",
-  "rank": "1.505349438597013",
+  "rank": 1.505349438597013,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-4nbri3v8wv2mi17mb-thumbnail.jpg",
   "hasSound": "",
-  "views": "43",
-  "likes": "0",
+  "views": 43,
+  "likes": 0,
   "revisionId": "xtgJdAAmDck9gwgGy"
 }

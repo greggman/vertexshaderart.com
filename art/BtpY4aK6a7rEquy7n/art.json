@@ -3,7 +3,7 @@
   "owner": {
     "_id": "YMZyxbNq3cKGXyTyT",
     "createdAt": {
-      "$date": "1508992260667"
+      "$date": 1508992260667
     },
     "profile": {
       "name": "Martin Palko",
@@ -12,15 +12,15 @@
     "username": "martinpalko"
   },
   "createdAt": {
-    "$date": "1509121941112"
+    "$date": 1509121941112
   },
   "modifiedAt": {
-    "$date": "1509122012511"
+    "$date": 1509122012511
   },
   "origId": "fs6GHW2crknZmzoWy",
   "name": "Rain_old",
   "notes": "",
-  "rank": "1.912268917759401",
+  "rank": 1.912268917759401,
   "private": false,
   "unlisted": true,
   "username": "martinpalko",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-co8m1t5s7llqelahe-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "T9xY9CiQFS78849vg"
 }

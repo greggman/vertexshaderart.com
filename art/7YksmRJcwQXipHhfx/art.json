@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1450077000949"
+    "$date": 1450077000949
   },
   "modifiedAt": {
-    "$date": "1470046729914"
+    "$date": 1470046729914
   },
   "origId": "dGD7KhAgWY4qfsmbJ",
   "name": "terrain",
   "notes": "",
-  "rank": "10.599773843326814",
+  "rank": 10.599773843326814,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-sjdzoc1qexc1z55r1-thumbnail.jpg",
   "hasSound": true,
-  "views": "1123",
-  "likes": "7",
+  "views": 1123,
+  "likes": 7,
   "revisionId": "DsiAfztSDr92uPwsx"
 }

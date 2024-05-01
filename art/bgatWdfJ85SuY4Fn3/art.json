@@ -3,7 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": "1450381162182"
+      "$date": 1450381162182
     },
     "username": "aiekick",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1533265869874"
+    "$date": 1533265869874
   },
   "modifiedAt": {
-    "$date": "1533317874049"
+    "$date": 1533317874049
   },
   "origId": null,
   "name": "French Lorenz Attractor",
   "notes": "",
-  "rank": "1.3272650142501872",
+  "rank": 1.3272650142501872,
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-u17mun28yzgn6n4u3-thumbnail.jpg",
   "hasSound": true,
-  "views": "650",
-  "likes": "0",
+  "views": 650,
+  "likes": 0,
   "revisionId": "xbHAehfvHej3cz3hF"
 }

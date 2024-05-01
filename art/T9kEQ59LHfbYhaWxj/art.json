@@ -3,7 +3,7 @@
   "owner": {
     "_id": "iN68Kmrxzr62ZC6qn",
     "createdAt": {
-      "$date": "1604280807807"
+      "$date": 1604280807807
     },
     "profile": {
       "name": "RandomYang",
@@ -12,15 +12,15 @@
     "username": "random-yang"
   },
   "createdAt": {
-    "$date": "1604301636142"
+    "$date": 1604301636142
   },
   "modifiedAt": {
-    "$date": "1604301636142"
+    "$date": 1604301636142
   },
   "origId": null,
   "name": "测试",
   "notes": "",
-  "rank": "1.7289093759361138",
+  "rank": 1.7289093759361138,
   "private": false,
   "unlisted": true,
   "username": "random-yang",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-d2m2e9116o91b7pb0-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "QvNygmM5cNCwdYHxQ"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "6d4JTeQ2n9cWvEKfT",
     "createdAt": {
-      "$date": "1554193986896"
+      "$date": 1554193986896
     },
     "profile": {
       "first_name": "_",
@@ -13,15 +13,15 @@
     "username": "_"
   },
   "createdAt": {
-    "$date": "1554207492050"
+    "$date": 1554207492050
   },
   "modifiedAt": {
-    "$date": "1554210306508"
+    "$date": 1554210306508
   },
   "origId": null,
   "name": "CS230",
   "notes": "Eunjin Hong 2019",
-  "rank": "1.9034468727937313",
+  "rank": 1.9034468727937313,
   "private": false,
   "unlisted": true,
   "username": "_",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-ws4tvopgjjds46899-thumbnail.jpg",
   "hasSound": true,
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "RLJEutPMjwBRp4xMc"
 }

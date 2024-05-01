@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1644477467935"
+    "$date": 1644477467935
   },
   "modifiedAt": {
-    "$date": "1644477467935"
+    "$date": 1644477467935
   },
   "origId": "qtwQmSqQKkS3ptSYN",
   "name": "jp",
   "notes": "",
-  "rank": "1.656167797225077",
+  "rank": 1.656167797225077,
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-p7tvo3r9d4n67n4vy-thumbnail.jpg",
   "hasSound": true,
-  "views": "56",
-  "likes": "0",
+  "views": 56,
+  "likes": 0,
   "revisionId": "5WvmoK7mub5y7uPzX"
 }

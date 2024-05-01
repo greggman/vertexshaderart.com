@@ -3,7 +3,7 @@
   "owner": {
     "_id": "rNn8aeTHLQXkcMmn8",
     "createdAt": {
-      "$date": "1684322503601"
+      "$date": 1684322503601
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jaeyeong-an"
   },
   "createdAt": {
-    "$date": "1684324332351"
+    "$date": 1684324332351
   },
   "modifiedAt": {
-    "$date": "1684324332351"
+    "$date": 1684324332351
   },
   "origId": null,
   "name": "Making A Grid by Jaeyeong An",
   "notes": "From vertexshaderart's Lessons follow along with Lesson 01 - Making a Grid. ",
-  "rank": "1.3210941743463966",
+  "rank": 1.3210941743463966,
   "private": false,
   "unlisted": false,
   "username": "jaeyeong-an",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-jvr097bu3nleexao4-thumbnail.jpg",
   "hasSound": "",
-  "views": "50",
-  "likes": "0",
+  "views": 50,
+  "likes": 0,
   "revisionId": "wXMJ3AtaJi9S2grbN"
 }

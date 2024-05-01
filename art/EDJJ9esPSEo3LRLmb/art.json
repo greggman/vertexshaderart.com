@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Bs4vwFBoeN6Lx3is5",
     "createdAt": {
-      "$date": "1528672219472"
+      "$date": 1528672219472
     },
     "profile": {
       "name": "Justin Shrake",
@@ -13,15 +13,15 @@
     "username": "jshrake"
   },
   "createdAt": {
-    "$date": "1556923504176"
+    "$date": 1556923504176
   },
   "modifiedAt": {
-    "$date": "1556923504176"
+    "$date": 1556923504176
   },
   "origId": null,
   "name": "demo",
   "notes": "",
-  "rank": "1.6076221986060435",
+  "rank": 1.6076221986060435,
   "private": false,
   "unlisted": true,
   "username": "jshrake",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-4xxetrzignsq6x1f1-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "wrar4JnSLfo2T8KGy"
 }

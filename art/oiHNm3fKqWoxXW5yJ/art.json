@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1571703598799"
+    "$date": 1571703598799
   },
   "modifiedAt": {
-    "$date": "1571703598799"
+    "$date": 1571703598799
   },
   "origId": "Tv6txjYWJaTTTbyRp",
   "name": "French Lorenz Attractor work",
   "notes": "",
-  "rank": "1.6154942476715022",
+  "rank": 1.6154942476715022,
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-cek3e40f8h9cxkznt-thumbnail.jpg",
   "hasSound": true,
-  "views": "178",
-  "likes": "0",
+  "views": 178,
+  "likes": 0,
   "revisionId": "kJuwWZ7XGTSiXnsiY"
 }

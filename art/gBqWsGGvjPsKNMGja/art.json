@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gtmTwjfybNBxLCYrM",
     "createdAt": {
-      "$date": "1554726116747"
+      "$date": 1554726116747
     },
     "username": "pgan",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1554745867355"
+    "$date": 1554745867355
   },
   "modifiedAt": {
-    "$date": "1554745867355"
+    "$date": 1554745867355
   },
   "origId": "XzeZ7nA6eLt5GmJfj",
   "name": "cubes1",
   "notes": "",
-  "rank": "1.5953317401587395",
+  "rank": 1.5953317401587395,
   "private": false,
   "unlisted": true,
   "username": "pgan",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-o54j3rsd4jrr5e2wb-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "vDAgPvSiiFcN6mGsF"
 }

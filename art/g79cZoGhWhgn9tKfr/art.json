@@ -3,7 +3,7 @@
   "owner": {
     "_id": "nZewJw4MxEEmnZgQJ",
     "createdAt": {
-      "$date": "1506543469437"
+      "$date": 1506543469437
     },
     "profile": {
       "name": "Jordan Shaw",
@@ -12,15 +12,15 @@
     "username": "jshaw"
   },
   "createdAt": {
-    "$date": "1506543908805"
+    "$date": 1506543908805
   },
   "modifiedAt": {
-    "$date": "1506543908805"
+    "$date": 1506543908805
   },
   "origId": null,
   "name": "miami",
   "notes": "",
-  "rank": "1.022362741315208",
+  "rank": 1.022362741315208,
   "private": false,
   "unlisted": false,
   "username": "jshaw",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-vuyrrf64jx9es77e5-thumbnail.jpg",
   "hasSound": true,
-  "views": "84",
-  "likes": "0",
+  "views": 84,
+  "likes": 0,
   "revisionId": "8mHPA4r3ggdNH8rq3"
 }

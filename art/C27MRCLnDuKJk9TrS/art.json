@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1507987399776"
+    "$date": 1507987399776
   },
   "modifiedAt": {
-    "$date": "1507987399776"
+    "$date": 1507987399776
   },
   "origId": "7b2mtzWGfut7qG2b4",
   "name": "cubes",
   "notes": "",
-  "rank": "1.8122928365397264",
+  "rank": 1.8122928365397264,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-cxgcel0cddc7048p5-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "gPbaqRGqEutx7TtQ4"
 }

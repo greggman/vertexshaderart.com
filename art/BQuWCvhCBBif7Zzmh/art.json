@@ -3,7 +3,7 @@
   "owner": {
     "_id": "KaJdRmvjKcN5R5mxE",
     "createdAt": {
-      "$date": "1517964991792"
+      "$date": 1517964991792
     },
     "profile": {
       "first_name": "Sergio",
@@ -13,15 +13,15 @@
     "username": "sergio"
   },
   "createdAt": {
-    "$date": "1517965003542"
+    "$date": 1517965003542
   },
   "modifiedAt": {
-    "$date": "1517965003542"
+    "$date": 1517965003542
   },
   "origId": null,
   "name": "circle",
   "notes": "",
-  "rank": "1.118984882248537",
+  "rank": 1.118984882248537,
   "private": false,
   "unlisted": false,
   "username": "sergio",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-klahmu0tk9exauxep-thumbnail.jpg",
   "hasSound": "",
-  "views": "322",
-  "likes": "0",
+  "views": 322,
+  "likes": 0,
   "revisionId": "j2EsQwCW4JPpYfcf3"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ux3fjoRm5soDepFAZ",
     "createdAt": {
-      "$date": "1486735121030"
+      "$date": 1486735121030
     },
     "username": "lizell",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1536317726251"
+    "$date": 1536317726251
   },
   "modifiedAt": {
-    "$date": "1536317726251"
+    "$date": 1536317726251
   },
   "origId": "AndijhSm4Fuox73p9",
   "name": "vibrations",
   "notes": "by lizell",
-  "rank": "1.288508887540139",
+  "rank": 1.288508887540139,
   "private": false,
   "unlisted": true,
   "username": "lizell",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-2qxfdby41lw91cwke-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "x9NJiWZLYE3LP3kp9"
 }

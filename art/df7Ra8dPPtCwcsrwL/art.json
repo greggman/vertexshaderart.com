@@ -4,14 +4,14 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1447750440625"
+    "$date": 1447750440625
   },
   "modifiedAt": {
-    "$date": "1447750440625"
+    "$date": 1447750440625
   },
   "origId": null,
   "name": "tripna",
-  "rank": "1.313774257735402",
+  "rank": 1.313774257735402,
   "private": false,
   "username": "-anon-",
   "settings": {
@@ -29,7 +29,7 @@
   },
   "screenshotURL": "data/images/images-m3w3s848st53eqsxu-thumbnail.jpg",
   "hasSound": true,
-  "views": "111",
-  "likes": "0",
+  "views": 111,
+  "likes": 0,
   "revisionId": "gSpziSQwYGJa3Nxhh"
 }

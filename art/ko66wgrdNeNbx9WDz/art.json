@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1669348882170"
+    "$date": 1669348882170
   },
   "modifiedAt": {
-    "$date": "1669348882170"
+    "$date": 1669348882170
   },
   "origId": null,
   "name": "ropepull",
   "notes": "",
-  "rank": "1.1919708870266652",
+  "rank": 1.1919708870266652,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-nxrc35d6f0s6kkgxa-thumbnail.jpg",
   "hasSound": true,
-  "views": "73",
-  "likes": "0",
+  "views": 73,
+  "likes": 0,
   "revisionId": "4d6k7cdpPePfkRuBo"
 }

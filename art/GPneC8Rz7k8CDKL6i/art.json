@@ -3,7 +3,7 @@
   "owner": {
     "_id": "pShbwXbEpRcqHH4By",
     "createdAt": {
-      "$date": "1540987632613"
+      "$date": 1540987632613
     },
     "profile": {
       "first_name": "Patrik",
@@ -13,15 +13,15 @@
     "username": "patrik"
   },
   "createdAt": {
-    "$date": "1540987667959"
+    "$date": 1540987667959
   },
   "modifiedAt": {
-    "$date": "1540987667959"
+    "$date": 1540987667959
   },
   "origId": "4h35MHPA2dwXFTJHy",
   "name": "3D Sine Wave_mousepos mod",
   "notes": "change color by mouseposition",
-  "rank": "1.4817570260364195",
+  "rank": 1.4817570260364195,
   "private": false,
   "unlisted": true,
   "username": "patrik",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-bd74ifwrtdjlvsddv-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "J6bTXPgpfwMAjYjXR"
 }

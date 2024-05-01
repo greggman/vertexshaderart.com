@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8zztH8K59zQaKjuQX",
     "createdAt": {
-      "$date": "1677359387406"
+      "$date": 1677359387406
     },
     "profile": {
       "first_name": "James",
@@ -13,15 +13,15 @@
     "username": "james2"
   },
   "createdAt": {
-    "$date": "1682103466521"
+    "$date": 1682103466521
   },
   "modifiedAt": {
-    "$date": "1682103466521"
+    "$date": 1682103466521
   },
   "origId": null,
   "name": "sphere2",
   "notes": "",
-  "rank": "1.1224464177558384",
+  "rank": 1.1224464177558384,
   "private": false,
   "unlisted": true,
   "username": "james2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-yd7u7xom7e40nx9j5-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "pDxL37FnwEQWo4Psp"
 }

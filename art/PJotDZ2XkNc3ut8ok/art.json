@@ -3,7 +3,7 @@
   "owner": {
     "_id": "exrQAEG45B5Exhhan",
     "createdAt": {
-      "$date": "1684329330454"
+      "$date": 1684329330454
     },
     "profile": {
       "name": "Minsu Kim",
@@ -12,15 +12,15 @@
     "username": "minsu-kim-digipen"
   },
   "createdAt": {
-    "$date": "1684407025171"
+    "$date": 1684407025171
   },
   "modifiedAt": {
-    "$date": "1684409915109"
+    "$date": 1684409915109
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": "1.7977021359404166",
+  "rank": 1.7977021359404166,
   "private": false,
   "unlisted": true,
   "username": "minsu-kim-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-cc9dsnufoliof9fnc-thumbnail.jpg",
   "hasSound": "",
-  "views": "9",
-  "likes": "1",
+  "views": 9,
+  "likes": 1,
   "revisionId": "DAZ3n9upicXHEqCiB"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": "1684058245272"
+      "$date": 1684058245272
     },
     "username": "byungchan.park",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684316117961"
+    "$date": 1684316117961
   },
   "modifiedAt": {
-    "$date": "1684317551813"
+    "$date": 1684317551813
   },
   "origId": null,
   "name": "Exercise - Own Grid variation",
   "notes": "Exercise - Own Grid variation",
-  "rank": "1.7510937801648805",
+  "rank": 1.7510937801648805,
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-p0441clrslbiupp9y-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "2Ki7o8hTG9XQGtfCL"
 }

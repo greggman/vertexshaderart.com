@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yyfDj8PGn9r7DT7ZA",
     "createdAt": {
-      "$date": "1492808668114"
+      "$date": 1492808668114
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "clydepashley"
   },
   "createdAt": {
-    "$date": "1492811832959"
+    "$date": 1492811832959
   },
   "modifiedAt": {
-    "$date": "1492811832959"
+    "$date": 1492811832959
   },
   "origId": "2djzoxSxpM9HnRXQH",
   "name": "z%%z 3 music",
   "notes": "",
-  "rank": "1.3063086583942776",
+  "rank": 1.3063086583942776,
   "private": false,
   "unlisted": true,
   "username": "clydepashley",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-l69t7w9hln6zevamk-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "dtoo4mRfpaXTWDhCy"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1590988174480"
+    "$date": 1590988174480
   },
   "modifiedAt": {
-    "$date": "1590988174480"
+    "$date": 1590988174480
   },
   "origId": "koFtCvuibJTEPuswi",
   "name": "terrain k3",
   "notes": "",
-  "rank": "1.0918133792497966",
+  "rank": 1.0918133792497966,
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-00l99ntdlchd2rpby-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "M6Kd8yxvmiBDPHZo4"
 }

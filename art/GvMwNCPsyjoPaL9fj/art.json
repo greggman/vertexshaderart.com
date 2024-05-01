@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1512193698911"
+    "$date": 1512193698911
   },
   "modifiedAt": {
-    "$date": "1512193698911"
+    "$date": 1512193698911
   },
   "origId": "xvg4vyvfWjCvKZQfW",
   "name": "fuzeball",
   "notes": "",
-  "rank": "1.7818055362650422",
+  "rank": 1.7818055362650422,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-aawreobqhin5nx66d-thumbnail.jpg",
   "hasSound": true,
-  "views": "43",
-  "likes": "0",
+  "views": 43,
+  "likes": 0,
   "revisionId": "2ngjjJWrtn6eEpRWK"
 }

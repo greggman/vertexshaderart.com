@@ -3,7 +3,7 @@
   "owner": {
     "_id": "q57ybqisptNvWBAxF",
     "createdAt": {
-      "$date": "1527181873171"
+      "$date": 1527181873171
     },
     "profile": {
       "first_name": "Daniel",
@@ -13,15 +13,15 @@
     "username": "daniel"
   },
   "createdAt": {
-    "$date": "1527181897722"
+    "$date": 1527181897722
   },
   "modifiedAt": {
-    "$date": "1527184592952"
+    "$date": 1527184592952
   },
   "origId": "BQuWCvhCBBif7Zzmh",
   "name": "slowmess",
   "notes": "",
-  "rank": "1.4485652569808474",
+  "rank": 1.4485652569808474,
   "private": false,
   "unlisted": false,
   "username": "daniel",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-7i4cmaoy4icia2ibl-thumbnail.jpg",
   "hasSound": true,
-  "views": "203",
-  "likes": "0",
+  "views": 203,
+  "likes": 0,
   "revisionId": "So9CtcDdddHdZ5N8Q"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1697404075598"
+    "$date": 1697404075598
   },
   "modifiedAt": {
-    "$date": "1697404075598"
+    "$date": 1697404075598
   },
   "origId": "8oJh9QtFGgJksSFFk",
   "name": "OVERSHOOT",
   "notes": "",
-  "rank": "1.9424507875666797",
+  "rank": 1.9424507875666797,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-szbazl937ioxoy43y-thumbnail.jpg",
   "hasSound": "",
-  "views": "61",
-  "likes": "0",
+  "views": 61,
+  "likes": 0,
   "revisionId": "YYoxj36hojSSACycY"
 }

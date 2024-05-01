@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MEn2bK8navo8QQHYf",
     "createdAt": {
-      "$date": "1684321859878"
+      "$date": 1684321859878
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jonghyeon-lee-digipen"
   },
   "createdAt": {
-    "$date": "1684323391986"
+    "$date": 1684323391986
   },
   "modifiedAt": {
-    "$date": "1684323391986"
+    "$date": 1684323391986
   },
   "origId": null,
   "name": "Making A Grid-JongHyeon Lee",
   "notes": "",
-  "rank": "1.444964189197089",
+  "rank": 1.444964189197089,
   "private": false,
   "unlisted": false,
   "username": "jonghyeon-lee-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-e2m7r0pwzdx2wc2kd-thumbnail.jpg",
   "hasSound": "",
-  "views": "38",
-  "likes": "0",
+  "views": 38,
+  "likes": 0,
   "revisionId": "96k2v8ugSpih9GinD"
 }

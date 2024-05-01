@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1452327862209"
+    "$date": 1452327862209
   },
   "modifiedAt": {
-    "$date": "1453746266127"
+    "$date": 1453746266127
   },
   "origId": "xvg4vyvfWjCvKZQfW",
   "name": "cyty",
   "notes": "",
-  "rank": "10.16209403398069",
+  "rank": 10.16209403398069,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-4a3wvsmv4bb39rh29-thumbnail.jpg",
   "hasSound": true,
-  "views": "702",
-  "likes": "9",
+  "views": 702,
+  "likes": 9,
   "revisionId": "8z2whXqEmXfeJTPD8"
 }

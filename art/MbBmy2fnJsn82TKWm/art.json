@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1509090670018"
+    "$date": 1509090670018
   },
   "modifiedAt": {
-    "$date": "1509090670018"
+    "$date": 1509090670018
   },
   "origId": "TdqvseMQyoJ3ZrjrD",
   "name": "Garden Fireworks",
   "notes": "",
-  "rank": "1.2189350791943814",
+  "rank": 1.2189350791943814,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3fy82ued29u3itmci-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "r9ixA2TEKxhSP8fWA"
 }

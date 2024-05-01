@@ -3,7 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": "1450381162182"
+      "$date": 1450381162182
     },
     "username": "aiekick",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1509651507305"
+    "$date": 1509651507305
   },
   "modifiedAt": {
-    "$date": "1510507314776"
+    "$date": 1510507314776
   },
   "origId": null,
   "name": "Triangular Voronoi",
   "notes": "",
-  "rank": "1.94736457090829",
+  "rank": 1.94736457090829,
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-xg621jspbuf31ss6r-thumbnail.jpg",
   "hasSound": true,
-  "views": "224",
-  "likes": "1",
+  "views": 224,
+  "likes": 1,
   "revisionId": "ARJ8FvD5ixdh2DRmM"
 }

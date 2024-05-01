@@ -3,7 +3,7 @@
   "owner": {
     "_id": "tFSGYdMSg7J6WsAhF",
     "createdAt": {
-      "$date": "1450381162182"
+      "$date": 1450381162182
     },
     "username": "aiekick",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1535737942011"
+    "$date": 1535737942011
   },
   "modifiedAt": {
-    "$date": "1535911445716"
+    "$date": 1535911445716
   },
   "origId": "evAAwbGtYJLZKPkMq",
   "name": "ShaderDough",
   "notes": "conversion from tdhooper shader\nhttps://www.shadertoy.com/view/4tc3WB",
-  "rank": "10.075996905646344",
+  "rank": 10.075996905646344,
   "private": false,
   "unlisted": false,
   "username": "aiekick",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-h1gh8djesgxas9aba-thumbnail.jpg",
   "hasSound": "",
-  "views": "1241",
-  "likes": "4",
+  "views": 1241,
+  "likes": 4,
   "revisionId": "nnTD2azkT8pzQcxch"
 }

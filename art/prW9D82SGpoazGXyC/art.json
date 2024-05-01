@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1694082641022"
+    "$date": 1694082641022
   },
   "modifiedAt": {
-    "$date": "1694082641022"
+    "$date": 1694082641022
   },
   "origId": null,
   "name": "BouncingRuler",
   "notes": "",
-  "rank": "1.7409782175683735",
+  "rank": 1.7409782175683735,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-mekiw39krlj07ju1k-thumbnail.jpg",
   "hasSound": true,
-  "views": "48",
-  "likes": "0",
+  "views": 48,
+  "likes": 0,
   "revisionId": "49rZskGsSoKWRn3ed"
 }

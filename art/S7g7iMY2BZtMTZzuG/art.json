@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1621012996521"
+    "$date": 1621012996521
   },
   "modifiedAt": {
-    "$date": "1621012996521"
+    "$date": 1621012996521
   },
   "origId": "MvGQHAgKDYs3xAtq6",
   "name": "Audio Visual Tutorial V.3",
   "notes": "",
-  "rank": "1.7537710740315888",
+  "rank": 1.7537710740315888,
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-l1cgvtdhe4fn2nluq-thumbnail.jpg",
   "hasSound": true,
-  "views": "29",
-  "likes": "0",
+  "views": 29,
+  "likes": 0,
   "revisionId": "5uqWiw77y6HTXw9Ny"
 }

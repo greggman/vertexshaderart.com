@@ -3,7 +3,7 @@
   "owner": {
     "_id": "9ZLSSgkxArZxmcF9R",
     "createdAt": {
-      "$date": "1693869872205"
+      "$date": 1693869872205
     },
     "username": "mrsynackster",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1693870502946"
+    "$date": 1693870502946
   },
   "modifiedAt": {
-    "$date": "1693872761551"
+    "$date": 1693872761551
   },
   "origId": null,
   "name": "first_try",
   "notes": "",
-  "rank": "1.1715978016653852",
+  "rank": 1.1715978016653852,
   "private": false,
   "unlisted": true,
   "username": "mrsynackster",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-lj9dnlq4s6grtgerk-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "qgQ97QcwACMz9cHCb"
 }

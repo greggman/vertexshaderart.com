@@ -3,7 +3,7 @@
   "owner": {
     "_id": "5vj4on2zFGjvFpoeq",
     "createdAt": {
-      "$date": "1556923932187"
+      "$date": 1556923932187
     },
     "username": "tjak",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1559016292012"
+    "$date": 1559016292012
   },
   "modifiedAt": {
-    "$date": "1559016292012"
+    "$date": 1559016292012
   },
   "origId": "nNmmtcBPupGfffRQy",
   "name": "lesson 3 - alpha = val",
   "notes": "",
-  "rank": "1.0469651072887147",
+  "rank": 1.0469651072887147,
   "private": false,
   "unlisted": true,
   "username": "tjak",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-srru68via052ri2kt-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "MptuH8WKQ8WkR9sYE"
 }

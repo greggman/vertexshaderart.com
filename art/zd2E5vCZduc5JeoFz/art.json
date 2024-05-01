@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1499272027406"
+    "$date": 1499272027406
   },
   "modifiedAt": {
-    "$date": "1499301648610"
+    "$date": 1499301648610
   },
   "origId": "d6J9M7EJyoAgw5NcA",
   "name": "cubespace",
   "notes": "",
-  "rank": "10.148450586356358",
+  "rank": 10.148450586356358,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-92yttslpq6f0cneok-thumbnail.jpg",
   "hasSound": true,
-  "views": "47577",
-  "likes": "10",
+  "views": 47577,
+  "likes": 10,
   "revisionId": "nJe2S88pqGbbh4Xb7"
 }

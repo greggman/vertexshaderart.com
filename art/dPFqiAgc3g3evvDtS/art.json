@@ -3,7 +3,7 @@
   "owner": {
     "_id": "pABFwgbRnC2CP5Woy",
     "createdAt": {
-      "$date": "1713478111704"
+      "$date": 1713478111704
     },
     "profile": {
       "first_name": "Floppa Films Google Emails",
@@ -12,15 +12,15 @@
     "username": "floppafilms google emails"
   },
   "createdAt": {
-    "$date": "1713503344963"
+    "$date": 1713503344963
   },
   "modifiedAt": {
-    "$date": "1713503344963"
+    "$date": 1713503344963
   },
   "origId": "QHfQoa4YycdGxqd8r",
   "name": "shader template, useful functions + sound variable",
   "notes": "",
-  "rank": "1.8721111094046432",
+  "rank": 1.8721111094046432,
   "private": false,
   "unlisted": true,
   "username": "floppafilms google emails",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-mxu8nfobf8yoatw3z-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "s6DuDC3KXyLgJGna5"
 }

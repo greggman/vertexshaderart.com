@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1508230516551"
+    "$date": 1508230516551
   },
   "modifiedAt": {
-    "$date": "1508230516551"
+    "$date": 1508230516551
   },
   "origId": "xgrH8Ga7yhuDYom6t",
   "name": "flowerworm",
   "notes": "by johan",
-  "rank": "1.973387180731501",
+  "rank": 1.973387180731501,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-kz6k5q5oxhtl1xf2j-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "MPBJRpJEqCT2A7HnN"
 }

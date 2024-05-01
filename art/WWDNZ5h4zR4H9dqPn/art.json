@@ -3,7 +3,7 @@
   "owner": {
     "_id": "bQer2D4p22YiaAkFt",
     "createdAt": {
-      "$date": "1684301218251"
+      "$date": 1684301218251
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "minjae-yu"
   },
   "createdAt": {
-    "$date": "1684314619853"
+    "$date": 1684314619853
   },
   "modifiedAt": {
-    "$date": "1684314761596"
+    "$date": 1684314761596
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": "1.5711609604907355",
+  "rank": 1.5711609604907355,
   "private": false,
   "unlisted": true,
   "username": "minjae-yu",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-s261xcsh36qdgv4ac-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "tJe57MKWKEnEw7tZq"
 }

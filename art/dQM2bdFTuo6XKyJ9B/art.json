@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1626219321788"
+    "$date": 1626219321788
   },
   "modifiedAt": {
-    "$date": "1626219321788"
+    "$date": 1626219321788
   },
   "origId": "3RibQfbPe3tobLxLw",
   "name": "hypercuber",
   "notes": "",
-  "rank": "1.6875729983197647",
+  "rank": 1.6875729983197647,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-3v58l2e254bjseaxp-thumbnail.jpg",
   "hasSound": "",
-  "views": "105",
-  "likes": "0",
+  "views": 105,
+  "likes": 0,
   "revisionId": "NiupYwr6u7Mes5H7t"
 }

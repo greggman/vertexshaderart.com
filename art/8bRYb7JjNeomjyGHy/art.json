@@ -3,7 +3,7 @@
   "owner": {
     "_id": "hctW49vLQF3qkYG5S",
     "createdAt": {
-      "$date": "1518204364951"
+      "$date": 1518204364951
     },
     "profile": {
       "first_name": "Dominique",
@@ -13,15 +13,15 @@
     "username": "dominique"
   },
   "createdAt": {
-    "$date": "1518204382115"
+    "$date": 1518204382115
   },
   "modifiedAt": {
-    "$date": "1518204382115"
+    "$date": 1518204382115
   },
   "origId": "RZLFdeaBCJsCmp6Qg",
   "name": "unnamed",
   "notes": "tarea4",
-  "rank": "1.3081204190718272",
+  "rank": 1.3081204190718272,
   "private": false,
   "unlisted": true,
   "username": "dominique",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-s0vjk1kx0n9wdz555-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "58hxv53XLQ5cQaqDk"
 }

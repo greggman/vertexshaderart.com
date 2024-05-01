@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gNxKjov3jBLqTiXDf",
     "createdAt": {
-      "$date": "1562538226457"
+      "$date": 1562538226457
     },
     "username": "villain",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1562541124382"
+    "$date": 1562541124382
   },
   "modifiedAt": {
-    "$date": "1562541124382"
+    "$date": 1562541124382
   },
   "origId": null,
   "name": "Juno",
   "notes": "",
-  "rank": "1.1418361725199242",
+  "rank": 1.1418361725199242,
   "private": false,
   "unlisted": false,
   "username": "villain",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ac901fl4pktj7o677-thumbnail.jpg",
   "hasSound": true,
-  "views": "364",
-  "likes": "0",
+  "views": 364,
+  "likes": 0,
   "revisionId": "oFcbC5kqmytJncHA2"
 }

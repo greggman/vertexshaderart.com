@@ -3,7 +3,7 @@
   "owner": {
     "_id": "iisssmptqoCKgZqaQ",
     "createdAt": {
-      "$date": "1652854948747"
+      "$date": 1652854948747
     },
     "profile": {
       "name": "taeju.Kwon",
@@ -12,15 +12,15 @@
     "username": "taejukwon-digipen"
   },
   "createdAt": {
-    "$date": "1652970269455"
+    "$date": 1652970269455
   },
   "modifiedAt": {
-    "$date": "1652970318912"
+    "$date": 1652970318912
   },
   "origId": "ZXDZSs2JN4hbwdSqr",
   "name": "Motion",
   "notes": "",
-  "rank": "1.0377225925029818",
+  "rank": 1.0377225925029818,
   "private": false,
   "unlisted": true,
   "username": "taejukwon-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-gvlkrjic9678ybnf6-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "iSXnic6pTMa62fTF3"
 }

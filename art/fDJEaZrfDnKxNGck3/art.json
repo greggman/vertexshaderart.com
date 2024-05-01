@@ -3,7 +3,7 @@
   "owner": {
     "_id": "m6NzvnPPTaAroy2Ma",
     "createdAt": {
-      "$date": "1652623511870"
+      "$date": 1652623511870
     },
     "profile": {
       "name": "junsujang-digipen",
@@ -13,15 +13,15 @@
     "username": "junsujang-digipen"
   },
   "createdAt": {
-    "$date": "1652626738733"
+    "$date": 1652626738733
   },
   "modifiedAt": {
-    "$date": "1652626738733"
+    "$date": 1652626738733
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": "1.491476112409633",
+  "rank": 1.491476112409633,
   "private": false,
   "unlisted": true,
   "username": "junsujang-digipen",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-o9ybjrawelrdgatry-thumbnail.jpg",
   "hasSound": "",
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "XqZ9cTRmJCKKcwNSW"
 }

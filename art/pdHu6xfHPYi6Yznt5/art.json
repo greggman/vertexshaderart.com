@@ -3,7 +3,7 @@
   "owner": {
     "_id": "nx6x3Kd3LL22ncuyh",
     "createdAt": {
-      "$date": "1555795967435"
+      "$date": 1555795967435
     },
     "profile": {
       "name": "Mike Tobia",
@@ -12,15 +12,15 @@
     "username": "mike-tobia"
   },
   "createdAt": {
-    "$date": "1555808030778"
+    "$date": 1555808030778
   },
   "modifiedAt": {
-    "$date": "1555808125677"
+    "$date": 1555808125677
   },
   "origId": "EF4WxFMCR2GvFYvTB",
   "name": "track",
   "notes": "",
-  "rank": "1.593645075970597",
+  "rank": 1.593645075970597,
   "private": false,
   "unlisted": true,
   "username": "mike-tobia",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-2gkh89tc26uhtf521-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "AaABAxSQPTpbqAWuW"
 }

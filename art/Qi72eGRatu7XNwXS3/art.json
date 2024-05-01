@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gY6LJNWPnc5msFSRP",
     "createdAt": {
-      "$date": "1652632078852"
+      "$date": 1652632078852
     },
     "username": "sunwoo.lee",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652633455368"
+    "$date": 1652633455368
   },
   "modifiedAt": {
-    "$date": "1652885192603"
+    "$date": 1652885192603
   },
   "origId": null,
   "name": "Making a Grid_sunwoo.lee",
   "notes": "",
-  "rank": "1.860781957740599",
+  "rank": 1.860781957740599,
   "private": false,
   "unlisted": true,
   "username": "sunwoo.lee",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-qoansppiynpahobjl-thumbnail.jpg",
   "hasSound": "",
-  "views": "9",
-  "likes": "0",
+  "views": 9,
+  "likes": 0,
   "revisionId": "3HvFmn9yCXSouSqmw"
 }

@@ -10,7 +10,7 @@ function fixBS(v) {
   } if (typeof v === 'object') {
     const keys = Object.keys(v);  
     if (keys.length === 1 && keys[0].startsWith('$number')) {
-      return v[keys[0]];
+      return parseFloat(v[keys[0]]);
     }
     for (const k of keys) {
       v[k] = fixBS(v[k]);
@@ -107,6 +107,9 @@ for (const obj of art) {
       username: obj.owner?.username,
       avatarUrl: obj.avatarUrl,
       screenshotURL: obj.screenshotURL,
+      rank: obj.rank,
+      likes: obj.likes,
+      views: obj.views,      
     });
   }
 }

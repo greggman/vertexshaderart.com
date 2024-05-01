@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zGdckH32zuyCajNt3",
     "createdAt": {
-      "$date": "1571762510782"
+      "$date": 1571762510782
     },
     "profile": {
       "first_name": "andres",
@@ -14,15 +14,15 @@
     "username": "andres"
   },
   "createdAt": {
-    "$date": "1576466355298"
+    "$date": 1576466355298
   },
   "modifiedAt": {
-    "$date": "1576466355298"
+    "$date": 1576466355298
   },
   "origId": null,
   "name": "clat",
   "notes": "",
-  "rank": "1.2991568720275988",
+  "rank": 1.2991568720275988,
   "private": false,
   "unlisted": true,
   "username": "andres",
@@ -42,7 +42,7 @@
   },
   "screenshotURL": "data/images/images-e5zyzgiv4qzkf7kdw-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "NRpYPhRB7MZvXZ5iH"
 }

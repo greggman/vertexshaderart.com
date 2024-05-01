@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1507993477727"
+    "$date": 1507993477727
   },
   "modifiedAt": {
-    "$date": "1507993477727"
+    "$date": 1507993477727
   },
   "origId": "huDQEAMcWYoP6hWGS",
   "name": "Galaxy dance",
   "notes": "",
-  "rank": "1.5884729003651437",
+  "rank": 1.5884729003651437,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-e6l3c5pszer4ze7l6-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "grnWw4DHjdXZMASdk"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": "1684322328046"
+      "$date": 1684322328046
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": "1684412011035"
+    "$date": 1684412011035
   },
   "modifiedAt": {
-    "$date": "1684412011035"
+    "$date": 1684412011035
   },
   "origId": "fjN25zTwqLYMCNkJ4",
   "name": "Motion_Own variation",
   "notes": "",
-  "rank": "1.0914336565647031",
+  "rank": 1.0914336565647031,
   "private": false,
   "unlisted": false,
   "username": "chaerinpark",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-hcqv8rqergkg1iahm-thumbnail.jpg",
   "hasSound": "",
-  "views": "47",
-  "likes": "0",
+  "views": 47,
+  "likes": 0,
   "revisionId": "EdQjmDwB7Fw3byJQn"
 }

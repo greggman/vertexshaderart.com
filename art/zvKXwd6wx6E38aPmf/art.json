@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1589064752743"
+    "$date": 1589064752743
   },
   "modifiedAt": {
-    "$date": "1589064752743"
+    "$date": 1589064752743
   },
   "origId": null,
   "name": "tristrip",
   "notes": "",
-  "rank": "1.5518775868265475",
+  "rank": 1.5518775868265475,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-vhmv73mw29vegr359-thumbnail.jpg",
   "hasSound": "",
-  "views": "71",
-  "likes": "0",
+  "views": 71,
+  "likes": 0,
   "revisionId": "EoiEDLZcGWFWj7Aqv"
 }

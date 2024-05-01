@@ -3,7 +3,7 @@
   "owner": {
     "_id": "NHZzD8e27B7poHpfx",
     "createdAt": {
-      "$date": "1445941822749"
+      "$date": 1445941822749
     },
     "profile": {
       "name": "Paul Malin",
@@ -12,10 +12,10 @@
     "username": "P_Malin"
   },
   "createdAt": {
-    "$date": "1447174416729"
+    "$date": 1447174416729
   },
   "modifiedAt": {
-    "$date": "1447421615340"
+    "$date": 1447421615340
   },
   "origId": null,
   "name": "Block Party",
@@ -36,9 +36,9 @@
   },
   "screenshotURL": "data/images/images-4hcrrdd6bds0yxbxb-thumbnail.jpg",
   "hasSound": true,
-  "views": "4502",
-  "likes": "17",
+  "views": 4502,
+  "likes": 17,
   "revisionId": "z9fHvQW3mverhi5aY",
-  "rank": "10.234874228790236",
+  "rank": 10.234874228790236,
   "avatarUrl": "https://pbs.twimg.com/profile_images/2157402471/Profile_200x200.png"
 }

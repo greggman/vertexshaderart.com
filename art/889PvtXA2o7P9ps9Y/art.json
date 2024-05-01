@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1571794797444"
+    "$date": 1571794797444
   },
   "modifiedAt": {
-    "$date": "1571794797444"
+    "$date": 1571794797444
   },
   "origId": "FozLSgACn56r8QXk5",
   "name": "omgregg KMachine WIP",
   "notes": "",
-  "rank": "1.9985501411392752",
+  "rank": 1.9985501411392752,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-epqdq9qkvrct3ztcw-thumbnail.jpg",
   "hasSound": true,
-  "views": "75",
-  "likes": "0",
+  "views": 75,
+  "likes": 0,
   "revisionId": "YogrZRYoXnSQcbRjK"
 }

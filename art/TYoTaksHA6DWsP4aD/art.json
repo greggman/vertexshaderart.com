@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1466778038099"
+    "$date": 1466778038099
   },
   "modifiedAt": {
-    "$date": "1512371835652"
+    "$date": 1512371835652
   },
   "origId": "kAANx8FwJoSeR9B4c",
   "name": "grid",
   "notes": "This one is used in the help 😜\nIf all you have is a hammer then everything is a nail 🤣",
-  "rank": "10.351896540465425",
+  "rank": 10.351896540465425,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-pntovum9yxo1r8mp1-thumbnail.jpg",
   "hasSound": true,
-  "views": "734",
-  "likes": "11",
+  "views": 734,
+  "likes": 11,
   "revisionId": "MRoHpWw4RtBNAxefz"
 }

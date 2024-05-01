@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ux3fjoRm5soDepFAZ",
     "createdAt": {
-      "$date": "1486735121030"
+      "$date": 1486735121030
     },
     "username": "lizell",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1486735144776"
+    "$date": 1486735144776
   },
   "modifiedAt": {
-    "$date": "1486735144776"
+    "$date": 1486735144776
   },
   "origId": null,
   "name": "tut01",
   "notes": "",
-  "rank": "1.1280562766928268",
+  "rank": 1.1280562766928268,
   "private": false,
   "unlisted": true,
   "username": "lizell",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-w28l6odfjkvz0f4ee-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "tYg8CfGWSAeKFvz9M"
 }

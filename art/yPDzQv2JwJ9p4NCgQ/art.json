@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1449850301598"
+    "$date": 1449850301598
   },
   "modifiedAt": {
-    "$date": "1499942723993"
+    "$date": 1499942723993
   },
   "origId": "WARdzeaiQZaiSy6Hj",
   "name": "wtr",
   "notes": "2017-07-13: Replaced missing music",
-  "rank": "1.636014881679679",
+  "rank": 1.636014881679679,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-k4u64p7tdpveznjs6-thumbnail.jpg",
   "hasSound": true,
-  "views": "252",
-  "likes": "1",
+  "views": 252,
+  "likes": 1,
   "revisionId": "RS2sMZGXPe25artKY"
 }

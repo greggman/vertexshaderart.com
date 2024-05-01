@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1642463623489"
+    "$date": 1642463623489
   },
   "modifiedAt": {
-    "$date": "1642463623489"
+    "$date": 1642463623489
   },
   "origId": "kRguYk2Yft2HDLmiP",
   "name": "3D Point Cloud Scene",
   "notes": "Ridiculous amounts of points just look cool.",
-  "rank": "1.8420953254193853",
+  "rank": 1.8420953254193853,
   "private": false,
   "unlisted": true,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-myy1syb4q8kdohx2s-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "5F7AGYnYD3cDXxicB"
 }

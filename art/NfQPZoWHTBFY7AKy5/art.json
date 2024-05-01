@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Pexi77zfde4iNKmrT",
     "createdAt": {
-      "$date": "1493741221077"
+      "$date": 1493741221077
     },
     "profile": {
       "name": "Kolargon Generative",
@@ -12,15 +12,15 @@
     "username": "kolargon"
   },
   "createdAt": {
-    "$date": "1493741405271"
+    "$date": 1493741405271
   },
   "modifiedAt": {
-    "$date": "1493746559094"
+    "$date": 1493746559094
   },
   "origId": "zQMGMroYDChPD5qbu",
   "name": "K Machine exposed shader2 ",
   "notes": "K Machine exposed shader2, not so smiling",
-  "rank": "10.20538568786383",
+  "rank": 10.20538568786383,
   "private": false,
   "unlisted": false,
   "username": "kolargon",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-6097xa50kdr0vu9b4-thumbnail.jpg",
   "hasSound": true,
-  "views": "490",
-  "likes": "2",
+  "views": 490,
+  "likes": 2,
   "revisionId": "Txo8XdzMZ5Fs3synK"
 }

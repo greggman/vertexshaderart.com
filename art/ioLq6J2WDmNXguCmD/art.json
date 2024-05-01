@@ -3,7 +3,7 @@
   "owner": {
     "_id": "DGFuptc5i8hTDqFmH",
     "createdAt": {
-      "$date": "1567578375598"
+      "$date": 1567578375598
     },
     "profile": {
       "name": "Tom Jakubowski",
@@ -12,15 +12,15 @@
     "username": "tomjakubowski"
   },
   "createdAt": {
-    "$date": "1567579359194"
+    "$date": 1567579359194
   },
   "modifiedAt": {
-    "$date": "1567579359194"
+    "$date": 1567579359194
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.7884439015125613",
+  "rank": 1.7884439015125613,
   "private": false,
   "unlisted": true,
   "username": "tomjakubowski",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-ocb28mk3k08ib8hbz-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "yecmZTzS7aRXRnsn7"
 }

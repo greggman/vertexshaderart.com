@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,14 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": "1448522234366"
+    "$date": 1448522234366
   },
   "modifiedAt": {
-    "$date": "1448816664580"
+    "$date": 1448816664580
   },
   "origId": "xvg4vyvfWjCvKZQfW",
   "name": "jjblox",
-  "rank": "1.3319837843856768",
+  "rank": 1.3319837843856768,
   "private": false,
   "username": "gman",
   "settings": {
@@ -37,8 +37,8 @@
   },
   "screenshotURL": "data/images/images-y4cjt7x163oumppk0-thumbnail.jpg",
   "hasSound": true,
-  "views": "388",
-  "likes": "0",
+  "views": 388,
+  "likes": 0,
   "revisionId": "WeX5egpaAqGkMhfzk",
   "unlisted": false,
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"

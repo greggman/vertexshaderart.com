@@ -3,7 +3,7 @@
   "owner": {
     "_id": "frHwqfGRgMrLdBSxk",
     "createdAt": {
-      "$date": "1652848268471"
+      "$date": 1652848268471
     },
     "profile": {
       "name": "Sehoon Kim",
@@ -12,15 +12,15 @@
     "username": "sehoonkim-digipen"
   },
   "createdAt": {
-    "$date": "1654079153028"
+    "$date": 1654079153028
   },
   "modifiedAt": {
-    "$date": "1654079153028"
+    "$date": 1654079153028
   },
   "origId": "Ex4L4mExH2paBQBj5",
   "name": "Exercise - Vertexshaderart : Circles from Triangles_sehun.kim",
   "notes": "Exercise - Vertexshaderart : Circles from Triangles_sehun.kim",
-  "rank": "1.675189578000239",
+  "rank": 1.675189578000239,
   "private": false,
   "unlisted": true,
   "username": "sehoonkim-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-xu5m8irj9038y3v9g-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "qqneWHuhkqfWNH2yi"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zhcyc448mbXBSX3RY",
     "createdAt": {
-      "$date": "1652867755974"
+      "$date": 1652867755974
     },
     "username": "donga.choi",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1654003139768"
+    "$date": 1654003139768
   },
   "modifiedAt": {
-    "$date": "1654006506532"
+    "$date": 1654006506532
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": "1.2103472681285103",
+  "rank": 1.2103472681285103,
   "private": false,
   "unlisted": true,
   "username": "donga.choi",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ju77kwv6widwys1dc-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "gRLEMdZM9mC8mgHJE"
 }

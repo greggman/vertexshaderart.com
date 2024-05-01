@@ -3,7 +3,7 @@
   "owner": {
     "_id": "EKodBi6Y6zttmLwA3",
     "createdAt": {
-      "$date": "1663865861784"
+      "$date": 1663865861784
     },
     "profile": {
       "first_name": "Allen",
@@ -13,15 +13,15 @@
     "username": "allen"
   },
   "createdAt": {
-    "$date": "1663865890709"
+    "$date": 1663865890709
   },
   "modifiedAt": {
-    "$date": "1663868175169"
+    "$date": 1663868175169
   },
   "origId": null,
   "name": "tutorial",
   "notes": "Ended at lesson 3",
-  "rank": "1.6848001105379564",
+  "rank": 1.6848001105379564,
   "private": false,
   "unlisted": true,
   "username": "allen",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-g9118lb45fnrmohh6-thumbnail.jpg",
   "hasSound": "",
-  "views": "24",
-  "likes": "0",
+  "views": 24,
+  "likes": 0,
   "revisionId": "7ow4tSYZHpQzM3qaH"
 }

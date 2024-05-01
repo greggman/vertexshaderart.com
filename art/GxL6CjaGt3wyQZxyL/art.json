@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1466785430752"
+    "$date": 1466785430752
   },
   "modifiedAt": {
-    "$date": "1467413742953"
+    "$date": 1467413742953
   },
   "origId": null,
   "name": "lesson-01-points",
   "notes": "",
-  "rank": "1.1246921295962935",
+  "rank": 1.1246921295962935,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-b6wfbzpwwwsn5h13r-thumbnail.jpg",
   "hasSound": "",
-  "views": "173",
-  "likes": "1",
+  "views": 173,
+  "likes": 1,
   "revisionId": "9sAEB6gHMFczsrTGt"
 }

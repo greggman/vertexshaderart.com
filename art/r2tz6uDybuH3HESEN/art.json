@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1614345114538"
+    "$date": 1614345114538
   },
   "modifiedAt": {
-    "$date": "1614345114538"
+    "$date": 1614345114538
   },
   "origId": "C549fio274zzAoidn",
   "name": "Block Party",
   "notes": "",
-  "rank": "1.2032373989956489",
+  "rank": 1.2032373989956489,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-vaykbal6owtecrdlv-thumbnail.jpg",
   "hasSound": true,
-  "views": "102",
-  "likes": "0",
+  "views": 102,
+  "likes": 0,
   "revisionId": "GEzikJSD5Ay3wKgP9"
 }

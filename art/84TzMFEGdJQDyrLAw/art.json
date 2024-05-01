@@ -3,7 +3,7 @@
   "owner": {
     "_id": "9FyGSKFd6DqeASjpd",
     "createdAt": {
-      "$date": "1672677407736"
+      "$date": 1672677407736
     },
     "profile": {
       "name": "Jose A. Álvarez",
@@ -12,15 +12,15 @@
     "username": "iguacel"
   },
   "createdAt": {
-    "$date": "1672679019966"
+    "$date": 1672679019966
   },
   "modifiedAt": {
-    "$date": "1672679019966"
+    "$date": 1672679019966
   },
   "origId": null,
   "name": "Line",
   "notes": "",
-  "rank": "1.4131925246218715",
+  "rank": 1.4131925246218715,
   "private": false,
   "unlisted": true,
   "username": "iguacel",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-u440m7onbbu59kd7v-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "FYySHTiCehQpecnyu"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Bs4vwFBoeN6Lx3is5",
     "createdAt": {
-      "$date": "1528672219472"
+      "$date": 1528672219472
     },
     "profile": {
       "name": "Justin Shrake",
@@ -13,15 +13,15 @@
     "username": "jshrake"
   },
   "createdAt": {
-    "$date": "1528672237466"
+    "$date": 1528672237466
   },
   "modifiedAt": {
-    "$date": "1535900731524"
+    "$date": 1535900731524
   },
   "origId": null,
   "name": "tornado-quad-triangle-tower-thing",
   "notes": "quick experiment",
-  "rank": "10.540444296277315",
+  "rank": 10.540444296277315,
   "private": false,
   "unlisted": false,
   "username": "jshrake",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-29udcfgi4z50blicm-thumbnail.jpg",
   "hasSound": "",
-  "views": "441",
-  "likes": "4",
+  "views": 441,
+  "likes": 4,
   "revisionId": "v5xPHwhfnEz8aYeuY"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "DMjrQbvFJZiBrahNH",
     "createdAt": {
-      "$date": "1684316626390"
+      "$date": 1684316626390
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jeminshin2"
   },
   "createdAt": {
-    "$date": "1685431737954"
+    "$date": 1685431737954
   },
   "modifiedAt": {
-    "$date": "1685432500063"
+    "$date": 1685432500063
   },
   "origId": null,
   "name": " Circles from Triangles_jeminshin",
   "notes": "",
-  "rank": "1.0610429038317106",
+  "rank": 1.0610429038317106,
   "private": false,
   "unlisted": true,
   "username": "jeminshin2",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-36b5ouc6yyfv9n9v4-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "xTJe9iszgQj5giBP2"
 }

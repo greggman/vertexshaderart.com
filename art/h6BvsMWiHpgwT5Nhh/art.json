@@ -3,7 +3,7 @@
   "owner": {
     "_id": "EeP4xAeypXNtxfhTf",
     "createdAt": {
-      "$date": "1445963928966"
+      "$date": 1445963928966
     },
     "username": "optimus6128",
     "profile": {
@@ -11,7 +11,7 @@
     }
   },
   "createdAt": {
-    "$date": "1445977698884"
+    "$date": 1445977698884
   },
   "origId": null,
   "name": "pointsprite plasma",
@@ -30,13 +30,13 @@
     "shader": "//time vertexId gl_Position v_color resolution\n\n#define width 256.0\n#define height 384.0\n\nfloat plasma(vec2 pos)\n{\n  float c = 0.0;\n  c = sin(sin(pos.x) + sin(1.4 * pos.y) + sin(3.0 * pos.x + pos.y + 3.0 * time) + sin(pos.x + sin(pos.y + 2.0 * time))) + (sin(pos.x * pos.y - 3.0 * time) * 0.5 + 0.25);\n  return c;\n}\n\nvoid main() {\n  float ratio = resolution.x / resolution.y;\n  float w = width;\n  float h = height / ratio;\n\n  float vId = float(vertexId);\n  float px = (mod(vId, w) - w / 2.0) / (w / 2.0);\n  float py = (floor(vId / w) - h / 2.0) / (h / 2.0);\n  \n  gl_Position = vec4(px, py, 0, 1);\n  gl_PointSize = 8.0;\n\n  float c = plasma(vec2(px, py) * 4.0);\n  v_color = vec4(c, 2.0 * c, 3.0 * c, 1);\n}"
   },
   "screenshotDataId": "KCZfc4mKMbFz7BM49",
-  "views": "2817",
-  "likes": "5",
+  "views": 2817,
+  "likes": 5,
   "revisionId": "62noNrLxaWq9T3gZ5",
   "screenshotURL": "data/images/images-KCZfc4mKMbFz7BM49-thumbnail.png",
   "modifiedAt": {
-    "$date": "1446030931159"
+    "$date": 1446030931159
   },
-  "rank": "10.239991715056377",
+  "rank": 10.239991715056377,
   "avatarUrl": "https://secure.gravatar.com/avatar/7a1d0b51a2de5e0d11e8ac26263b3a5a?default=retro&size=200"
 }

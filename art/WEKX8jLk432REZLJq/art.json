@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,14 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": "1448613046287"
+    "$date": 1448613046287
   },
   "modifiedAt": {
-    "$date": "1448892907198"
+    "$date": 1448892907198
   },
   "origId": "pJM2rdtSkSBnEkMeG",
   "name": "illu",
-  "rank": "1.55512851663381",
+  "rank": 1.55512851663381,
   "private": false,
   "username": "gman",
   "settings": {
@@ -37,8 +37,8 @@
   },
   "screenshotURL": "data/images/images-x1xom7jgfgpv7zcsl-thumbnail.jpg",
   "hasSound": true,
-  "views": "227",
-  "likes": "1",
+  "views": 227,
+  "likes": 1,
   "revisionId": "6XiJpRhK6GTPyMQAg",
   "unlisted": false,
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200"

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "2X4iv76yo3TGFXLzD",
     "createdAt": {
-      "$date": "1493207163185"
+      "$date": 1493207163185
     },
     "profile": {
       "name": "Thomas Hooper",
@@ -12,15 +12,15 @@
     "username": "tdhooper"
   },
   "createdAt": {
-    "$date": "1493756583438"
+    "$date": 1493756583438
   },
   "modifiedAt": {
-    "$date": "1493928456201"
+    "$date": 1493928456201
   },
   "origId": null,
   "name": "Geodesic",
   "notes": "",
-  "rank": "1.6050836534269195",
+  "rank": 1.6050836534269195,
   "private": false,
   "unlisted": true,
   "username": "tdhooper",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-h4ls34yjxi0fcri9g-thumbnail.jpg",
   "hasSound": "",
-  "views": "15",
-  "likes": "0",
+  "views": 15,
+  "likes": 0,
   "revisionId": "x5PCWyuPFduG33Zkm"
 }

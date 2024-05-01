@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1553214700657"
+    "$date": 1553214700657
   },
   "modifiedAt": {
-    "$date": "1553214700657"
+    "$date": 1553214700657
   },
   "origId": "vqWQHJrgtfjyuWZXw",
   "name": "ejercicio2",
   "notes": "",
-  "rank": "1.2419455971522932",
+  "rank": 1.2419455971522932,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-5juipf59fxshw80kl-thumbnail.jpg",
   "hasSound": true,
-  "views": "24",
-  "likes": "0",
+  "views": 24,
+  "likes": 0,
   "revisionId": "R5PpH6Wxz8iSRiqxM"
 }

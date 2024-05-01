@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1643992183076"
+    "$date": 1643992183076
   },
   "modifiedAt": {
-    "$date": "1643992183076"
+    "$date": 1643992183076
   },
   "origId": "S4DRdLKsky7bn3aHH",
   "name": "flow",
   "notes": "",
-  "rank": "1.3009210638313224",
+  "rank": 1.3009210638313224,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-reivvzf3jsx8b92xj-thumbnail.jpg",
   "hasSound": true,
-  "views": "40",
-  "likes": "0",
+  "views": 40,
+  "likes": 0,
   "revisionId": "mpcd8wEgXD8D5bBNh"
 }

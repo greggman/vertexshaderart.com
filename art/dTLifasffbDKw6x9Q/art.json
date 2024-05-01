@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1512071207771"
+    "$date": 1512071207771
   },
   "modifiedAt": {
-    "$date": "1512071207771"
+    "$date": 1512071207771
   },
   "origId": "zmcNCBEkGnxZeWcer",
   "name": "circlepower K FURR2",
   "notes": "",
-  "rank": "1.6366391927180264",
+  "rank": 1.6366391927180264,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-o4u4rn8qh1zv06q0t-thumbnail.jpg",
   "hasSound": true,
-  "views": "34",
-  "likes": "0",
+  "views": 34,
+  "likes": 0,
   "revisionId": "aybJWcLuisDBq3FZB"
 }

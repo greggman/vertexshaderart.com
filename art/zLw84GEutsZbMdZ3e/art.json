@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zhnFY3Bj9GSContic",
     "createdAt": {
-      "$date": "1652873162359"
+      "$date": 1652873162359
     },
     "username": "daehyeon.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652889771030"
+    "$date": 1652889771030
   },
   "modifiedAt": {
-    "$date": "1652889771030"
+    "$date": 1652889771030
   },
   "origId": "6KurZsv36w6xrAoSf",
   "name": "Colors",
   "notes": "",
-  "rank": "1.826225517819084",
+  "rank": 1.826225517819084,
   "private": false,
   "unlisted": true,
   "username": "daehyeon.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-1y0hsxvfclzlwoulu-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "w3Whm9mQa9eZpzmQk"
 }

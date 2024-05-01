@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": "1497270876730"
+      "$date": 1497270876730
     },
     "username": "zugzwang404",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1501418957358"
+    "$date": 1501418957358
   },
   "modifiedAt": {
-    "$date": "1501418957358"
+    "$date": 1501418957358
   },
   "origId": "2WGSa559MiYvnoJZw",
   "name": "perc2",
   "notes": "Sigh.... someone took their music down so replacing the music but it's not really tuned for this.",
-  "rank": "1.75075385829669",
+  "rank": 1.75075385829669,
   "private": false,
   "unlisted": true,
   "username": "zugzwang404",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-hiag1mhf1szods2ef-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "Jtxm9j9wRd5WQuhyx"
 }

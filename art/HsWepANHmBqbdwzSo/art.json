@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": "1553152938197"
+      "$date": 1553152938197
     },
     "username": "janalex",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553158183163"
+    "$date": 1553158183163
   },
   "modifiedAt": {
-    "$date": "1553158183163"
+    "$date": 1553158183163
   },
   "origId": null,
   "name": "1903-Grid",
   "notes": "",
-  "rank": "1.4038158305961785",
+  "rank": 1.4038158305961785,
   "private": false,
   "unlisted": true,
   "username": "janalex",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-8wuimoyturt4c31bf-thumbnail.jpg",
   "hasSound": "",
-  "views": "44",
-  "likes": "0",
+  "views": 44,
+  "likes": 0,
   "revisionId": "FMSWyvAj5pSeytKoJ"
 }

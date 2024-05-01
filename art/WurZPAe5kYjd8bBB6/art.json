@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ck9o8akC3voRsXXny",
     "createdAt": {
-      "$date": "1549374729066"
+      "$date": 1549374729066
     },
     "username": "kcha",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1551184147314"
+    "$date": 1551184147314
   },
   "modifiedAt": {
-    "$date": "1551186863538"
+    "$date": 1551186863538
   },
   "origId": "uNm4pd5oCSruRA832",
   "name": "tutorial_02",
   "notes": "",
-  "rank": "1.538850833457871",
+  "rank": 1.538850833457871,
   "private": false,
   "unlisted": true,
   "username": "kcha",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-wqix1rs8sm0mzovz8-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "XibRpZikK9vFE77jd"
 }

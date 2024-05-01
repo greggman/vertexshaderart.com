@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1455206057132"
+    "$date": 1455206057132
   },
   "modifiedAt": {
-    "$date": "1456069768160"
+    "$date": 1456069768160
   },
   "origId": "us5PXZuW9emkg2bD4",
   "name": "hrt",
   "notes": "",
-  "rank": "10.198711906218424",
+  "rank": 10.198711906218424,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-43ydnt03cdasdoe4v-thumbnail.jpg",
   "hasSound": true,
-  "views": "664",
-  "likes": "10",
+  "views": 664,
+  "likes": 10,
   "revisionId": "WQnB5e84Y6rc7v3Rx"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1619210615116"
+    "$date": 1619210615116
   },
   "modifiedAt": {
-    "$date": "1619210615116"
+    "$date": 1619210615116
   },
   "origId": "PFHJfQrt3knT8K8sQ",
   "name": "flwr",
   "notes": "",
-  "rank": "1.8388646614531186",
+  "rank": 1.8388646614531186,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-d1p9f1pwgfqv1xhlr-thumbnail.jpg",
   "hasSound": true,
-  "views": "81",
-  "likes": "0",
+  "views": 81,
+  "likes": 0,
   "revisionId": "2LPPexXFokrZgdceq"
 }

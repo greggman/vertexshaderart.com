@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1485750399595"
+    "$date": 1485750399595
   },
   "modifiedAt": {
-    "$date": "1487682609280"
+    "$date": 1487682609280
   },
   "origId": "B5PGbeNcqjZkjn87u",
   "name": "widr",
   "notes": "",
-  "rank": "10.28688559572156",
+  "rank": 10.28688559572156,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-s71rid2d21wxp86yw-thumbnail.jpg",
   "hasSound": true,
-  "views": "813",
-  "likes": "7",
+  "views": 813,
+  "likes": 7,
   "revisionId": "bAe6LGEPgN6eqvbjB"
 }

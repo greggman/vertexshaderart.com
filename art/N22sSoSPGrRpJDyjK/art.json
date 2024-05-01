@@ -3,7 +3,7 @@
   "owner": {
     "_id": "NAvHKNuxDSsKeTzss",
     "createdAt": {
-      "$date": "1652854231365"
+      "$date": 1652854231365
     },
     "username": "jaewoo.choi",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652945988929"
+    "$date": 1652945988929
   },
   "modifiedAt": {
-    "$date": "1652945988929"
+    "$date": 1652945988929
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": "1.4417853353290397",
+  "rank": 1.4417853353290397,
   "private": false,
   "unlisted": true,
   "username": "jaewoo.choi",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-t6tzvyhyxz1r22flq-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "iHTZGAfJZFpjiT6cC"
 }

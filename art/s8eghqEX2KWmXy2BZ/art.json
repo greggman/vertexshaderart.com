@@ -3,7 +3,7 @@
   "owner": {
     "_id": "CwvvvtJL5Ykqzxv4N",
     "createdAt": {
-      "$date": "1557600049871"
+      "$date": 1557600049871
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jorenvo"
   },
   "createdAt": {
-    "$date": "1557727696658"
+    "$date": 1557727696658
   },
   "modifiedAt": {
-    "$date": "1557727696658"
+    "$date": 1557727696658
   },
   "origId": "TGAHpg3tJBt7nTsRy",
   "name": "Stewie",
   "notes": "",
-  "rank": "1.9839647807185838",
+  "rank": 1.9839647807185838,
   "private": false,
   "unlisted": true,
   "username": "jorenvo",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-am5gl9h4hy5y9t81t-thumbnail.jpg",
   "hasSound": true,
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "53qejBeeYRNmYHbq4"
 }

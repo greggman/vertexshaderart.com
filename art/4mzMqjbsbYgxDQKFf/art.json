@@ -3,7 +3,7 @@
   "owner": {
     "_id": "oCanjNxeHcQ7gDPmW",
     "createdAt": {
-      "$date": "1505499213122"
+      "$date": 1505499213122
     },
     "profile": {
       "name": "Zug Zwang",
@@ -12,15 +12,15 @@
     "username": "zug"
   },
   "createdAt": {
-    "$date": "1522841556382"
+    "$date": 1522841556382
   },
   "modifiedAt": {
-    "$date": "1522841556382"
+    "$date": 1522841556382
   },
   "origId": "bySCJHkqxfotHbAzv",
   "name": "moduloi kanssani",
   "notes": "",
-  "rank": "1.468204548443836",
+  "rank": 1.468204548443836,
   "private": false,
   "unlisted": false,
   "username": "zug",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-2xyojbjixuplu0e56-thumbnail.jpg",
   "hasSound": true,
-  "views": "325",
-  "likes": "1",
+  "views": 325,
+  "likes": 1,
   "revisionId": "cztcSjTqwvF9vi3nE"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1529680845041"
+    "$date": 1529680845041
   },
   "modifiedAt": {
-    "$date": "1529680845041"
+    "$date": 1529680845041
   },
   "origId": "7YksmRJcwQXipHhfx",
   "name": "notmizu",
   "notes": "",
-  "rank": "10.914111638427459",
+  "rank": 10.914111638427459,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-7mjkmkjjgdq7981th-thumbnail.jpg",
   "hasSound": true,
-  "views": "1187",
-  "likes": "10",
+  "views": 1187,
+  "likes": 10,
   "revisionId": "XkKfhY9EAoN3Chuxw"
 }

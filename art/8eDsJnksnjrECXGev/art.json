@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1452122030402"
+    "$date": 1452122030402
   },
   "modifiedAt": {
-    "$date": "1458671275833"
+    "$date": 1458671275833
   },
   "origId": "S8WjbT3dh5ZHhbpAS",
   "name": "crs",
   "notes": "",
-  "rank": "1.4256358916733314",
+  "rank": 1.4256358916733314,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-pw75id1swgnn7izm9-thumbnail.jpg",
   "hasSound": true,
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "Hoqv7pazc2tTjr7Eu"
 }

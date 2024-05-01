@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8YazjgbR8FtHJgYgR",
     "createdAt": {
-      "$date": "1689266555980"
+      "$date": 1689266555980
     },
     "username": "ersh",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1689302834444"
+    "$date": 1689302834444
   },
   "modifiedAt": {
-    "$date": "1689305968965"
+    "$date": 1689305968965
   },
   "origId": null,
   "name": "Sample test",
   "notes": "",
-  "rank": "1.7629310167898642",
+  "rank": 1.7629310167898642,
   "private": false,
   "unlisted": true,
   "username": "ersh",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-tqzq1mp4blmp9psr4-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "yKxzwaiCyEW9BBpeB"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "WP6fgv44rvQRfss8y",
     "createdAt": {
-      "$date": "1588397608500"
+      "$date": 1588397608500
     },
     "username": "shinyisshiny",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1588529037574"
+    "$date": 1588529037574
   },
   "modifiedAt": {
-    "$date": "1588529037574"
+    "$date": 1588529037574
   },
   "origId": "HdvpCSWX4Kv64BoSD",
   "name": "study",
   "notes": "",
-  "rank": "1.2766117000227235",
+  "rank": 1.2766117000227235,
   "private": false,
   "unlisted": true,
   "username": "shinyisshiny",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-m4zpxq51j21kdup52-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "77Sm5zqjh8y53LLaK"
 }

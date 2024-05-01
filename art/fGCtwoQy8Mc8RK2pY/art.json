@@ -3,7 +3,7 @@
   "owner": {
     "_id": "6LYHhwj5wMwA9HvPG",
     "createdAt": {
-      "$date": "1535280458435"
+      "$date": 1535280458435
     },
     "username": "aaron1924",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1535281716982"
+    "$date": 1535281716982
   },
   "modifiedAt": {
-    "$date": "1535281716982"
+    "$date": 1535281716982
   },
   "origId": null,
   "name": "Swimming Cube",
   "notes": "",
-  "rank": "1.7920182688680046",
+  "rank": 1.7920182688680046,
   "private": false,
   "unlisted": true,
   "username": "aaron1924",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-3zpmb6d2a6g198ctx-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "mTe2AMiBJE6tZ3QMD"
 }

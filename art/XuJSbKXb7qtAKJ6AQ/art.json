@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1592751954041"
+    "$date": 1592751954041
   },
   "modifiedAt": {
-    "$date": "1592751954041"
+    "$date": 1592751954041
   },
   "origId": "H65kA6jZ79o5qDjXG",
   "name": "Block Party",
   "notes": "",
-  "rank": "1.6121083045152562",
+  "rank": 1.6121083045152562,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-9f98n7x11dbzkcko8-thumbnail.jpg",
   "hasSound": true,
-  "views": "82",
-  "likes": "0",
+  "views": 82,
+  "likes": 0,
   "revisionId": "5jo6BsJEhD4rg9RFb"
 }

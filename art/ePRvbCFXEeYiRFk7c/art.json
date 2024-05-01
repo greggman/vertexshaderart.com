@@ -3,7 +3,7 @@
   "owner": {
     "_id": "xpJSyNWqFFTTh8Knt",
     "createdAt": {
-      "$date": "1524857419640"
+      "$date": 1524857419640
     },
     "profile": {
       "name": "Ricardo Matias",
@@ -12,15 +12,15 @@
     "username": "ricardomatias"
   },
   "createdAt": {
-    "$date": "1524857870980"
+    "$date": 1524857870980
   },
   "modifiedAt": {
-    "$date": "1524859136579"
+    "$date": 1524859136579
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.6444797349878804",
+  "rank": 1.6444797349878804,
   "private": false,
   "unlisted": true,
   "username": "ricardomatias",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-cwi67s73rmygd8hpb-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "4MqE9fmBfkyjaqBtD"
 }

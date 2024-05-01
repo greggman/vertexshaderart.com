@@ -3,7 +3,7 @@
   "owner": {
     "_id": "JkHPzJxpfnvDEnJHf",
     "createdAt": {
-      "$date": "1684306385138"
+      "$date": 1684306385138
     },
     "username": "geumbi.yeo",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684487104767"
+    "$date": 1684487104767
   },
   "modifiedAt": {
-    "$date": "1684487104767"
+    "$date": 1684487104767
   },
   "origId": null,
   "name": "Colors - Geumbi Yeo",
   "notes": "",
-  "rank": "1.7960456629941464",
+  "rank": 1.7960456629941464,
   "private": false,
   "unlisted": true,
   "username": "geumbi.yeo",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-pktdrv2l64t92si9y-thumbnail.jpg",
   "hasSound": true,
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "KXvKv9FvQf9Qk3AKh"
 }

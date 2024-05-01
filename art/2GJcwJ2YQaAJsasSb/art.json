@@ -3,7 +3,7 @@
   "owner": {
     "_id": "FvEwbS5QFWQ9xq7KT",
     "createdAt": {
-      "$date": "1583423411467"
+      "$date": 1583423411467
     },
     "profile": {
       "first_name": "Andris",
@@ -13,15 +13,15 @@
     "username": "andris"
   },
   "createdAt": {
-    "$date": "1583619179344"
+    "$date": 1583619179344
   },
   "modifiedAt": {
-    "$date": "1583619179344"
+    "$date": 1583619179344
   },
   "origId": null,
   "name": "rgb cube",
   "notes": "",
-  "rank": "1.1389453139041068",
+  "rank": 1.1389453139041068,
   "private": false,
   "unlisted": true,
   "username": "andris",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-uvde6385qyy793ucl-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "B4gLatNgKrFJeYJpk"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1577253648792"
+    "$date": 1577253648792
   },
   "modifiedAt": {
-    "$date": "1577254006190"
+    "$date": 1577254006190
   },
   "origId": "JWMAmcwDeMYh8uSZf",
   "name": "sprk",
   "notes": "",
-  "rank": "1.0012115145210185",
+  "rank": 1.0012115145210185,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-nrkvyyzh4wj7dw8c0-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "JzgdTnbCqfHAocFeT"
 }

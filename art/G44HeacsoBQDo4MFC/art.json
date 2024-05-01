@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1476361456912"
+    "$date": 1476361456912
   },
   "modifiedAt": {
-    "$date": "1476361456912"
+    "$date": 1476361456912
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.52810064565402",
+  "rank": 1.52810064565402,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-weyl6r771b2keqi5z-thumbnail.jpg",
   "hasSound": "",
-  "views": "37",
-  "likes": "0",
+  "views": 37,
+  "likes": 0,
   "revisionId": "uQBuMJABjCZpBnDWZ"
 }

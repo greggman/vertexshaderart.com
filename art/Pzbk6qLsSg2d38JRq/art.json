@@ -3,7 +3,7 @@
   "owner": {
     "_id": "RfHaub5KYDRmJTzBN",
     "createdAt": {
-      "$date": "1629553450441"
+      "$date": 1629553450441
     },
     "username": "przemyslawzaworski",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1648065752246"
+    "$date": 1648065752246
   },
   "modifiedAt": {
-    "$date": "1648065752246"
+    "$date": 1648065752246
   },
   "origId": null,
   "name": "Procedural Sphere With Tessellation",
   "notes": "",
-  "rank": "1.171298086457843",
+  "rank": 1.171298086457843,
   "private": false,
   "unlisted": false,
   "username": "przemyslawzaworski",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-gzyo53tr1ng52yz76-thumbnail.jpg",
   "hasSound": "",
-  "views": "203",
-  "likes": "0",
+  "views": 203,
+  "likes": 0,
   "revisionId": "DTfDrp6Zkac8YH3rD"
 }

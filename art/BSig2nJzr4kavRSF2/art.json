@@ -3,7 +3,7 @@
   "owner": {
     "_id": "33GYvgRj3LP6Xt7T6",
     "createdAt": {
-      "$date": "1652800663941"
+      "$date": 1652800663941
     },
     "username": "hyosang_jung",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652801184186"
+    "$date": 1652801184186
   },
   "modifiedAt": {
-    "$date": "1652801184186"
+    "$date": 1652801184186
   },
   "origId": null,
   "name": "Vertexshaderart : Making a Grid",
   "notes": "Vertexshaderart : Making a Grid\nHyosang Jung",
-  "rank": "1.2388663992816835",
+  "rank": 1.2388663992816835,
   "private": false,
   "unlisted": false,
   "username": "hyosang_jung",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-btltjypsix9rayu7h-thumbnail.jpg",
   "hasSound": "",
-  "views": "117",
-  "likes": "1",
+  "views": 117,
+  "likes": 1,
   "revisionId": "AaJnnaEmABBdagqhG"
 }

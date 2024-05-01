@@ -3,7 +3,7 @@
   "owner": {
     "_id": "JkHPzJxpfnvDEnJHf",
     "createdAt": {
-      "$date": "1684306385138"
+      "$date": 1684306385138
     },
     "username": "geumbi.yeo",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684767623537"
+    "$date": 1684767623537
   },
   "modifiedAt": {
-    "$date": "1684767623537"
+    "$date": 1684767623537
   },
   "origId": null,
   "name": "Audio Reactive",
   "notes": "",
-  "rank": "1.986526018579845",
+  "rank": 1.986526018579845,
   "private": false,
   "unlisted": true,
   "username": "geumbi.yeo",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-yjw36svq2mpr2grye-thumbnail.jpg",
   "hasSound": true,
-  "views": "10",
-  "likes": "0",
+  "views": 10,
+  "likes": 0,
   "revisionId": "aBhnDtku2EWZryKFd"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": "1501018355084"
+      "$date": 1501018355084
     },
     "username": "sylistine",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1501115274401"
+    "$date": 1501115274401
   },
   "modifiedAt": {
-    "$date": "1501115274401"
+    "$date": 1501115274401
   },
   "origId": "PHANwhhRXk62fsaeC",
   "name": "Simple Spheres",
   "notes": "",
-  "rank": "1.554248658925349",
+  "rank": 1.554248658925349,
   "private": false,
   "unlisted": false,
   "username": "sylistine",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-er8x7nsxo8aq0bsl7-thumbnail.jpg",
   "hasSound": "",
-  "views": "119",
-  "likes": "0",
+  "views": 119,
+  "likes": 0,
   "revisionId": "nEHdeuZ9nwChhxDNe"
 }

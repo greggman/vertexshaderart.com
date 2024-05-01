@@ -3,7 +3,7 @@
   "owner": {
     "_id": "xdTDDTRPhwPrWYuEQ",
     "createdAt": {
-      "$date": "1551488110621"
+      "$date": 1551488110621
     },
     "username": "jonaced",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553129767421"
+    "$date": 1553129767421
   },
   "modifiedAt": {
-    "$date": "1553195026330"
+    "$date": 1553195026330
   },
   "origId": null,
   "name": "circuloColores",
   "notes": "",
-  "rank": "1.0966300866429515",
+  "rank": 1.0966300866429515,
   "private": false,
   "unlisted": true,
   "username": "jonaced",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-35s40dxdeio8y8598-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "zDqf5FDAFr46samxY"
 }

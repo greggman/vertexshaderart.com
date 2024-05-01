@@ -3,7 +3,7 @@
   "owner": {
     "_id": "s36eKj8d2EqZaQjbk",
     "createdAt": {
-      "$date": "1684058245272"
+      "$date": 1684058245272
     },
     "username": "byungchan.park",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684489761643"
+    "$date": 1684489761643
   },
   "modifiedAt": {
-    "$date": "1684490384715"
+    "$date": 1684490384715
   },
   "origId": null,
   "name": "color own variation",
   "notes": "",
-  "rank": "1.610176751660397",
+  "rank": 1.610176751660397,
   "private": false,
   "unlisted": true,
   "username": "byungchan.park",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-n4ukdvlgz1qknotfq-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "uftngc5zvSDrR29pB"
 }

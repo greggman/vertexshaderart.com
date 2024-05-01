@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1451229470661"
+    "$date": 1451229470661
   },
   "modifiedAt": {
-    "$date": "1451229470661"
+    "$date": 1451229470661
   },
   "origId": "zSahx3yerpFqrYbQM",
   "name": "xmas tree",
   "notes": "",
-  "rank": "1.3653632955367685",
+  "rank": 1.3653632955367685,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-kveenifu7xlki1ef0-thumbnail.jpg",
   "hasSound": "",
-  "views": "124",
-  "likes": "1",
+  "views": 124,
+  "likes": 1,
   "revisionId": "rCnFFnrtkix2cXAnE"
 }

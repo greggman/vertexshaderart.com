@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HBPA5fBLqSQaSdvHS",
     "createdAt": {
-      "$date": "1493456527434"
+      "$date": 1493456527434
     },
     "username": "chemlo",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1493456585326"
+    "$date": 1493456585326
   },
   "modifiedAt": {
-    "$date": "1493456585326"
+    "$date": 1493456585326
   },
   "origId": null,
   "name": "baby's first vertex shader",
   "notes": "",
-  "rank": "1.771269484421999",
+  "rank": 1.771269484421999,
   "private": false,
   "unlisted": false,
   "username": "chemlo",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-fz2si0ijh1jc7vqvw-thumbnail.jpg",
   "hasSound": true,
-  "views": "197",
-  "likes": "1",
+  "views": 197,
+  "likes": 1,
   "revisionId": "ywzcdFsD6GGZtd5Ti"
 }

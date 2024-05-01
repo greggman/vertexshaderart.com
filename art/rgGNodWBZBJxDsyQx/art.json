@@ -3,7 +3,7 @@
   "owner": {
     "_id": "NAvHKNuxDSsKeTzss",
     "createdAt": {
-      "$date": "1652854231365"
+      "$date": 1652854231365
     },
     "username": "jaewoo.choi",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652974769981"
+    "$date": 1652974769981
   },
   "modifiedAt": {
-    "$date": "1652974769981"
+    "$date": 1652974769981
   },
   "origId": null,
   "name": "Colors",
   "notes": "Extra",
-  "rank": "1.8910072582726523",
+  "rank": 1.8910072582726523,
   "private": false,
   "unlisted": true,
   "username": "jaewoo.choi",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-bfg2j8fk0522ei77c-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "hd7vwvr9DjgC49y2o"
 }

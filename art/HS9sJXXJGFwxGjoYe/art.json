@@ -3,7 +3,7 @@
   "owner": {
     "_id": "WPxtJNRQGyNafwBwv",
     "createdAt": {
-      "$date": "1552607566363"
+      "$date": 1552607566363
     },
     "profile": {
       "first_name": "Marco Isaac",
@@ -13,15 +13,15 @@
     "username": "marcoisaac"
   },
   "createdAt": {
-    "$date": "1553480227797"
+    "$date": 1553480227797
   },
   "modifiedAt": {
-    "$date": "1553493802268"
+    "$date": 1553493802268
   },
   "origId": "A9X62RRorFW5Ys8h7",
   "name": "circñe_grid",
   "notes": "",
-  "rank": "1.4615543417212806",
+  "rank": 1.4615543417212806,
   "private": false,
   "unlisted": true,
   "username": "marcoisaac",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-9om2eqdjc5suyd6eb-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "PHcy7vsCiPgoj5Ag4"
 }

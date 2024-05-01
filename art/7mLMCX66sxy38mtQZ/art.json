@@ -3,7 +3,7 @@
   "owner": {
     "_id": "zfC9oYgfF4grneg5p",
     "createdAt": {
-      "$date": "1684313887762"
+      "$date": 1684313887762
     },
     "username": "duhochoi",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684333521074"
+    "$date": 1684333521074
   },
   "modifiedAt": {
-    "$date": "1684416042604"
+    "$date": 1684416042604
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": "1.1151365091746808",
+  "rank": 1.1151365091746808,
   "private": false,
   "unlisted": true,
   "username": "duhochoi",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-abo1h6yb231gxbf1h-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "xNjH8DmhQjNQKQYQu"
 }

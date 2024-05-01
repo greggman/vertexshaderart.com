@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1451465152670"
+    "$date": 1451465152670
   },
   "modifiedAt": {
-    "$date": "1566405462866"
+    "$date": 1566405462866
   },
   "origId": null,
   "name": "sbd",
   "notes": "",
-  "rank": "10.948531095372944",
+  "rank": 10.948531095372944,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-gk0971btcdp9xclvb-thumbnail.jpg",
   "hasSound": true,
-  "views": "3729",
-  "likes": "15",
+  "views": 3729,
+  "likes": 15,
   "revisionId": "aWjaq6tjwza7GG796"
 }

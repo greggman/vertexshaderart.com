@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1620055602473"
+    "$date": 1620055602473
   },
   "modifiedAt": {
-    "$date": "1641050693659"
+    "$date": 1641050693659
   },
   "origId": "2QLFrSm3uSxdnEW58",
   "name": "rotate motion tutorial",
   "notes": "",
-  "rank": "1.1329364661411214",
+  "rank": 1.1329364661411214,
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-f7hwnjpkxtelesz4b-thumbnail.jpg",
   "hasSound": "",
-  "views": "69",
-  "likes": "0",
+  "views": 69,
+  "likes": 0,
   "revisionId": "wR9MsPzocqBscHmX7"
 }

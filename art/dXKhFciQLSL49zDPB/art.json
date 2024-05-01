@@ -3,7 +3,7 @@
   "owner": {
     "_id": "PhWErDgbQj3zSMwT2",
     "createdAt": {
-      "$date": "1613131881278"
+      "$date": 1613131881278
     },
     "profile": {
       "first_name": "John",
@@ -13,15 +13,15 @@
     "username": "john2"
   },
   "createdAt": {
-    "$date": "1613132535668"
+    "$date": 1613132535668
   },
   "modifiedAt": {
-    "$date": "1613132535668"
+    "$date": 1613132535668
   },
   "origId": "PHWvovEcpp6R6yT8K",
   "name": "s.o.i.",
   "notes": "",
-  "rank": "1.8932442152268496",
+  "rank": 1.8932442152268496,
   "private": false,
   "unlisted": true,
   "username": "john2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-9u6xa6dhii16fzomd-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "LEXzHTbCG2kpuBu4M"
 }

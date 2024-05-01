@@ -3,7 +3,7 @@
   "owner": {
     "_id": "r4zsM2XN7uuZrAJGd",
     "createdAt": {
-      "$date": "1551479392194"
+      "$date": 1551479392194
     },
     "profile": {
       "first_name": "Yuso",
@@ -13,15 +13,15 @@
     "username": "yuso"
   },
   "createdAt": {
-    "$date": "1551479403333"
+    "$date": 1551479403333
   },
   "modifiedAt": {
-    "$date": "1552688099912"
+    "$date": 1552688099912
   },
   "origId": null,
   "name": "Africa",
   "notes": "",
-  "rank": "1.9131327748598552",
+  "rank": 1.9131327748598552,
   "private": false,
   "unlisted": true,
   "username": "yuso",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-9xenvn7aeibvynbn8-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "Y6xRgwMMofRoK8TW5"
 }

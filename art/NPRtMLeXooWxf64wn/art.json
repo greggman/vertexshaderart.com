@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": "1523273254098"
+      "$date": 1523273254098
     },
     "profile": {
       "first_name": "Brendon",
@@ -14,15 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": "1525449458762"
+    "$date": 1525449458762
   },
   "modifiedAt": {
-    "$date": "1525449458762"
+    "$date": 1525449458762
   },
   "origId": null,
   "name": "Cold Soundwave Experiment",
   "notes": "Just messing around with positioning and sound textures.",
-  "rank": "1.034565106143155",
+  "rank": 1.034565106143155,
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -42,7 +42,7 @@
   },
   "screenshotURL": "data/images/images-qg36hob2e5776h5qd-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "MJKhEQjBTAokyj39b"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1512786127034"
+    "$date": 1512786127034
   },
   "modifiedAt": {
-    "$date": "1512786127034"
+    "$date": 1512786127034
   },
   "origId": "qbZNX3pQENCDwdJvA",
   "name": "circlepower K FURR233",
   "notes": "",
-  "rank": "1.984312721494351",
+  "rank": 1.984312721494351,
   "private": false,
   "unlisted": true,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-9fjhmly4e2v6rosii-thumbnail.jpg",
   "hasSound": true,
-  "views": "15",
-  "likes": "0",
+  "views": 15,
+  "likes": 0,
   "revisionId": "m5PMP2fL7XfLydx8f"
 }

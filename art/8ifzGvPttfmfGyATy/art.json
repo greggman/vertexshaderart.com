@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ftizELg7EWmj8LW7K",
     "createdAt": {
-      "$date": "1684040210652"
+      "$date": 1684040210652
     },
     "profile": {
       "name": "yejin shin",
@@ -12,15 +12,15 @@
     "username": "yejin-shin"
   },
   "createdAt": {
-    "$date": "1685541524303"
+    "$date": 1685541524303
   },
   "modifiedAt": {
-    "$date": "1685541524303"
+    "$date": 1685541524303
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "original",
-  "rank": "1.5789720129412919",
+  "rank": 1.5789720129412919,
   "private": false,
   "unlisted": true,
   "username": "yejin-shin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-xlza353lvncnx0x4v-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "n5ynXkhdLfdjY8aaK"
 }

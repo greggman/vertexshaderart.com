@@ -3,7 +3,7 @@
   "owner": {
     "_id": "nGxcqKNjk2qCgadmc",
     "createdAt": {
-      "$date": "1684074736476"
+      "$date": 1684074736476
     },
     "username": "joonho.hwang",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684747255816"
+    "$date": 1684747255816
   },
   "modifiedAt": {
-    "$date": "1684747255816"
+    "$date": 1684747255816
   },
   "origId": null,
   "name": "Audio Reactive Art",
   "notes": "",
-  "rank": "1.3233515735089718",
+  "rank": 1.3233515735089718,
   "private": false,
   "unlisted": true,
   "username": "joonho.hwang",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-7lf4gzqejwh67pdip-thumbnail.jpg",
   "hasSound": true,
-  "views": "10",
-  "likes": "0",
+  "views": 10,
+  "likes": 0,
   "revisionId": "6v4t5dHEs6jYfEi2G"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1595921427946"
+    "$date": 1595921427946
   },
   "modifiedAt": {
-    "$date": "1595921427946"
+    "$date": 1595921427946
   },
   "origId": "JGbg2hhv422MBQhyP",
   "name": "antagonism",
   "notes": "",
-  "rank": "1.4164491624891486",
+  "rank": 1.4164491624891486,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-zg9kxy1sqmosyx4rh-thumbnail.jpg",
   "hasSound": true,
-  "views": "85",
-  "likes": "0",
+  "views": 85,
+  "likes": 0,
   "revisionId": "kbirXKCCBiQCKRnya"
 }

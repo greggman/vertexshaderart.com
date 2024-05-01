@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1488011866787"
+    "$date": 1488011866787
   },
   "modifiedAt": {
-    "$date": "1488189857193"
+    "$date": 1488189857193
   },
   "origId": "qtwQmSqQKkS3ptSYN",
   "name": "ball",
   "notes": "",
-  "rank": "10.490379813619969",
+  "rank": 10.490379813619969,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-puebuqv85xb5s9pai-thumbnail.jpg",
   "hasSound": true,
-  "views": "448",
-  "likes": "7",
+  "views": 448,
+  "likes": 7,
   "revisionId": "wmcsuiXADwenNRGp8"
 }

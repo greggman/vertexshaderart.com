@@ -3,7 +3,7 @@
   "owner": {
     "_id": "FY5kuXpFq5nGKnZfW",
     "createdAt": {
-      "$date": "1446136365862"
+      "$date": 1446136365862
     },
     "profile": {
       "info": "http://eddietree.com",
@@ -12,14 +12,14 @@
     "username": "eddietree"
   },
   "createdAt": {
-    "$date": "1447833185599"
+    "$date": 1447833185599
   },
   "modifiedAt": {
-    "$date": "1447838411743"
+    "$date": 1447838411743
   },
   "origId": null,
   "name": "Emiko",
-  "rank": "10.203044516259807",
+  "rank": 10.203044516259807,
   "private": false,
   "username": "eddietree",
   "settings": {
@@ -37,8 +37,8 @@
   },
   "screenshotURL": "data/images/images-mno1wzlv6yd9hudz3-thumbnail.jpg",
   "hasSound": true,
-  "views": "182",
-  "likes": "2",
+  "views": 182,
+  "likes": 2,
   "revisionId": "8KeDxnXbmnYyycx33",
   "avatarUrl": "https://pbs.twimg.com/profile_images/658497007795875840/BWYk5wYJ_200x200.png"
 }

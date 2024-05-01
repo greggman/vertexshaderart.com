@@ -3,7 +3,7 @@
   "owner": {
     "_id": "CJtPPYNFXinj2EC2b",
     "createdAt": {
-      "$date": "1652841467004"
+      "$date": 1652841467004
     },
     "username": "seongwon.jang",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1653959113400"
+    "$date": 1653959113400
   },
   "modifiedAt": {
-    "$date": "1653959886658"
+    "$date": 1653959886658
   },
   "origId": "mmB8umNE8t5qoNNJo",
   "name": "Circle From Triangle_seongwon.jang",
   "notes": "",
-  "rank": "1.4578842614323857",
+  "rank": 1.4578842614323857,
   "private": false,
   "unlisted": true,
   "username": "seongwon.jang",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-x2p34b55pxj7wtuhp-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "KAhJBi48SKL3hnjoS"
 }

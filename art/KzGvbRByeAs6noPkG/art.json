@@ -3,7 +3,7 @@
   "owner": {
     "_id": "xtWScqfuLFwjL7T9Z",
     "createdAt": {
-      "$date": "1635427865584"
+      "$date": 1635427865584
     },
     "username": "nirth",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1635429619505"
+    "$date": 1635429619505
   },
   "modifiedAt": {
-    "$date": "1635429619505"
+    "$date": 1635429619505
   },
   "origId": null,
   "name": "Sinnoh confirmed",
   "notes": "Takk for tipset om denne siden! Veldig stilig",
-  "rank": "1.5969451508124037",
+  "rank": 1.5969451508124037,
   "private": false,
   "unlisted": true,
   "username": "nirth",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-4vvfdvqwyn8oi7xow-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "qeomNot2X5LYQiN7X"
 }

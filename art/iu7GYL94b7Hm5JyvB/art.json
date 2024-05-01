@@ -3,7 +3,7 @@
   "owner": {
     "_id": "aQGBaB28tNPpoJahx",
     "createdAt": {
-      "$date": "1523273254098"
+      "$date": 1523273254098
     },
     "profile": {
       "first_name": "Brendon",
@@ -14,15 +14,15 @@
     "username": "brendon"
   },
   "createdAt": {
-    "$date": "1525371455566"
+    "$date": 1525371455566
   },
   "modifiedAt": {
-    "$date": "1525371747965"
+    "$date": 1525371747965
   },
   "origId": null,
   "name": "2D Polygons",
   "notes": "Simple polygon generator, just change the number of vertices. This is part of my baby steps in learning GLSL and vertex shaders :)",
-  "rank": "1.7924027661205109",
+  "rank": 1.7924027661205109,
   "private": false,
   "unlisted": true,
   "username": "brendon",
@@ -42,7 +42,7 @@
   },
   "screenshotURL": "data/images/images-ln62ap86yu91m5t3f-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "E3b5NcmwHCR6AzDih"
 }

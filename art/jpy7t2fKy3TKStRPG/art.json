@@ -3,7 +3,7 @@
   "owner": {
     "_id": "exrQAEG45B5Exhhan",
     "createdAt": {
-      "$date": "1684329330454"
+      "$date": 1684329330454
     },
     "profile": {
       "name": "Minsu Kim",
@@ -12,15 +12,15 @@
     "username": "minsu-kim-digipen"
   },
   "createdAt": {
-    "$date": "1684759010542"
+    "$date": 1684759010542
   },
   "modifiedAt": {
-    "$date": "1684759886822"
+    "$date": 1684759886822
   },
   "origId": null,
   "name": "Audio Reactive Art Variation",
   "notes": "",
-  "rank": "1.3169878042808383",
+  "rank": 1.3169878042808383,
   "private": false,
   "unlisted": true,
   "username": "minsu-kim-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-kls32gpon54liu3f1-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "eaCJqGRpJCvEPPwdR"
 }

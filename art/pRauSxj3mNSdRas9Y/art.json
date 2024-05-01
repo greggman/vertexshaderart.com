@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1595921882464"
+    "$date": 1595921882464
   },
   "modifiedAt": {
-    "$date": "1595921882464"
+    "$date": 1595921882464
   },
   "origId": "Xr7T9xN4h3JyWhJ4M",
   "name": "glass of colors",
   "notes": "",
-  "rank": "1.2845274526783748",
+  "rank": 1.2845274526783748,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-tlr2zldpo04caak0a-thumbnail.jpg",
   "hasSound": true,
-  "views": "96",
-  "likes": "0",
+  "views": 96,
+  "likes": 0,
   "revisionId": "u8asn6JHRFSA5Ts7E"
 }

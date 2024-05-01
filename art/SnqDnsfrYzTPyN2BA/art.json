@@ -3,7 +3,7 @@
   "owner": {
     "_id": "D6QNSkpSPuQJg3LnB",
     "createdAt": {
-      "$date": "1507653338139"
+      "$date": 1507653338139
     },
     "username": "demofox",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1507653848749"
+    "$date": 1507653848749
   },
   "modifiedAt": {
-    "$date": "1507669939916"
+    "$date": 1507669939916
   },
   "origId": null,
   "name": "Y geo",
   "notes": "",
-  "rank": "1.9510210368626606",
+  "rank": 1.9510210368626606,
   "private": false,
   "unlisted": true,
   "username": "demofox",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-13fyuj01llgb8ry44-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "CMMjtDg3nrDhFhY93"
 }

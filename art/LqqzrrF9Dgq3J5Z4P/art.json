@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ppYg9yMRSssfA5Fed",
     "createdAt": {
-      "$date": "1684322328046"
+      "$date": 1684322328046
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "chaerinpark"
   },
   "createdAt": {
-    "$date": "1684506727182"
+    "$date": 1684506727182
   },
   "modifiedAt": {
-    "$date": "1684506727182"
+    "$date": 1684506727182
   },
   "origId": "9HqeuYzYy5SPwWWzC",
   "name": "Colors_Own variation",
   "notes": "",
-  "rank": "1.8054099109278372",
+  "rank": 1.8054099109278372,
   "private": false,
   "unlisted": true,
   "username": "chaerinpark",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-0jk0s7oxypkp8o4pv-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "KKAsqpdqho5z2L7j2"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1468299002538"
+    "$date": 1468299002538
   },
   "modifiedAt": {
-    "$date": "1591533453609"
+    "$date": 1591533453609
   },
   "origId": "7ZTwrYe7Bq7kSQpPb",
   "name": "bb22",
   "notes": "",
-  "rank": "1.7803452091458",
+  "rank": 1.7803452091458,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-6q3paa8xndiwvos71-thumbnail.jpg",
   "hasSound": true,
-  "views": "324",
-  "likes": "0",
+  "views": 324,
+  "likes": 0,
   "revisionId": "bSKeKTm7Eys7LtwcP"
 }

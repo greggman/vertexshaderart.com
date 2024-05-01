@@ -3,7 +3,7 @@
   "owner": {
     "_id": "pgKWPgR9Cfeze4JZf",
     "createdAt": {
-      "$date": "1684327971226"
+      "$date": 1684327971226
     },
     "profile": {
       "name": "seoseulbin",
@@ -12,15 +12,15 @@
     "username": "seoseulbin"
   },
   "createdAt": {
-    "$date": "1684328885142"
+    "$date": 1684328885142
   },
   "modifiedAt": {
-    "$date": "1684328885142"
+    "$date": 1684328885142
   },
   "origId": null,
   "name": "Making A Grid with 4 Colors",
   "notes": "",
-  "rank": "1.810877736568779",
+  "rank": 1.810877736568779,
   "private": false,
   "unlisted": true,
   "username": "seoseulbin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-7wspl9i4cfxvvlzh1-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "a4J3RAQLMDmiyg3An"
 }

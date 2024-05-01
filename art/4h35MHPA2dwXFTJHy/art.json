@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QyFr9WoPZHnnBeKat",
     "createdAt": {
-      "$date": "1540408032900"
+      "$date": 1540408032900
     },
     "profile": {
       "first_name": "dertrackererpro",
@@ -12,15 +12,15 @@
     "username": "dertrackererpro"
   },
   "createdAt": {
-    "$date": "1540721439293"
+    "$date": 1540721439293
   },
   "modifiedAt": {
-    "$date": "1540822458710"
+    "$date": 1540822458710
   },
   "origId": "R4LHf9BCLCCDYjbez",
   "name": "3D Sine Wave",
   "notes": "",
-  "rank": "1.7493747377679838",
+  "rank": 1.7493747377679838,
   "private": false,
   "unlisted": false,
   "username": "dertrackererpro",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3vwwhlmtxdzqqq6e2-thumbnail.jpg",
   "hasSound": true,
-  "views": "297",
-  "likes": "0",
+  "views": 297,
+  "likes": 0,
   "revisionId": "gbpvvSGRBqXGTpgnH"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1533040631633"
+    "$date": 1533040631633
   },
   "modifiedAt": {
-    "$date": "1533040631633"
+    "$date": 1533040631633
   },
   "origId": "dZFJfYQQ8kmuoFFpi",
   "name": "Quad",
   "notes": "",
-  "rank": "1.9721907858583025",
+  "rank": 1.9721907858583025,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-jbfdh5g32wc9zcooo-thumbnail.jpg",
   "hasSound": "",
-  "views": "65",
-  "likes": "0",
+  "views": 65,
+  "likes": 0,
   "revisionId": "32HsaAFpGBe3hALEu"
 }

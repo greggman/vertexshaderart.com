@@ -3,7 +3,7 @@
   "owner": {
     "_id": "6LYHhwj5wMwA9HvPG",
     "createdAt": {
-      "$date": "1535280458435"
+      "$date": 1535280458435
     },
     "username": "aaron1924",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1535281784985"
+    "$date": 1535281784985
   },
   "modifiedAt": {
-    "$date": "1535281784985"
+    "$date": 1535281784985
   },
   "origId": null,
   "name": "Fireworks",
   "notes": "",
-  "rank": "1.3357468401561747",
+  "rank": 1.3357468401561747,
   "private": false,
   "unlisted": true,
   "username": "aaron1924",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-4w7oc77vc9lq6arxz-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "6GoqNm686fQJmsJRp"
 }

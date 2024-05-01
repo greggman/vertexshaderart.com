@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gY6LJNWPnc5msFSRP",
     "createdAt": {
-      "$date": "1652632078852"
+      "$date": 1652632078852
     },
     "username": "sunwoo.lee",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652885975231"
+    "$date": 1652885975231
   },
   "modifiedAt": {
-    "$date": "1652886306107"
+    "$date": 1652886306107
   },
   "origId": "Kx8LRqN4KEH3xcg9Q",
   "name": "Motion",
   "notes": "",
-  "rank": "1.2183221596110159",
+  "rank": 1.2183221596110159,
   "private": false,
   "unlisted": true,
   "username": "sunwoo.lee",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-cqlcdg0bzs1ir2o7n-thumbnail.jpg",
   "hasSound": "",
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "CGy3TDNwADQFBpKcL"
 }

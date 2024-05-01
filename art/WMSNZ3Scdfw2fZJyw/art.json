@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1598790413732"
+    "$date": 1598790413732
   },
   "modifiedAt": {
-    "$date": "1598790413732"
+    "$date": 1598790413732
   },
   "origId": "S8WjbT3dh5ZHhbpAS",
   "name": "crepe3",
   "notes": "",
-  "rank": "1.1045156281927349",
+  "rank": 1.1045156281927349,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-m03374aefkhqmhnyh-thumbnail.jpg",
   "hasSound": true,
-  "views": "102",
-  "likes": "0",
+  "views": 102,
+  "likes": 0,
   "revisionId": "2DB2S6DwM8gi7hgFH"
 }

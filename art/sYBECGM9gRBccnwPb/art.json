@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1532765295139"
+    "$date": 1532765295139
   },
   "modifiedAt": {
-    "$date": "1532765295139"
+    "$date": 1532765295139
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.9132488437359507",
+  "rank": 1.9132488437359507,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-rcrkuggsqkoe1a5gt-thumbnail.jpg",
   "hasSound": true,
-  "views": "94",
-  "likes": "0",
+  "views": 94,
+  "likes": 0,
   "revisionId": "ooQyStSS4QZgW3tzE"
 }

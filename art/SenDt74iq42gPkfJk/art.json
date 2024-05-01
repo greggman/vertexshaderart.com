@@ -3,7 +3,7 @@
   "owner": {
     "_id": "jFsYmxkBNAJNvJFDm",
     "createdAt": {
-      "$date": "1684263955851"
+      "$date": 1684263955851
     },
     "username": "hyojoonkim0020",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684264954815"
+    "$date": 1684264954815
   },
   "modifiedAt": {
-    "$date": "1684265031854"
+    "$date": 1684265031854
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": "1.1078218835718767",
+  "rank": 1.1078218835718767,
   "private": false,
   "unlisted": false,
   "username": "hyojoonkim0020",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-l7dxr8ig2smnbir0m-thumbnail.jpg",
   "hasSound": "",
-  "views": "60",
-  "likes": "0",
+  "views": 60,
+  "likes": 0,
   "revisionId": "6Ge3vfWCGyWfJkGDW"
 }

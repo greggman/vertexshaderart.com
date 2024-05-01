@@ -3,7 +3,7 @@
   "owner": {
     "_id": "nx6x3Kd3LL22ncuyh",
     "createdAt": {
-      "$date": "1555795967435"
+      "$date": 1555795967435
     },
     "profile": {
       "name": "Mike Tobia",
@@ -12,15 +12,15 @@
     "username": "mike-tobia"
   },
   "createdAt": {
-    "$date": "1555802344248"
+    "$date": 1555802344248
   },
   "modifiedAt": {
-    "$date": "1555802344248"
+    "$date": 1555802344248
   },
   "origId": "Cou2fm28Bk2J2vbgy",
   "name": "color",
   "notes": "",
-  "rank": "1.0068714456690522",
+  "rank": 1.0068714456690522,
   "private": false,
   "unlisted": true,
   "username": "mike-tobia",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-t3ptynoh0jwsdq2zc-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "TJTeZKA64CFSxQGiu"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1494948627525"
+    "$date": 1494948627525
   },
   "modifiedAt": {
-    "$date": "1494969367705"
+    "$date": 1494969367705
   },
   "origId": null,
   "name": "training step 1.1",
   "notes": "",
-  "rank": "1.5697596733518293",
+  "rank": 1.5697596733518293,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-vder76ip51y0s5voo-thumbnail.jpg",
   "hasSound": "",
-  "views": "9",
-  "likes": "0",
+  "views": 9,
+  "likes": 0,
   "revisionId": "PhXsYvrmsq8q377SR"
 }

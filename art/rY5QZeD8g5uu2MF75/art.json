@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1509103048228"
+    "$date": 1509103048228
   },
   "modifiedAt": {
-    "$date": "1509103048228"
+    "$date": 1509103048228
   },
   "origId": "vXFhLDE2hgAm9bXD8",
   "name": "pointsprite plasma",
   "notes": "",
-  "rank": "1.8358483020479386",
+  "rank": 1.8358483020479386,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-9ej646lhpae1eczpe-thumbnail.jpg",
   "hasSound": "",
-  "views": "73",
-  "likes": "0",
+  "views": 73,
+  "likes": 0,
   "revisionId": "HX6iAPba9FmsFNEYu"
 }

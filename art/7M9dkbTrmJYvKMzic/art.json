@@ -3,7 +3,7 @@
   "owner": {
     "_id": "iisssmptqoCKgZqaQ",
     "createdAt": {
-      "$date": "1652854948747"
+      "$date": 1652854948747
     },
     "profile": {
       "name": "taeju.Kwon",
@@ -12,15 +12,15 @@
     "username": "taejukwon-digipen"
   },
   "createdAt": {
-    "$date": "1652978630144"
+    "$date": 1652978630144
   },
   "modifiedAt": {
-    "$date": "1652978630144"
+    "$date": 1652978630144
   },
   "origId": null,
   "name": "03_color",
   "notes": "",
-  "rank": "1.0482792940619285",
+  "rank": 1.0482792940619285,
   "private": false,
   "unlisted": true,
   "username": "taejukwon-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-6a121029h1esyktq7-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "H4Y6qwmryjMEeWmBq"
 }

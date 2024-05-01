@@ -3,7 +3,7 @@
   "owner": {
     "_id": "fJsd989asQpLSTgC3",
     "createdAt": {
-      "$date": "1687709824959"
+      "$date": 1687709824959
     },
     "username": "mv10",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1687722942022"
+    "$date": 1687722942022
   },
   "modifiedAt": {
-    "$date": "1687881576170"
+    "$date": 1687881576170
   },
   "origId": "bpX9tBkNhHiF6nHk8",
   "name": "sound basics 3",
   "notes": "",
-  "rank": "1.862975455754498",
+  "rank": 1.862975455754498,
   "private": false,
   "unlisted": false,
   "username": "mv10",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-yoxjqmao8yxtj3up1-thumbnail.jpg",
   "hasSound": true,
-  "views": "94",
-  "likes": "0",
+  "views": 94,
+  "likes": 0,
   "revisionId": "hxjX7LmX7PKeouqXb"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1462069721460"
+    "$date": 1462069721460
   },
   "modifiedAt": {
-    "$date": "1462069721460"
+    "$date": 1462069721460
   },
   "origId": "Q6WYaT35yY2FLBkgi",
   "name": "outty",
   "notes": "",
-  "rank": "1.6537556133164832",
+  "rank": 1.6537556133164832,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-now6d6u2gzj77364a-thumbnail.jpg",
   "hasSound": true,
-  "views": "89",
-  "likes": "0",
+  "views": 89,
+  "likes": 0,
   "revisionId": "BJpsEngevZrLzdYug"
 }

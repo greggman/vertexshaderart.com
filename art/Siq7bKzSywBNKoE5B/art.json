@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gCKgzQzioC4gDMxq9",
     "createdAt": {
-      "$date": "1496305181205"
+      "$date": 1496305181205
     },
     "profile": {
       "name": "Paul Gutierrez",
@@ -13,15 +13,15 @@
     "username": "PLU Collective"
   },
   "createdAt": {
-    "$date": "1497418523535"
+    "$date": 1497418523535
   },
   "modifiedAt": {
-    "$date": "1497430085561"
+    "$date": 1497430085561
   },
   "origId": null,
   "name": "woozy mod",
   "notes": "",
-  "rank": "1.662271326438612",
+  "rank": 1.662271326438612,
   "private": false,
   "unlisted": true,
   "username": "PLU Collective",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-v17gdabjoyhwwig1o-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "4M8r2DSX9a6GiLddL"
 }

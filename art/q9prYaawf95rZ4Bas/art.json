@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1508053618683"
+    "$date": 1508053618683
   },
   "modifiedAt": {
-    "$date": "1508053618683"
+    "$date": 1508053618683
   },
   "origId": "XQQfnaTej5ZuzxNaf",
   "name": "dyson",
   "notes": "",
-  "rank": "1.6589598674239745",
+  "rank": 1.6589598674239745,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-c9dvtdnu6t2hw3djl-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "iM5nK3G3g6avrSWpr"
 }

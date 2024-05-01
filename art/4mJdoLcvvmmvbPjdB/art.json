@@ -3,7 +3,7 @@
   "owner": {
     "_id": "DWnSve9EtvJnbpthZ",
     "createdAt": {
-      "$date": "1672702365875"
+      "$date": 1672702365875
     },
     "profile": {
       "name": "WhiskeyBravo",
@@ -12,15 +12,15 @@
     "username": "whiskey-bravo"
   },
   "createdAt": {
-    "$date": "1672702370931"
+    "$date": 1672702370931
   },
   "modifiedAt": {
-    "$date": "1672703068548"
+    "$date": 1672703068548
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.4171459037118868",
+  "rank": 1.4171459037118868,
   "private": false,
   "unlisted": true,
   "username": "whiskey-bravo",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-oljkelfg99jurrhtu-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "CgsEERtqzcrEJ83LW"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "WS7AoGNwzNGk4TSqx",
     "createdAt": {
-      "$date": "1553828364273"
+      "$date": 1553828364273
     },
     "profile": {
       "first_name": "다은",
@@ -13,15 +13,15 @@
     "username": "다은"
   },
   "createdAt": {
-    "$date": "1554024064167"
+    "$date": 1554024064167
   },
   "modifiedAt": {
-    "$date": "1554182298295"
+    "$date": 1554182298295
   },
   "origId": null,
   "name": "190331",
   "notes": "mouse interaction.\ncolor changing.\nmove around.",
-  "rank": "1.0542703797543957",
+  "rank": 1.0542703797543957,
   "private": false,
   "unlisted": true,
   "username": "다은",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-7pojgvmcnc9vxltsc-thumbnail.jpg",
   "hasSound": "",
-  "views": "6",
-  "likes": "1",
+  "views": 6,
+  "likes": 1,
   "revisionId": "2zyReP9PmuhQwDvgT"
 }

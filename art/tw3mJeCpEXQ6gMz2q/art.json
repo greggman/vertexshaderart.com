@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sEFgEzTWenNKzd4Qq",
     "createdAt": {
-      "$date": "1446401715607"
+      "$date": 1446401715607
     },
     "profile": {
       "name": "Tomas Vymazal",
@@ -12,10 +12,10 @@
     "username": "myownclone"
   },
   "createdAt": {
-    "$date": "1446402277157"
+    "$date": 1446402277157
   },
   "modifiedAt": {
-    "$date": "1446402277157"
+    "$date": 1446402277157
   },
   "origId": "QdJXEkZPWPvB4XKiy",
   "name": "pointsprite plasma",
@@ -35,9 +35,9 @@
     "shader": "//time vertexId gl_Position v_color resolution\n\n#define width 256.0\n#define height 384.0\n\nfloat plasma(vec2 pos)\n{\n  float c = 0.0;\n  \n  c = sin(pos.x) * cos(pos.y);;    \n  \n  return c;\n}\n\nvoid main() {\n  float ratio = resolution.x / resolution.y;\n  float w = width;\n  float h = height / ratio;\n\n  float vId = float(vertexId);\n  float px = (mod(vId, w) - w / 2.0) / (w / 2.0);\n  float py = (floor(vId / w) - h / 2.0) / (h / 2.0);\n  \n  gl_Position = vec4(px, py, 0, 1);\n  gl_PointSize = 10.0;\n\n  float c = plasma(vec2(px, py) * 4.0);\n  v_color = vec4(c, 2.0 * c, 3.0 * c, 1);\n}"
   },
   "screenshotURL": "data/images/images-bzox4m0o3l9cie99k-thumbnail.jpg",
-  "views": "201",
-  "likes": "0",
+  "views": 201,
+  "likes": 0,
   "revisionId": "JkKFcA7MSTAH6xDXK",
-  "rank": "1.69094900356089",
+  "rank": 1.69094900356089,
   "avatarUrl": "https://avatars.githubusercontent.com/MyOwnClone?s=200"
 }

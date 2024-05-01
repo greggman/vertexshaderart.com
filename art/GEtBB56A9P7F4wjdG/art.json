@@ -3,7 +3,7 @@
   "owner": {
     "_id": "AKayQxJZqd5z7boy2",
     "createdAt": {
-      "$date": "1550038451574"
+      "$date": 1550038451574
     },
     "profile": {
       "first_name": "Archer",
@@ -14,15 +14,15 @@
     "username": "archer"
   },
   "createdAt": {
-    "$date": "1550170457066"
+    "$date": 1550170457066
   },
   "modifiedAt": {
-    "$date": "1550175080008"
+    "$date": 1550175080008
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.9602518238914557",
+  "rank": 1.9602518238914557,
   "private": false,
   "unlisted": true,
   "username": "archer",
@@ -42,7 +42,7 @@
   },
   "screenshotURL": "data/images/images-18v7oi81sokyupuma-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "5yTsxt4t7N4nE6ueA"
 }

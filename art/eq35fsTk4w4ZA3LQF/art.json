@@ -3,7 +3,7 @@
   "owner": {
     "_id": "u9A54Fr2xqnfssRpa",
     "createdAt": {
-      "$date": "1684324202773"
+      "$date": 1684324202773
     },
     "username": "seongryul.park",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684959370516"
+    "$date": 1684959370516
   },
   "modifiedAt": {
-    "$date": "1684960264884"
+    "$date": 1684960264884
   },
   "origId": null,
   "name": "Audio Reactive Art",
   "notes": "Audio Reactive Art - CS250 \nspring  2023\n",
-  "rank": "1.3869410539012497",
+  "rank": 1.3869410539012497,
   "private": false,
   "unlisted": true,
   "username": "seongryul.park",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-st0wpbd02rttv49t1-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "xPPSCRi8kguW9rH4o"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "DczorXy8ojCtMXAR7",
     "createdAt": {
-      "$date": "1654098853172"
+      "$date": 1654098853172
     },
     "username": "lilhomiedowntown",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1654324833808"
+    "$date": 1654324833808
   },
   "modifiedAt": {
-    "$date": "1654325263068"
+    "$date": 1654325263068
   },
   "origId": null,
   "name": "testitup",
   "notes": "",
-  "rank": "1.6887062353181113",
+  "rank": 1.6887062353181113,
   "private": false,
   "unlisted": true,
   "username": "lilhomiedowntown",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-egu2oxhvkc6d9kasl-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "GtqSd5TCGR2eiT2um"
 }

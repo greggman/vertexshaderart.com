@@ -3,7 +3,7 @@
   "owner": {
     "_id": "pcHHCsKcQWuzpM75t",
     "createdAt": {
-      "$date": "1659327060977"
+      "$date": 1659327060977
     },
     "profile": {
       "name": "Braden Wiggins",
@@ -12,15 +12,15 @@
     "username": "fractalhq"
   },
   "createdAt": {
-    "$date": "1659327072746"
+    "$date": 1659327072746
   },
   "modifiedAt": {
-    "$date": "1659327072746"
+    "$date": 1659327072746
   },
   "origId": "R2FYLbHWTcCWh5PiE",
   "name": "blorp",
   "notes": "",
-  "rank": "1.227462099485303",
+  "rank": 1.227462099485303,
   "private": false,
   "unlisted": true,
   "username": "fractalhq",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-7vbk07b2b134ps79p-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "vaZhAsnBSHcCFJ5T9"
 }

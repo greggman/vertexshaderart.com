@@ -3,7 +3,7 @@
   "owner": {
     "_id": "A3xozQT3WGZPL6x35",
     "createdAt": {
-      "$date": "1684330244428"
+      "$date": 1684330244428
     },
     "username": "sangjin.lee",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684924006363"
+    "$date": 1684924006363
   },
   "modifiedAt": {
-    "$date": "1684924006363"
+    "$date": 1684924006363
   },
   "origId": null,
   "name": "Audio Reactive",
   "notes": "",
-  "rank": "1.7362019612580877",
+  "rank": 1.7362019612580877,
   "private": false,
   "unlisted": true,
   "username": "sangjin.lee",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-3hbf67t41wub9an6t-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "ovgfwXTTssWpDfcBc"
 }

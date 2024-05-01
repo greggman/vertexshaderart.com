@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QqMsN94PxbgsCpi8J",
     "createdAt": {
-      "$date": "1667647683472"
+      "$date": 1667647683472
     },
     "profile": {
       "name": null,
@@ -13,15 +13,15 @@
     "username": "nkkky"
   },
   "createdAt": {
-    "$date": "1667648407112"
+    "$date": 1667648407112
   },
   "modifiedAt": {
-    "$date": "1667648407112"
+    "$date": 1667648407112
   },
   "origId": null,
   "name": "Sir. Rup",
   "notes": "Just linking my track with vertexshaderart here",
-  "rank": "1.1102693502705931",
+  "rank": 1.1102693502705931,
   "private": false,
   "unlisted": false,
   "username": "nkkky",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-so5lflx3v2310djhi-thumbnail.jpg",
   "hasSound": true,
-  "views": "70",
-  "likes": "0",
+  "views": 70,
+  "likes": 0,
   "revisionId": "jXcbfZE6HA3YPhQ9C"
 }

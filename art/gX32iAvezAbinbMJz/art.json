@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1465568777949"
+    "$date": 1465568777949
   },
   "modifiedAt": {
-    "$date": "1591623563883"
+    "$date": 1591623563883
   },
   "origId": "k7w6BKgeSJxKx3Z6L",
   "name": "c-pump",
   "notes": "",
-  "rank": "1.3262127218354727",
+  "rank": 1.3262127218354727,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-ltsnd5j7fp9a8rh7d-thumbnail.jpg",
   "hasSound": true,
-  "views": "506",
-  "likes": "0",
+  "views": 506,
+  "likes": 0,
   "revisionId": "7vmqyRSAYJwnj4ST5"
 }

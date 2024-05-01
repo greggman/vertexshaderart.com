@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1647203461628"
+    "$date": 1647203461628
   },
   "modifiedAt": {
-    "$date": "1647203461628"
+    "$date": 1647203461628
   },
   "origId": null,
   "name": "wave ",
   "notes": "",
-  "rank": "1.8021012113249983",
+  "rank": 1.8021012113249983,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-5bnlbabuqnjsbdg3b-thumbnail.jpg",
   "hasSound": "",
-  "views": "107",
-  "likes": "0",
+  "views": 107,
+  "likes": 0,
   "revisionId": "GdQ4gufdqn2r8JDcs"
 }

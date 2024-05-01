@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1568769494043"
+    "$date": 1568769494043
   },
   "modifiedAt": {
-    "$date": "1568769494043"
+    "$date": 1568769494043
   },
   "origId": "Hsmfxt55QrbZxDm4d",
   "name": "perc2",
   "notes": "Sigh.... someone took their music down so replacing the music but it's not really tuned for this.",
-  "rank": "1.3289514807576983",
+  "rank": 1.3289514807576983,
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-6ppzou4gx2du095ud-thumbnail.jpg",
   "hasSound": true,
-  "views": "218",
-  "likes": "1",
+  "views": 218,
+  "likes": 1,
   "revisionId": "dtDDTMaLcYndMAJ3r"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Hpso6YZ43TNmDTfSn",
     "createdAt": {
-      "$date": "1608473852720"
+      "$date": 1608473852720
     },
     "profile": {
       "first_name": "Sendi",
@@ -13,15 +13,15 @@
     "username": "sendi"
   },
   "createdAt": {
-    "$date": "1619210974894"
+    "$date": 1619210974894
   },
   "modifiedAt": {
-    "$date": "1619210974894"
+    "$date": 1619210974894
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.838070995919369",
+  "rank": 1.838070995919369,
   "private": false,
   "unlisted": true,
   "username": "sendi",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-1ig2xxn4r22qcgwgq-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "MHLv5C9kgLcgyFqNQ"
 }

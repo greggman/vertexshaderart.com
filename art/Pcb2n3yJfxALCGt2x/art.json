@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gtmTwjfybNBxLCYrM",
     "createdAt": {
-      "$date": "1554726116747"
+      "$date": 1554726116747
     },
     "username": "pgan",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1554729925046"
+    "$date": 1554729925046
   },
   "modifiedAt": {
-    "$date": "1554729925046"
+    "$date": 1554729925046
   },
   "origId": "7ckAr5cRAsKG9pHiF",
   "name": "sin0",
   "notes": "",
-  "rank": "1.2183777897142343",
+  "rank": 1.2183777897142343,
   "private": false,
   "unlisted": true,
   "username": "pgan",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-u4f3fg7g8mha0wkhe-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "ibuGsXz3gFbBfcQvi"
 }

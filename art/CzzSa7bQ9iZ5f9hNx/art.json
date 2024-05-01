@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1565833897638"
+    "$date": 1565833897638
   },
   "modifiedAt": {
-    "$date": "1565833897638"
+    "$date": 1565833897638
   },
   "origId": "QGXB5e8RAqNJsredQ",
   "name": "unnamed",
   "notes": "",
-  "rank": "1.2605883291835254",
+  "rank": 1.2605883291835254,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-f4p2ciggwunepauof-thumbnail.jpg",
   "hasSound": true,
-  "views": "44",
-  "likes": "0",
+  "views": 44,
+  "likes": 0,
   "revisionId": "X5gWJFZezALMt6nJv"
 }

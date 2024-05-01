@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1670104365373"
+    "$date": 1670104365373
   },
   "modifiedAt": {
-    "$date": "1670104365373"
+    "$date": 1670104365373
   },
   "origId": "ASwcBa7AR4rPpF2Wg",
   "name": "msh",
   "notes": "",
-  "rank": "1.7900806070606148",
+  "rank": 1.7900806070606148,
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-4jmn9p3in3joublzy-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "iiHoidkA7TFpG8gEF"
 }

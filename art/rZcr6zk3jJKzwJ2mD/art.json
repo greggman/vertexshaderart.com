@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,14 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": "1448386056706"
+    "$date": 1448386056706
   },
   "modifiedAt": {
-    "$date": "1671343134222"
+    "$date": 1671343134222
   },
   "origId": "DCY4ddBCsphoYLARH",
   "name": "slash",
-  "rank": "10.696543717406",
+  "rank": 10.696543717406,
   "private": false,
   "username": "gman",
   "settings": {
@@ -37,8 +37,8 @@
   },
   "screenshotURL": "data/images/images-6gr89azxk9gli8n8b-thumbnail.jpg",
   "hasSound": true,
-  "views": "1763",
-  "likes": "17",
+  "views": 1763,
+  "likes": 17,
   "revisionId": "qXwiMgu8A8FemKi7f",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
   "notes": "music link update",

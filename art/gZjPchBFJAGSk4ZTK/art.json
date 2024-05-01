@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Q5T8njsEaGYsK34dZ",
     "createdAt": {
-      "$date": "1448898157107"
+      "$date": 1448898157107
     },
     "profile": {
       "name": null,
@@ -12,14 +12,14 @@
     "username": "8bitrick"
   },
   "createdAt": {
-    "$date": "1449070163109"
+    "$date": 1449070163109
   },
   "modifiedAt": {
-    "$date": "1449070163109"
+    "$date": 1449070163109
   },
   "origId": null,
   "name": "Simple Music Line",
-  "rank": "1.589511228354226",
+  "rank": 1.589511228354226,
   "private": false,
   "unlisted": false,
   "username": "8bitrick",
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-tbc7952hrkj9bo5bp-thumbnail.jpg",
   "hasSound": true,
-  "views": "355",
-  "likes": "1",
+  "views": 355,
+  "likes": 1,
   "revisionId": "H7WobSJ52f5N58vas",
   "avatarUrl": "https://avatars.githubusercontent.com/8BitRick?s=200"
 }

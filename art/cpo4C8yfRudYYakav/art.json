@@ -3,7 +3,7 @@
   "owner": {
     "_id": "qHjqBLXumt25WmNwj",
     "createdAt": {
-      "$date": "1713237301136"
+      "$date": 1713237301136
     },
     "profile": {
       "first_name": "erick",
@@ -14,15 +14,15 @@
     "username": "erick2"
   },
   "createdAt": {
-    "$date": "1713238136283"
+    "$date": 1713238136283
   },
   "modifiedAt": {
-    "$date": "1713238136283"
+    "$date": 1713238136283
   },
   "origId": null,
   "name": "probando",
   "notes": "",
-  "rank": "1.5020192077308265",
+  "rank": 1.5020192077308265,
   "private": false,
   "unlisted": true,
   "username": "erick2",
@@ -42,7 +42,7 @@
   },
   "screenshotURL": "data/images/images-83g4qewooqvx46lz7-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "SfsWaNDzTT2NScDEc"
 }

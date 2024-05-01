@@ -3,7 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": "1501018355084"
+      "$date": 1501018355084
     },
     "username": "sylistine",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1503432045556"
+    "$date": 1503432045556
   },
   "modifiedAt": {
-    "$date": "1503432045556"
+    "$date": 1503432045556
   },
   "origId": null,
   "name": "unnamed",
   "notes": "Use for testing exactly how multiplies and powers transform the raw sound texture values that you're sampling.",
-  "rank": "1.0593168726424187",
+  "rank": 1.0593168726424187,
   "private": false,
   "unlisted": true,
   "username": "sylistine",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-v25djn1numzcz55wn-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "AegE4XwCXt6kf8ujt"
 }

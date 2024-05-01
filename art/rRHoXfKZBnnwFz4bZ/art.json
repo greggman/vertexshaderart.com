@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1494953258069"
+    "$date": 1494953258069
   },
   "modifiedAt": {
-    "$date": "1494953258069"
+    "$date": 1494953258069
   },
   "origId": "gZgDK3bN2z7xtma6A",
   "name": "begin struggle 3",
   "notes": "Yes!",
-  "rank": "1.8174709593306275",
+  "rank": 1.8174709593306275,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-apti4og1951tg8v07-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "ZdPg8RCTjvW9yqKPx"
 }

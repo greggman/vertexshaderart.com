@@ -3,7 +3,7 @@
   "owner": {
     "_id": "TNSvjWziZHjvDzzGi",
     "createdAt": {
-      "$date": "1705867568220"
+      "$date": 1705867568220
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "rus-abd"
   },
   "createdAt": {
-    "$date": "1705873210231"
+    "$date": 1705873210231
   },
   "modifiedAt": {
-    "$date": "1705873210231"
+    "$date": 1705873210231
   },
   "origId": null,
   "name": "template",
   "notes": "",
-  "rank": "1.7859627607017468",
+  "rank": 1.7859627607017468,
   "private": false,
   "unlisted": true,
   "username": "rus-abd",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-wxo5k4qgmxm5z95nv-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "vvFJpuuBizHr7QvDs"
 }

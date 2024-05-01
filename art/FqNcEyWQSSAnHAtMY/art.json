@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Fb4jaWH5nhdXuAG2E",
     "createdAt": {
-      "$date": "1494693086089"
+      "$date": 1494693086089
     },
     "profile": {
       "name": "",
@@ -13,15 +13,15 @@
     "username": "lambmeow"
   },
   "createdAt": {
-    "$date": "1494695602138"
+    "$date": 1494695602138
   },
   "modifiedAt": {
-    "$date": "1494695602138"
+    "$date": 1494695602138
   },
   "origId": null,
   "name": "asdf",
   "notes": "",
-  "rank": "1.8812060191911675",
+  "rank": 1.8812060191911675,
   "private": false,
   "unlisted": true,
   "username": "lambmeow",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-ukzsutkv5foeup7vf-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "Ne3KWYT6sFBbdpMJT"
 }

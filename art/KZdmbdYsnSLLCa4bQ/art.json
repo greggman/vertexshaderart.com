@@ -3,7 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": "1667032560256"
+      "$date": 1667032560256
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": "1669432325120"
+    "$date": 1669432325120
   },
   "modifiedAt": {
-    "$date": "1669432325120"
+    "$date": 1669432325120
   },
   "origId": null,
   "name": "jiggleswirl",
   "notes": "",
-  "rank": "1.7510176818522833",
+  "rank": 1.7510176818522833,
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-wpkpox3zosg9lahy8-thumbnail.jpg",
   "hasSound": true,
-  "views": "39",
-  "likes": "0",
+  "views": 39,
+  "likes": 0,
   "revisionId": "rmFk5BBYRQhsB9ZT3"
 }

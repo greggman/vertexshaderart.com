@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ae4gC3FWQR5veXTKq",
     "createdAt": {
-      "$date": "1684210422037"
+      "$date": 1684210422037
     },
     "username": "w.chae",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1684292112890"
+    "$date": 1684292112890
   },
   "modifiedAt": {
-    "$date": "1684292112890"
+    "$date": 1684292112890
   },
   "origId": null,
   "name": "Motion",
   "notes": "",
-  "rank": "1.1208269206845118",
+  "rank": 1.1208269206845118,
   "private": false,
   "unlisted": true,
   "username": "w.chae",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-0sp9becvggo36b4l8-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "RB2hzgazeDh3WjMFv"
 }

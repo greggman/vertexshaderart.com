@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1685306264955"
+    "$date": 1685306264955
   },
   "modifiedAt": {
-    "$date": "1685306264955"
+    "$date": 1685306264955
   },
   "origId": "9wKMAeACxZ3WoJc2m",
   "name": "Spiral",
   "notes": "",
-  "rank": "1.6205203937115413",
+  "rank": 1.6205203937115413,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-b26mmzekmhq018tq9-thumbnail.jpg",
   "hasSound": "",
-  "views": "41",
-  "likes": "0",
+  "views": 41,
+  "likes": 0,
   "revisionId": "XJun5Hmb5q244y2ur"
 }

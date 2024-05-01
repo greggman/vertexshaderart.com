@@ -3,7 +3,7 @@
   "owner": {
     "_id": "kxWiXJRdSz5aEp6wK",
     "createdAt": {
-      "$date": "1687622868608"
+      "$date": 1687622868608
     },
     "username": "sherrysmcguire",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1687641281615"
+    "$date": 1687641281615
   },
   "modifiedAt": {
-    "$date": "1687641281615"
+    "$date": 1687641281615
   },
   "origId": null,
   "name": "tut01_grid",
   "notes": "",
-  "rank": "1.8288977469861973",
+  "rank": 1.8288977469861973,
   "private": false,
   "unlisted": true,
   "username": "sherrysmcguire",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-afd0f4udclu71n3zk-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "6wCp84EAXHsYMYTFB"
 }

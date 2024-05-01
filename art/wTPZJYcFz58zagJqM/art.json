@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ML9sMhrDiffNmiXnR",
     "createdAt": {
-      "$date": "1508649811074"
+      "$date": 1508649811074
     },
     "profile": {
       "name": "Liam",
@@ -12,15 +12,15 @@
     "username": "liaminjapan"
   },
   "createdAt": {
-    "$date": "1508660577853"
+    "$date": 1508660577853
   },
   "modifiedAt": {
-    "$date": "1515658618424"
+    "$date": 1515658618424
   },
   "origId": "muMdsDzPMxbycuyv8",
   "name": "hello-world-2",
   "notes": "Messing about",
-  "rank": "1.6938563633972983",
+  "rank": 1.6938563633972983,
   "private": false,
   "unlisted": true,
   "username": "liaminjapan",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-4nyboxwrodr1ku02g-thumbnail.jpg",
   "hasSound": "",
-  "views": "11",
-  "likes": "0",
+  "views": 11,
+  "likes": 0,
   "revisionId": "S73g6KDhd6z5ZTbyd"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "exrQAEG45B5Exhhan",
     "createdAt": {
-      "$date": "1684329330454"
+      "$date": 1684329330454
     },
     "profile": {
       "name": "Minsu Kim",
@@ -12,15 +12,15 @@
     "username": "minsu-kim-digipen"
   },
   "createdAt": {
-    "$date": "1684410565960"
+    "$date": 1684410565960
   },
   "modifiedAt": {
-    "$date": "1684410734477"
+    "$date": 1684410734477
   },
   "origId": null,
   "name": "Making A Grid Variation",
   "notes": "",
-  "rank": "1.702380558558993",
+  "rank": 1.702380558558993,
   "private": false,
   "unlisted": true,
   "username": "minsu-kim-digipen",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-xgqb9sloo2a81wcd3-thumbnail.jpg",
   "hasSound": "",
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "95HMvebMDesMXPEDB"
 }

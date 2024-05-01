@@ -3,7 +3,7 @@
   "owner": {
     "_id": "bQer2D4p22YiaAkFt",
     "createdAt": {
-      "$date": "1684301218251"
+      "$date": 1684301218251
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "minjae-yu"
   },
   "createdAt": {
-    "$date": "1685416967641"
+    "$date": 1685416967641
   },
   "modifiedAt": {
-    "$date": "1685552467029"
+    "$date": 1685552467029
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": "1.1262629217198825",
+  "rank": 1.1262629217198825,
   "private": false,
   "unlisted": true,
   "username": "minjae-yu",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-lv9exrhaysog2y4at-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "AePjDoJZFM6xtk8wN"
 }

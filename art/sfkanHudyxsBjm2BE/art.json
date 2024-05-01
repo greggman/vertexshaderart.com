@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1507999653893"
+    "$date": 1507999653893
   },
   "modifiedAt": {
-    "$date": "1507999653893"
+    "$date": 1507999653893
   },
   "origId": "B5PGbeNcqjZkjn87u",
   "name": "insidez",
   "notes": "",
-  "rank": "1.0259889155033282",
+  "rank": 1.0259889155033282,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-9pep6scyyp43uyhu0-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "s89kiCeMo5TW3hjXc"
 }

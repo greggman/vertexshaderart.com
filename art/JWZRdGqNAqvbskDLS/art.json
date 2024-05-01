@@ -3,7 +3,7 @@
   "owner": {
     "_id": "svREMd4haHecWJJAv",
     "createdAt": {
-      "$date": "1552928787824"
+      "$date": 1552928787824
     },
     "profile": {
       "first_name": "Hyun",
@@ -13,15 +13,15 @@
     "username": "hyun"
   },
   "createdAt": {
-    "$date": "1554127594712"
+    "$date": 1554127594712
   },
   "modifiedAt": {
-    "$date": "1554188451989"
+    "$date": 1554188451989
   },
   "origId": null,
   "name": "Heart",
   "notes": "CS230 Extra Credit",
-  "rank": "1.0569134892205967",
+  "rank": 1.0569134892205967,
   "private": false,
   "unlisted": false,
   "username": "hyun",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-r73exb16ty0euxj5j-thumbnail.jpg",
   "hasSound": "",
-  "views": "196",
-  "likes": "0",
+  "views": 196,
+  "likes": 0,
   "revisionId": "z6YNw6trt9qToPSfm"
 }

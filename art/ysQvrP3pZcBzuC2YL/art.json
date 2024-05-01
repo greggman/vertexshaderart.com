@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1516530511864"
+    "$date": 1516530511864
   },
   "modifiedAt": {
-    "$date": "1516530511864"
+    "$date": 1516530511864
   },
   "origId": "bcenao9Loe5Xc2Y7T",
   "name": "spacetunnel",
   "notes": "",
-  "rank": "1.748260645242889",
+  "rank": 1.748260645242889,
   "private": false,
   "unlisted": true,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-2h6b0axs64rlhi9r1-thumbnail.jpg",
   "hasSound": true,
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "JTyRPzfPvdEiD6gBe"
 }

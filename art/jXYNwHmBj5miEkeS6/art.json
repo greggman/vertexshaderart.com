@@ -3,7 +3,7 @@
   "owner": {
     "_id": "a3PnYPa8MGo9QSALX",
     "createdAt": {
-      "$date": "1667032560256"
+      "$date": 1667032560256
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jarredthecoder"
   },
   "createdAt": {
-    "$date": "1667035106446"
+    "$date": 1667035106446
   },
   "modifiedAt": {
-    "$date": "1667035106446"
+    "$date": 1667035106446
   },
   "origId": null,
   "name": "cyclone",
   "notes": "",
-  "rank": "1.531910975120749",
+  "rank": 1.531910975120749,
   "private": false,
   "unlisted": false,
   "username": "jarredthecoder",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-873y09mja4nztx8bd-thumbnail.jpg",
   "hasSound": true,
-  "views": "60",
-  "likes": "0",
+  "views": 60,
+  "likes": 0,
   "revisionId": "HAvkF6eS2dh8XTjdN"
 }

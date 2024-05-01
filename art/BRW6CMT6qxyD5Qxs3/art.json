@@ -3,7 +3,7 @@
   "owner": {
     "_id": "HzeqnW8R7voj7FLgT",
     "createdAt": {
-      "$date": "1505942443270"
+      "$date": 1505942443270
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "trip-les-ix"
   },
   "createdAt": {
-    "$date": "1568768390515"
+    "$date": 1568768390515
   },
   "modifiedAt": {
-    "$date": "1568768390515"
+    "$date": 1568768390515
   },
   "origId": "nNYZMHxiLMR2xAncW",
   "name": "sirp",
   "notes": "",
-  "rank": "1.7707088672671276",
+  "rank": 1.7707088672671276,
   "private": false,
   "unlisted": false,
   "username": "trip-les-ix",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3xf5ovy992aqezssq-thumbnail.jpg",
   "hasSound": true,
-  "views": "108",
-  "likes": "0",
+  "views": 108,
+  "likes": 0,
   "revisionId": "cG8iT3KFvhDwtQon8"
 }

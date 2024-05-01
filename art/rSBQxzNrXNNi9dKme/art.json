@@ -3,7 +3,7 @@
   "owner": {
     "_id": "bxivoxa7rHG2pWYzY",
     "createdAt": {
-      "$date": "1630832494249"
+      "$date": 1630832494249
     },
     "username": "xingchen0085",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1630837025673"
+    "$date": 1630837025673
   },
   "modifiedAt": {
-    "$date": "1630837025673"
+    "$date": 1630837025673
   },
   "origId": "Kxv3hXqcQJecCkWdp",
   "name": "Light in rain : side V",
   "notes": "test",
-  "rank": "1.139401711207953",
+  "rank": 1.139401711207953,
   "private": false,
   "unlisted": true,
   "username": "xingchen0085",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-0ry2vjecixxjc6jbr-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "aeDsRHQBRPLfM33LB"
 }

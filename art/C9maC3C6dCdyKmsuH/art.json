@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Q5T8njsEaGYsK34dZ",
     "createdAt": {
-      "$date": "1448898157107"
+      "$date": 1448898157107
     },
     "profile": {
       "name": null,
@@ -12,14 +12,14 @@
     "username": "8bitrick"
   },
   "createdAt": {
-    "$date": "1449285675549"
+    "$date": 1449285675549
   },
   "modifiedAt": {
-    "$date": "1449285675549"
+    "$date": 1449285675549
   },
   "origId": "gZjPchBFJAGSk4ZTK",
   "name": "Bouncy Music Lines",
-  "rank": "1.8879513062627777",
+  "rank": 1.8879513062627777,
   "private": false,
   "unlisted": false,
   "username": "8bitrick",
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-2k35nxtgggsdvfuf9-thumbnail.jpg",
   "hasSound": true,
-  "views": "275",
-  "likes": "0",
+  "views": 275,
+  "likes": 0,
   "revisionId": "ms5u9GbicbJMnnimm",
   "avatarUrl": "https://avatars.githubusercontent.com/8BitRick?s=200"
 }

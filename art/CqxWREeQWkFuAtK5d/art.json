@@ -3,7 +3,7 @@
   "owner": {
     "_id": "JkHPzJxpfnvDEnJHf",
     "createdAt": {
-      "$date": "1684306385138"
+      "$date": 1684306385138
     },
     "username": "geumbi.yeo",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1685531873646"
+    "$date": 1685531873646
   },
   "modifiedAt": {
-    "$date": "1685531873646"
+    "$date": 1685531873646
   },
   "origId": null,
   "name": "Circles from Triangles",
   "notes": "",
-  "rank": "1.3024351437658033",
+  "rank": 1.3024351437658033,
   "private": false,
   "unlisted": true,
   "username": "geumbi.yeo",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ual4igpo37zdf5d8s-thumbnail.jpg",
   "hasSound": true,
-  "views": "6",
-  "likes": "0",
+  "views": 6,
+  "likes": 0,
   "revisionId": "HDXgsZw6dbPZvRDeR"
 }

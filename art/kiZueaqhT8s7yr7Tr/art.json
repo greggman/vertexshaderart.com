@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yumJxCTi3otBwEFh4",
     "createdAt": {
-      "$date": "1618264688331"
+      "$date": 1618264688331
     },
     "username": "chriscamplin",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1621033628126"
+    "$date": 1621033628126
   },
   "modifiedAt": {
-    "$date": "1621035065514"
+    "$date": 1621035065514
   },
   "origId": "fe8yM9E3pBta2SbNa",
   "name": "cubes",
   "notes": "code from tutorial on vertexshaders.com youtube channel.",
-  "rank": "1.5785416063631064",
+  "rank": 1.5785416063631064,
   "private": false,
   "unlisted": true,
   "username": "chriscamplin",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-xa6pg16zvcen1ldio-thumbnail.jpg",
   "hasSound": true,
-  "views": "65",
-  "likes": "0",
+  "views": 65,
+  "likes": 0,
   "revisionId": "unuWdDnqB5Ssx27rZ"
 }

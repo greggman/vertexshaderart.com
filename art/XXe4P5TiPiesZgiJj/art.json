@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1558629071918"
+    "$date": 1558629071918
   },
   "modifiedAt": {
-    "$date": "1558629071918"
+    "$date": 1558629071918
   },
   "origId": "7YgXgotM2u7EazE58",
   "name": "fail",
   "notes": "",
-  "rank": "1.5612045762174376",
+  "rank": 1.5612045762174376,
   "private": false,
   "unlisted": true,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-tnzes9mzme5czmft7-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "YukY7Qc9QCLNCfakH"
 }

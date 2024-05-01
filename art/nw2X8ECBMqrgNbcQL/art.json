@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1496685376741"
+    "$date": 1496685376741
   },
   "modifiedAt": {
-    "$date": "1496689272433"
+    "$date": 1496689272433
   },
   "origId": "fDPvNsyqX8zmv9hxa",
   "name": "Circle Fun",
   "notes": "",
-  "rank": "1.3599431725259403",
+  "rank": 1.3599431725259403,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-u8nhcfhp19qjxg8h7-thumbnail.jpg",
   "hasSound": true,
-  "views": "78",
-  "likes": "0",
+  "views": 78,
+  "likes": 0,
   "revisionId": "2xKewXtAoD6PBxb3z"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1541379338024"
+    "$date": 1541379338024
   },
   "modifiedAt": {
-    "$date": "1541379338024"
+    "$date": 1541379338024
   },
   "origId": "ivFr7kf8D46ckANG4",
   "name": "swooneer24",
   "notes": "",
-  "rank": "1.1403010413297454",
+  "rank": 1.1403010413297454,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-t27m8crr4986kl8jk-thumbnail.jpg",
   "hasSound": true,
-  "views": "22",
-  "likes": "0",
+  "views": 22,
+  "likes": 0,
   "revisionId": "wAHgoXnPhcewNcnA5"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1508407574807"
+    "$date": 1508407574807
   },
   "modifiedAt": {
-    "$date": "1508407574807"
+    "$date": 1508407574807
   },
   "origId": "uqWtxuQpEkfxqWXCK",
   "name": "666wired",
   "notes": "",
-  "rank": "1.6694036163990345",
+  "rank": 1.6694036163990345,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-989fzhdu6slufo2tf-thumbnail.jpg",
   "hasSound": true,
-  "views": "117",
-  "likes": "0",
+  "views": 117,
+  "likes": 0,
   "revisionId": "w7EY9BQrrXGsTeMPN"
 }

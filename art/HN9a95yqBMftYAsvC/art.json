@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1521574613322"
+    "$date": 1521574613322
   },
   "modifiedAt": {
-    "$date": "1521574613322"
+    "$date": 1521574613322
   },
   "origId": null,
   "name": "test0",
   "notes": "",
-  "rank": "1.8461251574907602",
+  "rank": 1.8461251574907602,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-wncl571lmtgu9an87-thumbnail.jpg",
   "hasSound": true,
-  "views": "67",
-  "likes": "0",
+  "views": 67,
+  "likes": 0,
   "revisionId": "gPzTbTFxcYYCNwEFq"
 }

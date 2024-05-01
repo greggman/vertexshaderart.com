@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1452126261820"
+    "$date": 1452126261820
   },
   "modifiedAt": {
-    "$date": "1452346496617"
+    "$date": 1452346496617
   },
   "origId": "pubHuPRcYrgB8xLXg",
   "name": "msh",
   "notes": "Inspired by [this](http://lightprocesses.tumblr.com/post/111678252500/horizon-coded-in-processing-10-frames-related) I somehow ended up here",
-  "rank": "10.419633140233094",
+  "rank": 10.419633140233094,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-xvwa4daqb76klb1bk-thumbnail.jpg",
   "hasSound": true,
-  "views": "654",
-  "likes": "8",
+  "views": 654,
+  "likes": 8,
   "revisionId": "tNZgWi89LvK44K4dQ"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "95683ZgBuRkukjtj7",
     "createdAt": {
-      "$date": "1589922178477"
+      "$date": 1589922178477
     },
     "profile": {
       "first_name": "Markus",
@@ -13,15 +13,15 @@
     "username": "markus"
   },
   "createdAt": {
-    "$date": "1599073006062"
+    "$date": 1599073006062
   },
   "modifiedAt": {
-    "$date": "1599073006062"
+    "$date": 1599073006062
   },
   "origId": "Ec8Lpab7csKeguMAy",
   "name": "Frank in Space",
   "notes": "",
-  "rank": "1.2214734659858277",
+  "rank": 1.2214734659858277,
   "private": false,
   "unlisted": true,
   "username": "markus",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-68yjdp9dac1r7dzcy-thumbnail.jpg",
   "hasSound": true,
-  "views": "12",
-  "likes": "0",
+  "views": 12,
+  "likes": 0,
   "revisionId": "LMvRYtmjtnfT2XJXE"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "nx6x3Kd3LL22ncuyh",
     "createdAt": {
-      "$date": "1555795967435"
+      "$date": 1555795967435
     },
     "profile": {
       "name": "Mike Tobia",
@@ -12,15 +12,15 @@
     "username": "mike-tobia"
   },
   "createdAt": {
-    "$date": "1555807513846"
+    "$date": 1555807513846
   },
   "modifiedAt": {
-    "$date": "1555807513846"
+    "$date": 1555807513846
   },
   "origId": "qA2y7ctcsE5EDRetu",
   "name": "nu",
   "notes": "",
-  "rank": "1.9401050382184044",
+  "rank": 1.9401050382184044,
   "private": false,
   "unlisted": true,
   "username": "mike-tobia",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-uqri6hktwsn3cm8wu-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "TpGgRtGPKdfQZByex"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "rNn8aeTHLQXkcMmn8",
     "createdAt": {
-      "$date": "1684322503601"
+      "$date": 1684322503601
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jaeyeong-an"
   },
   "createdAt": {
-    "$date": "1684479508492"
+    "$date": 1684479508492
   },
   "modifiedAt": {
-    "$date": "1684479508492"
+    "$date": 1684479508492
   },
   "origId": "jtaqrSsdjgWqPPqJ4",
   "name": "Colors by Jaeyeong An(own variation)",
   "notes": "Duplicate the shader and tweak it to make my own variation",
-  "rank": "1.6181299589378186",
+  "rank": 1.6181299589378186,
   "private": false,
   "unlisted": true,
   "username": "jaeyeong-an",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-3favsxsmdoys1qa9k-thumbnail.jpg",
   "hasSound": "",
-  "views": "7",
-  "likes": "0",
+  "views": 7,
+  "likes": 0,
   "revisionId": "e89DGM6btmEGizmyh"
 }

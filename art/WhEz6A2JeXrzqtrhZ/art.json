@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Jx77jdaDpkcxC4oFJ",
     "createdAt": {
-      "$date": "1596977619651"
+      "$date": 1596977619651
     },
     "profile": {
       "name": "colin3dmax",
@@ -12,15 +12,15 @@
     "username": "colin3dmax"
   },
   "createdAt": {
-    "$date": "1596977660648"
+    "$date": 1596977660648
   },
   "modifiedAt": {
-    "$date": "1596977660648"
+    "$date": 1596977660648
   },
   "origId": "eN9F6DmmRZpCrr3v4",
   "name": "my_demo",
   "notes": "",
-  "rank": "1.5411883344147277",
+  "rank": 1.5411883344147277,
   "private": false,
   "unlisted": true,
   "username": "colin3dmax",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-aaiqticnwvpz7avem-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "2cDhheCGTwkonJkF8"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "GsGemnD2x9QaMRX9g",
     "createdAt": {
-      "$date": "1619196586677"
+      "$date": 1619196586677
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "hugo-w"
   },
   "createdAt": {
-    "$date": "1619547907954"
+    "$date": 1619547907954
   },
   "modifiedAt": {
-    "$date": "1619547907954"
+    "$date": 1619547907954
   },
   "origId": "AXAuvTYrFKQwTgykw",
   "name": "FiboSound3D_fail",
   "notes": "3D fibo sphere...",
-  "rank": "1.2861152251111818",
+  "rank": 1.2861152251111818,
   "private": false,
   "unlisted": true,
   "username": "hugo-w",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-le42lmcsp0b5a343u-thumbnail.jpg",
   "hasSound": true,
-  "views": "10",
-  "likes": "0",
+  "views": 10,
+  "likes": 0,
   "revisionId": "KTysr2qWPSZ2xpvho"
 }

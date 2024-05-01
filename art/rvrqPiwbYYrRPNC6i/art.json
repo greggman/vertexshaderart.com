@@ -3,7 +3,7 @@
   "owner": {
     "_id": "r6XcKj2Zo8BjapJbF",
     "createdAt": {
-      "$date": "1590975314952"
+      "$date": 1590975314952
     },
     "profile": {
       "first_name": "xi",
@@ -13,15 +13,15 @@
     "username": "xi"
   },
   "createdAt": {
-    "$date": "1590975711970"
+    "$date": 1590975711970
   },
   "modifiedAt": {
-    "$date": "1590975711970"
+    "$date": 1590975711970
   },
   "origId": "hx3wegzB6mT7kmxAg",
   "name": "lesson02",
   "notes": "",
-  "rank": "1.5856987521421047",
+  "rank": 1.5856987521421047,
   "private": false,
   "unlisted": true,
   "username": "xi",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-ufkgug8ufwkzvbnnr-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "QCdrvbmg9xgZ44LSg"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "poQ88mFsrpyEKSkq5",
     "createdAt": {
-      "$date": "1633071476908"
+      "$date": 1633071476908
     },
     "username": "aleon",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1633072136353"
+    "$date": 1633072136353
   },
   "modifiedAt": {
-    "$date": "1633072136353"
+    "$date": 1633072136353
   },
   "origId": null,
   "name": "Follow 4now",
   "notes": "a test",
-  "rank": "1.4657850661997265",
+  "rank": 1.4657850661997265,
   "private": false,
   "unlisted": true,
   "username": "aleon",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-wo7j9rxz5xkp5sf21-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "fXjREWS3auorqZxK3"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Xf6KeBkMjM7XaL54y",
     "createdAt": {
-      "$date": "1449452873148"
+      "$date": 1449452873148
     },
     "profile": {
       "name": "Yama Japa",
@@ -12,14 +12,14 @@
     "username": "w.e._aa"
   },
   "createdAt": {
-    "$date": "1449457728267"
+    "$date": 1449457728267
   },
   "modifiedAt": {
-    "$date": "1449457728267"
+    "$date": 1449457728267
   },
   "origId": "9gAztzKnjeJ3GyrqF",
   "name": "unnamed",
-  "rank": "1.2358960210465242",
+  "rank": 1.2358960210465242,
   "private": false,
   "unlisted": false,
   "username": "w.e._aa",
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-9b8ralrl7tplp7k5g-thumbnail.jpg",
   "hasSound": true,
-  "views": "36",
-  "likes": "0",
+  "views": 36,
+  "likes": 0,
   "revisionId": "gNEYB4dTeYgRK5MMt",
   "avatarUrl": "https://i1.sndcdn.com/avatars-000158541618-bp5p9z-large.jpg"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": "1497270876730"
+      "$date": 1497270876730
     },
     "username": "zugzwang404",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1499769289588"
+    "$date": 1499769289588
   },
   "modifiedAt": {
-    "$date": "1499769289588"
+    "$date": 1499769289588
   },
   "origId": "d6J9M7EJyoAgw5NcA",
   "name": "linespace",
   "notes": "",
-  "rank": "1.3220775345792852",
+  "rank": 1.3220775345792852,
   "private": false,
   "unlisted": true,
   "username": "zugzwang404",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-c2u33n1eb4xw2bic4-thumbnail.jpg",
   "hasSound": true,
-  "views": "89",
-  "likes": "0",
+  "views": 89,
+  "likes": 0,
   "revisionId": "594XkQMiCnjZXrgcJ"
 }

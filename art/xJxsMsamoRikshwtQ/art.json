@@ -3,7 +3,7 @@
   "owner": {
     "_id": "cFdz2pdS8XZgihEn2",
     "createdAt": {
-      "$date": "1652806562125"
+      "$date": 1652806562125
     },
     "username": "sangbeom.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1653420451817"
+    "$date": 1653420451817
   },
   "modifiedAt": {
-    "$date": "1653437334008"
+    "$date": 1653437334008
   },
   "origId": "2PbekWKKMe8gWdJ3z",
   "name": "Audio Reactive - Sangbeom Kim",
   "notes": "Audio Reactive - Sangbeom kim",
-  "rank": "1.1560707386487459",
+  "rank": 1.1560707386487459,
   "private": false,
   "unlisted": true,
   "username": "sangbeom.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-wc0vujger3got96xo-thumbnail.jpg",
   "hasSound": true,
-  "views": "10",
-  "likes": "0",
+  "views": 10,
+  "likes": 0,
   "revisionId": "uD5KbTjinM54wc3Nw"
 }

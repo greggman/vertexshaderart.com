@@ -3,7 +3,7 @@
   "owner": {
     "_id": "u3AyZpoGZ399Yn2dm",
     "createdAt": {
-      "$date": "1551481226929"
+      "$date": 1551481226929
     },
     "profile": {
       "first_name": "Isaín",
@@ -13,15 +13,15 @@
     "username": "isaín"
   },
   "createdAt": {
-    "$date": "1551486989870"
+    "$date": 1551486989870
   },
   "modifiedAt": {
-    "$date": "1551486989870"
+    "$date": 1551486989870
   },
   "origId": "qZCxqkkWDsfd8gqGS",
   "name": "circulo",
   "notes": "",
-  "rank": "1.1878182754218392",
+  "rank": 1.1878182754218392,
   "private": false,
   "unlisted": true,
   "username": "isaín",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-p16pjni8su7pyodk0-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "CMrxss8hsPGtE3HWb"
 }

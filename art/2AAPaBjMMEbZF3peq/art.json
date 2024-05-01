@@ -3,7 +3,7 @@
   "owner": {
     "_id": "MqPTcXoEuGA34rGui",
     "createdAt": {
-      "$date": "1497270876730"
+      "$date": 1497270876730
     },
     "username": "zugzwang404",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1503561068722"
+    "$date": 1503561068722
   },
   "modifiedAt": {
-    "$date": "1503561068722"
+    "$date": 1503561068722
   },
   "origId": "8QyjKkpp7q9aGkAn7",
   "name": "ringu",
   "notes": "",
-  "rank": "1.7071966329006245",
+  "rank": 1.7071966329006245,
   "private": false,
   "unlisted": false,
   "username": "zugzwang404",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-sqyipliizymyk4z74-thumbnail.jpg",
   "hasSound": true,
-  "views": "180",
-  "likes": "0",
+  "views": 180,
+  "likes": 0,
   "revisionId": "R7xHRqYCJfZ8t95hP"
 }

@@ -42,6 +42,18 @@
   }
   #search {
     display: flex;
+    width: 100%;
+  }
+  #search>div {
+    display: flex;
+    align-items: center;
+  }
+  #text {
+    flex: 1 1 auto;
+  }
+  #popular label {
+    display: flex;
+    align-items: center;
   }
   a {
     text-decoration: none;
@@ -98,7 +110,10 @@
         <a href="https://github.com/greggman/vertexshadeart.com">github</a>
       </div>
     </div>
-    <div id="search"><input type="text" placeholder="?"></div>
+    <div id="search">
+      <div id="text"><input type="text" placeholder="?"></div>
+      <div id="popular"><label><input type="checkbox" checked>popular</label></div>
+    </div>
     <div id="toc"></div>
   </body>
 </html>

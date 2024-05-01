@@ -3,7 +3,7 @@
   "owner": {
     "_id": "CwvvvtJL5Ykqzxv4N",
     "createdAt": {
-      "$date": "1557600049871"
+      "$date": 1557600049871
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "jorenvo"
   },
   "createdAt": {
-    "$date": "1557779073661"
+    "$date": 1557779073661
   },
   "modifiedAt": {
-    "$date": "1557897395523"
+    "$date": 1557897395523
   },
   "origId": null,
   "name": "cube",
   "notes": "",
-  "rank": "1.0092761126199796",
+  "rank": 1.0092761126199796,
   "private": false,
   "unlisted": true,
   "username": "jorenvo",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-zojv0lh8ezks53vlp-thumbnail.jpg",
   "hasSound": true,
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "JouXmJT4YASYSrMpS"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "QwzsYvDScS9sqNHNF",
     "createdAt": {
-      "$date": "1699414239850"
+      "$date": 1699414239850
     },
     "profile": {
       "first_name": "aphim44",
@@ -12,15 +12,15 @@
     "username": "aphim44"
   },
   "createdAt": {
-    "$date": "1699421981412"
+    "$date": 1699421981412
   },
   "modifiedAt": {
-    "$date": "1699421981412"
+    "$date": 1699421981412
   },
   "origId": "cxdd3QwD34CZzTpFj",
   "name": "sfj",
   "notes": "",
-  "rank": "1.1549373257011262",
+  "rank": 1.1549373257011262,
   "private": false,
   "unlisted": true,
   "username": "aphim44",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-yqc24n0mtiybq1vaw-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "W9FuXbwFk3YQ98xZT"
 }

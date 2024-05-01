@@ -3,7 +3,7 @@
   "owner": {
     "_id": "NDBuYheXdbAhe2APT",
     "createdAt": {
-      "$date": "1453344610611"
+      "$date": 1453344610611
     },
     "profile": {
       "first_name": "Aaron",
@@ -13,15 +13,15 @@
     "username": "aaron"
   },
   "createdAt": {
-    "$date": "1487716907755"
+    "$date": 1487716907755
   },
   "modifiedAt": {
-    "$date": "1487721596637"
+    "$date": 1487721596637
   },
   "origId": "QfDybr9wdsTip3KZ5",
   "name": "vertex+time based highlight",
   "notes": "Edits!",
-  "rank": "1.3585131458758737",
+  "rank": 1.3585131458758737,
   "private": false,
   "unlisted": true,
   "username": "aaron",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-2cgppphin4hp8buux-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "cGpStc96gP89LDy4C"
 }

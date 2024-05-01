@@ -3,7 +3,7 @@
   "owner": {
     "_id": "yWTy8yJSBHTtH3nwH",
     "createdAt": {
-      "$date": "1590662739186"
+      "$date": 1590662739186
     },
     "profile": {
       "first_name": "Davide",
@@ -13,15 +13,15 @@
     "username": "davide"
   },
   "createdAt": {
-    "$date": "1590667082744"
+    "$date": 1590667082744
   },
   "modifiedAt": {
-    "$date": "1590667886944"
+    "$date": 1590667886944
   },
   "origId": "SNXZQdmk9EFczeXF6",
   "name": "Waves",
   "notes": "Waves",
-  "rank": "10.493752899346992",
+  "rank": 10.493752899346992,
   "private": false,
   "unlisted": false,
   "username": "davide",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-xp7ahtoy3v1hvriu4-thumbnail.jpg",
   "hasSound": true,
-  "views": "351",
-  "likes": "3",
+  "views": 351,
+  "likes": 3,
   "revisionId": "FzfQeKEgtaDW7JK9X"
 }

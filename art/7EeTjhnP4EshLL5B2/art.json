@@ -3,7 +3,7 @@
   "owner": {
     "_id": "GoQyZYs7FujajLiLx",
     "createdAt": {
-      "$date": "1485892064893"
+      "$date": 1485892064893
     },
     "username": "paul-jan",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1485895235817"
+    "$date": 1485895235817
   },
   "modifiedAt": {
-    "$date": "1485896584604"
+    "$date": 1485896584604
   },
   "origId": null,
   "name": "Moving Grid",
   "notes": "And now... it moves!",
-  "rank": "1.3605591176604712",
+  "rank": 1.3605591176604712,
   "private": false,
   "unlisted": true,
   "username": "paul-jan",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-d4t4mlp8jh9l7wl49-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "BgQmg5vPXSCoL2JDs"
 }

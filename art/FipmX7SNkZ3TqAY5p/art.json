@@ -3,7 +3,7 @@
   "owner": {
     "_id": "8zztH8K59zQaKjuQX",
     "createdAt": {
-      "$date": "1677359387406"
+      "$date": 1677359387406
     },
     "profile": {
       "first_name": "James",
@@ -13,15 +13,15 @@
     "username": "james2"
   },
   "createdAt": {
-    "$date": "1682100303621"
+    "$date": 1682100303621
   },
   "modifiedAt": {
-    "$date": "1682100303621"
+    "$date": 1682100303621
   },
   "origId": null,
   "name": "sphere",
   "notes": "",
-  "rank": "1.9457574180960706",
+  "rank": 1.9457574180960706,
   "private": false,
   "unlisted": true,
   "username": "james2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-uc2ibh2q06mz1x786-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "TRATBqC6ywv5vcTZa"
 }

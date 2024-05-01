@@ -3,7 +3,7 @@
   "owner": {
     "_id": "9mSJ94a3jLQYEtpma",
     "createdAt": {
-      "$date": "1574356902539"
+      "$date": 1574356902539
     },
     "profile": {
       "first_name": "Nathan",
@@ -13,15 +13,15 @@
     "username": "nathan2"
   },
   "createdAt": {
-    "$date": "1574377652016"
+    "$date": 1574377652016
   },
   "modifiedAt": {
-    "$date": "1574378256585"
+    "$date": 1574378256585
   },
   "origId": null,
   "name": "Dots",
   "notes": "",
-  "rank": "1.6639574350591282",
+  "rank": 1.6639574350591282,
   "private": false,
   "unlisted": true,
   "username": "nathan2",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-bnyxagaak7tyeoq56-thumbnail.jpg",
   "hasSound": "",
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "XAbBySGW9eRAQXYY3"
 }

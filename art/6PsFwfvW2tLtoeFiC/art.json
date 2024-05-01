@@ -3,7 +3,7 @@
   "owner": {
     "_id": "dL7zM2BEuAzXDLtZb",
     "createdAt": {
-      "$date": "1553152938197"
+      "$date": 1553152938197
     },
     "username": "janalex",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1553346756656"
+    "$date": 1553346756656
   },
   "modifiedAt": {
-    "$date": "1553346756656"
+    "$date": 1553346756656
   },
   "origId": "5BPbm4rfCpfS92BKS",
   "name": "1903-GridHexagons",
   "notes": "",
-  "rank": "1.224023203291788",
+  "rank": 1.224023203291788,
   "private": false,
   "unlisted": false,
   "username": "janalex",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-ffo5auzlqu1idri48-thumbnail.jpg",
   "hasSound": true,
-  "views": "159",
-  "likes": "0",
+  "views": 159,
+  "likes": 0,
   "revisionId": "BBixXGKC8dgaTzFE3"
 }

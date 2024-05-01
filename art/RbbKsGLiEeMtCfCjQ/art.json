@@ -3,7 +3,7 @@
   "owner": {
     "_id": "sbiee4rKiWAEvAjNr",
     "createdAt": {
-      "$date": "1507987372682"
+      "$date": 1507987372682
     },
     "profile": {
       "name": "Valentin Safonnikov",
@@ -12,15 +12,15 @@
     "username": "valentin"
   },
   "createdAt": {
-    "$date": "1508229746798"
+    "$date": 1508229746798
   },
   "modifiedAt": {
-    "$date": "1508229746798"
+    "$date": 1508229746798
   },
   "origId": "A8Zc7NFQdTdeKQimv",
   "name": "pookymelon",
   "notes": "",
-  "rank": "1.9203895038507364",
+  "rank": 1.9203895038507364,
   "private": false,
   "unlisted": true,
   "username": "valentin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-spypv3eti4ge0i3nf-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "saZX5SjhD3uXdB33f"
 }

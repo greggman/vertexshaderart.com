@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1524795433913"
+    "$date": 1524795433913
   },
   "modifiedAt": {
-    "$date": "1524795433913"
+    "$date": 1524795433913
   },
   "origId": "4mzMqjbsbYgxDQKFf",
   "name": "moduloi kanssani",
   "notes": "",
-  "rank": "1.7851832238485754",
+  "rank": 1.7851832238485754,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-cedms3b6qdz6p07bo-thumbnail.jpg",
   "hasSound": true,
-  "views": "75",
-  "likes": "0",
+  "views": 75,
+  "likes": 0,
   "revisionId": "dAuimGnoyf67fK24G"
 }

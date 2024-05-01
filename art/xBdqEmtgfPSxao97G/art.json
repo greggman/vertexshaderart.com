@@ -3,7 +3,7 @@
   "owner": {
     "_id": "Jh97cZdeenjXQN4yD",
     "createdAt": {
-      "$date": "1476545797519"
+      "$date": 1476545797519
     },
     "username": "katan",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1476550873994"
+    "$date": 1476550873994
   },
   "modifiedAt": {
-    "$date": "1476634975380"
+    "$date": 1476634975380
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.611100817185771",
+  "rank": 1.611100817185771,
   "private": false,
   "unlisted": true,
   "username": "katan",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-rec0ed0m424emv7c3-thumbnail.jpg",
   "hasSound": "",
-  "views": "5",
-  "likes": "0",
+  "views": 5,
+  "likes": 0,
   "revisionId": "quq6jozvKRDWeqXH8"
 }

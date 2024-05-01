@@ -3,7 +3,7 @@
   "owner": {
     "_id": "cWfLyHrY6Tio52AhS",
     "createdAt": {
-      "$date": "1713242184772"
+      "$date": 1713242184772
     },
     "profile": {
       "first_name": "gurp",
@@ -13,15 +13,15 @@
     "username": "gurp"
   },
   "createdAt": {
-    "$date": "1713554804499"
+    "$date": 1713554804499
   },
   "modifiedAt": {
-    "$date": "1713554804499"
+    "$date": 1713554804499
   },
   "origId": null,
   "name": "fun_one_copy",
   "notes": "",
-  "rank": "1.6160925201546998",
+  "rank": 1.6160925201546998,
   "private": false,
   "unlisted": true,
   "username": "gurp",
@@ -41,7 +41,7 @@
   },
   "screenshotURL": "data/images/images-g5wlliu9e8nd81m0t-thumbnail.jpg",
   "hasSound": true,
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "hhuyspMxvK9h3239B"
 }

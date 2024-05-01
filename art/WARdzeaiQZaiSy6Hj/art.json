@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,14 +12,14 @@
     }
   },
   "createdAt": {
-    "$date": "1449082902129"
+    "$date": 1449082902129
   },
   "modifiedAt": {
-    "$date": "1591668931663"
+    "$date": 1591668931663
   },
   "origId": null,
   "name": "uniuni",
-  "rank": "10.775740014660776",
+  "rank": 10.775740014660776,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -38,8 +38,8 @@
   },
   "screenshotURL": "data/images/images-fprrdobp2yiuwmr8l-thumbnail.jpg",
   "hasSound": true,
-  "views": "221",
-  "likes": "2",
+  "views": 221,
+  "likes": 2,
   "revisionId": "6xWtquaxarHxqeYYR",
   "avatarUrl": "https://secure.gravatar.com/avatar/dcc0309895c3d6db087631813efaa9d1?default=retro&size=200",
   "notes": ""

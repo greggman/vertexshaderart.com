@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1458896163181"
+    "$date": 1458896163181
   },
   "modifiedAt": {
-    "$date": "1598709647413"
+    "$date": 1598709647413
   },
   "origId": "K5xqhTGgRRGkJzitm",
   "name": "red ring",
   "notes": "",
-  "rank": "10.03599705769716",
+  "rank": 10.03599705769716,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-yd4p2szloec3drzfm-thumbnail.jpg",
   "hasSound": true,
-  "views": "883",
-  "likes": "10",
+  "views": 883,
+  "likes": 10,
   "revisionId": "kiynCGDHgdAXxybmu"
 }

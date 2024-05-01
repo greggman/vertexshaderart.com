@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ftizELg7EWmj8LW7K",
     "createdAt": {
-      "$date": "1684040210652"
+      "$date": 1684040210652
     },
     "profile": {
       "name": "yejin shin",
@@ -12,15 +12,15 @@
     "username": "yejin-shin"
   },
   "createdAt": {
-    "$date": "1684041990259"
+    "$date": 1684041990259
   },
   "modifiedAt": {
-    "$date": "1684041990259"
+    "$date": 1684041990259
   },
   "origId": null,
   "name": "unnamed",
   "notes": "",
-  "rank": "1.7175184460576416",
+  "rank": 1.7175184460576416,
   "private": false,
   "unlisted": true,
   "username": "yejin-shin",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-rnd67cs6p1anqpkzb-thumbnail.jpg",
   "hasSound": "",
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "qBXph2ithME5oRG4u"
 }

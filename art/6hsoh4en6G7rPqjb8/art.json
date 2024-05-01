@@ -3,7 +3,7 @@
   "owner": {
     "_id": "T2kiqcyrWpNY4YuE7",
     "createdAt": {
-      "$date": "1704921597360"
+      "$date": 1704921597360
     },
     "profile": {
       "name": "Simon Taeter",
@@ -12,15 +12,15 @@
     "username": "staeter"
   },
   "createdAt": {
-    "$date": "1705072487738"
+    "$date": 1705072487738
   },
   "modifiedAt": {
-    "$date": "1705072487738"
+    "$date": 1705072487738
   },
   "origId": "BrGxYaWHdj7D4XZyf",
   "name": "nice error 1",
   "notes": "",
-  "rank": "1.2592602644885402",
+  "rank": 1.2592602644885402,
   "private": false,
   "unlisted": true,
   "username": "staeter",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-tpmyek6qpvxczrk3j-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "GyeeKvfq5CdBqBvcA"
 }

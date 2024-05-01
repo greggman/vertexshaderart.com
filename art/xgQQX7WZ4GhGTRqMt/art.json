@@ -3,7 +3,7 @@
   "owner": {
     "_id": "bQer2D4p22YiaAkFt",
     "createdAt": {
-      "$date": "1684301218251"
+      "$date": 1684301218251
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "minjae-yu"
   },
   "createdAt": {
-    "$date": "1684302948390"
+    "$date": 1684302948390
   },
   "modifiedAt": {
-    "$date": "1684303502092"
+    "$date": 1684303502092
   },
   "origId": null,
   "name": "Making A Grid",
   "notes": "",
-  "rank": "1.5168527962078366",
+  "rank": 1.5168527962078366,
   "private": false,
   "unlisted": true,
   "username": "minjae-yu",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-9c15t0i18lx7j0cff-thumbnail.jpg",
   "hasSound": true,
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "wc39N3dneAJz9EzK7"
 }

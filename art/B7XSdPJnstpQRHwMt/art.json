@@ -3,7 +3,7 @@
   "owner": {
     "_id": "cFdz2pdS8XZgihEn2",
     "createdAt": {
-      "$date": "1652806562125"
+      "$date": 1652806562125
     },
     "username": "sangbeom.kim",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1652810094148"
+    "$date": 1652810094148
   },
   "modifiedAt": {
-    "$date": "1652946096745"
+    "$date": 1652946096745
   },
   "origId": "XQjMFcAi9qguPBnBG",
   "name": "Motion",
   "notes": "Motion",
-  "rank": "1.1163356199244998",
+  "rank": 1.1163356199244998,
   "private": false,
   "unlisted": true,
   "username": "sangbeom.kim",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-acu58ifavewbul2or-thumbnail.jpg",
   "hasSound": "",
-  "views": "8",
-  "likes": "0",
+  "views": 8,
+  "likes": 0,
   "revisionId": "N7djxo7TKEHHYMT7J"
 }

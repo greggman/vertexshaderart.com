@@ -3,7 +3,7 @@
   "owner": {
     "_id": "gY6LJNWPnc5msFSRP",
     "createdAt": {
-      "$date": "1652632078852"
+      "$date": 1652632078852
     },
     "username": "sunwoo.lee",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1654091814305"
+    "$date": 1654091814305
   },
   "modifiedAt": {
-    "$date": "1654093495133"
+    "$date": 1654093495133
   },
   "origId": "5Fphse6X3wyaFosYJ",
   "name": "Circles from Triangles_sunwoo.lee",
   "notes": "",
-  "rank": "1.23090800508491",
+  "rank": 1.23090800508491,
   "private": false,
   "unlisted": true,
   "username": "sunwoo.lee",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-cghdl2nb4pmq93goj-thumbnail.jpg",
   "hasSound": true,
-  "views": "4",
-  "likes": "0",
+  "views": 4,
+  "likes": 0,
   "revisionId": "xSAZsB2bhiXXcyBus"
 }

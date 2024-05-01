@@ -3,7 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": "1501018355084"
+      "$date": 1501018355084
     },
     "username": "sylistine",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1501018582560"
+    "$date": 1501018582560
   },
   "modifiedAt": {
-    "$date": "1501114454960"
+    "$date": 1501114454960
   },
   "origId": null,
   "name": "Simple Sphere",
   "notes": "",
-  "rank": "1.6923909974402065",
+  "rank": 1.6923909974402065,
   "private": false,
   "unlisted": false,
   "username": "sylistine",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-gihztdx0i7zvgyqd9-thumbnail.jpg",
   "hasSound": "",
-  "views": "443",
-  "likes": "1",
+  "views": 443,
+  "likes": 1,
   "revisionId": "3mb4yLDeoR8gxS6ho"
 }

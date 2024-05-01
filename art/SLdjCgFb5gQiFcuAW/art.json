@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1604399192593"
+    "$date": 1604399192593
   },
   "modifiedAt": {
-    "$date": "1604399192593"
+    "$date": 1604399192593
   },
   "origId": "3K4LGxEGgP7MLHZnb",
   "name": "bobble",
   "notes": "",
-  "rank": "1.401702272935318",
+  "rank": 1.401702272935318,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-qgxjyqpi1ctwvd7he-thumbnail.jpg",
   "hasSound": true,
-  "views": "90",
-  "likes": "1",
+  "views": 90,
+  "likes": 1,
   "revisionId": "Zoc2yTQojsEdLBgLN"
 }

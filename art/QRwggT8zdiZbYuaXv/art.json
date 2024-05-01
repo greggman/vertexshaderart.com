@@ -3,7 +3,7 @@
   "owner": {
     "_id": "N6iR49Ne9Naw9PNDZ",
     "createdAt": {
-      "$date": "1494865701670"
+      "$date": 1494865701670
     },
     "profile": {
       "name": null,
@@ -12,15 +12,15 @@
     "username": "richtowns"
   },
   "createdAt": {
-    "$date": "1494976485126"
+    "$date": 1494976485126
   },
   "modifiedAt": {
-    "$date": "1494976817248"
+    "$date": 1494976817248
   },
   "origId": "BXfAoqsFbSNtWvJaQ",
   "name": " Gridding III",
   "notes": "Hmmm!",
-  "rank": "1.8298666012838",
+  "rank": 1.8298666012838,
   "private": false,
   "unlisted": true,
   "username": "richtowns",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-4ckys6bh5171a27t0-thumbnail.jpg",
   "hasSound": "",
-  "views": "2",
-  "likes": "0",
+  "views": 2,
+  "likes": 0,
   "revisionId": "wFr3z4WTtJnbnNnfG"
 }

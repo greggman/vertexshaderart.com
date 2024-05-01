@@ -3,7 +3,7 @@
   "owner": {
     "_id": "ePKJ9G9GDHfqoWJDv",
     "createdAt": {
-      "$date": "1670907770299"
+      "$date": 1670907770299
     },
     "profile": {
       "name": "Leon Zhuang",
@@ -12,15 +12,15 @@
     "username": "leonzh2k"
   },
   "createdAt": {
-    "$date": "1670908615741"
+    "$date": 1670908615741
   },
   "modifiedAt": {
-    "$date": "1670908615741"
+    "$date": 1670908615741
   },
   "origId": null,
   "name": "lesson01",
   "notes": "",
-  "rank": "1.901415711065749",
+  "rank": 1.901415711065749,
   "private": false,
   "unlisted": true,
   "username": "leonzh2k",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-imgr23eov7ch5ye84-thumbnail.jpg",
   "hasSound": "",
-  "views": "3",
-  "likes": "0",
+  "views": 3,
+  "likes": 0,
   "revisionId": "huWkhXmBZ2kJhiYLf"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "83xBsDBGvFA5W6NAW",
     "createdAt": {
-      "$date": "1498743336765"
+      "$date": 1498743336765
     },
     "profile": {
       "name": "Gearcode",
@@ -12,15 +12,15 @@
     "username": "gearcode"
   },
   "createdAt": {
-    "$date": "1498743349644"
+    "$date": 1498743349644
   },
   "modifiedAt": {
-    "$date": "1498811459977"
+    "$date": 1498811459977
   },
   "origId": null,
   "name": "Galaxy dance",
   "notes": "",
-  "rank": "10.210952504073981",
+  "rank": 10.210952504073981,
   "private": false,
   "unlisted": false,
   "username": "gearcode",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-k9rd874b9v2d6e13w-thumbnail.jpg",
   "hasSound": true,
-  "views": "972",
-  "likes": "7",
+  "views": 972,
+  "likes": 7,
   "revisionId": "M8dkEDtPDGaP9zSkD"
 }

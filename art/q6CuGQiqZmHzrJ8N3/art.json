@@ -3,7 +3,7 @@
   "owner": {
     "_id": "iFSyTSHmeekk4Ga75",
     "createdAt": {
-      "$date": "1683697855014"
+      "$date": 1683697855014
     },
     "username": "minkicho",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1683775508302"
+    "$date": 1683775508302
   },
   "modifiedAt": {
-    "$date": "1684304843576"
+    "$date": 1684304843576
   },
   "origId": null,
   "name": "Making a Grid",
   "notes": "Moving Grid",
-  "rank": "1.5036046430392194",
+  "rank": 1.5036046430392194,
   "private": false,
   "unlisted": true,
   "username": "minkicho",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-fi07ve1bi59fpi0c9-thumbnail.jpg",
   "hasSound": "",
-  "views": "25",
-  "likes": "0",
+  "views": 25,
+  "likes": 0,
   "revisionId": "HGpnqebsqwEWBmSu6"
 }

@@ -3,7 +3,7 @@
   "owner": {
     "_id": "PaTtiG9fc6wWxh69k",
     "createdAt": {
-      "$date": "1501018355084"
+      "$date": 1501018355084
     },
     "username": "sylistine",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1502327333722"
+    "$date": 1502327333722
   },
   "modifiedAt": {
-    "$date": "1502327333722"
+    "$date": 1502327333722
   },
   "origId": null,
   "name": "more experiments",
   "notes": "",
-  "rank": "1.4595226422020222",
+  "rank": 1.4595226422020222,
   "private": false,
   "unlisted": true,
   "username": "sylistine",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-y01wegzeg5g0vxpog-thumbnail.jpg",
   "hasSound": true,
-  "views": "1",
-  "likes": "0",
+  "views": 1,
+  "likes": 0,
   "revisionId": "mncG5Xzgxfdu6BiT3"
 }

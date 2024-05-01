@@ -3,7 +3,7 @@
   "owner": {
     "_id": "B7Kfai5f9h3MxwJcP",
     "createdAt": {
-      "$date": "1445777397953"
+      "$date": 1445777397953
     },
     "username": "gman",
     "profile": {
@@ -12,15 +12,15 @@
     }
   },
   "createdAt": {
-    "$date": "1502038682700"
+    "$date": 1502038682700
   },
   "modifiedAt": {
-    "$date": "1502080295602"
+    "$date": 1502080295602
   },
   "origId": "XxsoGmBRve3XhR5q3",
   "name": "bebubebup",
   "notes": "",
-  "rank": "10.021438124464531",
+  "rank": 10.021438124464531,
   "private": false,
   "unlisted": false,
   "username": "gman",
@@ -40,7 +40,7 @@
   },
   "screenshotURL": "data/images/images-rtaa1k3eekpdz5dk7-thumbnail.jpg",
   "hasSound": true,
-  "views": "1431",
-  "likes": "9",
+  "views": 1431,
+  "likes": 9,
   "revisionId": "i5f832sYGFAqMrq7i"
 }

@@ -4,15 +4,15 @@
     "username": "anon"
   },
   "createdAt": {
-    "$date": "1682695645493"
+    "$date": 1682695645493
   },
   "modifiedAt": {
-    "$date": "1682695645493"
+    "$date": 1682695645493
   },
   "origId": "ne6ENatKHpRDSgJRv",
   "name": "Knotted Candy",
   "notes": "",
-  "rank": "1.151944091442282",
+  "rank": 1.151944091442282,
   "private": false,
   "unlisted": false,
   "username": "-anon-",
@@ -32,7 +32,7 @@
   },
   "screenshotURL": "data/images/images-yymqe7n0wz8y7pvpg-thumbnail.jpg",
   "hasSound": "",
-  "views": "54",
-  "likes": "0",
+  "views": 54,
+  "likes": 0,
   "revisionId": "ga3twTZEkAx7qgjLX"
 }

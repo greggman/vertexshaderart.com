@@ -3,7 +3,7 @@
   "owner": {
     "_id": "CmDKfuGqb3n4wc5um",
     "createdAt": {
-      "$date": "1589106352417"
+      "$date": 1589106352417
     },
     "username": "abjeni",
     "profile": {
@@ -11,15 +11,15 @@
     }
   },
   "createdAt": {
-    "$date": "1600598115185"
+    "$date": 1600598115185
   },
   "modifiedAt": {
-    "$date": "1600598115185"
+    "$date": 1600598115185
   },
   "origId": null,
   "name": "marching tetrahedra",
   "notes": "",
-  "rank": "1.5384646396846882",
+  "rank": 1.5384646396846882,
   "private": false,
   "unlisted": false,
   "username": "abjeni",
@@ -39,7 +39,7 @@
   },
   "screenshotURL": "data/images/images-eq5uuag7aifi06hhw-thumbnail.jpg",
   "hasSound": "",
-  "views": "237",
-  "likes": "1",
+  "views": 237,
+  "likes": 1,
   "revisionId": "EkjMg4ZmmxPiJYADc"
 }
