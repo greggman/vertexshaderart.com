@@ -1,26 +1,22 @@
 import {createElem as el} from './elem.js';
 import { PseudoRandom } from './random.js';
 
+const params = new URLSearchParams(window.location.search);
 const r = new PseudoRandom();
 const tocElem = document.querySelector('#toc');
 const toc = (await (await fetch('toc.json')).json())
 
-const seed = parseInt(sessionStorage.getItem('seed') || (Math.random() * 0x7FFF_FFFF));
+const seed = parseInt((!params.has('random') && sessionStorage.getItem('seed')) || (Math.random() * 0x7FFF_FFFF));
 sessionStorage.setItem('seed', seed);
 r.reset(seed);
 
-
+const score = art => art.rank + (art.username !== 'anon' && art.likes > 0 ? 10 : 0);
 toc.forEach(v => v.rank = r.rand());
-toc.sort((a, b) => b.rank - a.rank);
+toc.sort((a, b) => score(b) - score(a));
 
 for (const {id, name, username, likes, avatarUrl, screenshotURL} of toc) {
   const artUrl = `art/${id}`;
-  tocElem.appendChild(el('div', {
-      dataset: {
-        username,
-        likes,
-      },
-    }, [
+  tocElem.appendChild(el('div', [
     el('a', {
       className: 'thumbnail',
       style: { backgroundImage: `url(${screenshotURL}`},
@@ -34,26 +30,21 @@ for (const {id, name, username, likes, avatarUrl, screenshotURL} of toc) {
 }
 
 const searchElem = document.querySelector('#search input[type=text]');
-const popularElem = document.querySelector('#popular input[type=checkbox]');
 
 function filter() {
   const s = searchElem.value.trim();
-  const showAll = !popularElem.checked;
   for (const elem of tocElem.children) {
-    const ok = showAll || (elem.dataset.username !== 'anon' && elem.dataset.likes > 0);
-    const match = s
+    const show = s
       ? elem.textContent.toLowerCase().includes(s)
       : true;
-    elem.style.display = (ok && match) ? '' : 'none';
+    elem.style.display = show ? '' : 'none';
   }
 }
 
 searchElem.addEventListener('input', filter);
-popularElem.addEventListener('change', filter)
 
 {
-  const s = new URLSearchParams(window.location.search);
-  const q = s.get('q');
+  const q = params.get('q');
   if (q) {
     searchElem.value = q;
   }
