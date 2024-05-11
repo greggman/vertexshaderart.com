@@ -1,8 +1,8 @@
-# vertexshaderart.com is in transition to a static site
+# vertexshaderart.com is now a static site
 
 ## Saving
 
-To save your work. Bookmark the URL or copy it to your blog/instagram/gist etc...
+To save your work. Bookmark the URL or copy it to your blog/instagram/gist or [this github issue](https://github.com/greggman/vertexshaderart.com/issues/1) etc...
 
 ## Music Tracks
 
@@ -31,3 +31,7 @@ Options:
                        // is the same as the .json file just with .mp3 instead
   }
   ```
+
+## License
+
+The site is license MIT but the individual shaders belong to their respective users.
