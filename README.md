@@ -32,6 +32,41 @@ Options:
   }
   ```
 
+## Adding art posted to the issue
+
+When someone posts a link in [the art issue](https://github.com/greggman/vertexshaderart.com/issues/1),
+add it with the url of their comment
+
+```sh
+npm install                # once, this downloads a chrome for the screenshots
+npm run add-art https://github.com/greggman/vertexshaderart.com/issues/1#issuecomment-5248670514
+```
+
+That
+
+* pulls the comment from the github api, taking the art's name from the link's
+  text and the author from whoever wrote the comment
+* decompresses the `#s=` part of the link into settings (same lzma + base64 the
+  site uses)
+* makes `art/<newRandomId>/art.json` and `art/<newRandomId>/index.html`
+* runs the art in a real browser for 30 seconds with music playing so sound
+  reactive shaders have history to draw, then saves the site's own 600x336
+  thumbnail to `data/images/`
+* regenerates `toc.json` (the gallery's index)
+
+Useful options: `--seconds=<n>` to shoot at a different point in time,
+`--name=` / `--author=` to override what came from the comment, `--index=<n>`
+or `--all` when a comment has more than one link, `--dry-run` to see what it
+would do, `--headful --verbose` when something goes wrong.
+`npm run add-art -- --help` for the rest.
+
+Related:
+
+* `npm run screenshot-art <artId>` retakes one art's thumbnail, eg with a
+  different `--seconds`, when the automatic one is a dud.
+* `npm run gen-toc` rebuilds `toc.json` from the `art` folders, which are the
+  source of truth.
+
 ## License
 
 The site is license MIT but the individual shaders belong to their respective users.

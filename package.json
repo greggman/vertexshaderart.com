@@ -5,6 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "add-art": "node build/add-art.js",
+    "gen-toc": "node build/gen-toc.js",
+    "screenshot-art": "node build/screenshot-art.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/greggman/vertexshaderart.com/issues"
   },
-  "homepage": "https://github.com/greggman/vertexshaderart.com#readme"
+  "homepage": "https://github.com/greggman/vertexshaderart.com#readme",
+  "devDependencies": {
+    "puppeteer": "^25.5.0"
+  }
 }

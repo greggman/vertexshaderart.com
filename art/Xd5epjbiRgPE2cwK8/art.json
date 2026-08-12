@@ -1,0 +1,47 @@
+{
+  "_id": "Xd5epjbiRgPE2cwK8",
+  "owner": {
+    "_id": "github-24825887",
+    "createdAt": {
+      "$date": 1786454893637
+    },
+    "profile": {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24825887?s=200"
+    },
+    "username": "danilw"
+  },
+  "createdAt": {
+    "$date": 1786454893637
+  },
+  "modifiedAt": {
+    "$date": 1786454893637
+  },
+  "origId": null,
+  "name": "Dragonspine",
+  "notes": "",
+  "rank": 1,
+  "private": false,
+  "unlisted": false,
+  "username": "danilw",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/24825887?s=200",
+  "settings": {
+    "num": 20000,
+    "mode": "POINTS",
+    "sound": "random",
+    "lineSize": "NATIVE",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shader": "\n/*\nDragonspine\n\nOriginal:\nhttps://community.wolfram.com/groups/-/m/t/3529968\nhttps://x.com/yuruyurau\n\nShadertoy implementation using particle tracking\nhttps://www.shadertoy.com/view/sc3SRH\n\n*/\n\nvoid main() {\n  // copy of https://www.shadertoy.com/view/ffK3z1\n  float RES        = resolution.y;\n  const float BODY_LENGHT= 435.0;\n  float S = RES / 400.0;\n  const float alpha = 0.37;\n  vec3 pos = vec3(-100.);\n  vec4 col = vec4(0.);\n\n  float timer=time*0.65;\n  {\n    int i=int(vertexId);\n\n    float x = float(i);\n    float y = float(i) / BODY_LENGHT;\n    float k = (4.0 + sin(y * 2.0 - timer) * 3.0) * cos(x / 29.0);\n    float e = y / 8.0 - 13.0;\n    float d = sqrt(k * k + e * e);\n    if (abs(k) < 1e-5){}\n    else{\n      float q = 3.0 * sin(k * 2.0)\n        + 0.3 / k\n        + sin(y / 25.0) * k * (9.0 + 4.0 * sin(e * 9.0 - d * 3.0 + timer * 2.0));\n      float c = d - timer;\n      // Point position scaled from 400-space into RES-space\n      float px = (q + 30.0 * cos(c) + 200.0) * S;\n      float py = (400.0 - (q * sin(c) + d * 39.0 - 220.0)) * S;\n      // Cull points outside virtual canvas\n      if (px < -2.0 || px > RES + 2.0 ||\n          py < -2.0 || py > RES + 2.0) {}\n      else{\n        pos.xy = vec2(px+resolution.x*0.2,py);\n        col = vec4(0.60+0.40*sin(vertexId*.003+vec3(0.,2.,4.)+timer*5.),alpha);\n        col.rgb=col.rgb*0.5+0.5*sqrt(col.rgb);\n        pos.z=1.;\n      }\n    }\n  }\n  gl_Position = vec4((pos.xy/resolution.xy)*2.-1., 0., 1.);\n  gl_PointSize = .5;\n  \n\n  float snd = texture2D(sound,1.*fract(vec2((0.+0.45*(vertexId/20000.)*(vertexId/20000.)), (0.35+0.205*(sin(3.*vertexId/20000.)))).yx)).x;\n  \n  v_color = col;\n  snd=1.-min(snd*snd*4.,1.);\n  v_color.rgb=mix(v_color.rgb,v_color.rgb*v_color.rgb-1.5*(v_color.rgb-snd)*4.,smoothstep(5.,7.2,timer));\n}\n\n\n"
+  },
+  "screenshotURL": "data/images/images-wt461lo4x9m1pynq6-thumbnail.jpg",
+  "hasSound": true,
+  "views": 0,
+  "likes": 0,
+  "revisionId": null,
+  "source": "https://github.com/greggman/vertexshaderart.com/issues/1#issuecomment-5248670514"
+}
