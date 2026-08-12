@@ -64,6 +64,17 @@
   #text {
     flex: 1 1 auto;
   }
+  #owner {
+    flex: 0 0 auto;
+    gap: 0.5em;
+    padding-left: 0.5em;
+    white-space: nowrap;
+  }
+  #owner a {
+    border: 1px solid #888;
+    border-radius: 0.25em;
+    padding: 0 0.25em;
+  }
   #sortby {
     flex: 0 0 auto;
     gap: 0.5em;
@@ -134,11 +145,15 @@
     </div>
     <div id="search">
       <div id="text"><input type="text" placeholder="?"></div>
+      <div id="owner" style="display: none;">
+        <span id="ownername"></span>
+        <a id="clearowner" href="?" title="show everyone's art">✕</a>
+      </div>
       <div id="sortby">
         <label for="sort">sort</label>
         <select id="sort">
           <option value="featured">featured</option>
-          <option value="new">new</option>
+          <option value="latest">latest</option>
           <option value="random">random</option>
         </select>
       </div>

@@ -28,7 +28,7 @@ const sorts = {
     return [...toc].sort((a, b) => score(b) - score(a));
   },
   // Newest first.
-  new() {
+  latest() {
     return [...toc].sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
   },
   // Actually random, a fresh order every time you pick it or reload.
@@ -41,7 +41,7 @@ const defaultSort = 'featured';
 
 function makeEntry({id, name, username, screenshotURL}) {
   const artUrl = `art/${id}`;
-  return el('div', [
+  return el('div', {dataset: {username}}, [
     el('a', {
       className: 'thumbnail',
       style: { backgroundImage: `url(${screenshotURL}`},
@@ -49,7 +49,7 @@ function makeEntry({id, name, username, screenshotURL}) {
     }),
     el('div', { className: 'meta' }, [
       el('a', {href: artUrl, textContent: name}),
-      el('a', {href: `?owner=${username}`, textContent: username}),
+      el('a', {href: `?owner=${encodeURIComponent(username)}`, textContent: username}),
     ]),
   ]);
 }
@@ -60,24 +60,49 @@ function render() {
 }
 
 const searchElem = document.querySelector('#search input[type=text]');
+const ownerElem = document.querySelector('#owner');
+const ownerNameElem = document.querySelector('#ownername');
+
+// clicking a username shows only their art. That's an exact match on the
+// username, not a search for the text, so an art someone else named after
+// them doesn't come along with it.
+let owner = params.get('owner') || '';
+
+function setOwner(name) {
+  owner = name;
+  ownerNameElem.textContent = `by: ${name}`;
+  ownerElem.style.display = name ? '' : 'none';
+}
 
 function filter() {
-  const s = searchElem.value.trim();
+  // lowercased, the text it's matched against is lowercased too, so without
+  // this a search with any capital in it matches nothing
+  const s = searchElem.value.trim().toLowerCase();
   for (const elem of tocElem.children) {
-    const show = s
-      ? elem.textContent.toLowerCase().includes(s)
-      : true;
+    const show = (!owner || elem.dataset.username === owner) &&
+                 (!s || elem.textContent.toLowerCase().includes(s));
     elem.style.display = show ? '' : 'none';
   }
 }
 
 searchElem.addEventListener('input', filter);
 
+document.querySelector('#clearowner').addEventListener('click', e => {
+  // in page so the sort and whatever's typed in the search box survive
+  e.preventDefault();
+  const url = new URL(window.location.href);
+  url.searchParams.delete('owner');
+  history.replaceState({}, '', url);
+  setOwner('');
+  filter();
+});
+
 {
   const q = params.get('q');
   if (q) {
     searchElem.value = q;
   }
+  setOwner(owner);
 }
 
 {
