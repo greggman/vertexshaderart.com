@@ -39,6 +39,8 @@ export function genToc() {
       rank: art.rank,
       likes: art.likes,
       views: art.views,
+      // ms since epoch, for the gallery's "new" sort
+      createdAt: art.createdAt?.$date ?? art.createdAt ?? 0,
     });
   }
 

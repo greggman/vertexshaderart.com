@@ -64,6 +64,19 @@
   #text {
     flex: 1 1 auto;
   }
+  #sortby {
+    flex: 0 0 auto;
+    gap: 0.5em;
+    padding-left: 0.5em;
+    white-space: nowrap;
+  }
+  #sortby select {
+    background-color: #222;
+    color: inherit;
+    font-family: inherit;
+    border: none;
+    padding: 0.25em;
+  }
   a {
     text-decoration: none;
     color: white;
@@ -121,6 +134,14 @@
     </div>
     <div id="search">
       <div id="text"><input type="text" placeholder="?"></div>
+      <div id="sortby">
+        <label for="sort">sort</label>
+        <select id="sort">
+          <option value="featured">featured</option>
+          <option value="new">new</option>
+          <option value="random">random</option>
+        </select>
+      </div>
     </div>
     <div id="toc"></div>
   </body>
