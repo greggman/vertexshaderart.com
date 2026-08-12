@@ -79,11 +79,15 @@ export async function screenshotArt({
       };
     });
 
+    // src/index.html pulls the music list from greggman.github.io in a module
+    // script, so a slow github pages holds up even DOMContentLoaded. Don't let
+    // that fail the run, the #start overlay showing up is the signal that
+    // actually matters and it doesn't depend on that script.
     const url = `http://127.0.0.1:${server.port}/src/?art=${artId}`;
-    await page.goto(url, {waitUntil: 'networkidle2'});
+    await page.goto(url, {waitUntil: 'domcontentloaded', timeout: 20000}).catch(() => {});
 
     // main.js shows this overlay once the art's settings are loaded
-    await page.waitForSelector('#start', {visible: true, timeout: 30000});
+    await page.waitForSelector('#start', {visible: true, timeout: 60000});
     await page.click('#start');
 
     // main.js shows #nogl when it can't get a webgl context
