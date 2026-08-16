@@ -7,6 +7,7 @@
   "scripts": {
     "add-art": "node build/add-art.js",
     "gen-art-html": "node build/gen-art-html.js",
+    "gen-hlsl": "node build/gen-hlsl.js",
     "gen-toc": "node build/gen-toc.js",
     "screenshot-art": "node build/screenshot-art.js",
     "test": "echo \"Error: no test specified\" && exit 1"

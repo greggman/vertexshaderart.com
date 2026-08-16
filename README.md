@@ -67,6 +67,21 @@ Related:
 * `npm run gen-toc` rebuilds `toc.json` from the `art` folders, which are the
   source of truth.
 
+## HLSL ports
+
+`npm run gen-hlsl -- --author=<name>` writes `art/<id>/art.hlsl` next to
+`art.json`, translating the embedded GLSL ES 1.00 vertex shader to HLSL
+(vs_5_0). It's a source level port: same names, same structure, same comments.
+
+The one thing that isn't a rename is matrices. GLSL is column vector
+(`M * v`, `mat4()` takes columns, `m[i]` is a column) and HLSL is conventionally
+row vector, so every matrix in the output holds the transpose of its GLSL
+counterpart. That leaves constructors and `m[i]` indexing untouched and pushes
+the whole difference into the multiplies (`M * v` becomes `mul(v, M)`), which
+is why the translator carries a small type inferencer: it has to know which
+`*` is a matrix multiply. Anything it can't type or parse is reported and
+noted in a `// CAVEAT:` line in the generated file rather than guessed at.
+
 ## License
 
 The site is license MIT but the individual shaders belong to their respective users.
